@@ -4,6 +4,7 @@ const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 const dbClient = supabase.createClient(supabaseUrl, supabaseKey);
 
 let sucursalActual = "";
+let uxbActual = 1;
 
 // Función para elegir sucursal
 function selectBranch(name) {
@@ -28,9 +29,9 @@ function filtrarProductos(query) {
 
     if (matches.length > 0) {
         dropdown.innerHTML = matches.map(p => `
-            <div class="dropdown-item" onclick="seleccionar('${p.codigos}', '${p.productos.replace(/'/g, "\\'")}')">
+            <div class="dropdown-item" onclick="seleccionar('${p.codigos}', '${p.productos.replace(/'/g, "\\'")}', ${p.uxb || 1})">
                 <strong>${p.productos}</strong><br>
-                <small>Código: ${p.codigos}</small>
+                <small>Código: ${p.codigos} · Bulto: ${p.uxb || 1} un.</small>
             </div>
         `).join('');
         dropdown.style.display = 'block';
@@ -40,12 +41,26 @@ function filtrarProductos(query) {
 }
 
 // Cuando el usuario toca un producto de la lista
-function seleccionar(codigo, nombre) {
+function seleccionar(codigo, nombre, uxb) {
+    uxbActual = uxb;
     document.getElementById('formRegistro').classList.remove('hidden');
     document.getElementById('eanSeleccionado').innerText = "Código: " + codigo;
     document.getElementById('nombreSeleccionado').value = nombre;
+    document.getElementById('uxbSeleccionado').innerText = "Unidades por bulto: " + uxb;
     document.getElementById('searchDropdown').style.display = 'none';
     document.getElementById('searchInput').value = "";
+    document.getElementById('cantidad').value = 1;
+    document.getElementById('tipoCantidad').value = 'bulto';
+    actualizarTotal();
+}
+
+// Calcula y muestra el total de unidades en tiempo real
+function actualizarTotal() {
+    const tipo = document.getElementById('tipoCantidad').value;
+    const cantidad = parseInt(document.getElementById('cantidad').value) || 1;
+    const total = tipo === 'bulto' ? cantidad * uxbActual : cantidad;
+    document.getElementById('totalUnidades').innerText = 
+        `Total unidades: ${total} (${cantidad} ${tipo === 'bulto' ? 'bulto/s x ' + uxbActual + ' un.' : 'unidad/es'})`;
 }
 
 // Guardar en la base de datos
@@ -53,6 +68,9 @@ async function guardar() {
     const ean = document.getElementById('eanSeleccionado').innerText.replace("Código: ", "");
     const nombre = document.getElementById('nombreSeleccionado').value;
     const fecha = document.getElementById('fechaVencimiento').value;
+    const tipo = document.getElementById('tipoCantidad').value;
+    const cantidad = parseInt(document.getElementById('cantidad').value) || 1;
+    const totalUnidades = tipo === 'bulto' ? cantidad * uxbActual : cantidad;
 
     if (!fecha) {
         alert("⚠️ Por favor selecciona una fecha de vencimiento.");
@@ -71,15 +89,21 @@ async function guardar() {
             nombre: nombre, 
             fecha_vencimiento: fecha, 
             sucursal: sucursalActual,
-            fecha_registro: new Date().toISOString()
+            fecha_registro: new Date().toISOString(),
+            unidades_por_bulto: uxbActual,
+            tipo_cantidad: tipo,
+            cantidad: cantidad,
+            total_unidades: totalUnidades
         }]);
 
     if (error) {
         console.error("Error de Supabase:", error);
         alert("❌ Error al guardar: " + error.message);
     } else {
-        alert("✅ Registro guardado exitosamente en " + sucursalActual);
+        alert("✅ Registro guardado: " + cantidad + " " + (tipo === 'bulto' ? 'bulto/s' : 'unidad/es') + " = " + totalUnidades + " unidades totales");
         document.getElementById('formRegistro').classList.add('hidden');
         document.getElementById('fechaVencimiento').value = "";
+        document.getElementById('cantidad').value = 1;
+        uxbActual = 1;
     }
 }

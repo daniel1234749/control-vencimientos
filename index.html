@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Control de Vencimientos</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
 
@@ -26,7 +25,7 @@
         <div class="header">
             <div class="current-branch" id="branchDisplay">Sucursal: -</div>
             <h1>Control Stock</h1>
-             <a href="registros.html" class="btn-registros">📋 Ver Registros</a>
+            <a href="registros.html" class="btn-registros">📋 Ver Registros</a>
         </div>
 
         <div class="card">
@@ -39,8 +38,20 @@
             <div id="formRegistro" class="hidden">
                 <span class="info-tag">2. Datos del Registro</span>
                 <p id="eanSeleccionado" class="ean-text"></p>
+                <p id="uxbSeleccionado" class="ean-text"></p>
                 <input type="text" id="nombreSeleccionado" readonly class="input-readonly">
-                
+
+                <label class="label-date">¿Qué estás registrando?</label>
+                <select id="tipoCantidad" onchange="actualizarTotal()">
+                    <option value="bulto">📦 Bulto completo</option>
+                    <option value="unidad">🔹 Unidad suelta</option>
+                </select>
+
+                <label class="label-date">Cantidad:</label>
+                <input type="number" id="cantidad" min="1" value="1" oninput="actualizarTotal()">
+
+                <p id="totalUnidades" class="ean-text"></p>
+
                 <label class="label-date">Fecha de Vencimiento:</label>
                 <input type="date" id="fechaVencimiento">
                 
