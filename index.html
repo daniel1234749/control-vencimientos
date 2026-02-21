@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Vencimientos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="branchModal" class="modal">
+        <div class="modal-content">
+            <h2>🏭 Seleccionar Sucursal</h2>
+            <div class="branch-grid">
+                <button class="branch-btn" onclick="selectBranch('Fair')">📍 Fair</button>
+                <button class="branch-btn" onclick="selectBranch('Burzaco')">📍 Burzaco</button>
+                <button class="branch-btn" onclick="selectBranch('A.Korn')">📍 A.Korn</button>
+                <button class="branch-btn" onclick="selectBranch('Tucumán')">📍 Tucumán</button>
+                <button class="branch-btn" style="grid-column: 1 / span 2;" onclick="selectBranch('Centro de Distribución')">📦 CD</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="current-branch" id="branchDisplay">Sucursal: -</div>
+            <h1>Control Stock</h1>
+            <a href="registros.html" class="btn-registros">📋 Ver Registros</a>
+        </div>
+
+        <div class="card">
+            <span class="info-tag">1. Buscar en Catálogo</span>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Escribe nombre o código EAN..." oninput="filtrarProductos(this.value)">
+                <div id="searchDropdown" class="dropdown"></div>
+            </div>
+
+            <div id="formRegistro" class="hidden">
+                <span class="info-tag">2. Datos del Registro</span>
+                <p id="eanSeleccionado" class="ean-text"></p>
+                <p id="uxbSeleccionado" class="ean-text"></p>
+                <input type="text" id="nombreSeleccionado" readonly class="input-readonly">
+
+                <label class="label-date">¿Qué estás registrando?</label>
+                <select id="tipoCantidad" onchange="actualizarTotal()">
+                    <option value="bulto">📦 Bulto completo</option>
+                    <option value="unidad">🔹 Unidad suelta</option>
+                </select>
+
+                <label class="label-date">Cantidad:</label>
+                <input type="number" id="cantidad" min="1" value="1" oninput="actualizarTotal()">
+
+                <p id="totalUnidades" class="ean-text"></p>
+
+                <label class="label-date">Fecha de Vencimiento:</label>
+                <input type="date" id="fechaVencimiento">
+                
+                <button class="btn btn-success" onclick="guardar()">💾 GUARDAR EN SUPABASE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="productos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

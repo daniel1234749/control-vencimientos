@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros - Control de Vencimientos</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f0f0f;
+            --surface: #1a1a1a;
+            --surface2: #222222;
+            --border: #2e2e2e;
+            --text: #e8e8e8;
+            --text-muted: #666;
+            --green: #00ff88;
+            --green-dim: #00ff8820;
+            --yellow: #ffd600;
+            --yellow-dim: #ffd60018;
+            --red: #ff4444;
+            --red-dim: #ff444418;
+            --accent: #00ff88;
+            --blue: #00a8ff;
+            --blue-dim: #00a8ff20;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'IBM Plex Sans', sans-serif;
+            min-height: 100vh;
+        }
+
+        /* HEADER */
+        .header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .back-btn {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            text-decoration: none;
+            transition: border-color 0.2s;
+        }
+
+        .back-btn:hover { border-color: var(--green); color: var(--green); }
+
+        .header h1 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--green);
+            letter-spacing: 1px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .total-badge {
+            background: var(--green-dim);
+            border: 1px solid var(--green);
+            color: var(--green);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
+        .unidades-badge {
+            background: var(--blue-dim);
+            border: 1px solid var(--blue);
+            color: var(--blue);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
+        .btn-action {
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.2s;
+            border: 1px solid;
+        }
+
+        .btn-imprimir {
+            background: var(--blue-dim);
+            border-color: var(--blue);
+            color: var(--blue);
+        }
+
+        .btn-imprimir:hover { background: #00a8ff30; }
+
+        .btn-vencidos {
+            background: var(--yellow-dim);
+            border-color: var(--yellow);
+            color: var(--yellow);
+        }
+
+        .btn-vencidos:hover { background: #ffd60030; }
+
+        .btn-vaciar {
+            background: var(--red-dim);
+            border-color: var(--red);
+            color: var(--red);
+        }
+
+        .btn-vaciar:hover { background: #ff444430; }
+
+        /* FILTROS */
+        .filters {
+            padding: 20px 24px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            border-bottom: 1px solid var(--border);
+            align-items: center;
+        }
+
+        .filter-section {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .filter-label {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .filter-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 7px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover { border-color: var(--green); color: var(--text); }
+        .filter-btn.active { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+
+        /* BÚSQUEDA */
+        .search-box {
+            margin-left: auto;
+            position: relative;
+        }
+
+        .search-input {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 7px 12px;
+            border-radius: 6px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            width: 250px;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--green);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        /* LEYENDA */
+        .leyenda {
+            padding: 12px 24px;
+            display: flex;
+            gap: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+        }
+
+        .leyenda-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-family: 'IBM Plex Mono', monospace;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .dot-red { background: var(--red); }
+        .dot-yellow { background: var(--yellow); }
+        .dot-green { background: var(--green); }
+
+        /* TABLA */
+        .table-wrap {
+            padding: 24px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        thead th {
+            text-align: left;
+            padding: 10px 16px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody tr {
+            border-bottom: 1px solid var(--border);
+            transition: background 0.15s;
+        }
+
+        tbody tr:hover { background: var(--surface2); }
+
+        tbody td {
+            padding: 12px 16px;
+        }
+
+        .td-codigo {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .td-nombre { font-weight: 500; }
+
+        .td-fecha {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+        }
+
+        .td-cantidad {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+        }
+
+        .cantidad-bulto {
+            color: var(--blue);
+            background: var(--blue-dim);
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--blue);
+        }
+
+        .cantidad-unidad {
+            color: var(--green);
+            background: var(--green-dim);
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--green);
+        }
+
+        .td-sucursal {
+            font-size: 12px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        /* ALERTAS DE COLOR */
+        tr.vence-critico td { background: var(--red-dim); }
+        tr.vence-critico .td-fecha { color: var(--red); font-weight: 600; }
+        tr.vence-critico .dias-badge { background: var(--red-dim); border-color: var(--red); color: var(--red); }
+
+        tr.vence-proximo td { background: var(--yellow-dim); }
+        tr.vence-proximo .td-fecha { color: var(--yellow); font-weight: 600; }
+        tr.vence-proximo .dias-badge { background: var(--yellow-dim); border-color: var(--yellow); color: var(--yellow); }
+
+        tr.vence-ok .dias-badge { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+
+        .dias-badge {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            white-space: nowrap;
+        }
+
+        /* BOTÓN ELIMINAR EN FILA */
+        .btn-delete-row {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .btn-delete-row:hover {
+            border-color: var(--red);
+            color: var(--red);
+            background: var(--red-dim);
+        }
+
+        /* ESTADO VACÍO / CARGANDO */
+        .estado {
+            text-align: center;
+            padding: 60px 24px;
+            color: var(--text-muted);
+            font-family: 'IBM Plex Mono', monospace;
+        }
+
+        .estado-icon { font-size: 40px; margin-bottom: 16px; }
+        .estado p { font-size: 14px; }
+
+        /* MODAL CONFIRMACIÓN */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: #000000cc;
+            z-index: 200;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.show { display: flex; }
+
+        .modal-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .modal-box h3 {
+            font-family: 'IBM Plex Mono', monospace;
+            color: var(--text);
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .modal-box p {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        .modal-box.danger h3 { color: var(--red); }
+        .modal-box.danger { border-color: var(--red); }
+
+        .modal-box.warning h3 { color: var(--yellow); }
+        .modal-box.warning { border-color: var(--yellow); }
+
+        .password-input {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 10px 14px;
+            border-radius: 6px;
+            width: 100%;
+            margin-bottom: 20px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        .password-input:focus {
+            outline: none;
+            border-color: var(--green);
+        }
+
+        .intentos-restantes {
+            font-size: 12px;
+            color: var(--red);
+            margin-bottom: 16px;
+        }
+
+        .modal-btns {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .btn-cancelar {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+        }
+
+        .btn-confirmar {
+            background: var(--red-dim);
+            border: 1px solid var(--red);
+            color: var(--red);
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .btn-confirmar.warning {
+            background: var(--yellow-dim);
+            border-color: var(--yellow);
+            color: var(--yellow);
+        }
+
+        /* ESTILOS DE IMPRESIÓN */
+        @media print {
+            body { background: white; color: black; }
+            .header, .filters, .leyenda, .btn-delete-row { display: none !important; }
+            .table-wrap { padding: 0; }
+            
+            .print-header {
+                display: block !important;
+                text-align: center;
+                margin-bottom: 30px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #000;
+            }
+
+            .print-header h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .print-info {
+                font-size: 12px;
+                color: #666;
+            }
+
+            table { border: 1px solid #000; }
+            thead th { background: #f0f0f0 !important; color: #000 !important; border: 1px solid #000; }
+            tbody td { color: #000 !important; background: white !important; border: 1px solid #000; }
+            
+            tr.vence-critico td { background: #ffebee !important; }
+            tr.vence-proximo td { background: #fff9e6 !important; }
+        }
+
+        .print-header {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .header { flex-wrap: wrap; gap: 10px; }
+            .header-right { width: 100%; justify-content: space-between; }
+            .filters { padding: 12px 16px; }
+            .table-wrap { padding: 12px; }
+            thead th:nth-child(1), td:nth-child(1) { display: none; }
+            .search-input { width: 100%; }
+            .search-box { width: 100%; margin-left: 0; margin-top: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER DE IMPRESIÓN (solo visible al imprimir) -->
+    <div class="print-header">
+        <h1>📋 REPORTE DE VENCIMIENTOS</h1>
+        <div class="print-info">
+            <p id="printFecha"></p>
+            <p id="printSucursal"></p>
+            <p id="printTotal"></p>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html" class="back-btn">← Volver</a>
+            <h1>REGISTROS DE VENCIMIENTOS</h1>
+        </div>
+        <div class="header-right">
+            <span class="total-badge" id="totalBadge">0 registros</span>
+            <span class="unidades-badge" id="unidadesBadge">0 unidades</span>
+            <button class="btn-action btn-imprimir" onclick="imprimirRegistros()">🖨️ Imprimir</button>
+            <button class="btn-action btn-vencidos" onclick="confirmarEliminarVencidos()">🗑️ Eliminar vencidos</button>
+            <button class="btn-action btn-vaciar" onclick="confirmarVaciar()">🗑️ Vaciar todo</button>
+        </div>
+    </div>
+
+    <!-- FILTROS -->
+    <div class="filters">
+        <div class="filter-section">
+            <span class="filter-label">Sucursal:</span>
+            <button class="filter-btn active" onclick="filtrarSucursal('todas', this)">Todas</button>
+            <button class="filter-btn" onclick="filtrarSucursal('Fair', this)">📍 Fair</button>
+            <button class="filter-btn" onclick="filtrarSucursal('Burzaco', this)">📍 Burzaco</button>
+            <button class="filter-btn" onclick="filtrarSucursal('A.Korn', this)">📍 A.Korn</button>
+            <button class="filter-btn" onclick="filtrarSucursal('Tucumán', this)">📍 Tucumán</button>
+            <button class="filter-btn" onclick="filtrarSucursal('Centro de Distribución', this)">📦 CD</button>
+        </div>
+
+        <div class="filter-section">
+            <span class="filter-label">Estado:</span>
+            <button class="filter-btn active" onclick="filtrarEstado('todos', this)">Todos</button>
+            <button class="filter-btn" onclick="filtrarEstado('vencidos', this)">Vencidos</button>
+            <button class="filter-btn" onclick="filtrarEstado('por-vencer', this)">Por vencer</button>
+            <button class="filter-btn" onclick="filtrarEstado('ok', this)">OK</button>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-input" id="searchTable" placeholder="🔍 Buscar código o producto..." oninput="buscarEnTabla(this.value)">
+        </div>
+    </div>
+
+    <!-- LEYENDA -->
+    <div class="leyenda">
+        <div class="leyenda-item"><span class="dot dot-red"></span> Vencido / Vence en menos de 30 días</div>
+        <div class="leyenda-item"><span class="dot dot-yellow"></span> Vence en menos de 60 días</div>
+        <div class="leyenda-item"><span class="dot dot-green"></span> OK (más de 60 días)</div>
+    </div>
+
+    <!-- TABLA -->
+    <div class="table-wrap">
+        <div id="estadoCargando" class="estado">
+            <div class="estado-icon">⏳</div>
+            <p>Cargando registros...</p>
+        </div>
+
+        <table id="tablaRegistros" style="display:none">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Vencimiento</th>
+                    <th>Días restantes</th>
+                    <th>Sucursal</th>
+                    <th>Registrado</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+
+        <div id="estadoVacio" class="estado" style="display:none">
+            <div class="estado-icon">📭</div>
+            <p>No hay registros para mostrar.</p>
+        </div>
+    </div>
+
+    <!-- MODAL: ELIMINAR REGISTRO INDIVIDUAL -->
+    <div class="modal-overlay" id="modalEliminarIndividual">
+        <div class="modal-box danger">
+            <h3>🗑️ ELIMINAR REGISTRO</h3>
+            <p id="textoEliminarIndividual"></p>
+            <div class="modal-btns">
+                <button class="btn-cancelar" onclick="cerrarModal('modalEliminarIndividual')">Cancelar</button>
+                <button class="btn-confirmar" onclick="eliminarRegistroIndividual()">Sí, eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: ELIMINAR VENCIDOS -->
+    <div class="modal-overlay" id="modalEliminarVencidos">
+        <div class="modal-box warning">
+            <h3>⚠️ ELIMINAR VENCIDOS</h3>
+            <p id="textoEliminarVencidos"></p>
+            <div class="modal-btns">
+                <button class="btn-cancelar" onclick="cerrarModal('modalEliminarVencidos')">Cancelar</button>
+                <button class="btn-confirmar warning" onclick="eliminarVencidos()">Sí, eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: VACIAR TODO CON PASSWORD -->
+    <div class="modal-overlay" id="modalVaciar">
+        <div class="modal-box danger">
+            <h3>🔒 VACIAR TODOS LOS REGISTROS</h3>
+            <p>Esta acción eliminará <strong>todos los registros</strong> de la base de datos y <strong>no se puede deshacer</strong>.</p>
+            <p style="color: var(--red); font-weight: 600; margin-bottom: 16px;">Ingresa la contraseña de administrador:</p>
+            <input type="password" class="password-input" id="passwordInput" placeholder="••••" maxlength="4">
+            <p class="intentos-restantes" id="intentosTexto"></p>
+            <div class="modal-btns">
+                <button class="btn-cancelar" onclick="cerrarModalPassword()">Cancelar</button>
+                <button class="btn-confirmar" onclick="verificarPassword()">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        const supabaseUrl = 'https://zjbvkduvuczfwrysmluu.supabase.co';
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqYnZrZHV2dWN6ZndyeXNtbHV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzQ1NTAsImV4cCI6MjA4Njk1MDU1MH0.sWVoizuyBNJbtqZe5zza9wqTDpI8pkExhfvnC1nPhYw';
+        const dbClient = supabase.createClient(supabaseUrl, supabaseKey);
+
+        // CONFIGURACIÓN
+        const PASSWORD_ADMIN = "1234"; // Cambiar por tu contraseña
+        let intentosPassword = 3;
+        let bloqueadoHasta = null;
+
+        // VARIABLES GLOBALES
+        let todosLosRegistros = [];
+        let sucursalFiltro = 'todas';
+        let estadoFiltro = 'todos';
+        let busquedaTexto = '';
+        let registroAEliminar = null;
+
+        // ============================================================================
+        // CARGA INICIAL
+        // ============================================================================
+
+        async function cargarRegistros() {
+            const { data, error } = await dbClient
+                .from('vencimientos_registrados')
+                .select('*')
+                .order('fecha_vencimiento', { ascending: true });
+
+            document.getElementById('estadoCargando').style.display = 'none';
+
+            if (error) {
+                document.getElementById('estadoVacio').style.display = 'block';
+                document.getElementById('estadoVacio').innerHTML = `<div class="estado-icon">❌</div><p>Error al cargar: ${error.message}</p>`;
+                return;
+            }
+
+            todosLosRegistros = data;
+            renderizar();
+        }
+
+        // ============================================================================
+        // RENDERIZADO DE TABLA
+        // ============================================================================
+
+        function renderizar() {
+            const registrosFiltrados = aplicarFiltros();
+
+            // Actualizar badge de total
+            document.getElementById('totalBadge').innerText = `${registrosFiltrados.length} registros`;
+
+            // Calcular total de unidades
+            const totalUnidades = registrosFiltrados.reduce((sum, r) => sum + (r.total_unidades || 0), 0);
+            document.getElementById('unidadesBadge').innerText = `${totalUnidades} unidades`;
+
+            if (registrosFiltrados.length === 0) {
+                document.getElementById('tablaRegistros').style.display = 'none';
+                document.getElementById('estadoVacio').style.display = 'block';
+                return;
+            }
+
+            document.getElementById('tablaRegistros').style.display = 'table';
+            document.getElementById('estadoVacio').style.display = 'none';
+
+            const hoy = new Date();
+            hoy.setHours(0, 0, 0, 0);
+
+            const tbody = document.getElementById('tbody');
+            tbody.innerHTML = registrosFiltrados.map(r => {
+                const fechaVenc = new Date(r.fecha_vencimiento + 'T00:00:00');
+                const dias = Math.ceil((fechaVenc - hoy) / (1000 * 60 * 60 * 24));
+                const fechaReg = new Date(r.fecha_registro).toLocaleDateString('es-AR', { 
+                    day: '2-digit', 
+                    month: '2-digit', 
+                    year: 'numeric' 
+                });
+
+                let clase = 'vence-ok';
+                let diasTexto = `${dias} días`;
+                if (dias < 0) { 
+                    clase = 'vence-critico'; 
+                    diasTexto = `VENCIDO (${Math.abs(dias)}d)`; 
+                } else if (dias <= 30) {
+                    clase = 'vence-critico';
+                } else if (dias <= 60) {
+                    clase = 'vence-proximo';
+                }
+
+                const fechaFormato = fechaVenc.toLocaleDateString('es-AR', { 
+                    day: '2-digit', 
+                    month: '2-digit', 
+                    year: 'numeric' 
+                });
+
+                // Formato de cantidad mejorado
+                let cantidadHTML = '';
+                const cantidad = r.cantidad || 1;
+                const tipo = r.tipo_cantidad || 'unidad';
+                const uxb = r.unidades_por_bulto || 1;
+                const totalUnidades = r.total_unidades || cantidad;
+
+                if (tipo === 'bulto') {
+                    cantidadHTML = `<span class="cantidad-bulto">📦 ${cantidad} bulto${cantidad > 1 ? 's' : ''} × ${uxb} = ${totalUnidades} un.</span>`;
+                } else {
+                    cantidadHTML = `<span class="cantidad-unidad">🔹 ${cantidad} unidad${cantidad > 1 ? 'es' : ''}</span>`;
+                }
+
+                return `
+                    <tr class="${clase}">
+                        <td class="td-codigo">${r.ean}</td>
+                        <td class="td-nombre">${r.nombre}</td>
+                        <td class="td-cantidad">${cantidadHTML}</td>
+                        <td class="td-fecha">${fechaFormato}</td>
+                        <td><span class="dias-badge">${diasTexto}</span></td>
+                        <td><span class="td-sucursal">${r.sucursal}</span></td>
+                        <td class="td-codigo">${fechaReg}</td>
+                        <td>
+                            <button class="btn-delete-row" onclick="confirmarEliminarIndividual(${r.id}, '${r.nombre.replace(/'/g, "\\'")}', '${r.ean}')" title="Eliminar registro">
+                                🗑️
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // ============================================================================
+        // FILTROS Y BÚSQUEDA
+        // ============================================================================
+
+        function aplicarFiltros() {
+            let registros = [...todosLosRegistros];
+
+            // Filtro por sucursal
+            if (sucursalFiltro !== 'todas') {
+                registros = registros.filter(r => r.sucursal === sucursalFiltro);
+            }
+
+            // Filtro por estado
+            if (estadoFiltro !== 'todos') {
+                const hoy = new Date();
+                hoy.setHours(0, 0, 0, 0);
+
+                registros = registros.filter(r => {
+                    const fechaVenc = new Date(r.fecha_vencimiento + 'T00:00:00');
+                    const dias = Math.ceil((fechaVenc - hoy) / (1000 * 60 * 60 * 24));
+
+                    if (estadoFiltro === 'vencidos') return dias < 0;
+                    if (estadoFiltro === 'por-vencer') return dias >= 0 && dias <= 60;
+                    if (estadoFiltro === 'ok') return dias > 60;
+                    return true;
+                });
+            }
+
+            // Búsqueda por texto
+            if (busquedaTexto.length > 0) {
+                const query = busquedaTexto.toLowerCase();
+                registros = registros.filter(r => 
+                    r.nombre.toLowerCase().includes(query) || 
+                    r.ean.toString().includes(query)
+                );
+            }
+
+            return registros;
+        }
+
+        function filtrarSucursal(sucursal, btn) {
+            sucursalFiltro = sucursal;
+            document.querySelectorAll('.filters .filter-section:first-child .filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderizar();
+        }
+
+        function filtrarEstado(estado, btn) {
+            estadoFiltro = estado;
+            document.querySelectorAll('.filters .filter-section:nth-child(2) .filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderizar();
+        }
+
+        function buscarEnTabla(texto) {
+            busquedaTexto = texto;
+            renderizar();
+        }
+
+        // ============================================================================
+        // ELIMINAR REGISTRO INDIVIDUAL
+        // ============================================================================
+
+        function confirmarEliminarIndividual(id, nombre, codigo) {
+            registroAEliminar = id;
+            document.getElementById('textoEliminarIndividual').innerHTML = `
+                ¿Estás seguro de eliminar este registro?<br><br>
+                <strong>${nombre}</strong><br>
+                Código: ${codigo}
+            `;
+            document.getElementById('modalEliminarIndividual').classList.add('show');
+        }
+
+        async function eliminarRegistroIndividual() {
+            const { error } = await dbClient
+                .from('vencimientos_registrados')
+                .delete()
+                .eq('id', registroAEliminar);
+
+            cerrarModal('modalEliminarIndividual');
+
+            if (error) {
+                alert('❌ Error al eliminar: ' + error.message);
+            } else {
+                alert('✅ Registro eliminado exitosamente.');
+                todosLosRegistros = todosLosRegistros.filter(r => r.id !== registroAEliminar);
+                renderizar();
+            }
+
+            registroAEliminar = null;
+        }
+
+        // ============================================================================
+        // ELIMINAR VENCIDOS
+        // ============================================================================
+
+        function confirmarEliminarVencidos() {
+            const hoy = new Date();
+            hoy.setHours(0, 0, 0, 0);
+
+            const vencidos = todosLosRegistros.filter(r => {
+                const fechaVenc = new Date(r.fecha_vencimiento + 'T00:00:00');
+                const dias = Math.ceil((fechaVenc - hoy) / (1000 * 60 * 60 * 24));
+                return dias < 0;
+            });
+
+            if (vencidos.length === 0) {
+                alert('✅ No hay productos vencidos para eliminar.');
+                return;
+            }
+
+            const totalUnidades = vencidos.reduce((sum, r) => sum + (r.total_unidades || 0), 0);
+
+            document.getElementById('textoEliminarVencidos').innerHTML = `
+                Se eliminarán <strong>${vencidos.length} registros</strong> de productos <strong>ya vencidos</strong>.<br><br>
+                Total: <strong>${totalUnidades} unidades</strong><br><br>
+                Esta acción no se puede deshacer.
+            `;
+            document.getElementById('modalEliminarVencidos').classList.add('show');
+        }
+
+        async function eliminarVencidos() {
+            const hoy = new Date();
+            hoy.setHours(0, 0, 0, 0);
+
+            const idsVencidos = todosLosRegistros
+                .filter(r => {
+                    const fechaVenc = new Date(r.fecha_vencimiento + 'T00:00:00');
+                    const dias = Math.ceil((fechaVenc - hoy) / (1000 * 60 * 60 * 24));
+                    return dias < 0;
+                })
+                .map(r => r.id);
+
+            const { error } = await dbClient
+                .from('vencimientos_registrados')
+                .delete()
+                .in('id', idsVencidos);
+
+            cerrarModal('modalEliminarVencidos');
+
+            if (error) {
+                alert('❌ Error al eliminar: ' + error.message);
+            } else {
+                alert(`✅ Se eliminaron ${idsVencidos.length} registros vencidos.`);
+                todosLosRegistros = todosLosRegistros.filter(r => !idsVencidos.includes(r.id));
+                renderizar();
+            }
+        }
+
+        // ============================================================================
+        // VACIAR TODO CON PASSWORD
+        // ============================================================================
+
+        function confirmarVaciar() {
+            // Verificar si está bloqueado
+            if (bloqueadoHasta && new Date() < bloqueadoHasta) {
+                const segundosRestantes = Math.ceil((bloqueadoHasta - new Date()) / 1000);
+                alert(`🔒 Demasiados intentos fallidos. Espera ${segundosRestantes} segundos.`);
+                return;
+            }
+
+            intentosPassword = 3;
+            document.getElementById('passwordInput').value = '';
+            document.getElementById('intentosTexto').innerText = '';
+            document.getElementById('modalVaciar').classList.add('show');
+            setTimeout(() => document.getElementById('passwordInput').focus(), 100);
+        }
+
+        function verificarPassword() {
+            const password = document.getElementById('passwordInput').value;
+
+            if (password === PASSWORD_ADMIN) {
+                // Password correcto - proceder a vaciar
+                vaciarTodo();
+            } else {
+                // Password incorrecto
+                intentosPassword--;
+
+                if (intentosPassword > 0) {
+                    document.getElementById('intentosTexto').innerText = `❌ Contraseña incorrecta. Te quedan ${intentosPassword} intento${intentosPassword > 1 ? 's' : ''}.`;
+                    document.getElementById('passwordInput').value = '';
+                    document.getElementById('passwordInput').focus();
+                } else {
+                    // Bloquear por 30 segundos
+                    bloqueadoHasta = new Date(Date.now() + 30000);
+                    cerrarModalPassword();
+                    alert('🔒 Demasiados intentos fallidos. Bloqueado por 30 segundos.');
+                }
+            }
+        }
+
+        async function vaciarTodo() {
+            const { error } = await dbClient
+                .from('vencimientos_registrados')
+                .delete()
+                .neq('id', 0);
+
+            cerrarModalPassword();
+
+            if (error) {
+                alert('❌ Error al vaciar: ' + error.message);
+            } else {
+                todosLosRegistros = [];
+                renderizar();
+                alert('✅ Todos los registros fueron eliminados.');
+            }
+        }
+
+        function cerrarModalPassword() {
+            document.getElementById('modalVaciar').classList.remove('show');
+            document.getElementById('passwordInput').value = '';
+            document.getElementById('intentosTexto').innerText = '';
+        }
+
+        // ============================================================================
+        // IMPRIMIR
+        // ============================================================================
+
+        function imprimirRegistros() {
+            const registrosFiltrados = aplicarFiltros();
+            const totalUnidades = registrosFiltrados.reduce((sum, r) => sum + (r.total_unidades || 0), 0);
+            
+            const ahora = new Date().toLocaleString('es-AR', { 
+                day: '2-digit', 
+                month: '2-digit', 
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            const sucursalTexto = sucursalFiltro === 'todas' ? 'Todas las sucursales' : sucursalFiltro;
+            const estadoTexto = estadoFiltro === 'todos' ? 'Todos los estados' : estadoFiltro;
+
+            document.getElementById('printFecha').innerText = `Fecha: ${ahora}`;
+            document.getElementById('printSucursal').innerText = `Filtro: ${sucursalTexto} · ${estadoTexto}`;
+            document.getElementById('printTotal').innerText = `Total: ${registrosFiltrados.length} registros · ${totalUnidades} unidades`;
+
+            window.print();
+        }
+
+        // ============================================================================
+        // UTILIDADES
+        // ============================================================================
+
+        function cerrarModal(modalId) {
+            document.getElementById(modalId).classList.remove('show');
+        }
+
+        // Permitir confirmar con Enter en el password
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('passwordInput').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') verificarPassword();
+            });
+        });
+
+        // ============================================================================
+        // INICIAR
+        // ============================================================================
+
+        cargarRegistros();
+    </script>
+</body>
+</html>
