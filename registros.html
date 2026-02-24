@@ -309,6 +309,32 @@
             white-space: nowrap;
         }
 
+        .td-precio {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--green);
+        }
+
+        .precio-badge {
+            background: var(--green-dim);
+            border: 1px solid var(--green);
+            color: var(--green);
+            padding: 4px 10px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        .valor-badge {
+            background: #f59e0b20;
+            border: 1px solid #f59e0b;
+            color: #f59e0b;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
         /* ALERTAS DE COLOR */
         tr.vence-critico td { background: var(--red-dim); }
         tr.vence-critico .td-fecha { color: var(--red); font-weight: 600; }
@@ -529,6 +555,7 @@
         <div class="header-right">
             <span class="total-badge" id="totalBadge">0 registros</span>
             <span class="unidades-badge" id="unidadesBadge">0 unidades</span>
+            <span class="valor-badge" id="valorBadge">$0.00</span>
             <button class="btn-action btn-imprimir" onclick="imprimirRegistros()">🖨️ Imprimir</button>
             <button class="btn-action btn-vencidos" onclick="confirmarEliminarVencidos()">🗑️ Eliminar vencidos</button>
             <button class="btn-action btn-vaciar" onclick="confirmarVaciar()">🗑️ Vaciar todo</button>
@@ -583,6 +610,7 @@
                     <th>Vencimiento</th>
                     <th>Días restantes</th>
                     <th>Sucursal</th>
+                    <th>Precio</th>
                     <th>Registrado</th>
                     <th>Acción</th>
                 </tr>
@@ -636,6 +664,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="precios.js"></script>
     <script>
         const supabaseUrl = 'https://zjbvkduvuczfwrysmluu.supabase.co';
         const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqYnZrZHV2dWN6ZndyeXNtbHV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzQ1NTAsImV4cCI6MjA4Njk1MDU1MH0.sWVoizuyBNJbtqZe5zza9wqTDpI8pkExhfvnC1nPhYw';
@@ -689,6 +718,10 @@
             const totalUnidades = registrosFiltrados.reduce((sum, r) => sum + (r.total_unidades || 0), 0);
             document.getElementById('unidadesBadge').innerText = `${totalUnidades} unidades`;
 
+            // Calcular valor total en pesos (precio total = unitario × cantidad)
+            const valorTotal = registrosFiltrados.reduce((sum, r) => sum + (r.precio_total || 0), 0);
+            document.getElementById('valorBadge').innerText = `💰 Total: $${valorTotal.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+
             if (registrosFiltrados.length === 0) {
                 document.getElementById('tablaRegistros').style.display = 'none';
                 document.getElementById('estadoVacio').style.display = 'block';
@@ -741,6 +774,22 @@
                     cantidadHTML = `<span class="cantidad-unidad">🔹 ${cantidad} unidad${cantidad > 1 ? 'es' : ''}</span>`;
                 }
 
+                // Formato de precio
+                const precioUnitario = r.precio_unitario || 0;
+                const precioTotal = r.precio_total || 0;
+                let precioHTML = '';
+                
+                if (precioUnitario > 0) {
+                    // Precio unitario GRANDE (principal)
+                    precioHTML = `<span class="precio-badge">$${precioUnitario.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>`;
+                    // Total pequeño debajo
+                    if (precioTotal > 0 && precioTotal !== precioUnitario) {
+                        precioHTML += `<br><small style="color: #666; font-size: 11px;">Total: $${precioTotal.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</small>`;
+                    }
+                } else {
+                    precioHTML = `<span style="color: #666; font-size: 12px;">Sin precio</span>`;
+                }
+
                 return `
                     <tr class="${clase}">
                         <td class="td-codigo">${r.ean}</td>
@@ -749,6 +798,7 @@
                         <td class="td-fecha">${fechaFormato}</td>
                         <td><span class="dias-badge">${diasTexto}</span></td>
                         <td><span class="td-sucursal">${r.sucursal}</span></td>
+                        <td class="td-precio">${precioHTML}</td>
                         <td class="td-codigo">${fechaReg}</td>
                         <td>
                             <button class="btn-delete-row" onclick="confirmarEliminarIndividual(${r.id}, '${r.nombre.replace(/'/g, "\\'")}', '${r.ean}')" title="Eliminar registro">
@@ -872,10 +922,12 @@
             }
 
             const totalUnidades = vencidos.reduce((sum, r) => sum + (r.total_unidades || 0), 0);
+            const valorPerdido = vencidos.reduce((sum, r) => sum + (r.precio_total || 0), 0);
+            const valorTexto = valorPerdido > 0 ? `<br>💸 Valor total: <strong>$${valorPerdido.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</strong>` : '';
 
             document.getElementById('textoEliminarVencidos').innerHTML = `
                 Se eliminarán <strong>${vencidos.length} registros</strong> de productos <strong>ya vencidos</strong>.<br><br>
-                Total: <strong>${totalUnidades} unidades</strong><br><br>
+                Total: <strong>${totalUnidades} unidades</strong>${valorTexto}<br><br>
                 Esta acción no se puede deshacer.
             `;
             document.getElementById('modalEliminarVencidos').classList.add('show');

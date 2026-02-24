@@ -108,6 +108,13 @@ async function guardar() {
         return;
     }
 
+    // Obtener precio del producto
+    let precioUnitario = 0;
+    if (typeof obtenerPrecio === 'function') {
+        precioUnitario = obtenerPrecio(ean) || 0;
+    }
+    const precioTotal = precioUnitario * totalUnidades;
+
     const { error } = await dbClient
         .from('vencimientos_registrados') 
         .insert([{ 
@@ -119,14 +126,17 @@ async function guardar() {
             unidades_por_bulto: uxbActual,
             tipo_cantidad: tipo,
             cantidad: cantidad,
-            total_unidades: totalUnidades
+            total_unidades: totalUnidades,
+            precio_unitario: precioUnitario,
+            precio_total: precioTotal
         }]);
 
     if (error) {
         console.error("Error de Supabase:", error);
         alert("❌ Error al guardar: " + error.message);
     } else {
-        alert("✅ Registro guardado: " + cantidad + " " + (tipo === 'bulto' ? 'bulto/s' : 'unidad/es') + " = " + totalUnidades + " unidades totales");
+        const mensajePrecio = precioUnitario > 0 ? ` · Valor: $${precioTotal.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}` : '';
+        alert("✅ Registro guardado: " + cantidad + " " + (tipo === 'bulto' ? 'bulto/s' : 'unidad/es') + " = " + totalUnidades + " unidades totales" + mensajePrecio);
         document.getElementById('formRegistro').classList.add('hidden');
         document.getElementById('fechaVencimiento').value = "";
         document.getElementById('cantidad').value = 1;
