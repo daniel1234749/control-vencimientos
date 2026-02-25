@@ -268,7 +268,8 @@
         .td-codigo {
             font-family: 'IBM Plex Mono', monospace;
             font-size: 12px;
-            color: var(--text-muted);
+            color: #aaa;
+            font-weight: 600;
         }
 
         .td-nombre { font-weight: 500; }
@@ -504,19 +505,94 @@
             .print-header h1 {
                 font-size: 24px;
                 margin-bottom: 10px;
+                color: #000;
             }
 
             .print-info {
                 font-size: 12px;
-                color: #666;
+                color: #000;
             }
 
             table { border: 1px solid #000; }
-            thead th { background: #f0f0f0 !important; color: #000 !important; border: 1px solid #000; }
-            tbody td { color: #000 !important; background: white !important; border: 1px solid #000; }
             
-            tr.vence-critico td { background: #ffebee !important; }
-            tr.vence-proximo td { background: #fff9e6 !important; }
+            thead th { 
+                background: #f0f0f0 !important; 
+                color: #000 !important; 
+                border: 1px solid #000;
+                font-weight: bold;
+            }
+            
+            tbody td { 
+                color: #000 !important; 
+                background: white !important; 
+                border: 1px solid #000;
+            }
+            
+            /* Hacer código MÁS OSCURO en impresión */
+            .td-codigo {
+                color: #000 !important;
+                font-weight: 700 !important;
+            }
+            
+            /* Hacer precio MÁS OSCURO en impresión */
+            .precio-badge {
+                color: #000 !important;
+                background: #f5f5f5 !important;
+                border: 1px solid #000 !important;
+                font-weight: bold !important;
+            }
+            
+            /* Total pequeño también oscuro */
+            .td-precio small {
+                color: #333 !important;
+                font-weight: 600 !important;
+            }
+            
+            /* Nombre de producto en negrita */
+            .td-nombre {
+                font-weight: 700 !important;
+                color: #000 !important;
+            }
+            
+            /* Cantidad legible */
+            .cantidad-bulto, .cantidad-unidad {
+                color: #000 !important;
+                background: #f5f5f5 !important;
+                border: 1px solid #000 !important;
+                font-weight: 600 !important;
+            }
+            
+            /* Sucursal legible */
+            .td-sucursal {
+                color: #000 !important;
+                background: #f5f5f5 !important;
+                border: 1px solid #000 !important;
+                font-weight: 600 !important;
+            }
+            
+            /* Días restantes legible */
+            .dias-badge {
+                color: #000 !important;
+                background: #f5f5f5 !important;
+                border: 1px solid #000 !important;
+                font-weight: 700 !important;
+            }
+            
+            /* Filas de vencimiento con patrones */
+            tr.vence-critico td { 
+                background: #e8e8e8 !important;
+                font-weight: 600 !important;
+            }
+            
+            tr.vence-proximo td { 
+                background: #f5f5f5 !important; 
+            }
+            
+            /* Fecha en negrita */
+            .td-fecha {
+                font-weight: 700 !important;
+                color: #000 !important;
+            }
         }
 
         .print-header {
