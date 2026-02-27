@@ -370,6 +370,16 @@
             border-radius: 20px;
         }
 
+        .hoy-badge {
+            background: #8b5cf620;
+            border: 1px solid #8b5cf6;
+            color: #8b5cf6;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
         /* ALERTAS DE COLOR */
         tr.vence-critico td { background: var(--red-dim); }
         tr.vence-critico .td-fecha { color: var(--red); font-weight: 600; }
@@ -666,6 +676,7 @@
             <span class="total-badge" id="totalBadge">0 registros</span>
             <span class="unidades-badge" id="unidadesBadge">0 unidades</span>
             <span class="valor-badge" id="valorBadge">$0.00</span>
+            <span class="hoy-badge" id="hoyBadge">📅 Hoy: 0</span>
             <button class="btn-action btn-imprimir" onclick="imprimirRegistros()">🖨️ Imprimir</button>
             <button class="btn-action btn-vencidos" onclick="confirmarEliminarVencidos()">🗑️ Eliminar vencidos</button>
             <button class="btn-action btn-vaciar" onclick="confirmarVaciar()">🗑️ Vaciar todo</button>
@@ -696,6 +707,16 @@
             <span class="filter-label">Mes:</span>
             <select class="filter-select" id="selectMes" onchange="filtrarMesPorSelect(this.value)">
                 <option value="todos">Todos los meses</option>
+            </select>
+        </div>
+
+        <div class="filter-section">
+            <span class="filter-label">Registrado:</span>
+            <select class="filter-select" id="selectRegistrado" onchange="filtrarPorFechaRegistro(this.value)">
+                <option value="todos">Todos</option>
+                <option value="hoy">Hoy</option>
+                <option value="ayer">Ayer</option>
+                <option value="semana">Última semana</option>
             </select>
         </div>
 
@@ -797,6 +818,7 @@
         let sucursalFiltro = 'todas';
         let estadoFiltro = 'todos';
         let mesFiltro = 'todos';
+        let fechaRegistroFiltro = 'todos';
         let busquedaTexto = '';
         let registroAEliminar = null;
 
@@ -860,6 +882,16 @@
             const valorTotal = registrosFiltrados.reduce((sum, r) => sum + (r.precio_total || 0), 0);
             document.getElementById('valorBadge').innerText = `💰 Total: $${valorTotal.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
 
+            // Calcular registros de HOY
+            const hoy = new Date();
+            hoy.setHours(0, 0, 0, 0);
+            const registrosHoy = todosLosRegistros.filter(r => {
+                const fechaReg = new Date(r.fecha_registro);
+                fechaReg.setHours(0, 0, 0, 0);
+                return fechaReg.getTime() === hoy.getTime();
+            }).length;
+            document.getElementById('hoyBadge').innerText = `📅 Hoy: ${registrosHoy}`;
+
             if (registrosFiltrados.length === 0) {
                 document.getElementById('tablaRegistros').style.display = 'none';
                 document.getElementById('estadoVacio').style.display = 'block';
@@ -869,13 +901,13 @@
             document.getElementById('tablaRegistros').style.display = 'table';
             document.getElementById('estadoVacio').style.display = 'none';
 
-            const hoy = new Date();
-            hoy.setHours(0, 0, 0, 0);
+            const hoyParaCalculo = new Date();
+            hoyParaCalculo.setHours(0, 0, 0, 0);
 
             const tbody = document.getElementById('tbody');
             tbody.innerHTML = registrosFiltrados.map(r => {
                 const fechaVenc = new Date(r.fecha_vencimiento + 'T00:00:00');
-                const dias = Math.ceil((fechaVenc - hoy) / (1000 * 60 * 60 * 24));
+                const dias = Math.ceil((fechaVenc - hoyParaCalculo) / (1000 * 60 * 60 * 24));
                 const fechaReg = new Date(r.fecha_registro).toLocaleDateString('es-AR', { 
                     day: '2-digit', 
                     month: '2-digit', 
@@ -985,6 +1017,30 @@
                 });
             }
 
+            // Filtro por fecha de registro
+            if (fechaRegistroFiltro !== 'todos') {
+                const hoy = new Date();
+                hoy.setHours(0, 0, 0, 0);
+
+                registros = registros.filter(r => {
+                    const fechaReg = new Date(r.fecha_registro);
+                    fechaReg.setHours(0, 0, 0, 0);
+
+                    if (fechaRegistroFiltro === 'hoy') {
+                        return fechaReg.getTime() === hoy.getTime();
+                    } else if (fechaRegistroFiltro === 'ayer') {
+                        const ayer = new Date(hoy);
+                        ayer.setDate(ayer.getDate() - 1);
+                        return fechaReg.getTime() === ayer.getTime();
+                    } else if (fechaRegistroFiltro === 'semana') {
+                        const haceSemana = new Date(hoy);
+                        haceSemana.setDate(haceSemana.getDate() - 7);
+                        return fechaReg >= haceSemana;
+                    }
+                    return true;
+                });
+            }
+
             // Búsqueda por texto
             if (busquedaTexto.length > 0) {
                 const query = busquedaTexto.toLowerCase();
@@ -1013,6 +1069,11 @@
 
         function filtrarMesPorSelect(mes) {
             mesFiltro = mes;
+            renderizar();
+        }
+
+        function filtrarPorFechaRegistro(periodo) {
+            fechaRegistroFiltro = periodo;
             renderizar();
         }
 
@@ -1206,8 +1267,19 @@
                 mesTexto = ` · Mes: ${meses[parseInt(mes) - 1]} ${año}`;
             }
 
+            // Agregar texto de fecha de registro si está filtrado
+            let registradoTexto = '';
+            if (fechaRegistroFiltro !== 'todos') {
+                const textos = {
+                    'hoy': 'Hoy',
+                    'ayer': 'Ayer',
+                    'semana': 'Última semana'
+                };
+                registradoTexto = ` · Registrado: ${textos[fechaRegistroFiltro]}`;
+            }
+
             document.getElementById('printFecha').innerText = `Fecha: ${ahora}`;
-            document.getElementById('printSucursal').innerText = `Filtro: ${sucursalTexto} · ${estadoTexto}${mesTexto}`;
+            document.getElementById('printSucursal').innerText = `Filtro: ${sucursalTexto} · ${estadoTexto}${mesTexto}${registradoTexto}`;
             document.getElementById('printTotal').innerText = `Total: ${registrosFiltrados.length} registros · ${totalUnidades} unidades`;
 
             window.print();
