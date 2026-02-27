@@ -176,6 +176,40 @@
         .filter-btn:hover { border-color: var(--green); color: var(--text); }
         .filter-btn.active { background: var(--green-dim); border-color: var(--green); color: var(--green); }
 
+        .filter-select {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 7px 32px 7px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            transition: all 0.2s;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+        }
+
+        .filter-select:hover {
+            border-color: var(--green);
+            color: var(--text);
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--green);
+            background: var(--green-dim);
+            color: var(--green);
+        }
+
+        .filter-select option {
+            background: var(--surface2);
+            color: var(--text);
+            padding: 8px;
+        }
+
         /* BÚSQUEDA */
         .search-box {
             margin-left: auto;
@@ -660,8 +694,9 @@
 
         <div class="filter-section">
             <span class="filter-label">Mes:</span>
-            <button class="filter-btn active" onclick="filtrarMes('todos', this)">Todos</button>
-            <div id="botonesMeses" style="display: inline-flex; gap: 10px;"></div>
+            <select class="filter-select" id="selectMes" onchange="filtrarMesPorSelect(this.value)">
+                <option value="todos">Todos los meses</option>
+            </select>
         </div>
 
         <div class="search-box">
@@ -769,24 +804,24 @@
         // CARGA INICIAL
         // ============================================================================
 
-        // Generar botones de meses dinámicamente (próximos 6 meses)
-        function generarBotonesMeses() {
-            const contenedor = document.getElementById('botonesMeses');
+        // Generar opciones de meses dinámicamente en el select (próximos 6 meses)
+        function generarOpcionesMeses() {
+            const select = document.getElementById('selectMes');
             const hoy = new Date();
             const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
                           'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
             
-            let botones = '';
             for (let i = 0; i < 6; i++) {
                 const fecha = new Date(hoy.getFullYear(), hoy.getMonth() + i, 1);
                 const mes = meses[fecha.getMonth()];
                 const año = fecha.getFullYear();
                 const valor = `${fecha.getFullYear()}-${String(fecha.getMonth() + 1).padStart(2, '0')}`;
                 
-                botones += `<button class="filter-btn" onclick="filtrarMes('${valor}', this)">${mes} ${año}</button>`;
+                const option = document.createElement('option');
+                option.value = valor;
+                option.textContent = `${mes} ${año}`;
+                select.appendChild(option);
             }
-            
-            contenedor.innerHTML = botones;
         }
 
         async function cargarRegistros() {
@@ -976,10 +1011,8 @@
             renderizar();
         }
 
-        function filtrarMes(mes, btn) {
+        function filtrarMesPorSelect(mes) {
             mesFiltro = mes;
-            document.querySelectorAll('.filters .filter-section:nth-child(3) .filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
             renderizar();
         }
 
@@ -1199,7 +1232,7 @@
         // INICIAR
         // ============================================================================
 
-        generarBotonesMeses();
+        generarOpcionesMeses();
         cargarRegistros();
     </script>
 </body>
