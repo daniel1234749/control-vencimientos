@@ -268,7 +268,7 @@
         .td-codigo {
             font-family: 'IBM Plex Mono', monospace;
             font-size: 12px;
-            color: #f5eeee;
+            color: #aaa;
             font-weight: 600;
         }
 
@@ -658,6 +658,12 @@
             <button class="filter-btn" onclick="filtrarEstado('ok', this)">OK</button>
         </div>
 
+        <div class="filter-section">
+            <span class="filter-label">Mes:</span>
+            <button class="filter-btn active" onclick="filtrarMes('todos', this)">Todos</button>
+            <div id="botonesMeses" style="display: inline-flex; gap: 10px;"></div>
+        </div>
+
         <div class="search-box">
             <input type="text" class="search-input" id="searchTable" placeholder="🔍 Buscar código o producto..." oninput="buscarEnTabla(this.value)">
         </div>
@@ -755,12 +761,33 @@
         let todosLosRegistros = [];
         let sucursalFiltro = 'todas';
         let estadoFiltro = 'todos';
+        let mesFiltro = 'todos';
         let busquedaTexto = '';
         let registroAEliminar = null;
 
         // ============================================================================
         // CARGA INICIAL
         // ============================================================================
+
+        // Generar botones de meses dinámicamente (próximos 6 meses)
+        function generarBotonesMeses() {
+            const contenedor = document.getElementById('botonesMeses');
+            const hoy = new Date();
+            const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
+                          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+            
+            let botones = '';
+            for (let i = 0; i < 6; i++) {
+                const fecha = new Date(hoy.getFullYear(), hoy.getMonth() + i, 1);
+                const mes = meses[fecha.getMonth()];
+                const año = fecha.getFullYear();
+                const valor = `${fecha.getFullYear()}-${String(fecha.getMonth() + 1).padStart(2, '0')}`;
+                
+                botones += `<button class="filter-btn" onclick="filtrarMes('${valor}', this)">${mes} ${año}</button>`;
+            }
+            
+            contenedor.innerHTML = botones;
+        }
 
         async function cargarRegistros() {
             const { data, error } = await dbClient
@@ -914,6 +941,15 @@
                 });
             }
 
+            // Filtro por mes de vencimiento
+            if (mesFiltro !== 'todos') {
+                registros = registros.filter(r => {
+                    const fechaVenc = new Date(r.fecha_vencimiento + 'T00:00:00');
+                    const mesAño = `${fechaVenc.getFullYear()}-${String(fechaVenc.getMonth() + 1).padStart(2, '0')}`;
+                    return mesAño === mesFiltro;
+                });
+            }
+
             // Búsqueda por texto
             if (busquedaTexto.length > 0) {
                 const query = busquedaTexto.toLowerCase();
@@ -936,6 +972,13 @@
         function filtrarEstado(estado, btn) {
             estadoFiltro = estado;
             document.querySelectorAll('.filters .filter-section:nth-child(2) .filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderizar();
+        }
+
+        function filtrarMes(mes, btn) {
+            mesFiltro = mes;
+            document.querySelectorAll('.filters .filter-section:nth-child(3) .filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             renderizar();
         }
@@ -1120,9 +1163,18 @@
 
             const sucursalTexto = sucursalFiltro === 'todas' ? 'Todas las sucursales' : sucursalFiltro;
             const estadoTexto = estadoFiltro === 'todos' ? 'Todos los estados' : estadoFiltro;
+            
+            // Agregar texto de mes si está filtrado
+            let mesTexto = '';
+            if (mesFiltro !== 'todos') {
+                const [año, mes] = mesFiltro.split('-');
+                const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
+                              'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+                mesTexto = ` · Mes: ${meses[parseInt(mes) - 1]} ${año}`;
+            }
 
             document.getElementById('printFecha').innerText = `Fecha: ${ahora}`;
-            document.getElementById('printSucursal').innerText = `Filtro: ${sucursalTexto} · ${estadoTexto}`;
+            document.getElementById('printSucursal').innerText = `Filtro: ${sucursalTexto} · ${estadoTexto}${mesTexto}`;
             document.getElementById('printTotal').innerText = `Total: ${registrosFiltrados.length} registros · ${totalUnidades} unidades`;
 
             window.print();
@@ -1147,6 +1199,7 @@
         // INICIAR
         // ============================================================================
 
+        generarBotonesMeses();
         cargarRegistros();
     </script>
 </body>
