@@ -3,8 +3,28 @@ const supabaseUrl = 'https://zjbvkduvuczfwrysmluu.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqYnZrZHV2dWN6ZndyeXNtbHV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzQ1NTAsImV4cCI6MjA4Njk1MDU1MH0.sWVoizuyBNJbtqZe5zza9wqTDpI8pkExhfvnC1nPhYw';
 const dbClient = supabase.createClient(supabaseUrl, supabaseKey);
 
-// Verificar que productos.js se cargó correctamente
+// Verificar sesión y aplicar restricciones
 document.addEventListener('DOMContentLoaded', () => {
+    const session = Auth.obtenerSesion();
+    
+    if (!session) {
+        return; // auth.js redirigirá a login
+    }
+
+    // Mostrar nombre de usuario
+    document.getElementById('userDisplay').innerText = `👤 ${session.nombre}`;
+
+    // Si es repositor, auto-seleccionar su sucursal y ocultar modal
+    if (session.rol === 'repositor' && session.sucursal) {
+        sucursalActual = session.sucursal;
+        document.getElementById('branchDisplay').innerText = "Sucursal: " + session.sucursal;
+        document.getElementById('branchModal').style.display = 'none';
+    } else if (session.rol === 'admin') {
+        // Admin puede elegir sucursal - mostrar modal
+        document.getElementById('branchModal').style.display = 'flex';
+    }
+
+    // Verificar productos.js
     if (typeof PRODUCTOS !== 'undefined') {
         console.log(`✅ productos.js cargado correctamente: ${PRODUCTOS.length} productos disponibles`);
     } else {
@@ -17,9 +37,23 @@ let uxbActual = 1;
 
 // Función para elegir sucursal
 function selectBranch(name) {
-    sucursalActual = name;
-    document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
-    document.getElementById('branchModal').style.display = 'none';
+    const session = Auth.obtenerSesion();
+    
+    // Validar que admin puede elegir cualquiera
+    if (session.rol === 'admin') {
+        sucursalActual = name;
+        document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
+        document.getElementById('branchModal').style.display = 'none';
+    } else if (session.rol === 'repositor') {
+        // Repositor solo puede usar su sucursal
+        if (name === session.sucursal) {
+            sucursalActual = name;
+            document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
+            document.getElementById('branchModal').style.display = 'none';
+        } else {
+            alert('⛔ No tienes permiso para registrar en esta sucursal.');
+        }
+    }
 }
 
 // Buscador en tiempo real

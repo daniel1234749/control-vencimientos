@@ -12,12 +12,10 @@ body {
 
 .header { 
     background: #2c2c2e; 
-    padding: 20px; 
+    padding: 12px 20px; 
     border-radius: 15px; 
-    text-align: center; 
     margin-bottom: 20px; 
     border-bottom: 4px solid #39ff14; 
-    position: relative;
 }
 
 .current-branch { 
@@ -27,13 +25,9 @@ body {
     padding: 5px 15px; 
     border-radius: 20px; 
     font-weight: bold; 
-    margin-bottom: 10px; 
 }
 
 .btn-registros {
-    position: absolute;
-    top: 20px;
-    right: 20px;
     background: transparent;
     border: 1px solid #00ff88;
     color: #00ff88;
@@ -43,6 +37,8 @@ body {
     font-size: 13px;
     transition: all 0.2s;
     font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .btn-registros:hover {
@@ -242,14 +238,11 @@ select {
 
 /* Responsive */
 @media (max-width: 600px) {
-    .btn-registros {
-        position: static;
-        display: block;
-        margin: 10px auto 0;
-        width: fit-content;
+    .header {
+        padding: 10px 15px;
     }
     
-    .header {
-        padding-top: 15px;
+    .container {
+        padding: 0 10px;
     }
 }

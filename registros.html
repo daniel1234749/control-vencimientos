@@ -673,13 +673,15 @@
             <h1>REGISTROS DE VENCIMIENTOS</h1>
         </div>
         <div class="header-right">
+            <span id="userDisplay" style="font-size: 12px; color: #00ff88; font-family: 'IBM Plex Mono', monospace; margin-right: 10px;"></span>
             <span class="total-badge" id="totalBadge">0 registros</span>
             <span class="unidades-badge" id="unidadesBadge">0 unidades</span>
             <span class="valor-badge" id="valorBadge">$0.00</span>
             <span class="hoy-badge" id="hoyBadge">📅 Hoy: 0</span>
             <button class="btn-action btn-imprimir" onclick="imprimirRegistros()">🖨️ Imprimir</button>
-            <button class="btn-action btn-vencidos" onclick="confirmarEliminarVencidos()">🗑️ Eliminar vencidos</button>
-            <button class="btn-action btn-vaciar" onclick="confirmarVaciar()">🗑️ Vaciar todo</button>
+            <button class="btn-action btn-vencidos" onclick="confirmarEliminarVencidos()" id="btnEliminarVencidos">🗑️ Eliminar vencidos</button>
+            <button class="btn-action btn-vaciar" onclick="confirmarVaciar()" id="btnVaciarTodo">🗑️ Vaciar todo</button>
+            <button class="btn-action" onclick="Auth.cerrarSesion()" style="background: #ff444420; border-color: #ff4444; color: #ff4444;">🚪 Salir</button>
         </div>
     </div>
 
@@ -801,6 +803,7 @@
         </div>
     </div>
 
+    <script src="auth.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="precios.js"></script>
     <script>
@@ -821,6 +824,25 @@
         let fechaRegistroFiltro = 'todos';
         let busquedaTexto = '';
         let registroAEliminar = null;
+
+        // Verificar sesión y aplicar restricciones
+        const sessionData = Auth.obtenerSesion();
+        if (sessionData) {
+            // Mostrar nombre de usuario
+            document.getElementById('userDisplay').innerText = `👤 ${sessionData.nombre}`;
+
+            // Si es repositor, aplicar filtro automático y ocultar controles
+            if (sessionData.rol === 'repositor') {
+                sucursalFiltro = sessionData.sucursal;
+                
+                // Ocultar botones de eliminar (solo admin puede eliminar)
+                document.getElementById('btnEliminarVencidos').style.display = 'none';
+                document.getElementById('btnVaciarTodo').style.display = 'none';
+                
+                // Ocultar filtro de sucursal (siempre verá la suya)
+                document.querySelector('.filter-section:first-child').style.display = 'none';
+            }
+        }
 
         // ============================================================================
         // CARGA INICIAL
@@ -960,6 +982,16 @@
                     precioHTML = `<span style="color: #666; font-size: 12px;">Sin precio</span>`;
                 }
 
+                // Botón eliminar (solo para admin)
+                let botonEliminar = '';
+                if (Auth.esAdmin()) {
+                    botonEliminar = `
+                        <button class="btn-delete-row" onclick="confirmarEliminarIndividual(${r.id}, '${r.nombre.replace(/'/g, "\\'")}', '${r.ean}')" title="Eliminar registro">
+                            🗑️
+                        </button>
+                    `;
+                }
+
                 return `
                     <tr class="${clase}">
                         <td class="td-codigo">${r.ean}</td>
@@ -970,11 +1002,7 @@
                         <td><span class="td-sucursal">${r.sucursal}</span></td>
                         <td class="td-precio">${precioHTML}</td>
                         <td class="td-codigo">${fechaReg}</td>
-                        <td>
-                            <button class="btn-delete-row" onclick="confirmarEliminarIndividual(${r.id}, '${r.nombre.replace(/'/g, "\\'")}', '${r.ean}')" title="Eliminar registro">
-                                🗑️
-                            </button>
-                        </td>
+                        <td>${botonEliminar}</td>
                     </tr>
                 `;
             }).join('');

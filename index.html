@@ -18,14 +18,27 @@
                 <button class="branch-btn" onclick="selectBranch('Tucumán')">📍 Tucumán</button>
                 <button class="branch-btn" style="grid-column: 1 / span 2;" onclick="selectBranch('Centro de Distribución')">📦 CD</button>
             </div>
+            <button class="branch-btn" onclick="Auth.cerrarSesion()" style="margin-top: 20px; background: #ff444420; border-color: #ff4444; color: #ff4444;">
+                🚪 Cerrar Sesión
+            </button>
         </div>
     </div>
 
     <div class="container">
-        <div class="header">
-            <div class="current-branch" id="branchDisplay">Sucursal: -</div>
-            <h1>Control Stock</h1>
-            <a href="registros.html" class="btn-registros">📋 Ver Registros</a>
+        <div class="header" style="padding: 12px 20px;">
+            <!-- Fila 1: Título y sucursal -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div class="current-branch" id="branchDisplay">Sucursal: -</div>
+                    <h1 style="margin: 0;">Control Stock</h1>
+                </div>
+            </div>
+            <!-- Fila 2: Usuario y botones -->
+            <div style="display: flex; justify-content: flex-end; align-items: center; gap: 6px;">
+                <span id="userDisplay" style="font-size: 10px; color: #00ff88; font-family: 'IBM Plex Mono', monospace; padding: 3px 8px; background: #00ff8810; border: 1px solid #00ff8840; border-radius: 4px; white-space: nowrap;"></span>
+                <a href="registros.html" class="btn-registros" style="padding: 5px 10px; font-size: 10px; white-space: nowrap; text-decoration: none;">📋 Registros</a>
+                <button class="btn-registros" onclick="Auth.cerrarSesion()" style="background: #ff444420; border-color: #ff4444; color: #ff4444; padding: 5px 10px; font-size: 10px; white-space: nowrap;">🚪 Salir</button>
+            </div>
         </div>
 
         <div class="card">
@@ -60,6 +73,7 @@
         </div>
     </div>
 
+    <script src="auth.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="productos.js"></script>
     <script src="precios.js"></script>
