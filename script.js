@@ -3,6 +3,30 @@ const supabaseUrl = 'https://zjbvkduvuczfwrysmluu.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqYnZrZHV2dWN6ZndyeXNtbHV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzQ1NTAsImV4cCI6MjA4Njk1MDU1MH0.sWVoizuyBNJbtqZe5zza9wqTDpI8pkExhfvnC1nPhYw';
 const dbClient = supabase.createClient(supabaseUrl, supabaseKey);
 
+let sucursalActual = "";
+let uxbActual = 1;
+
+// Función para elegir sucursal (DEBE estar fuera del DOMContentLoaded para que funcione con onclick)
+function selectBranch(name) {
+    const session = Auth.obtenerSesion();
+    
+    // Validar que admin puede elegir cualquiera
+    if (session.rol === 'admin') {
+        sucursalActual = name;
+        document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
+        document.getElementById('branchModal').style.display = 'none';
+    } else if (session.rol === 'repositor') {
+        // Repositor solo puede usar su sucursal
+        if (name === session.sucursal) {
+            sucursalActual = name;
+            document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
+            document.getElementById('branchModal').style.display = 'none';
+        } else {
+            alert('⛔ No tienes permiso para registrar en esta sucursal.');
+        }
+    }
+}
+
 // Verificar sesión y aplicar restricciones
 document.addEventListener('DOMContentLoaded', () => {
     const session = Auth.obtenerSesion();
@@ -31,30 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('❌ ERROR: productos.js no se cargó. Verifica que el archivo esté en la misma carpeta que index.html');
     }
 });
-
-let sucursalActual = "";
-let uxbActual = 1;
-
-// Función para elegir sucursal
-function selectBranch(name) {
-    const session = Auth.obtenerSesion();
-    
-    // Validar que admin puede elegir cualquiera
-    if (session.rol === 'admin') {
-        sucursalActual = name;
-        document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
-        document.getElementById('branchModal').style.display = 'none';
-    } else if (session.rol === 'repositor') {
-        // Repositor solo puede usar su sucursal
-        if (name === session.sucursal) {
-            sucursalActual = name;
-            document.getElementById('branchDisplay').innerText = "Sucursal: " + name;
-            document.getElementById('branchModal').style.display = 'none';
-        } else {
-            alert('⛔ No tienes permiso para registrar en esta sucursal.');
-        }
-    }
-}
 
 // Buscador en tiempo real
 function filtrarProductos(query) {
