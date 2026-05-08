@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faltantes - Control Stock</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f0f0f;
+            --surface: #1a1a1a;
+            --surface2: #222222;
+            --border: #2e2e2e;
+            --text: #e8e8e8;
+            --text-muted: #666;
+            --green: #00ff88;
+            --green-dim: #00ff8820;
+            --red: #ff4444;
+            --red-dim: #ff444418;
+            --blue: #00a8ff;
+            --blue-dim: #00a8ff20;
+            --orange: #ff8800;
+            --orange-dim: #ff880018;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'IBM Plex Sans', sans-serif;
+            min-height: 100vh;
+        }
+
+        /* ── MODAL SUCURSAL ── */
+        .branch-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.95);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .branch-modal.show { display: flex; }
+        .branch-modal-content {
+            background: var(--surface);
+            border: 2px solid var(--orange);
+            border-radius: 20px;
+            padding: 28px;
+            width: 90%;
+            max-width: 380px;
+            text-align: center;
+        }
+        .branch-modal-content h2 {
+            font-family: 'IBM Plex Mono', monospace;
+            color: var(--orange);
+            margin-bottom: 20px;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        .branch-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .branch-btn {
+            padding: 14px;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .branch-btn:hover { border-color: var(--orange); color: var(--orange); transform: translateY(-2px); }
+
+        /* ── HEADER ── */
+        .header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-row1 { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .header-left { display: flex; align-items: center; gap: 12px; }
+        .back-btn {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            text-decoration: none;
+            transition: border-color 0.2s;
+        }
+        .back-btn:hover { border-color: var(--green); color: var(--green); }
+        .header-title {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--orange);
+            letter-spacing: 1px;
+        }
+        .branch-tag {
+            font-size: 10px;
+            color: #000;
+            background: var(--green);
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 600;
+            cursor: pointer;
+            title: "Click para cambiar sucursal";
+        }
+        .branch-tag:hover { opacity: 0.85; }
+        .header-row2 { display: flex; justify-content: flex-end; align-items: center; gap: 6px; flex-wrap: wrap; }
+        .user-tag {
+            font-size: 10px;
+            color: var(--green);
+            font-family: 'IBM Plex Mono', monospace;
+            padding: 3px 8px;
+            background: var(--green-dim);
+            border: 1px solid #00ff8840;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+        .btn-hdr {
+            padding: 5px 10px;
+            font-size: 10px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+            border: 1px solid;
+            white-space: nowrap;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-vencimientos { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+        .btn-salir { background: var(--red-dim); border-color: var(--red); color: var(--red); }
+
+        /* ── CARGA ── */
+        .carga-section { max-width: 600px; margin: 20px auto; padding: 0 16px; }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+        .section-label {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            color: var(--orange);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 12px;
+        }
+        .search-wrap { position: relative; }
+        input[type="text"], select {
+            width: 100%;
+            padding: 12px 14px;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 14px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            transition: border-color 0.2s;
+        }
+        input[type="text"]:focus, select:focus { outline: none; border-color: var(--orange); }
+        input[type="text"]::placeholder { color: var(--text-muted); }
+        .dropdown {
+            position: absolute;
+            top: 100%; left: 0; right: 0;
+            background: var(--surface);
+            border: 1px solid var(--orange);
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            max-height: 240px;
+            overflow-y: auto;
+            z-index: 200;
+            display: none;
+        }
+        .dropdown-item { padding: 10px 14px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background 0.15s; }
+        .dropdown-item:hover { background: var(--surface2); }
+        .dropdown-item strong { display: block; font-size: 13px; color: var(--text); margin-bottom: 2px; }
+        .dropdown-item small { font-size: 11px; color: var(--text-muted); font-family: 'IBM Plex Mono', monospace; }
+
+        /* ── FORM ── */
+        #formFaltante { display: none; margin-top: 16px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+        .form-group { display: flex; flex-direction: column; gap: 5px; }
+        .form-group label { font-size: 10px; color: var(--text-muted); font-family: 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: 1px; }
+        .field-readonly {
+            padding: 10px 14px;
+            background: #111;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--orange);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            cursor: pointer;
+        }
+        select option { background: var(--surface2); }
+        .btn-guardar {
+            width: 100%; padding: 14px; background: var(--orange); color: #000;
+            border: none; border-radius: 8px; font-size: 14px; font-weight: 600;
+            font-family: 'IBM Plex Mono', monospace; cursor: pointer; margin-top: 12px; transition: all 0.2s;
+        }
+        .btn-guardar:hover { background: #e07a00; transform: translateY(-1px); }
+        .btn-guardar:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+        /* ── LISTADO ── */
+        .listado-section { padding: 0 16px 32px; }
+        .listado-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+        .listado-title { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+        .badges-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+        .badge { font-family: 'IBM Plex Mono', monospace; font-size: 11px; padding: 4px 10px; border-radius: 20px; border: 1px solid; }
+        .badge-orange { background: var(--orange-dim); border-color: var(--orange); color: var(--orange); }
+        .badge-blue { background: var(--blue-dim); border-color: var(--blue); color: var(--blue); }
+        .acciones { display: flex; gap: 8px; flex-wrap: wrap; }
+        .btn-accion { padding: 7px 14px; font-size: 11px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; border-radius: 6px; cursor: pointer; border: 1px solid; transition: all 0.2s; }
+        .btn-print { background: var(--blue-dim); border-color: var(--blue); color: var(--blue); }
+        .btn-print:hover { background: #00a8ff30; }
+        .btn-vaciar { background: var(--red-dim); border-color: var(--red); color: var(--red); }
+        .btn-vaciar:hover { background: #ff444430; }
+
+        /* ── FILTROS ── */
+        .filtros { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
+        .filtro-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+        .filtro-btn {
+            padding: 5px 12px; font-size: 11px; font-family: 'IBM Plex Mono', monospace;
+            border-radius: 20px; border: 1px solid var(--border); background: var(--surface);
+            color: var(--text-muted); cursor: pointer; transition: all 0.2s;
+        }
+        .filtro-btn:hover { border-color: var(--orange); color: var(--text); }
+        .filtro-btn.active { background: var(--orange-dim); border-color: var(--orange); color: var(--orange); }
+
+        .search-table-wrap { margin-bottom: 14px; }
+        .search-table {
+            width: 100%; max-width: 300px; padding: 8px 12px;
+            background: var(--surface2); border: 1px solid var(--border);
+            border-radius: 6px; color: var(--text); font-size: 12px; font-family: 'IBM Plex Mono', monospace;
+        }
+        .search-table:focus { outline: none; border-color: var(--orange); }
+        .search-table::placeholder { color: var(--text-muted); }
+
+        /* ── TABLA ── */
+        .table-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        thead th { text-align: left; padding: 10px 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid var(--border); }
+        tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
+        tbody tr:hover { background: var(--surface2); }
+        tbody td { padding: 10px 12px; }
+        .td-codigo { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #aaa; font-weight: 600; }
+        .td-nombre { font-weight: 500; font-size: 13px; }
+        .td-precio { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--green); }
+        .familia-badge { font-family: 'IBM Plex Mono', monospace; font-size: 10px; padding: 3px 8px; border-radius: 10px; border: 1px solid; white-space: nowrap; }
+        .fam-comestibles     { background: #22c55e18; border-color: #22c55e; color: #22c55e; }
+        .fam-galletitas      { background: #f59e0b18; border-color: #f59e0b; color: #f59e0b; }
+        .fam-perfumeria      { background: #ec489918; border-color: #ec4899; color: #ec4899; }
+        .fam-limpieza        { background: #38bdf818; border-color: #38bdf8; color: #38bdf8; }
+        .fam-fiambreria      { background: #fb923c18; border-color: #fb923c; color: #fb923c; }
+        .fam-kiosco          { background: #a78bfa18; border-color: #a78bfa; color: #a78bfa; }
+        .fam-bebidas-alcohol { background: #f4375018; border-color: #f43750; color: #f43750; }
+        .fam-bebidas-sin     { background: #06b6d418; border-color: #06b6d4; color: #06b6d4; }
+        .fam-bazar           { background: #84cc1618; border-color: #84cc16; color: #84cc16; }
+        .fam-golosinas       { background: #fbbf2418; border-color: #fbbf24; color: #fbbf24; }
+        .fam-medicamentos    { background: #ef444418; border-color: #ef4444; color: #ef4444; }
+        .td-fecha { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-muted); }
+        .td-sucursal { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: var(--surface2); border: 1px solid var(--border); display: inline-block; white-space: nowrap; }
+        .btn-del { background: transparent; border: 1px solid var(--border); color: var(--text-muted); padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; transition: all 0.2s; }
+        .btn-del:hover { border-color: var(--red); color: var(--red); background: var(--red-dim); }
+
+        /* ── ESTADOS ── */
+        .estado { text-align: center; padding: 50px; color: var(--text-muted); font-family: 'IBM Plex Mono', monospace; }
+        .estado-icon { font-size: 36px; margin-bottom: 12px; }
+        .estado p { font-size: 13px; }
+
+        /* ── MODALES ── */
+        .modal-overlay { display: none; position: fixed; inset: 0; background: #000000cc; z-index: 300; align-items: center; justify-content: center; }
+        .modal-overlay.show { display: flex; }
+        .modal-box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 28px; max-width: 380px; width: 90%; text-align: center; }
+        .modal-box.danger { border-color: var(--red); }
+        .modal-box h3 { font-family: 'IBM Plex Mono', monospace; font-size: 15px; margin-bottom: 10px; }
+        .modal-box.danger h3 { color: var(--red); }
+        .modal-box p { color: var(--text-muted); font-size: 13px; margin-bottom: 20px; line-height: 1.6; }
+        .modal-btns { display: flex; gap: 10px; justify-content: center; }
+        .btn-cancel { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 9px 18px; border-radius: 6px; cursor: pointer; font-family: 'IBM Plex Mono', monospace; font-size: 12px; }
+        .btn-confirm-del { background: var(--red-dim); border: 1px solid var(--red); color: var(--red); padding: 9px 18px; border-radius: 6px; cursor: pointer; font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; }
+
+        /* ── IMPRESIÓN ── */
+        .print-header { display: none; }
+        @media print {
+            body { background: white; color: black; }
+            .header, .carga-section, .listado-header, .filtros, .search-table-wrap, .btn-del { display: none !important; }
+            .print-header { display: block !important; text-align: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #000; }
+            .print-header h1 { font-size: 20px; margin-bottom: 6px; }
+            .print-header p { font-size: 12px; color: #333; }
+            table { border: 1px solid #000; }
+            thead th { background: #f0f0f0 !important; color: #000 !important; border: 1px solid #000; }
+            tbody td { color: #000 !important; background: white !important; border: 1px solid #000; }
+            .familia-badge { color: #000 !important; background: #f5f5f5 !important; border: 1px solid #000 !important; }
+            .td-sucursal { color: #000 !important; background: #f5f5f5 !important; border: 1px solid #000 !important; }
+            .td-precio { color: #000 !important; font-weight: 700 !important; }
+            .td-nombre { font-weight: 700 !important; }
+            .td-codigo { color: #000 !important; }
+        }
+
+        @media (max-width: 600px) {
+            .form-row { grid-template-columns: 1fr; }
+            .header-row1 { flex-wrap: wrap; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- MODAL SELECCIÓN DE SUCURSAL (solo admin) -->
+<div class="branch-modal" id="branchModal">
+    <div class="branch-modal-content">
+        <h2>🏭 SELECCIONAR SUCURSAL</h2>
+        <div class="branch-grid">
+            <button class="branch-btn" onclick="elegirSucursal('Fair')">📍 Fair</button>
+            <button class="branch-btn" onclick="elegirSucursal('Burzaco')">📍 Burzaco</button>
+            <button class="branch-btn" onclick="elegirSucursal('A.Korn')">📍 A.Korn</button>
+            <button class="branch-btn" onclick="elegirSucursal('Tucumán')">📍 Tucumán</button>
+            <button class="branch-btn" style="grid-column: 1 / span 2;" onclick="elegirSucursal('Centro de Distribución')">📦 CD</button>
+        </div>
+    </div>
+</div>
+
+<!-- HEADER DE IMPRESIÓN -->
+<div class="print-header">
+    <h1>🛒 REPORTE DE FALTANTES</h1>
+    <p id="printInfo"></p>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="header-row1">
+        <div class="header-left">
+            <a href="index.html" class="back-btn">← Volver</a>
+            <span class="header-title">🛒 FALTANTES</span>
+            <span class="branch-tag" id="branchDisplay">-</span>
+        </div>
+    </div>
+    <div class="header-row2">
+        <span class="user-tag" id="userDisplay"></span>
+        <a href="registros.html" class="btn-hdr btn-vencimientos">📋 Vencimientos</a>
+        <button class="btn-hdr btn-salir" onclick="Auth.cerrarSesion()">🚪 Salir</button>
+    </div>
+</div>
+
+<!-- SECCIÓN CARGA -->
+<div class="carga-section">
+    <div class="card">
+        <span class="section-label">1. Buscar producto</span>
+        <div class="search-wrap">
+            <input type="text" id="searchInput" placeholder="Escribe nombre o código EAN..." oninput="filtrarProductos(this.value)">
+            <div id="searchDropdown" class="dropdown"></div>
+        </div>
+
+        <div id="formFaltante">
+            <span class="section-label" style="margin-top:16px;">2. Datos del faltante</span>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Código EAN</label>
+                    <div class="field-readonly" id="fEan">—</div>
+                </div>
+                <div class="form-group">
+                    <label>Precio de venta</label>
+                    <div class="field-readonly" id="fPrecio">—</div>
+                </div>
+            </div>
+            <div class="form-group" style="margin-bottom:10px;">
+                <label>Descripción del producto</label>
+                <div class="field-readonly" id="fNombre" style="font-size:12px; color: var(--text);">—</div>
+            </div>
+            <div class="form-group" style="margin-bottom:10px;">
+                <label>Familia / Rubro</label>
+                <select id="fFamilia">
+                    <option value="">-- Seleccionar familia --</option>
+                    <option value="Comestibles">🥫 Comestibles</option>
+                    <option value="Galletitas">🍪 Galletitas</option>
+                    <option value="Perfumería">🧴 Perfumería</option>
+                    <option value="Limpieza">🧹 Limpieza</option>
+                    <option value="Fiambrería">🧀 Lácteos y Fiambrería</option>
+                    <option value="Kiosco">🏪 Kiosco</option>
+                    <option value="Bebidas con alcohol">🍷 Bebidas con alcohol</option>
+                    <option value="Bebidas sin alcohol">🥤 Bebidas sin alcohol</option>
+                    <option value="Bazar">🏠 Bazar</option>
+                    <option value="Golosinas">🍬 Golosinas</option>
+                    <option value="Medicamentos">💊 Medicamentos</option>
+                </select>
+            </div>
+            <button class="btn-guardar" onclick="guardarFaltante()">📥 REGISTRAR FALTANTE</button>
+        </div>
+    </div>
+</div>
+
+<!-- SECCIÓN LISTADO -->
+<div class="listado-section">
+    <div class="listado-header">
+        <span class="listado-title">Faltantes registrados</span>
+        <div class="badges-row">
+            <span class="badge badge-orange" id="badgeTotal">0 productos</span>
+            <span class="badge badge-blue" id="badgeFecha">—</span>
+        </div>
+        <div class="acciones">
+            <button class="btn-accion btn-print" onclick="imprimirFaltantes()">🖨️ Imprimir</button>
+            <button class="btn-accion btn-vaciar" onclick="confirmarVaciar()">🗑️ Limpiar todo</button>
+        </div>
+    </div>
+
+    <!-- FILTRO POR SUCURSAL (solo admin) -->
+    <div class="filtros" id="filtrosSucursal" style="display:none;">
+        <span class="filtro-label">Sucursal:</span>
+        <button class="filtro-btn active" onclick="filtrarSucursal('todas', this)">Todas</button>
+        <button class="filtro-btn" onclick="filtrarSucursal('Fair', this)">📍 Fair</button>
+        <button class="filtro-btn" onclick="filtrarSucursal('Burzaco', this)">📍 Burzaco</button>
+        <button class="filtro-btn" onclick="filtrarSucursal('A.Korn', this)">📍 A.Korn</button>
+        <button class="filtro-btn" onclick="filtrarSucursal('Tucumán', this)">📍 Tucumán</button>
+        <button class="filtro-btn" onclick="filtrarSucursal('Centro de Distribución', this)">📦 CD</button>
+    </div>
+
+    <!-- FILTRO POR FAMILIA -->
+    <div class="filtros" id="filtrosFamilia">
+        <span class="filtro-label">Familia:</span>
+        <button class="filtro-btn active" onclick="filtrarFamilia('todas', this)">Todas</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Comestibles', this)">🥫 Comestibles</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Galletitas', this)">🍪 Galletitas</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Perfumería', this)">🧴 Perfumería</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Limpieza', this)">🧹 Limpieza</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Fiambrería', this)">🧀 Fiambrería</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Kiosco', this)">🏪 Kiosco</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Bebidas con alcohol', this)">🍷 C/Alc.</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Bebidas sin alcohol', this)">🥤 S/Alc.</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Bazar', this)">🏠 Bazar</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Golosinas', this)">🍬 Golosinas</button>
+        <button class="filtro-btn" onclick="filtrarFamilia('Medicamentos', this)">💊 Medicamentos</button>
+    </div>
+
+    <!-- BÚSQUEDA EN TABLA -->
+    <div class="search-table-wrap">
+        <input type="text" class="search-table" id="searchTabla" placeholder="🔍 Buscar en listado..." oninput="buscarEnTabla(this.value)">
+    </div>
+
+    <!-- TABLA -->
+    <div class="table-wrap">
+        <div id="estadoCargando" class="estado">
+            <div class="estado-icon">⏳</div>
+            <p>Cargando faltantes...</p>
+        </div>
+        <table id="tablaFaltantes" style="display:none;">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Producto</th>
+                    <th>Familia</th>
+                    <th>Precio</th>
+                    <th>Sucursal</th>
+                    <th>Fecha registro</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+        <div id="estadoVacio" class="estado" style="display:none;">
+            <div class="estado-icon">📭</div>
+            <p>No hay faltantes registrados.</p>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL ELIMINAR INDIVIDUAL -->
+<div class="modal-overlay" id="modalDel">
+    <div class="modal-box danger">
+        <h3>🗑️ ELIMINAR FALTANTE</h3>
+        <p id="textoDel"></p>
+        <div class="modal-btns">
+            <button class="btn-cancel" onclick="cerrarModal('modalDel')">Cancelar</button>
+            <button class="btn-confirm-del" onclick="eliminarIndividual()">Sí, eliminar</button>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL VACIAR TODO -->
+<div class="modal-overlay" id="modalVaciar">
+    <div class="modal-box danger">
+        <h3>🗑️ LIMPIAR TODO</h3>
+        <p id="textoVaciar"></p>
+        <div class="modal-btns">
+            <button class="btn-cancel" onclick="cerrarModal('modalVaciar')">Cancelar</button>
+            <button class="btn-confirm-del" onclick="vaciarTodo()">Sí, limpiar</button>
+        </div>
+    </div>
+</div>
+
+<script src="auth.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="productos.js"></script>
+<script src="precios.js"></script>
+<script>
+    const supabaseUrl = 'https://zjbvkduvuczfwrysmluu.supabase.co';
+    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqYnZrZHV2dWN6ZndyeXNtbHV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzQ1NTAsImV4cCI6MjA4Njk1MDU1MH0.sWVoizuyBNJbtqZe5zza9wqTDpI8pkExhfvnC1nPhYw';
+    const dbClient    = supabase.createClient(supabaseUrl, supabaseKey);
+
+    // ── ESTADO ────────────────────────────────────────────────────
+    let todosLosFaltantes    = [];
+    let familiaFiltro        = 'todas';
+    let sucursalFiltro       = 'todas';
+    let busquedaTexto        = '';
+    let sucursalActual       = '';
+    let productoSeleccionado = null;
+    let idAEliminar          = null;
+
+    // ── INIT ──────────────────────────────────────────────────────
+    document.addEventListener('DOMContentLoaded', () => {
+        const session = Auth.obtenerSesion();
+        if (!session) return;
+
+        document.getElementById('userDisplay').innerText = `👤 ${session.nombre}`;
+
+        if (session.rol === 'repositor' && session.sucursal) {
+            // Repositor: sucursal fija, no ve el modal ni el filtro de sucursal
+            sucursalActual = session.sucursal;
+            document.getElementById('branchDisplay').innerText = sucursalActual;
+            cargarFaltantes();
+
+        } else if (session.rol === 'admin') {
+            // Admin: mostrar filtro de sucursal en la tabla
+            document.getElementById('filtrosSucursal').style.display = 'flex';
+
+            // Click en el tag verde del header abre el modal para cambiar sucursal
+            document.getElementById('branchDisplay').addEventListener('click', () => {
+                document.getElementById('branchModal').classList.add('show');
+            });
+
+            // Ver si ya eligió sucursal antes
+            const saved = localStorage.getItem('sucursalActual');
+            if (saved) {
+                sucursalActual = saved;
+                document.getElementById('branchDisplay').innerText = sucursalActual;
+                cargarFaltantes();
+            } else {
+                // Primera vez: mostrar modal para elegir
+                document.getElementById('branchModal').classList.add('show');
+            }
+        }
+    });
+
+    // Elegir sucursal desde el modal (solo admin)
+   function elegirSucursal(nombre) {
+    sucursalActual = nombre;
+    localStorage.setItem('sucursalActual', nombre);
+    document.getElementById('branchDisplay').innerText = nombre;
+    document.getElementById('branchModal').classList.remove('show');
+
+    // Sincronizar el filtro de tabla con la sucursal elegida
+    sucursalFiltro = nombre;
+    document.querySelectorAll('#filtrosSucursal .filtro-btn').forEach(b => b.classList.remove('active'));
+    const btnCorrespondiente = [...document.querySelectorAll('#filtrosSucursal .filtro-btn')]
+        .find(b => b.textContent.includes(nombre.replace('Centro de Distribución', 'CD')));
+    if (btnCorrespondiente) btnCorrespondiente.classList.add('active');
+
+    cargarFaltantes();
+}
+
+    // ── BUSCADOR ──────────────────────────────────────────────────
+    function filtrarProductos(query) {
+        const dropdown = document.getElementById('searchDropdown');
+        if (query.length < 2) { dropdown.style.display = 'none'; return; }
+
+        if (typeof PRODUCTOS === 'undefined') {
+            dropdown.innerHTML = '<div style="padding:12px;color:#ff4444;">Error: productos.js no cargado</div>';
+            dropdown.style.display = 'block';
+            return;
+        }
+
+        const queryLower = query.toLowerCase();
+        const matches = PRODUCTOS.filter(p => {
+            const nombreMatch = p.productos && p.productos.toLowerCase().includes(queryLower);
+            const codigoStr   = p.codigos ? p.codigos.toString() : '';
+            return nombreMatch || codigoStr.includes(query);
+        }).slice(0, 10);
+
+        if (matches.length > 0) {
+            dropdown.innerHTML = matches.map(p => `
+                <div class="dropdown-item" onclick="seleccionarProducto(${JSON.stringify(p).replace(/"/g, '&quot;')})">
+                    <strong>${p.productos}</strong>
+                    <small>Código: ${p.codigos}</small>
+                </div>
+            `).join('');
+        } else {
+            dropdown.innerHTML = '<div style="padding:12px;color:#888;font-family:monospace;font-size:12px;">Sin resultados</div>';
+        }
+        dropdown.style.display = 'block';
+    }
+
+    function seleccionarProducto(p) {
+        productoSeleccionado = p;
+
+        let precio = 0;
+        if (typeof PRODUCTOS_PRECIOS !== 'undefined') {
+            const found = PRODUCTOS_PRECIOS.find(x => x.codigos == p.codigos);
+            if (found) precio = found.precio_vta || 0;
+        }
+
+        document.getElementById('fEan').innerText    = p.codigos;
+        document.getElementById('fNombre').innerText = p.productos;
+        document.getElementById('fPrecio').innerText = precio > 0
+            ? `$${precio.toLocaleString('es-AR', { minimumFractionDigits: 2 })}`
+            : 'Sin precio';
+
+        productoSeleccionado._precio = precio;
+        document.getElementById('searchDropdown').style.display = 'none';
+        document.getElementById('searchInput').value = '';
+        document.getElementById('fFamilia').value = '';
+        document.getElementById('formFaltante').style.display = 'block';
+    }
+
+    // ── GUARDAR ───────────────────────────────────────────────────
+    async function guardarFaltante() {
+        if (!productoSeleccionado) { alert('⚠️ Seleccioná un producto primero.'); return; }
+        const familia = document.getElementById('fFamilia').value;
+        if (!familia) { alert('⚠️ Seleccioná la familia del producto.'); return; }
+        if (!sucursalActual) { alert('⚠️ Seleccioná una sucursal primero.'); return; }
+
+        const btn = document.querySelector('.btn-guardar');
+        btn.disabled = true;
+        btn.textContent = '⏳ Guardando...';
+
+        const { error } = await dbClient.from('faltantes').insert([{
+            ean:             productoSeleccionado.codigos.toString(),
+            nombre:          productoSeleccionado.productos,
+            familia:         familia,
+            precio_unitario: productoSeleccionado._precio || 0,
+            sucursal:        sucursalActual,
+            fecha_registro:  new Date().toISOString()
+        }]);
+
+        btn.disabled = false;
+        btn.textContent = '📥 REGISTRAR FALTANTE';
+
+        if (error) {
+            alert('❌ Error al guardar: ' + error.message);
+        } else {
+            alert(`✅ Faltante registrado: ${productoSeleccionado.productos}`);
+            document.getElementById('formFaltante').style.display = 'none';
+            productoSeleccionado = null;
+            cargarFaltantes();
+        }
+    }
+
+    // ── CARGA DESDE SUPABASE ──────────────────────────────────────
+    async function cargarFaltantes() {
+        document.getElementById('estadoCargando').style.display = 'block';
+        document.getElementById('tablaFaltantes').style.display = 'none';
+        document.getElementById('estadoVacio').style.display    = 'none';
+
+        const { data, error } = await dbClient
+            .from('faltantes')
+            .select('*')
+            .order('fecha_registro', { ascending: false });
+
+        document.getElementById('estadoCargando').style.display = 'none';
+
+        if (error) {
+            document.getElementById('estadoVacio').innerHTML = `<div class="estado-icon">❌</div><p>${error.message}</p>`;
+            document.getElementById('estadoVacio').style.display = 'block';
+            return;
+        }
+
+        // Repositor solo ve su sucursal
+        const session = Auth.obtenerSesion();
+        todosLosFaltantes = (session && session.rol === 'repositor')
+            ? data.filter(r => r.sucursal === sucursalActual)
+            : data;
+
+        document.getElementById('badgeFecha').innerText = `📅 ${new Date().toLocaleDateString('es-AR')}`;
+        renderizar();
+    }
+
+    // ── RENDERIZADO ───────────────────────────────────────────────
+    function renderizar() {
+        const lista = aplicarFiltros();
+        document.getElementById('badgeTotal').innerText = `${lista.length} productos`;
+
+        if (lista.length === 0) {
+            document.getElementById('tablaFaltantes').style.display = 'none';
+            document.getElementById('estadoVacio').style.display    = 'block';
+            return;
+        }
+
+        document.getElementById('tablaFaltantes').style.display = 'table';
+        document.getElementById('estadoVacio').style.display    = 'none';
+
+        document.getElementById('tbody').innerHTML = lista.map(r => {
+            const fechaReg = new Date(r.fecha_registro).toLocaleString('es-AR', {
+                day: '2-digit', month: '2-digit', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+            const precioFmt = r.precio_unitario > 0
+                ? `$${r.precio_unitario.toLocaleString('es-AR', { minimumFractionDigits: 2 })}`
+                : '<span style="color:#555">Sin precio</span>';
+
+            return `
+                <tr>
+                    <td class="td-codigo">${r.ean}</td>
+                    <td class="td-nombre">${r.nombre}</td>
+                    <td><span class="familia-badge ${familiaClass(r.familia)}">${r.familia}</span></td>
+                    <td class="td-precio">${precioFmt}</td>
+                    <td><span class="td-sucursal">${r.sucursal}</span></td>
+                    <td class="td-fecha">${fechaReg}</td>
+                    <td><button class="btn-del" onclick="confirmarDel(${r.id}, '${r.nombre.replace(/'/g, "\\'")}')">🗑️</button></td>
+                </tr>
+            `;
+        }).join('');
+    }
+
+    function familiaClass(familia) {
+        const map = {
+            'Comestibles':         'fam-comestibles',
+            'Galletitas':          'fam-galletitas',
+            'Perfumería':          'fam-perfumeria',
+            'Limpieza':            'fam-limpieza',
+            'Fiambrería':          'fam-fiambreria',
+            'Kiosco':              'fam-kiosco',
+            'Bebidas con alcohol': 'fam-bebidas-alcohol',
+            'Bebidas sin alcohol': 'fam-bebidas-sin',
+            'Bazar':               'fam-bazar',
+            'Golosinas':           'fam-golosinas',
+            'Medicamentos':        'fam-medicamentos',
+        };
+        return map[familia] || '';
+    }
+
+    // ── FILTROS ───────────────────────────────────────────────────
+    function aplicarFiltros() {
+        let lista = [...todosLosFaltantes];
+        if (sucursalFiltro !== 'todas') lista = lista.filter(r => r.sucursal === sucursalFiltro);
+        if (familiaFiltro  !== 'todas') lista = lista.filter(r => r.familia  === familiaFiltro);
+        if (busquedaTexto.length > 0) {
+            const q = busquedaTexto.toLowerCase();
+            lista = lista.filter(r => r.nombre.toLowerCase().includes(q) || r.ean.toString().includes(q));
+        }
+        return lista;
+    }
+
+    function filtrarSucursal(sucursal, btn) {
+        sucursalFiltro = sucursal;
+        document.querySelectorAll('#filtrosSucursal .filtro-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderizar();
+    }
+
+    function filtrarFamilia(familia, btn) {
+        familiaFiltro = familia;
+        document.querySelectorAll('#filtrosFamilia .filtro-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderizar();
+    }
+
+    function buscarEnTabla(texto) {
+        busquedaTexto = texto;
+        renderizar();
+    }
+
+    // ── ELIMINAR INDIVIDUAL ───────────────────────────────────────
+    function confirmarDel(id, nombre) {
+        idAEliminar = id;
+        document.getElementById('textoDel').innerHTML = `¿Eliminar el faltante de <strong>${nombre}</strong>?`;
+        document.getElementById('modalDel').classList.add('show');
+    }
+
+    async function eliminarIndividual() {
+        const { error } = await dbClient.from('faltantes').delete().eq('id', idAEliminar);
+        cerrarModal('modalDel');
+        if (error) {
+            alert('❌ Error: ' + error.message);
+        } else {
+            todosLosFaltantes = todosLosFaltantes.filter(r => r.id !== idAEliminar);
+            renderizar();
+        }
+        idAEliminar = null;
+    }
+
+    // ── VACIAR TODO ───────────────────────────────────────────────
+    function confirmarVaciar() {
+        const lista = aplicarFiltros();
+        if (lista.length === 0) { alert('No hay faltantes para limpiar.'); return; }
+
+        const session = Auth.obtenerSesion();
+        const alcance = session && session.rol === 'admin'
+            ? 'todos los faltantes de todas las sucursales'
+            : `los faltantes de ${sucursalActual}`;
+
+        document.getElementById('textoVaciar').innerHTML =
+            `Se eliminarán <strong>${lista.length} registros</strong> (${alcance}). Esta acción no se puede deshacer.`;
+        document.getElementById('modalVaciar').classList.add('show');
+    }
+
+    async function vaciarTodo() {
+        const session = Auth.obtenerSesion();
+        let query = dbClient.from('faltantes').delete();
+        query = (session && session.rol === 'repositor')
+            ? query.eq('sucursal', sucursalActual)
+            : query.neq('id', 0);
+
+        const { error } = await query;
+        cerrarModal('modalVaciar');
+
+        if (error) {
+            alert('❌ Error: ' + error.message);
+        } else {
+            alert('✅ Faltantes limpiados correctamente.');
+            todosLosFaltantes = [];
+            renderizar();
+        }
+    }
+
+    // ── IMPRIMIR ──────────────────────────────────────────────────
+    function imprimirFaltantes() {
+        const lista = aplicarFiltros();
+        const ahora = new Date().toLocaleString('es-AR', {
+            day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+        const sucTexto = sucursalFiltro === 'todas' ? 'Todas las sucursales' : sucursalFiltro;
+        const famTexto = familiaFiltro  === 'todas' ? 'Todas las familias'   : familiaFiltro;
+        document.getElementById('printInfo').innerText =
+            `Fecha: ${ahora} · Sucursal: ${sucTexto} · Familia: ${famTexto} · Total: ${lista.length} productos`;
+        window.print();
+    }
+
+    // ── UTILIDADES ────────────────────────────────────────────────
+    function cerrarModal(id) { document.getElementById(id).classList.remove('show'); }
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.search-wrap')) {
+            document.getElementById('searchDropdown').style.display = 'none';
+        }
+    });
+</script>
+</body>
+</html>
