@@ -76,15 +76,19 @@ function filtrarProductos(query) {
     const queryLower = query.toLowerCase();
     
     const matches = PRODUCTOS.filter(p => {
-        // Buscar en nombre de producto
-        const nombreMatch = p.productos && p.productos.toLowerCase().includes(queryLower);
-        
-        // Buscar en código (convertir a string para comparar)
-        const codigoStr = p.codigos ? p.codigos.toString() : '';
-        const codigoMatch = codigoStr.includes(query);
-        
-        return nombreMatch || codigoMatch;
-    }).slice(0, 10);
+    const nombreMatch = p.productos && p.productos.toLowerCase().includes(queryLower);
+    const codigoStr = p.codigos ? p.codigos.toString() : '';
+    const codigoMatch = codigoStr.includes(query);
+    return nombreMatch || codigoMatch;
+})
+.sort((a, b) => {
+    const aNombre = a.productos.toLowerCase();
+    const bNombre = b.productos.toLowerCase();
+    const aEmpieza = aNombre.startsWith(queryLower) ? 0 : 1;
+    const bEmpieza = bNombre.startsWith(queryLower) ? 0 : 1;
+    return aEmpieza - bEmpieza;
+})
+.slice(0, 30);
 
     if (matches.length > 0) {
         dropdown.innerHTML = matches.map(p => `
