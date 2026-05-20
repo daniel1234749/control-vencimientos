@@ -1,4 +1,4 @@
-const PRODUCTOS_PRECIOS = [
+[
   {
     "codigos": 476333,
     "productos": "COLCHADO PALETTE DIAMONT TWIN 170X240",
@@ -45,7 +45,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475452,
     "productos": "ABRE LATA UÑA ECO ARGOS",
     "uxb": 1,
-    "precio_vta": 1255
+    "precio_vta": 1380
   },
   {
     "codigos": 479509,
@@ -105,13 +105,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474945,
     "productos": "AC DOVE X180ML RECONSTRUC",
     "uxb": 12,
-    "precio_vta": 2497
+    "precio_vta": 2999
   },
   {
     "codigos": 474946,
     "productos": "AC DOVE X180ML RITUAL REP",
     "uxb": 12,
-    "precio_vta": 2497
+    "precio_vta": 2999
   },
   {
     "codigos": 474932,
@@ -150,6 +150,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6079
   },
   {
+    "codigos": 476739,
+    "productos": "AC DOVE X400ML LARGOS",
+    "uxb": 12,
+    "precio_vta": 5790
+  },
+  {
     "codigos": 474918,
     "productos": "AC DOVE X400ML NUTRICION",
     "uxb": 12,
@@ -160,6 +166,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "AC DOVE X400ML RECONSTRUC",
     "uxb": 12,
     "precio_vta": 6079
+  },
+  {
+    "codigos": 478307,
+    "productos": "AC DOVE X400ML REGENERACI",
+    "uxb": 12,
+    "precio_vta": 5790
   },
   {
     "codigos": 474919,
@@ -225,55 +237,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469794,
     "productos": "AC ELVIVE X750ML 6 OLEOS",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469797,
     "productos": "AC ELVIVE X750ML ARCILL DET",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469799,
     "productos": "AC ELVIVE X750ML DREAM LONG",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469790,
     "productos": "AC ELVIVE X750ML KERA BRILL",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469789,
     "productos": "AC ELVIVE X750ML KERA LISO",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469801,
     "productos": "AC ELVIVE X750ML LONG LISS",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469795,
     "productos": "AC ELVIVE X750ML OLEO COCO",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469792,
     "productos": "AC ELVIVE X750ML REP. EXTRE",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 469787,
     "productos": "AC ELVIVE X750ML REP. TOTAL",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 12900
   },
   {
     "codigos": 478597,
@@ -309,7 +321,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461599,
     "productos": "AC FRUCTIS VARIOS X200ML",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 4399
   },
   {
     "codigos": 471390,
@@ -327,13 +339,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466627,
     "productos": "AC HEAD&SHOULDERS X300ML",
     "uxb": 12,
-    "precio_vta": 6760
+    "precio_vta": 7990
   },
   {
     "codigos": 1832,
     "productos": "AC HEAD&SHOULDERS X375ML",
     "uxb": 12,
     "precio_vta": 7348
+  },
+  {
+    "codigos": 469399,
+    "productos": "AC INECTO VARIOS X200ML",
+    "uxb": 6,
+    "precio_vta": 2999
   },
   {
     "codigos": 8945,
@@ -369,73 +387,97 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477404,
     "productos": "AC PANTENE X200ML BRILLO",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
+  },
+  {
+    "codigos": 474869,
+    "productos": "AC PANTENE X200ML FUERZA REC",
+    "uxb": 12,
+    "precio_vta": 2999
   },
   {
     "codigos": 475456,
     "productos": "AC PANTENE X200ML HID EXTREM",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 474870,
     "productos": "AC PANTENE X200ML HIDRATACIO",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 474871,
     "productos": "AC PANTENE X200ML LISO EXTRE",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
+  },
+  {
+    "codigos": 474872,
+    "productos": "AC PANTENE X200ML MICELAR",
+    "uxb": 12,
+    "precio_vta": 2999
   },
   {
     "codigos": 474873,
     "productos": "AC PANTENE X200ML RESTAURACI",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 469846,
     "productos": "AC PANTENE X400ML BRILLO",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
+  },
+  {
+    "codigos": 478678,
+    "productos": "AC PANTENE X400ML DETOX",
+    "uxb": 12,
+    "precio_vta": 5999
   },
   {
     "codigos": 476706,
     "productos": "AC PANTENE X400ML EQUILIBRIO",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469590,
     "productos": "AC PANTENE X400ML HIDRATA",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
+  },
+  {
+    "codigos": 478674,
+    "productos": "AC PANTENE X400ML KERATINA",
+    "uxb": 12,
+    "precio_vta": 5999
   },
   {
     "codigos": 469588,
     "productos": "AC PANTENE X400ML LISO INFI",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469587,
     "productos": "AC PANTENE X400ML RESTAURAC.",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 476704,
     "productos": "AC PANTENE X400ML REVITALIZ.",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
-    "codigos": 477942,
-    "productos": "AMARGO SABOT SERRANO x1.5lts",
-    "uxb": 6,
-    "precio_vta": 787
+    "codigos": 478672,
+    "productos": "AC PANTENE X400ML VOLUMEN",
+    "uxb": 12,
+    "precio_vta": 5999
   },
   {
     "codigos": 463852,
@@ -546,6 +588,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3149
   },
   {
+    "codigos": 462431,
+    "productos": "AC POLYANA VARIOS X1LT",
+    "uxb": 12,
+    "precio_vta": 1499
+  },
+  {
     "codigos": 479081,
     "productos": "AC SEDAL BALANCE x650cc",
     "uxb": 12,
@@ -585,19 +633,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479090,
     "productos": "AC SEDAL DP X300ML BALANCE",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 479126,
     "productos": "AC SEDAL DP X300ML CERAMIDAS",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 479086,
     "productos": "AC SEDAL DP X300ML REST.IST.",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 471682,
@@ -900,12 +948,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 9999
   },
   {
-    "codigos": 479541,
-    "productos": "ACEITE BONOLEO GIRASOL x900cc",
-    "uxb": 12,
-    "precio_vta": 2299
-  },
-  {
     "codigos": 460667,
     "productos": "ACEITE CAÑUELAS GIRASOL X5Lt",
     "uxb": 4,
@@ -915,7 +957,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 93,
     "productos": "ACEITE CAÑUELAS GIRASOL x1.5Lt",
     "uxb": 12,
-    "precio_vta": 4899
+    "precio_vta": 4999
   },
   {
     "codigos": 92,
@@ -963,7 +1005,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462618,
     "productos": "ACEITE DE BEBE ALGABO FISHER x200ml",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3299
+  },
+  {
+    "codigos": 476642,
+    "productos": "ACEITE DE BEBE ALGABO x355cc",
+    "uxb": 12,
+    "precio_vta": 4599
   },
   {
     "codigos": 9104,
@@ -996,10 +1044,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3399
   },
   {
-    "codigos": 463321,
-    "productos": "ACEITE LEGITIMO GIRASOL X3LT",
-    "uxb": 6,
-    "precio_vta": 9989
+    "codigos": 478957,
+    "productos": "ACEITE GIRA-SOL GIRASOL X4.5L",
+    "uxb": 4,
+    "precio_vta": 9999
   },
   {
     "codigos": 462884,
@@ -1083,31 +1131,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2367,
     "productos": "ACEITE NATURA GIRASOL AERO X 120G",
     "uxb": 12,
-    "precio_vta": 3499
+    "precio_vta": 3699
   },
   {
     "codigos": 103,
     "productos": "ACEITE NATURA GIRASOL X5Lt",
     "uxb": 4,
-    "precio_vta": 18589
+    "precio_vta": 18999
   },
   {
     "codigos": 104,
     "productos": "ACEITE NATURA GIRASOL x1.5Lt",
     "uxb": 12,
-    "precio_vta": 5499
+    "precio_vta": 5699
   },
   {
     "codigos": 101,
     "productos": "ACEITE NATURA GIRASOL x3Lt.",
     "uxb": 6,
-    "precio_vta": 10999
+    "precio_vta": 11499
   },
   {
     "codigos": 102,
     "productos": "ACEITE NATURA GIRASOL x900cc",
     "uxb": 15,
-    "precio_vta": 3359
+    "precio_vta": 3699
   },
   {
     "codigos": 20109,
@@ -1128,18 +1176,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2749
   },
   {
-    "codigos": 479100,
-    "productos": "ACEITE SIGLO DE ORO MEZCLA x5Lt",
-    "uxb": 4,
-    "precio_vta": 9999
-  },
-  {
-    "codigos": 472911,
-    "productos": "ACEITE SIGLO DE ORO MEZCLA x900cc",
-    "uxb": 12,
-    "precio_vta": 2199
-  },
-  {
     "codigos": 471879,
     "productos": "ACEITE VILLA MAZAN OLIVA VIDRIO X 500ML",
     "uxb": 12,
@@ -1155,7 +1191,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474665,
     "productos": "ACEITUNA VERDE CLASICA MORANDO x400gr",
     "uxb": 12,
-    "precio_vta": 6194
+    "precio_vta": 6099
   },
   {
     "codigos": 477513,
@@ -1167,7 +1203,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474663,
     "productos": "ACEITUNA VERDE PREMIUN MORANDO x400gr",
     "uxb": 12,
-    "precio_vta": 6141
+    "precio_vta": 7499
   },
   {
     "codigos": 474660,
@@ -1251,7 +1287,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477515,
     "productos": "ACEITUNAS VERD 000 PREMIUM MORANDO x2kg",
     "uxb": 4,
-    "precio_vta": 24149
+    "precio_vta": 24299
   },
   {
     "codigos": 477823,
@@ -1275,25 +1311,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471072,
     "productos": "ACEITUNAS VERDE 0 MORANDO x1kg",
     "uxb": 6,
-    "precio_vta": 10394
+    "precio_vta": 9199
   },
   {
     "codigos": 471087,
     "productos": "ACEITUNAS VERDE 0 MORANDO x2kg",
     "uxb": 4,
-    "precio_vta": 16379
+    "precio_vta": 16499
   },
   {
     "codigos": 471085,
     "productos": "ACEITUNAS VERDE 0 MORANDO x5kg",
     "uxb": 1,
-    "precio_vta": 33599
+    "precio_vta": 34499
   },
   {
     "codigos": 477824,
     "productos": "ACEITUNAS VERDE 000 PREM MORANDO x5kg",
     "uxb": 1,
-    "precio_vta": 49349
+    "precio_vta": 49999
   },
   {
     "codigos": 471084,
@@ -1311,19 +1347,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475847,
     "productos": "ACEITUNAS VERDE DESC MORANDO DP x150gr",
     "uxb": 15,
-    "precio_vta": 1574
+    "precio_vta": 1579
   },
   {
     "codigos": 471092,
     "productos": "ACEITUNAS VERDE DESCAR.MORANDO x1.6kg",
     "uxb": 4,
-    "precio_vta": 20474
+    "precio_vta": 20499
   },
   {
     "codigos": 476670,
     "productos": "ACEITUNAS VERDE DESCAR.MORANDO x350gr",
     "uxb": 12,
-    "precio_vta": 4619
+    "precio_vta": 5799
   },
   {
     "codigos": 476376,
@@ -1335,13 +1371,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471075,
     "productos": "ACEITUNAS VERDE MORANDO DP x180gr",
     "uxb": 15,
-    "precio_vta": 1259
+    "precio_vta": 1249
   },
   {
     "codigos": 475561,
     "productos": "ACEITUNAS VERDE PREMIUM 000 MORANDO x1kg",
     "uxb": 6,
-    "precio_vta": 14384
+    "precio_vta": 14299
   },
   {
     "codigos": 473378,
@@ -1353,7 +1389,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473377,
     "productos": "ACEITUNAS VERDE RODAJAS MORANDO x1.6kg",
     "uxb": 4,
-    "precio_vta": 15434
+    "precio_vta": 16999
   },
   {
     "codigos": 465355,
@@ -1365,7 +1401,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471088,
     "productos": "ACEITUNAS VERDES DESCAR. MORANDO x800gr",
     "uxb": 6,
-    "precio_vta": 11549
+    "precio_vta": 10499
   },
   {
     "codigos": 465356,
@@ -1383,13 +1419,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473472,
     "productos": "ACEITUNAS VERDES RELLENAS MORANDO x1kg",
     "uxb": 6,
-    "precio_vta": 22574
+    "precio_vta": 22499
   },
   {
     "codigos": 471074,
     "productos": "ACEITUNAS VERDES RODAJAS MORANDO x800gr",
     "uxb": 6,
-    "precio_vta": 9239
+    "precio_vta": 9499
+  },
+  {
+    "codigos": 469866,
+    "productos": "ACELGA CONGELADA GREEN LIFE x550gr",
+    "uxb": 1,
+    "precio_vta": 3855
   },
   {
     "codigos": 480153,
@@ -1557,7 +1599,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5231,
     "productos": "ADHES. LA GOTITA x2ml",
     "uxb": 6,
-    "precio_vta": 1399
+    "precio_vta": 1499
   },
   {
     "codigos": 463526,
@@ -1683,12 +1725,12 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466333,
     "productos": "ADOBO PARA PIZZA SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 808
+    "precio_vta": 839
   },
   {
     "codigos": 466815,
     "productos": "ADOBO PIZZA AROMAS/SABORES x25g",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 434
   },
   {
@@ -1761,7 +1803,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473875,
     "productos": "AGUA D ALIBOUR COPEA x250ML",
     "uxb": 20,
-    "precio_vta": 1589
+    "precio_vta": 1599
   },
   {
     "codigos": 461559,
@@ -1770,22 +1812,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3490
   },
   {
+    "codigos": 480595,
+    "productos": "AGUA DE MESA LOS REYUNOS x 10lts",
+    "uxb": 1,
+    "precio_vta": 2399
+  },
+  {
     "codigos": 473414,
     "productos": "AGUA MICELAR ALGABO x200ML",
     "uxb": 12,
-    "precio_vta": 3254
+    "precio_vta": 3299
   },
   {
     "codigos": 478012,
     "productos": "AGUA MICELAR ALGABO x400cc",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 469368,
     "productos": "AGUA MICELAR TEATRICAL VARIOS x600cc",
     "uxb": 1,
-    "precio_vta": 9799
+    "precio_vta": 9999
   },
   {
     "codigos": 471633,
@@ -1869,7 +1917,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476397,
     "productos": "AGUA MINERAL Q2 BIDON x6lt",
     "uxb": 2,
-    "precio_vta": 1499
+    "precio_vta": 1349
   },
   {
     "codigos": 474592,
@@ -1887,7 +1935,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471922,
     "productos": "AGUA MINERAL SAN MIGUEL x6.5Lt",
     "uxb": 1,
-    "precio_vta": 1590
+    "precio_vta": 1790
   },
   {
     "codigos": 160,
@@ -1947,31 +1995,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11359,
     "productos": "AGUA SAB. AQUARIUS x2.25L VARIOS MANZANA",
     "uxb": 6,
-    "precio_vta": 2399
+    "precio_vta": 2750
   },
   {
     "codigos": 11361,
     "productos": "AGUA SAB. AQUARIUS x2.25L VARIOS NARANJA",
     "uxb": 6,
-    "precio_vta": 2399
+    "precio_vta": 2750
   },
   {
     "codigos": 11358,
     "productos": "AGUA SAB. AQUARIUS x2.25L VARIOS PERA",
     "uxb": 6,
-    "precio_vta": 2399
+    "precio_vta": 2750
   },
   {
     "codigos": 11364,
     "productos": "AGUA SAB. AQUARIUS x2.25L VARIOS POMELO BLA",
     "uxb": 6,
-    "precio_vta": 2399
+    "precio_vta": 2750
   },
   {
     "codigos": 11360,
     "productos": "AGUA SAB. AQUARIUS x2.25L VARIOS POMELO ROS",
     "uxb": 6,
-    "precio_vta": 2399
+    "precio_vta": 2750
   },
   {
     "codigos": 11366,
@@ -2020,6 +2068,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "AGUA SAB. BAGGIO FRESH x1.5Lt PERA",
     "uxb": 6,
     "precio_vta": 839
+  },
+  {
+    "codigos": 306,
+    "productos": "BARTENDERS PETERS BANANA 950",
+    "uxb": 1,
+    "precio_vta": 2193
   },
   {
     "codigos": 12007,
@@ -2097,7 +2151,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6020,
     "productos": "AGUA SAB. BRIO x1.5Lt",
     "uxb": 6,
-    "precio_vta": 999
+    "precio_vta": 1199
   },
   {
     "codigos": 474314,
@@ -2115,7 +2169,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479180,
     "productos": "AGUA SAB. CEPITA FRESH MANZANA 1.5LT",
     "uxb": 6,
-    "precio_vta": 1399
+    "precio_vta": 1349
   },
   {
     "codigos": 474844,
@@ -2139,25 +2193,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478561,
     "productos": "AGUA SAB. CIMES MANZANA X600CC",
     "uxb": 6,
-    "precio_vta": 399
+    "precio_vta": 449
   },
   {
     "codigos": 478564,
     "productos": "AGUA SAB. CIMES NARANJA X600CC",
     "uxb": 6,
-    "precio_vta": 399
+    "precio_vta": 449
   },
   {
     "codigos": 478563,
     "productos": "AGUA SAB. CIMES PERA X600CC",
     "uxb": 6,
-    "precio_vta": 399
+    "precio_vta": 449
   },
   {
     "codigos": 478562,
     "productos": "AGUA SAB. CIMES POMELO X600CC",
     "uxb": 6,
-    "precio_vta": 399
+    "precio_vta": 449
   },
   {
     "codigos": 475962,
@@ -2298,6 +2352,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 799
   },
   {
+    "codigos": 480787,
+    "productos": "AIR FRYER IMP EMA 52413",
+    "uxb": 1,
+    "precio_vta": 5499
+  },
+  {
     "codigos": 7137,
     "productos": "AIRE PUR ANTIHUM 2EN1",
     "uxb": 1,
@@ -2379,13 +2439,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474354,
     "productos": "AJIES EN VINAGRE MORANDO x220gr",
     "uxb": 12,
-    "precio_vta": 5774
+    "precio_vta": 5699
   },
   {
     "codigos": 473381,
     "productos": "AJIES EN VINAGRE MORANDO x450g",
     "uxb": 6,
-    "precio_vta": 10918
+    "precio_vta": 13499
   },
   {
     "codigos": 471091,
@@ -2414,7 +2474,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 469851,
     "productos": "AJO EN POLVO AROMAS/SABORES x25g",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 682
   },
   {
@@ -2433,7 +2493,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478806,
     "productos": "AJO GRANULADO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1091
+    "precio_vta": 1359
   },
   {
     "codigos": 170,
@@ -2490,6 +2550,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 22999
   },
   {
+    "codigos": 68452,
+    "productos": "ALARGUE ZORRO BLANCO/NEGRO TUCU",
+    "uxb": 1,
+    "precio_vta": 11900
+  },
+  {
+    "codigos": 13125,
+    "productos": "ALARGUE ZORRO REDONDO TUCU X1UN",
+    "uxb": 1,
+    "precio_vta": 8900
+  },
+  {
     "codigos": 476621,
     "productos": "ALBAHACA ALICANTE X20G",
     "uxb": 12,
@@ -2505,7 +2577,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473712,
     "productos": "ALBAHACA SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1049
+    "precio_vta": 1379
   },
   {
     "codigos": 473382,
@@ -2589,7 +2661,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468787,
     "productos": "ALCOHOL EL BUDA DESNAT 1LT",
     "uxb": 8,
-    "precio_vta": 2518
+    "precio_vta": 2999
   },
   {
     "codigos": 471854,
@@ -2640,6 +2712,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1468
   },
   {
+    "codigos": 473096,
+    "productos": "ALCOHOL SANACUTIS GEL 500CC",
+    "uxb": 1,
+    "precio_vta": 1099
+  },
+  {
     "codigos": 473785,
     "productos": "ALCOHOL TU-DOC ETIL 250ML",
     "uxb": 20,
@@ -2655,7 +2733,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 194,
     "productos": "ALCOHOL VILLA IRIS ETIL 500ML",
     "uxb": 20,
-    "precio_vta": 1573
+    "precio_vta": 1699
   },
   {
     "codigos": 460890,
@@ -2680,6 +2758,66 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ALF BON O BON TRIP. BCO x60g",
     "uxb": 21,
     "precio_vta": 1259
+  },
+  {
+    "codigos": 480710,
+    "productos": "ALF CAMPEONES DEL MUNDO x75g",
+    "uxb": 12,
+    "precio_vta": 1599
+  },
+  {
+    "codigos": 480577,
+    "productos": "ALF COFLER MOUSSE SIMPLE x40g",
+    "uxb": 40,
+    "precio_vta": 789
+  },
+  {
+    "codigos": 480570,
+    "productos": "ALF FANTOCHE PESCADO RAUL BCO x50g",
+    "uxb": 12,
+    "precio_vta": 699
+  },
+  {
+    "codigos": 480575,
+    "productos": "ALF FANTOCHE PESCADO RAUL NEGRO x50g",
+    "uxb": 12,
+    "precio_vta": 699
+  },
+  {
+    "codigos": 480576,
+    "productos": "ALF FANTOCHE RED VELVET TRIPLE x100g",
+    "uxb": 12,
+    "precio_vta": 999
+  },
+  {
+    "codigos": 480587,
+    "productos": "ALF FULL MANI GEORGALOS x40g",
+    "uxb": 24,
+    "precio_vta": 629
+  },
+  {
+    "codigos": 476724,
+    "productos": "ALF HAMLET CHOC x36 gr",
+    "uxb": 56,
+    "precio_vta": 379
+  },
+  {
+    "codigos": 480586,
+    "productos": "ALF PAMELA TRIPLE BLANCO x60g",
+    "uxb": 24,
+    "precio_vta": 449
+  },
+  {
+    "codigos": 480585,
+    "productos": "ALF PAMELA TRIPLE NEGRO x60g",
+    "uxb": 24,
+    "precio_vta": 449
+  },
+  {
+    "codigos": 480647,
+    "productos": "ALF VAUQUITA BCO x72g",
+    "uxb": 24,
+    "precio_vta": 1049
   },
   {
     "codigos": 4695,
@@ -2752,6 +2890,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ALF. BLANCO SIMPLE LA ALDEA X60G",
     "uxb": 12,
     "precio_vta": 1154
+  },
+  {
+    "codigos": 467355,
+    "productos": "ALF. BLANCO VAUQUITA JUNIOR X60G",
+    "uxb": 24,
+    "precio_vta": 500
   },
   {
     "codigos": 4627,
@@ -2961,13 +3105,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 207,
     "productos": "ALF. FULBITO CHOCOLATE x30G",
     "uxb": 40,
-    "precio_vta": 179
+    "precio_vta": 199
   },
   {
     "codigos": 11193,
     "productos": "ALF. FULBITO MANI x30g",
     "uxb": 40,
-    "precio_vta": 179
+    "precio_vta": 199
   },
   {
     "codigos": 9945,
@@ -3033,7 +3177,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479188,
     "productos": "ALF. HAMLET SIMPLE CHOCOMANI X34,5gr",
     "uxb": 40,
-    "precio_vta": 367
+    "precio_vta": 379
   },
   {
     "codigos": 214,
@@ -3093,13 +3237,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479111,
     "productos": "ALF. LUKA LECHE/CHOC X90gr",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1249
+  },
+  {
+    "codigos": 479710,
+    "productos": "ALF. MARLEY SIMPLE BCO X80GR",
+    "uxb": 20,
+    "precio_vta": 839
   },
   {
     "codigos": 476395,
     "productos": "ALF. MARLEY SIMPLE NEGRO X80GR",
     "uxb": 20,
     "precio_vta": 839
+  },
+  {
+    "codigos": 479712,
+    "productos": "ALF. MARLEY TRIPLE BCO X100GR",
+    "uxb": 16,
+    "precio_vta": 1249
+  },
+  {
+    "codigos": 479711,
+    "productos": "ALF. MARLEY TRIPLE NEGRO X100GR",
+    "uxb": 16,
+    "precio_vta": 1249
   },
   {
     "codigos": 463759,
@@ -3132,10 +3294,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1469
   },
   {
+    "codigos": 467356,
+    "productos": "ALF. NEGRO VAUQUITA JUNIOR X60G",
+    "uxb": 24,
+    "precio_vta": 500
+  },
+  {
     "codigos": 4425,
     "productos": "ALF. OREO TRIPLE x56g",
     "uxb": 36,
     "precio_vta": 1469
+  },
+  {
+    "codigos": 7784,
+    "productos": "ALF. PABLITO MAIZENA x2Kg",
+    "uxb": 1,
+    "precio_vta": 14799
+  },
+  {
+    "codigos": 7785,
+    "productos": "ALF. PABLITO x2Kg",
+    "uxb": 1,
+    "precio_vta": 14999
   },
   {
     "codigos": 4426,
@@ -3171,13 +3351,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4822,
     "productos": "ALF. SOLITAS MINI CHOC x160g",
     "uxb": 25,
-    "precio_vta": 1597
+    "precio_vta": 1693
   },
   {
     "codigos": 4829,
     "productos": "ALF. SOLITAS MINI CHOC x300g",
     "uxb": 14,
-    "precio_vta": 2831
+    "precio_vta": 3001
   },
   {
     "codigos": 12275,
@@ -3196,6 +3376,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ALF. SUBOM MAIZENA x6Un",
     "uxb": 20,
     "precio_vta": 1112
+  },
+  {
+    "codigos": 473993,
+    "productos": "ALF. TERRABUSI CLAS x6u",
+    "uxb": 16,
+    "precio_vta": 4999
   },
   {
     "codigos": 4529,
@@ -3222,6 +3408,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1469
   },
   {
+    "codigos": 463760,
+    "productos": "ALF. TITA X36gr",
+    "uxb": 54,
+    "precio_vta": 569
+  },
+  {
     "codigos": 466888,
     "productos": "ALF. TOFI SIMP CHOC x46g",
     "uxb": 36,
@@ -3238,6 +3430,36 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ALF. TOFI TRIPLE NEGRO",
     "uxb": 21,
     "precio_vta": 1363
+  },
+  {
+    "codigos": 228,
+    "productos": "ALF. TURIMAR TRIPLE BCO X60gr",
+    "uxb": 24,
+    "precio_vta": 399
+  },
+  {
+    "codigos": 227,
+    "productos": "ALF. TURIMAR TRIPLE NEGRO X60gr",
+    "uxb": 24,
+    "precio_vta": 399
+  },
+  {
+    "codigos": 3527,
+    "productos": "ALF. VAUQUITA CAPUCCINO X72GR",
+    "uxb": 24,
+    "precio_vta": 999
+  },
+  {
+    "codigos": 4877,
+    "productos": "ALF. VAUQUITA GLASEADO x72gr",
+    "uxb": 24,
+    "precio_vta": 1049
+  },
+  {
+    "codigos": 237,
+    "productos": "ALF. VAUQUITA NEGRO X80GR",
+    "uxb": 24,
+    "precio_vta": 999
   },
   {
     "codigos": 238,
@@ -3270,6 +3492,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 472
   },
   {
+    "codigos": 480569,
+    "productos": "ALFAJOR CHESCO BLACK x65g",
+    "uxb": 18,
+    "precio_vta": 999
+  },
+  {
     "codigos": 480451,
     "productos": "ALFAJOR CHOCOLATE GULA KING X 72G",
     "uxb": 18,
@@ -3292,12 +3520,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ALFOMBRA BASE DE GOMA DECORADA TEXCARPEL 40x50cm",
     "uxb": 1,
     "precio_vta": 2246
-  },
-  {
-    "codigos": 855,
-    "productos": "CHICLE BAZOOKA TUTTI x120u",
-    "uxb": 1,
-    "precio_vta": 4189
   },
   {
     "codigos": 472177,
@@ -3435,7 +3657,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460498,
     "productos": "ALGABO NATURAL TALQUERA POLVO FECULA 250G",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 9747,
@@ -3453,7 +3675,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463567,
     "productos": "ALGODON ALGABO DISCOS 80UN",
     "uxb": 36,
-    "precio_vta": 1889
+    "precio_vta": 1999
   },
   {
     "codigos": 475337,
@@ -3489,7 +3711,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5718,
     "productos": "ALGODON DONCELLA CLASICO x300gr",
     "uxb": 10,
-    "precio_vta": 2939
+    "precio_vta": 2999
   },
   {
     "codigos": 470579,
@@ -3519,13 +3741,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465562,
     "productos": "ALGODON DONCELLA x500g",
     "uxb": 10,
-    "precio_vta": 4304
+    "precio_vta": 4399
   },
   {
     "codigos": 5698,
     "productos": "ALGODON DONCELLA x70gr",
     "uxb": 40,
-    "precio_vta": 692
+    "precio_vta": 699
   },
   {
     "codigos": 9293,
@@ -4203,7 +4425,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478871,
     "productos": "ALIM.FLECKY P/PERRO CACHORRO CARN X10kg",
     "uxb": 1,
-    "precio_vta": 11990
+    "precio_vta": 12290
   },
   {
     "codigos": 3123,
@@ -4464,12 +4686,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7989
   },
   {
-    "codigos": 476245,
-    "productos": "ALPISTE AGROMAR x400g",
-    "uxb": 10,
-    "precio_vta": 649
-  },
-  {
     "codigos": 480472,
     "productos": "ALUMINIO EN ROLLO - FAMILIAR",
     "uxb": 30,
@@ -4491,61 +4707,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 266,
     "productos": "AMARGO MAROLIO x1.5L CITRUS",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 267,
     "productos": "AMARGO MAROLIO x1.5L CORDILLERA",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 268,
     "productos": "AMARGO MAROLIO x1.5L LIMON",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 269,
     "productos": "AMARGO MAROLIO x1.5L LIMON LIGH",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 10633,
     "productos": "AMARGO MAROLIO x1.5L MANZANA",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 10634,
     "productos": "AMARGO MAROLIO x1.5L POM ROSADO",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 270,
     "productos": "AMARGO MAROLIO x1.5L POMELO",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 272,
     "productos": "AMARGO MAROLIO x1.5L SERR LIGHT",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 4227,
     "productos": "AMARGO MAROLIO x1.5L SERR LIMON",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 271,
     "productos": "AMARGO MAROLIO x1.5L SERRANO",
     "uxb": 6,
-    "precio_vta": 899
+    "precio_vta": 979
   },
   {
     "codigos": 273,
@@ -4574,6 +4790,12 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 477946,
     "productos": "AMARGO SABOT POMELO x1.5lts",
+    "uxb": 6,
+    "precio_vta": 787
+  },
+  {
+    "codigos": 477942,
+    "productos": "AMARGO SABOT SERRANO x1.5lts",
     "uxb": 6,
     "precio_vta": 787
   },
@@ -4688,13 +4910,13 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 471863,
     "productos": "AMARGO TRES TORRES x1.5L CITRUS",
-    "uxb": 1,
+    "uxb": 12,
     "precio_vta": 1399
   },
   {
     "codigos": 470806,
     "productos": "AMARGO TRES TORRES x1.5L LIMON",
-    "uxb": 6,
+    "uxb": 12,
     "precio_vta": 1399
   },
   {
@@ -4712,7 +4934,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 470803,
     "productos": "AMARGO TRES TORRES x1.5L SERRANO",
-    "uxb": 6,
+    "uxb": 12,
     "precio_vta": 1399
   },
   {
@@ -4779,7 +5001,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467771,
     "productos": "AMETRALLADORA GUARD-2",
     "uxb": 1,
-    "precio_vta": 8249
+    "precio_vta": 9999
   },
   {
     "codigos": 477030,
@@ -4822,6 +5044,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ANAFE ELECTRICO OM-5111 IMP-E",
     "uxb": 12,
     "precio_vta": 24149
+  },
+  {
+    "codigos": 57548,
+    "productos": "ANAFE ONICA DOS HORNALLAS TUCU",
+    "uxb": 1,
+    "precio_vta": 34900
   },
   {
     "codigos": 476023,
@@ -4869,7 +5097,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462256,
     "productos": "ANANA LA BANDA RODAJAS x836g",
     "uxb": 12,
-    "precio_vta": 5774
+    "precio_vta": 5799
   },
   {
     "codigos": 278,
@@ -4971,7 +5199,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473426,
     "productos": "ANIS EN GRANO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1154
+    "precio_vta": 1199
   },
   {
     "codigos": 479184,
@@ -5020,6 +5248,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ANTEOJOS DE CICLISTA X1UN",
     "uxb": 1,
     "precio_vta": 3500
+  },
+  {
+    "codigos": 480815,
+    "productos": "ANTEOJOS PLAST. ARGENTINA x3 TUKY",
+    "uxb": 1,
+    "precio_vta": 1199
   },
   {
     "codigos": 477811,
@@ -5139,7 +5373,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10237,
     "productos": "APERITIVO APEROL x750ml",
     "uxb": 6,
-    "precio_vta": 10142
+    "precio_vta": 9999
   },
   {
     "codigos": 473980,
@@ -5157,7 +5391,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467258,
     "productos": "APILABLE STAR x1.5Lt x2u",
     "uxb": 12,
-    "precio_vta": 2535
+    "precio_vta": 2789
   },
   {
     "codigos": 476227,
@@ -5169,7 +5403,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8189,
     "productos": "APOSITO POST PARTO DONCELLA x10u",
     "uxb": 20,
-    "precio_vta": 1574
+    "precio_vta": 1599
   },
   {
     "codigos": 465639,
@@ -5280,16 +5514,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7080
   },
   {
+    "codigos": 480729,
+    "productos": "ARITO FRUTALES BURBUJAS x90g",
+    "uxb": 30,
+    "precio_vta": 1049
+  },
+  {
     "codigos": 468171,
     "productos": "ARITO/BOLITA COLOR EL MAKZAL x 60g",
     "uxb": 1,
     "precio_vta": 567
-  },
-  {
-    "codigos": 473041,
-    "productos": "ARITOS AVENA Y MIEL 3 ARROYOS x180g",
-    "uxb": 20,
-    "precio_vta": 1049
   },
   {
     "codigos": 477907,
@@ -5298,16 +5532,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2099
   },
   {
-    "codigos": 8534,
-    "productos": "ARITOS C/MIEL GRANIX x130gr",
-    "uxb": 10,
-    "precio_vta": 1364
-  },
-  {
     "codigos": 10059,
     "productos": "ARITOS DE ARROZ DOS HERMANOS CREM/CEB",
     "uxb": 10,
-    "precio_vta": 997
+    "precio_vta": 999
   },
   {
     "codigos": 469223,
@@ -5331,7 +5559,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473039,
     "productos": "ARITOS FRUTALES 3 ARROYOS x160g",
     "uxb": 20,
-    "precio_vta": 1050
+    "precio_vta": 1099
   },
   {
     "codigos": 466988,
@@ -5517,7 +5745,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460488,
     "productos": "AROM GLADE AUTO SPORT REP NUEVO",
     "uxb": 12,
-    "precio_vta": 6298
+    "precio_vta": 6999
   },
   {
     "codigos": 479580,
@@ -5548,6 +5776,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "AROM. TEXTIL SMELL FRESH YASMIN x200cc",
     "uxb": 12,
     "precio_vta": 2834
+  },
+  {
+    "codigos": 480567,
+    "productos": "AROMA DE MANTECA SABOR SUR x30cc",
+    "uxb": 8,
+    "precio_vta": 1449
   },
   {
     "codigos": 479482,
@@ -5808,6 +6042,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2519
   },
   {
+    "codigos": 480818,
+    "productos": "ARQUELIN ARGENTINA TUKY",
+    "uxb": 1,
+    "precio_vta": 2999
+  },
+  {
     "codigos": 475878,
     "productos": "ARRANCA MOTORES RG2 ESCUDO x360cc",
     "uxb": 12,
@@ -5853,7 +6093,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470727,
     "productos": "ARROZ C/DCE DE LECHE TREGAR x180gr",
     "uxb": 20,
-    "precio_vta": 1207
+    "precio_vta": 1299
   },
   {
     "codigos": 11167,
@@ -5892,16 +6132,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 529
   },
   {
-    "codigos": 470728,
-    "productos": "ARROZ CON LECHE C/CANELA TREGAR x180g",
-    "uxb": 20,
-    "precio_vta": 1111
-  },
-  {
     "codigos": 470729,
     "productos": "ARROZ CON LECHE CLASICO TREGAR x180gr",
     "uxb": 20,
-    "precio_vta": 1207
+    "precio_vta": 1299
   },
   {
     "codigos": 9066,
@@ -5985,7 +6219,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467316,
     "productos": "ARROZ EL DIQUE L.F X 500G",
     "uxb": 12,
-    "precio_vta": 439
+    "precio_vta": 499
   },
   {
     "codigos": 471973,
@@ -6027,7 +6261,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476605,
     "productos": "ARROZ GALLO PARBO X1 KG",
     "uxb": 10,
-    "precio_vta": 1899
+    "precio_vta": 1890
   },
   {
     "codigos": 475063,
@@ -6075,19 +6309,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460974,
     "productos": "ARROZ MAROLIO DOBLE 1KG",
     "uxb": 10,
-    "precio_vta": 1599
+    "precio_vta": 1899
   },
   {
     "codigos": 309,
     "productos": "ARROZ MAROLIO L.F 500G",
     "uxb": 12,
-    "precio_vta": 499
+    "precio_vta": 619
   },
   {
     "codigos": 460987,
     "productos": "ARROZ MAROLIO L.F x1kg",
     "uxb": 10,
-    "precio_vta": 949
+    "precio_vta": 1099
   },
   {
     "codigos": 464201,
@@ -6099,7 +6333,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464200,
     "productos": "ARROZ MAROLIO PARBOLIZADO X500G",
     "uxb": 12,
-    "precio_vta": 849
+    "precio_vta": 999
   },
   {
     "codigos": 478259,
@@ -6162,6 +6396,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1199
   },
   {
+    "codigos": 311,
+    "productos": "ARROZ MOLINOS ALA L.F x500g",
+    "uxb": 10,
+    "precio_vta": 719
+  },
+  {
     "codigos": 10520,
     "productos": "ARROZ MOLTO DOBLE CAROLINA X 500G",
     "uxb": 12,
@@ -6171,7 +6411,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4188,
     "productos": "ARROZ MOLTO DOBLE X 1KG",
     "uxb": 10,
-    "precio_vta": 1799
+    "precio_vta": 1999
   },
   {
     "codigos": 10819,
@@ -6183,19 +6423,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9725,
     "productos": "ARROZ MOLTO INTEGRAL X 500G",
     "uxb": 12,
-    "precio_vta": 599
+    "precio_vta": 679
   },
   {
     "codigos": 460315,
     "productos": "ARROZ MOLTO L.F 500G",
     "uxb": 12,
-    "precio_vta": 599
+    "precio_vta": 649
   },
   {
     "codigos": 7415,
     "productos": "ARROZ MOLTO L.F X 1KG",
     "uxb": 10,
-    "precio_vta": 1099
+    "precio_vta": 1199
   },
   {
     "codigos": 462931,
@@ -6207,7 +6447,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9723,
     "productos": "ARROZ MOLTO PARBOLIZADO X 1KG",
     "uxb": 10,
-    "precio_vta": 1799
+    "precio_vta": 1899
   },
   {
     "codigos": 9724,
@@ -6219,13 +6459,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 312,
     "productos": "ARROZ MONEDA L.F x1kg",
     "uxb": 5,
-    "precio_vta": 949
+    "precio_vta": 999
   },
   {
     "codigos": 313,
     "productos": "ARROZ MONEDA LARGO FINO x500gr",
     "uxb": 10,
-    "precio_vta": 559
+    "precio_vta": 569
   },
   {
     "codigos": 468482,
@@ -6294,12 +6534,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 449
   },
   {
-    "codigos": 463585,
-    "productos": "ART 463585 VANOL MAX",
-    "uxb": 1,
-    "precio_vta": 6299
-  },
-  {
     "codigos": 463313,
     "productos": "ART ACT PLUS",
     "uxb": 1,
@@ -6313,7 +6547,7 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 468599,
-    "productos": "ART ANA P TIRA x8un",
+    "productos": "ART ANAFLEX P x8un",
     "uxb": 1,
     "precio_vta": 3449
   },
@@ -6322,6 +6556,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ART DICLO. PRIDINOL 50 T.15",
     "uxb": 1,
     "precio_vta": 799
+  },
+  {
+    "codigos": 463585,
+    "productos": "ART IBUEVANOL MAX T20",
+    "uxb": 1,
+    "precio_vta": 6299
   },
   {
     "codigos": 469570,
@@ -6334,6 +6574,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ART LORA AEROTINA T10",
     "uxb": 1,
     "precio_vta": 6199
+  },
+  {
+    "codigos": 469569,
+    "productos": "ART LORAT VAN T10",
+    "uxb": 1,
+    "precio_vta": 899
   },
   {
     "codigos": 474977,
@@ -6369,7 +6615,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479059,
     "productos": "ART TE VIVITA FORTE ANTIGRIPAL x1Un.",
     "uxb": 1,
-    "precio_vta": 799
+    "precio_vta": 1199
   },
   {
     "codigos": 461043,
@@ -6381,13 +6627,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466264,
     "productos": "ART. 466264 MYLANTA",
     "uxb": 1,
-    "precio_vta": 2919
+    "precio_vta": 3599
   },
   {
     "codigos": 6096,
     "productos": "ART. 6096 CAF T10",
     "uxb": 1,
-    "precio_vta": 1950
+    "precio_vta": 1999
   },
   {
     "codigos": 6097,
@@ -6405,13 +6651,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6100,
     "productos": "ART. 6100 SER C T10",
     "uxb": 1,
-    "precio_vta": 6699
+    "precio_vta": 6999
   },
   {
     "codigos": 6101,
     "productos": "ART. 6101 MIG 500 T10",
     "uxb": 1,
-    "precio_vta": 4199
+    "precio_vta": 4299
   },
   {
     "codigos": 6102,
@@ -6426,22 +6672,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5799
   },
   {
-    "codigos": 6104,
-    "productos": "ART. 6104 BUS C T10",
-    "uxb": 6,
-    "precio_vta": 6490
-  },
-  {
     "codigos": 6105,
     "productos": "ART. 6105 MEJ N T10",
     "uxb": 1,
     "precio_vta": 2799
-  },
-  {
-    "codigos": 6106,
-    "productos": "ART. 6106 ANA/DIOXAFLEX T16",
-    "uxb": 1,
-    "precio_vta": 5489
   },
   {
     "codigos": 6107,
@@ -6453,7 +6687,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6284,
     "productos": "ART. 6284 ASP T14",
     "uxb": 7,
-    "precio_vta": 749
+    "precio_vta": 849
   },
   {
     "codigos": 6373,
@@ -6483,7 +6717,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6839,
     "productos": "ART. 6839 CK RENA F",
     "uxb": 1,
-    "precio_vta": 2799
+    "precio_vta": 2599
   },
   {
     "codigos": 6840,
@@ -6519,13 +6753,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6864,
     "productos": "ART. 6864 NOVAL 500 T10",
     "uxb": 1,
-    "precio_vta": 5599
+    "precio_vta": 5999
   },
   {
     "codigos": 6865,
     "productos": "ART. 6865 QP T20",
     "uxb": 1,
-    "precio_vta": 8299
+    "precio_vta": 8599
   },
   {
     "codigos": 6866,
@@ -6561,7 +6795,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7086,
     "productos": "ART. 7086 SER PERLA T10",
     "uxb": 1,
-    "precio_vta": 4599
+    "precio_vta": 4799
   },
   {
     "codigos": 7573,
@@ -6600,16 +6834,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2329
   },
   {
-    "codigos": 9802,
-    "productos": "ART. 9802 FENO 600 TRB T10",
+    "codigos": 6449,
+    "productos": "ART. AMOXIDAL 500X8",
     "uxb": 1,
-    "precio_vta": 799
+    "precio_vta": 2699
   },
   {
     "codigos": 478607,
     "productos": "ART. ANGI x30Un",
     "uxb": 1,
     "precio_vta": 9999
+  },
+  {
+    "codigos": 6104,
+    "productos": "ART. BUSCAPINA C T10",
+    "uxb": 6,
+    "precio_vta": 6490
   },
   {
     "codigos": 7010,
@@ -6619,7 +6859,7 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 471546,
-    "productos": "ART. FENO 400 HLB",
+    "productos": "ART. IBUPROFENO 400TRB X10",
     "uxb": 1,
     "precio_vta": 629
   },
@@ -6627,7 +6867,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478606,
     "productos": "ART. TAF DUO 500MG",
     "uxb": 1,
-    "precio_vta": 3699
+    "precio_vta": 4299
   },
   {
     "codigos": 460881,
@@ -6642,12 +6882,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 749
   },
   {
-    "codigos": 6449,
-    "productos": "ART.6449 AMO 500x8",
-    "uxb": 1,
-    "precio_vta": 2699
-  },
-  {
     "codigos": 7582,
     "productos": "ART.7582 ACT 600 T10",
     "uxb": 2,
@@ -6660,10 +6894,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2899
   },
   {
+    "codigos": 6106,
+    "productos": "ART.ANAF/DIOXAFLEX T16",
+    "uxb": 1,
+    "precio_vta": 6999
+  },
+  {
     "codigos": 479256,
     "productos": "ART.CEFALEXINA FAB T8 x500GR",
     "uxb": 1,
     "precio_vta": 2449
+  },
+  {
+    "codigos": 9802,
+    "productos": "ART.IBUPROFENO 600 TRB T10",
+    "uxb": 1,
+    "precio_vta": 799
   },
   {
     "codigos": 471549,
@@ -6738,12 +6984,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 499
   },
   {
-    "codigos": 2994,
-    "productos": "ARVEJAS INCA REMOJADAS 350G",
-    "uxb": 24,
-    "precio_vta": 749
-  },
-  {
     "codigos": 475596,
     "productos": "ARVEJAS LA GRINGA REMOJADAS x205g",
     "uxb": 24,
@@ -6762,28 +7002,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 449
   },
   {
-    "codigos": 460653,
-    "productos": "ARVEJAS MOLTO SECAS REMOJADAS LATA 300G",
-    "uxb": 24,
-    "precio_vta": 599
-  },
-  {
     "codigos": 5548,
     "productos": "ARVEJAS MOLTO TETRA RECART 340G",
     "uxb": 24,
     "precio_vta": 599
-  },
-  {
-    "codigos": 475573,
-    "productos": "ARVEJAS MONTENEVI TETRA x340g",
-    "uxb": 24,
-    "precio_vta": 399
-  },
-  {
-    "codigos": 479576,
-    "productos": "ARVEJAS PAGOS DEL SUR x205g",
-    "uxb": 24,
-    "precio_vta": 449
   },
   {
     "codigos": 466752,
@@ -6804,22 +7026,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 590
   },
   {
-    "codigos": 461748,
-    "productos": "ARVEJAS PARTIDAS MAROLIO X400G",
-    "uxb": 10,
-    "precio_vta": 899
-  },
-  {
     "codigos": 465537,
     "productos": "ARVEJAS PARTIDAS MONEDA x400g",
     "uxb": 10,
-    "precio_vta": 520
+    "precio_vta": 528
   },
   {
     "codigos": 480458,
     "productos": "ARVEJAS REM LA BANDA x340g",
     "uxb": 24,
-    "precio_vta": 569
+    "precio_vta": 599
   },
   {
     "codigos": 477156,
@@ -6904,6 +7120,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ASADERA RECT. FORNERIE N1",
     "uxb": 1,
     "precio_vta": 6299
+  },
+  {
+    "codigos": 480376,
+    "productos": "ASADERA RECT. FORNERIE N2",
+    "uxb": 1,
+    "precio_vta": 6999
   },
   {
     "codigos": 480393,
@@ -6993,13 +7215,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475050,
     "productos": "ATUN DESM. DEL MAR LA CAMPG AC X170GR",
     "uxb": 24,
-    "precio_vta": 4093
+    "precio_vta": 2999
   },
   {
     "codigos": 474517,
     "productos": "ATUN DESM. DEL MAR LA CAMPG NAT X170G",
     "uxb": 24,
-    "precio_vta": 4093
+    "precio_vta": 2999
   },
   {
     "codigos": 10184,
@@ -7012,6 +7234,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ATUN DESM. DIQUE NAT 170G",
     "uxb": 48,
     "precio_vta": 1259
+  },
+  {
+    "codigos": 480825,
+    "productos": "ATUN DESM. EN ACEITE OKEY LATA X 170G",
+    "uxb": 48,
+    "precio_vta": 1099
   },
   {
     "codigos": 475110,
@@ -7044,10 +7272,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1994
   },
   {
+    "codigos": 6686,
+    "productos": "ATUN DESM.LA BANDA 170g ACE-AGUA",
+    "uxb": 48,
+    "precio_vta": 1499
+  },
+  {
+    "codigos": 8289,
+    "productos": "ATUN DESM.LA BANDA 170g NATURAL",
+    "uxb": 48,
+    "precio_vta": 1499
+  },
+  {
     "codigos": 1666,
     "productos": "ATUN GOMES DA COSTA TROZOS ACEIT X170g",
     "uxb": 24,
     "precio_vta": 2623
+  },
+  {
+    "codigos": 6685,
+    "productos": "ATUN LOMITO ACEITE LA BANDA 170g",
+    "uxb": 48,
+    "precio_vta": 2699
+  },
+  {
+    "codigos": 5290,
+    "productos": "ATUN LOMITO LA BANDA 170G NATURAL",
+    "uxb": 48,
+    "precio_vta": 2699
   },
   {
     "codigos": 12357,
@@ -7755,7 +8007,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467005,
     "productos": "AVENA JOSE LOPEZ ARROLL 400G",
     "uxb": 10,
-    "precio_vta": 1153
+    "precio_vta": 1099
   },
   {
     "codigos": 477546,
@@ -7774,12 +8026,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "AVENA MBOX MANZ/CANELA MOL.CAÑUELAS x59gr",
     "uxb": 12,
     "precio_vta": 1154
-  },
-  {
-    "codigos": 3794,
-    "productos": "AVENA QUAKER EXTRA FINA 470GR",
-    "uxb": 18,
-    "precio_vta": 3149
   },
   {
     "codigos": 477806,
@@ -7964,7 +8210,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 478461,
     "productos": "AZUCAR IMPALPABLE SABOR SUR x200gr",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 2269
   },
   {
@@ -7983,7 +8229,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 352,
     "productos": "AZUCAR LEDESMA x1kg",
     "uxb": 10,
-    "precio_vta": 1299
+    "precio_vta": 1359
   },
   {
     "codigos": 9812,
@@ -8013,13 +8259,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14158,
     "productos": "AZUCAR SUELTA LEDESMA xKILO",
     "uxb": 100,
-    "precio_vta": 999
+    "precio_vta": 1190
   },
   {
     "codigos": 13810,
     "productos": "AZUCAR SUELTA x KILO",
     "uxb": 100,
-    "precio_vta": 849
+    "precio_vta": 899
   },
   {
     "codigos": 10585,
@@ -8037,13 +8283,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472047,
     "productos": "AZUCARERA DE VIDRIO C/CUCHARITA IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 3119
+    "precio_vta": 3431
   },
   {
     "codigos": 472026,
     "productos": "AZUCARERAS DE VIDRIO C/PICO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 3419
+    "precio_vta": 3761
   },
   {
     "codigos": 4375,
@@ -8175,19 +8421,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473585,
     "productos": "BALDE 10LTS COLOR STAR",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4619
   },
   {
     "codigos": 8717,
     "productos": "BALDE 10LTS HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 2204
+    "precio_vta": 2425
   },
   {
     "codigos": 461211,
     "productos": "BALDE C/ESCURRIDOR x12l LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 9555
+    "precio_vta": 10511
   },
   {
     "codigos": 466220,
@@ -8199,13 +8445,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1801,
     "productos": "BALDE DE 12lts HERALDPLAST",
     "uxb": 12,
-    "precio_vta": 3139
+    "precio_vta": 3453
   },
   {
     "codigos": 479802,
     "productos": "BALDE ESCURR. C/MOPA LUCIANA",
     "uxb": 1,
     "precio_vta": 20999
+  },
+  {
+    "codigos": 480701,
+    "productos": "BALDE ESCURRIDOR MEDIA NARANJA",
+    "uxb": 6,
+    "precio_vta": 8999
   },
   {
     "codigos": 468296,
@@ -8223,19 +8475,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475832,
     "productos": "BALDE NEGRO STAR COMPANY x1Un",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 7481,
     "productos": "BALDE OVALADO C/ESCURR ROMYL",
     "uxb": 6,
-    "precio_vta": 8924
+    "precio_vta": 9817
   },
   {
     "codigos": 7359,
     "productos": "BALDE PLASTICO x12L ROMYL",
     "uxb": 1,
-    "precio_vta": 3359
+    "precio_vta": 3695
   },
   {
     "codigos": 476904,
@@ -8274,10 +8526,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2299
   },
   {
+    "codigos": 469931,
+    "productos": "BANANIITA DOLCA GRANDE x30G",
+    "uxb": 16,
+    "precio_vta": 1199
+  },
+  {
     "codigos": 461565,
     "productos": "BANANITA DOLCA CHICA X14g",
     "uxb": 16,
-    "precio_vta": 419
+    "precio_vta": 669
   },
   {
     "codigos": 470100,
@@ -8310,6 +8568,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 599
   },
   {
+    "codigos": 480797,
+    "productos": "BANDEJ/VIDRIO BAKING TRAY IMP EMA 56382",
+    "uxb": 1,
+    "precio_vta": 9900
+  },
+  {
     "codigos": 5525,
     "productos": "BANDEJA ALUMINIO N20 TUCU",
     "uxb": 1000,
@@ -8320,6 +8584,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BANDEJA ALUMINIO N21 TUCU",
     "uxb": 100,
     "precio_vta": 358
+  },
+  {
+    "codigos": 67960,
+    "productos": "BANDEJA ALUMINIO RECT N23 TUCU",
+    "uxb": 1,
+    "precio_vta": 390
   },
   {
     "codigos": 471754,
@@ -8352,6 +8622,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 358
   },
   {
+    "codigos": 67961,
+    "productos": "BANDEJA ALUMINIO RED N26 TUCU",
+    "uxb": 1,
+    "precio_vta": 490
+  },
+  {
     "codigos": 471755,
     "productos": "BANDEJA ALUMINIO RED N30 TUCU",
     "uxb": 1,
@@ -8367,13 +8643,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10435,
     "productos": "BANDEJA CONT RECT 10.5lt HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 2414
+    "precio_vta": 2656
   },
   {
     "codigos": 460367,
     "productos": "BANDEJA CONT RECT 14lts HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 4467
+    "precio_vta": 4914
   },
   {
     "codigos": 1821,
@@ -8445,13 +8721,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480342,
     "productos": "BANDEJA DESAYUNO CHICA EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 4829
+    "precio_vta": 5312
   },
   {
     "codigos": 480212,
     "productos": "BANDEJA DESAYUNO EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 4934
+    "precio_vta": 5499
   },
   {
     "codigos": 480249,
@@ -8493,13 +8769,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473776,
     "productos": "BANDEJA OVALADA N 105 DISTRI x100Un.",
     "uxb": 1,
-    "precio_vta": 13124
+    "precio_vta": 18899
   },
   {
     "codigos": 472610,
     "productos": "BANDEJA OVALADA N 105 DISTRIV x50Un.",
     "uxb": 1,
-    "precio_vta": 7218
+    "precio_vta": 9449
   },
   {
     "codigos": 478646,
@@ -8512,6 +8788,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BANDEJA PIZZINI OFICIO 3P NEGRA",
     "uxb": 1,
     "precio_vta": 39999
+  },
+  {
+    "codigos": 87962,
+    "productos": "BANDEJA PLAS OVAL 105 X10u TUCU",
+    "uxb": 1,
+    "precio_vta": 2390
   },
   {
     "codigos": 2799,
@@ -8562,6 +8844,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 718
   },
   {
+    "codigos": 476061,
+    "productos": "BANDEJA PLAST. x32cm SOIFER",
+    "uxb": 24,
+    "precio_vta": 1839
+  },
+  {
     "codigos": 476112,
     "productos": "BANDEJA PLAST. x39cm SOIFER",
     "uxb": 1,
@@ -8584,6 +8872,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BANDEJA RECTANGULAR 30X40cm YESI",
     "uxb": 20,
     "precio_vta": 3463
+  },
+  {
+    "codigos": 67962,
+    "productos": "BANDEJA RED CARTON N14 X10U TUCU",
+    "uxb": 1,
+    "precio_vta": 1378
   },
   {
     "codigos": 4860,
@@ -8620,6 +8914,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BANDEJAS PLASTICAS DIVISIONES DISTRIx1U",
     "uxb": 1,
     "precio_vta": 2624
+  },
+  {
+    "codigos": 480816,
+    "productos": "BANDERIN D/CARTULINA ARGENTINA",
+    "uxb": 1,
+    "precio_vta": 1999
+  },
+  {
+    "codigos": 480821,
+    "productos": "BANDERIN FELIZ CUMPLEAÑOS TUKY",
+    "uxb": 1,
+    "precio_vta": 1699
   },
   {
     "codigos": 461645,
@@ -8763,13 +9069,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460368,
     "productos": "BARON B BRUT NATURE x750cc",
     "uxb": 6,
-    "precio_vta": 32412
+    "precio_vta": 39999
   },
   {
     "codigos": 462257,
     "productos": "BARON B BRUT ROSE x750cc",
     "uxb": 6,
-    "precio_vta": 45874
+    "precio_vta": 39999
   },
   {
     "codigos": 835,
@@ -8784,6 +9090,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3699
   },
   {
+    "codigos": 480620,
+    "productos": "BARRA CEREAL BILLIKEN FLLA Y YOGURT x25g",
+    "uxb": 16,
+    "precio_vta": 469
+  },
+  {
+    "codigos": 480621,
+    "productos": "BARRA CEREAL BILLIKEN MANZANA x21g",
+    "uxb": 16,
+    "precio_vta": 469
+  },
+  {
     "codigos": 471290,
     "productos": "BARRA DELICIA CHOCOLATE Y MANI GRIDO x600g",
     "uxb": 1,
@@ -8793,19 +9111,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13180,
     "productos": "BARRA MARIA LUISA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9699
+    "precio_vta": 10899
   },
   {
     "codigos": 13371,
     "productos": "BARRA MARIA LUISA FETAS",
     "uxb": 1,
-    "precio_vta": 11899
+    "precio_vta": 13299
   },
   {
     "codigos": 13179,
     "productos": "BARRA MARIA LUISA HORMA",
     "uxb": 1,
-    "precio_vta": 8799
+    "precio_vta": 9899
   },
   {
     "codigos": 475213,
@@ -8880,10 +9198,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3499
   },
   {
-    "codigos": 306,
-    "productos": "BARTENDERS PETERS BANANA 950",
-    "uxb": 1,
-    "precio_vta": 2193
+    "codigos": 480747,
+    "productos": "BASTONCITO KETCHUP BURBUJAS x1Kg",
+    "uxb": 5,
+    "precio_vta": 6999
   },
   {
     "codigos": 469016,
@@ -8904,10 +9222,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1935
   },
   {
+    "codigos": 480592,
+    "productos": "BASTONITO EXT. QUESO KRACHITOS x240g",
+    "uxb": 10,
+    "precio_vta": 4199
+  },
+  {
     "codigos": 469886,
     "productos": "BASTONITO KRACHITOS x300g",
     "uxb": 10,
-    "precio_vta": 4199
+    "precio_vta": 3599
   },
   {
     "codigos": 479850,
@@ -9016,6 +9340,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BATIDOR DE ALAMBRE CHICO AZAMIT",
     "uxb": 1,
     "precio_vta": 2017
+  },
+  {
+    "codigos": 480757,
+    "productos": "BATIDOR METAL IMP EMA 30131820",
+    "uxb": 1,
+    "precio_vta": 3999
   },
   {
     "codigos": 472354,
@@ -9183,49 +9513,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479039,
     "productos": "BEBIBLE BIBA AVENA 500cc",
     "uxb": 12,
-    "precio_vta": 899
+    "precio_vta": 1399
   },
   {
     "codigos": 480057,
     "productos": "BEBIDA ALMENDRAS BIBA S/AZUCAR x1lt",
     "uxb": 8,
-    "precio_vta": 2599
+    "precio_vta": 2999
   },
   {
     "codigos": 473389,
     "productos": "BEBIDA LACTEA LS BEBIBLE CAJA x1Lt.",
     "uxb": 12,
-    "precio_vta": 2071
+    "precio_vta": 2283
   },
   {
     "codigos": 479378,
     "productos": "BEBIDA LACTEA LS BEBIBLE COOKIES x900cc",
     "uxb": 1,
-    "precio_vta": 2291
+    "precio_vta": 2422
   },
   {
     "codigos": 475934,
     "productos": "BEBIDA LACTEA LS BEBIBLE DDL/DURAZ x900",
     "uxb": 17,
-    "precio_vta": 2291
+    "precio_vta": 2422
   },
   {
     "codigos": 475566,
     "productos": "BEBIDA LACTEA LS BEBIBLE S/AZU SACHET x900cc",
     "uxb": 17,
-    "precio_vta": 2291
+    "precio_vta": 2422
   },
   {
     "codigos": 468853,
     "productos": "BEBIDA LACTEA LS BEBIBLE SACHET x900cc",
     "uxb": 17,
-    "precio_vta": 2291
+    "precio_vta": 2526
   },
   {
     "codigos": 468720,
     "productos": "BEBIDA LACTEA LS BEBIBLE x200cc",
     "uxb": 24,
-    "precio_vta": 904
+    "precio_vta": 955
   },
   {
     "codigos": 473676,
@@ -9309,13 +9639,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479149,
     "productos": "BIBA ALMENDRAS x500cc",
     "uxb": 12,
-    "precio_vta": 1299
+    "precio_vta": 1399
   },
   {
     "codigos": 479415,
     "productos": "BIC MAQUINA DESECHABLE PACK X5 LADY",
     "uxb": 10,
     "precio_vta": 2199
+  },
+  {
+    "codigos": 480631,
+    "productos": "BICARB. D/SODIO LA PARMESANA x50gr",
+    "uxb": 30,
+    "precio_vta": 699
   },
   {
     "codigos": 488,
@@ -9326,7 +9662,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466804,
     "productos": "BICARBONATO AROMAS/SABORES x50g",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 491
   },
   {
@@ -9357,7 +9693,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469502,
     "productos": "BICARBONATO SABOR SUR x 25g",
     "uxb": 5,
-    "precio_vta": 629
+    "precio_vta": 879
   },
   {
     "codigos": 480495,
@@ -9384,6 +9720,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 17534
   },
   {
+    "codigos": 480780,
+    "productos": "BIFERA SUKA 28cm IMP EMA RE1628A",
+    "uxb": 1,
+    "precio_vta": 19999
+  },
+  {
     "codigos": 465434,
     "productos": "BILLETERA IMP.EMANUEL BA-63276",
     "uxb": 1,
@@ -9399,13 +9741,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 502,
     "productos": "BISC. RELL. PICNIC 38g",
     "uxb": 40,
-    "precio_vta": 346
+    "precio_vta": 379
   },
   {
     "codigos": 473081,
     "productos": "BISCOTTI DORYS X 100G",
     "uxb": 16,
-    "precio_vta": 524
+    "precio_vta": 569
   },
   {
     "codigos": 479032,
@@ -9423,13 +9765,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5598,
     "productos": "BISCUITS HJ SORIANO 130G",
     "uxb": 32,
-    "precio_vta": 1228
+    "precio_vta": 1299
   },
   {
     "codigos": 5169,
     "productos": "BISCUITS SORIANO 125G",
     "uxb": 16,
-    "precio_vta": 1364
+    "precio_vta": 1449
   },
   {
     "codigos": 492,
@@ -9570,16 +9912,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3149
   },
   {
+    "codigos": 461010,
+    "productos": "BIZCOCHUELO EXQUISITA LIMON 540g",
+    "uxb": 12,
+    "precio_vta": 2699
+  },
+  {
     "codigos": 499,
     "productos": "BIZCOCHUELO EXQUISITA NARANJA x540gr",
     "uxb": 12,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 490,
     "productos": "BIZCOCHUELO EXQUISITA VAINILLA x540gr",
     "uxb": 12,
-    "precio_vta": 2781
+    "precio_vta": 2699
   },
   {
     "codigos": 461134,
@@ -9699,25 +10047,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467042,
     "productos": "BIZCOCHUELO VALIDO 3 CAPAS CHOCO x 500g",
     "uxb": 10,
-    "precio_vta": 3464
+    "precio_vta": 3499
   },
   {
     "codigos": 467043,
     "productos": "BIZCOCHUELO VALIDO 3 CAPAS VAI. x500g",
     "uxb": 10,
-    "precio_vta": 3149
+    "precio_vta": 3299
   },
   {
     "codigos": 6892,
     "productos": "BIZCOCHUELO VALIDO 680G CH",
     "uxb": 6,
-    "precio_vta": 4724
+    "precio_vta": 4759
   },
   {
     "codigos": 6893,
     "productos": "BIZCOCHUELO VALIDO 680G VAIN",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4499
   },
   {
     "codigos": 469208,
@@ -10005,7 +10353,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5574,
     "productos": "BLONDA X32cm X10U TUCU",
     "uxb": 1,
-    "precio_vta": 1078
+    "precio_vta": 1239
+  },
+  {
+    "codigos": 87954,
+    "productos": "BLONDAS 21cm X10U TUCU",
+    "uxb": 1,
+    "precio_vta": 990
+  },
+  {
+    "codigos": 87955,
+    "productos": "BLONDAS 25/26cm X10U TUCU",
+    "uxb": 1,
+    "precio_vta": 890
+  },
+  {
+    "codigos": 87956,
+    "productos": "BLONDAS 28cm X10U TUCU",
+    "uxb": 1,
+    "precio_vta": 990
+  },
+  {
+    "codigos": 87957,
+    "productos": "BLONDAS 30cm X10U TUCU",
+    "uxb": 1,
+    "precio_vta": 1099
+  },
+  {
+    "codigos": 87958,
+    "productos": "BLONDAS 35cm X10U TUCU",
+    "uxb": 1,
+    "precio_vta": 1190
   },
   {
     "codigos": 476939,
@@ -10032,22 +10410,46 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3811
   },
   {
+    "codigos": 511,
+    "productos": "BOCADITO CHOCOLATE TURIMAR x12uni",
+    "uxb": 10,
+    "precio_vta": 6199
+  },
+  {
+    "codigos": 480598,
+    "productos": "BOCADITO DRF MENTA x16gr",
+    "uxb": 24,
+    "precio_vta": 699
+  },
+  {
+    "codigos": 4636,
+    "productos": "BOCADITO HOLANDA 525G",
+    "uxb": 24,
+    "precio_vta": 10499
+  },
+  {
+    "codigos": 469330,
+    "productos": "BOCADITO HOLANDA X5UN",
+    "uxb": 1,
+    "precio_vta": 999
+  },
+  {
     "codigos": 2490,
     "productos": "BOCADITO OBLITA BCO DCE/LCHE X36U",
     "uxb": 12,
-    "precio_vta": 6299
+    "precio_vta": 6899
   },
   {
     "codigos": 2492,
     "productos": "BOCADITO OBLITA MARROC NEGRO X36U",
     "uxb": 12,
-    "precio_vta": 6299
+    "precio_vta": 6899
   },
   {
     "codigos": 2494,
     "productos": "BOCADITO OBLITA NEGRO DCE/LCHE X36U",
     "uxb": 12,
-    "precio_vta": 6299
+    "precio_vta": 6899
   },
   {
     "codigos": 7655,
@@ -10188,10 +10590,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 839
   },
   {
-    "codigos": 465587,
-    "productos": "BOLITAS CEREAL CHOCOLINO x200g",
-    "uxb": 24,
-    "precio_vta": 2623
+    "codigos": 480742,
+    "productos": "BOLITA CROCANTE BURBUJAS x400g",
+    "uxb": 10,
+    "precio_vta": 3999
+  },
+  {
+    "codigos": 480724,
+    "productos": "BOLITA DULCE BURBU CHOCK x90g",
+    "uxb": 30,
+    "precio_vta": 1049
+  },
+  {
+    "codigos": 480737,
+    "productos": "BOLITAS CROCANTES BURBUJAS x1Kg",
+    "uxb": 5,
+    "precio_vta": 6999
+  },
+  {
+    "codigos": 480730,
+    "productos": "BOLITAS CROCANTES BURBUJAS x80g",
+    "uxb": 30,
+    "precio_vta": 749
   },
   {
     "codigos": 11801,
@@ -10269,13 +10689,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462150,
     "productos": "BOLLITO BRONCE GO!x1u LA GAUCHITA",
     "uxb": 60,
-    "precio_vta": 1207
+    "precio_vta": 1199
   },
   {
     "codigos": 462145,
     "productos": "BOLLITO BRONCE GO!x2u LA GAUCHITA",
     "uxb": 60,
-    "precio_vta": 2309
+    "precio_vta": 2299
   },
   {
     "codigos": 8090,
@@ -10287,193 +10707,193 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 522,
     "productos": "BOLSA CAMISETA DISTRI 30X40",
     "uxb": 20,
-    "precio_vta": 1679
+    "precio_vta": 2032
   },
   {
     "codigos": 523,
     "productos": "BOLSA CAMISETA DISTRI BCA 40X50",
     "uxb": 20,
-    "precio_vta": 2939
+    "precio_vta": 4069
   },
   {
     "codigos": 6404,
     "productos": "BOLSA CAMISETA DISTRIVALLE 50X70",
     "uxb": 10,
-    "precio_vta": 4199
+    "precio_vta": 4999
   },
   {
     "codigos": 468276,
     "productos": "BOLSA CAMISETA ECONOMICA 40x50 DISTRIVALLE",
     "uxb": 20,
-    "precio_vta": 1154
+    "precio_vta": 1399
   },
   {
     "codigos": 473916,
     "productos": "BOLSA CONSORC MAXI-BAG ROLL 60x90",
     "uxb": 1,
-    "precio_vta": 889
+    "precio_vta": 978
   },
   {
     "codigos": 473906,
     "productos": "BOLSA CONSORC MAXI-BAG XXL 90X120 10UN",
     "uxb": 1,
-    "precio_vta": 2096
+    "precio_vta": 2305
   },
   {
     "codigos": 473918,
     "productos": "BOLSA CONSORC. MAXI-BAG 75X100 10UN",
     "uxb": 1,
-    "precio_vta": 1397
+    "precio_vta": 1537
   },
   {
     "codigos": 473902,
     "productos": "BOLSA CONSORC. MAXI-BAG N 60X90 10UN",
     "uxb": 1,
-    "precio_vta": 1385
+    "precio_vta": 1524
   },
   {
     "codigos": 473903,
     "productos": "BOLSA CONSORC. MAXI-BAG R 60X90 10UN",
     "uxb": 1,
-    "precio_vta": 1154
+    "precio_vta": 1270
   },
   {
     "codigos": 474590,
     "productos": "BOLSA CONSORC. MAXI-BAG V 80X110 10UN",
     "uxb": 1,
-    "precio_vta": 1059
+    "precio_vta": 1165
   },
   {
     "codigos": 473915,
     "productos": "BOLSA CONSORC. MAXI-BAG XL 80x110 10UN",
     "uxb": 1,
-    "precio_vta": 2309
+    "precio_vta": 2540
   },
   {
     "codigos": 473907,
     "productos": "BOLSA CONSORC. MAXI-BAG XXL 100X110 10UN",
     "uxb": 1,
-    "precio_vta": 2922
+    "precio_vta": 3214
   },
   {
     "codigos": 472626,
     "productos": "BOLSA CONSORC. SILMAR 45X60CM",
     "uxb": 100,
-    "precio_vta": 419
+    "precio_vta": 461
   },
   {
     "codigos": 472627,
     "productos": "BOLSA CONSORC. SILMAR 50X70CM",
     "uxb": 100,
-    "precio_vta": 461
+    "precio_vta": 508
   },
   {
     "codigos": 472628,
     "productos": "BOLSA CONSORC. SILMAR 60X90CM",
     "uxb": 40,
-    "precio_vta": 524
+    "precio_vta": 577
   },
   {
     "codigos": 472630,
     "productos": "BOLSA CONSORC. SILMAR 80X110CM",
     "uxb": 20,
-    "precio_vta": 997
+    "precio_vta": 1097
   },
   {
     "codigos": 479137,
     "productos": "BOLSA CONSORCIO AD TUCU 60X90CM",
     "uxb": 1,
-    "precio_vta": 754
+    "precio_vta": 830
   },
   {
     "codigos": 3082,
     "productos": "BOLSA CONSORCIO BUDA  80X110CM",
     "uxb": 5,
-    "precio_vta": 2833
+    "precio_vta": 3117
   },
   {
     "codigos": 471533,
     "productos": "BOLSA CONSORCIO EL BUDA  60X90CM",
     "uxb": 10,
-    "precio_vta": 1468
+    "precio_vta": 1615
   },
   {
     "codigos": 471531,
     "productos": "BOLSA CONSORCIO EL BUDA 60X100CM",
     "uxb": 10,
-    "precio_vta": 1507
+    "precio_vta": 1658
   },
   {
     "codigos": 3087,
     "productos": "BOLSA CONSORCIO ESENCIAL 60X100CM",
     "uxb": 5,
-    "precio_vta": 1573
+    "precio_vta": 1731
   },
   {
     "codigos": 460776,
     "productos": "BOLSA CONSORCIO ESENCIAL 60X90CM",
     "uxb": 1,
-    "precio_vta": 1573
+    "precio_vta": 1699
   },
   {
     "codigos": 460775,
     "productos": "BOLSA CONSORCIO ESENCIAL 80X110CM",
     "uxb": 1,
-    "precio_vta": 2833
+    "precio_vta": 3117
   },
   {
     "codigos": 3084,
     "productos": "BOLSA CONSORCIO ESENCIAL 90X120CM",
     "uxb": 1,
-    "precio_vta": 4408
+    "precio_vta": 4849
   },
   {
     "codigos": 474589,
     "productos": "BOLSA CONSORCIO MAX-BAG VERD 60X90X10Un",
     "uxb": 1,
-    "precio_vta": 866
+    "precio_vta": 952
   },
   {
     "codigos": 477089,
     "productos": "BOLSA CONSORCIO MELLIS 45X60 X10UN",
     "uxb": 50,
-    "precio_vta": 388
+    "precio_vta": 427
   },
   {
     "codigos": 477090,
     "productos": "BOLSA CONSORCIO MELLIS 50X70 X10UN",
     "uxb": 50,
-    "precio_vta": 527
+    "precio_vta": 579
   },
   {
     "codigos": 477091,
     "productos": "BOLSA CONSORCIO MELLIS 60X90 X10UN",
     "uxb": 50,
-    "precio_vta": 897
+    "precio_vta": 987
   },
   {
     "codigos": 477092,
     "productos": "BOLSA CONSORCIO MELLIS 80X110 X10UN",
     "uxb": 30,
-    "precio_vta": 1480
+    "precio_vta": 1628
   },
   {
     "codigos": 477093,
     "productos": "BOLSA CONSORCIO MELLIS 90X120 X10UN",
     "uxb": 30,
-    "precio_vta": 2056
+    "precio_vta": 2262
   },
   {
     "codigos": 538,
     "productos": "BOLSA CONSORCIO ROMYL 60X90 X10UN",
     "uxb": 1,
-    "precio_vta": 1372
+    "precio_vta": 1509
   },
   {
     "codigos": 472631,
     "productos": "BOLSA CONSORCIO SILMAR 90X120CM",
     "uxb": 20,
-    "precio_vta": 1417
+    "precio_vta": 1559
   },
   {
     "codigos": 469775,
@@ -10497,43 +10917,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477727,
     "productos": "BOLSA DE CARBON x8Kg",
     "uxb": 1,
-    "precio_vta": 4990
+    "precio_vta": 5499
   },
   {
     "codigos": 528,
     "productos": "BOLSA DE CONSORCIO DISTRIVALLE 60X90CM",
     "uxb": 40,
-    "precio_vta": 944
+    "precio_vta": 1039
   },
   {
     "codigos": 7218,
     "productos": "BOLSA DE CONSORCIO DISTRIVALLE 80X110CM",
     "uxb": 20,
-    "precio_vta": 1732
+    "precio_vta": 1905
   },
   {
     "codigos": 830,
     "productos": "BOLSA DE CONSORCIO DISTRIVALLE 90X120CM",
     "uxb": 20,
-    "precio_vta": 1837
+    "precio_vta": 2021
   },
   {
     "codigos": 477580,
     "productos": "BOLSA DE RESIDUO BOLSIN 60x90cm xROLLO",
     "uxb": 1,
-    "precio_vta": 1132
+    "precio_vta": 1246
   },
   {
     "codigos": 8056,
     "productos": "BOLSA DE RESIDUO DISTRIVALLE 45x60cm",
     "uxb": 100,
-    "precio_vta": 419
+    "precio_vta": 461
   },
   {
     "codigos": 532,
     "productos": "BOLSA DE RESIDUO DISTRIVALLE 50X70CM",
     "uxb": 100,
-    "precio_vta": 524
+    "precio_vta": 577
   },
   {
     "codigos": 480343,
@@ -10557,283 +10977,295 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478522,
     "productos": "BOLSA ORGANIZAR GR ZIPLOC x15Un.",
     "uxb": 1,
-    "precio_vta": 6908
+    "precio_vta": 7599
   },
   {
     "codigos": 477653,
     "productos": "BOLSA P/LAVAR ROPA FINA TAURO 40x50CM",
     "uxb": 1,
-    "precio_vta": 3091
+    "precio_vta": 3400
   },
   {
     "codigos": 478524,
     "productos": "BOLSA P/LLEVAR ZIPLOC CHICA x50Un.",
     "uxb": 12,
-    "precio_vta": 5554
+    "precio_vta": 6109
   },
   {
     "codigos": 468263,
     "productos": "BOLSA PAPEL CHICA N4 x100Un.",
     "uxb": 1,
-    "precio_vta": 3281
+    "precio_vta": 3609
   },
   {
     "codigos": 468264,
     "productos": "BOLSA PAPEL GRANDE N6 x100Un.",
     "uxb": 1,
-    "precio_vta": 4068
+    "precio_vta": 4475
+  },
+  {
+    "codigos": 87952,
+    "productos": "BOLSA PARA REGALO CHICA XUN TUCU",
+    "uxb": 1,
+    "precio_vta": 1499
+  },
+  {
+    "codigos": 87953,
+    "productos": "BOLSA PARA REGALO GRANDE XUN TUCU",
+    "uxb": 1,
+    "precio_vta": 1990
   },
   {
     "codigos": 473645,
     "productos": "BOLSA POR UNIDAD",
     "uxb": 1,
-    "precio_vta": 44
+    "precio_vta": 49
   },
   {
     "codigos": 461964,
     "productos": "BOLSA RECIDUO DG 30X110 X10UN",
     "uxb": 20,
-    "precio_vta": 1499
+    "precio_vta": 1649
   },
   {
     "codigos": 463534,
     "productos": "BOLSA RECIDUO DG 45X60 X10UN",
     "uxb": 100,
-    "precio_vta": 1129
+    "precio_vta": 1242
   },
   {
     "codigos": 461966,
     "productos": "BOLSA RECIDUO DG 50X70 X10UN",
     "uxb": 1,
-    "precio_vta": 521
+    "precio_vta": 573
   },
   {
     "codigos": 461965,
     "productos": "BOLSA RECIDUO DG 60X90 X10UN",
     "uxb": 50,
-    "precio_vta": 903
+    "precio_vta": 993
   },
   {
     "codigos": 461967,
     "productos": "BOLSA RECIDUO DG 90X120 X10UN",
     "uxb": 20,
-    "precio_vta": 2292
+    "precio_vta": 2521
   },
   {
     "codigos": 10882,
     "productos": "BOLSA RECIDUO ESENCIAL 450X60CM",
     "uxb": 10,
-    "precio_vta": 1573
+    "precio_vta": 1731
   },
   {
     "codigos": 10883,
     "productos": "BOLSA RECIDUO ESENCIAL 50X70CM",
     "uxb": 10,
-    "precio_vta": 712
+    "precio_vta": 784
   },
   {
     "codigos": 475569,
     "productos": "BOLSA RECIDUO LA UNICA 50X70 X10UN",
     "uxb": 100,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 475570,
     "productos": "BOLSA RECIDUO LA UNICA 60X90 X10UN",
     "uxb": 50,
-    "precio_vta": 922
+    "precio_vta": 1015
   },
   {
     "codigos": 473647,
     "productos": "BOLSA REGALO RIÑON 30X40 x1Un",
     "uxb": 1,
-    "precio_vta": 171
+    "precio_vta": 188
   },
   {
     "codigos": 473648,
     "productos": "BOLSA REGALO RIÑON 34X45 x1Un",
     "uxb": 1,
-    "precio_vta": 190
+    "precio_vta": 209
   },
   {
     "codigos": 473649,
     "productos": "BOLSA REGALO RIÑON 40x50 x1Un",
     "uxb": 1,
-    "precio_vta": 215
+    "precio_vta": 236
   },
   {
     "codigos": 480284,
     "productos": "BOLSA RES.MR TRAPO 45X60cm",
     "uxb": 1,
-    "precio_vta": 482
+    "precio_vta": 531
   },
   {
     "codigos": 480422,
     "productos": "BOLSA RES.MR TRAPO 50x70cm",
     "uxb": 1,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 480285,
     "productos": "BOLSA RES.MR TRAPO 60X90cm",
     "uxb": 1,
-    "precio_vta": 944
+    "precio_vta": 1039
   },
   {
     "codigos": 480286,
     "productos": "BOLSA RES.MR TRAPO 80X110cm",
     "uxb": 1,
-    "precio_vta": 1574
+    "precio_vta": 1732
   },
   {
     "codigos": 480287,
     "productos": "BOLSA RES.MR TRAPO 90x120cm",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 474192,
     "productos": "BOLSA RESID. MAXI-BAG V 45X60 10UN",
     "uxb": 1,
-    "precio_vta": 698
+    "precio_vta": 768
   },
   {
     "codigos": 479773,
     "productos": "BOLSA RESIDUO ALUMAX 45X60CM",
     "uxb": 100,
-    "precio_vta": 419
+    "precio_vta": 461
   },
   {
     "codigos": 479774,
     "productos": "BOLSA RESIDUO ALUMAX 50X70CM",
     "uxb": 100,
-    "precio_vta": 524
+    "precio_vta": 577
   },
   {
     "codigos": 479775,
     "productos": "BOLSA RESIDUO ALUMAX 60X90CM",
     "uxb": 50,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 479776,
     "productos": "BOLSA RESIDUO ALUMAX 80X100CM",
     "uxb": 25,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 479777,
     "productos": "BOLSA RESIDUO ALUMAX 90X110CM",
     "uxb": 25,
-    "precio_vta": 1994
+    "precio_vta": 2194
   },
   {
     "codigos": 470361,
     "productos": "BOLSA RESIDUO ASURIN 50X70CM",
     "uxb": 1,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 471532,
     "productos": "BOLSA RESIDUO EL BUDA 45X60CM",
     "uxb": 10,
-    "precio_vta": 502
+    "precio_vta": 553
   },
   {
     "codigos": 470255,
     "productos": "BOLSA RESIDUO EL BUDA 50X70CM",
     "uxb": 1,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 475568,
     "productos": "BOLSA RESIDUO LA UNICA 45x60 x10Un.",
     "uxb": 1,
-    "precio_vta": 519
+    "precio_vta": 571
   },
   {
     "codigos": 467657,
     "productos": "BOLSA RESIDUO MASTRO 45x60",
     "uxb": 100,
-    "precio_vta": 472
+    "precio_vta": 519
   },
   {
     "codigos": 467658,
     "productos": "BOLSA RESIDUO MASTRO 50x70",
     "uxb": 100,
-    "precio_vta": 598
+    "precio_vta": 658
   },
   {
     "codigos": 467659,
     "productos": "BOLSA RESIDUO MASTRO 60x90",
     "uxb": 50,
-    "precio_vta": 944
+    "precio_vta": 1039
   },
   {
     "codigos": 467660,
     "productos": "BOLSA RESIDUO MASTRO 80x110",
     "uxb": 25,
-    "precio_vta": 1889
+    "precio_vta": 2078
   },
   {
     "codigos": 467661,
     "productos": "BOLSA RESIDUO MASTRO 90x120",
     "uxb": 20,
-    "precio_vta": 2204
+    "precio_vta": 2425
   },
   {
     "codigos": 473898,
     "productos": "BOLSA RESIDUOS MAXI-BAG N 45X60 10UN",
     "uxb": 1,
-    "precio_vta": 635
+    "precio_vta": 698
   },
   {
     "codigos": 473899,
     "productos": "BOLSA RESIDUOS MAXI-BAG N 50X70 10UN",
     "uxb": 1,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 473913,
     "productos": "BOLSA RESIDUOS MAXI-BAG V 50X70 10UN",
     "uxb": 1,
-    "precio_vta": 838
+    "precio_vta": 922
   },
   {
     "codigos": 472277,
     "productos": "BOLSA ROLLO ARRANQUE 35X45CM",
     "uxb": 1,
-    "precio_vta": 3584
+    "precio_vta": 3942
   },
   {
     "codigos": 472278,
     "productos": "BOLSA ROLLO ARRANQUE 45X60CM",
     "uxb": 1,
-    "precio_vta": 3584
+    "precio_vta": 3942
   },
   {
     "codigos": 472279,
     "productos": "BOLSA ROLLO ARRANQUE 50X70CM",
     "uxb": 1,
-    "precio_vta": 3584
+    "precio_vta": 3942
   },
   {
     "codigos": 472475,
     "productos": "BOLSA ROLLO BAJA DENSIDAD 20X30CM",
     "uxb": 1,
-    "precio_vta": 16799
+    "precio_vta": 20327
   },
   {
     "codigos": 467917,
     "productos": "BOLSA ROLLO BAJA DENSIDAD 25x35",
     "uxb": 1,
-    "precio_vta": 16799
+    "precio_vta": 20327
   },
   {
     "codigos": 468453,
     "productos": "BOLSA ROLLO BAJA DENSIDAD 35x45",
     "uxb": 1,
-    "precio_vta": 16799
+    "precio_vta": 18479
   },
   {
     "codigos": 470441,
@@ -10845,109 +11277,109 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467919,
     "productos": "BOLSA ROLLO BAJA DENSIDAD 45x60",
     "uxb": 1,
-    "precio_vta": 16799
+    "precio_vta": 20327
   },
   {
     "codigos": 533,
     "productos": "BOLSA ROLLO DISTRIVALLE 15X20",
     "uxb": 12,
-    "precio_vta": 3653
+    "precio_vta": 3999
   },
   {
     "codigos": 4192,
     "productos": "BOLSA ROLLO DISTRIVALLE 15X25",
     "uxb": 12,
-    "precio_vta": 3653
+    "precio_vta": 3999
   },
   {
     "codigos": 534,
     "productos": "BOLSA ROLLO DISTRIVALLE 20X30",
     "uxb": 12,
-    "precio_vta": 8294
+    "precio_vta": 8299
   },
   {
     "codigos": 535,
     "productos": "BOLSA ROLLO DISTRIVALLE 25X35",
     "uxb": 12,
-    "precio_vta": 8294
+    "precio_vta": 8299
   },
   {
     "codigos": 536,
     "productos": "BOLSA ROLLO DISTRIVALLE 30X40CM",
     "uxb": 12,
-    "precio_vta": 6803
+    "precio_vta": 8299
   },
   {
     "codigos": 9929,
     "productos": "BOLSA ROLLO DISTRIVALLE 35X45",
     "uxb": 12,
-    "precio_vta": 6803
+    "precio_vta": 8232
   },
   {
     "codigos": 6781,
     "productos": "BOLSA ROLLO DISTRIVALLE 40X50CM",
     "uxb": 12,
-    "precio_vta": 6803
+    "precio_vta": 8299
   },
   {
     "codigos": 464763,
     "productos": "BOLSA ROLLO DISTRIVALLE 45X60",
     "uxb": 1,
-    "precio_vta": 6803
+    "precio_vta": 8232
   },
   {
     "codigos": 472473,
     "productos": "BOLSA ROLLO DISTRIVALLE R DENS 15X20CM",
     "uxb": 12,
-    "precio_vta": 2362
+    "precio_vta": 2858
   },
   {
     "codigos": 475025,
     "productos": "BOLSA ROLLO ECOCHEP MAX ARR 10X20CM",
     "uxb": 1,
-    "precio_vta": 4157
+    "precio_vta": 4573
   },
   {
     "codigos": 475024,
     "productos": "BOLSA ROLLO ECOCHEP MAX ARR 25X35CM",
     "uxb": 1,
-    "precio_vta": 6152
+    "precio_vta": 6767
   },
   {
     "codigos": 475026,
     "productos": "BOLSA ROLLO ECOCHEP MAX ARR 40X50CM",
     "uxb": 1,
-    "precio_vta": 6651
+    "precio_vta": 7316
   },
   {
     "codigos": 460777,
     "productos": "BOLSA ROLLO ESENCIAL 45X60",
     "uxb": 1,
-    "precio_vta": 1552
+    "precio_vta": 1708
   },
   {
     "codigos": 473917,
     "productos": "BOLSA ROLLO MAXI-BAG COMP 75X110 10UN",
     "uxb": 1,
-    "precio_vta": 1270
+    "precio_vta": 1397
   },
   {
     "codigos": 473905,
     "productos": "BOLSA ROLLO MAXI-BAG COMP 80X110 10UN",
     "uxb": 1,
-    "precio_vta": 1651
+    "precio_vta": 1816
   },
   {
     "codigos": 473900,
     "productos": "BOLSA ROLLO MAXI-BAG N 45X60 30UN",
     "uxb": 1,
-    "precio_vta": 1270
+    "precio_vta": 1397
   },
   {
     "codigos": 473901,
     "productos": "BOLSA ROLLO MAXI-BAG N 50X70 30UN",
     "uxb": 1,
-    "precio_vta": 1651
+    "precio_vta": 1816
   },
   {
     "codigos": 476858,
@@ -10983,7 +11415,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475978,
     "productos": "BOLSAS CLIENTES POR UNI TUCU",
     "uxb": 1,
-    "precio_vta": 69
+    "precio_vta": 76
   },
   {
     "codigos": 473646,
@@ -10995,7 +11427,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473911,
     "productos": "BOLSAS FREEZERS MAXI-BAG x30UN.",
     "uxb": 1,
-    "precio_vta": 1270
+    "precio_vta": 1397
   },
   {
     "codigos": 464826,
@@ -11037,13 +11469,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478666,
     "productos": "BOMBILLA ALUMINIO ORGON",
     "uxb": 12,
-    "precio_vta": 524
+    "precio_vta": 499
   },
   {
     "codigos": 473622,
     "productos": "BOMBILLA CHATA ORGON",
     "uxb": 12,
-    "precio_vta": 1328
+    "precio_vta": 1299
   },
   {
     "codigos": 466235,
@@ -11055,7 +11487,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473621,
     "productos": "BOMBILLA COLOR ORGON",
     "uxb": 12,
-    "precio_vta": 664
+    "precio_vta": 599
   },
   {
     "codigos": 472566,
@@ -11130,10 +11562,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1499
   },
   {
+    "codigos": 480602,
+    "productos": "BOMBON CLASIC BILLIKEN x600g",
+    "uxb": 1,
+    "precio_vta": 6599
+  },
+  {
     "codigos": 466054,
     "productos": "BOMBON CROCANTE GRIDO x8u",
     "uxb": 1,
     "precio_vta": 10599
+  },
+  {
+    "codigos": 480226,
+    "productos": "BOMBON DE FRUTA BILLIKEN CORAZON x200g",
+    "uxb": 12,
+    "precio_vta": 2699
   },
   {
     "codigos": 466055,
@@ -11184,34 +11628,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5774
   },
   {
-    "codigos": 466937,
-    "productos": "BOMBON OBLIBON EST x170g",
-    "uxb": 30,
-    "precio_vta": 2257
-  },
-  {
     "codigos": 2495,
     "productos": "BOMBON OBLITA BLANCO x30un",
     "uxb": 12,
-    "precio_vta": 5774
+    "precio_vta": 6499
   },
   {
     "codigos": 2496,
     "productos": "BOMBON OBLITA CHOCOLATE x30un",
     "uxb": 12,
-    "precio_vta": 5774
+    "precio_vta": 6499
   },
   {
     "codigos": 2497,
     "productos": "BOMBON OBLITA CLASICO x30un",
     "uxb": 12,
-    "precio_vta": 5774
+    "precio_vta": 6499
   },
   {
     "codigos": 460269,
     "productos": "BOMBON OBLITA CRASH x30un",
     "uxb": 12,
-    "precio_vta": 5774
+    "precio_vta": 6499
   },
   {
     "codigos": 468111,
@@ -11252,7 +11690,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 465835,
     "productos": "BOMBONES ARCOR SELECCION x247g",
-    "uxb": 1,
+    "uxb": 24,
     "precio_vta": 8294
   },
   {
@@ -11260,6 +11698,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BOMBONES BARILOCHE CEREZAS x24X12g",
     "uxb": 12,
     "precio_vta": 3717
+  },
+  {
+    "codigos": 465898,
+    "productos": "BOMBONES FRUTALES BILLIKEN x350g",
+    "uxb": 12,
+    "precio_vta": 3599
   },
   {
     "codigos": 7133,
@@ -11277,13 +11721,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8337,
     "productos": "BOMBONES SURTIDOS BELL x450g",
     "uxb": 16,
-    "precio_vta": 6824
+    "precio_vta": 6599
   },
   {
     "codigos": 1114,
     "productos": "BOMBONES SURTIDOS DANCING CAJA x50un",
     "uxb": 8,
-    "precio_vta": 7769
+    "precio_vta": 7999
   },
   {
     "codigos": 3820,
@@ -11334,6 +11778,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7559
   },
   {
+    "codigos": 480641,
+    "productos": "BON O BON BCO x270g",
+    "uxb": 16,
+    "precio_vta": 7999
+  },
+  {
     "codigos": 465045,
     "productos": "BON O BON BLANCO x450g",
     "uxb": 12,
@@ -11359,9 +11809,9 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 6381,
-    "productos": "BON O BON SUELTO x5Un",
+    "productos": "BON O BON SUELTO x3Un",
     "uxb": 1,
-    "precio_vta": 2309
+    "precio_vta": 1399
   },
   {
     "codigos": 467095,
@@ -11430,6 +11880,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 8699
   },
   {
+    "codigos": 480830,
+    "productos": "BORCEGO DAMA x1Un",
+    "uxb": 1,
+    "precio_vta": 28999
+  },
+  {
     "codigos": 11664,
     "productos": "BORRADOR P/PIZARRA BLANCA MARCTIZ",
     "uxb": 1,
@@ -11446,6 +11902,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BOT ACERO C/ OREJAS DE CONEJ.IMP-EMANUEL",
     "uxb": 1,
     "precio_vta": 13858
+  },
+  {
+    "codigos": 480772,
+    "productos": "BOT SPORT CUAD/1100ml IMP EMA 56843",
+    "uxb": 1,
+    "precio_vta": 8490
+  },
+  {
+    "codigos": 480767,
+    "productos": "BOT VACUUM FLASK IMP EMA 56315",
+    "uxb": 1,
+    "precio_vta": 12999
   },
   {
     "codigos": 476148,
@@ -11523,7 +11991,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475193,
     "productos": "BOTELLA C/PICO 650ML BH-HOME 2027 IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 12371
+    "precio_vta": 13608
   },
   {
     "codigos": 468632,
@@ -11541,7 +12009,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475192,
     "productos": "BOTELLA C/PICO x700ml BH-HOME 2020 IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 23099
+    "precio_vta": 25409
   },
   {
     "codigos": 472014,
@@ -11553,7 +12021,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472045,
     "productos": "BOTELLA C/TAPA NEGRA MARMOLADA IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 6641
+    "precio_vta": 7305
   },
   {
     "codigos": 473269,
@@ -11607,7 +12075,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477245,
     "productos": "BOTELLA SPORT CHICA IMP-E x500ML",
     "uxb": 1,
-    "precio_vta": 16784
+    "precio_vta": 18462
   },
   {
     "codigos": 479875,
@@ -11619,7 +12087,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477333,
     "productos": "BOTELLA SPORT D/ACERO INOX ATOM x850ml",
     "uxb": 1,
-    "precio_vta": 37799
+    "precio_vta": 41579
   },
   {
     "codigos": 479640,
@@ -11656,6 +12124,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BOTELLA VACUUM POT COD-ISA812 IMP-E",
     "uxb": 25,
     "precio_vta": 25084
+  },
+  {
+    "codigos": 480765,
+    "productos": "BOTELLA VACUUM POT IMP EMA 56307",
+    "uxb": 1,
+    "precio_vta": 12990
   },
   {
     "codigos": 477862,
@@ -11703,7 +12177,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463440,
     "productos": "BOTELLITAS FELFORT WHISKY x24g",
     "uxb": 20,
-    "precio_vta": 1312
+    "precio_vta": 1399
   },
   {
     "codigos": 7223,
@@ -11817,7 +12291,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467250,
     "productos": "BOWL ACERO INOX C/MEDIDOR",
     "uxb": 12,
-    "precio_vta": 8384
+    "precio_vta": 9223
   },
   {
     "codigos": 476151,
@@ -12159,7 +12633,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464907,
     "productos": "BROCHES MADERA PINCILISTO x12Un.",
     "uxb": 24,
-    "precio_vta": 818
+    "precio_vta": 900
   },
   {
     "codigos": 9662,
@@ -12184,6 +12658,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "BROCHES SHENGHUA NEGRO/COLOR BLIS x12Un",
     "uxb": 1,
     "precio_vta": 3299
+  },
+  {
+    "codigos": 469385,
+    "productos": "BROCOLI GREEN LIFE CONGELADO x450gr",
+    "uxb": 1,
+    "precio_vta": 4012
   },
   {
     "codigos": 473410,
@@ -12249,7 +12729,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479519,
     "productos": "BUDIN C/FRUTA ELECTO x170gr.",
     "uxb": 20,
-    "precio_vta": 1149
+    "precio_vta": 999
   },
   {
     "codigos": 479522,
@@ -12729,7 +13209,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6001,
     "productos": "BULL DOG CRAZY X10U",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 5599
   },
   {
     "codigos": 3235,
@@ -12741,7 +13221,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3301,
     "productos": "BULL DOG PASTILLAS MANZANA x30g",
     "uxb": 12,
-    "precio_vta": 4094
+    "precio_vta": 4199
   },
   {
     "codigos": 3381,
@@ -12771,7 +13251,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478776,
     "productos": "BULL DOG REGALIZ MINI INDV x125g varias",
     "uxb": 24,
-    "precio_vta": 1333
+    "precio_vta": 1399
   },
   {
     "codigos": 467388,
@@ -12861,7 +13341,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467010,
     "productos": "BURGOL JOSE LOPEZ x500g",
     "uxb": 10,
-    "precio_vta": 1349
+    "precio_vta": 1299
   },
   {
     "codigos": 474177,
@@ -12922,6 +13402,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CABALLA CUMANA ACEITE/NATURAL x380g",
     "uxb": 24,
     "precio_vta": 4619
+  },
+  {
+    "codigos": 480704,
+    "productos": "CABALLA LA BANDA AL NATURAL x380g",
+    "uxb": 24,
+    "precio_vta": 3999
   },
   {
     "codigos": 8501,
@@ -13005,43 +13491,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464906,
     "productos": "CABO DE MADERA BARRENDERO x1Un.",
     "uxb": 1,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 468813,
     "productos": "CABO DE MADERA C/ROSCA CEPIPLAST x1.20mt",
     "uxb": 1,
-    "precio_vta": 840
+    "precio_vta": 924
   },
   {
     "codigos": 5252,
     "productos": "CABO DE MADERA FORRADO CEPIPLAST",
     "uxb": 1,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 465588,
     "productos": "CABO EXTENSIBLE HASTA 2mt LA GAUCHITA",
     "uxb": 1,
-    "precio_vta": 10476
+    "precio_vta": 11524
   },
   {
     "codigos": 465224,
     "productos": "CABO MAD.FORR.PVC ROMYL-BORO 1.20CM",
     "uxb": 6,
-    "precio_vta": 1316
+    "precio_vta": 1448
   },
   {
     "codigos": 472460,
     "productos": "CABO MADERA C/ROSCA FORRADO ASAPRACTIC",
     "uxb": 48,
-    "precio_vta": 1653
+    "precio_vta": 1819
   },
   {
     "codigos": 462469,
     "productos": "CABO MADERA x2m",
     "uxb": 1,
-    "precio_vta": 734
+    "precio_vta": 808
+  },
+  {
+    "codigos": 480700,
+    "productos": "CABO PLAST MEDIA NARANJA",
+    "uxb": 12,
+    "precio_vta": 2699
   },
   {
     "codigos": 476263,
@@ -13119,19 +13611,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2389,
     "productos": "CACAO NESQUIK 180g",
     "uxb": 18,
-    "precio_vta": 1678
+    "precio_vta": 1769
   },
   {
     "codigos": 2390,
     "productos": "CACAO NESQUIK 360g",
     "uxb": 12,
-    "precio_vta": 3253
+    "precio_vta": 3249
   },
   {
     "codigos": 460591,
     "productos": "CACAO NESQUIK BOLSA x800gr",
     "uxb": 12,
-    "precio_vta": 7348
+    "precio_vta": 6999
   },
   {
     "codigos": 5053,
@@ -13416,10 +13908,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3526
   },
   {
-    "codigos": 10995,
-    "productos": "CAFE CRYSF X 20 SAQ",
-    "uxb": 10,
-    "precio_vta": 4005
+    "codigos": 132,
+    "productos": "CAFE CABRALES TORRADO X190GR",
+    "uxb": 12,
+    "precio_vta": 2389
+  },
+  {
+    "codigos": 480753,
+    "productos": "CAFE CAPPU AVELL DOLCA NESCAFE x125g",
+    "uxb": 1,
+    "precio_vta": 3999
+  },
+  {
+    "codigos": 476304,
+    "productos": "CAFE CAPS SUPER CABRALES x10u",
+    "uxb": 12,
+    "precio_vta": 7349
+  },
+  {
+    "codigos": 480752,
+    "productos": "CAFE CAPUCC CLAS LA PLANTA x115g",
+    "uxb": 1,
+    "precio_vta": 3999
   },
   {
     "codigos": 10618,
@@ -13455,7 +13965,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 618,
     "productos": "CAFE DOLCA CLASICO x50gr",
     "uxb": 6,
-    "precio_vta": 3148
+    "precio_vta": 3299
   },
   {
     "codigos": 477619,
@@ -13492,6 +14002,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CAFE DOLCA SUAVE x50g",
     "uxb": 6,
     "precio_vta": 3148
+  },
+  {
+    "codigos": 10481,
+    "productos": "CAFE DOLCA TRADIC. DP x170gr",
+    "uxb": 12,
+    "precio_vta": 3778
   },
   {
     "codigos": 471620,
@@ -13626,6 +14142,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3748
   },
   {
+    "codigos": 460647,
+    "productos": "CAFE LA PLANTA CABRALES x18 SAQUITOS",
+    "uxb": 18,
+    "precio_vta": 3999
+  },
+  {
     "codigos": 463111,
     "productos": "CAFE LA VIRGINIA 5G X20SAQ",
     "uxb": 10,
@@ -13659,7 +14181,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4078,
     "productos": "CAFE LA VIRGINIA FRASCO SVE x100g",
     "uxb": 6,
-    "precio_vta": 3857
+    "precio_vta": 3999
   },
   {
     "codigos": 460916,
@@ -13689,7 +14211,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7525,
     "productos": "CAFE LA VIRGINIA INST FRASCO x100gr",
     "uxb": 6,
-    "precio_vta": 3858
+    "precio_vta": 3999
   },
   {
     "codigos": 478959,
@@ -13791,7 +14313,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9810,
     "productos": "CAFE MAROLIO 20saq",
     "uxb": 10,
-    "precio_vta": 3148
+    "precio_vta": 3399
   },
   {
     "codigos": 463391,
@@ -13887,7 +14409,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478984,
     "productos": "CAFETERA PORTABLE ELEC 3EN1 OM IMP-E",
     "uxb": 1,
-    "precio_vta": 12589
+    "precio_vta": 99999
   },
   {
     "codigos": 478813,
@@ -14001,31 +14523,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476476,
     "productos": "CAJON YUTE x12lt STAR",
     "uxb": 6,
-    "precio_vta": 4829
+    "precio_vta": 5312
   },
   {
     "codigos": 477834,
     "productos": "CAJON YUTE x17lt STAR",
     "uxb": 6,
-    "precio_vta": 5433
+    "precio_vta": 5976
   },
   {
     "codigos": 477829,
     "productos": "CAJON YUTE x4.5lt STAR",
     "uxb": 6,
-    "precio_vta": 2414
+    "precio_vta": 2656
   },
   {
     "codigos": 477833,
     "productos": "CAJON YUTE x7lt STAR",
     "uxb": 6,
-    "precio_vta": 3380
+    "precio_vta": 3718
   },
   {
     "codigos": 476475,
     "productos": "CAJON YUTE x8lt STAR",
     "uxb": 6,
-    "precio_vta": 3139
+    "precio_vta": 3453
   },
   {
     "codigos": 479406,
@@ -14050,6 +14572,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CALCULADORA CANODI CA-38 IMP-EMANUEL",
     "uxb": 1,
     "precio_vta": 4999
+  },
+  {
+    "codigos": 474985,
+    "productos": "CALDO KNORR GALLINA SUELTO x12un",
+    "uxb": 1,
+    "precio_vta": 1490
+  },
+  {
+    "codigos": 480651,
+    "productos": "CALDO KNORR GALLINA SUELTO x24un",
+    "uxb": 1,
+    "precio_vta": 2790
   },
   {
     "codigos": 475140,
@@ -14079,25 +14613,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466420,
     "productos": "CALDO KNORR x2Un.",
     "uxb": 24,
-    "precio_vta": 367
+    "precio_vta": 399
   },
   {
     "codigos": 667,
     "productos": "CALDO KNORR x2Un. CARNE",
     "uxb": 24,
-    "precio_vta": 367
+    "precio_vta": 399
   },
   {
     "codigos": 666,
     "productos": "CALDO KNORR x2Un. GALLINA",
     "uxb": 24,
-    "precio_vta": 367
+    "precio_vta": 399
   },
   {
     "codigos": 466421,
     "productos": "CALDO KNORR x2Un. VERDURA",
     "uxb": 24,
-    "precio_vta": 367
+    "precio_vta": 399
   },
   {
     "codigos": 641,
@@ -14361,13 +14895,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 30000,
     "productos": "CALOVENTOR HYTOSHY 2000W",
     "uxb": 1,
-    "precio_vta": 23900
+    "precio_vta": 29000
   },
   {
     "codigos": 478988,
     "productos": "CALOVENTOR OM-2001 IMP-E",
     "uxb": 1,
-    "precio_vta": 21899
+    "precio_vta": 29990
   },
   {
     "codigos": 474486,
@@ -14391,7 +14925,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479700,
     "productos": "CAMINO D/MESA ORIENTAL TAUROx35x180cm",
     "uxb": 1,
-    "precio_vta": 1994
+    "precio_vta": 2299
   },
   {
     "codigos": 476853,
@@ -14616,6 +15150,24 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4408
   },
   {
+    "codigos": 480756,
+    "productos": "CANASTO BAMBOO IMP EMA 53398",
+    "uxb": 1,
+    "precio_vta": 27990
+  },
+  {
+    "codigos": 480775,
+    "productos": "CANASTO C/TAPA TASSEL IMP EMA TG52509",
+    "uxb": 1,
+    "precio_vta": 11999
+  },
+  {
+    "codigos": 480802,
+    "productos": "CANASTO D/BAMBOO SUKA IMP EMA BA1350",
+    "uxb": 1,
+    "precio_vta": 35999
+  },
+  {
     "codigos": 476995,
     "productos": "CANASTO DE COMPRAS C/ACCES.DREAM SOIFER 2020-30",
     "uxb": 1,
@@ -14625,49 +15177,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472613,
     "productos": "CANASTO DE TELA CHICO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 8710
+    "precio_vta": 9581
   },
   {
     "codigos": 480053,
     "productos": "CANASTO DECO CLASICO IMP-E x1Un.",
     "uxb": 1,
-    "precio_vta": 7063
+    "precio_vta": 7770
   },
   {
     "codigos": 3081,
     "productos": "CANASTO RATAN C/TAPA ROSA x25Lt",
     "uxb": 6,
-    "precio_vta": 10022
+    "precio_vta": 11024
   },
   {
     "codigos": 470403,
     "productos": "CANASTO RATAN VARIOS COLOR x15lt",
     "uxb": 6,
-    "precio_vta": 6278
+    "precio_vta": 6906
   },
   {
     "codigos": 470404,
     "productos": "CANASTO RATAN VARIOS COLORES x25lt",
     "uxb": 6,
-    "precio_vta": 10022
+    "precio_vta": 11024
   },
   {
     "codigos": 1798,
     "productos": "CANASTO REDONDO C/TAPA 17lts HP",
     "uxb": 1,
-    "precio_vta": 3670
+    "precio_vta": 4037
   },
   {
     "codigos": 8722,
     "productos": "CANASTO/CESTO 17LT REDONDO HERALDPLAST",
     "uxb": 12,
-    "precio_vta": 4032
+    "precio_vta": 4436
   },
   {
     "codigos": 474136,
     "productos": "CANASTO/CESTO RED. ECO x17Lt HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 3743
+    "precio_vta": 4117
   },
   {
     "codigos": 12218,
@@ -14811,7 +15363,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473737,
     "productos": "CANELA SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1322
+    "precio_vta": 1459
   },
   {
     "codigos": 480366,
@@ -14961,7 +15513,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479346,
     "productos": "CAPELETTI POLLO/VERDURA MENDIA x500g",
     "uxb": 1,
-    "precio_vta": 2495
+    "precio_vta": 2769
   },
   {
     "codigos": 470998,
@@ -15276,6 +15828,30 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1049
   },
   {
+    "codigos": 480618,
+    "productos": "CARAM BILLIKEN CREAM POTE x600g",
+    "uxb": 12,
+    "precio_vta": 4599
+  },
+  {
+    "codigos": 480614,
+    "productos": "CARAM BILLIKEN FRUTAL x150g",
+    "uxb": 24,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480615,
+    "productos": "CARAM BILLIKEN YOGUR x150g",
+    "uxb": 24,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480624,
+    "productos": "CARAM CANDY 10`LIPO x454g",
+    "uxb": 24,
+    "precio_vta": 2999
+  },
+  {
     "codigos": 480063,
     "productos": "CARAM MAST MOGUL EXT. CONFITADO x70g",
     "uxb": 40,
@@ -15322,6 +15898,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CARAM MOGUL MASTI SPLASH x72g",
     "uxb": 36,
     "precio_vta": 1469
+  },
+  {
+    "codigos": 4669,
+    "productos": "CARAM VACA LECHERA TRAD. X520gr",
+    "uxb": 12,
+    "precio_vta": 11199
   },
   {
     "codigos": 478586,
@@ -15495,7 +16077,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 713,
     "productos": "CARAM. BILLIKEN FRUTAL 600G",
     "uxb": 12,
-    "precio_vta": 4409
+    "precio_vta": 3849
   },
   {
     "codigos": 471164,
@@ -15507,13 +16089,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 714,
     "productos": "CARAM. BILLIKEN YOGHURT 600G",
     "uxb": 12,
-    "precio_vta": 4409
+    "precio_vta": 3849
   },
   {
     "codigos": 472726,
     "productos": "CARAM. BULL DOG MASTC ACIDOS 700G",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 472732,
@@ -15561,7 +16143,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10757,
     "productos": "CARAM. DROPSY MASTIC 700G",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 13860,
@@ -15573,19 +16155,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4452,
     "productos": "CARAM. FLYNN ACIDO EXTREM CONF X50GR",
     "uxb": 30,
-    "precio_vta": 629
+    "precio_vta": 949
   },
   {
     "codigos": 460863,
     "productos": "CARAM. FLYNN PAFF BANANA 70UN",
     "uxb": 12,
-    "precio_vta": 6089
+    "precio_vta": 6499
   },
   {
     "codigos": 4455,
     "productos": "CARAM. FLYNN PAFF CONFITADO X50GR",
     "uxb": 30,
-    "precio_vta": 713
+    "precio_vta": 949
   },
   {
     "codigos": 467748,
@@ -15609,7 +16191,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 726,
     "productos": "CARAM. FLYNN PAFF FRUTILLA 70UN",
     "uxb": 12,
-    "precio_vta": 6404
+    "precio_vta": 6499
   },
   {
     "codigos": 472538,
@@ -15627,19 +16209,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 728,
     "productos": "CARAM. FLYNN PAFF PIN/LENGUA 70UN",
     "uxb": 12,
-    "precio_vta": 6404
+    "precio_vta": 6499
   },
   {
     "codigos": 729,
     "productos": "CARAM. FLYNN PAFF TUTTI FRUTI 70UN",
     "uxb": 12,
-    "precio_vta": 6404
+    "precio_vta": 6499
   },
   {
     "codigos": 731,
     "productos": "CARAM. FLYNN PAFF UVA 70UN",
     "uxb": 12,
-    "precio_vta": 6404
+    "precio_vta": 6499
   },
   {
     "codigos": 469302,
@@ -15676,6 +16258,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CARAM. FRUTIMANIA YUG/FRUTILL X500GR",
     "uxb": 12,
     "precio_vta": 3463
+  },
+  {
+    "codigos": 464132,
+    "productos": "CARAM. FRUTOMILA RELL 500G",
+    "uxb": 12,
+    "precio_vta": 5799
   },
   {
     "codigos": 476437,
@@ -15735,13 +16323,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5159,
     "productos": "CARAM. LHERITIER DONGA 218UN 670gr",
     "uxb": 10,
-    "precio_vta": 5112
+    "precio_vta": 4799
   },
   {
     "codigos": 4459,
     "productos": "CARAM. LHERITIER DONGA YOG 218UN 670GR",
     "uxb": 10,
-    "precio_vta": 5144
+    "precio_vta": 4999
   },
   {
     "codigos": 475429,
@@ -15753,13 +16341,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463054,
     "productos": "CARAM. LHERITIER MASTIC SURT 300G",
     "uxb": 20,
-    "precio_vta": 2046
+    "precio_vta": 1899
   },
   {
     "codigos": 4449,
     "productos": "CARAM. LHERITIER MASTIC x450gr",
     "uxb": 10,
-    "precio_vta": 3359
+    "precio_vta": 3199
   },
   {
     "codigos": 475425,
@@ -15813,7 +16401,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478131,
     "productos": "CARAM. LIPO DCE-LECHE X454GR",
     "uxb": 24,
-    "precio_vta": 2413
+    "precio_vta": 2999
   },
   {
     "codigos": 475881,
@@ -15825,7 +16413,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5339,
     "productos": "CARAM. LIPO DULCE LECHE 907G",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 479812,
@@ -15835,21 +16423,21 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 479813,
-    "productos": "CARAM. LIPO DUROS GAJITOS X150GR",
+    "productos": "CARAM. LIPO DUROS GAJITOS X120GR",
     "uxb": 36,
-    "precio_vta": 944
+    "precio_vta": 849
   },
   {
     "codigos": 479814,
-    "productos": "CARAM. LIPO DUROS RELL MIEL X150GR",
+    "productos": "CARAM. LIPO DUROS RELL MIEL X120GR",
     "uxb": 36,
-    "precio_vta": 944
+    "precio_vta": 849
   },
   {
     "codigos": 479815,
-    "productos": "CARAM. LIPO DUROS SUPER ACIDOS X150GR",
+    "productos": "CARAM. LIPO DUROS SUPER ACIDOS X120GR",
     "uxb": 36,
-    "precio_vta": 944
+    "precio_vta": 849
   },
   {
     "codigos": 4180,
@@ -15861,19 +16449,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478135,
     "productos": "CARAM. LIPO GAJITOS X454GR",
     "uxb": 24,
-    "precio_vta": 2413
+    "precio_vta": 2999
   },
   {
     "codigos": 5337,
     "productos": "CARAM. LIPO MENTA 907GR",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3999
+  },
+  {
+    "codigos": 480625,
+    "productos": "CARAM. LIPO MENTA x120g",
+    "uxb": 36,
+    "precio_vta": 849
   },
   {
     "codigos": 469298,
     "productos": "CARAM. LIPO MENTA/CHOCO 800GR",
     "uxb": 12,
-    "precio_vta": 4934
+    "precio_vta": 3999
   },
   {
     "codigos": 5336,
@@ -15891,13 +16485,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478136,
     "productos": "CARAM. LIPO PRALINE X454GR",
     "uxb": 24,
-    "precio_vta": 2413
+    "precio_vta": 2999
   },
   {
     "codigos": 478132,
     "productos": "CARAM. LIPO RELL MIEL X454GR",
     "uxb": 24,
-    "precio_vta": 2413
+    "precio_vta": 2999
   },
   {
     "codigos": 479027,
@@ -15909,7 +16503,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475046,
     "productos": "CARAM. LIPO RELLENOS SUELTOS",
     "uxb": 1,
-    "precio_vta": 525
+    "precio_vta": 499
   },
   {
     "codigos": 5157,
@@ -15921,13 +16515,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478129,
     "productos": "CARAM. LIPO SPORT X454GR",
     "uxb": 24,
-    "precio_vta": 2413
+    "precio_vta": 2999
   },
   {
     "codigos": 478133,
     "productos": "CARAM. LIPO SUPER ACIDOS X454GR",
     "uxb": 24,
-    "precio_vta": 2413
+    "precio_vta": 2999
   },
   {
     "codigos": 3247,
@@ -15951,7 +16545,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 727,
     "productos": "CARAM. MANZANA FLYNN PAFF 70U",
     "uxb": 12,
-    "precio_vta": 6404
+    "precio_vta": 6499
   },
   {
     "codigos": 468873,
@@ -16161,7 +16755,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 748,
     "productos": "CARAM. PALITOS DE LA SELVA 660GR",
     "uxb": 12,
-    "precio_vta": 8924
+    "precio_vta": 9199
   },
   {
     "codigos": 476434,
@@ -16356,6 +16950,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3778
   },
   {
+    "codigos": 9965,
+    "productos": "CARAM. TRIBALA FRUTILLA 600G",
+    "uxb": 10,
+    "precio_vta": 6999
+  },
+  {
     "codigos": 466831,
     "productos": "CARAM. YUM YUM MAST X300GR",
     "uxb": 24,
@@ -16368,16 +16968,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2939
   },
   {
+    "codigos": 467129,
+    "productos": "CARAM.2 FRUTAS TRIBALA X600G",
+    "uxb": 10,
+    "precio_vta": 6999
+  },
+  {
     "codigos": 476296,
     "productos": "CARAM.DUROS FRUTALES RELL SURTIDOSx907g",
     "uxb": 12,
     "precio_vta": 4199
   },
   {
+    "codigos": 1564,
+    "productos": "CARAM.FRAMBUESA TRIBALA X600G",
+    "uxb": 10,
+    "precio_vta": 6999
+  },
+  {
+    "codigos": 1759,
+    "productos": "CARAM.UVA TRIBALA X600G",
+    "uxb": 10,
+    "precio_vta": 6999
+  },
+  {
     "codigos": 477574,
     "productos": "CARAMELERA CLERMONT IMP-E x1Un.",
     "uxb": 24,
-    "precio_vta": 4827
+    "precio_vta": 5310
   },
   {
     "codigos": 475168,
@@ -16395,7 +17013,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470966,
     "productos": "CARAMELERA VIDRIO PLATEADA IMP-E",
     "uxb": 1,
-    "precio_vta": 6426
+    "precio_vta": 7069
   },
   {
     "codigos": 471039,
@@ -16518,6 +17136,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 524
   },
   {
+    "codigos": 9494,
+    "productos": "CARP.3 SOLAPA N6 OFICIO KRAF",
+    "uxb": 1,
+    "precio_vta": 1049
+  },
+  {
     "codigos": 11683,
     "productos": "CARP.3 SOLAPAS N5 OFICIO COLOR",
     "uxb": 1,
@@ -16605,7 +17229,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479882,
     "productos": "CARRITO DE COMPRA CD-511675 IMP-E",
     "uxb": 1,
-    "precio_vta": 20527
+    "precio_vta": 22580
   },
   {
     "codigos": 474707,
@@ -16995,7 +17619,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478331,
     "productos": "CASANCREM LIGHT BAJO EN GRASAS x290g",
     "uxb": 1,
-    "precio_vta": 4563
+    "precio_vta": 4791
   },
   {
     "codigos": 470025,
@@ -17031,13 +17655,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 774,
     "productos": "CAÑA DURAZNO PADILLA",
     "uxb": 6,
-    "precio_vta": 4198
+    "precio_vta": 4399
   },
   {
     "codigos": 775,
     "productos": "CAÑA OMBU PADILLA 700ml",
     "uxb": 12,
-    "precio_vta": 4198
+    "precio_vta": 4396
   },
   {
     "codigos": 778,
@@ -17085,7 +17709,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478504,
     "productos": "CEBO RODIFAV EN GRANO 50G",
     "uxb": 1,
-    "precio_vta": 1255
+    "precio_vta": 1590
   },
   {
     "codigos": 480328,
@@ -17120,8 +17744,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 474656,
     "productos": "CEBOLLITAS EN VINAGRE MORANDO x200g",
-    "uxb": 24,
-    "precio_vta": 2791
+    "uxb": 6,
+    "precio_vta": 3399
   },
   {
     "codigos": 479196,
@@ -17157,13 +17781,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11169,
     "productos": "CEP. DENTAL COLGATE 360 2UN BLACK CARBON",
     "uxb": 12,
-    "precio_vta": 5879
+    "precio_vta": 5799
   },
   {
     "codigos": 465864,
     "productos": "CEP. DENTAL COLGATE 360 L/COMP SUAV 2UN",
     "uxb": 18,
-    "precio_vta": 5984
+    "precio_vta": 5799
   },
   {
     "codigos": 465742,
@@ -17187,7 +17811,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472913,
     "productos": "CEP. DENTAL COLGATE COLOR COLECC 5UN",
     "uxb": 12,
-    "precio_vta": 8294
+    "precio_vta": 9599
   },
   {
     "codigos": 466833,
@@ -17199,49 +17823,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 990,
     "productos": "CEP. DENTAL COLGATE EXTRA CLEAN 2UN",
     "uxb": 12,
-    "precio_vta": 3884
+    "precio_vta": 3799
   },
   {
     "codigos": 465726,
     "productos": "CEP. DENTAL COLGATE EXTRA CLEAN 3UN",
     "uxb": 12,
-    "precio_vta": 5984
+    "precio_vta": 5799
   },
   {
     "codigos": 6459,
     "productos": "CEP. DENTAL COLGATE INFANTIL RABBIT +2AÑOS x1un",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1599
   },
   {
     "codigos": 462108,
     "productos": "CEP. DENTAL COLGATE KIDS +5 x2un",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2399
+  },
+  {
+    "codigos": 465725,
+    "productos": "CEP. DENTAL COLGATE MAX WHITE SUAV 4UN",
+    "uxb": 18,
+    "precio_vta": 9599
   },
   {
     "codigos": 477659,
     "productos": "CEP. DENTAL COLGATE MAXWHITE CARBON x2un",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 5099
   },
   {
     "codigos": 10393,
     "productos": "CEP. DENTAL COLGATE MAXWHITE MEDIO x2un",
     "uxb": 12,
-    "precio_vta": 5249
-  },
-  {
-    "codigos": 4559,
-    "productos": "CEP. DENTAL COLGATE PREMIER CLEAN 14X12",
-    "uxb": 6,
-    "precio_vta": 12599
+    "precio_vta": 5099
   },
   {
     "codigos": 821,
     "productos": "CEP. DENTAL COLGATE PREMIER CLEAN 1UN",
     "uxb": 14,
-    "precio_vta": 943
+    "precio_vta": 1279
   },
   {
     "codigos": 971,
@@ -17259,43 +17883,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10560,
     "productos": "CEP. DENTAL COLGATE SLIM SOFT CHAR x2UN",
     "uxb": 12,
-    "precio_vta": 7874
+    "precio_vta": 7999
   },
   {
     "codigos": 465865,
     "productos": "CEP. DENTAL COLGATE SMILES +6 A BAT/M.MARAV x2un",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 463777,
     "productos": "CEP. DENTAL COLGATE SMILES 0-2 AÑOS x1un",
     "uxb": 24,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 460615,
     "productos": "CEP. DENTAL COLGATE SMILES 2-5 AÑOS x1 MINION/BARBIE",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2999
   },
   {
     "codigos": 462177,
     "productos": "CEP. DENTAL COLGATE SMILES BARBIE 2UN",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 10357,
     "productos": "CEP. DENTAL COLGATE SMILES MINIO 2UN",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 473267,
     "productos": "CEP. DENTAL COLGATE SUPER FLEXI x2un",
     "uxb": 12,
-    "precio_vta": 3254
+    "precio_vta": 3299
   },
   {
     "codigos": 479455,
@@ -17319,7 +17943,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474027,
     "productos": "CEP. DENTAL COLGATE TWISTER C/CAPS 2UN",
     "uxb": 12,
-    "precio_vta": 5354
+    "precio_vta": 5399
   },
   {
     "codigos": 463359,
@@ -17343,13 +17967,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473532,
     "productos": "CEP. DENTAL COLGATE ZIG-ZAG CARBON x2un",
     "uxb": 12,
-    "precio_vta": 4409
+    "precio_vta": 4299
   },
   {
     "codigos": 991,
     "productos": "CEP. DENTAL COLGATE ZIGZAG 2X1",
     "uxb": 12,
     "precio_vta": 3779
+  },
+  {
+    "codigos": 6613,
+    "productos": "CEP. DENTAL GIULIANA X3UN",
+    "uxb": 1,
+    "precio_vta": 1499
   },
   {
     "codigos": 473825,
@@ -17373,13 +18003,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478302,
     "productos": "CEP.DENTAL GIULIANA/MELYALU XUN",
     "uxb": 12,
-    "precio_vta": 934
+    "precio_vta": 690
   },
   {
     "codigos": 3714,
     "productos": "CEPILLO ANATOMICO LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 1784
+    "precio_vta": 2299
   },
   {
     "codigos": 1550,
@@ -17391,7 +18021,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462763,
     "productos": "CEPILLO CALZADO LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 1994
+    "precio_vta": 2599
   },
   {
     "codigos": 7370,
@@ -17463,7 +18093,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469825,
     "productos": "CEPILLO P/BAÑO CON DEPOSITO ASAPRACTIC",
     "uxb": 24,
-    "precio_vta": 2309
+    "precio_vta": 2999
   },
   {
     "codigos": 480516,
@@ -17493,7 +18123,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469824,
     "productos": "CEPILLO PARA ROPA ASAPRACTIC",
     "uxb": 24,
-    "precio_vta": 1258
+    "precio_vta": 1499
   },
   {
     "codigos": 5248,
@@ -17505,7 +18135,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5480,
     "productos": "CEPILLO PLANCHITA LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 1364
+    "precio_vta": 1799
   },
   {
     "codigos": 475057,
@@ -17523,7 +18153,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8702,
     "productos": "CEPILLO VEHICULOS LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 3748
+    "precio_vta": 4799
   },
   {
     "codigos": 468050,
@@ -17688,10 +18318,52 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6079
   },
   {
+    "codigos": 465587,
+    "productos": "CEREAL CHOCOLINO BOLITAS X200g",
+    "uxb": 24,
+    "precio_vta": 2623
+  },
+  {
     "codigos": 6540,
     "productos": "CEREAL FORT VARIOS",
     "uxb": 24,
     "precio_vta": 598
+  },
+  {
+    "codigos": 8534,
+    "productos": "CEREAL GRANIX ARITOS C/MIEL X130g",
+    "uxb": 10,
+    "precio_vta": 1364
+  },
+  {
+    "codigos": 825,
+    "productos": "CEREAL GRANIX ARITOS FRUT X130g",
+    "uxb": 9,
+    "precio_vta": 1154
+  },
+  {
+    "codigos": 1051,
+    "productos": "CEREAL GRANIX COPOZ D/MAIZ X160g",
+    "uxb": 16,
+    "precio_vta": 1049
+  },
+  {
+    "codigos": 460371,
+    "productos": "CEREAL GRANIX FIBRA TOTAL 4 X250g",
+    "uxb": 8,
+    "precio_vta": 1994
+  },
+  {
+    "codigos": 10759,
+    "productos": "CEREAL GRANIX FIBRA TOTAL C/PASAS X400g",
+    "uxb": 8,
+    "precio_vta": 3149
+  },
+  {
+    "codigos": 476492,
+    "productos": "CEREAL GRANIX FIBRA TOTAL INTEG X200g",
+    "uxb": 8,
+    "precio_vta": 1469
   },
   {
     "codigos": 473042,
@@ -17760,6 +18432,48 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6079
   },
   {
+    "codigos": 473041,
+    "productos": "CEREAL TRES ARROYOS ARITOS/MIEL X180g",
+    "uxb": 20,
+    "precio_vta": 1099
+  },
+  {
+    "codigos": 473037,
+    "productos": "CEREAL TRES ARROYOS CHOCO X210g",
+    "uxb": 26,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 478478,
+    "productos": "CEREAL TRES ARROYOS COPOS C/MIEL X200g",
+    "uxb": 24,
+    "precio_vta": 1155
+  },
+  {
+    "codigos": 473040,
+    "productos": "CEREAL TRES ARROYOS REDON/CHOC X210g",
+    "uxb": 16,
+    "precio_vta": 1417
+  },
+  {
+    "codigos": 473725,
+    "productos": "CEREAL TRES ARROYOS REDOND CHOC X330g",
+    "uxb": 1,
+    "precio_vta": 13649
+  },
+  {
+    "codigos": 473035,
+    "productos": "CEREAL TRES ARROYOS X150g",
+    "uxb": 26,
+    "precio_vta": 713
+  },
+  {
+    "codigos": 473036,
+    "productos": "CEREAL TRES ARROYOS X400g",
+    "uxb": 22,
+    "precio_vta": 1574
+  },
+  {
     "codigos": 462004,
     "productos": "CEREALES BOLITAS NESQUIK x210gr",
     "uxb": 24,
@@ -17820,6 +18534,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1499
   },
   {
+    "codigos": 471212,
+    "productos": "CERVEZA AMSTEL x473ml LATA LAGER",
+    "uxb": 24,
+    "precio_vta": 1599
+  },
+  {
+    "codigos": 466469,
+    "productos": "CERVEZA ANDES ORIGEN x473ml LATA ROJA",
+    "uxb": 24,
+    "precio_vta": 1999
+  },
+  {
     "codigos": 11681,
     "productos": "CERVEZA BRAHMA LATA x354cc",
     "uxb": 24,
@@ -17844,6 +18570,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1799
   },
   {
+    "codigos": 5628,
+    "productos": "CERVEZA BRAHMITA PORRON x340cc",
+    "uxb": 1,
+    "precio_vta": 1399
+  },
+  {
     "codigos": 462932,
     "productos": "CERVEZA BREDA ROYAL LAGER X500ML",
     "uxb": 24,
@@ -17854,6 +18586,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CERVEZA BRUL x1lt",
     "uxb": 6,
     "precio_vta": 1999
+  },
+  {
+    "codigos": 475609,
+    "productos": "CERVEZA BUDWEISER LATON x710cc",
+    "uxb": 16,
+    "precio_vta": 2624
   },
   {
     "codigos": 5888,
@@ -17880,6 +18618,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4499
   },
   {
+    "codigos": 11478,
+    "productos": "CERVEZA GROLSCH LATA X473CC",
+    "uxb": 24,
+    "precio_vta": 1999
+  },
+  {
     "codigos": 1728,
     "productos": "CERVEZA HEINEKEN X1LT",
     "uxb": 12,
@@ -17890,6 +18634,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CERVEZA HEINEKEN x473ml LATA",
     "uxb": 24,
     "precio_vta": 2467
+  },
+  {
+    "codigos": 472929,
+    "productos": "CERVEZA HEINEKEN x710ml LATA",
+    "uxb": 24,
+    "precio_vta": 3999
   },
   {
     "codigos": 479337,
@@ -17941,7 +18691,7 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 468420,
-    "productos": "CERVEZA LIGHT LAGER RUBIA x473CM",
+    "productos": "CERVEZA LIGHT LAGER RUBIA LIT x473cc",
     "uxb": 6,
     "precio_vta": 799
   },
@@ -17985,7 +18735,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2533,
     "productos": "CERVEZA PALERMO X1LT",
     "uxb": 12,
-    "precio_vta": 2308
+    "precio_vta": 2399
   },
   {
     "codigos": 466551,
@@ -18048,10 +18798,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1849
   },
   {
+    "codigos": 480653,
+    "productos": "CERVEZA RUBIA 361 VIDRIO x1Lt",
+    "uxb": 6,
+    "precio_vta": 1999
+  },
+  {
+    "codigos": 480684,
+    "productos": "CERVEZA RUBIA APOLO x1Lt",
+    "uxb": 6,
+    "precio_vta": 1699
+  },
+  {
     "codigos": 462062,
     "productos": "CERVEZA SALTA x1Lt STOUT",
     "uxb": 12,
     "precio_vta": 2644
+  },
+  {
+    "codigos": 5152,
+    "productos": "CERVEZA SCHNEIDER LATA x473c",
+    "uxb": 24,
+    "precio_vta": 1599
   },
   {
     "codigos": 462067,
@@ -18081,121 +18849,139 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475756,
     "productos": "CESTA CUADRADA C/TELA LUNARES THE KITCHEN",
     "uxb": 1,
-    "precio_vta": 3345
+    "precio_vta": 3680
+  },
+  {
+    "codigos": 476092,
+    "productos": "CESTA OVAL C/BORDE x24cm THE KITCHEN",
+    "uxb": 1,
+    "precio_vta": 2464
   },
   {
     "codigos": 476081,
     "productos": "CESTA TRICOLOR RED BAMBÚ x22cm THE KITCHEN",
     "uxb": 1,
-    "precio_vta": 4144
+    "precio_vta": 4558
   },
   {
     "codigos": 479041,
     "productos": "CESTO BCOC/TAPA PLASVALE x4.1Lt",
     "uxb": 9,
-    "precio_vta": 9659
+    "precio_vta": 10625
   },
   {
     "codigos": 476477,
     "productos": "CESTO CLICK 7LT STAR",
     "uxb": 4,
-    "precio_vta": 7486
+    "precio_vta": 8235
+  },
+  {
+    "codigos": 480763,
+    "productos": "CESTO D/BASURA ALESTA IMP EMA VC142",
+    "uxb": 1,
+    "precio_vta": 5990
   },
   {
     "codigos": 478007,
     "productos": "CESTO DE BASURA INTELIGENTE NEW PLA 12l  12Lt",
     "uxb": 12,
-    "precio_vta": 36224
+    "precio_vta": 39847
   },
   {
     "codigos": 478729,
     "productos": "CESTO DE BAÑO UZ.4lt VARIOS",
     "uxb": 1,
-    "precio_vta": 5071
+    "precio_vta": 5578
+  },
+  {
+    "codigos": 480790,
+    "productos": "CESTO HOME IMP EMA 712231",
+    "uxb": 1,
+    "precio_vta": 7890
   },
   {
     "codigos": 478723,
     "productos": "CESTO P/ROPA C/TAPA UZ. 55lt varios",
     "uxb": 1,
-    "precio_vta": 20999
+    "precio_vta": 23099
   },
   {
     "codigos": 479352,
     "productos": "CESTO P/ROPA UZ 30lt VARIOS",
     "uxb": 1,
-    "precio_vta": 9449
+    "precio_vta": 10394
   },
   {
     "codigos": 8072,
     "productos": "CESTO PAPELERO LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 3569
+    "precio_vta": 3926
   },
   {
     "codigos": 465965,
     "productos": "CESTO PEDAL NEGRO STAR x12l",
     "uxb": 4,
-    "precio_vta": 8452
+    "precio_vta": 9297
   },
   {
     "codigos": 466168,
     "productos": "CESTO PEDAL NEGRO STAR x22Lt",
     "uxb": 2,
-    "precio_vta": 13282
+    "precio_vta": 14610
   },
   {
     "codigos": 465966,
     "productos": "CESTO PEDAL TERRA STAR x12l",
     "uxb": 4,
-    "precio_vta": 8452
+    "precio_vta": 9297
   },
   {
     "codigos": 467260,
     "productos": "CESTO PEDAL x22Lt TERRA",
     "uxb": 2,
-    "precio_vta": 13282
+    "precio_vta": 14610
   },
   {
     "codigos": 475187,
     "productos": "CESTO RESIDUO TUFFEX TP625 IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 8633
+    "precio_vta": 9496
   },
   {
     "codigos": 8704,
     "productos": "CESTO VAIVEN 6l RED.LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 7365
+    "precio_vta": 8102
   },
   {
     "codigos": 478668,
     "productos": "CESTO VAIVEN METALICO 7.5 lt",
     "uxb": 1,
-    "precio_vta": 10867
+    "precio_vta": 11954
   },
   {
     "codigos": 470862,
     "productos": "CESTO VAIVEN STAR x7Lt",
     "uxb": 6,
-    "precio_vta": 4226
+    "precio_vta": 4648
   },
   {
     "codigos": 474573,
     "productos": "CESTO VAIVÉN RED 3LT LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 4178
+    "precio_vta": 4596
   },
   {
     "codigos": 20004,
     "productos": "CEVO FAV BLOQUE PARAFINICO X120g",
     "uxb": 1,
-    "precio_vta": 5092
+    "precio_vta": 6949
   },
   {
     "codigos": 20005,
     "productos": "CEVO FAV EN GEL X6g",
     "uxb": 1,
-    "precio_vta": 4000
+    "precio_vta": 5690
   },
   {
     "codigos": 479839,
@@ -18321,7 +19107,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5002,
     "productos": "CHAMPIÑONES TROZO 400 LA BANDA",
     "uxb": 24,
-    "precio_vta": 2624
+    "precio_vta": 2599
   },
   {
     "codigos": 843,
@@ -18387,7 +19173,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480109,
     "productos": "CHEESECAKE ABUELA ÑATA x110g",
     "uxb": 1,
-    "precio_vta": 3039
+    "precio_vta": 3190
   },
   {
     "codigos": 479340,
@@ -18480,6 +19266,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5984
   },
   {
+    "codigos": 855,
+    "productos": "CHICLE BAZOOKA TUTTI x120u",
+    "uxb": 1,
+    "precio_vta": 4189
+  },
+  {
     "codigos": 479410,
     "productos": "CHICLE BAZZOKA TUTTI FRUTTI x80u 320 gr",
     "uxb": 18,
@@ -18513,7 +19305,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479334,
     "productos": "CHICLE BELDENT X20UN MANDARINA",
     "uxb": 20,
-    "precio_vta": 10499
+    "precio_vta": 11999
   },
   {
     "codigos": 479328,
@@ -18525,7 +19317,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479329,
     "productos": "CHICLE BELDENT X20UN MENTA",
     "uxb": 20,
-    "precio_vta": 10499
+    "precio_vta": 11999
   },
   {
     "codigos": 479330,
@@ -18543,7 +19335,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479331,
     "productos": "CHICLE BELDENT X20UN TUTTI FRUT",
     "uxb": 20,
-    "precio_vta": 10499
+    "precio_vta": 11999
   },
   {
     "codigos": 478172,
@@ -18699,19 +19491,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7001,
     "productos": "CHICLE FIERITA BANANA X100U",
     "uxb": 18,
-    "precio_vta": 2939
+    "precio_vta": 3099
   },
   {
     "codigos": 7140,
     "productos": "CHICLE FIERITA COME FUEGO X50U",
     "uxb": 18,
-    "precio_vta": 3254
+    "precio_vta": 3399
   },
   {
     "codigos": 8165,
     "productos": "CHICLE FIERITA FRUTILLA X100U",
     "uxb": 18,
-    "precio_vta": 2572
+    "precio_vta": 3099
   },
   {
     "codigos": 1760,
@@ -18723,7 +19515,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7002,
     "productos": "CHICLE FIERITA MENTA X100U",
     "uxb": 18,
-    "precio_vta": 2939
+    "precio_vta": 3099
   },
   {
     "codigos": 474603,
@@ -18753,7 +19545,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473264,
     "productos": "CHICLE FIERITA REC-MUNDIAL x50Un.",
     "uxb": 18,
-    "precio_vta": 2225
+    "precio_vta": 3199
   },
   {
     "codigos": 471063,
@@ -18771,19 +19563,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7000,
     "productos": "CHICLE FIERITA T/FRUTTI X100U",
     "uxb": 18,
-    "precio_vta": 2572
+    "precio_vta": 3099
   },
   {
     "codigos": 474602,
     "productos": "CHICLE FIERITA TENNIS OPEN CANDY x30Un.",
     "uxb": 18,
-    "precio_vta": 2204
+    "precio_vta": 3099
   },
   {
     "codigos": 7004,
     "productos": "CHICLE FIERITA UVA X100U",
     "uxb": 18,
-    "precio_vta": 2939
+    "precio_vta": 3099
   },
   {
     "codigos": 8151,
@@ -18818,13 +19610,13 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 479023,
     "productos": "CHICLE FLICS MENTA x12un",
-    "uxb": 1,
+    "uxb": 24,
     "precio_vta": 6089
   },
   {
     "codigos": 479024,
     "productos": "CHICLE FLICS T.FRUTTI x12Un.",
-    "uxb": 1,
+    "uxb": 24,
     "precio_vta": 6089
   },
   {
@@ -18832,6 +19624,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CHICLE FRUTAS BLUPER x400g",
     "uxb": 12,
     "precio_vta": 4198
+  },
+  {
+    "codigos": 463561,
+    "productos": "CHICLE GLOBO GUMBALLS x1 uni",
+    "uxb": 24,
+    "precio_vta": 1099
   },
   {
     "codigos": 8044,
@@ -19058,7 +19856,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 474978,
     "productos": "CHIMICHURRI AHUMADO AROMAS/SABORES x250ml",
-    "uxb": 10,
+    "uxb": 24,
     "precio_vta": 1154
   },
   {
@@ -19131,7 +19929,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466332,
     "productos": "CHIMICHURRI SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 818
+    "precio_vta": 839
   },
   {
     "codigos": 9238,
@@ -19202,7 +20000,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 11805,
     "productos": "CHIZITOS BUBBY CHIL X 1KG",
-    "uxb": 8,
+    "uxb": 6,
     "precio_vta": 6372
   },
   {
@@ -19221,7 +20019,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471959,
     "productos": "CHIZITOS FACU X1kg",
     "uxb": 1,
-    "precio_vta": 4714
+    "precio_vta": 4890
   },
   {
     "codigos": 465829,
@@ -19239,6 +20037,12 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462967,
     "productos": "CHIZITOS PEHUAMAR CLASICOS x260g",
     "uxb": 10,
+    "precio_vta": 3999
+  },
+  {
+    "codigos": 480594,
+    "productos": "CHIZITOS S/QUESO KRACHITOS x240g",
+    "uxb": 10,
     "precio_vta": 3674
   },
   {
@@ -19251,7 +20055,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470086,
     "productos": "CHIZITOS SUELTOS",
     "uxb": 1,
-    "precio_vta": 5554
+    "precio_vta": 5590
   },
   {
     "codigos": 478142,
@@ -19294,6 +20098,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CHOC. MILKA CHOCO PAUSE OREO x45gr",
     "uxb": 24,
     "precio_vta": 944
+  },
+  {
+    "codigos": 480626,
+    "productos": "CHOC. MONEDA RELL VAUQUITA X25G",
+    "uxb": 18,
+    "precio_vta": 699
+  },
+  {
+    "codigos": 480622,
+    "productos": "CHOC.BILLIKEN PUNCH x70g",
+    "uxb": 12,
+    "precio_vta": 1199
   },
   {
     "codigos": 470111,
@@ -19362,12 +20178,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1099
   },
   {
-    "codigos": 10952,
-    "productos": "CHOCLO MOLTO CREMOSO BLANCO 350G",
-    "uxb": 24,
-    "precio_vta": 699
-  },
-  {
     "codigos": 2219,
     "productos": "CHOCLO MOLTO GRANO AMARILLO x300gr",
     "uxb": 24,
@@ -19378,12 +20188,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CHOCLO NOEL GRANO AMARILLO X300GR",
     "uxb": 24,
     "precio_vta": 1399
-  },
-  {
-    "codigos": 477734,
-    "productos": "CHOCLO TRES ARROYOS GRANO X350GR",
-    "uxb": 24,
-    "precio_vta": 799
   },
   {
     "codigos": 474075,
@@ -19404,6 +20208,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4619
   },
   {
+    "codigos": 480623,
+    "productos": "CHOCO. BILLIKEN TAZA x100g",
+    "uxb": 24,
+    "precio_vta": 1859
+  },
+  {
     "codigos": 477943,
     "productos": "CHOCO. MILKA OREO BCO x55g",
     "uxb": 21,
@@ -19413,7 +20223,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471160,
     "productos": "CHOCOLATADA MAMA MECHA SACHET x 1 LT",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1899
   },
   {
     "codigos": 463121,
@@ -19473,7 +20283,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465343,
     "productos": "CHOCOLATE BLANCO TOFI X55G",
     "uxb": 15,
-    "precio_vta": 1837
+    "precio_vta": 2225
   },
   {
     "codigos": 472287,
@@ -19506,6 +20316,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4199
   },
   {
+    "codigos": 9735,
+    "productos": "CHOCOLATE C/DCE DE LECHE TOFI x55gr",
+    "uxb": 15,
+    "precio_vta": 2225
+  },
+  {
     "codigos": 477627,
     "productos": "CHOCOLATE C/MANI CONGUITOS x80g",
     "uxb": 24,
@@ -19515,7 +20331,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477920,
     "productos": "CHOCOLATE CABSHA SUELTO x1Un.",
     "uxb": 1,
-    "precio_vta": 209
+    "precio_vta": 499
   },
   {
     "codigos": 4742,
@@ -19539,7 +20355,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4744,
     "productos": "CHOCOLATE CADBURY YOG FRUTILLA x29g",
     "uxb": 12,
-    "precio_vta": 892
+    "precio_vta": 1990
   },
   {
     "codigos": 468569,
@@ -19674,10 +20490,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2624
   },
   {
+    "codigos": 480581,
+    "productos": "CHOCOLATE COFLER DULCE DE LECHE x38g",
+    "uxb": 20,
+    "precio_vta": 1599
+  },
+  {
     "codigos": 6921,
     "productos": "CHOCOLATE COFLER LECHE 55G",
     "uxb": 10,
     "precio_vta": 2203
+  },
+  {
+    "codigos": 480579,
+    "productos": "CHOCOLATE COFLER MOUSSE AVELLANAS x35g",
+    "uxb": 20,
+    "precio_vta": 1599
   },
   {
     "codigos": 8302,
@@ -19686,10 +20514,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2624
   },
   {
+    "codigos": 480580,
+    "productos": "CHOCOLATE COFLER YOGHURT FRUTILLA x35g",
+    "uxb": 20,
+    "precio_vta": 1599
+  },
+  {
     "codigos": 480320,
     "productos": "CHOCOLATE CONFITADO CORAZONCITOS x60g",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2599
   },
   {
     "codigos": 884,
@@ -19743,7 +20577,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1638,
     "productos": "CHOCOLATE FULL MANI GEORGALOS x160g",
     "uxb": 20,
-    "precio_vta": 3674
+    "precio_vta": 3299
   },
   {
     "codigos": 470433,
@@ -19758,46 +20592,64 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2257
   },
   {
+    "codigos": 480589,
+    "productos": "CHOCOLATE FULL MANI x90g",
+    "uxb": 10,
+    "precio_vta": 2199
+  },
+  {
     "codigos": 1693,
     "productos": "CHOCOLATE HAMLET ALMD/MANI x43gr",
     "uxb": 21,
-    "precio_vta": 587
+    "precio_vta": 749
+  },
+  {
+    "codigos": 480588,
+    "productos": "CHOCOLATE HAMLET AVELLANA x45g",
+    "uxb": 21,
+    "precio_vta": 749
   },
   {
     "codigos": 1695,
     "productos": "CHOCOLATE HAMLET BICOLOR x43gr",
     "uxb": 21,
-    "precio_vta": 587
+    "precio_vta": 749
   },
   {
     "codigos": 1696,
     "productos": "CHOCOLATE HAMLET BLANCO/COOKIES x43gr",
     "uxb": 21,
-    "precio_vta": 629
+    "precio_vta": 749
   },
   {
     "codigos": 1698,
     "productos": "CHOCOLATE HAMLET CHOCOLATOSO x43gr",
     "uxb": 21,
-    "precio_vta": 629
+    "precio_vta": 749
   },
   {
     "codigos": 1700,
     "productos": "CHOCOLATE HAMLET LECHE/COOKIES x43gr",
     "uxb": 21,
-    "precio_vta": 629
+    "precio_vta": 749
   },
   {
     "codigos": 466981,
     "productos": "CHOCOLATE HAMLET MEGA MANI x165g",
     "uxb": 18,
-    "precio_vta": 1910
+    "precio_vta": 2499
   },
   {
     "codigos": 1704,
     "productos": "CHOCOLATE HAMLET YOG.FRUTILLA x43gr",
     "uxb": 21,
-    "precio_vta": 629
+    "precio_vta": 749
+  },
+  {
+    "codigos": 463115,
+    "productos": "CHOCOLATE JACK EMOJI x14g",
+    "uxb": 20,
+    "precio_vta": 1699
   },
   {
     "codigos": 474093,
@@ -19828,12 +20680,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CHOCOLATE LECHE COFLER AIR X100G",
     "uxb": 12,
     "precio_vta": 4409
-  },
-  {
-    "codigos": 9735,
-    "productos": "CHOCOLATE LECHE TOFI X55G",
-    "uxb": 15,
-    "precio_vta": 2225
   },
   {
     "codigos": 467744,
@@ -19875,7 +20721,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465148,
     "productos": "CHOCOLATE MILKA C/ALMENDRAS X55G",
     "uxb": 1,
-    "precio_vta": 1258
+    "precio_vta": 3290
   },
   {
     "codigos": 469702,
@@ -19887,7 +20733,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465149,
     "productos": "CHOCOLATE MILKA CASTAÑAS C/CARAME.X55G",
     "uxb": 1,
-    "precio_vta": 1258
+    "precio_vta": 3290
   },
   {
     "codigos": 478846,
@@ -19917,7 +20763,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465603,
     "productos": "CHOCOLATE MILKA LEGER LECHE 55G",
     "uxb": 1,
-    "precio_vta": 808
+    "precio_vta": 3290
   },
   {
     "codigos": 478849,
@@ -20172,18 +21018,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 16873
   },
   {
-    "codigos": 476581,
-    "productos": "CHUP BOLA LOCA FRUTILLA/SANDIA x24 UNI",
-    "uxb": 1,
-    "precio_vta": 2309
-  },
-  {
-    "codigos": 479110,
-    "productos": "CHUP BOLA LOCA MAX POTE x24Un.",
-    "uxb": 12,
-    "precio_vta": 3789
-  },
-  {
     "codigos": 478584,
     "productos": "CHUP. CANDY PORT ANILLO FRUT.x500gr",
     "uxb": 12,
@@ -20208,10 +21042,58 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1259
   },
   {
+    "codigos": 467346,
+    "productos": "CHUP.BABY DOLL CON SORPRESA",
+    "uxb": 12,
+    "precio_vta": 639
+  },
+  {
+    "codigos": 472199,
+    "productos": "CHUP.BABY DOLL MAST CEREZA X480g",
+    "uxb": 12,
+    "precio_vta": 2624
+  },
+  {
+    "codigos": 475022,
+    "productos": "CHUP.BABY DOLL MAST UVA X480g",
+    "uxb": 12,
+    "precio_vta": 2624
+  },
+  {
+    "codigos": 473721,
+    "productos": "CHUP.BABY DOLL X24g",
+    "uxb": 1,
+    "precio_vta": 271
+  },
+  {
+    "codigos": 476581,
+    "productos": "CHUP.BOLA LOCA FRUT/SANDIA X24U",
+    "uxb": 1,
+    "precio_vta": 2309
+  },
+  {
+    "codigos": 479110,
+    "productos": "CHUP.BOLA LOCA MAX POTE X24U",
+    "uxb": 12,
+    "precio_vta": 3789
+  },
+  {
     "codigos": 473222,
     "productos": "CHUP.BOLON DEPORTIVO x20un FACUNDITO PAYSANDU",
     "uxb": 18,
     "precio_vta": 3779
+  },
+  {
+    "codigos": 479791,
+    "productos": "CHUP.C/BILLETE PAYSANDU X50U",
+    "uxb": 20,
+    "precio_vta": 3674
+  },
+  {
+    "codigos": 479229,
+    "productos": "CHUP.CANDY POOH C/ACIDO X24U",
+    "uxb": 12,
+    "precio_vta": 9029
   },
   {
     "codigos": 468855,
@@ -20223,13 +21105,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4183,
     "productos": "CHUP.CORAZON N1 ROMAN PAYSANDU x12un",
     "uxb": 24,
-    "precio_vta": 1627
+    "precio_vta": 2999
+  },
+  {
+    "codigos": 467098,
+    "productos": "CHUP.COSMOS SURTIDO C/CHICLE X24u",
+    "uxb": 15,
+    "precio_vta": 3454
+  },
+  {
+    "codigos": 10591,
+    "productos": "CHUP.CRAZY POP FRUT X10un",
+    "uxb": 20,
+    "precio_vta": 9229
+  },
+  {
+    "codigos": 471162,
+    "productos": "CHUP.CRAZY POP NARJ TIRA X10u",
+    "uxb": 20,
+    "precio_vta": 9229
+  },
+  {
+    "codigos": 471163,
+    "productos": "CHUP.CRAZY POP SANDIA TIRA X10u",
+    "uxb": 20,
+    "precio_vta": 9229
+  },
+  {
+    "codigos": 470278,
+    "productos": "CHUP.CRAZY POP UVA X10u",
+    "uxb": 20,
+    "precio_vta": 9229
+  },
+  {
+    "codigos": 477197,
+    "productos": "CHUP.EVOLUTION SUELTO X1UN",
+    "uxb": 1,
+    "precio_vta": 131
+  },
+  {
+    "codigos": 479242,
+    "productos": "CHUP.FAN POP X15g X1u",
+    "uxb": 24,
+    "precio_vta": 734
   },
   {
     "codigos": 4800,
     "productos": "CHUP.LHERITIER BOLA LOCA MAX X24U",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3599
   },
   {
     "codigos": 478585,
@@ -20244,6 +21168,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2099
   },
   {
+    "codigos": 465504,
+    "productos": "CHUP.PEKES DIAMANTE N2954 X20un",
+    "uxb": 30,
+    "precio_vta": 3044
+  },
+  {
+    "codigos": 469919,
+    "productos": "CHUP.TOPOLIN C/SORPRESA X1UN",
+    "uxb": 1,
+    "precio_vta": 3699
+  },
+  {
     "codigos": 891,
     "productos": "CHUPALETA MARENGO FRUTAL X24U",
     "uxb": 20,
@@ -20253,13 +21189,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4182,
     "productos": "CHUPALETA MICKEY ROMAN PAYSANDU x14un",
     "uxb": 22,
-    "precio_vta": 2519
+    "precio_vta": 2999
   },
   {
     "codigos": 473224,
     "productos": "CHUPALETA PEPPA PIG PAYSANDU x14un.",
     "uxb": 26,
-    "precio_vta": 1574
+    "precio_vta": 2199
   },
   {
     "codigos": 7222,
@@ -20301,102 +21237,12 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467420,
     "productos": "CHUPETES DULZURA",
     "uxb": 6,
-    "precio_vta": 542
+    "precio_vta": 596
   },
   {
     "codigos": 7776,
     "productos": "CHUPETES X UNID BEBYS",
     "uxb": 6,
-    "precio_vta": 734
-  },
-  {
-    "codigos": 467346,
-    "productos": "CHUPETIN BABY DOLL 24GR",
-    "uxb": 12,
-    "precio_vta": 629
-  },
-  {
-    "codigos": 473721,
-    "productos": "CHUPETIN BABY DOLL CON SORPRESA",
-    "uxb": 1,
-    "precio_vta": 271
-  },
-  {
-    "codigos": 472199,
-    "productos": "CHUPETIN BABY DOLL MAST CEREZA 480GR",
-    "uxb": 12,
-    "precio_vta": 2624
-  },
-  {
-    "codigos": 475022,
-    "productos": "CHUPETIN BABY DOLL MAST UVA 480GR",
-    "uxb": 12,
-    "precio_vta": 2624
-  },
-  {
-    "codigos": 479791,
-    "productos": "CHUPETIN C/BILLETE x50u PAYSANDU",
-    "uxb": 20,
-    "precio_vta": 3674
-  },
-  {
-    "codigos": 479229,
-    "productos": "CHUPETIN C/POLVO ACIDO x24u CANDY PORT",
-    "uxb": 12,
-    "precio_vta": 9029
-  },
-  {
-    "codigos": 469919,
-    "productos": "CHUPETIN C/SORPRESA TOPOLIN x1Un.",
-    "uxb": 1,
-    "precio_vta": 3464
-  },
-  {
-    "codigos": 467098,
-    "productos": "CHUPETIN COSMOS SURTIDO C/CHICLE x24un",
-    "uxb": 15,
-    "precio_vta": 3454
-  },
-  {
-    "codigos": 10591,
-    "productos": "CHUPETIN CRAZY POP FRUTILLA x10un",
-    "uxb": 20,
-    "precio_vta": 9229
-  },
-  {
-    "codigos": 471162,
-    "productos": "CHUPETIN CRAZY POP NARANJA TIRA x10Un.",
-    "uxb": 20,
-    "precio_vta": 9229
-  },
-  {
-    "codigos": 471163,
-    "productos": "CHUPETIN CRAZY POP SANDIA TIRA x10Un.",
-    "uxb": 20,
-    "precio_vta": 9229
-  },
-  {
-    "codigos": 470278,
-    "productos": "CHUPETIN CRAZY POP UVA x10un",
-    "uxb": 20,
-    "precio_vta": 9229
-  },
-  {
-    "codigos": 465504,
-    "productos": "CHUPETIN DIAMANTE PEKES N2954 x20UN",
-    "uxb": 30,
-    "precio_vta": 3044
-  },
-  {
-    "codigos": 477197,
-    "productos": "CHUPETIN EVOLUTION SUELTO x1Un.",
-    "uxb": 1,
-    "precio_vta": 131
-  },
-  {
-    "codigos": 479242,
-    "productos": "CHUPETIN FAN POP x15gr x1un",
-    "uxb": 24,
     "precio_vta": 734
   },
   {
@@ -20409,7 +21255,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7115,
     "productos": "CHUPETIN FIERITA SUP/TATTO 50UN",
     "uxb": 12,
-    "precio_vta": 4934
+    "precio_vta": 6699
   },
   {
     "codigos": 475862,
@@ -20469,13 +21315,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465286,
     "productos": "CHUPETIN LHERITIER BO/LOCA R/CHICLE X24U",
     "uxb": 12,
-    "precio_vta": 3579
+    "precio_vta": 2999
   },
   {
     "codigos": 3961,
     "productos": "CHUPETIN LHERITIER BOLA LOCA BOCA X24U",
     "uxb": 12,
-    "precio_vta": 3568
+    "precio_vta": 2999
   },
   {
     "codigos": 472189,
@@ -20505,13 +21351,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472202,
     "productos": "CHUPETIN LHERITIER BOLA LOCA SANDIA X24U",
     "uxb": 12,
-    "precio_vta": 3254
+    "precio_vta": 2999
   },
   {
     "codigos": 475428,
     "productos": "CHUPETIN LHERITIER BOLA LOCA TUTTI X24U",
     "uxb": 12,
-    "precio_vta": 2729
+    "precio_vta": 2999
   },
   {
     "codigos": 475427,
@@ -20523,37 +21369,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468856,
     "productos": "CHUPETIN LHERITIER CEBOLLITAS CEREZA/NJA/MNZA x240gr",
     "uxb": 24,
-    "precio_vta": 1668
+    "precio_vta": 1599
   },
   {
     "codigos": 468854,
     "productos": "CHUPETIN LHERITIER CEBOLLITAS DDL x240gr",
     "uxb": 24,
-    "precio_vta": 1364
+    "precio_vta": 1599
   },
   {
     "codigos": 4445,
     "productos": "CHUPETIN LHERITIER PELOTITAS DDL x50un",
     "uxb": 12,
-    "precio_vta": 2308
+    "precio_vta": 2499
   },
   {
     "codigos": 9075,
     "productos": "CHUPETIN LHERITIER PELOTITAS DUO x50un",
     "uxb": 12,
-    "precio_vta": 2204
+    "precio_vta": 2499
   },
   {
     "codigos": 906,
     "productos": "CHUPETIN LHERITIER PELOTITAS FRUTAL X50U",
     "uxb": 12,
-    "precio_vta": 2308
+    "precio_vta": 2499
   },
   {
     "codigos": 465323,
     "productos": "CHUPETIN LHERITIER PELOTITAS PIN/LENG X50U",
     "uxb": 12,
-    "precio_vta": 2204
+    "precio_vta": 2499
   },
   {
     "codigos": 467433,
@@ -20691,7 +21537,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480162,
     "productos": "CHUPETIN PICANTE BOLA LOCA THER x24Un.",
     "uxb": 12,
-    "precio_vta": 3631
+    "precio_vta": 2999
   },
   {
     "codigos": 468858,
@@ -20715,7 +21561,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 907,
     "productos": "CHUPETIN PICO DULCE x48u",
     "uxb": 12,
-    "precio_vta": 9449
+    "precio_vta": 9299
   },
   {
     "codigos": 479787,
@@ -20727,7 +21573,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 908,
     "productos": "CHUPETIN PITO PITO BSA x24 UN",
     "uxb": 12,
-    "precio_vta": 4681
+    "precio_vta": 4599
   },
   {
     "codigos": 479234,
@@ -20823,19 +21669,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4429,
     "productos": "CHUPETIN TNT SUPER ACIDO x48un",
     "uxb": 16,
-    "precio_vta": 6089
+    "precio_vta": 6199
   },
   {
     "codigos": 470475,
     "productos": "CHUPETIN TOPOLIN JUGUETAZO x10Un.",
     "uxb": 1,
-    "precio_vta": 10499
+    "precio_vta": 11099
   },
   {
     "codigos": 4754,
-    "productos": "CHUPETIN WAMIS D.LECHE X 50UNI",
+    "productos": "CHUPETIN WAMIS D.LECHE X 453gr",
     "uxb": 12,
-    "precio_vta": 1784
+    "precio_vta": 2199
   },
   {
     "codigos": 909,
@@ -20845,15 +21691,15 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 910,
-    "productos": "CHUPETIN WAMIS FRUTAL X50U",
+    "productos": "CHUPETIN WAMIS FRUTAL X453gr",
     "uxb": 12,
-    "precio_vta": 1784
+    "precio_vta": 2199
   },
   {
     "codigos": 4753,
     "productos": "CHUPETIN WAMIS MAGICO x50un",
     "uxb": 12,
-    "precio_vta": 2098
+    "precio_vta": 2199
   },
   {
     "codigos": 4755,
@@ -20864,8 +21710,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466824,
     "productos": "CHUPETONCITO LHERITHIER x unidad",
-    "uxb": 1,
-    "precio_vta": 523
+    "uxb": 8,
+    "precio_vta": 749
   },
   {
     "codigos": 2534,
@@ -20940,6 +21786,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 22980
   },
   {
+    "codigos": 467679,
+    "productos": "CIGARRILLO BLACK&KING KS x20x10un",
+    "uxb": 25,
+    "precio_vta": 11500
+  },
+  {
     "codigos": 477998,
     "productos": "CIGARRILLO BOXER CONVERT ON 20x10Un",
     "uxb": 25,
@@ -20982,6 +21834,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 999
   },
   {
+    "codigos": 480750,
+    "productos": "CIGARRILLO CJ AMA/MENT EMILIO x1Un.",
+    "uxb": 1,
+    "precio_vta": 999
+  },
+  {
     "codigos": 480375,
     "productos": "CIGARRILLO CORONA BOX x20",
     "uxb": 25,
@@ -21006,6 +21864,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10899
   },
   {
+    "codigos": 480751,
+    "productos": "CIGARRILLO GO ROJO x1Un.",
+    "uxb": 1,
+    "precio_vta": 999
+  },
+  {
     "codigos": 477950,
     "productos": "CIGARRILLO HILLS CLICK ON BOX x20Unx10Paq",
     "uxb": 50,
@@ -21021,7 +21885,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479353,
     "productos": "CIGARRILLO MARLBORO SUELTO X1UN",
     "uxb": 1,
-    "precio_vta": 2499
+    "precio_vta": 2899
   },
   {
     "codigos": 12145,
@@ -21072,6 +21936,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 17890
   },
   {
+    "codigos": 475241,
+    "productos": "CIGARRILLO REDPOINT BOX ON x10x10un",
+    "uxb": 25,
+    "precio_vta": 10390
+  },
+  {
     "codigos": 480231,
     "productos": "CIGARRILLO REDPOINT BOX SUELTO x1Un",
     "uxb": 1,
@@ -21081,7 +21951,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7837,
     "productos": "CIGARRILLO REDPOINT KS 20x10 UNI",
     "uxb": 25,
-    "precio_vta": 15990
+    "precio_vta": 14999
   },
   {
     "codigos": 472707,
@@ -21105,13 +21975,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480141,
     "productos": "CILINDRO QUESO MUZZA BARRAZA x1Kg.",
     "uxb": 1,
-    "precio_vta": 10699
+    "precio_vta": 10999
+  },
+  {
+    "codigos": 480144,
+    "productos": "CILINDRO QUESO MUZZA BARRAZA x3Kg",
+    "uxb": 1,
+    "precio_vta": 10499
   },
   {
     "codigos": 480143,
     "productos": "CILINDRO QUESO MUZZA BARRAZA x500gr.",
     "uxb": 1,
-    "precio_vta": 5699
+    "precio_vta": 5999
+  },
+  {
+    "codigos": 480561,
+    "productos": "CIMES EDULCORANTE CLASICO x250cc",
+    "uxb": 6,
+    "precio_vta": 999
   },
   {
     "codigos": 479890,
@@ -21124,6 +22006,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CIMES EDULCORANTE STEVIA x500cc",
     "uxb": 6,
     "precio_vta": 2204
+  },
+  {
+    "codigos": 480808,
+    "productos": "CIMES EDULCORANTE SUCRALOSA x250cc",
+    "uxb": 6,
+    "precio_vta": 999
   },
   {
     "codigos": 480479,
@@ -21207,7 +22095,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1386,
     "productos": "CINTA ADHESIVA SANTEX X100m",
     "uxb": 72,
-    "precio_vta": 1469
+    "precio_vta": 1649
   },
   {
     "codigos": 477798,
@@ -21540,6 +22428,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 734
   },
   {
+    "codigos": 10268,
+    "productos": "CINZANO BIANCO 450ml",
+    "uxb": 12,
+    "precio_vta": 2535
+  },
+  {
     "codigos": 938,
     "productos": "CINZANO ROSSO 950ml",
     "uxb": 12,
@@ -21573,7 +22467,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14055,
     "productos": "CIRUELAS D AGEN C/CAROZO CUYAIRES x1Kg",
     "uxb": 1,
-    "precio_vta": 10499
+    "precio_vta": 11999
   },
   {
     "codigos": 14056,
@@ -21596,7 +22490,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 467368,
     "productos": "CLAVO DE OLOR AROMAS/SABORES X10G",
-    "uxb": 120,
+    "uxb": 1,
     "precio_vta": 954
   },
   {
@@ -21704,7 +22598,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 473467,
     "productos": "COCO RALLADO SABOR SUR x35Gr.",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 650
   },
   {
@@ -21831,19 +22725,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10417,
     "productos": "COLACALDO TUTTI HP",
     "uxb": 12,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 475188,
     "productos": "COLADOR ACERO C/ASAS 24CM BH-HOME IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 6426
+    "precio_vta": 7069
   },
   {
     "codigos": 475170,
     "productos": "COLADOR ACERO CHICO 18-16 IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 1836
+    "precio_vta": 2019
   },
   {
     "codigos": 475183,
@@ -21855,79 +22749,79 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476050,
     "productos": "COLADOR ACERO MANGO PLAST x14cm THE KITCHEN",
     "uxb": 30,
-    "precio_vta": 3148
+    "precio_vta": 3463
   },
   {
     "codigos": 475176,
     "productos": "COLADOR ACERO MEDIANO IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 2887
+    "precio_vta": 3176
   },
   {
     "codigos": 473566,
     "productos": "COLADOR ACERO TAURO N8 x1Un.",
     "uxb": 1,
-    "precio_vta": 1015
+    "precio_vta": 1117
   },
   {
     "codigos": 476658,
     "productos": "COLADOR ARAÑA ACERO 18CM RESPONTECH",
     "uxb": 10,
-    "precio_vta": 2728
+    "precio_vta": 3001
   },
   {
     "codigos": 472228,
     "productos": "COLADOR C/MALLA RESPONTECH x8cm",
     "uxb": 1,
-    "precio_vta": 758
+    "precio_vta": 834
   },
   {
     "codigos": 8739,
     "productos": "COLADOR C/TAPA HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 1784
+    "precio_vta": 1963
   },
   {
     "codigos": 475285,
     "productos": "COLADOR GIRATORIO IRROMPIBLES",
     "uxb": 1,
-    "precio_vta": 5141
+    "precio_vta": 5655
   },
   {
     "codigos": 476456,
     "productos": "COLADOR MULTIUSO KEVINS",
     "uxb": 24,
-    "precio_vta": 1501
+    "precio_vta": 1651
   },
   {
     "codigos": 473327,
     "productos": "COLADOR SOFT VIHA VOCE x2.5Lt",
     "uxb": 1,
-    "precio_vta": 2757
+    "precio_vta": 3033
   },
   {
     "codigos": 479924,
     "productos": "COLAPASTA CAROL COD 70503 21x13cm x1Un.",
     "uxb": 1,
-    "precio_vta": 18679
+    "precio_vta": 20547
   },
   {
     "codigos": 472500,
     "productos": "COLAPASTA CORAL N26 x1Un.",
     "uxb": 1,
-    "precio_vta": 11727
+    "precio_vta": 12900
   },
   {
     "codigos": 8452,
     "productos": "COLAPASTAS CARIOCA YESI",
     "uxb": 32,
-    "precio_vta": 1994
+    "precio_vta": 2194
   },
   {
     "codigos": 2592,
     "productos": "COLAPASTAS CORAL N24",
     "uxb": 1,
-    "precio_vta": 10740
+    "precio_vta": 11814
   },
   {
     "codigos": 476518,
@@ -22491,7 +23385,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8351,
     "productos": "COLONIA ALGABO AMBRE X500ml",
     "uxb": 12,
-    "precio_vta": 3884
+    "precio_vta": 3899
   },
   {
     "codigos": 465235,
@@ -22503,7 +23397,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465234,
     "productos": "COLONIA ALGABO BABY S.B/D.M X200cc",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3199
+  },
+  {
+    "codigos": 5416,
+    "productos": "COLONIA ALGABO BLUSH PETALS x400cc",
+    "uxb": 1,
+    "precio_vta": 4999
   },
   {
     "codigos": 8951,
@@ -22515,7 +23415,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8352,
     "productos": "COLONIA ALGABO LAVANDA X500ml",
     "uxb": 12,
-    "precio_vta": 3884
+    "precio_vta": 3899
+  },
+  {
+    "codigos": 5413,
+    "productos": "COLONIA ALGABO LILI GARDEN x400cc",
+    "uxb": 1,
+    "precio_vta": 4999
   },
   {
     "codigos": 10293,
@@ -22533,7 +23439,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8353,
     "productos": "COLONIA INGLESA ALGABO 500ML",
     "uxb": 12,
-    "precio_vta": 3674
+    "precio_vta": 3899
   },
   {
     "codigos": 1164,
@@ -22575,7 +23481,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10739,
     "productos": "COLONIA PIBES 80ml",
     "uxb": 1,
-    "precio_vta": 7349
+    "precio_vta": 8499
   },
   {
     "codigos": 473057,
@@ -22612,6 +23518,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "COMBO ASAD. RED. FORNERIE S/CJA 3 PIEZA",
     "uxb": 1,
     "precio_vta": 31499
+  },
+  {
+    "codigos": 480406,
+    "productos": "COMBO ASAD.ACUADRA.FORNERIE 3 P S/CAJA",
+    "uxb": 1,
+    "precio_vta": 37374
   },
   {
     "codigos": 480435,
@@ -22662,6 +23574,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 102516
   },
   {
+    "codigos": 480404,
+    "productos": "COMBO CACEROLAS PRESTIGE 4 PIEZAS",
+    "uxb": 1,
+    "precio_vta": 63249
+  },
+  {
     "codigos": 478948,
     "productos": "COMBO DE DESAYUNO N3 TUCU",
     "uxb": 1,
@@ -22695,13 +23613,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462592,
     "productos": "COMEDERO P/MASCOTA HERALDPLAST x14cm",
     "uxb": 1,
-    "precio_vta": 965
+    "precio_vta": 1062
   },
   {
     "codigos": 462593,
     "productos": "COMEDERO P/MASCOTA HERALDPLAST x22cm",
     "uxb": 1,
-    "precio_vta": 1569
+    "precio_vta": 1726
   },
   {
     "codigos": 478692,
@@ -22743,19 +23661,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466337,
     "productos": "COMINO SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 944
+    "precio_vta": 949
   },
   {
     "codigos": 30009,
     "productos": "COMINO TUCU X1KG",
     "uxb": 1,
-    "precio_vta": 3454
+    "precio_vta": 3199
   },
   {
     "codigos": 478778,
     "productos": "COMITAS BULL DOG REGALIZ C/ACID X60GR",
     "uxb": 24,
-    "precio_vta": 829
+    "precio_vta": 769
   },
   {
     "codigos": 9190,
@@ -22785,19 +23703,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8450,
     "productos": "COMPOTERA C/ALAS CARIOCA YESI",
     "uxb": 54,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 470409,
     "productos": "COMPOTERA CAROL x11cm",
     "uxb": 1,
-    "precio_vta": 526
+    "precio_vta": 578
   },
   {
     "codigos": 475326,
     "productos": "COMPOTERA FAC MULTICOLOR STAR x300cc",
     "uxb": 1,
-    "precio_vta": 2309
+    "precio_vta": 2540
   },
   {
     "codigos": 466154,
@@ -22809,19 +23727,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472230,
     "productos": "COMPOTERA MELAMINA RESPONTECH x15cm",
     "uxb": 1,
-    "precio_vta": 1154
+    "precio_vta": 1270
   },
   {
     "codigos": 479928,
     "productos": "COMPOTERA PLAST C3411 CAROL x11cm x1Un.",
     "uxb": 1,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 467638,
     "productos": "COMPOTERA STAR COMPANY x580c FULL/NORD/FAC",
     "uxb": 100,
-    "precio_vta": 1726
+    "precio_vta": 1899
   },
   {
     "codigos": 462852,
@@ -22887,7 +23805,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466335,
     "productos": "CONDIMENTO P/ARROZ SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 776
+    "precio_vta": 799
   },
   {
     "codigos": 475233,
@@ -23022,6 +23940,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10705
   },
   {
+    "codigos": 6437,
+    "productos": "CONFITE SAPITO CJA X 24UNI",
+    "uxb": 12,
+    "precio_vta": 7999
+  },
+  {
     "codigos": 472495,
     "productos": "CONFITES CHOOK PALMESANO x150g",
     "uxb": 24,
@@ -23121,7 +24045,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480412,
     "productos": "CONOS LOPOP SABOR QUESO Y PIZZA 83gs",
     "uxb": 1,
-    "precio_vta": 1573
+    "precio_vta": 999
   },
   {
     "codigos": 480413,
@@ -23157,163 +24081,163 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472554,
     "productos": "CONT PLASTICO C/3 DIV PLASTART VIHA x1.35Lt",
     "uxb": 1,
-    "precio_vta": 4829
+    "precio_vta": 5312
   },
   {
     "codigos": 473316,
     "productos": "CONT. PANAL BONNY VIHA PETEK x750cc",
     "uxb": 1,
-    "precio_vta": 1669
+    "precio_vta": 1835
   },
   {
     "codigos": 477773,
     "productos": "CONT.CUADRADO PLASVALE x250ml",
     "uxb": 1,
-    "precio_vta": 597
+    "precio_vta": 657
   },
   {
     "codigos": 477778,
     "productos": "CONT.CUADRADO PLASVALE x4.5ml",
     "uxb": 1,
-    "precio_vta": 3187
+    "precio_vta": 3506
   },
   {
     "codigos": 477775,
     "productos": "CONT.CUADRADO PLASVALE x530ml",
     "uxb": 1,
-    "precio_vta": 796
+    "precio_vta": 876
   },
   {
     "codigos": 477779,
     "productos": "CONT.CUADRADO PLASVALE x900ML",
     "uxb": 1,
-    "precio_vta": 1461
+    "precio_vta": 1607
   },
   {
     "codigos": 477777,
     "productos": "CONT.RECTANGULAR C/DIV. PLASVALE x1.4ml",
     "uxb": 1,
-    "precio_vta": 2125
+    "precio_vta": 2337
   },
   {
     "codigos": 477774,
     "productos": "CONT.RECTANGULAR PLASVALE x300ml",
     "uxb": 1,
-    "precio_vta": 664
+    "precio_vta": 730
   },
   {
     "codigos": 477776,
     "productos": "CONT.RECTANGULAR PLAVALE x700ml",
     "uxb": 1,
-    "precio_vta": 1328
+    "precio_vta": 1461
   },
   {
     "codigos": 8779,
     "productos": "CONTEN.RECT BLANCO C/TAPA x12lt HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 3863
+    "precio_vta": 4250
   },
   {
     "codigos": 8780,
     "productos": "CONTEN.RECTANGULAR BLANCO x12lt HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 480247,
     "productos": "CONTENEDOR C/MANIJA,RUEDA/TAPA LOVE",
     "uxb": 1,
-    "precio_vta": 16904
+    "precio_vta": 18595
   },
   {
     "codigos": 479349,
     "productos": "CONTENEDOR PLAST. UZ  4 lt VARIOS",
     "uxb": 1,
-    "precio_vta": 6824
+    "precio_vta": 7507
   },
   {
     "codigos": 479391,
     "productos": "CONTENEDOR PLAST. UZ 1,5 lt VARIOS",
     "uxb": 1,
-    "precio_vta": 4199
+    "precio_vta": 4619
   },
   {
     "codigos": 479394,
     "productos": "CONTENEDOR PLAST. UZ 1,5 lt VARIOS",
     "uxb": 1,
-    "precio_vta": 3464
+    "precio_vta": 3811
   },
   {
     "codigos": 479388,
     "productos": "CONTENEDOR PLAST. UZ 10 lts CAPUCCINO",
     "uxb": 1,
-    "precio_vta": 9659
+    "precio_vta": 10625
   },
   {
     "codigos": 478726,
     "productos": "CONTENEDOR PLAST. UZ 10lts VERDE MENTA",
     "uxb": 1,
-    "precio_vta": 9961
+    "precio_vta": 10958
   },
   {
     "codigos": 479350,
     "productos": "CONTENEDOR PLAST. UZ 2,5lt VARIOS",
     "uxb": 1,
-    "precio_vta": 4409
+    "precio_vta": 4850
   },
   {
     "codigos": 478725,
     "productos": "CONTENEDOR PLAST. UZ 5,5lt VARIOS",
     "uxb": 1,
-    "precio_vta": 8573
+    "precio_vta": 9430
   },
   {
     "codigos": 479392,
     "productos": "CONTENEDOR PLAST. UZ 5lts VARIOS",
     "uxb": 1,
-    "precio_vta": 6158
+    "precio_vta": 6774
   },
   {
     "codigos": 479386,
     "productos": "CONTENEDOR PLAST. UZ 6lt VARIOS",
     "uxb": 1,
-    "precio_vta": 8189
+    "precio_vta": 9008
   },
   {
     "codigos": 479387,
     "productos": "CONTENEDOR PLAST. UZ x2 lt VARIOS",
     "uxb": 1,
-    "precio_vta": 5249
+    "precio_vta": 5774
   },
   {
     "codigos": 480420,
     "productos": "CONTENEDOR PLAST.UZ212 MAGENTA x10lts",
     "uxb": 1,
-    "precio_vta": 9974
+    "precio_vta": 10972
   },
   {
     "codigos": 479040,
     "productos": "CONTENEDOR PLASVALE x1.9Lt",
     "uxb": 12,
-    "precio_vta": 4467
+    "precio_vta": 4914
   },
   {
     "codigos": 473306,
     "productos": "CONTENEDOR TERRA VIHA BAGER x1.3Lt",
     "uxb": 1,
-    "precio_vta": 5214
+    "precio_vta": 5735
   },
   {
     "codigos": 473305,
     "productos": "CONTENEDOR TERRA VIHA BAGER x1Lt",
     "uxb": 1,
-    "precio_vta": 4225
+    "precio_vta": 4647
   },
   {
     "codigos": 473304,
     "productos": "CONTENEDOR TERRA VIHA BAGER x750cc",
     "uxb": 1,
-    "precio_vta": 3546
+    "precio_vta": 3901
   },
   {
     "codigos": 471494,
@@ -23427,13 +24351,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7783,
     "productos": "COPITO CAJA PABLITO X2KG",
     "uxb": 1,
-    "precio_vta": 17608
+    "precio_vta": 15990
   },
   {
     "codigos": 473505,
     "productos": "COPOS AZUCARADOS 3 ARROYOS x500gr",
     "uxb": 22,
-    "precio_vta": 2099
+    "precio_vta": 2199
   },
   {
     "codigos": 474333,
@@ -23454,18 +24378,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1889
   },
   {
-    "codigos": 473035,
-    "productos": "COPOS DE MAIZ 3 ARROYOS x150g",
-    "uxb": 26,
-    "precio_vta": 713
-  },
-  {
-    "codigos": 473036,
-    "productos": "COPOS DE MAIZ 3 ARROYOS x400g",
-    "uxb": 22,
-    "precio_vta": 1574
-  },
-  {
     "codigos": 473194,
     "productos": "COPOS DE MAIZ AZUCARADOS 3 ARROYOS X 4KG",
     "uxb": 1,
@@ -23478,16 +24390,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 944
   },
   {
+    "codigos": 480728,
+    "productos": "COPOS DE MAIZ AZUCARADOS BURBUJAS x90g",
+    "uxb": 30,
+    "precio_vta": 899
+  },
+  {
     "codigos": 466984,
     "productos": "COPOS DE MAIZ AZUCARADOS EL MAKZAL x200g",
     "uxb": 12,
     "precio_vta": 1273
-  },
-  {
-    "codigos": 473037,
-    "productos": "COPOS DE MAIZ CHOCOLATE 3 ARROYOS x200g",
-    "uxb": 26,
-    "precio_vta": 1155
   },
   {
     "codigos": 473723,
@@ -23499,13 +24411,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473193,
     "productos": "COPOS DE MAIZ NATURAL 3 ARROYOS X 3.5KG",
     "uxb": 1,
-    "precio_vta": 11549
-  },
-  {
-    "codigos": 478478,
-    "productos": "COPOS MAIZ MIEL 3 ARROYOS x200g",
-    "uxb": 24,
-    "precio_vta": 1155
+    "precio_vta": 12299
   },
   {
     "codigos": 466983,
@@ -23554,6 +24460,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CORN FLAKES ORIG.KELLOGGS x200g",
     "uxb": 36,
     "precio_vta": 1574
+  },
+  {
+    "codigos": 480814,
+    "productos": "CORNETA PELOTITA TUKY",
+    "uxb": 1,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480813,
+    "productos": "CORNETA TRUENO TUKY",
+    "uxb": 1,
+    "precio_vta": 1499
   },
   {
     "codigos": 476206,
@@ -23694,6 +24612,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6520
   },
   {
+    "codigos": 480779,
+    "productos": "CORTINA D/BAÑO SUKA IMP EMA UD3-UD1",
+    "uxb": 12,
+    "precio_vta": 12990
+  },
+  {
     "codigos": 469039,
     "productos": "CORTINA GLOBOS VARIAS",
     "uxb": 1,
@@ -23788,12 +24712,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "COVER PALETTE MALASIA SIMIL LINO KING",
     "uxb": 1,
     "precio_vta": 44900
-  },
-  {
-    "codigos": 476347,
-    "productos": "COVER PALETTE MYKONO L IVORY QUEEN",
-    "uxb": 1,
-    "precio_vta": 44148
   },
   {
     "codigos": 476338,
@@ -23973,7 +24891,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473423,
     "productos": "CREMA ARMONIA P/COCINAR TSLIM x200cc",
     "uxb": 24,
-    "precio_vta": 2299
+    "precio_vta": 2317
   },
   {
     "codigos": 473412,
@@ -24039,7 +24957,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479999,
     "productos": "CREMA CHANTILLY LA PARMESANA x50g",
     "uxb": 30,
-    "precio_vta": 1154
+    "precio_vta": 1299
   },
   {
     "codigos": 477931,
@@ -24052,6 +24970,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CREMA COREANA LILA TEATRICAL x100g",
     "uxb": 1,
     "precio_vta": 3149
+  },
+  {
+    "codigos": 480807,
+    "productos": "CREMA COREANA TEATRICAL x200g",
+    "uxb": 1,
+    "precio_vta": 5499
   },
   {
     "codigos": 461449,
@@ -24111,7 +25035,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7861,
     "productos": "CREMA CORP. NIVEA LATA x60ml",
     "uxb": 36,
-    "precio_vta": 2308
+    "precio_vta": 2599
   },
   {
     "codigos": 2322,
@@ -24171,7 +25095,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10286,
     "productos": "CREMA CORP.ALGABO AVENA-KARITE x400g",
     "uxb": 12,
-    "precio_vta": 3779
+    "precio_vta": 3799
   },
   {
     "codigos": 10287,
@@ -24183,13 +25107,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10285,
     "productos": "CREMA CORP.ALGABO MIEL-ALMEND x400g",
     "uxb": 12,
-    "precio_vta": 3779
+    "precio_vta": 3799
   },
   {
     "codigos": 10275,
     "productos": "CREMA CORP.ALGABO REPARADORA X400ml",
     "uxb": 12,
-    "precio_vta": 3779
+    "precio_vta": 3799
   },
   {
     "codigos": 471189,
@@ -24225,7 +25149,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5096,
     "productos": "CREMA CORP.CICATRICURE FIRMEZA x400cc",
     "uxb": 1,
-    "precio_vta": 9229
+    "precio_vta": 10499
   },
   {
     "codigos": 464262,
@@ -24321,7 +25245,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471646,
     "productos": "CREMA CORP.HINDS INTRAHIDRATANTE x350ml",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 8845,
@@ -24333,7 +25257,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462999,
     "productos": "CREMA CORP.HINDS ROSA x125g",
     "uxb": 12,
-    "precio_vta": 2624
+    "precio_vta": 2499
   },
   {
     "codigos": 1070,
@@ -24345,7 +25269,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5100,
     "productos": "CREMA CORP.HINDS ROSADA/VIOLETA x250ml",
     "uxb": 12,
-    "precio_vta": 3883
+    "precio_vta": 3999
   },
   {
     "codigos": 473189,
@@ -24375,7 +25299,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477202,
     "productos": "CREMA CORP.NIVEA HID EXPRESS x250ml",
     "uxb": 12,
-    "precio_vta": 4436
+    "precio_vta": 5999
   },
   {
     "codigos": 470326,
@@ -24393,7 +25317,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 280,
     "productos": "CREMA CORP.NIVEA LATA x150g",
     "uxb": 12,
-    "precio_vta": 4933
+    "precio_vta": 5999
   },
   {
     "codigos": 477203,
@@ -24447,7 +25371,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467809,
     "productos": "CREMA CORP.NIVEA SOFT MILK KARITE x250ml",
     "uxb": 6,
-    "precio_vta": 4388
+    "precio_vta": 5999
   },
   {
     "codigos": 470327,
@@ -24564,10 +25488,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3044
   },
   {
+    "codigos": 10213,
+    "productos": "CREMA DENT COLGATE LUMIN X70g",
+    "uxb": 12,
+    "precio_vta": 5299
+  },
+  {
     "codigos": 477671,
     "productos": "CREMA DENT.CLOSE UP FORTE x70g",
     "uxb": 72,
-    "precio_vta": 1783
+    "precio_vta": 1784
   },
   {
     "codigos": 461789,
@@ -24603,7 +25533,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6565,
     "productos": "CREMA DENT.COLGATE ANTI.CARIES X 70GR",
     "uxb": 72,
-    "precio_vta": 2309
+    "precio_vta": 2399
   },
   {
     "codigos": 461306,
@@ -24612,10 +25542,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2099
   },
   {
+    "codigos": 479458,
+    "productos": "CREMA DENT.COLGATE HERBAL X90GR",
+    "uxb": 72,
+    "precio_vta": 2399
+  },
+  {
     "codigos": 461304,
     "productos": "CREMA DENT.COLGATE HERBAL x140gr",
     "uxb": 48,
-    "precio_vta": 4094
+    "precio_vta": 3999
   },
   {
     "codigos": 469034,
@@ -24627,7 +25563,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460751,
     "productos": "CREMA DENT.COLGATE KIDS X 50GR",
     "uxb": 72,
-    "precio_vta": 2939
+    "precio_vta": 2999
   },
   {
     "codigos": 466112,
@@ -24651,13 +25587,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6852,
     "productos": "CREMA DENT.COLGATE SMILE BARBIE x100gr",
     "uxb": 12,
-    "precio_vta": 4619
+    "precio_vta": 4599
   },
   {
     "codigos": 10175,
     "productos": "CREMA DENT.COLGATE SMILE MINIONS X100GR",
     "uxb": 12,
-    "precio_vta": 4619
+    "precio_vta": 4599
   },
   {
     "codigos": 461750,
@@ -24705,7 +25641,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4993,
     "productos": "CREMA DENT.COLGATE ULTRA BLANCO x90g",
     "uxb": 72,
-    "precio_vta": 2834
+    "precio_vta": 2899
+  },
+  {
+    "codigos": 470123,
+    "productos": "CREMA DENT.COREGA ULTRA S/MENTA X 40GR",
+    "uxb": 24,
+    "precio_vta": 7499
   },
   {
     "codigos": 477648,
@@ -24729,7 +25671,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468909,
     "productos": "CREMA DENT.KOLYNOS EXTRA FRESH X70GR",
     "uxb": 72,
-    "precio_vta": 1888
+    "precio_vta": 1899
   },
   {
     "codigos": 479992,
@@ -24759,13 +25701,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465134,
     "productos": "CREMA DENT.NOC 10 X 70GR",
     "uxb": 24,
-    "precio_vta": 5144
+    "precio_vta": 4999
   },
   {
     "codigos": 5235,
     "productos": "CREMA DENT.ODOL DOBLE ACC x70gr",
     "uxb": 72,
-    "precio_vta": 1574
+    "precio_vta": 1799
   },
   {
     "codigos": 8254,
@@ -24789,7 +25731,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466633,
     "productos": "CREMA DENT.ORAL B ANTI-CARIES x70gr",
     "uxb": 108,
-    "precio_vta": 1154
+    "precio_vta": 1319
   },
   {
     "codigos": 464080,
@@ -24825,13 +25767,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464398,
     "productos": "CREMA DENT.SENSODYNE ORIG.90GR",
     "uxb": 12,
-    "precio_vta": 5248
+    "precio_vta": 4999
   },
   {
     "codigos": 474308,
     "productos": "CREMA DENT.SENSODYNE PROTEC COMP x90g",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 479897,
@@ -24861,13 +25803,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469897,
     "productos": "CREMA DOBLE TREGAR x200cc",
     "uxb": 12,
-    "precio_vta": 2049
+    "precio_vta": 2199
   },
   {
     "codigos": 469896,
     "productos": "CREMA DOBLE TREGAR x350cc",
     "uxb": 12,
-    "precio_vta": 3207
+    "precio_vta": 3399
   },
   {
     "codigos": 473604,
@@ -25065,7 +26007,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479759,
     "productos": "CREMA ILOLAY x200cc",
     "uxb": 24,
-    "precio_vta": 1649
+    "precio_vta": 1849
   },
   {
     "codigos": 475993,
@@ -25083,31 +26025,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464403,
     "productos": "CREMA LA SERENISIMA CAJA x520cc",
     "uxb": 12,
-    "precio_vta": 5415
+    "precio_vta": 5725
   },
   {
     "codigos": 473726,
     "productos": "CREMA LA SERENISIMA TTOP x200ml",
     "uxb": 24,
-    "precio_vta": 2507
+    "precio_vta": 2650
   },
   {
     "codigos": 465130,
     "productos": "CREMA LA SERENISIMA UAT x330cc",
-    "uxb": 12,
-    "precio_vta": 3841
+    "uxb": 1,
+    "precio_vta": 4060
   },
   {
     "codigos": 474952,
     "productos": "CREMA LA SERENISIMA ZERO LACT X 200ML",
     "uxb": 1,
-    "precio_vta": 2677
+    "precio_vta": 2782
   },
   {
     "codigos": 465145,
     "productos": "CREMA LA SERENISIMA x200ML TTB LARGA VIDA",
     "uxb": 24,
-    "precio_vta": 2343
+    "precio_vta": 2475
   },
   {
     "codigos": 466253,
@@ -25197,7 +26139,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464992,
     "productos": "CREMA P/PEINAR ALGABO x300ml",
     "uxb": 12,
-    "precio_vta": 2414
+    "precio_vta": 2399
   },
   {
     "codigos": 461385,
@@ -25233,7 +26175,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9535,
     "productos": "CREMA P/PEINAR SEDAL 300ml",
     "uxb": 12,
-    "precio_vta": 4093
+    "precio_vta": 4799
   },
   {
     "codigos": 471322,
@@ -25245,25 +26187,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466002,
     "productos": "CREMA PARA COCINAR LA SERENISIMA x200ml",
     "uxb": 24,
-    "precio_vta": 2389
+    "precio_vta": 2516
   },
   {
     "codigos": 466001,
     "productos": "CREMA PARA COCINAR LA SERENISIMA x330ML",
     "uxb": 12,
-    "precio_vta": 3663
+    "precio_vta": 3873
   },
   {
     "codigos": 471866,
     "productos": "CREMA PARA COCINAR LA SERENISIMA x520gr",
     "uxb": 12,
-    "precio_vta": 5143
+    "precio_vta": 5437
   },
   {
     "codigos": 468485,
     "productos": "CREMA PARA COCINAR LIVIANA LA SERENISIMA x200cc",
     "uxb": 24,
-    "precio_vta": 2079
+    "precio_vta": 2265
   },
   {
     "codigos": 478953,
@@ -25286,14 +26228,14 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 478404,
     "productos": "CREMA PASTELERA INST SABOR SUR x200g",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 3639
   },
   {
     "codigos": 480000,
     "productos": "CREMA PASTELERA LA PARMESANA x50g",
     "uxb": 30,
-    "precio_vta": 1259
+    "precio_vta": 1299
   },
   {
     "codigos": 6658,
@@ -25341,7 +26283,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479450,
     "productos": "CREMA SIMPLE ILOLAY x350cc",
     "uxb": 12,
-    "precio_vta": 2999
+    "precio_vta": 3299
   },
   {
     "codigos": 478945,
@@ -25359,25 +26301,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475062,
     "productos": "CREMA VEG. FLEISCREAM 1L",
     "uxb": 1,
-    "precio_vta": 8198
+    "precio_vta": 8290
   },
   {
     "codigos": 14260,
     "productos": "CREMOSO AURORA PROCE.MEDITE.1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 6199
+    "precio_vta": 7149
   },
   {
     "codigos": 14261,
     "productos": "CREMOSO AURORA PROCE.MEDITERR. FRACC",
     "uxb": 1,
-    "precio_vta": 6599
+    "precio_vta": 8199
   },
   {
     "codigos": 14259,
     "productos": "CREMOSO AURORA PROCE.MEDITERRANEA",
     "uxb": 1,
-    "precio_vta": 5599
+    "precio_vta": 6899
   },
   {
     "codigos": 14220,
@@ -25389,13 +26331,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13693,
     "productos": "CREMOSO ROCALAC FRACCIONADO",
     "uxb": 100,
-    "precio_vta": 7298
+    "precio_vta": 8190
   },
   {
     "codigos": 13691,
     "productos": "CREMOSO ROCALAC PIEZA",
     "uxb": 1,
-    "precio_vta": 6298
+    "precio_vta": 7189
   },
   {
     "codigos": 473376,
@@ -25461,37 +26403,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1075,
     "productos": "CROTTA BLANCO DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 9378
+    "precio_vta": 9500
   },
   {
     "codigos": 1076,
     "productos": "CROTTA BLANCO DULCE DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 9702
+    "precio_vta": 9909
   },
   {
     "codigos": 5368,
     "productos": "CROTTA BORGOÑA DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 10789
+    "precio_vta": 10989
   },
   {
     "codigos": 1077,
     "productos": "CROTTA CABERNET SAUV. DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 12054
+    "precio_vta": 12339
   },
   {
     "codigos": 1078,
     "productos": "CROTTA JEREZ X 3/4",
     "uxb": 6,
-    "precio_vta": 5478
+    "precio_vta": 5622
   },
   {
     "codigos": 1079,
     "productos": "CROTTA MALBEC DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 12054
+    "precio_vta": 12339
   },
   {
     "codigos": 1080,
@@ -25503,31 +26445,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1082,
     "productos": "CROTTA MISTELA DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 18345
+    "precio_vta": 18819
   },
   {
     "codigos": 1083,
     "productos": "CROTTA MISTELA x2Lt",
     "uxb": 4,
-    "precio_vta": 8609
+    "precio_vta": 8835
   },
   {
     "codigos": 1084,
     "productos": "CROTTA MISTELA x3/4",
     "uxb": 6,
-    "precio_vta": 5383
+    "precio_vta": 5643
   },
   {
     "codigos": 1085,
     "productos": "CROTTA MOSCATO DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 18345
+    "precio_vta": 18819
   },
   {
     "codigos": 1086,
     "productos": "CROTTA MOSCATO X 1L",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4590
+  },
+  {
+    "codigos": 1087,
+    "productos": "CROTTA MOSCATO x375 CC",
+    "uxb": 12,
+    "precio_vta": 2473
   },
   {
     "codigos": 1089,
@@ -25539,13 +26487,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1090,
     "productos": "CROTTA PATERO DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 9702
+    "precio_vta": 9909
   },
   {
     "codigos": 1092,
     "productos": "CROTTA TINTO DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 9378
+    "precio_vta": 9500
   },
   {
     "codigos": 479530,
@@ -25803,25 +26751,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2498,
     "productos": "CUBANITO OBLITA CHOCOLATE x48un",
     "uxb": 16,
-    "precio_vta": 3359
+    "precio_vta": 3699
   },
   {
     "codigos": 2502,
     "productos": "CUBANITO OBLITA DCE LECHE x48un",
     "uxb": 16,
-    "precio_vta": 3359
+    "precio_vta": 3699
   },
   {
     "codigos": 2499,
     "productos": "CUBANITO OBLITA FRUTILLA x48un",
     "uxb": 16,
-    "precio_vta": 3359
+    "precio_vta": 3699
   },
   {
     "codigos": 2500,
     "productos": "CUBANITO OBLITA MARROC X48U",
     "uxb": 16,
-    "precio_vta": 3359
+    "precio_vta": 3699
   },
   {
     "codigos": 6550,
@@ -25869,13 +26817,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463966,
     "productos": "CUBETERA APILABLE EN COLOR X1 UNI",
     "uxb": 1,
-    "precio_vta": 757
+    "precio_vta": 832
   },
   {
     "codigos": 8737,
     "productos": "CUBETERA APILABLE X2U HP",
     "uxb": 12,
-    "precio_vta": 2414
+    "precio_vta": 2656
   },
   {
     "codigos": 8668,
@@ -25887,25 +26835,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479625,
     "productos": "CUBETERA CON CONTENEDOR IMP-E",
     "uxb": 36,
-    "precio_vta": 3984
+    "precio_vta": 4383
   },
   {
     "codigos": 480447,
     "productos": "CUBETERA SIMPLE TAURO x1Un.",
     "uxb": 1,
-    "precio_vta": 543
+    "precio_vta": 597
   },
   {
     "codigos": 473796,
     "productos": "CUBETERA X2UNID STAR",
     "uxb": 156,
-    "precio_vta": 1593
+    "precio_vta": 1753
   },
   {
     "codigos": 465968,
     "productos": "CUBIERTERO STAR",
     "uxb": 24,
     "precio_vta": 2656
+  },
+  {
+    "codigos": 467639,
+    "productos": "CUBIERTERO STAR FULL/NORD/BYN",
+    "uxb": 60,
+    "precio_vta": 3035
   },
   {
     "codigos": 464549,
@@ -26022,6 +26976,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1811
   },
   {
+    "codigos": 480758,
+    "productos": "CUCHARA P/HELADO IMP EMA 30131812/6485",
+    "uxb": 144,
+    "precio_vta": 3999
+  },
+  {
     "codigos": 479805,
     "productos": "CUCHARA P/PASTAS ACERO RESPONTECH",
     "uxb": 1,
@@ -26061,7 +27021,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468707,
     "productos": "CUCHARITAS KOVAL/STRAWPLAST x50Un",
     "uxb": 1,
-    "precio_vta": 1666
+    "precio_vta": 1799
   },
   {
     "codigos": 468093,
@@ -26104,6 +27064,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "CUCHILLA BH-HOME 373 IMP EMANUEL",
     "uxb": 1,
     "precio_vta": 7839
+  },
+  {
+    "codigos": 480778,
+    "productos": "CUCHILLA KITCHEN PROF IMP EMA 43265",
+    "uxb": 1,
+    "precio_vta": 6490
   },
   {
     "codigos": 475159,
@@ -26174,7 +27140,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 475229,
     "productos": "CURCUMA AROMAS/SABORES MOLIDA x25g",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 733
   },
   {
@@ -26193,7 +27159,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473019,
     "productos": "CURRY SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 944
+    "precio_vta": 1099
   },
   {
     "codigos": 475672,
@@ -26265,67 +27231,73 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480557,
     "productos": "DANETTE CHOCOLATE x2 uni",
     "uxb": 24,
-    "precio_vta": 3899
+    "precio_vta": 4094
   },
   {
     "codigos": 480556,
     "productos": "DANETTE DULCE DE LECHE x2 uni",
     "uxb": 24,
-    "precio_vta": 3899
+    "precio_vta": 4094
   },
   {
     "codigos": 480555,
     "productos": "DANETTE FLAN C/CARAMELO x2 uni",
     "uxb": 24,
-    "precio_vta": 3899
+    "precio_vta": 4094
+  },
+  {
+    "codigos": 12327,
+    "productos": "DANETTE LA SERENISIMA C.AME X2UN",
+    "uxb": 1,
+    "precio_vta": 5099
   },
   {
     "codigos": 463772,
     "productos": "DANETTE LA SERENISIMA CHOCO Y CREMA x100g",
     "uxb": 1,
-    "precio_vta": 2986
+    "precio_vta": 2799
   },
   {
     "codigos": 463773,
     "productos": "DANETTE LA SERENISIMA D.DELECHE x100g",
     "uxb": 1,
-    "precio_vta": 2986
+    "precio_vta": 2799
   },
   {
     "codigos": 463831,
     "productos": "DANETTE LA SERENISIMA x95g AMERICANA",
     "uxb": 1,
-    "precio_vta": 2039
+    "precio_vta": 2141
   },
   {
     "codigos": 479733,
     "productos": "DANETTE LA SERENISIMA x95g CHOCO-AVEL",
     "uxb": 1,
-    "precio_vta": 2039
+    "precio_vta": 2141
   },
   {
     "codigos": 463833,
     "productos": "DANETTE LA SERENISIMA x95g CHOCOLATE",
     "uxb": 1,
-    "precio_vta": 2039
+    "precio_vta": 2141
   },
   {
     "codigos": 463830,
     "productos": "DANETTE LA SERENISIMA x95g DCE LECHE",
     "uxb": 1,
-    "precio_vta": 2039
+    "precio_vta": 2141
   },
   {
     "codigos": 472776,
     "productos": "DANETTE LA SERENISIMA x95g MARROC",
     "uxb": 1,
-    "precio_vta": 1794
+    "precio_vta": 1884
   },
   {
     "codigos": 479991,
     "productos": "DANICA CHEDDAR x220cc",
     "uxb": 24,
-    "precio_vta": 1592
+    "precio_vta": 1299
   },
   {
     "codigos": 469510,
@@ -26409,13 +27381,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474997,
     "productos": "DCE DE LECHE ARMONIA LS 400G",
     "uxb": 1,
-    "precio_vta": 2639
+    "precio_vta": 2915
   },
   {
     "codigos": 475619,
     "productos": "DCE DE LECHE ARRODUL FAM. 400G",
     "uxb": 12,
     "precio_vta": 1369
+  },
+  {
+    "codigos": 78457,
+    "productos": "DCE DE LECHE BANYLAC X400g",
+    "uxb": 12,
+    "precio_vta": 1690
   },
   {
     "codigos": 470809,
@@ -26439,7 +27417,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467894,
     "productos": "DCE DE LECHE CERROS TUC 1KG",
     "uxb": 1,
-    "precio_vta": 4439
+    "precio_vta": 4290
   },
   {
     "codigos": 6463,
@@ -26458,6 +27436,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "DCE DE LECHE CERROS TUC X400G",
     "uxb": 24,
     "precio_vta": 1739
+  },
+  {
+    "codigos": 78456,
+    "productos": "DCE DE LECHE EL CAMPO X200g",
+    "uxb": 24,
+    "precio_vta": 849
   },
   {
     "codigos": 467994,
@@ -26481,55 +27465,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473654,
     "productos": "DCE DE LECHE LA SERE.CLASICO X250G",
     "uxb": 1,
-    "precio_vta": 1936
+    "precio_vta": 2379
   },
   {
     "codigos": 464715,
     "productos": "DCE DE LECHE LA SERENISIMA CLAS x1kg",
     "uxb": 8,
-    "precio_vta": 6488
+    "precio_vta": 8028
   },
   {
     "codigos": 463697,
     "productos": "DCE DE LECHE LA SERENISIMA CLAS x400gr",
     "uxb": 12,
-    "precio_vta": 2471
+    "precio_vta": 3147
   },
   {
     "codigos": 464695,
     "productos": "DCE DE LECHE LA SERENISIMA COLON.x1kg",
     "uxb": 8,
-    "precio_vta": 8244
+    "precio_vta": 8716
   },
   {
     "codigos": 462943,
     "productos": "DCE DE LECHE LA SERENISIMA COLON.x250gr",
     "uxb": 1,
-    "precio_vta": 2008
+    "precio_vta": 2471
   },
   {
     "codigos": 462668,
     "productos": "DCE DE LECHE LA SERENISIMA COLON.x400gr",
     "uxb": 12,
-    "precio_vta": 2677
+    "precio_vta": 3489
   },
   {
     "codigos": 463860,
     "productos": "DCE DE LECHE LA SERENISIMA REP x400g",
     "uxb": 12,
-    "precio_vta": 3501
+    "precio_vta": 3688
   },
   {
     "codigos": 479943,
     "productos": "DCE DE LECHE LA SERENISIMA ZERO LACT x250g",
     "uxb": 1,
-    "precio_vta": 2454
+    "precio_vta": 2593
   },
   {
     "codigos": 474587,
     "productos": "DCE DE LECHE LA SERENISIMA ZERO LACT x300gr",
     "uxb": 6,
-    "precio_vta": 3211
+    "precio_vta": 3540
   },
   {
     "codigos": 468229,
@@ -26541,7 +27525,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477193,
     "productos": "DCE DE LECHE PUNTA DEL AGUA POTE x400g",
     "uxb": 12,
-    "precio_vta": 1799
+    "precio_vta": 1999
   },
   {
     "codigos": 468374,
@@ -26554,12 +27538,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "DCE DE LECHE S&P REP. 1KG",
     "uxb": 6,
     "precio_vta": 3129
-  },
-  {
-    "codigos": 464711,
-    "productos": "DCE DE LECHE SER x400G",
-    "uxb": 1,
-    "precio_vta": 2449
   },
   {
     "codigos": 464707,
@@ -26602,6 +27580,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "DCE DE LECHE TANTO REPOSTERO x400gr",
     "uxb": 12,
     "precio_vta": 1599
+  },
+  {
+    "codigos": 11422,
+    "productos": "DEA FIBRA ESPONJA DUNITA ROJA/AMA",
+    "uxb": 12,
+    "precio_vta": 649
   },
   {
     "codigos": 474533,
@@ -26793,67 +27777,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477309,
     "productos": "DESINFEC. LYSOFORM ORIG 420CC",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 2599
   },
   {
     "codigos": 469871,
     "productos": "DESINFEC. LYSOFORM X285CC BEBE",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2799
   },
   {
     "codigos": 469870,
     "productos": "DESINFEC. LYSOFORM X285CC LAVANDA",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2799
   },
   {
     "codigos": 466656,
     "productos": "DESINFEC. LYSOFORM X285CC ORIGINAL",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2799
   },
   {
     "codigos": 2170,
     "productos": "DESINFEC. LYSOFORM X360CC BEBE",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 5822,
     "productos": "DESINFEC. LYSOFORM X360CC CITRICO",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 5823,
     "productos": "DESINFEC. LYSOFORM X360CC FLORAL",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 3117,
     "productos": "DESINFEC. LYSOFORM X360CC FRUT/BOSQ",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 4688,
     "productos": "DESINFEC. LYSOFORM X360CC LAVANDA",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 2169,
     "productos": "DESINFEC. LYSOFORM X360CC MONTAÑA",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 2171,
     "productos": "DESINFEC. LYSOFORM X360CC ORIGINAL",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 474968,
@@ -26889,49 +27873,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470289,
     "productos": "DESOD D/AMB ESENCIAL x300ml ANTITABACO",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 470287,
     "productos": "DESOD D/AMB ESENCIAL x300ml CITRUS",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 470292,
     "productos": "DESOD D/AMB ESENCIAL x300ml DESP. LLUV",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 470291,
     "productos": "DESOD D/AMB ESENCIAL x300ml LAVANDA",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 470290,
     "productos": "DESOD D/AMB ESENCIAL x300ml MANZ/CANEL",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 470286,
     "productos": "DESOD D/AMB ESENCIAL x300ml MONTAÑA",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 470288,
     "productos": "DESOD D/AMB ESENCIAL x300ml OCEANO",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 469940,
     "productos": "DESOD D/AMB ESENCIAL x300ml ROSAS",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 479380,
@@ -27105,7 +28089,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2786,
     "productos": "DESOD D/AMB POETT 360CC ESP.JOVEN/PLAY",
     "uxb": 6,
-    "precio_vta": 2414
+    "precio_vta": 2624
   },
   {
     "codigos": 477351,
@@ -27171,13 +28155,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478436,
     "productos": "DESODORANTE ANA GLAM BY ANALIA MAIORANA x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 467758,
     "productos": "DESODORANTE ANA MAIORANA X123CC",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 476683,
@@ -27207,31 +28191,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477415,
     "productos": "DESODORANTE AXE APOLLO 72hr x150ml",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3799
   },
   {
     "codigos": 477417,
     "productos": "DESODORANTE AXE APOLLO CIT 48HS x150ml",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2799
   },
   {
     "codigos": 478772,
     "productos": "DESODORANTE AXE AQUA CITRUS X150C",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3799
   },
   {
     "codigos": 477414,
     "productos": "DESODORANTE AXE BLACK x150cc",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3799
   },
   {
     "codigos": 6848,
     "productos": "DESODORANTE AXE BLUE LAVENDER x150cc",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3799
   },
   {
     "codigos": 461358,
@@ -27243,7 +28227,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6845,
     "productos": "DESODORANTE AXE GREEN GERANIUM x150cc",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3799
   },
   {
     "codigos": 478161,
@@ -27255,7 +28239,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6846,
     "productos": "DESODORANTE AXE MARINE x150cc",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3999
   },
   {
     "codigos": 477948,
@@ -27285,7 +28269,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6796,
     "productos": "DESODORANTE AXE VARIOS x150cc",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3799
   },
   {
     "codigos": 470540,
@@ -27297,49 +28281,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10743,
     "productos": "DESODORANTE BROSS LONDON BLUE x150ml",
     "uxb": 6,
-    "precio_vta": 4514
+    "precio_vta": 4899
   },
   {
     "codigos": 10745,
     "productos": "DESODORANTE BROSS LONDON CLAS X150CC",
     "uxb": 6,
-    "precio_vta": 4514
+    "precio_vta": 4899
   },
   {
     "codigos": 478432,
     "productos": "DESODORANTE BROSS LONDON GOLD X150CC",
     "uxb": 6,
-    "precio_vta": 4514
+    "precio_vta": 4899
   },
   {
     "codigos": 10744,
     "productos": "DESODORANTE BROSS LONDON WARRIOR x150ml",
     "uxb": 6,
-    "precio_vta": 4514
+    "precio_vta": 4899
   },
   {
     "codigos": 7906,
     "productos": "DESODORANTE CANNON LEXTREME X 123ML",
     "uxb": 6,
-    "precio_vta": 3989
+    "precio_vta": 4499
+  },
+  {
+    "codigos": 7905,
+    "productos": "DESODORANTE CANNON ROSE x123ml",
+    "uxb": 6,
+    "precio_vta": 4399
   },
   {
     "codigos": 471237,
     "productos": "DESODORANTE CARO CUORE AMORE x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 8993,
     "productos": "DESODORANTE CARO CUORE ROJO x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 479419,
     "productos": "DESODORANTE CARO CUORE x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 7150,
@@ -27351,67 +28341,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7397,
     "productos": "DESODORANTE CHESTER ICE X250CC",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 7064,
     "productos": "DESODORANTE CIEL x123ml CELESTE",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 7065,
     "productos": "DESODORANTE CIEL x123ml CRISTAL",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 9677,
     "productos": "DESODORANTE CIEL x123ml DETE",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 467759,
     "productos": "DESODORANTE CIEL x123ml LOVE",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 468718,
     "productos": "DESODORANTE CIEL x123ml MAGIC",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 462974,
     "productos": "DESODORANTE CIEL x123ml NOIR",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 7066,
     "productos": "DESODORANTE CIEL x123ml NUIT",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 8579,
     "productos": "DESODORANTE CIEL x123ml PARADISE",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 7157,
     "productos": "DESODORANTE CIEL x123ml ROSE",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 477232,
     "productos": "DESODORANTE CIEL x123ml SHINE",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 4338,
@@ -27423,61 +28413,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4337,
     "productos": "DESODORANTE COLBERT x250ml VARIOS ACQUA DI",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 468717,
     "productos": "DESODORANTE COLBERT x250ml VARIOS CLASICO",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 4692,
     "productos": "DESODORANTE COLBERT x250ml VARIOS NOIR",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 5115,
     "productos": "DESODORANTE COLBERT x250ml VARIOS PINO",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 7889,
     "productos": "DESODORANTE COLBERT x250ml VARIOS SPACE",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 4336,
     "productos": "DESODORANTE COLBERT x250ml VARIOS US",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 463333,
     "productos": "DESODORANTE COQUETERIAS FLOWER x123ml",
     "uxb": 6,
-    "precio_vta": 3884
+    "precio_vta": 3999
   },
   {
     "codigos": 473192,
     "productos": "DESODORANTE CRANDALL x250cc",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 477159,
     "productos": "DESODORANTE DOVE CARE PROT TOT X250ML",
     "uxb": 12,
-    "precio_vta": 4724
+    "precio_vta": 5299
   },
   {
     "codigos": 475137,
     "productos": "DESODORANTE DOVE CLASICO x250cc",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 5499
   },
   {
     "codigos": 472337,
@@ -27488,7 +28478,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 461357,
     "productos": "DESODORANTE DOVE E/BARRA MEN x50g",
-    "uxb": 1,
+    "uxb": 12,
     "precio_vta": 5990
   },
   {
@@ -27507,73 +28497,85 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461023,
     "productos": "DESODORANTE DOVE ROLL ON MEN X 50ML",
     "uxb": 12,
-    "precio_vta": 2699
+    "precio_vta": 2999
   },
   {
     "codigos": 470281,
     "productos": "DESODORANTE DOVE x150ml COCO JAZMI",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 8848,
     "productos": "DESODORANTE DOVE x150ml EXTRA FRES",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 470283,
     "productos": "DESODORANTE DOVE x150ml GRANADA",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 4330,
     "productos": "DESODORANTE DOVE x150ml INVISIBL C",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 10753,
     "productos": "DESODORANTE DOVE x150ml INVISIBL D",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 463328,
     "productos": "DESODORANTE DOVE x150ml MEN VARIOS",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 1161,
     "productos": "DESODORANTE DOVE x150ml ORIGINAL",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 461654,
     "productos": "DESODORANTE DOVE x150ml PEPINO",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 462992,
     "productos": "DESODORANTE DOVE x150ml PERA",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 1163,
     "productos": "DESODORANTE DOVE x150ml POMELO",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 479162,
     "productos": "DESODORANTE DOVE x150ml S/PERF",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4499
+  },
+  {
+    "codigos": 471121,
+    "productos": "DESODORANTE DUFOUR MEN VARIOS x125ML",
+    "uxb": 12,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 471951,
+    "productos": "DESODORANTE DUFOUR WOMEN INF. x123ml",
+    "uxb": 12,
+    "precio_vta": 999
   },
   {
     "codigos": 471126,
@@ -27585,25 +28587,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9074,
     "productos": "DESODORANTE ETIQUET ROLL ON VS x60ml",
     "uxb": 12,
-    "precio_vta": 1399
+    "precio_vta": 1699
   },
   {
     "codigos": 7907,
     "productos": "DESODORANTE GINO BOGANI CHIC TO CHEEK x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 7908,
     "productos": "DESODORANTE GINO BOGANI POUR FEMME x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 461360,
     "productos": "DESODORANTE GINO BOGANI TOUT NOIR x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 461821,
@@ -27615,7 +28617,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464949,
     "productos": "DESODORANTE IMPULSE MUSK X 150ML",
     "uxb": 12,
-    "precio_vta": 1468
+    "precio_vta": 2999
   },
   {
     "codigos": 463015,
@@ -27627,25 +28629,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473216,
     "productos": "DESODORANTE JULIE/SOFHIE X123CC",
     "uxb": 6,
-    "precio_vta": 3884
+    "precio_vta": 3999
   },
   {
     "codigos": 7392,
     "productos": "DESODORANTE KEVIN ABS/PLAT X250CC",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 470235,
     "productos": "DESODORANTE KEVIN BLACK x250ml",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 460741,
     "productos": "DESODORANTE KEVIN FREEDOM X250CC",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 476217,
@@ -27657,25 +28659,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472270,
     "productos": "DESODORANTE KEVIN ICE x250ml",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 468950,
     "productos": "DESODORANTE KEVIN METAL X250CC",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 7396,
     "productos": "DESODORANTE KEVIN PARK x250ml",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 475915,
     "productos": "DESODORANTE KEVIN RED X250CC",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 476212,
@@ -27687,19 +28689,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7395,
     "productos": "DESODORANTE KEVIN ROJO X250CC",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 7393,
     "productos": "DESODORANTE KEVIN SPIRIT x250ml",
     "uxb": 6,
-    "precio_vta": 5039
+    "precio_vta": 5499
   },
   {
     "codigos": 7069,
     "productos": "DESODORANTE KEVIN X150ml ROJO",
     "uxb": 6,
-    "precio_vta": 3464
+    "precio_vta": 3799
   },
   {
     "codigos": 7067,
@@ -27771,37 +28773,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477413,
     "productos": "DESODORANTE PACO CLASIC x150ML",
     "uxb": 6,
-    "precio_vta": 3884
+    "precio_vta": 3999
   },
   {
     "codigos": 461423,
     "productos": "DESODORANTE PACO FUTBOL x150ml",
     "uxb": 6,
-    "precio_vta": 3884
+    "precio_vta": 3999
   },
   {
     "codigos": 477412,
     "productos": "DESODORANTE PACO SURF x150ML",
     "uxb": 6,
-    "precio_vta": 3884
+    "precio_vta": 3999
   },
   {
     "codigos": 463920,
     "productos": "DESODORANTE PALOMA HERRERA CLASICO x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 473390,
     "productos": "DESODORANTE PALOMA HERRERA FANTASY x123cc",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 461359,
     "productos": "DESODORANTE PALOMA HERRERA PASSION x123ml",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 4164,
@@ -27861,31 +28863,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471659,
     "productos": "DESODORANTE PAULA CAHEN DAN x123ml ALEGRIA",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 9049,
     "productos": "DESODORANTE PAULA CAHEN DAN x123ml ALMA",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 7151,
     "productos": "DESODORANTE PAULA CAHEN DAN x123ml AMOR",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 7152,
     "productos": "DESODORANTE PAULA CAHEN DAN x123ml LUZ",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 7145,
     "productos": "DESODORANTE PAULA CAHEN DANV x123ml CLASICO",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 10980,
@@ -27933,25 +28935,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474340,
     "productos": "DESODORANTE REXONA EMOT/COTT x250cc",
     "uxb": 12,
-    "precio_vta": 4723
+    "precio_vta": 4599
   },
   {
     "codigos": 10540,
     "productos": "DESODORANTE REXONA EN BARRA FEM X 50GR",
     "uxb": 12,
-    "precio_vta": 4499
+    "precio_vta": 4599
   },
   {
     "codigos": 11687,
     "productos": "DESODORANTE REXONA EN BARRA X 50G VS",
     "uxb": 12,
-    "precio_vta": 4499
+    "precio_vta": 4799
   },
   {
     "codigos": 474384,
     "productos": "DESODORANTE REXONA MEN V8 X250CC",
     "uxb": 12,
-    "precio_vta": 4514
+    "precio_vta": 4599
   },
   {
     "codigos": 476703,
@@ -27963,67 +28965,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477477,
     "productos": "DESODORANTE REXONA MEN XTRACOOL x250cc",
     "uxb": 12,
-    "precio_vta": 4514
+    "precio_vta": 4599
   },
   {
     "codigos": 431,
     "productos": "DESODORANTE REXONA MEN x150ml ANTIB FRES",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 470543,
     "productos": "DESODORANTE REXONA MEN x150ml ANTIBACTER",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 470542,
     "productos": "DESODORANTE REXONA MEN x150ml EXTRA FRES",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 470550,
     "productos": "DESODORANTE REXONA MEN x150ml FANATICOS",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 5022,
     "productos": "DESODORANTE REXONA MEN x150ml HOMBRE",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 7544,
     "productos": "DESODORANTE REXONA MEN x150ml INVISIBLE",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 470541,
     "productos": "DESODORANTE REXONA MEN x150ml SENSITIVE",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 5249,
     "productos": "DESODORANTE REXONA MEN x150ml SPORT",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 7762,
     "productos": "DESODORANTE REXONA MEN x150ml V8",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 7878,
     "productos": "DESODORANTE REXONA MEN x150ml XTRACOOL",
     "uxb": 12,
-    "precio_vta": 3673
+    "precio_vta": 3999
   },
   {
     "codigos": 4045,
@@ -28035,13 +29037,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460797,
     "productos": "DESODORANTE REXONA ROLL ON FEM X 50G",
     "uxb": 12,
-    "precio_vta": 2299
+    "precio_vta": 2999
   },
   {
     "codigos": 9903,
     "productos": "DESODORANTE REXONA ROLL ON MEN x50g",
     "uxb": 12,
-    "precio_vta": 2299
+    "precio_vta": 2999
   },
   {
     "codigos": 1247,
@@ -28143,13 +29145,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478282,
     "productos": "DESODORANTE VALERIA MAZZA 123CC",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 479379,
     "productos": "DESODORANTE VALERIA VELVET AEROSOL x123cc",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4699
   },
   {
     "codigos": 480268,
@@ -28168,6 +29170,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "DESTAPADOR MOZO CORKCREW",
     "uxb": 1,
     "precio_vta": 2200
+  },
+  {
+    "codigos": 74857,
+    "productos": "DESTORNILLADOR DOBLE PUNTA TUCU",
+    "uxb": 1,
+    "precio_vta": 2900
+  },
+  {
+    "codigos": 74858,
+    "productos": "DESTORNILLADOR IMPACTO TUCU",
+    "uxb": 1,
+    "precio_vta": 1990
   },
   {
     "codigos": 477489,
@@ -28365,7 +29379,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478110,
     "productos": "DETERGENTE MAGISTRAL DP x450ml",
     "uxb": 21,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 471216,
@@ -28389,7 +29403,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4257,
     "productos": "DETERGENTE MAGISTRAL VARIOS x1.4l",
     "uxb": 9,
-    "precio_vta": 8398
+    "precio_vta": 8990
   },
   {
     "codigos": 465389,
@@ -28503,7 +29517,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475155,
     "productos": "DETERGENTE VAIS P/LAVAVAJ 800ML",
     "uxb": 12,
-    "precio_vta": 1889
+    "precio_vta": 1899
   },
   {
     "codigos": 474105,
@@ -28713,13 +29727,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10058,
     "productos": "DISCOS ARROZ 2 HERMANOS ASADO x80g",
     "uxb": 10,
-    "precio_vta": 1154
+    "precio_vta": 999
   },
   {
     "codigos": 466139,
     "productos": "DISCOS DOS HERMANOS SALAME X 80grs",
     "uxb": 10,
-    "precio_vta": 1154
+    "precio_vta": 999
   },
   {
     "codigos": 470059,
@@ -28758,6 +29772,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 8399
   },
   {
+    "codigos": 480800,
+    "productos": "DISPENSER BEVERAGE IMP EMA 58052",
+    "uxb": 1,
+    "precio_vta": 29999
+  },
+  {
     "codigos": 461589,
     "productos": "DISPENSER CHICLE BLUPER 40grs",
     "uxb": 1,
@@ -28767,7 +29787,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469606,
     "productos": "DISPENSER DE DETERGENTE LIMA",
     "uxb": 18,
-    "precio_vta": 2624
+    "precio_vta": 2887
   },
   {
     "codigos": 479630,
@@ -28779,7 +29799,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467214,
     "productos": "DISPENSER PLEGABLE x5.5Lt",
     "uxb": 1,
-    "precio_vta": 7848
+    "precio_vta": 8633
   },
   {
     "codigos": 479642,
@@ -28791,7 +29811,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479684,
     "productos": "DISPENSER+ORGANIZADOR CLAS D/JABON IMP-E",
     "uxb": 26,
-    "precio_vta": 4724
+    "precio_vta": 5197
   },
   {
     "codigos": 476221,
@@ -28800,16 +29820,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 8447
   },
   {
-    "codigos": 11505,
-    "productos": "DISPO",
-    "uxb": 1,
-    "precio_vta": 43
-  },
-  {
     "codigos": 7811,
     "productos": "DOCIGOMA TUBO SURTIDA x30grx1Un",
     "uxb": 12,
-    "precio_vta": 230
+    "precio_vta": 249
   },
   {
     "codigos": 478111,
@@ -28833,13 +29847,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1142,
     "productos": "DOMINGO HERMANOS FINO TINTO DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 12815
+    "precio_vta": 13214
   },
   {
     "codigos": 12079,
     "productos": "DOMINGO HERMANOS MALBEC DAMAJUANA X5L",
     "uxb": 1,
-    "precio_vta": 26584
+    "precio_vta": 26799
   },
   {
     "codigos": 1143,
@@ -28857,13 +29871,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1144,
     "productos": "DOMINGO HERMANOS ROBLE TTO DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 15822
+    "precio_vta": 16919
   },
   {
     "codigos": 1145,
     "productos": "DOMINGO HERMANOS TORRONTES DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 12815
+    "precio_vta": 13214
   },
   {
     "codigos": 462387,
@@ -28878,12 +29892,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2365
   },
   {
-    "codigos": 478578,
-    "productos": "DORITOS SWEET CHILI x74g",
-    "uxb": 29,
-    "precio_vta": 1889
-  },
-  {
     "codigos": 480079,
     "productos": "DOVE CLINICAL FEM",
     "uxb": 1,
@@ -28893,7 +29901,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7469,
     "productos": "DR LEMON C/VODKA LATA x473cc",
     "uxb": 24,
-    "precio_vta": 2099
+    "precio_vta": 1199
   },
   {
     "codigos": 473933,
@@ -28923,7 +29931,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2312,
     "productos": "DR LEMON x1Lt C/VODKA",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 8372,
@@ -28983,13 +29991,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1107,
     "productos": "DRF NARANJA x12u",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 463758,
     "productos": "DRF SURTIDAS X24UNI",
     "uxb": 20,
-    "precio_vta": 5144
+    "precio_vta": 7499
   },
   {
     "codigos": 474616,
@@ -29178,16 +30186,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 759
   },
   {
-    "codigos": 477192,
-    "productos": "DULCE DE LECHE PUNTA DEL AGUA POTE x250g",
-    "uxb": 24,
-    "precio_vta": 1069
-  },
-  {
     "codigos": 480136,
     "productos": "DULCE DE LECHE SER POTE x400g",
     "uxb": 1,
-    "precio_vta": 3398
+    "precio_vta": 3568
   },
   {
     "codigos": 480353,
@@ -29289,13 +30291,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479449,
     "productos": "DULCE MEMBRILLO ESNAOLA LATA x700g",
     "uxb": 12,
-    "precio_vta": 4999
+    "precio_vta": 5399
   },
   {
     "codigos": 469579,
     "productos": "DULCE MEMBRILLO ESNAOLA x500gr.",
     "uxb": 12,
-    "precio_vta": 1799
+    "precio_vta": 2099
   },
   {
     "codigos": 9435,
@@ -29310,10 +30312,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2509
   },
   {
+    "codigos": 8905,
+    "productos": "DURAZNO ABETO EN MITADES x820gr",
+    "uxb": 12,
+    "precio_vta": 2999
+  },
+  {
+    "codigos": 480754,
+    "productos": "DURAZNO ABETO EN TAJADAS x820g",
+    "uxb": 12,
+    "precio_vta": 1899
+  },
+  {
     "codigos": 477207,
     "productos": "DURAZNO ALCO E/MITADES LATA 820G",
     "uxb": 12,
     "precio_vta": 2199
+  },
+  {
+    "codigos": 480702,
+    "productos": "DURAZNO EN MITADES LA BANDA LATA x820g",
+    "uxb": 12,
+    "precio_vta": 3299
   },
   {
     "codigos": 10728,
@@ -29355,7 +30375,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3091,
     "productos": "ECURRIDOR CUBIERTOS 3DIV VARIOS",
     "uxb": 36,
-    "precio_vta": 1049
+    "precio_vta": 1154
   },
   {
     "codigos": 6538,
@@ -29493,7 +30513,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1185,
     "productos": "EDULC. HILERET 1A10 500SOB",
     "uxb": 1,
-    "precio_vta": 8398
+    "precio_vta": 8999
   },
   {
     "codigos": 6069,
@@ -29565,7 +30585,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8297,
     "productos": "EDULC. HILERET SWEET LIQ x200ml",
     "uxb": 9,
-    "precio_vta": 1731
+    "precio_vta": 1949
   },
   {
     "codigos": 1188,
@@ -29796,6 +30816,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3463
   },
   {
+    "codigos": 480646,
+    "productos": "EDULCORANTE TUY SUELTOS x200Un.",
+    "uxb": 1,
+    "precio_vta": 1199
+  },
+  {
     "codigos": 479459,
     "productos": "EL MAKZAL POCHOCLO C/MANI x120g",
     "uxb": 12,
@@ -29823,7 +30849,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474499,
     "productos": "EL POCILLO INTENSA DP x115g",
     "uxb": 12,
-    "precio_vta": 1564
+    "precio_vta": 1799
   },
   {
     "codigos": 474500,
@@ -29889,7 +30915,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10327,
     "productos": "EMBUDOS YESI 13 CM",
     "uxb": 1,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 8923,
@@ -29967,7 +30993,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478794,
     "productos": "ENCENDE CLIPPER",
     "uxb": 1,
-    "precio_vta": 399
+    "precio_vta": 499
   },
   {
     "codigos": 473787,
@@ -30003,7 +31029,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471664,
     "productos": "ENCENDEDOR CLASICO HOGAR CANDELA x1un",
     "uxb": 1,
-    "precio_vta": 2499
+    "precio_vta": 2899
   },
   {
     "codigos": 479778,
@@ -30030,6 +31056,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 249
   },
   {
+    "codigos": 467799,
+    "productos": "ENCENDEDOR LLAMA MAGICLICK",
+    "uxb": 1,
+    "precio_vta": 3099
+  },
+  {
     "codigos": 471349,
     "productos": "ENCENDEDOR MAGICLICK",
     "uxb": 1,
@@ -30046,6 +31078,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ENCENDEDOR MAGICLICK PREMIUM ELECT",
     "uxb": 1,
     "precio_vta": 999
+  },
+  {
+    "codigos": 480709,
+    "productos": "ENCENDEDOR MECHITA x1Un.",
+    "uxb": 25,
+    "precio_vta": 249
   },
   {
     "codigos": 8122,
@@ -30076,6 +31114,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ENCENDEDOR SIGLO XXI",
     "uxb": 1,
     "precio_vta": 1949
+  },
+  {
+    "codigos": 467791,
+    "productos": "ENCENDEDOR VOLCANO MAGICLICK",
+    "uxb": 1,
+    "precio_vta": 3499
   },
   {
     "codigos": 477257,
@@ -30396,22 +31440,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4724
   },
   {
+    "codigos": 480632,
+    "productos": "ENJ COLGATE PLAX ICE INFINITY x180cc",
+    "uxb": 12,
+    "precio_vta": 2499
+  },
+  {
     "codigos": 479752,
     "productos": "ENJ.BUCAL ALGABO ANTIBAC x500cc",
     "uxb": 12,
-    "precio_vta": 3254
+    "precio_vta": 3299
   },
   {
     "codigos": 473634,
     "productos": "ENJ.BUCAL ALGABO COOL MINT X500CC",
     "uxb": 12,
-    "precio_vta": 3254
+    "precio_vta": 3299
   },
   {
     "codigos": 8347,
     "productos": "ENJ.BUCAL ALGABO MENTA X500ML",
     "uxb": 12,
-    "precio_vta": 3254
+    "precio_vta": 3299
   },
   {
     "codigos": 5679,
@@ -30483,55 +31533,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461885,
     "productos": "ENSALADERA",
     "uxb": 1,
-    "precio_vta": 689
+    "precio_vta": 758
   },
   {
     "codigos": 476790,
     "productos": "ENSALADERA BAMBOO S/TAPA PASTEL VIHA",
     "uxb": 1,
-    "precio_vta": 1784
+    "precio_vta": 1963
   },
   {
     "codigos": 475544,
     "productos": "ENSALADERA C/TAPA NORDICO x1.5LT VIHA",
     "uxb": 1,
-    "precio_vta": 4199
+    "precio_vta": 4619
   },
   {
     "codigos": 467261,
     "productos": "ENSALADERA CLAS.+COLADOR+CUB STAR",
     "uxb": 12,
-    "precio_vta": 3851
+    "precio_vta": 4236
   },
   {
     "codigos": 466151,
     "productos": "ENSALADERA FLOR KEVINS",
     "uxb": 52,
-    "precio_vta": 1593
+    "precio_vta": 1753
   },
   {
     "codigos": 474116,
     "productos": "ENSALADERA MADERA CUADRADA x20cm",
     "uxb": 1,
-    "precio_vta": 1709
+    "precio_vta": 1880
   },
   {
     "codigos": 474118,
     "productos": "ENSALADERA MADERA REDONDA x25cm",
     "uxb": 1,
-    "precio_vta": 2239
+    "precio_vta": 2462
   },
   {
     "codigos": 477934,
     "productos": "ENSALADERA MELAMINA 10`  RESPONTECH",
     "uxb": 1,
-    "precio_vta": 2519
+    "precio_vta": 2771
   },
   {
     "codigos": 478656,
     "productos": "ENSALADERA MELAMINA 12' RESPONTECH",
     "uxb": 1,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 472231,
@@ -30543,43 +31593,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477576,
     "productos": "ENSALADERA MORRISTOWN IMP-E x1Un.",
     "uxb": 6,
-    "precio_vta": 13559
+    "precio_vta": 14915
   },
   {
     "codigos": 475546,
     "productos": "ENSALADERA PASTEL VIHA x2.2lt",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 5319,
     "productos": "ENSALADERA PLASTICO COLOR BATEN",
     "uxb": 100,
-    "precio_vta": 816
+    "precio_vta": 897
   },
   {
     "codigos": 463969,
     "productos": "ENSALADERA RED DIAMOND HERALD C/TAPA 3.400CM",
     "uxb": 12,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 468019,
     "productos": "ENSALADERA ROMA DURAX",
     "uxb": 6,
-    "precio_vta": 3674
+    "precio_vta": 4042
   },
   {
     "codigos": 467640,
     "productos": "ENSALADERA STAR NORD/FULL/BYN X2.8L",
     "uxb": 45,
-    "precio_vta": 2065
+    "precio_vta": 2272
   },
   {
     "codigos": 471224,
     "productos": "ENSALADERA TRIO STAR COMPANY",
     "uxb": 1,
-    "precio_vta": 5795
+    "precio_vta": 6375
   },
   {
     "codigos": 990001,
@@ -30615,7 +31665,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 990007,
     "productos": "ENVASE DAMAJUANA",
     "uxb": 1,
-    "precio_vta": 3858
+    "precio_vta": 4199
   },
   {
     "codigos": 7985,
@@ -30626,7 +31676,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 460618,
     "productos": "ENVASE ESTERIL IQP 125cc BSA",
-    "uxb": 250,
+    "uxb": 200,
     "precio_vta": 524
   },
   {
@@ -30687,7 +31737,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6787,
     "productos": "ESCOBA BARREMAS LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 3358
+    "precio_vta": 3999
   },
   {
     "codigos": 5475,
@@ -30873,13 +31923,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471170,
     "productos": "ESCOBILLON CON CABO x1Un.",
     "uxb": 1,
-    "precio_vta": 3358
+    "precio_vta": 3499
   },
   {
     "codigos": 3733,
-    "productos": "ESCOBILLON CURVO GRANDE ASAPRACTIC LA GAUCHITA",
+    "productos": "ESCOBILLON CURVO GRANDE ASAPRACTIC",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3999
   },
   {
     "codigos": 461961,
@@ -30927,7 +31977,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5472,
     "productos": "ESCOBILLON INTERIORES LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 3779
+    "precio_vta": 4699
   },
   {
     "codigos": 464773,
@@ -30987,7 +32037,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477501,
     "productos": "ESCOBILLON MULTIUSO LA GAUCHITA MAX",
     "uxb": 12,
-    "precio_vta": 4724
+    "precio_vta": 6099
   },
   {
     "codigos": 461952,
@@ -31083,7 +32133,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471943,
     "productos": "ESCURIDOR DE PLATOS RATTAN VIHA",
     "uxb": 10,
-    "precio_vta": 12599
+    "precio_vta": 13859
+  },
+  {
+    "codigos": 480796,
+    "productos": "ESCURR/CUBIERT KITCHEN LINE IMP EMA 721122",
+    "uxb": 1,
+    "precio_vta": 3790
   },
   {
     "codigos": 473079,
@@ -31095,7 +32151,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475201,
     "productos": "ESCURRIDOR 2 PISOS ACERO BH-HOME IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 26165
+    "precio_vta": 28781
+  },
+  {
+    "codigos": 480783,
+    "productos": "ESCURRIDOR CUB NEUTRO IMP EMA KP 5001-E",
+    "uxb": 1,
+    "precio_vta": 0
   },
   {
     "codigos": 465969,
@@ -31107,55 +32169,73 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8719,
     "productos": "ESCURRIDOR D/VERDURAS HP",
     "uxb": 1,
-    "precio_vta": 6299
+    "precio_vta": 6929
   },
   {
     "codigos": 469605,
     "productos": "ESCURRIDOR DE CUBIERTOS LIMA",
     "uxb": 30,
-    "precio_vta": 1501
+    "precio_vta": 1651
   },
   {
     "codigos": 472553,
     "productos": "ESCURRIDOR DE PLATOS BAGER VIHA",
     "uxb": 1,
-    "precio_vta": 10499
+    "precio_vta": 11549
   },
   {
     "codigos": 479351,
     "productos": "ESCURRIDOR P/PLAT. UZ NEGRO",
     "uxb": 1,
-    "precio_vta": 7034
+    "precio_vta": 7738
   },
   {
     "codigos": 8066,
     "productos": "ESCURRIDOR PLATOS C/B LA GAUCHITA",
     "uxb": 6,
-    "precio_vta": 7874
+    "precio_vta": 8662
   },
   {
     "codigos": 462594,
     "productos": "ESCURRIDORA/ALIMENTOS HERALDPLAS X4.5",
     "uxb": 4,
-    "precio_vta": 6641
+    "precio_vta": 7305
   },
   {
     "codigos": 480006,
     "productos": "ESENCIA DE AZAHAR LA PARMESANA x110cc",
     "uxb": 24,
-    "precio_vta": 1784
+    "precio_vta": 1799
+  },
+  {
+    "codigos": 480565,
+    "productos": "ESENCIA DE AZAHAR SABOR SUR x30cc",
+    "uxb": 8,
+    "precio_vta": 1849
   },
   {
     "codigos": 480007,
     "productos": "ESENCIA DE LIMON LA PARMESANA x110cc",
     "uxb": 24,
-    "precio_vta": 1049
+    "precio_vta": 1099
+  },
+  {
+    "codigos": 480566,
+    "productos": "ESENCIA DE LIMON SABOR SUR x30cc",
+    "uxb": 8,
+    "precio_vta": 1499
   },
   {
     "codigos": 470335,
     "productos": "ESENCIA DE VAINILLA EMETH x1Lt",
     "uxb": 8,
     "precio_vta": 3989
+  },
+  {
+    "codigos": 480630,
+    "productos": "ESENCIA DE VAINILLA PARMESANA x180cc",
+    "uxb": 12,
+    "precio_vta": 1399
   },
   {
     "codigos": 467014,
@@ -31167,19 +32247,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480004,
     "productos": "ESENCIA LA PARMESANA ALMENDRA x110g",
     "uxb": 24,
-    "precio_vta": 944
+    "precio_vta": 999
   },
   {
     "codigos": 480005,
     "productos": "ESENCIA LA PARMESANA FRUTILLA x110cc",
     "uxb": 24,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475808,
     "productos": "ESMALTES SALLY/REVLON/LOREAL x1Un.",
     "uxb": 1,
     "precio_vta": 2882
+  },
+  {
+    "codigos": 480687,
+    "productos": "ESP MEDIA NARANJA DELGADA",
+    "uxb": 72,
+    "precio_vta": 449
   },
   {
     "codigos": 7331,
@@ -31268,7 +32354,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466820,
     "productos": "ESPECIAS SURTIDAS AROMAS/SABORES 25G",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 333
   },
   {
@@ -31299,25 +32385,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477643,
     "productos": "ESPEJO CUADRADO TAURO CHICO x1Un.",
     "uxb": 1,
-    "precio_vta": 1439
+    "precio_vta": 1599
   },
   {
     "codigos": 477645,
     "productos": "ESPEJO CUADRADO TAURO GRANDE X1UN",
     "uxb": 1,
-    "precio_vta": 3999
+    "precio_vta": 4699
   },
   {
     "codigos": 477644,
     "productos": "ESPEJO CUADRADO TAURO MEDIANO x1un",
     "uxb": 1,
-    "precio_vta": 2399
+    "precio_vta": 2799
   },
   {
     "codigos": 477652,
     "productos": "ESPEJO D/CARTERA TAURO x1Un.",
     "uxb": 1,
-    "precio_vta": 999
+    "precio_vta": 1190
   },
   {
     "codigos": 10163,
@@ -31413,7 +32499,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4259,
     "productos": "ESPIRAL RAID COUNTRY FRESH x12u",
     "uxb": 24,
-    "precio_vta": 2886
+    "precio_vta": 2499
   },
   {
     "codigos": 473623,
@@ -31449,13 +32535,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476758,
     "productos": "ESPOJA DEA USOS MULTIPLES 1UN",
     "uxb": 1,
-    "precio_vta": 366
+    "precio_vta": 439
   },
   {
     "codigos": 477081,
     "productos": "ESPONJA ACERO DEA COMBINADA X1UN",
     "uxb": 12,
     "precio_vta": 1237
+  },
+  {
+    "codigos": 11483,
+    "productos": "ESPONJA ACERO DEA INOX X1UN",
+    "uxb": 1,
+    "precio_vta": 390
   },
   {
     "codigos": 5636,
@@ -31467,7 +32559,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471566,
     "productos": "ESPONJA ACERO ESENCIAL 30G",
     "uxb": 6,
-    "precio_vta": 1048
+    "precio_vta": 999
   },
   {
     "codigos": 463418,
@@ -31479,7 +32571,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467029,
     "productos": "ESPONJA ACERO ESENCIAL x14g",
     "uxb": 12,
-    "precio_vta": 523
+    "precio_vta": 499
   },
   {
     "codigos": 462152,
@@ -31509,7 +32601,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480175,
     "productos": "ESPONJA ACERO MEDIA NARANJA x30g",
     "uxb": 72,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 5632,
@@ -31677,12 +32769,12 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11423,
     "productos": "ESPONJA DEA SALVAUÑAS X1UN",
     "uxb": 12,
-    "precio_vta": 492
+    "precio_vta": 579
   },
   {
     "codigos": 470785,
     "productos": "ESPONJA ECOO EXTRALIMP BAÑO CHICO",
-    "uxb": 12,
+    "uxb": 120,
     "precio_vta": 451
   },
   {
@@ -31713,7 +32805,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10891,
     "productos": "ESPONJA ESENCIAL LISA 1UN",
     "uxb": 6,
-    "precio_vta": 471
+    "precio_vta": 499
   },
   {
     "codigos": 10892,
@@ -31767,13 +32859,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462149,
     "productos": "ESPONJA LA GAUCHITA GO! BAÑOS",
     "uxb": 60,
-    "precio_vta": 472
+    "precio_vta": 469
   },
   {
     "codigos": 462147,
     "productos": "ESPONJA LA GAUCHITA GO! CUADROS CLAS",
     "uxb": 60,
-    "precio_vta": 472
+    "precio_vta": 469
   },
   {
     "codigos": 462151,
@@ -31791,7 +32883,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462154,
     "productos": "ESPONJA LA GAUCHITA GO! LISA LIMP.FACIL",
     "uxb": 60,
-    "precio_vta": 367
+    "precio_vta": 369
   },
   {
     "codigos": 462146,
@@ -31803,25 +32895,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463983,
     "productos": "ESPONJA LA GAUCHITA GO! NO RAYA",
     "uxb": 60,
-    "precio_vta": 472
+    "precio_vta": 469
   },
   {
     "codigos": 465132,
     "productos": "ESPONJA LA GAUCHITA GO! SUP.ANTADHERENTE",
     "uxb": 60,
-    "precio_vta": 734
+    "precio_vta": 739
   },
   {
     "codigos": 462148,
     "productos": "ESPONJA LA GAUCHITA GO! ULTRA COCINA",
     "uxb": 60,
-    "precio_vta": 419
+    "precio_vta": 439
   },
   {
     "codigos": 462140,
     "productos": "ESPONJA LA GAUCHITA GO!POWER PROT.UÑA",
     "uxb": 60,
-    "precio_vta": 451
+    "precio_vta": 449
   },
   {
     "codigos": 8085,
@@ -31851,7 +32943,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480172,
     "productos": "ESPONJA MEDIA NARANJA SALVA UÑAS",
     "uxb": 72,
-    "precio_vta": 577
+    "precio_vta": 1099
   },
   {
     "codigos": 3023,
@@ -31917,7 +33009,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478294,
     "productos": "ESPONJA PARRILERA GO!",
     "uxb": 60,
-    "precio_vta": 1259
+    "precio_vta": 1299
   },
   {
     "codigos": 7471,
@@ -31998,10 +33090,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 965
   },
   {
+    "codigos": 4048,
+    "productos": "ESPONJA TASK ERGONOMICA",
+    "uxb": 1,
+    "precio_vta": 579
+  },
+  {
     "codigos": 474324,
     "productos": "ESPONJA TASK LISA MULTIUSO x1Un.",
     "uxb": 12,
-    "precio_vta": 313
+    "precio_vta": 399
   },
   {
     "codigos": 474270,
@@ -32028,18 +33126,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1258
   },
   {
-    "codigos": 463343,
-    "productos": "ESPONJA VIRULANA ANTIGRASA ANTIAD 1UN",
-    "uxb": 24,
-    "precio_vta": 944
-  },
-  {
-    "codigos": 5111,
-    "productos": "ESPONJA VIRULANA CUADRITOS",
-    "uxb": 96,
-    "precio_vta": 734
-  },
-  {
     "codigos": 474581,
     "productos": "ESPONJA VIRULANA FIBRA AZUL 1UN",
     "uxb": 48,
@@ -32050,6 +33136,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ESPONJA VIRULANA FUERTE X1UN",
     "uxb": 48,
     "precio_vta": 912
+  },
+  {
+    "codigos": 463342,
+    "productos": "ESPONJA VIRULANA INOXI 1UN",
+    "uxb": 100,
+    "precio_vta": 899
   },
   {
     "codigos": 473242,
@@ -32064,12 +33156,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1017
   },
   {
-    "codigos": 463346,
-    "productos": "ESPONJA VIRULANA MULTIUSO",
-    "uxb": 96,
-    "precio_vta": 733
-  },
-  {
     "codigos": 4218,
     "productos": "ESPUM.BODEGA PRIVADA EXTRA BRUT x750cc",
     "uxb": 6,
@@ -32079,7 +33165,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470947,
     "productos": "ESPUM.SANTA JULIA DCE NAT ROSA x750cc",
     "uxb": 6,
-    "precio_vta": 8102
+    "precio_vta": 10799
   },
   {
     "codigos": 5422,
@@ -32121,7 +33207,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 231,
     "productos": "ESPUMA D/AFEITAR GILLETTE x175g",
     "uxb": 12,
-    "precio_vta": 7299
+    "precio_vta": 7799
   },
   {
     "codigos": 4231,
@@ -32223,7 +33309,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477710,
     "productos": "ESPUMANTE CHANDON x750cc DELICE ROSE",
     "uxb": 6,
-    "precio_vta": 15748
+    "precio_vta": 16799
   },
   {
     "codigos": 844,
@@ -32520,6 +33606,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1451
   },
   {
+    "codigos": 970,
+    "productos": "ESTROPAJO ACERO DEA MED X1UN",
+    "uxb": 1,
+    "precio_vta": 599
+  },
+  {
     "codigos": 467165,
     "productos": "ESTROPAJO ACERO ECOO x15g",
     "uxb": 240,
@@ -32566,6 +33658,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ESTUFA HALOGENA SZ-EH078 SUKIZA I-EMA",
     "uxb": 1,
     "precio_vta": 39999
+  },
+  {
+    "codigos": 47854,
+    "productos": "ESTUFA HYTOSHY DE 2 VELAS 800WTS",
+    "uxb": 1,
+    "precio_vta": 29700
   },
   {
     "codigos": 11009,
@@ -32637,37 +33735,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463992,
     "productos": "EXPRIMIDOR C/JARRA CALIPSO TRANSLUCIDO",
     "uxb": 1,
-    "precio_vta": 1812
+    "precio_vta": 1993
   },
   {
     "codigos": 8413,
     "productos": "EXPRIMIDOR CITRICOS YESI",
     "uxb": 36,
-    "precio_vta": 1449
+    "precio_vta": 1594
   },
   {
     "codigos": 480500,
     "productos": "EXPRIMIDOR DE CITRICOS CAROL",
     "uxb": 1,
-    "precio_vta": 2729
+    "precio_vta": 3002
   },
   {
     "codigos": 480498,
     "productos": "EXPRIMIDOR METAL DE LIMON CAROL",
     "uxb": 1,
-    "precio_vta": 15529
+    "precio_vta": 17082
   },
   {
     "codigos": 477874,
     "productos": "EXPRIMIDOR METALICA THE KITCHEN CH12",
     "uxb": 6,
-    "precio_vta": 35595
+    "precio_vta": 39154
   },
   {
     "codigos": 476079,
     "productos": "EXPRIMIDOR PLAST THE KITCHEN",
     "uxb": 1,
-    "precio_vta": 3918
+    "precio_vta": 4310
   },
   {
     "codigos": 2917,
@@ -32679,7 +33777,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465784,
     "productos": "EXTRACTO DE TOMATE MAROLIO x200g",
     "uxb": 24,
-    "precio_vta": 755
+    "precio_vta": 579
   },
   {
     "codigos": 465786,
@@ -32727,7 +33825,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470833,
     "productos": "EXTRACTO DE VAINILLA LA PARMESANA X110",
     "uxb": 24,
-    "precio_vta": 944
+    "precio_vta": 999
   },
   {
     "codigos": 475087,
@@ -32739,7 +33837,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479660,
     "productos": "EXTRACTOR D/JUGO OM-JB-175 IMP-E",
     "uxb": 6,
-    "precio_vta": 73499
+    "precio_vta": 80849
   },
   {
     "codigos": 460914,
@@ -32751,13 +33849,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475273,
     "productos": "FAINA SABORIZADA SILVINA x250g",
     "uxb": 12,
-    "precio_vta": 1363
+    "precio_vta": 1619
   },
   {
     "codigos": 475272,
     "productos": "FAINA TRADICIONAL SILVINA x250g",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1619
   },
   {
     "codigos": 476993,
@@ -32811,13 +33909,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468410,
     "productos": "FECULA DE MANDIOCA SILVINA x400g",
     "uxb": 10,
-    "precio_vta": 1364
+    "precio_vta": 1799
   },
   {
     "codigos": 7071,
     "productos": "FECULA DE MANDIOCA SILVINA x900gr",
     "uxb": 6,
-    "precio_vta": 2729
+    "precio_vta": 3499
   },
   {
     "codigos": 8708,
@@ -32835,7 +33933,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8356,
     "productos": "FECULA NATURAL ALGABO X250g",
     "uxb": 15,
-    "precio_vta": 2519
+    "precio_vta": 2599
   },
   {
     "codigos": 471474,
@@ -32859,19 +33957,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479044,
     "productos": "FERIA PLASTICO PLASVALE",
     "uxb": 1,
-    "precio_vta": 4226
+    "precio_vta": 4648
   },
   {
     "codigos": 473342,
     "productos": "FERIA PLASTICOS CHICOS PLASVALE",
     "uxb": 110,
-    "precio_vta": 1448
+    "precio_vta": 1593
   },
   {
     "codigos": 477750,
     "productos": "FERIA PLASTICOS GRANDES PLASVALE",
     "uxb": 1,
-    "precio_vta": 1593
+    "precio_vta": 1753
   },
   {
     "codigos": 460972,
@@ -32949,7 +34047,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12142,
     "productos": "FERNET COLA 1882 LATA X473ML",
     "uxb": 24,
-    "precio_vta": 1749
+    "precio_vta": 1699
   },
   {
     "codigos": 1349,
@@ -32958,16 +34056,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 999
   },
   {
-    "codigos": 5755,
-    "productos": "FERNET IMPERIO 950",
-    "uxb": 6,
-    "precio_vta": 4189
-  },
-  {
     "codigos": 1351,
     "productos": "FERNET IMPERIO x750cc",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4535
   },
   {
     "codigos": 1352,
@@ -33009,19 +34101,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13329,
     "productos": "FIAMBRE CERDO/POLLO CHAMPION",
     "uxb": 1,
-    "precio_vta": 6047
+    "precio_vta": 6199
   },
   {
     "codigos": 13335,
     "productos": "FIAMBRE CERDO/POLLO CHAMPION 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 6632
+    "precio_vta": 6899
   },
   {
     "codigos": 13336,
     "productos": "FIAMBRE CERDO/POLLO CHAMPION FETAS",
     "uxb": 1,
-    "precio_vta": 8193
+    "precio_vta": 8399
   },
   {
     "codigos": 13351,
@@ -33042,28 +34134,46 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 8999
   },
   {
+    "codigos": 14391,
+    "productos": "FIAMBRE D/CERDO TERMOLI 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 5899
+  },
+  {
+    "codigos": 14390,
+    "productos": "FIAMBRE D/CERDO TERMOLI HORMA",
+    "uxb": 1,
+    "precio_vta": 5299
+  },
+  {
     "codigos": 14249,
     "productos": "FIAMBRE DE CERDO CAGNOLI FETAS",
     "uxb": 1,
     "precio_vta": 9999
   },
   {
+    "codigos": 14392,
+    "productos": "FIAMBRE DE CERDO TERMOLI FETAS",
+    "uxb": 1,
+    "precio_vta": 7199
+  },
+  {
     "codigos": 14327,
     "productos": "FIAMBRE DE POLLO 214",
     "uxb": 1,
-    "precio_vta": 14048
+    "precio_vta": 12099
   },
   {
     "codigos": 14331,
     "productos": "FIAMBRE DE POLLO 214 1/2HORMA",
     "uxb": 1,
-    "precio_vta": 15453
+    "precio_vta": 13299
   },
   {
     "codigos": 14332,
     "productos": "FIAMBRE DE POLLO 214 FETEADO",
     "uxb": 1,
-    "precio_vta": 16535
+    "precio_vta": 16299
   },
   {
     "codigos": 14096,
@@ -33084,6 +34194,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3417
   },
   {
+    "codigos": 13361,
+    "productos": "FIAMBRE P/EMPARERADOS RECT 1/2 HORM SAN JOSE",
+    "uxb": 1,
+    "precio_vta": 3449
+  },
+  {
     "codigos": 10434,
     "productos": "FIAMBRERA MULTIFUNCION C/TAPA x3u HERALDPLAST",
     "uxb": 1,
@@ -33093,25 +34209,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8767,
     "productos": "FIAMBRERA MULTIFUNCION.X2U HP",
     "uxb": 1,
-    "precio_vta": 2172
+    "precio_vta": 2389
   },
   {
     "codigos": 13320,
     "productos": "FIAMBRIN LA SERE. 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 14386
+    "precio_vta": 15861
   },
   {
     "codigos": 13321,
     "productos": "FIAMBRIN LA SERE. FETAS",
     "uxb": 1,
-    "precio_vta": 15393
+    "precio_vta": 16971
   },
   {
     "codigos": 13319,
     "productos": "FIAMBRIN LA SERE. HORMA",
     "uxb": 1,
-    "precio_vta": 13079
+    "precio_vta": 14419
   },
   {
     "codigos": 1356,
@@ -33216,6 +34332,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 293
   },
   {
+    "codigos": 54845,
+    "productos": "FIBRA ESPONJA VIRULANA ANTIGRASA XUN",
+    "uxb": 48,
+    "precio_vta": 890
+  },
+  {
     "codigos": 478873,
     "productos": "FIBRA ESPONJA VIRULANA S/RAYAR X1UN",
     "uxb": 48,
@@ -33232,12 +34354,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "FIBRA TOTAL C/PASAS GRANIX x200gr",
     "uxb": 16,
     "precio_vta": 1679
-  },
-  {
-    "codigos": 476492,
-    "productos": "FIBRA TOTAL INTEGRAL GRANIX x200gr",
-    "uxb": 8,
-    "precio_vta": 1469
   },
   {
     "codigos": 480187,
@@ -33258,6 +34374,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 574
   },
   {
+    "codigos": 480703,
+    "productos": "FICHICLE FIERITA REC. MUNDIAL x50u",
+    "uxb": 18,
+    "precio_vta": 3199
+  },
+  {
     "codigos": 480100,
     "productos": "FID ARCOR CODITO x500g",
     "uxb": 15,
@@ -33268,6 +34390,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "FID ARCOR TIRABUZON x500g",
     "uxb": 15,
     "precio_vta": 799
+  },
+  {
+    "codigos": 480672,
+    "productos": "FID MATARAZZO BUCATTINI x500g",
+    "uxb": 1,
+    "precio_vta": 1249
   },
   {
     "codigos": 478497,
@@ -33306,12 +34434,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1049
   },
   {
-    "codigos": 8561,
-    "productos": "FIDEO CANALE SPAGHETTI x500g",
-    "uxb": 20,
-    "precio_vta": 599
-  },
-  {
     "codigos": 477694,
     "productos": "FIDEO CELESTIAL x500g TALLARIN",
     "uxb": 1,
@@ -33321,25 +34443,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468683,
     "productos": "FIDEO CHICAGO ESPECIAL X500g",
     "uxb": 12,
-    "precio_vta": 1199
+    "precio_vta": 1290
   },
   {
     "codigos": 475411,
     "productos": "FIDEO CHICAGO x500g GUISEROS",
     "uxb": 12,
-    "precio_vta": 879
+    "precio_vta": 899
   },
   {
     "codigos": 475410,
     "productos": "FIDEO CHICAGO x500g LARGOS",
     "uxb": 12,
-    "precio_vta": 879
+    "precio_vta": 899
   },
   {
     "codigos": 475412,
     "productos": "FIDEO CHICAGO x500g SOPEROS",
     "uxb": 12,
-    "precio_vta": 879
+    "precio_vta": 899
   },
   {
     "codigos": 1366,
@@ -33477,7 +34599,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13826,
     "productos": "FIDEO GUISERO SUELTO X KILO",
     "uxb": 100,
-    "precio_vta": 1090
+    "precio_vta": 1199
   },
   {
     "codigos": 467324,
@@ -33772,6 +34894,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "FIDEO MATARAZZO SPAG L.GLUTEN 500G",
     "uxb": 1,
     "precio_vta": 1399
+  },
+  {
+    "codigos": 1400,
+    "productos": "FIDEO MATARAZZO VARIOS X500g",
+    "uxb": 1,
+    "precio_vta": 1249
   },
   {
     "codigos": 472595,
@@ -34227,31 +35355,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477887,
     "productos": "FIDEO RIVOLI 500G MOÑO GRANDE",
     "uxb": 12,
-    "precio_vta": 1299
+    "precio_vta": 1190
   },
   {
     "codigos": 477886,
     "productos": "FIDEO RIVOLI 500G MOÑO MED.",
     "uxb": 12,
-    "precio_vta": 1299
+    "precio_vta": 1190
   },
   {
     "codigos": 468678,
     "productos": "FIDEO RIVOLI ESPECIAL X5KG",
     "uxb": 1,
-    "precio_vta": 12799
+    "precio_vta": 12990
   },
   {
     "codigos": 468679,
     "productos": "FIDEO RIVOLI GUISERO X5Kg",
     "uxb": 1,
-    "precio_vta": 8799
+    "precio_vta": 8890
   },
   {
     "codigos": 475424,
     "productos": "FIDEO RIVOLI NIDO ROSCA x500g CINTA",
     "uxb": 12,
-    "precio_vta": 1379
+    "precio_vta": 1390
   },
   {
     "codigos": 475422,
@@ -34263,91 +35391,91 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475423,
     "productos": "FIDEO RIVOLI NIDO ROSCA x500g TALLARIN",
     "uxb": 12,
-    "precio_vta": 1379
+    "precio_vta": 1390
   },
   {
     "codigos": 475417,
     "productos": "FIDEO RIVOLI x500g CODITO",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475419,
     "productos": "FIDEO RIVOLI x500g CODO",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475416,
     "productos": "FIDEO RIVOLI x500g DEDALES",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475418,
     "productos": "FIDEO RIVOLI x500g DEDALITO",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475414,
     "productos": "FIDEO RIVOLI x500g ENTREFINO",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 20012,
     "productos": "FIDEO RIVOLI x500g FUSILLIS",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 477888,
     "productos": "FIDEO RIVOLI x500g MOSTACHOL",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 476030,
     "productos": "FIDEO RIVOLI x500g PAMPERITO",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475421,
     "productos": "FIDEO RIVOLI x500g PAMPERO",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 476029,
     "productos": "FIDEO RIVOLI x500g PUNTITAS",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475413,
     "productos": "FIDEO RIVOLI x500g TALLARIN",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 476031,
     "productos": "FIDEO RIVOLI x500g TIRAB.VEG",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475420,
     "productos": "FIDEO RIVOLI x500g TIRABUZON",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 475415,
     "productos": "FIDEO RIVOLI x500g ÑOQUIS",
     "uxb": 12,
-    "precio_vta": 949
+    "precio_vta": 959
   },
   {
     "codigos": 3543,
@@ -34455,25 +35583,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474646,
     "productos": "FIDEO SANTA ISABEL X500g CANUTO",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474645,
     "productos": "FIDEO SANTA ISABEL X500g CARACOL",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 475058,
     "productos": "FIDEO SANTA ISABEL X500g CELENTANO",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 4835,
     "productos": "FIDEO SANTA ISABEL X500g CODITO",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474642,
@@ -34485,31 +35613,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474643,
     "productos": "FIDEO SANTA ISABEL X500g DEDALES",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474892,
     "productos": "FIDEO SANTA ISABEL X500g DEDALON",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474893,
     "productos": "FIDEO SANTA ISABEL X500g MOSTACHOL",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474891,
     "productos": "FIDEO SANTA ISABEL X500g RIGATTI",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474644,
     "productos": "FIDEO SANTA ISABEL X500g TIRABUZON",
     "uxb": 12,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 474654,
@@ -34632,10 +35760,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1890
   },
   {
-    "codigos": 14334,
-    "productos": "FIDEO SUELTO P/ANIMALES xkg",
+    "codigos": 78543,
+    "productos": "FIDEO SUELTO P/ANIMALES XKG",
     "uxb": 1,
     "precio_vta": 900
+  },
+  {
+    "codigos": 14334,
+    "productos": "FIDEO/ARROZ/POLENTA P/ANIMALES X KG",
+    "uxb": 1,
+    "precio_vta": 999
   },
   {
     "codigos": 14218,
@@ -34653,19 +35787,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11728,
     "productos": "FIDEOS FRESCOS 500G BLISTER TAPAMANIA",
     "uxb": 20,
-    "precio_vta": 1979
-  },
-  {
-    "codigos": 470295,
-    "productos": "FIDEOS LA ITALIANA TALL 500G",
-    "uxb": 1,
-    "precio_vta": 2175
+    "precio_vta": 1999
   },
   {
     "codigos": 13729,
     "productos": "FIDEOS LARGOS SUELTOS xKG",
     "uxb": 1,
-    "precio_vta": 1100
+    "precio_vta": 1199
   },
   {
     "codigos": 480400,
@@ -34722,6 +35850,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3086
   },
   {
+    "codigos": 480722,
+    "productos": "FIGURITA MUNDIAL PANINI X UNIDAD",
+    "uxb": 25,
+    "precio_vta": 1900
+  },
+  {
     "codigos": 10911,
     "productos": "FIJADOR ROBY FUERTE x440ml",
     "uxb": 1,
@@ -34749,7 +35883,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474657,
     "productos": "FILET DE ANCHOAS MORANDO x90g",
     "uxb": 24,
-    "precio_vta": 9449
+    "precio_vta": 5999
   },
   {
     "codigos": 473909,
@@ -34779,13 +35913,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470733,
     "productos": "FILM PVC DISTRIVALLE x300MTS",
     "uxb": 1,
-    "precio_vta": 7475
+    "precio_vta": 7966
   },
   {
     "codigos": 470734,
     "productos": "FILM PVC DISTRIVALLE x30MTS",
     "uxb": 1,
-    "precio_vta": 1154
+    "precio_vta": 1299
   },
   {
     "codigos": 475021,
@@ -34860,10 +35994,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1699
   },
   {
+    "codigos": 480715,
+    "productos": "FINEXCOR HAMBURGUESAS CLASICA 320grs",
+    "uxb": 18,
+    "precio_vta": 5999
+  },
+  {
+    "codigos": 480717,
+    "productos": "FINEXCOR HAMBURGUESAS PARRILLERA x2 240grs",
+    "uxb": 20,
+    "precio_vta": 4299
+  },
+  {
     "codigos": 478559,
     "productos": "FLAN ABUELA ÑATA SUAV/CASER. x200g",
     "uxb": 1,
-    "precio_vta": 2884
+    "precio_vta": 3029
   },
   {
     "codigos": 478050,
@@ -34875,19 +36021,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478049,
     "productos": "FLAN C/CARAMELO ILOLAY x110gr",
     "uxb": 20,
-    "precio_vta": 889
+    "precio_vta": 1149
   },
   {
     "codigos": 478961,
     "productos": "FLAN C/DCE ABUELA ÑATA x215GR",
     "uxb": 1,
-    "precio_vta": 2399
+    "precio_vta": 2519
   },
   {
     "codigos": 477216,
-    "productos": "FLAN CLAS FFS LA SERENISIMA x95gr",
+    "productos": "FLAN CLAS FFS LA SERENISIMA x95grx1Un",
     "uxb": 1,
-    "precio_vta": 1627
+    "precio_vta": 1708
   },
   {
     "codigos": 469898,
@@ -34897,9 +36043,9 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 463908,
-    "productos": "FLAN DANETTE LA SERENISIMA X 95G",
+    "productos": "FLAN DANETTE LA SERENISIMAx95gx1Un.",
     "uxb": 48,
-    "precio_vta": 1884
+    "precio_vta": 1999
   },
   {
     "codigos": 475259,
@@ -35049,13 +36195,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464087,
     "productos": "FLAN SER LA SERENISIMA x95g",
     "uxb": 1,
-    "precio_vta": 2368
+    "precio_vta": 2487
+  },
+  {
+    "codigos": 480573,
+    "productos": "FLAN SER VAINILLA x95grx1Un.",
+    "uxb": 1,
+    "precio_vta": 2487
   },
   {
     "codigos": 463911,
     "productos": "FLAN SERENITO X 100GR",
     "uxb": 1,
     "precio_vta": 1229
+  },
+  {
+    "codigos": 480827,
+    "productos": "FLAN VAINILLA ROYAL x16g",
+    "uxb": 1,
+    "precio_vta": 789
   },
   {
     "codigos": 476176,
@@ -35079,13 +36237,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479068,
     "productos": "FLORERO 19X13CM",
     "uxb": 12,
-    "precio_vta": 8210
+    "precio_vta": 9031
   },
   {
     "codigos": 478639,
     "productos": "FLORERO VIDRIO LABRADO HP26CX-10",
     "uxb": 12,
-    "precio_vta": 5674
+    "precio_vta": 6241
   },
   {
     "codigos": 479836,
@@ -35169,13 +36327,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478503,
     "productos": "FLUIDO DESINF. FLUIDOFAV 450CM",
     "uxb": 1,
-    "precio_vta": 5334
+    "precio_vta": 7590
   },
   {
     "codigos": 4110,
     "productos": "FLUIDO DESINFEC ESPACIAL 500CC",
     "uxb": 12,
-    "precio_vta": 2204
+    "precio_vta": 2425
   },
   {
     "codigos": 5218,
@@ -35313,7 +36471,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13167,
     "productos": "FONTINA LEIG LAC HORMA",
     "uxb": 1,
-    "precio_vta": 13699
+    "precio_vta": 15490
   },
   {
     "codigos": 473013,
@@ -35355,7 +36513,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1460,
     "productos": "FOSFOROS 3 PATITOS x222u",
     "uxb": 200,
-    "precio_vta": 659
+    "precio_vta": 599
   },
   {
     "codigos": 464616,
@@ -35427,7 +36585,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475256,
     "productos": "FRANELA LA VICTORIA 40x40cm",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1385
   },
   {
     "codigos": 7339,
@@ -35442,22 +36600,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1080
   },
   {
-    "codigos": 467008,
-    "productos": "FRANGOLL AMA JOSE LOPEZ 500G",
-    "uxb": 10,
-    "precio_vta": 419
-  },
-  {
     "codigos": 20013,
     "productos": "FRANGOLLO AMAR E/BIDON",
     "uxb": 1,
     "precio_vta": 799
-  },
-  {
-    "codigos": 467341,
-    "productos": "FRANGOLLO BCO JOSE LOPEZ 500G",
-    "uxb": 10,
-    "precio_vta": 1299
   },
   {
     "codigos": 474811,
@@ -35469,61 +36615,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463996,
     "productos": "FRAPERA NEGRA YESI",
     "uxb": 16,
-    "precio_vta": 2175
+    "precio_vta": 2393
   },
   {
     "codigos": 473286,
     "productos": "FRAPERA PLASTICO BRAHMA",
     "uxb": 32,
-    "precio_vta": 6883
+    "precio_vta": 7571
   },
   {
     "codigos": 476811,
     "productos": "FRASCO A ROSCA C/TAPA IMP-EMANUEL",
     "uxb": 1,
-    "precio_vta": 6375
+    "precio_vta": 7013
   },
   {
     "codigos": 472031,
     "productos": "FRASCO C/TAPA COLOR MADERA GRANDE IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 11875
+    "precio_vta": 13062
   },
   {
     "codigos": 472032,
     "productos": "FRASCO C/TAPA COLOR MADERA MEDIANO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 9237
+    "precio_vta": 10161
   },
   {
     "codigos": 472030,
     "productos": "FRASCO C/TAPA KITCHEN CHICO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 10555
+    "precio_vta": 11610
   },
   {
     "codigos": 472028,
     "productos": "FRASCO C/TAPA KITCHEN GRANDE IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 13194
+    "precio_vta": 14514
   },
   {
     "codigos": 472029,
     "productos": "FRASCO C/TAPA KITCHEN MEDIANO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 9237
+    "precio_vta": 10161
   },
   {
     "codigos": 472023,
     "productos": "FRASCO C/TAPA PASTA CHICO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 7126
+    "precio_vta": 7839
   },
   {
     "codigos": 472022,
     "productos": "FRASCO C/TAPA PASTA MED IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 11085
+    "precio_vta": 12194
   },
   {
     "codigos": 479641,
@@ -35535,19 +36681,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472017,
     "productos": "FRASCO DE VIDRIO C/TAPA COFFEE GRANDE IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 10557
+    "precio_vta": 11613
   },
   {
     "codigos": 472016,
     "productos": "FRASCO DE VIDRIO C/TAPA MANDALA GRANDE IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 11085
+    "precio_vta": 12194
   },
   {
     "codigos": 472018,
     "productos": "FRASCO DE VIDRIO C/TAPA PASTA GRANDE IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 12141
+    "precio_vta": 13355
   },
   {
     "codigos": 476141,
@@ -35739,7 +36885,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476055,
     "productos": "FUENTE CUADRADA MADERA x25cm THE KITCHEN",
     "uxb": 1,
-    "precio_vta": 2173
+    "precio_vta": 2390
   },
   {
     "codigos": 2001,
@@ -35757,13 +36903,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462595,
     "productos": "FUENTON REDONDO x24lts HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 4226
+    "precio_vta": 4648
   },
   {
     "codigos": 462596,
     "productos": "FUENTON REDONDO x32lts HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 5192
+    "precio_vta": 5711
   },
   {
     "codigos": 11627,
@@ -35907,109 +37053,109 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465143,
     "productos": "GALL BENJAMIN ANILL COCO BAÑADOS 300G",
     "uxb": 14,
-    "precio_vta": 1259
+    "precio_vta": 1349
   },
   {
     "codigos": 460,
     "productos": "GALL BENJAMIN ANILLOS x160gr",
     "uxb": 20,
-    "precio_vta": 503
+    "precio_vta": 499
   },
   {
     "codigos": 477830,
     "productos": "GALL BENJAMIN AZUCARADA x300gr MARINERAS",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 462,
     "productos": "GALL BENJAMIN CHIPS 120G",
     "uxb": 25,
-    "precio_vta": 514
+    "precio_vta": 529
   },
   {
     "codigos": 463,
     "productos": "GALL BENJAMIN CHIPS X300GR",
     "uxb": 11,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 477832,
     "productos": "GALL BENJAMIN MARINERA LIGHT x300gr",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 472852,
     "productos": "GALL BENJAMIN MARINERAS CLAS x300gr",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 474383,
     "productos": "GALL BENJAMIN MARINERAS INTEGRAL x300gr",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 477831,
     "productos": "GALL BENJAMIN MARINERAS MAIZ x300gr",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 474381,
     "productos": "GALL BENJAMIN MARINERAS S/SAL x300gr",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 474382,
     "productos": "GALL BENJAMIN MARINERAS SEMILLAS x300gr",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 959
   },
   {
     "codigos": 1515,
     "productos": "GALL BENJAMIN NANKIN x160gr",
     "uxb": 20,
-    "precio_vta": 503
+    "precio_vta": 499
   },
   {
     "codigos": 464,
     "productos": "GALL BENJAMIN NAOMI CHOCOLATE x160gr",
     "uxb": 20,
-    "precio_vta": 503
+    "precio_vta": 499
   },
   {
     "codigos": 465,
     "productos": "GALL BENJAMIN PEPAS C/CHIPS x320gr",
     "uxb": 16,
-    "precio_vta": 1028
+    "precio_vta": 1099
   },
   {
     "codigos": 2655,
     "productos": "GALL BENJAMIN PEPAS x200gr",
     "uxb": 22,
-    "precio_vta": 640
+    "precio_vta": 699
   },
   {
     "codigos": 2656,
     "productos": "GALL BENJAMIN PEPAS x400gr",
     "uxb": 12,
-    "precio_vta": 1207
+    "precio_vta": 1299
   },
   {
     "codigos": 2657,
     "productos": "GALL BENJAMIN PEPAS x500gr",
     "uxb": 10,
-    "precio_vta": 1522
+    "precio_vta": 1599
   },
   {
     "codigos": 1537,
     "productos": "GALL BENJAMIN YABILA LIMON x160gr",
     "uxb": 20,
-    "precio_vta": 472
+    "precio_vta": 499
   },
   {
     "codigos": 476185,
@@ -36021,19 +37167,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 788,
     "productos": "GALL CELOSAS 110G",
     "uxb": 30,
-    "precio_vta": 503
+    "precio_vta": 519
   },
   {
     "codigos": 789,
     "productos": "GALL CELOSAS 230G",
     "uxb": 15,
-    "precio_vta": 997
+    "precio_vta": 1049
   },
   {
     "codigos": 790,
     "productos": "GALL CELOSAS 350G",
     "uxb": 10,
-    "precio_vta": 1490
+    "precio_vta": 1559
   },
   {
     "codigos": 4319,
@@ -36084,10 +37230,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2026
   },
   {
+    "codigos": 480582,
+    "productos": "GALL CHOCOLINAS NEGRO x181g",
+    "uxb": 40,
+    "precio_vta": 1599
+  },
+  {
+    "codigos": 480583,
+    "productos": "GALL CHOCOLINAS NEGRO x258g",
+    "uxb": 25,
+    "precio_vta": 2099
+  },
+  {
     "codigos": 1503,
     "productos": "GALL CHOCOLINAS x250gr",
     "uxb": 25,
-    "precio_vta": 2026
+    "precio_vta": 1999
   },
   {
     "codigos": 476367,
@@ -36339,7 +37497,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 880,
     "productos": "GALL DELICIAS DE LA NONNA PEPAS 500G",
     "uxb": 10,
-    "precio_vta": 1732
+    "precio_vta": 1599
   },
   {
     "codigos": 1506,
@@ -36351,19 +37509,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464760,
     "productos": "GALL DOS HERMANOS ARROZ SLIM DULCES x100g",
     "uxb": 12,
-    "precio_vta": 997
+    "precio_vta": 899
   },
   {
     "codigos": 475590,
     "productos": "GALL DOS HERMANOS DE ARROZ SLIM S/SAL x100g",
     "uxb": 12,
-    "precio_vta": 997
+    "precio_vta": 899
   },
   {
     "codigos": 475591,
     "productos": "GALL DOS HERMANOS DE ARROZ SLIM SALADAS x100g",
     "uxb": 12,
-    "precio_vta": 997
+    "precio_vta": 899
   },
   {
     "codigos": 472090,
@@ -36924,6 +38082,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1154
   },
   {
+    "codigos": 1590,
+    "productos": "GALL GAONA PEPAS 180G",
+    "uxb": 24,
+    "precio_vta": 661
+  },
+  {
     "codigos": 1588,
     "productos": "GALL GAONA PEPAS C/BATATA 300G",
     "uxb": 14,
@@ -36982,12 +38146,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GALL GOLD MUNDO PEPAS X500GR",
     "uxb": 8,
     "precio_vta": 1648
-  },
-  {
-    "codigos": 476818,
-    "productos": "VASO TERM.DOBL PARED C/TAP-SORB IMP-EMANUEL",
-    "uxb": 1,
-    "precio_vta": 17931
   },
   {
     "codigos": 475784,
@@ -37221,13 +38379,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479034,
     "productos": "GALL HOJALDRE SORIANO LARGUITAS x150g",
     "uxb": 18,
-    "precio_vta": 829
+    "precio_vta": 849
   },
   {
     "codigos": 479035,
     "productos": "GALL HOJALDRE SORIANO TRIANGULO x150g",
     "uxb": 18,
-    "precio_vta": 829
+    "precio_vta": 849
   },
   {
     "codigos": 14258,
@@ -37239,7 +38397,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1956,
     "productos": "GALL HOJALMAR LARGUITAS 150G",
     "uxb": 18,
-    "precio_vta": 1039
+    "precio_vta": 1059
   },
   {
     "codigos": 1957,
@@ -37383,7 +38541,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7616,
     "productos": "GALL LA NONA PEPAS CHOC 160G",
     "uxb": 30,
-    "precio_vta": 493
+    "precio_vta": 549
   },
   {
     "codigos": 6878,
@@ -37395,7 +38553,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460965,
     "productos": "GALL LA NONNA ANILLOS 300G",
     "uxb": 10,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 10650,
@@ -37404,76 +38562,82 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 913
   },
   {
+    "codigos": 10649,
+    "productos": "GALL LA NONNA BANAN BAÑ 350G",
+    "uxb": 10,
+    "precio_vta": 1299
+  },
+  {
     "codigos": 1021,
     "productos": "GALL LA NONNA MANTENONN 300G",
     "uxb": 15,
-    "precio_vta": 892
+    "precio_vta": 919
   },
   {
     "codigos": 65487,
     "productos": "GALL LA NONNA MANTENONNA X160G",
     "uxb": 26,
-    "precio_vta": 524
+    "precio_vta": 549
   },
   {
     "codigos": 4409,
     "productos": "GALL LA NONNA MINI RELL DUO STREMER x160gr",
     "uxb": 24,
-    "precio_vta": 650
+    "precio_vta": 679
   },
   {
     "codigos": 1020,
     "productos": "GALL LA NONNA PEPA BAÑA X320grs",
     "uxb": 16,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 4575,
     "productos": "GALL LA NONNA PEPAS 180G",
     "uxb": 24,
-    "precio_vta": 629
+    "precio_vta": 579
   },
   {
     "codigos": 465509,
     "productos": "GALL LA NONNA PEPAS BAT x300gr",
     "uxb": 14,
-    "precio_vta": 1049
+    "precio_vta": 1059
   },
   {
     "codigos": 478081,
     "productos": "GALL LA NONNA PEPAS INTEGRALES x200gr",
     "uxb": 14,
-    "precio_vta": 1154
+    "precio_vta": 1149
   },
   {
     "codigos": 4573,
     "productos": "GALL LA NONNA PEPAS X350G",
     "uxb": 14,
-    "precio_vta": 1207
+    "precio_vta": 1099
   },
   {
     "codigos": 460950,
     "productos": "GALL LA NONNA RELLENAS CHOCOLATE x160gr",
     "uxb": 24,
-    "precio_vta": 734
+    "precio_vta": 679
   },
   {
     "codigos": 478039,
     "productos": "GALL LA NONNA RELLENAS FRUTILLA x160gr",
     "uxb": 24,
-    "precio_vta": 734
+    "precio_vta": 679
   },
   {
     "codigos": 478041,
     "productos": "GALL LA NONNA RELLENAS MOUSSE x160g",
     "uxb": 24,
-    "precio_vta": 734
+    "precio_vta": 679
   },
   {
     "codigos": 478040,
     "productos": "GALL LA NONNA RELLENAS VAINILLA x160g",
     "uxb": 24,
-    "precio_vta": 650
+    "precio_vta": 679
   },
   {
     "codigos": 4410,
@@ -37485,7 +38649,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1031,
     "productos": "GALL LA NONNA SURTIDOS 400G",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1349
   },
   {
     "codigos": 5146,
@@ -37500,16 +38664,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 524
   },
   {
-    "codigos": 10231,
-    "productos": "GALL LIA POLVORITA VAINILLA 150G",
-    "uxb": 36,
-    "precio_vta": 944
-  },
-  {
     "codigos": 5148,
     "productos": "GALL LIA POLVORITA VAINILLA 80G",
     "uxb": 40,
     "precio_vta": 451
+  },
+  {
+    "codigos": 10231,
+    "productos": "GALL LIA POLVORITA VAINILLA x152g",
+    "uxb": 36,
+    "precio_vta": 944
   },
   {
     "codigos": 4848,
@@ -37558,6 +38722,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GALL MANA ACARAMELADA x145g",
     "uxb": 36,
     "precio_vta": 1049
+  },
+  {
+    "codigos": 471831,
+    "productos": "GALL MANA CHOCOLATADA 145G",
+    "uxb": 36,
+    "precio_vta": 1099
   },
   {
     "codigos": 4538,
@@ -37695,7 +38865,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461235,
     "productos": "GALL MEDIA TARDE AGUA SANDWICH 5UN",
     "uxb": 8,
-    "precio_vta": 1783
+    "precio_vta": 2099
   },
   {
     "codigos": 1498,
@@ -37737,7 +38907,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10730,
     "productos": "GALL MERENGADAS X3U 264G",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 3499
   },
   {
     "codigos": 2270,
@@ -37761,79 +38931,79 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7228,
     "productos": "GALL NS x300gr 5 CEREALES",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 473169,
     "productos": "GALL NS x300gr C/AVENA",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 473164,
     "productos": "GALL NS x300gr CHIA LIGHT",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 473170,
     "productos": "GALL NS x300gr GLUTEN",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 2201,
     "productos": "GALL NS x300gr LIGHT",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 473163,
     "productos": "GALL NS x300gr LIN/CH S/S",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 7683,
     "productos": "GALL NS x300gr LINO/CHIA",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 7461,
     "productos": "GALL NS x300gr MAIZ",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 7668,
     "productos": "GALL NS x300gr MAIZ S/SAL",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 2182,
     "productos": "GALL NS x300gr MARI S/SAL",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 820,
     "productos": "GALL NS x300gr MARINERAS",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 7765,
     "productos": "GALL NS x300gr MIX SEMILL",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 473162,
     "productos": "GALL NS x300gr SESAMO",
     "uxb": 16,
-    "precio_vta": 839
+    "precio_vta": 879
   },
   {
     "codigos": 480514,
@@ -37845,43 +39015,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4834,
     "productos": "GALL OBLEA OBLITA X50G BLACK",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 2470,
     "productos": "GALL OBLEA OBLITA X50G CHOCOLATE",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 2472,
     "productos": "GALL OBLEA OBLITA X50G DCE LECHE",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 2474,
     "productos": "GALL OBLEA OBLITA X50G FRUTILLA",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 2476,
     "productos": "GALL OBLEA OBLITA X50G LIMON",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 2479,
     "productos": "GALL OBLEA OBLITA X50G MULTIFRUTA",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 2481,
     "productos": "GALL OBLEA OBLITA X50G VAINILLA",
     "uxb": 48,
-    "precio_vta": 283
+    "precio_vta": 299
   },
   {
     "codigos": 3975,
@@ -38031,7 +39201,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1517,
     "productos": "GALL OREO X118G",
     "uxb": 36,
-    "precio_vta": 1993
+    "precio_vta": 1799
   },
   {
     "codigos": 479413,
@@ -38133,7 +39303,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9589,
     "productos": "GALL PASEO CRACKERS 5 SEMILLAS x300gr",
     "uxb": 14,
-    "precio_vta": 838
+    "precio_vta": 999
   },
   {
     "codigos": 4743,
@@ -38151,25 +39321,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1518,
     "productos": "GALL PASEO CRACKERS SALVADO x300gr",
     "uxb": 14,
-    "precio_vta": 838
+    "precio_vta": 999
   },
   {
     "codigos": 9732,
     "productos": "GALL PASEO MINI CRACKERS C/SESAMO 300G",
     "uxb": 14,
-    "precio_vta": 838
+    "precio_vta": 999
   },
   {
     "codigos": 10270,
     "productos": "GALL PASEO MINI CRACKERS ORIGINAL 250GR",
     "uxb": 14,
-    "precio_vta": 943
+    "precio_vta": 999
   },
   {
     "codigos": 9378,
     "productos": "GALL PASEO MINI CRACKERS SIN SAL 250GR",
     "uxb": 14,
-    "precio_vta": 838
+    "precio_vta": 999
   },
   {
     "codigos": 6011,
@@ -38287,7 +39457,7 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 469150,
-    "productos": "GALL POLVORITA FRUTILLA x147g",
+    "productos": "GALL POLVORITA FRUTILLA x152g",
     "uxb": 36,
     "precio_vta": 944
   },
@@ -38451,13 +39621,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470474,
     "productos": "GALL RELLENGLINS x200gr",
     "uxb": 12,
-    "precio_vta": 1202
+    "precio_vta": 1354
   },
   {
     "codigos": 472210,
     "productos": "GALL RELLENGLINS x90gr",
     "uxb": 20,
-    "precio_vta": 606
+    "precio_vta": 674
   },
   {
     "codigos": 4857,
@@ -38493,67 +39663,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475392,
     "productos": "GALL RIEDMAR x250g COOKIES",
     "uxb": 16,
-    "precio_vta": 944
+    "precio_vta": 999
   },
   {
     "codigos": 475388,
     "productos": "GALL RIEDMAR x350g BANA/BONIT",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475391,
     "productos": "GALL RIEDMAR x350g PEPA CHMIX",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475390,
     "productos": "GALL RIEDMAR x350g PEPA CHOCO",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475389,
     "productos": "GALL RIEDMAR x350g PEPA NEVAD",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475381,
     "productos": "GALL RIEDMAR x400g ANILL COCO",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475382,
     "productos": "GALL RIEDMAR x400g ANILL LIMN",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475383,
     "productos": "GALL RIEDMAR x400g ANILL VAIN",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475592,
     "productos": "GALL RIEDMAR x400g AZUC/RUBIA",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475384,
     "productos": "GALL RIEDMAR x400g PEP/SOLCOC",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 475589,
     "productos": "GALL RIEDMAR x400g SCONS",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 10150,
@@ -38572,6 +39742,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GALL RONDA TRIANGULITOS 150G",
     "uxb": 30,
     "precio_vta": 891
+  },
+  {
+    "codigos": 480685,
+    "productos": "GALL RUMBA RELL COCO x3un x110g",
+    "uxb": 1,
+    "precio_vta": 3499
   },
   {
     "codigos": 2948,
@@ -38679,109 +39855,109 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470208,
     "productos": "GALL SOLITAS ABECEDARIO x400gr",
     "uxb": 10,
-    "precio_vta": 1511
+    "precio_vta": 1602
   },
   {
     "codigos": 3165,
     "productos": "GALL SOLITAS ANIMACION 400G",
     "uxb": 10,
-    "precio_vta": 1511
+    "precio_vta": 1602
   },
   {
     "codigos": 475628,
     "productos": "GALL SOLITAS ANIMACION CHOCO x400g",
     "uxb": 10,
-    "precio_vta": 1410
+    "precio_vta": 1495
   },
   {
     "codigos": 3166,
     "productos": "GALL SOLITAS ARITOS 500G",
     "uxb": 8,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 3167,
     "productos": "GALL SOLITAS CHIROLITAS CON CHIPS 400G",
     "uxb": 10,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 3168,
     "productos": "GALL SOLITAS COLMENITA 500G",
     "uxb": 8,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 12224,
     "productos": "GALL SOLITAS DULC NUMEROS C/FORM 400G",
     "uxb": 10,
-    "precio_vta": 1511
+    "precio_vta": 1602
   },
   {
     "codigos": 475625,
     "productos": "GALL SOLITAS EKIN CHOCO x160g",
     "uxb": 25,
-    "precio_vta": 825
+    "precio_vta": 875
   },
   {
     "codigos": 475626,
     "productos": "GALL SOLITAS EKIN CHOCO x300g",
     "uxb": 14,
-    "precio_vta": 1457
+    "precio_vta": 1544
   },
   {
     "codigos": 475623,
     "productos": "GALL SOLITAS EKIN VAINILLA x160g",
     "uxb": 25,
-    "precio_vta": 742
+    "precio_vta": 786
   },
   {
     "codigos": 475624,
     "productos": "GALL SOLITAS EKIN VAINILLA x300g",
     "uxb": 14,
-    "precio_vta": 1311
+    "precio_vta": 1390
   },
   {
     "codigos": 3170,
     "productos": "GALL SOLITAS EXHIBICION x400gr",
     "uxb": 10,
-    "precio_vta": 1209
+    "precio_vta": 1282
   },
   {
     "codigos": 3172,
     "productos": "GALL SOLITAS FRUTILLA 500G",
     "uxb": 8,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 3174,
     "productos": "GALL SOLITAS LEGENDARIA 500G",
     "uxb": 8,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 3799,
     "productos": "GALL SOLITAS LEGENDARIAS CHOC 500G",
     "uxb": 8,
-    "precio_vta": 1647
+    "precio_vta": 1746
   },
   {
     "codigos": 473760,
     "productos": "GALL SOLITAS MINI CRACKERS S/SAL 300G",
     "uxb": 12,
-    "precio_vta": 911
+    "precio_vta": 966
   },
   {
     "codigos": 12212,
     "productos": "GALL SOLITAS MINI SANDWICH BOLSITA 300G",
     "uxb": 12,
-    "precio_vta": 911
+    "precio_vta": 966
   },
   {
     "codigos": 3181,
     "productos": "GALL SOLITAS PEPAS X400G",
     "uxb": 10,
-    "precio_vta": 1407
+    "precio_vta": 1491
   },
   {
     "codigos": 471110,
@@ -38793,49 +39969,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5367,
     "productos": "GALL SOLITAS ROSQUITAS CASERAS 1KG",
     "uxb": 4,
-    "precio_vta": 3338
+    "precio_vta": 3538
   },
   {
     "codigos": 3185,
     "productos": "GALL SOLITAS ROSQUITAS CASERAS 500G",
     "uxb": 8,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 3188,
     "productos": "GALL SOLITAS SALVADO BOLSA 500G",
     "uxb": 6,
-    "precio_vta": 1472
+    "precio_vta": 1560
   },
   {
     "codigos": 12213,
     "productos": "GALL SOLITAS SALVADO MINI CRACKERS 300G",
     "uxb": 12,
-    "precio_vta": 911
+    "precio_vta": 966
   },
   {
     "codigos": 3190,
     "productos": "GALL SOLITAS SANDWICH BOLSA 500G",
     "uxb": 6,
-    "precio_vta": 1472
+    "precio_vta": 1560
   },
   {
     "codigos": 3191,
     "productos": "GALL SOLITAS SIN SAL BOLSA 500G",
     "uxb": 6,
-    "precio_vta": 1472
+    "precio_vta": 1560
   },
   {
     "codigos": 460908,
     "productos": "GALL SOLITAS SURTISOL 1KG",
     "uxb": 4,
-    "precio_vta": 3338
+    "precio_vta": 3538
   },
   {
     "codigos": 3192,
     "productos": "GALL SOLITAS SURTISOL X500G",
     "uxb": 8,
-    "precio_vta": 1656
+    "precio_vta": 1755
   },
   {
     "codigos": 3195,
@@ -38847,7 +40023,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466850,
     "productos": "GALL SONRISAS TRIPLE 324G",
     "uxb": 12,
-    "precio_vta": 3096
+    "precio_vta": 3499
   },
   {
     "codigos": 479033,
@@ -38883,7 +40059,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466422,
     "productos": "GALL TERRABUSI ANILLOS 170gr",
     "uxb": 24,
-    "precio_vta": 1048
+    "precio_vta": 1199
   },
   {
     "codigos": 473994,
@@ -38919,7 +40095,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4213,
     "productos": "GALL TERRABUSI VARIEDAD 600G",
     "uxb": 16,
-    "precio_vta": 3148
+    "precio_vta": 3999
   },
   {
     "codigos": 3339,
@@ -39021,19 +40197,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465033,
     "productos": "GALL TOSTI ARROZ CLAS x110gr",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1149
   },
   {
     "codigos": 477421,
     "productos": "GALL TOSTI ARROZ DULCE x110g",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1149
   },
   {
     "codigos": 477422,
     "productos": "GALL TOSTI ARROZ S/SAL x110g",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1149
   },
   {
     "codigos": 477537,
@@ -39504,6 +40680,60 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1627
   },
   {
+    "codigos": 474043,
+    "productos": "GALL VEROMAR PEPAS BATATA x400g",
+    "uxb": 12,
+    "precio_vta": 2599
+  },
+  {
+    "codigos": 474051,
+    "productos": "GALL VEROMAR PEPAS C/CHIP x330g",
+    "uxb": 12,
+    "precio_vta": 2599
+  },
+  {
+    "codigos": 474048,
+    "productos": "GALL VEROMAR PEPAS CHOC 200G",
+    "uxb": 24,
+    "precio_vta": 2699
+  },
+  {
+    "codigos": 474044,
+    "productos": "GALL VEROMAR PEPAS FRUTILLA 400G",
+    "uxb": 12,
+    "precio_vta": 2599
+  },
+  {
+    "codigos": 474042,
+    "productos": "GALL VEROMAR PEPAS ROSALIA 400G",
+    "uxb": 12,
+    "precio_vta": 2599
+  },
+  {
+    "codigos": 474049,
+    "productos": "GALL VEROMAR PEPPAS ROSALIA 200G",
+    "uxb": 24,
+    "precio_vta": 1499
+  },
+  {
+    "codigos": 474047,
+    "productos": "GALL VEROMAR ROSQ.ALMENDRADAS X400G",
+    "uxb": 12,
+    "precio_vta": 2599
+  },
+  {
+    "codigos": 474046,
+    "productos": "GALL VEROMAR SCONS X400G",
+    "uxb": 10,
+    "precio_vta": 2599
+  },
+  {
+    "codigos": 474050,
+    "productos": "GALL VEROMAR SOL DE COCO X330G",
+    "uxb": 12,
+    "precio_vta": 2599
+  },
+  {
     "codigos": 468775,
     "productos": "GALL VOCACION ACARAMELADA 145G",
     "uxb": 36,
@@ -39537,7 +40767,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10057,
     "productos": "GALL. ARROZ DISCO JAMON DOS HERMANOS X80G",
     "uxb": 10,
-    "precio_vta": 1154
+    "precio_vta": 999
   },
   {
     "codigos": 475080,
@@ -39573,43 +40803,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4651,
     "productos": "GALL. OBLITA OBLEA x100gr BLACK",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 2471,
     "productos": "GALL. OBLITA OBLEA x100gr CHOCOLATE",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 2473,
     "productos": "GALL. OBLITA OBLEA x100gr DCE LECHE",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 2475,
     "productos": "GALL. OBLITA OBLEA x100gr FRUTILLA",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 2477,
     "productos": "GALL. OBLITA OBLEA x100gr LIMON",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 2478,
     "productos": "GALL. OBLITA OBLEA x100gr MULTIFRUTA",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 2480,
     "productos": "GALL. OBLITA OBLEA x100gr VAINILLA",
     "uxb": 48,
-    "precio_vta": 524
+    "precio_vta": 579
   },
   {
     "codigos": 475048,
@@ -39663,7 +40893,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477113,
     "productos": "GALLINITA EL ROCIO PAYSANDU x25un",
     "uxb": 25,
-    "precio_vta": 4724
+    "precio_vta": 4999
   },
   {
     "codigos": 1539,
@@ -39699,7 +40929,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471971,
     "productos": "GANCIA LATA x473ML",
     "uxb": 24,
-    "precio_vta": 2309
+    "precio_vta": 2199
+  },
+  {
+    "codigos": 1732,
+    "productos": "GANCIA RED BITTER 750",
+    "uxb": 12,
+    "precio_vta": 5512
   },
   {
     "codigos": 473709,
@@ -39723,7 +40959,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480453,
     "productos": "GARBANZO LA BANDA TETRA x340g",
     "uxb": 12,
-    "precio_vta": 899
+    "precio_vta": 959
   },
   {
     "codigos": 466750,
@@ -39765,13 +41001,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478690,
     "productos": "GARBANZOS MONEDA x400g",
     "uxb": 10,
-    "precio_vta": 799
-  },
-  {
-    "codigos": 471277,
-    "productos": "GARBANZOS SPAT REMOJADOS 350G",
-    "uxb": 24,
-    "precio_vta": 799
+    "precio_vta": 819
   },
   {
     "codigos": 477158,
@@ -39789,13 +41019,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479757,
     "productos": "GARRAFA TUCU X10KG",
     "uxb": 1,
-    "precio_vta": 21850
+    "precio_vta": 22900
   },
   {
     "codigos": 479760,
     "productos": "GARRAFA TUCU X15KG",
     "uxb": 1,
-    "precio_vta": 32900
+    "precio_vta": 33900
   },
   {
     "codigos": 473555,
@@ -39891,7 +41121,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477400,
     "productos": "GASEOSA COCA COLA DESC x1lt.",
     "uxb": 8,
-    "precio_vta": 2094
+    "precio_vta": 2199
   },
   {
     "codigos": 1958,
@@ -39903,61 +41133,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 968,
     "productos": "GASEOSA COCA COLA RETORNABLE X2LT",
     "uxb": 9,
-    "precio_vta": 2729
+    "precio_vta": 2866
   },
   {
     "codigos": 974,
     "productos": "GASEOSA COCA COLA SIN AZUCAR X2.25LT",
     "uxb": 6,
-    "precio_vta": 3526
+    "precio_vta": 3703
   },
   {
     "codigos": 12265,
     "productos": "GASEOSA COCA COLA SIN AZUCAR X500ML",
     "uxb": 12,
-    "precio_vta": 1542
+    "precio_vta": 1619
   },
   {
     "codigos": 969,
     "productos": "GASEOSA COCA COLA SIN AZUCAR x1.5LT",
     "uxb": 8,
-    "precio_vta": 2865
+    "precio_vta": 3008
   },
   {
     "codigos": 469939,
     "productos": "GASEOSA COCA COLA VIDRIO ORIGINAL x1L",
     "uxb": 12,
-    "precio_vta": 2362
+    "precio_vta": 2480
   },
   {
     "codigos": 961,
     "productos": "GASEOSA COCA COLA X1.5LT",
     "uxb": 8,
-    "precio_vta": 2865
+    "precio_vta": 3008
   },
   {
     "codigos": 962,
     "productos": "GASEOSA COCA COLA X2.25LT",
     "uxb": 6,
-    "precio_vta": 3526
+    "precio_vta": 3703
   },
   {
     "codigos": 8362,
     "productos": "GASEOSA COCA COLA X250ml",
     "uxb": 12,
-    "precio_vta": 888
+    "precio_vta": 933
   },
   {
     "codigos": 964,
     "productos": "GASEOSA COCA COLA X3LT",
     "uxb": 6,
-    "precio_vta": 4740
+    "precio_vta": 4977
   },
   {
     "codigos": 463381,
     "productos": "GASEOSA COCA COLA X500CC",
     "uxb": 12,
-    "precio_vta": 1542
+    "precio_vta": 1619
   },
   {
     "codigos": 479967,
@@ -39981,7 +41211,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475393,
     "productos": "GASEOSA COCA COLA x2.5LT",
     "uxb": 6,
-    "precio_vta": 3519
+    "precio_vta": 3695
   },
   {
     "codigos": 5496,
@@ -40005,13 +41235,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1307,
     "productos": "GASEOSA FANTA X1.5LT",
     "uxb": 8,
-    "precio_vta": 2865
+    "precio_vta": 3008
   },
   {
     "codigos": 1309,
     "productos": "GASEOSA FANTA X2.25LT",
     "uxb": 6,
-    "precio_vta": 3526
+    "precio_vta": 3703
   },
   {
     "codigos": 12393,
@@ -40023,7 +41253,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463462,
     "productos": "GASEOSA FANTA X500CC",
     "uxb": 12,
-    "precio_vta": 1542
+    "precio_vta": 1619
   },
   {
     "codigos": 5497,
@@ -40035,7 +41265,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473668,
     "productos": "GASEOSA LINEA COCA COLA X375ML",
     "uxb": 6,
-    "precio_vta": 1311
+    "precio_vta": 1377
   },
   {
     "codigos": 2821,
@@ -40227,7 +41457,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466358,
     "productos": "GASEOSA PEPSI x2Lt",
     "uxb": 8,
-    "precio_vta": 2299
+    "precio_vta": 2499
   },
   {
     "codigos": 464717,
@@ -40239,7 +41469,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3311,
     "productos": "GASEOSA PEPSI x3lts",
     "uxb": 6,
-    "precio_vta": 2690
+    "precio_vta": 2990
   },
   {
     "codigos": 5499,
@@ -40249,31 +41479,37 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 8996,
-    "productos": "GASEOSA SECCO COLA x3Lt",
+    "productos": "GASEOSA SECCO X3LT COLA",
     "uxb": 6,
     "precio_vta": 1299
   },
   {
     "codigos": 8953,
-    "productos": "GASEOSA SECCO LIMA LIMON x3Lt",
+    "productos": "GASEOSA SECCO X3LT LIMA LIMON",
+    "uxb": 6,
+    "precio_vta": 1299
+  },
+  {
+    "codigos": 480558,
+    "productos": "GASEOSA SECCO X3LT MANZANA",
     "uxb": 6,
     "precio_vta": 1299
   },
   {
     "codigos": 8950,
-    "productos": "GASEOSA SECCO NARANJA x3Lt",
+    "productos": "GASEOSA SECCO X3LT NARANJA",
     "uxb": 6,
     "precio_vta": 1299
   },
   {
     "codigos": 8949,
-    "productos": "GASEOSA SECCO POMELO BCO x3Lt",
+    "productos": "GASEOSA SECCO X3LT POMELO BCO",
     "uxb": 6,
     "precio_vta": 1299
   },
   {
     "codigos": 480554,
-    "productos": "GASEOSA SECCO POMELO INTENSO x3Lt",
+    "productos": "GASEOSA SECCO X3LT POMELO INT",
     "uxb": 6,
     "precio_vta": 1299
   },
@@ -40293,7 +41529,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464880,
     "productos": "GASEOSA SEVEN UP DESCARTABLE 2LT.",
     "uxb": 8,
-    "precio_vta": 2399
+    "precio_vta": 2499
+  },
+  {
+    "codigos": 480809,
+    "productos": "GASEOSA SEVEN UP ZERO x2.25Lt",
+    "uxb": 8,
+    "precio_vta": 2499
   },
   {
     "codigos": 474842,
@@ -40305,7 +41547,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3310,
     "productos": "GASEOSA SEVEN UP x3lts",
     "uxb": 6,
-    "precio_vta": 2690
+    "precio_vta": 2990
   },
   {
     "codigos": 78,
@@ -40329,13 +41571,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3208,
     "productos": "GASEOSA SPRITE X1.5LT",
     "uxb": 8,
-    "precio_vta": 2865
+    "precio_vta": 3008
   },
   {
     "codigos": 3210,
     "productos": "GASEOSA SPRITE X2.25LT",
     "uxb": 6,
-    "precio_vta": 3527
+    "precio_vta": 3704
   },
   {
     "codigos": 9345,
@@ -40347,7 +41589,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463461,
     "productos": "GASEOSA SPRITE X500CC",
     "uxb": 12,
-    "precio_vta": 1542
+    "precio_vta": 1619
   },
   {
     "codigos": 479017,
@@ -40383,13 +41625,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8388,
     "productos": "GEL FIJ. ALGABO BRILLO x200g",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1799
   },
   {
     "codigos": 8390,
     "productos": "GEL FIJ. ALGABO EFEC MOJADO N2 x150gr",
     "uxb": 24,
-    "precio_vta": 1574
+    "precio_vta": 1699
   },
   {
     "codigos": 462311,
@@ -40407,61 +41649,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8389,
     "productos": "GEL FIJ. ALGABO EFECTO FIRME N4 x150gr",
     "uxb": 24,
-    "precio_vta": 1574
+    "precio_vta": 1699
   },
   {
     "codigos": 5428,
     "productos": "GEL FIJ. ALGABO EXT BRILLO x350g",
     "uxb": 6,
-    "precio_vta": 2414
+    "precio_vta": 2499
   },
   {
     "codigos": 460380,
     "productos": "GEL FIJ. ALGABO EXT BRILLO x475g",
     "uxb": 12,
-    "precio_vta": 2729
+    "precio_vta": 2899
   },
   {
     "codigos": 9096,
     "productos": "GEL FIJ. ALGABO EXT FUERTE x200g",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1799
   },
   {
     "codigos": 5427,
     "productos": "GEL FIJ. ALGABO EXT FUERTE x350g",
     "uxb": 6,
-    "precio_vta": 2414
+    "precio_vta": 2499
   },
   {
     "codigos": 460379,
     "productos": "GEL FIJ. ALGABO EXT FUERTE x475g",
     "uxb": 12,
-    "precio_vta": 2729
+    "precio_vta": 2899
   },
   {
     "codigos": 462310,
     "productos": "GEL FIJ. ALGABO FUERTE N4 C/VALV x500gr",
     "uxb": 6,
-    "precio_vta": 3569
+    "precio_vta": 3699
   },
   {
     "codigos": 5160,
     "productos": "GEL FIJ. ALGABO HUMEDO N2 x200g",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1799
   },
   {
     "codigos": 460378,
     "productos": "GEL FIJ. ALGABO HUMEDO N2 x475gr",
     "uxb": 12,
-    "precio_vta": 2624
+    "precio_vta": 2899
   },
   {
     "codigos": 6587,
     "productos": "GEL FIJ. ALGABO HUMEDO x350g",
     "uxb": 6,
-    "precio_vta": 2414
+    "precio_vta": 2499
   },
   {
     "codigos": 478010,
@@ -40500,12 +41742,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4990
   },
   {
-    "codigos": 1624,
-    "productos": "GELATINA CEREZA EXQUISITA 40G",
-    "uxb": 12,
-    "precio_vta": 733
-  },
-  {
     "codigos": 5971,
     "productos": "GELATINA DIET RAVANNA 25G CEREZA",
     "uxb": 12,
@@ -40528,12 +41764,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GELATINA DIET RAVANNA 25G MANZANA",
     "uxb": 12,
     "precio_vta": 1049
-  },
-  {
-    "codigos": 466325,
-    "productos": "GELATINA DURAZNO EXQUISITA x40g",
-    "uxb": 12,
-    "precio_vta": 733
   },
   {
     "codigos": 466415,
@@ -40620,16 +41850,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 871
   },
   {
-    "codigos": 466326,
-    "productos": "GELATINA EXQUISITA 40G FRAMBUESA",
-    "uxb": 12,
-    "precio_vta": 733
-  },
-  {
     "codigos": 1626,
     "productos": "GELATINA EXQUISITA FRUTILLA x40g",
     "uxb": 12,
     "precio_vta": 733
+  },
+  {
+    "codigos": 1624,
+    "productos": "GELATINA EXQUISITAS VARIOS x40-25g",
+    "uxb": 12,
+    "precio_vta": 899
   },
   {
     "codigos": 1625,
@@ -40779,7 +42009,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473020,
     "productos": "GELATINA S/SABOR SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1616
+    "precio_vta": 1669
   },
   {
     "codigos": 463243,
@@ -40959,7 +42189,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1648,
     "productos": "GIN NEW STYLE",
     "uxb": 1,
-    "precio_vta": 3989
+    "precio_vta": 4309
   },
   {
     "codigos": 1649,
@@ -41139,7 +42369,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471726,
     "productos": "GLADE MINIGEL CAR ACQUA",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 3799
   },
   {
     "codigos": 1289,
@@ -41274,6 +42504,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2742
   },
   {
+    "codigos": 480820,
+    "productos": "GLOBO CAMISETA MET ARGENTINA TUKY",
+    "uxb": 1,
+    "precio_vta": 1799
+  },
+  {
     "codigos": 467199,
     "productos": "GLOBO CRISTAL CHUPETE TUKY x12u",
     "uxb": 1,
@@ -41308,6 +42544,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GLOBO METALIZADO FELIZ CUMPLE CARAMELO TUKY 14x36",
     "uxb": 5,
     "precio_vta": 1552
+  },
+  {
+    "codigos": 480817,
+    "productos": "GLOBO REDONDO METALIZADO ARGENTINA",
+    "uxb": 1,
+    "precio_vta": 1799
   },
   {
     "codigos": 461469,
@@ -41361,7 +42603,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467683,
     "productos": "GLOBOS PASTEL TUKY VARIOS x25u",
     "uxb": 1,
-    "precio_vta": 1599
+    "precio_vta": 1699
   },
   {
     "codigos": 469042,
@@ -41407,9 +42649,9 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 476613,
-    "productos": "GOLOSINA SUELTA",
+    "productos": "GOLOSINA MILKA OREA x1Un",
     "uxb": 1,
-    "precio_vta": 524
+    "precio_vta": 399
   },
   {
     "codigos": 479704,
@@ -41502,6 +42744,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 419
   },
   {
+    "codigos": 480645,
+    "productos": "GOMA MISKY ROLLO X UNIDAD",
+    "uxb": 1,
+    "precio_vta": 499
+  },
+  {
     "codigos": 478003,
     "productos": "GOMAS MISKY FANTASIA ACIDOS x500gr",
     "uxb": 6,
@@ -41526,8 +42774,20 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1319
   },
   {
+    "codigos": 480616,
+    "productos": "GOMITA BILLIKEN TUTTI F. x150g",
+    "uxb": 24,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480617,
+    "productos": "GOMITA BILLIKEN YOGURT x800gr",
+    "uxb": 8,
+    "precio_vta": 5099
+  },
+  {
     "codigos": 477973,
-    "productos": "GOMITA BLANTA OJOS TARRO x1Un.",
+    "productos": "GOMITA BLANDA DONAS XUN",
     "uxb": 30,
     "precio_vta": 262
   },
@@ -41544,16 +42804,118 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6404
   },
   {
+    "codigos": 480643,
+    "productos": "GOMITA DORI JELLY BEANS x500g",
+    "uxb": 20,
+    "precio_vta": 5499
+  },
+  {
+    "codigos": 480642,
+    "productos": "GOMITA DORI MORAS x500g",
+    "uxb": 20,
+    "precio_vta": 5499
+  },
+  {
     "codigos": 480016,
     "productos": "GOMITA DORI SOUR BALL x500g",
     "uxb": 20,
-    "precio_vta": 4829
+    "precio_vta": 5499
+  },
+  {
+    "codigos": 480838,
+    "productos": "GOMITA GAMAGAM BOTONES POTE x500gr",
+    "uxb": 1,
+    "precio_vta": 6499
+  },
+  {
+    "codigos": 480839,
+    "productos": "GOMITA GAMAGAM ESTRELLITAS POTE x500g",
+    "uxb": 1,
+    "precio_vta": 6499
+  },
+  {
+    "codigos": 480837,
+    "productos": "GOMITA GAMAGAM LOVE POTE x500gr",
+    "uxb": 1,
+    "precio_vta": 6499
   },
   {
     "codigos": 480069,
     "productos": "GOMITA MOGUL EXTR. JELLY BEANS x50g xun",
     "uxb": 10,
     "precio_vta": 839
+  },
+  {
+    "codigos": 480619,
+    "productos": "GOMITA PIÑATA ANILLO CRUNCH x700gr",
+    "uxb": 8,
+    "precio_vta": 4799
+  },
+  {
+    "codigos": 480611,
+    "productos": "GOMITA YUMMY ACIDAS x150gr",
+    "uxb": 24,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480603,
+    "productos": "GOMITA YUMMY BANANITA x150g",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480605,
+    "productos": "GOMITA YUMMY CIENPIES x150g",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480607,
+    "productos": "GOMITA YUMMY DIENTES x150gr",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480612,
+    "productos": "GOMITA YUMMY FRUTAL x150g",
+    "uxb": 24,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480608,
+    "productos": "GOMITA YUMMY FRUTILLA C/CREMA x150g",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480609,
+    "productos": "GOMITA YUMMY MORITAS x150g",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480606,
+    "productos": "GOMITA YUMMY OSITOS ACIDO x150g",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480610,
+    "productos": "GOMITA YUMMY OSITOS x150g",
+    "uxb": 24,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480613,
+    "productos": "GOMITA YUMMY RUEDITAS x150g",
+    "uxb": 24,
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480604,
+    "productos": "GOMITA YUMMY SANDIA x150g",
+    "uxb": 24,
+    "precio_vta": 1399
   },
   {
     "codigos": 9711,
@@ -41565,7 +42927,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4247,
     "productos": "GOMITAS BILLIKEN CITRICAS X800G",
     "uxb": 8,
-    "precio_vta": 3989
+    "precio_vta": 5099
   },
   {
     "codigos": 473432,
@@ -41583,13 +42945,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4249,
     "productos": "GOMITAS BILLIKEN EUCALIPTO X800G",
     "uxb": 8,
-    "precio_vta": 3989
+    "precio_vta": 5099
   },
   {
     "codigos": 4245,
     "productos": "GOMITAS BILLIKEN FRUTALES X800G",
     "uxb": 8,
-    "precio_vta": 3989
+    "precio_vta": 5099
   },
   {
     "codigos": 473433,
@@ -41601,13 +42963,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4248,
     "productos": "GOMITAS BILLIKEN MENTOL X800G",
     "uxb": 8,
-    "precio_vta": 3989
+    "precio_vta": 5099
   },
   {
     "codigos": 467712,
     "productos": "GOMITAS BILLIKEN REDONDITAS X800G",
     "uxb": 8,
-    "precio_vta": 3989
+    "precio_vta": 5099
   },
   {
     "codigos": 473784,
@@ -41619,19 +42981,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4246,
     "productos": "GOMITAS BILLIKEN TUTTI X800G",
     "uxb": 8,
-    "precio_vta": 3989
+    "precio_vta": 5099
   },
   {
     "codigos": 478777,
     "productos": "GOMITAS BULL DOG FRUTILLA X70GR",
     "uxb": 24,
-    "precio_vta": 829
+    "precio_vta": 769
   },
   {
     "codigos": 478064,
     "productos": "GOMITAS BULL DOG POTE FRAMB X360GR",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 478065,
@@ -41643,13 +43005,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478067,
     "productos": "GOMITAS BULL DOG POTE SANDIA X360GR",
     "uxb": 12,
-    "precio_vta": 4094
+    "precio_vta": 4399
   },
   {
     "codigos": 478063,
     "productos": "GOMITAS BULL DOG REGALIZ AC TUT/FR X75GR",
     "uxb": 24,
-    "precio_vta": 829
+    "precio_vta": 769
   },
   {
     "codigos": 479165,
@@ -41661,25 +43023,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477498,
     "productos": "GOMITAS BULL DOG REGALIZ FRAMB 12X18G",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2899
   },
   {
     "codigos": 477499,
     "productos": "GOMITAS BULL DOG REGALIZ FRUTIL 12X18G",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2899
   },
   {
     "codigos": 477497,
     "productos": "GOMITAS BULL DOG REGALIZ TUT/FRUT 12X18GR",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 2899
   },
   {
     "codigos": 473434,
     "productos": "GOMITAS BULLDOG HUESITOS x12Un.",
     "uxb": 12,
-    "precio_vta": 1784
+    "precio_vta": 4699
   },
   {
     "codigos": 468765,
@@ -41691,7 +43053,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478833,
     "productos": "GOMITAS DORI CHERRY SOUR X500GR",
     "uxb": 20,
-    "precio_vta": 4829
+    "precio_vta": 5499
   },
   {
     "codigos": 478832,
@@ -41709,7 +43071,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471562,
     "productos": "GOMITAS DORI x500gr BANANAS",
     "uxb": 20,
-    "precio_vta": 4828
+    "precio_vta": 5499
   },
   {
     "codigos": 471689,
@@ -41721,7 +43083,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474248,
     "productos": "GOMITAS DORI x500gr GUSANOS ACIDOS",
     "uxb": 20,
-    "precio_vta": 4304
+    "precio_vta": 5499
   },
   {
     "codigos": 479241,
@@ -41751,19 +43113,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475944,
     "productos": "GOMITAS GAMAGAM VARIAS x500gr",
     "uxb": 14,
-    "precio_vta": 2729
+    "precio_vta": 3499
   },
   {
     "codigos": 9593,
     "productos": "GOMITAS GAMAGAM VARIAS x800gr",
     "uxb": 10,
-    "precio_vta": 3359
+    "precio_vta": 4399
   },
   {
     "codigos": 466638,
     "productos": "GOMITAS GOMUTCHO TUBO X1Un.",
     "uxb": 30,
-    "precio_vta": 230
+    "precio_vta": 249
   },
   {
     "codigos": 2580,
@@ -42018,10 +43380,46 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 9659
   },
   {
+    "codigos": 461560,
+    "productos": "GOMITAS PIÑATA ANILLOS DROPSY X700G",
+    "uxb": 8,
+    "precio_vta": 4799
+  },
+  {
+    "codigos": 461970,
+    "productos": "GOMITAS PIÑATA FANT SURTIDA DROPSY 700G",
+    "uxb": 8,
+    "precio_vta": 4799
+  },
+  {
+    "codigos": 461561,
+    "productos": "GOMITAS PIÑATA HUESOS DROPSY 700G",
+    "uxb": 8,
+    "precio_vta": 4799
+  },
+  {
+    "codigos": 461562,
+    "productos": "GOMITAS PIÑATA REDON DROPSY 700G",
+    "uxb": 8,
+    "precio_vta": 4799
+  },
+  {
     "codigos": 478336,
     "productos": "GOMITAS RICOMAS ANILLOS FRUTALES X500GR",
     "uxb": 6,
     "precio_vta": 2939
+  },
+  {
+    "codigos": 472542,
+    "productos": "GOMITAS ROLLO ACIDAS BULLDOG x12Un.",
+    "uxb": 12,
+    "precio_vta": 4099
+  },
+  {
+    "codigos": 467516,
+    "productos": "GOMITAS ROLLO FRUTALES BILLIKEN X12UN",
+    "uxb": 12,
+    "precio_vta": 4099
   },
   {
     "codigos": 476280,
@@ -42045,19 +43443,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469918,
     "productos": "GOMITAS YUMMY A GRANEL MORITAS x500g",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 467711,
     "productos": "GOMITAS YUMMY ANIMALITOS 12X30G",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 470166,
     "productos": "GOMITAS YUMMY BANANITAS 500G",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 473670,
@@ -42069,61 +43467,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477495,
     "productos": "GOMITAS YUMMY BOTELLITAS 30gr x12un",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4699
   },
   {
     "codigos": 477492,
     "productos": "GOMITAS YUMMY BOTELLITAS x500g",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 470167,
     "productos": "GOMITAS YUMMY CIEN PIES ACIDAS x500g",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 470480,
     "productos": "GOMITAS YUMMY DINO X30G X12U",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 477494,
     "productos": "GOMITAS YUMMY FRUT C/CREMA 30gr x12un",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 470168,
     "productos": "GOMITAS YUMMY FRUTILLA C/CREMA x500g",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 473671,
     "productos": "GOMITAS YUMMY FRUTITAS X12U",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 478715,
     "productos": "GOMITAS YUMMY GRANEL DIENTES x500g",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 469296,
     "productos": "GOMITAS YUMMY GRANEL OSITOS 500G",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 479170,
     "productos": "GOMITAS YUMMY HUEVO FRITO x500g",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 470484,
@@ -42135,31 +43533,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473783,
     "productos": "GOMITAS YUMMY OSITOS ACIDOS X12U",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 472537,
     "productos": "GOMITAS YUMMY OSITOS ACIDOS X500G",
     "uxb": 6,
-    "precio_vta": 4777
+    "precio_vta": 4399
   },
   {
     "codigos": 470482,
     "productos": "GOMITAS YUMMY OSITOS X30G X12U",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 470481,
     "productos": "GOMITAS YUMMY PECESITOS X30G X12U",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 470483,
     "productos": "GOMITAS YUMMY PIECITOS ACIDOS x12Un",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4699
   },
   {
     "codigos": 472004,
@@ -42183,13 +43581,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7666,
     "productos": "GONGYS MALVAVISCOS VARIOS X 28 G",
     "uxb": 48,
-    "precio_vta": 367
+    "precio_vta": 349
   },
   {
     "codigos": 1054,
     "productos": "GONGYS MALVAVISCOS x200gr",
     "uxb": 12,
-    "precio_vta": 2309
+    "precio_vta": 1999
   },
   {
     "codigos": 470701,
@@ -42327,13 +43725,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1675,
     "productos": "GRANADINA BAR Y PUBS x1lt",
     "uxb": 6,
-    "precio_vta": 3899
+    "precio_vta": 4211
   },
   {
     "codigos": 1676,
     "productos": "GRANADINA CUSENIER x750cc",
     "uxb": 12,
-    "precio_vta": 4399
+    "precio_vta": 4999
   },
   {
     "codigos": 11090,
@@ -42358,12 +43756,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GRANAS SABOR SUR VARIOS COLORES x80g",
     "uxb": 1,
     "precio_vta": 839
-  },
-  {
-    "codigos": 825,
-    "productos": "GRANIX ARITOS FRUTALES x130gr",
-    "uxb": 9,
-    "precio_vta": 1154
   },
   {
     "codigos": 474088,
@@ -42408,28 +43800,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10174
   },
   {
-    "codigos": 1051,
-    "productos": "GRANIX COPOS D/MAIZ X160G",
-    "uxb": 16,
-    "precio_vta": 1049
-  },
-  {
     "codigos": 6419,
     "productos": "GRANIX COPOS DE MAIZ X 400G",
     "uxb": 8,
     "precio_vta": 2099
-  },
-  {
-    "codigos": 460371,
-    "productos": "GRANIX FIBRA TOTAL 4 x250g",
-    "uxb": 8,
-    "precio_vta": 1994
-  },
-  {
-    "codigos": 10759,
-    "productos": "GRANIX FIBRA TOTAL C/PASAS x400gr",
-    "uxb": 8,
-    "precio_vta": 3149
   },
   {
     "codigos": 8879,
@@ -42462,20 +43836,8 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3148
   },
   {
-    "codigos": 1232,
-    "productos": "GRANOLA CROC.COCO/MIEL GRANIX x350gr",
-    "uxb": 8,
-    "precio_vta": 2939
-  },
-  {
     "codigos": 464790,
     "productos": "GRANOLA CROC.FRUTOS ROJOS GRANIX x350gr",
-    "uxb": 8,
-    "precio_vta": 4829
-  },
-  {
-    "codigos": 465382,
-    "productos": "GRANOLA CROC.PASAS/ALM GRANIX x350gr",
     "uxb": 8,
     "precio_vta": 4829
   },
@@ -42490,6 +43852,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GRANOLA CRUNCHY FITFRUITS x250g",
     "uxb": 1,
     "precio_vta": 883
+  },
+  {
+    "codigos": 1232,
+    "productos": "GRANOLA GRANIX CROC/COCO/MIEL X350g",
+    "uxb": 8,
+    "precio_vta": 2939
+  },
+  {
+    "codigos": 465382,
+    "productos": "GRANOLA GRANIX CROC/PASAS/ALM X350g",
+    "uxb": 8,
+    "precio_vta": 4829
   },
   {
     "codigos": 8458,
@@ -42507,31 +43881,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12226,
     "productos": "GRASA BOVINA ARGENGRASS X500 GR",
     "uxb": 10,
-    "precio_vta": 1799
+    "precio_vta": 2599
   },
   {
     "codigos": 12080,
     "productos": "GRASA DE CERDO ARGENGRASS X 500GR",
     "uxb": 10,
-    "precio_vta": 2199
+    "precio_vta": 2999
   },
   {
     "codigos": 471864,
     "productos": "GRASA ESANI PORCINA x500g",
     "uxb": 10,
-    "precio_vta": 2269
+    "precio_vta": 2649
   },
   {
     "codigos": 466756,
     "productos": "GRASA ESANI VACUNA REFINADA X500G",
     "uxb": 10,
-    "precio_vta": 2049
+    "precio_vta": 2479
   },
   {
     "codigos": 11907,
     "productos": "GRASA KAMOTE x500gr",
     "uxb": 10,
-    "precio_vta": 1949
+    "precio_vta": 2399
   },
   {
     "codigos": 479649,
@@ -42573,7 +43947,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473171,
     "productos": "GRISINES TOSTI VARIOS x100gr",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1049
   },
   {
     "codigos": 2907,
@@ -42642,6 +44016,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3559
   },
   {
+    "codigos": 77542,
+    "productos": "GUANTES D/MUJER TUCU",
+    "uxb": 1,
+    "precio_vta": 1799
+  },
+  {
+    "codigos": 77541,
+    "productos": "GUANTES D/NIÑO TUCU",
+    "uxb": 1,
+    "precio_vta": 1399
+  },
+  {
     "codigos": 3014,
     "productos": "GUANTES DE ALBAÑIL TUCU 1UN",
     "uxb": 1,
@@ -42657,7 +44043,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7581,
     "productos": "GUANTES DE LATEX BLANCO x100Un.",
     "uxb": 1,
-    "precio_vta": 5774
+    "precio_vta": 6990
   },
   {
     "codigos": 462567,
@@ -42676,6 +44062,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "GUANTES DE TRABAJO TUCU 1UN",
     "uxb": 1,
     "precio_vta": 1799
+  },
+  {
+    "codigos": 64520,
+    "productos": "GUANTES DEA AFELPADOS X1UN",
+    "uxb": 1,
+    "precio_vta": 2249
   },
   {
     "codigos": 463707,
@@ -42756,22 +44148,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2903
   },
   {
-    "codigos": 465189,
-    "productos": "GUANTES MAPA \"L",
-    "uxb": 30,
-    "precio_vta": 3148
-  },
-  {
     "codigos": 465188,
     "productos": "GUANTES MAPA \"M",
     "uxb": 30,
     "precio_vta": 3149
   },
   {
+    "codigos": 480691,
+    "productos": "GUANTES MEDIA NARANJA ETERNAL",
+    "uxb": 30,
+    "precio_vta": 2799
+  },
+  {
+    "codigos": 480692,
+    "productos": "GUANTES MEDIA NARANJA PRO MAX",
+    "uxb": 30,
+    "precio_vta": 1799
+  },
+  {
     "codigos": 477965,
     "productos": "GUANTES NEGROS P.U TUCU x1Un.",
     "uxb": 1,
     "precio_vta": 1899
+  },
+  {
+    "codigos": 77543,
+    "productos": "GUANTES P/HOMBRE TUCU",
+    "uxb": 12,
+    "precio_vta": 1999
   },
   {
     "codigos": 4403,
@@ -42801,7 +44205,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470351,
     "productos": "GUANTES PRINTEX NITRILO x100Un.",
     "uxb": 1,
-    "precio_vta": 8531
+    "precio_vta": 8990
   },
   {
     "codigos": 461202,
@@ -42894,6 +44298,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5209
   },
   {
+    "codigos": 480788,
+    "productos": "HACHA D/COCINA KITCHEN IMP EMA 43268",
+    "uxb": 1,
+    "precio_vta": 7999
+  },
+  {
     "codigos": 479250,
     "productos": "HALFIE xun x15g CANDY PORT",
     "uxb": 24,
@@ -42927,7 +44337,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6911,
     "productos": "HALLS MIEL Y LIMON x12u",
     "uxb": 30,
-    "precio_vta": 7874
+    "precio_vta": 7999
   },
   {
     "codigos": 6912,
@@ -42945,13 +44355,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3971,
     "productos": "HALLS STRONG X12UNIDADE",
     "uxb": 12,
-    "precio_vta": 7874
+    "precio_vta": 7999
   },
   {
     "codigos": 467451,
     "productos": "HAMBURGUESA BARFY X4U x276g",
     "uxb": 24,
-    "precio_vta": 3099
+    "precio_vta": 2799
   },
   {
     "codigos": 12283,
@@ -42987,7 +44397,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467899,
     "productos": "HAMBURGUESA PATY 72 x4un x288gr",
     "uxb": 24,
-    "precio_vta": 6499
+    "precio_vta": 5699
   },
   {
     "codigos": 468070,
@@ -42999,7 +44409,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468254,
     "productos": "HAMBURGUESA PATY CLASICO x4un x320gr",
     "uxb": 24,
-    "precio_vta": 5999
+    "precio_vta": 6499
   },
   {
     "codigos": 473447,
@@ -43041,7 +44451,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468071,
     "productos": "HAMBURGUESA SUPER PATY x2u",
     "uxb": 20,
-    "precio_vta": 5499
+    "precio_vta": 4299
   },
   {
     "codigos": 468552,
@@ -43077,7 +44487,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471318,
     "productos": "HAMBURGUESAS BRAVA x4 x320G",
     "uxb": 18,
-    "precio_vta": 4922
+    "precio_vta": 5999
   },
   {
     "codigos": 468959,
@@ -43149,7 +44559,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1710,
     "productos": "HARINA CAÑUELAS 000 1KG",
     "uxb": 10,
-    "precio_vta": 733
+    "precio_vta": 799
   },
   {
     "codigos": 468703,
@@ -43168,6 +44578,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "HARINA DE MAIZ CAMPO LINDO x500gr",
     "uxb": 10,
     "precio_vta": 349
+  },
+  {
+    "codigos": 465534,
+    "productos": "HARINA DE MAIZ COC.RAPIDA MONEDA x500g",
+    "uxb": 10,
+    "precio_vta": 619
   },
   {
     "codigos": 469537,
@@ -43203,7 +44619,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1724,
     "productos": "HARINA FAVORITA 000 1KG",
     "uxb": 15,
-    "precio_vta": 839
+    "precio_vta": 799
   },
   {
     "codigos": 1711,
@@ -43215,31 +44631,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468701,
     "productos": "HARINA GRACIELA REAL 000 x1Kg",
     "uxb": 10,
-    "precio_vta": 724
+    "precio_vta": 789
   },
   {
     "codigos": 469058,
     "productos": "HARINA GRACIELA REAL 000 x25Kg",
     "uxb": 1,
-    "precio_vta": 14689
+    "precio_vta": 18590
   },
   {
     "codigos": 468700,
     "productos": "HARINA GRACIELA REAL 0000 X25KG",
     "uxb": 1,
-    "precio_vta": 20359
+    "precio_vta": 22290
   },
   {
     "codigos": 468702,
     "productos": "HARINA GRACIELA REAL 0000 x1Kg",
     "uxb": 10,
-    "precio_vta": 943
+    "precio_vta": 990
   },
   {
     "codigos": 472055,
     "productos": "HARINA GRACIELA REAL 0000 x5Kg",
     "uxb": 1,
-    "precio_vta": 4303
+    "precio_vta": 5049
   },
   {
     "codigos": 13831,
@@ -43269,7 +44685,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9087,
     "productos": "HARINA MAROLIO 0000 1KG",
     "uxb": 10,
-    "precio_vta": 838
+    "precio_vta": 899
   },
   {
     "codigos": 9086,
@@ -43308,16 +44724,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1154
   },
   {
+    "codigos": 10624,
+    "productos": "HARINA NOTABLE 000 X1KG",
+    "uxb": 10,
+    "precio_vta": 699
+  },
+  {
     "codigos": 478949,
     "productos": "HARINA NOTABLE 0000 X1KG",
     "uxb": 10,
-    "precio_vta": 891
+    "precio_vta": 899
   },
   {
     "codigos": 1720,
     "productos": "HARINA PUREZA 0000 U.FINA x1kg",
     "uxb": 10,
-    "precio_vta": 944
+    "precio_vta": 969
   },
   {
     "codigos": 475082,
@@ -43329,7 +44751,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7035,
     "productos": "HARINA PUREZA INTEGRAL 1KG",
     "uxb": 10,
-    "precio_vta": 1364
+    "precio_vta": 1699
   },
   {
     "codigos": 472922,
@@ -43341,7 +44763,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1721,
     "productos": "HARINA PUREZA LEUDANTE UF 1KG",
     "uxb": 10,
-    "precio_vta": 1207
+    "precio_vta": 1290
   },
   {
     "codigos": 5514,
@@ -43372,6 +44794,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "HARINA SUELTA 0000 xKG",
     "uxb": 100,
     "precio_vta": 839
+  },
+  {
+    "codigos": 464019,
+    "productos": "HARPIC PASTILLA INODORO PINO x20gr",
+    "uxb": 36,
+    "precio_vta": 1349
   },
   {
     "codigos": 462441,
@@ -43515,85 +44943,85 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466076,
     "productos": "HELADO GRIDO TENTACION x1L AMERICANA",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466072,
     "productos": "HELADO GRIDO TENTACION x1L CHOCO AMER",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466077,
     "productos": "HELADO GRIDO TENTACION x1L CHOCOLATE",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466071,
     "productos": "HELADO GRIDO TENTACION x1L COOKIES",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466069,
     "productos": "HELADO GRIDO TENTACION x1L DCE GRANIZ",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466078,
     "productos": "HELADO GRIDO TENTACION x1L DCE LECHE",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466074,
     "productos": "HELADO GRIDO TENTACION x1L FRUTILLA",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466068,
     "productos": "HELADO GRIDO TENTACION x1L GRANIZADO",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466073,
     "productos": "HELADO GRIDO TENTACION x1L LIMON",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466070,
     "productos": "HELADO GRIDO TENTACION x1L MASCARPONE",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 471291,
     "productos": "HELADO GRIDO TENTACION x1L MENTA GRAN",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466079,
     "productos": "HELADO GRIDO TENTACION x1L TODDY CHOC",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 12172,
     "productos": "HELADO GRIDO TENTACION x1L TODDY GALL",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 466075,
     "productos": "HELADO GRIDO TENTACION x1L VAINILLA",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 7999
   },
   {
     "codigos": 6111,
@@ -43725,61 +45153,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466149,
     "productos": "HERM.CIERRACLIP N1",
     "uxb": 8,
-    "precio_vta": 7305
+    "precio_vta": 8035
   },
   {
     "codigos": 466150,
     "productos": "HERM.CIERRACLIP N2",
     "uxb": 20,
-    "precio_vta": 4648
+    "precio_vta": 5113
   },
   {
     "codigos": 466295,
     "productos": "HERM.CIERRACLIP N3",
     "uxb": 30,
-    "precio_vta": 3453
+    "precio_vta": 3798
   },
   {
     "codigos": 467044,
     "productos": "HERM.CIERRACLIP X1L",
     "uxb": 30,
-    "precio_vta": 1833
+    "precio_vta": 2017
   },
   {
     "codigos": 466148,
     "productos": "HERM.REC. KEVIN CHICO",
     "uxb": 72,
-    "precio_vta": 3320
+    "precio_vta": 3652
   },
   {
     "codigos": 466146,
     "productos": "HERM.REC. KEVIN GRANDE",
     "uxb": 24,
-    "precio_vta": 4647
+    "precio_vta": 5112
   },
   {
     "codigos": 466147,
     "productos": "HERM.REC. KEVIN MEDIANO",
     "uxb": 48,
-    "precio_vta": 3984
+    "precio_vta": 4383
   },
   {
     "codigos": 468780,
     "productos": "HERM.RED.CHICO KEVINS",
     "uxb": 48,
-    "precio_vta": 3054
+    "precio_vta": 3360
   },
   {
     "codigos": 468779,
     "productos": "HERM.RED.GRANDE KEVINS",
     "uxb": 24,
-    "precio_vta": 3719
+    "precio_vta": 4091
   },
   {
     "codigos": 468781,
     "productos": "HERM.RED.MEDIANO KEVINS",
     "uxb": 36,
-    "precio_vta": 3320
+    "precio_vta": 3652
   },
   {
     "codigos": 474575,
@@ -43791,109 +45219,115 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471936,
     "productos": "HERMETICO CUADRADO BAGER VIHA x1500ml",
     "uxb": 36,
-    "precio_vta": 4346
+    "precio_vta": 4781
   },
   {
     "codigos": 471934,
     "productos": "HERMETICO CUADRADO BAGER VIHA x900ml",
     "uxb": 36,
-    "precio_vta": 2896
+    "precio_vta": 3186
   },
   {
     "codigos": 471935,
     "productos": "HERMETICO RECT BAGER VIHA x800ml",
     "uxb": 36,
-    "precio_vta": 2897
+    "precio_vta": 3187
   },
   {
     "codigos": 471947,
     "productos": "HERMETICO RECT. BAGER VIHA x2300ml",
     "uxb": 24,
-    "precio_vta": 6399
+    "precio_vta": 7039
   },
   {
     "codigos": 8420,
     "productos": "HERMETICO RECT.S/FECH 3LT YESI",
     "uxb": 26,
-    "precio_vta": 2501
+    "precio_vta": 2751
   },
   {
     "codigos": 8396,
     "productos": "HERMETICO RECTANG S/F 2LT YESI",
     "uxb": 36,
-    "precio_vta": 1875
+    "precio_vta": 2063
   },
   {
     "codigos": 8418,
     "productos": "HERMETICO RECTANG.S/F 5LT YESI",
     "uxb": 10,
-    "precio_vta": 3501
+    "precio_vta": 3851
   },
   {
     "codigos": 8419,
     "productos": "HERMETICO RECTANG.S/F 8LT YESI",
     "uxb": 8,
-    "precio_vta": 4829
+    "precio_vta": 5312
   },
   {
     "codigos": 471933,
     "productos": "HERMETICO REDONDO BAGER VIHA x1.4ml",
     "uxb": 36,
-    "precio_vta": 3734
+    "precio_vta": 4108
   },
   {
     "codigos": 471931,
     "productos": "HERMETICO REDONDO BAGER VIHA x400ml",
     "uxb": 54,
-    "precio_vta": 1982
+    "precio_vta": 2180
   },
   {
     "codigos": 471932,
     "productos": "HERMETICO REDONDO BAGER VIHA x800ml",
     "uxb": 36,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 9368,
     "productos": "HEROE JABON EN PAN CLASICO x200g",
     "uxb": 48,
-    "precio_vta": 661
+    "precio_vta": 669
   },
   {
     "codigos": 9359,
     "productos": "HEROE JABON LIQ.P/ROPA BIO EVOLUTION x3Lt",
     "uxb": 4,
-    "precio_vta": 4094
+    "precio_vta": 4479
+  },
+  {
+    "codigos": 480718,
+    "productos": "HEROE LAVANDINA EN GEL x700cc",
+    "uxb": 15,
+    "precio_vta": 1599
   },
   {
     "codigos": 9400,
     "productos": "HEROE LAVAVAJILLA LIMON ULTRA x500cc",
     "uxb": 12,
-    "precio_vta": 1207
+    "precio_vta": 1299
   },
   {
     "codigos": 9376,
     "productos": "HEROE LAVAVAJILLAS MANZANA ULTRA x500cc",
     "uxb": 12,
-    "precio_vta": 1207
+    "precio_vta": 1299
   },
   {
     "codigos": 9350,
     "productos": "HEROE SUAVIZANTE FLORES FRUTALES D/P x3Lt",
     "uxb": 4,
-    "precio_vta": 4199
+    "precio_vta": 4499
   },
   {
     "codigos": 469417,
     "productos": "HERVIDOR ALUMINIO GENESIS N:12",
     "uxb": 1,
-    "precio_vta": 6158
+    "precio_vta": 6774
   },
   {
     "codigos": 469419,
     "productos": "HERVIDOR ALUMINIO GENESIS N:16",
     "uxb": 1,
-    "precio_vta": 3211
+    "precio_vta": 3532
   },
   {
     "codigos": 472502,
@@ -43929,7 +45363,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479926,
     "productos": "HIELERA TERMICA CAROL 19.5x16x20cm x1Un.",
     "uxb": 1,
-    "precio_vta": 36223
+    "precio_vta": 39846
   },
   {
     "codigos": 470391,
@@ -43953,7 +45387,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14110,
     "productos": "HIGOS NEGROS MARTILAN NAPOLE x1Kg",
     "uxb": 1,
-    "precio_vta": 14989
+    "precio_vta": 19999
+  },
+  {
+    "codigos": 480590,
+    "productos": "HILERET CLASICO x400 SOB",
+    "uxb": 1,
+    "precio_vta": 9499
   },
   {
     "codigos": 470818,
@@ -44121,7 +45561,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10879,
     "productos": "HISOPOS Q-SOFT FAMILY x100Un.",
     "uxb": 36,
-    "precio_vta": 2729
+    "precio_vta": 1999
   },
   {
     "codigos": 465826,
@@ -44187,31 +45627,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460468,
     "productos": "HORMIG ESPACIAL MIREX 1000G",
     "uxb": 8,
-    "precio_vta": 5312
+    "precio_vta": 5844
   },
   {
     "codigos": 8471,
     "productos": "HORMIG ESPACIAL POLV 250G",
     "uxb": 12,
-    "precio_vta": 2425
+    "precio_vta": 2668
   },
   {
     "codigos": 478499,
     "productos": "HORMIG HORMIFAV F POLVO 250GR",
     "uxb": 1,
-    "precio_vta": 4041
+    "precio_vta": 3992
   },
   {
     "codigos": 478501,
     "productos": "HORMIG HORMIFAV FIPRO GRANULADO 250G",
     "uxb": 1,
-    "precio_vta": 4041
+    "precio_vta": 3999
   },
   {
     "codigos": 472753,
     "productos": "HORMIG MIREX ESPACIAL GRANULADO x250g",
     "uxb": 30,
-    "precio_vta": 2425
+    "precio_vta": 2668
   },
   {
     "codigos": 460569,
@@ -44446,6 +45886,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "HUEVO ITALIANO CHOOK X 100 G",
     "uxb": 24,
     "precio_vta": 4199
+  },
+  {
+    "codigos": 9426,
+    "productos": "HUEVO JACK FELFORT x14G",
+    "uxb": 10,
+    "precio_vta": 2899
   },
   {
     "codigos": 4420,
@@ -44700,6 +46146,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10489
   },
   {
+    "codigos": 480759,
+    "productos": "INFUSOR DE TE IMP EMA 30131823",
+    "uxb": 1,
+    "precio_vta": 3999
+  },
+  {
     "codigos": 477365,
     "productos": "INICIADOR DE FUEGO GEL x385cc",
     "uxb": 12,
@@ -44769,7 +46221,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478500,
     "productos": "INSECTICIDA FAV \"D\" X10cm",
     "uxb": 1,
-    "precio_vta": 968
+    "precio_vta": 1299
   },
   {
     "codigos": 4887,
@@ -44805,7 +46257,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478502,
     "productos": "INSECTICIDA INSECTIFAV M LIQ 500CM",
     "uxb": 1,
-    "precio_vta": 3879
+    "precio_vta": 5390
   },
   {
     "codigos": 8475,
@@ -44817,7 +46269,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4131,
     "productos": "INSECTICIDA RAID AZUL S/OLOR X380CM",
     "uxb": 12,
-    "precio_vta": 7621
+    "precio_vta": 7999
   },
   {
     "codigos": 4132,
@@ -44883,37 +46335,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 20007,
     "productos": "INSECTICIDA RODI FAV CEBO E/GRANO X100g",
     "uxb": 1,
-    "precio_vta": 2424
+    "precio_vta": 3699
   },
   {
     "codigos": 3755,
     "productos": "INSECTICIDA SELTON AZUL 360CC",
     "uxb": 6,
-    "precio_vta": 4513
+    "precio_vta": 3499
   },
   {
     "codigos": 495,
     "productos": "INSECTICIDA SELTON CASA/JARD 360CC",
     "uxb": 6,
-    "precio_vta": 4094
+    "precio_vta": 3999
   },
   {
     "codigos": 5752,
     "productos": "INSECTICIDA SELTON M/CUCARACHA X 360CC",
     "uxb": 6,
-    "precio_vta": 4018
+    "precio_vta": 3599
   },
   {
     "codigos": 8677,
     "productos": "INSECTICIDA SELTON ROJO x360ml",
     "uxb": 6,
-    "precio_vta": 3463
+    "precio_vta": 3499
   },
   {
     "codigos": 468377,
     "productos": "INSECTICIDA X5 CUCARACHAS X360CC",
     "uxb": 6,
-    "precio_vta": 4030
+    "precio_vta": 3890
   },
   {
     "codigos": 477145,
@@ -44925,7 +46377,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468376,
     "productos": "INSECTICIDA X5 MMM AERO 360CC",
     "uxb": 6,
-    "precio_vta": 4261
+    "precio_vta": 3790
   },
   {
     "codigos": 474612,
@@ -45063,13 +46515,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477450,
     "productos": "JAB E/POLVO ALA C/BIC L/M X3KG",
     "uxb": 7,
-    "precio_vta": 7348
+    "precio_vta": 8499
   },
   {
     "codigos": 477443,
     "productos": "JAB E/POLVO ALA C/BIC L/M X800GR",
     "uxb": 24,
-    "precio_vta": 2098
+    "precio_vta": 2599
   },
   {
     "codigos": 474134,
@@ -45087,7 +46539,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477445,
     "productos": "JAB E/POLVO ALA C/BIC MATIC X400GR",
     "uxb": 24,
-    "precio_vta": 1153
+    "precio_vta": 1299
   },
   {
     "codigos": 474639,
@@ -45183,13 +46635,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477420,
     "productos": "JAB E/POLVO ESENCIAL L/M X3KG",
     "uxb": 6,
-    "precio_vta": 5406
+    "precio_vta": 5699
   },
   {
     "codigos": 477453,
     "productos": "JAB E/POLVO ESENCIAL L/M X800GR",
     "uxb": 20,
-    "precio_vta": 1469
+    "precio_vta": 1649
   },
   {
     "codigos": 477451,
@@ -45285,13 +46737,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462298,
     "productos": "JAB E/POLVO LIMZUL L.M X800GR",
     "uxb": 1,
-    "precio_vta": 1873
+    "precio_vta": 2099
   },
   {
     "codigos": 470424,
     "productos": "JAB E/POLVO LIMZUL L/M X3KG",
     "uxb": 1,
-    "precio_vta": 6724
+    "precio_vta": 7390
   },
   {
     "codigos": 464079,
@@ -45303,13 +46755,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470423,
     "productos": "JAB E/POLVO LIMZUL MATIC X3KG",
     "uxb": 1,
-    "precio_vta": 6724
+    "precio_vta": 7390
   },
   {
     "codigos": 470422,
     "productos": "JAB E/POLVO LIMZUL MATIC X800GR",
     "uxb": 1,
-    "precio_vta": 1873
+    "precio_vta": 2099
   },
   {
     "codigos": 1793,
@@ -45549,7 +47001,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466680,
     "productos": "JABON E/PAN ARGENTINO 150G",
     "uxb": 48,
-    "precio_vta": 660
+    "precio_vta": 690
   },
   {
     "codigos": 474591,
@@ -45561,7 +47013,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466379,
     "productos": "JABON E/PAN ARGENTINO x400g",
     "uxb": 20,
-    "precio_vta": 1259
+    "precio_vta": 1590
   },
   {
     "codigos": 1784,
@@ -45657,7 +47109,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1807,
     "productos": "JABON E/PAN SEISEME 300G",
     "uxb": 50,
-    "precio_vta": 1679
+    "precio_vta": 1999
   },
   {
     "codigos": 468175,
@@ -45687,13 +47139,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478874,
     "productos": "JABON E/PAN VERDE/OCRE X200GR",
     "uxb": 40,
-    "precio_vta": 597
+    "precio_vta": 649
   },
   {
     "codigos": 473043,
     "productos": "JABON E/PAN VILLA IRIS 200G",
     "uxb": 48,
-    "precio_vta": 418
+    "precio_vta": 599
   },
   {
     "codigos": 6004,
@@ -45801,7 +47253,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8618,
     "productos": "JABON LIQ ALA CAMELLITO ROPA FINA DP x450ml",
     "uxb": 15,
-    "precio_vta": 2833
+    "precio_vta": 2999
   },
   {
     "codigos": 465902,
@@ -45867,13 +47319,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5862,
     "productos": "JABON LIQ ALA P/DILUIR C/BIC X500ML",
     "uxb": 12,
-    "precio_vta": 6089
+    "precio_vta": 6999
   },
   {
     "codigos": 468706,
     "productos": "JABON LIQ ALA P/DILUIR ECOLAV X500ML",
     "uxb": 12,
-    "precio_vta": 6089
+    "precio_vta": 6999
   },
   {
     "codigos": 1131,
@@ -45963,7 +47415,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478159,
     "productos": "JABON LIQ ARIEL PLAT DILUIR 500CC",
     "uxb": 12,
-    "precio_vta": 8251
+    "precio_vta": 6999
   },
   {
     "codigos": 468641,
@@ -46053,7 +47505,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475902,
     "productos": "JABON LIQ ESENCIAL DP X3LT",
     "uxb": 4,
-    "precio_vta": 6718
+    "precio_vta": 6999
   },
   {
     "codigos": 10658,
@@ -46089,7 +47541,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467079,
     "productos": "JABON LIQ GRANBY DP 3LT",
     "uxb": 4,
-    "precio_vta": 6298
+    "precio_vta": 6999
   },
   {
     "codigos": 5120,
@@ -46107,31 +47559,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462433,
     "productos": "JABON LIQ HEROE 1.5LT",
     "uxb": 6,
-    "precio_vta": 2099
+    "precio_vta": 2399
   },
   {
     "codigos": 8575,
     "productos": "JABON LIQ HEROE 800ML",
     "uxb": 15,
-    "precio_vta": 1212
+    "precio_vta": 1499
   },
   {
     "codigos": 474304,
     "productos": "JABON LIQ HEROE BIO EVOLUTION x800ML",
     "uxb": 15,
-    "precio_vta": 1322
+    "precio_vta": 1499
   },
   {
     "codigos": 464007,
     "productos": "JABON LIQ HEROE DP 800ML",
     "uxb": 12,
-    "precio_vta": 1312
+    "precio_vta": 1469
   },
   {
     "codigos": 473575,
     "productos": "JABON LIQ HEROE P/ROPA DP 3LT",
     "uxb": 4,
-    "precio_vta": 4094
+    "precio_vta": 4479
   },
   {
     "codigos": 471217,
@@ -46149,7 +47601,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478938,
     "productos": "JABON LIQ NETIC BOT x1.5lts",
     "uxb": 6,
-    "precio_vta": 2519
+    "precio_vta": 2999
   },
   {
     "codigos": 461847,
@@ -46172,8 +47624,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 6242,
     "productos": "JABON LIQ QUERUBIN BE DP 3LT",
-    "uxb": 4,
-    "precio_vta": 7664
+    "uxb": 5,
+    "precio_vta": 7499
   },
   {
     "codigos": 9129,
@@ -46185,13 +47637,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9008,
     "productos": "JABON LIQ QUERUBIN BOTELLA 1.5LT",
     "uxb": 6,
-    "precio_vta": 3989
+    "precio_vta": 3799
   },
   {
     "codigos": 6516,
     "productos": "JABON LIQ QUERUBIN DP x800ml",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 2699
   },
   {
     "codigos": 473554,
@@ -46248,10 +47700,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7559
   },
   {
+    "codigos": 480663,
+    "productos": "JABON LIQ SKIP EXPERT FRESCURA DP x800cc",
+    "uxb": 12,
+    "precio_vta": 6999
+  },
+  {
     "codigos": 5949,
     "productos": "JABON LIQ SKIP EXPERT X800CC",
     "uxb": 12,
-    "precio_vta": 7349
+    "precio_vta": 8999
   },
   {
     "codigos": 472861,
@@ -46263,7 +47721,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469233,
     "productos": "JABON LIQ SKIP P/DILUIR 500ML",
     "uxb": 12,
-    "precio_vta": 7348
+    "precio_vta": 8199
   },
   {
     "codigos": 468705,
@@ -46335,7 +47793,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470508,
     "productos": "JABON LIQ WOOLITE MAT CLAS DP X900CC",
     "uxb": 12,
-    "precio_vta": 3883
+    "precio_vta": 4599
   },
   {
     "codigos": 473215,
@@ -46359,7 +47817,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10627,
     "productos": "JABON LIQ ZORRO C/BICARBONATO DP X3L",
     "uxb": 4,
-    "precio_vta": 6298
+    "precio_vta": 6799
   },
   {
     "codigos": 1771,
@@ -46371,7 +47829,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460526,
     "productos": "JABON LIQ ZORRO EVO ESC PROTEC DP X3LT",
     "uxb": 4,
-    "precio_vta": 6193
+    "precio_vta": 6799
   },
   {
     "codigos": 467297,
@@ -46389,7 +47847,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478479,
     "productos": "JABON LIQ ZORRO PLUS X3LT",
     "uxb": 4,
-    "precio_vta": 6298
+    "precio_vta": 6789
   },
   {
     "codigos": 480503,
@@ -46407,7 +47865,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8512,
     "productos": "JABON LIQ.ALGABO CITRUS X 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 8348,
@@ -46419,7 +47877,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5441,
     "productos": "JABON LIQ.ALGABO COCO/VAI DP X 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 5438,
@@ -46431,7 +47889,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8357,
     "productos": "JABON LIQ.ALGABO CREAM DP 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 460495,
@@ -46449,7 +47907,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5552,
     "productos": "JABON LIQ.ALGABO FLORAL RAIN X 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 5437,
@@ -46461,13 +47919,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9522,
     "productos": "JABON LIQ.ALGABO FLOWER X 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 5440,
     "productos": "JABON LIQ.ALGABO FRUTOS DP X 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 9523,
@@ -46479,7 +47937,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5439,
     "productos": "JABON LIQ.ALGABO GREEN DP X 300ML",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1199
   },
   {
     "codigos": 8358,
@@ -46509,7 +47967,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474156,
     "productos": "JABON LIQ.HEROE BIO EVOLUTION x1.5LT",
     "uxb": 6,
-    "precio_vta": 2099
+    "precio_vta": 2399
   },
   {
     "codigos": 478709,
@@ -46599,7 +48057,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3115,
     "productos": "JABON TOC PLUSBELLE ESENCIA RELAX x120gr",
     "uxb": 81,
-    "precio_vta": 734
+    "precio_vta": 838
   },
   {
     "codigos": 475976,
@@ -46611,13 +48069,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5658,
     "productos": "JABON TOC. PLUSBELLE NUTRI COCO x120g",
     "uxb": 81,
-    "precio_vta": 734
+    "precio_vta": 838
   },
   {
     "codigos": 5659,
     "productos": "JABON TOC. PLUSBELLE RAD.FLORES x120g",
     "uxb": 81,
-    "precio_vta": 734
+    "precio_vta": 838
   },
   {
     "codigos": 473988,
@@ -46629,7 +48087,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473758,
     "productos": "JABON TOC.ALGABO BABY ESTUCHE 80GR",
     "uxb": 45,
-    "precio_vta": 997
+    "precio_vta": 1099
   },
   {
     "codigos": 464015,
@@ -46653,7 +48111,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7220,
     "productos": "JABON TOC.ARGENTINO 3X80G",
     "uxb": 20,
-    "precio_vta": 1049
+    "precio_vta": 1379
   },
   {
     "codigos": 5095,
@@ -46689,7 +48147,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7219,
     "productos": "JABON TOC.CUPIDO x3un",
     "uxb": 20,
-    "precio_vta": 1154
+    "precio_vta": 1349
   },
   {
     "codigos": 469685,
@@ -46730,8 +48188,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 1767,
     "productos": "JABON TOC.DOVE ORIGINAL CREM x90gr",
-    "uxb": 60,
-    "precio_vta": 1678
+    "uxb": 48,
+    "precio_vta": 1899
   },
   {
     "codigos": 479931,
@@ -46833,7 +48291,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9308,
     "productos": "JABON TOC.LUX VARIOS X 3U",
     "uxb": 24,
-    "precio_vta": 3043
+    "precio_vta": 3399
   },
   {
     "codigos": 6051,
@@ -47016,10 +48474,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 838
   },
   {
+    "codigos": 470761,
+    "productos": "JABON TOC.POLYANA GREEN X 80GR",
+    "uxb": 84,
+    "precio_vta": 499
+  },
+  {
     "codigos": 470762,
     "productos": "JABON TOC.POLYANA PINK X 80GR",
     "uxb": 84,
-    "precio_vta": 556
+    "precio_vta": 499
+  },
+  {
+    "codigos": 462954,
+    "productos": "JABON TOC.POLYANA VARIOS 125GR",
+    "uxb": 72,
+    "precio_vta": 699
   },
   {
     "codigos": 476622,
@@ -47061,13 +48531,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6109,
     "productos": "JABON TOC.REXONA VARIOS X 3UNID.",
     "uxb": 24,
-    "precio_vta": 3043
+    "precio_vta": 3399
   },
   {
     "codigos": 1790,
     "productos": "JABON TOC.REXONA VARIOS x120/125gr",
     "uxb": 72,
-    "precio_vta": 1048
+    "precio_vta": 1179
   },
   {
     "codigos": 469930,
@@ -47097,7 +48567,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476415,
     "productos": "JABON TOC.ST TROPEZ 3x125g",
     "uxb": 20,
-    "precio_vta": 2089
+    "precio_vta": 2099
   },
   {
     "codigos": 478547,
@@ -47142,6 +48612,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2204
   },
   {
+    "codigos": 470763,
+    "productos": "JABON TOC.VIOLET POLYANA X80G",
+    "uxb": 84,
+    "precio_vta": 499
+  },
+  {
     "codigos": 461710,
     "productos": "JABON TOCADOR JOHNSONS VARIOS X 80G",
     "uxb": 96,
@@ -47151,19 +48627,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8438,
     "productos": "JABONERA CARIOCA YESI",
     "uxb": 90,
-    "precio_vta": 603
+    "precio_vta": 664
   },
   {
     "codigos": 461037,
     "productos": "JABONERA MOT SUR ARGOS",
     "uxb": 1,
-    "precio_vta": 1508
+    "precio_vta": 1659
   },
   {
     "codigos": 8670,
     "productos": "JABONERA PLASTICA BOROLIMP",
     "uxb": 24,
-    "precio_vta": 498
+    "precio_vta": 548
   },
   {
     "codigos": 465939,
@@ -47182,6 +48658,36 @@ const PRODUCTOS_PRECIOS = [
     "productos": "JALEA D/MEMBRILLO EMETH FCO 454g",
     "uxb": 6,
     "precio_vta": 2239
+  },
+  {
+    "codigos": 480726,
+    "productos": "JAMCITO BURBUJAS x80g",
+    "uxb": 30,
+    "precio_vta": 749
+  },
+  {
+    "codigos": 480738,
+    "productos": "JAMCITO JAMON BURBUJAS x1Kg",
+    "uxb": 5,
+    "precio_vta": 6699
+  },
+  {
+    "codigos": 14394,
+    "productos": "JAMON COC BAVIERA CALCHAQUI 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 16499
+  },
+  {
+    "codigos": 14395,
+    "productos": "JAMON COC BAVIERA CALCHAQUI FETAS",
+    "uxb": 1,
+    "precio_vta": 19999
+  },
+  {
+    "codigos": 14393,
+    "productos": "JAMON COC BAVIERA CALCHAQUI HORMA",
+    "uxb": 1,
+    "precio_vta": 14999
   },
   {
     "codigos": 14090,
@@ -47205,19 +48711,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13395,
     "productos": "JAMON COCENZA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 6399
+    "precio_vta": 6799
   },
   {
     "codigos": 13398,
     "productos": "JAMON COCENZA FETAS",
     "uxb": 1,
-    "precio_vta": 7799
+    "precio_vta": 8199
   },
   {
     "codigos": 13397,
     "productos": "JAMON COCENZA HORMA.",
     "uxb": 1,
-    "precio_vta": 5749
+    "precio_vta": 6999
   },
   {
     "codigos": 13060,
@@ -47302,6 +48808,24 @@ const PRODUCTOS_PRECIOS = [
     "productos": "JAMON COCIDO CHAMPION HORMA",
     "uxb": 1,
     "precio_vta": 8427
+  },
+  {
+    "codigos": 14376,
+    "productos": "JAMON COCIDO CHICO TERMOLI 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 10899
+  },
+  {
+    "codigos": 14377,
+    "productos": "JAMON COCIDO CHICO TERMOLI FETAS",
+    "uxb": 1,
+    "precio_vta": 13299
+  },
+  {
+    "codigos": 14375,
+    "productos": "JAMON COCIDO CHICO TERMOLI HORMA",
+    "uxb": 1,
+    "precio_vta": 9899
   },
   {
     "codigos": 479751,
@@ -47439,13 +48963,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13126,
     "productos": "JAMON RIFKA",
     "uxb": 1,
-    "precio_vta": 7799
+    "precio_vta": 7999
   },
   {
     "codigos": 13132,
     "productos": "JAMON RIFKA FETAS",
     "uxb": 1,
-    "precio_vta": 10499
+    "precio_vta": 10699
   },
   {
     "codigos": 14342,
@@ -47464,6 +48988,24 @@ const PRODUCTOS_PRECIOS = [
     "productos": "JAMON SADIA HORMA",
     "uxb": 1,
     "precio_vta": 10999
+  },
+  {
+    "codigos": 14382,
+    "productos": "JAMON TERMOLI 1/2 CAÑA 1/2HORMA",
+    "uxb": 1,
+    "precio_vta": 8249
+  },
+  {
+    "codigos": 14383,
+    "productos": "JAMON TERMOLI 1/2 CAÑA FETAS",
+    "uxb": 1,
+    "precio_vta": 9999
+  },
+  {
+    "codigos": 14381,
+    "productos": "JAMON TERMOLI 1/2 CAÑA HORMA",
+    "uxb": 1,
+    "precio_vta": 7499
   },
   {
     "codigos": 13681,
@@ -47493,7 +49035,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477144,
     "productos": "JARABE DE MIEL SIROSKA POTE X 1 KG",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3199
   },
   {
     "codigos": 477735,
@@ -47506,12 +49048,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "JARDINERA COLORES HERALDPLAST x35CM",
     "uxb": 1,
     "precio_vta": 1499
-  },
-  {
-    "codigos": 475987,
-    "productos": "JARDINERA DOÑA PUPA HORTALIZ TTB 340GR",
-    "uxb": 24,
-    "precio_vta": 559
   },
   {
     "codigos": 1818,
@@ -47532,12 +49068,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 699
   },
   {
-    "codigos": 462228,
-    "productos": "JARDINERA MAROLIO T.P x340g",
-    "uxb": 24,
-    "precio_vta": 699
-  },
-  {
     "codigos": 460711,
     "productos": "JARDINERA SPAT HORT Y LEGUMBRES x300g",
     "uxb": 24,
@@ -47547,31 +49077,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466169,
     "productos": "JARRA + 6 VASOS FAC STAR",
     "uxb": 60,
-    "precio_vta": 5311
+    "precio_vta": 5842
   },
   {
     "codigos": 478804,
     "productos": "JARRA +4 VASOS STAR x1,75cc",
     "uxb": 36,
-    "precio_vta": 3260
+    "precio_vta": 3586
   },
   {
     "codigos": 8454,
     "productos": "JARRA 1.5L C/TAPA CARIOCA YESI",
     "uxb": 24,
-    "precio_vta": 2777
+    "precio_vta": 3054
   },
   {
     "codigos": 8695,
     "productos": "JARRA 2L C/TAPA CARIOCA YESI",
     "uxb": 24,
-    "precio_vta": 2656
+    "precio_vta": 2922
   },
   {
     "codigos": 480052,
     "productos": "JARRA CHILL COLORES CRISTAL IMP-E x2lt",
     "uxb": 1,
-    "precio_vta": 9539
+    "precio_vta": 5999
+  },
+  {
+    "codigos": 472332,
+    "productos": "JARRA D/VIDRIO C/TAPA TITIZ I-EM x1.5lt",
+    "uxb": 12,
+    "precio_vta": 8999
   },
   {
     "codigos": 472359,
@@ -47613,49 +49149,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466293,
     "productos": "JARRA FRUTAL KEVINS x1Lt",
     "uxb": 16,
-    "precio_vta": 2656
+    "precio_vta": 2922
   },
   {
     "codigos": 469310,
     "productos": "JARRA GRANDE C/EXP 1lt STAR",
     "uxb": 56,
-    "precio_vta": 3320
+    "precio_vta": 3652
   },
   {
     "codigos": 476842,
     "productos": "JARRA INFANTILES STAR",
     "uxb": 1,
-    "precio_vta": 2125
+    "precio_vta": 2337
   },
   {
     "codigos": 471306,
     "productos": "JARRA MODENA LUMILAGRO x1Lt",
     "uxb": 6,
-    "precio_vta": 11833
+    "precio_vta": 13016
   },
   {
     "codigos": 475549,
     "productos": "JARRA PLASTICA TALLADA TAPA PASTEL",
     "uxb": 1,
-    "precio_vta": 2463
+    "precio_vta": 2709
+  },
+  {
+    "codigos": 480769,
+    "productos": "JARRA TEA&POT IMP EMA 56370",
+    "uxb": 1,
+    "precio_vta": 11900
   },
   {
     "codigos": 479632,
     "productos": "JARRA TERMICA STANLEY RB-TE-02 IMP-E",
     "uxb": 20,
-    "precio_vta": 26564
+    "precio_vta": 29221
   },
   {
     "codigos": 477863,
     "productos": "JARRA VIDRIO C/TAPA PLAST SOIFER PCL1127",
     "uxb": 12,
-    "precio_vta": 6991
+    "precio_vta": 7690
   },
   {
     "codigos": 478635,
     "productos": "JARRA VIDRIO TAPA PLASTICA PCL1180 x1100cc",
     "uxb": 12,
-    "precio_vta": 6991
+    "precio_vta": 7690
   },
   {
     "codigos": 10513,
@@ -47667,43 +49209,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472041,
     "productos": "JARRITA DE VIDRIO MARMOLADA IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 9290
+    "precio_vta": 10219
   },
   {
     "codigos": 472040,
     "productos": "JARRITA NEGRA KITCHEN IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 8681
+    "precio_vta": 9549
   },
   {
     "codigos": 476078,
     "productos": "JARRO ACERO C/MANIJA x8cm SOIFER",
     "uxb": 36,
-    "precio_vta": 1906
+    "precio_vta": 2097
   },
   {
     "codigos": 467247,
     "productos": "JARRO ACERO INOXIDABLE x10cm",
     "uxb": 1,
-    "precio_vta": 2029
+    "precio_vta": 2232
   },
   {
     "codigos": 467246,
     "productos": "JARRO ACERO INOXIDABLE x12cm",
     "uxb": 1,
-    "precio_vta": 3190
+    "precio_vta": 3509
   },
   {
     "codigos": 469415,
     "productos": "JARRO ALUMINIO GENESIS N:12",
     "uxb": 1,
-    "precio_vta": 4866
+    "precio_vta": 5352
   },
   {
     "codigos": 469416,
     "productos": "JARRO ALUMINIO GENESIS N:14",
     "uxb": 1,
-    "precio_vta": 6001
+    "precio_vta": 6601
   },
   {
     "codigos": 475132,
@@ -47724,22 +49266,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3054
   },
   {
+    "codigos": 473349,
+    "productos": "JARRO CARPINTOS ARGOS",
+    "uxb": 1,
+    "precio_vta": 1690
+  },
+  {
     "codigos": 476074,
     "productos": "JARRO ENLOZADO BCO x10cm SOIFER",
     "uxb": 1,
-    "precio_vta": 3656
+    "precio_vta": 4022
   },
   {
     "codigos": 476075,
     "productos": "JARRO ENLOZADO BCO x12cm SOIFER",
     "uxb": 1,
-    "precio_vta": 6534
+    "precio_vta": 7188
   },
   {
     "codigos": 462716,
     "productos": "JARRO MILENIUM YESI",
     "uxb": 60,
-    "precio_vta": 1183
+    "precio_vta": 1301
   },
   {
     "codigos": 477843,
@@ -47766,6 +49314,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3260
   },
   {
+    "codigos": 9614,
+    "productos": "JARRO MUG LISO (DURAX)",
+    "uxb": 36,
+    "precio_vta": 2299
+  },
+  {
     "codigos": 469157,
     "productos": "JARRO MUG RECTO BLANCO",
     "uxb": 24,
@@ -47775,43 +49329,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2148,
     "productos": "JARRO N12 DOLCE",
     "uxb": 6,
-    "precio_vta": 10263
+    "precio_vta": 11290
   },
   {
     "codigos": 2150,
     "productos": "JARRO N14 DOLCE",
     "uxb": 6,
-    "precio_vta": 12074
+    "precio_vta": 13282
   },
   {
     "codigos": 2151,
     "productos": "JARRO N16 DOLCE",
     "uxb": 6,
-    "precio_vta": 13649
+    "precio_vta": 15014
   },
   {
     "codigos": 480438,
     "productos": "JARRO PRESTIGE N12",
     "uxb": 1,
-    "precio_vta": 11549
+    "precio_vta": 12704
   },
   {
     "codigos": 480439,
     "productos": "JARRO PRESTIGE N14",
     "uxb": 1,
-    "precio_vta": 12914
+    "precio_vta": 14206
   },
   {
     "codigos": 480440,
     "productos": "JARRO PRESTIGE N16",
     "uxb": 1,
-    "precio_vta": 13649
+    "precio_vta": 15014
   },
   {
     "codigos": 472043,
     "productos": "JARRON D/VIDRIO NEGRO MARMOLADO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 8274
+    "precio_vta": 9101
   },
   {
     "codigos": 468236,
@@ -47847,7 +49401,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473016,
     "productos": "JENGIBRE SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 944
+    "precio_vta": 1069
   },
   {
     "codigos": 2870,
@@ -48012,6 +49566,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3283
   },
   {
+    "codigos": 11505,
+    "productos": "JUEGO DE LLAVES COMB FERRAWYY X14UN",
+    "uxb": 1,
+    "precio_vta": 39990
+  },
+  {
     "codigos": 463611,
     "productos": "JUEGO DE LOTERIA",
     "uxb": 1,
@@ -48090,12 +49650,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 26564
   },
   {
-    "codigos": 476394,
-    "productos": "JUEGO DE SABANAS PALETTE 180 HILOS KING SIZE",
-    "uxb": 1,
-    "precio_vta": 33900
-  },
-  {
     "codigos": 9642,
     "productos": "JUEGO DE SABANAS X8 PIEZAS TUCU",
     "uxb": 1,
@@ -48106,6 +49660,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "JUEGO DE SANDWICH GOURMET",
     "uxb": 144,
     "precio_vta": 4041
+  },
+  {
+    "codigos": 74856,
+    "productos": "JUEGO DE TUBOS X40 PIEZAS TUCU",
+    "uxb": 1,
+    "precio_vta": 12900
   },
   {
     "codigos": 469462,
@@ -48423,25 +49983,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4655,
     "productos": "JUGO BAGGIO PRONTO JUNIOR x125ml DURAZNO",
     "uxb": 18,
-    "precio_vta": 329
+    "precio_vta": 399
   },
   {
     "codigos": 381,
     "productos": "JUGO BAGGIO PRONTO JUNIOR x125ml MANZANA",
     "uxb": 18,
-    "precio_vta": 329
+    "precio_vta": 399
   },
   {
     "codigos": 382,
     "productos": "JUGO BAGGIO PRONTO JUNIOR x125ml MULTIFRUTA",
     "uxb": 18,
-    "precio_vta": 329
+    "precio_vta": 399
   },
   {
     "codigos": 383,
     "productos": "JUGO BAGGIO PRONTO JUNIOR x125ml NARANJA",
     "uxb": 18,
-    "precio_vta": 329
+    "precio_vta": 399
   },
   {
     "codigos": 397,
@@ -48453,31 +50013,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468646,
     "productos": "JUGO BAGGIO PRONTO x1.5L DURAZNO",
     "uxb": 8,
-    "precio_vta": 1849
+    "precio_vta": 2599
   },
   {
     "codigos": 461640,
     "productos": "JUGO BAGGIO PRONTO x1.5L MANZANA",
     "uxb": 8,
-    "precio_vta": 1849
+    "precio_vta": 2599
   },
   {
     "codigos": 479785,
     "productos": "JUGO BAGGIO PRONTO x1.5L MIX CITRUS",
     "uxb": 8,
-    "precio_vta": 1849
+    "precio_vta": 2599
   },
   {
     "codigos": 460291,
     "productos": "JUGO BAGGIO PRONTO x1.5L MULTIFRUTA",
     "uxb": 8,
-    "precio_vta": 1849
+    "precio_vta": 2599
   },
   {
     "codigos": 461772,
     "productos": "JUGO BAGGIO PRONTO x1.5L NARANJA",
     "uxb": 8,
-    "precio_vta": 1849
+    "precio_vta": 2599
   },
   {
     "codigos": 370,
@@ -48657,25 +50217,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11369,
     "productos": "JUGO CEPITA PET TENTAC. VARIOS 1L",
     "uxb": 6,
-    "precio_vta": 1799
+    "precio_vta": 1949
   },
   {
     "codigos": 8464,
     "productos": "JUGO CEPITA TB MANZANA 1L",
     "uxb": 8,
-    "precio_vta": 1299
+    "precio_vta": 1499
   },
   {
     "codigos": 474584,
     "productos": "JUGO CEPITA TB MULTIFRUTA 1LT",
     "uxb": 8,
-    "precio_vta": 1349
+    "precio_vta": 1499
   },
   {
     "codigos": 8463,
     "productos": "JUGO CEPITA TB NARANJA 1L",
     "uxb": 8,
-    "precio_vta": 1349
+    "precio_vta": 1499
   },
   {
     "codigos": 11119,
@@ -48705,7 +50265,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11021,
     "productos": "JUGO CEPITA TENTACION x300ml VARIOS",
     "uxb": 6,
-    "precio_vta": 748
+    "precio_vta": 899
   },
   {
     "codigos": 4453,
@@ -48723,7 +50283,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480055,
     "productos": "JUGO CHICLE TUTTI x200ml",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 473122,
@@ -48735,49 +50295,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464905,
     "productos": "JUGO CITRIC NARANJA-MANGO x 500cc",
     "uxb": 12,
-    "precio_vta": 1899
+    "precio_vta": 2149
   },
   {
     "codigos": 468221,
     "productos": "JUGO CITRIC NARANJA/DURAZNO x 500g",
     "uxb": 12,
-    "precio_vta": 1999
+    "precio_vta": 2149
   },
   {
     "codigos": 472609,
     "productos": "JUGO CITRIC NARANJA/FRUTILLA x500g",
     "uxb": 12,
-    "precio_vta": 1999
+    "precio_vta": 2149
   },
   {
     "codigos": 464923,
     "productos": "JUGO CITRIC NARANJA/MANGO x 1LT",
     "uxb": 12,
-    "precio_vta": 3599
+    "precio_vta": 3999
   },
   {
     "codigos": 462944,
     "productos": "JUGO CITRIC x1L NARANJA",
     "uxb": 12,
-    "precio_vta": 3199
+    "precio_vta": 3599
   },
   {
     "codigos": 464922,
     "productos": "JUGO CITRIC x1L NJA DURAZNO",
     "uxb": 12,
-    "precio_vta": 3599
+    "precio_vta": 3999
   },
   {
     "codigos": 464924,
     "productos": "JUGO CITRIC x1L NJA FRUTILLA",
     "uxb": 12,
-    "precio_vta": 3599
+    "precio_vta": 3999
   },
   {
     "codigos": 464902,
     "productos": "JUGO CITRIC x500ml NARANJA",
     "uxb": 12,
-    "precio_vta": 1999
+    "precio_vta": 2149
   },
   {
     "codigos": 10989,
@@ -48795,7 +50355,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 25565,
     "productos": "JUGO CUARTO CRECIENTE LIM MEN Y JEN 1.5",
     "uxb": 6,
-    "precio_vta": 1099
+    "precio_vta": 1999
   },
   {
     "codigos": 10994,
@@ -48819,7 +50379,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2116,
     "productos": "JUGO DE LIMON MINERVA 1LT",
     "uxb": 12,
-    "precio_vta": 3699
+    "precio_vta": 3799
   },
   {
     "codigos": 2307,
@@ -48897,7 +50457,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463470,
     "productos": "JUGO E/SOB BC X18U VARIOS",
     "uxb": 16,
-    "precio_vta": 4389
+    "precio_vta": 5022
   },
   {
     "codigos": 945,
@@ -48999,7 +50559,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474385,
     "productos": "JUGO E/SOB NOEL 180UN ANANA",
     "uxb": 12,
-    "precio_vta": 3199
+    "precio_vta": 4499
   },
   {
     "codigos": 479537,
@@ -49305,43 +50865,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479946,
     "productos": "JUGO ESTANCIA LOS NARANJOS LIMONADA x500cc",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 479823,
     "productos": "JUGO ESTANCIA LOS NARANJOS NAR/ANA x500CC",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 479825,
     "productos": "JUGO ESTANCIA LOS NARANJOS NAR/DUR x500cc",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 479824,
     "productos": "JUGO ESTANCIA LOS NARANJOS NAR/FRUT x500cc",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 480097,
     "productos": "JUGO ESTANCIA LOS NARANJOS NARANJ/MARACU x500cc",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 479822,
     "productos": "JUGO ESTANCIA LOS NARANJOS NARANJA x500cc",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 480096,
     "productos": "JUGO ESTANCIA LOS NARANJOS POMELO x500cc",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2099
   },
   {
     "codigos": 473750,
@@ -49365,7 +50925,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480058,
     "productos": "JUGO LIMONADA SMUDIS x500ml.",
     "uxb": 12,
-    "precio_vta": 1479
+    "precio_vta": 1799
   },
   {
     "codigos": 468656,
@@ -49485,25 +51045,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479746,
     "productos": "JUGO SMUDIS BANANA/ANANÁ/FRUTILL x500cc",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1799
   },
   {
     "codigos": 9018,
     "productos": "JUGO SMUDIS NARANJA 100% x1Lt",
     "uxb": 8,
-    "precio_vta": 1599
+    "precio_vta": 2999
   },
   {
     "codigos": 479148,
     "productos": "JUGO SMUDIS NARANJA x500cc",
     "uxb": 12,
-    "precio_vta": 1479
+    "precio_vta": 1799
   },
   {
     "codigos": 479745,
     "productos": "JUGO SMUDIS NARANJA/FRUTILLA x500cc",
     "uxb": 12,
-    "precio_vta": 1249
+    "precio_vta": 1799
   },
   {
     "codigos": 10970,
@@ -49515,49 +51075,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479224,
     "productos": "JUGO TUTTI X200ML DURAZNO",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 479223,
     "productos": "JUGO TUTTI X200ML MANZANA",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 479225,
     "productos": "JUGO TUTTI X200ML MULTFRUTA",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 479222,
     "productos": "JUGO TUTTI X200ML NARANJA",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 479221,
     "productos": "JUGO TUTTI X200ML UVA",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 10917,
     "productos": "JUGO TUTTI x1L MANZANA",
     "uxb": 8,
-    "precio_vta": 1299
+    "precio_vta": 1499
   },
   {
     "codigos": 10470,
     "productos": "JUGO TUTTI x1L MIX FRUTAL",
     "uxb": 8,
-    "precio_vta": 1399
+    "precio_vta": 1499
   },
   {
     "codigos": 10473,
     "productos": "JUGO TUTTI x1L NARANJA",
     "uxb": 8,
-    "precio_vta": 1399
+    "precio_vta": 1499
   },
   {
     "codigos": 471036,
@@ -49569,7 +51129,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480056,
     "productos": "JUGO XTREME ACIDO TUTTI x200ml",
     "uxb": 18,
-    "precio_vta": 339
+    "precio_vta": 359
   },
   {
     "codigos": 9058,
@@ -49677,7 +51237,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12125,
     "productos": "KETCHUP DANICA X3KG",
     "uxb": 4,
-    "precio_vta": 9187
+    "precio_vta": 11150
   },
   {
     "codigos": 9036,
@@ -49746,6 +51306,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 19940
   },
   {
+    "codigos": 474769,
+    "productos": "KIDS ZERO ACOND. PIOJOS ALGABO x500cc",
+    "uxb": 11,
+    "precio_vta": 4299
+  },
+  {
+    "codigos": 474768,
+    "productos": "KIDS ZERO SHAMPOO PIOJOS ALGABO x500cc",
+    "uxb": 11,
+    "precio_vta": 4299
+  },
+  {
     "codigos": 9610,
     "productos": "KINDER BARRITAS 4 BARRAS X50G",
     "uxb": 1,
@@ -49761,7 +51333,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480246,
     "productos": "KIT AUTO ROMYL",
     "uxb": 1,
-    "precio_vta": 6614
+    "precio_vta": 7276
   },
   {
     "codigos": 477896,
@@ -49773,7 +51345,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480430,
     "productos": "KIT CONTENEDOR CONECTA 4 PIEZAS",
     "uxb": 1,
-    "precio_vta": 8399
+    "precio_vta": 9239
   },
   {
     "codigos": 477895,
@@ -49786,6 +51358,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "KIT D/MAQUILLAJE ARTISTICO INF IMP-E",
     "uxb": 8,
     "precio_vta": 8199
+  },
+  {
+    "codigos": 480831,
+    "productos": "KIT KIOSCO GAMAGAM x3 +24 BOLSITAS",
+    "uxb": 1,
+    "precio_vta": 12199
   },
   {
     "codigos": 478605,
@@ -49965,7 +51543,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472653,
     "productos": "LAMINA DISTRIVALLE 20X25 ECONOMICA",
     "uxb": 1,
-    "precio_vta": 5669
+    "precio_vta": 9299
   },
   {
     "codigos": 3734,
@@ -50002,6 +51580,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "LAMPARA D/CAMPING XTE LED-SMD IMP-E",
     "uxb": 1,
     "precio_vta": 15999
+  },
+  {
+    "codigos": 480785,
+    "productos": "LAMPARA DIAMOND TABLE IMP EMA 57460",
+    "uxb": 1,
+    "precio_vta": 21999
   },
   {
     "codigos": 463493,
@@ -50100,10 +51684,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 649
   },
   {
+    "codigos": 78462,
+    "productos": "LAMPARA LED CANDELA LUZ FRIA X50W",
+    "uxb": 1,
+    "precio_vta": 6190
+  },
+  {
     "codigos": 470244,
     "productos": "LAMPARA LED CLASSIC KIAN 15W",
     "uxb": 1,
     "precio_vta": 1199
+  },
+  {
+    "codigos": 470243,
+    "productos": "LAMPARA LED CLASSIC KIAN 9W",
+    "uxb": 1,
+    "precio_vta": 999
   },
   {
     "codigos": 471131,
@@ -50298,6 +51894,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 999
   },
   {
+    "codigos": 41452,
+    "productos": "LAMPARA MINERA TUCU",
+    "uxb": 1,
+    "precio_vta": 6390
+  },
+  {
     "codigos": 472294,
     "productos": "LAMPARA MULTILED 14W LUZ CALIDA MULTILED",
     "uxb": 1,
@@ -50340,10 +51942,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 15900
   },
   {
+    "codigos": 480760,
+    "productos": "LAMPARA TABLE LAMP IMP EMA 57459",
+    "uxb": 20,
+    "precio_vta": 19990
+  },
+  {
     "codigos": 471523,
     "productos": "LAMPAZO CON CABO TUCU X 1Un.",
     "uxb": 1,
     "precio_vta": 2285
+  },
+  {
+    "codigos": 466495,
+    "productos": "LAMPAZO DE TELA TUCU",
+    "uxb": 1,
+    "precio_vta": 243
   },
   {
     "codigos": 465754,
@@ -51003,19 +52617,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460744,
     "productos": "LATA BATENN YERBA/AZUCAR",
     "uxb": 1,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 476090,
     "productos": "LATA CILINDRICA DECO C/PICO VERTEDOR SOIFER",
     "uxb": 12,
-    "precio_vta": 3297
+    "precio_vta": 3627
   },
   {
     "codigos": 573,
     "productos": "LATA CON PICO VERTEDOR",
     "uxb": 1,
-    "precio_vta": 1889
+    "precio_vta": 2078
   },
   {
     "codigos": 480239,
@@ -51045,7 +52659,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473015,
     "productos": "LAUREL SABOR SUR x10g",
     "uxb": 5,
-    "precio_vta": 1049
+    "precio_vta": 1499
   },
   {
     "codigos": 3917,
@@ -51225,7 +52839,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463935,
     "productos": "LAVANDINA HEROE X4LT",
     "uxb": 3,
-    "precio_vta": 2676
+    "precio_vta": 2699
   },
   {
     "codigos": 5707,
@@ -51255,7 +52869,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471473,
     "productos": "LAVANDINA ODEX LAVANDA x1lt",
     "uxb": 15,
-    "precio_vta": 1112
+    "precio_vta": 1299
   },
   {
     "codigos": 478323,
@@ -51267,13 +52881,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465568,
     "productos": "LAVANDINA ODEX x1Lt",
     "uxb": 15,
-    "precio_vta": 787
+    "precio_vta": 799
   },
   {
     "codigos": 465517,
     "productos": "LAVANDINA ODEX x2Lt",
     "uxb": 8,
-    "precio_vta": 1532
+    "precio_vta": 1799
   },
   {
     "codigos": 465516,
@@ -51285,7 +52899,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7080,
     "productos": "LAVANDINA QUERUBIN ROPA BCA 2LT",
     "uxb": 8,
-    "precio_vta": 3149
+    "precio_vta": 3299
   },
   {
     "codigos": 7918,
@@ -51330,6 +52944,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 985
   },
   {
+    "codigos": 471552,
+    "productos": "LAVANDINA X5 CONCENTRADA x4Lt",
+    "uxb": 3,
+    "precio_vta": 2781
+  },
+  {
     "codigos": 468390,
     "productos": "LAVANDINA X5 MARINA x1Lt",
     "uxb": 12,
@@ -51351,7 +52971,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1285,
     "productos": "LAVAVAJILLA LIMON HEROE X300ML",
     "uxb": 24,
-    "precio_vta": 902
+    "precio_vta": 999
   },
   {
     "codigos": 3997,
@@ -51387,37 +53007,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8846,
     "productos": "LAVAVAJILLAS ESENCIAL VARIOS 750cc",
     "uxb": 15,
-    "precio_vta": 943
+    "precio_vta": 999
   },
   {
     "codigos": 4089,
     "productos": "LAVAVAJILLAS HEROE ALOE VERA X750CC",
     "uxb": 15,
-    "precio_vta": 923
+    "precio_vta": 999
   },
   {
     "codigos": 475265,
     "productos": "LAVAVAJILLAS HEROE COLAGENO 750ML",
     "uxb": 15,
-    "precio_vta": 923
+    "precio_vta": 999
   },
   {
     "codigos": 9044,
     "productos": "LAVAVAJILLAS HEROE GLICERINA X750CC",
     "uxb": 15,
-    "precio_vta": 923
+    "precio_vta": 999
   },
   {
     "codigos": 8789,
     "productos": "LAVAVAJILLAS HEROE LIMON X750CC",
     "uxb": 15,
-    "precio_vta": 923
+    "precio_vta": 999
   },
   {
-    "codigos": 469220,
-    "productos": "LAVAVAJILLAS VENCEDOR VARIOS x750ml",
-    "uxb": 12,
-    "precio_vta": 1049
+    "codigos": 480811,
+    "productos": "LEBERWURST CALCHA x200g",
+    "uxb": 1,
+    "precio_vta": 1299
   },
   {
     "codigos": 469218,
@@ -51438,34 +53058,40 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1349
   },
   {
+    "codigos": 470828,
+    "productos": "LEBERWURST PALADINI x 250g",
+    "uxb": 1,
+    "precio_vta": 2199
+  },
+  {
     "codigos": 473457,
     "productos": "LECHE ARMONIA LARGA VIDA 1% x1Lt",
     "uxb": 12,
-    "precio_vta": 1544
+    "precio_vta": 1745
   },
   {
     "codigos": 473456,
     "productos": "LECHE ARMONIA LARGA VIDA 2% x1lt",
     "uxb": 12,
-    "precio_vta": 1544
+    "precio_vta": 1745
   },
   {
     "codigos": 473047,
     "productos": "LECHE ARMONIA SACHET 1%",
     "uxb": 17,
-    "precio_vta": 1425
+    "precio_vta": 1603
   },
   {
     "codigos": 473048,
     "productos": "LECHE ARMONIA SACHET 2%",
     "uxb": 17,
-    "precio_vta": 1425
+    "precio_vta": 1603
   },
   {
     "codigos": 470216,
     "productos": "LECHE ARMONIA SACHET 3%",
     "uxb": 17,
-    "precio_vta": 1425
+    "precio_vta": 1603
   },
   {
     "codigos": 478310,
@@ -51477,25 +53103,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475580,
     "productos": "LECHE CHOCOLATADA CHO-CHOCO 200CC",
     "uxb": 18,
-    "precio_vta": 569
+    "precio_vta": 649
   },
   {
     "codigos": 477305,
     "productos": "LECHE CHOCOLATADA CHO-CHOCO x1lt",
     "uxb": 8,
-    "precio_vta": 2399
+    "precio_vta": 2699
   },
   {
     "codigos": 472821,
     "productos": "LECHE CHOCOLATADA LA SERENISIMA X 1L",
     "uxb": 12,
-    "precio_vta": 2883
+    "precio_vta": 3028
   },
   {
     "codigos": 472820,
     "productos": "LECHE CHOCOLATADA LA SERENISIMA X 200",
     "uxb": 24,
-    "precio_vta": 1235
+    "precio_vta": 1297
   },
   {
     "codigos": 473336,
@@ -51507,7 +53133,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462667,
     "productos": "LECHE CINDOR CHOCOLATADA x1Lt",
     "uxb": 12,
-    "precio_vta": 3604
+    "precio_vta": 3785
   },
   {
     "codigos": 477623,
@@ -51525,13 +53151,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 32,
     "productos": "LECHE COSALTA DESCREMADA X1L",
     "uxb": 12,
-    "precio_vta": 1598
+    "precio_vta": 1590
   },
   {
     "codigos": 472295,
     "productos": "LECHE COSALTA ENTERA X1L",
     "uxb": 12,
-    "precio_vta": 1589
+    "precio_vta": 1590
   },
   {
     "codigos": 479303,
@@ -51549,25 +53175,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467964,
     "productos": "LECHE CRECER BABY 2 LA SERE x200cc",
     "uxb": 24,
-    "precio_vta": 1709
+    "precio_vta": 1884
   },
   {
     "codigos": 467965,
     "productos": "LECHE CRECER BABY 3 LA SERE x200ml.",
     "uxb": 12,
-    "precio_vta": 1709
+    "precio_vta": 1884
   },
   {
     "codigos": 467963,
     "productos": "LECHE CRECER LA SERE BABY 1x200cc",
     "uxb": 24,
-    "precio_vta": 2048
+    "precio_vta": 2257
   },
   {
     "codigos": 466623,
     "productos": "LECHE DE ALMENDRAS SILK x 946cc",
     "uxb": 12,
-    "precio_vta": 4989
+    "precio_vta": 5501
   },
   {
     "codigos": 479019,
@@ -51579,13 +53205,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470627,
     "productos": "LECHE E/POLVO ARMONIA x400g",
     "uxb": 1,
-    "precio_vta": 5396
+    "precio_vta": 5242
   },
   {
     "codigos": 466315,
     "productos": "LECHE E/POLVO ARMONIA x800g",
     "uxb": 1,
-    "precio_vta": 9300
+    "precio_vta": 9864
   },
   {
     "codigos": 478204,
@@ -51594,64 +53220,70 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1573
   },
   {
+    "codigos": 480723,
+    "productos": "LECHE E/POLVO LA SERE PROTEIN x400g",
+    "uxb": 1,
+    "precio_vta": 9249
+  },
+  {
     "codigos": 465732,
     "productos": "LECHE E/POLVO LA SERE ZERO LACT x400gr",
     "uxb": 1,
-    "precio_vta": 8054
+    "precio_vta": 8109
   },
   {
     "codigos": 464920,
     "productos": "LECHE E/POLVO LA SERENISIMA BSA x200gr",
     "uxb": 1,
-    "precio_vta": 3314
+    "precio_vta": 3337
   },
   {
     "codigos": 465733,
     "productos": "LECHE E/POLVO LA SERENISIMA CLAS x400gr",
     "uxb": 1,
-    "precio_vta": 6272
+    "precio_vta": 6656
   },
   {
     "codigos": 478730,
     "productos": "LECHE E/POLVO LA SERENISIMA DESC 800GR",
     "uxb": 1,
-    "precio_vta": 10814
+    "precio_vta": 11481
   },
   {
     "codigos": 464921,
     "productos": "LECHE E/POLVO LA SERENISIMA DESC BSA x200gr",
     "uxb": 1,
-    "precio_vta": 3225
+    "precio_vta": 3337
   },
   {
     "codigos": 470626,
     "productos": "LECHE E/POLVO LA SERENISIMA DESC x400gr",
     "uxb": 1,
-    "precio_vta": 6085
+    "precio_vta": 6303
   },
   {
     "codigos": 478727,
     "productos": "LECHE E/POLVO LA SERENISIMA ENT 800GR",
     "uxb": 1,
-    "precio_vta": 10804
+    "precio_vta": 11481
   },
   {
     "codigos": 12073,
     "productos": "LECHE E/POLVO LECHERA NESTLE x400g",
     "uxb": 12,
-    "precio_vta": 5248
+    "precio_vta": 4999
   },
   {
     "codigos": 4761,
     "productos": "LECHE E/POLVO LECHERA NESTLE x800g",
     "uxb": 12,
-    "precio_vta": 9448
+    "precio_vta": 8999
   },
   {
     "codigos": 465591,
     "productos": "LECHE E/POLVO MOLICO BALANCE x800gr",
     "uxb": 6,
-    "precio_vta": 5563
+    "precio_vta": 6599
   },
   {
     "codigos": 467330,
@@ -51717,31 +53349,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468573,
     "productos": "LECHE E/POLVO NUTRILON 2 BSA X1.2KG",
     "uxb": 1,
-    "precio_vta": 41270
+    "precio_vta": 43334
   },
   {
     "codigos": 468574,
     "productos": "LECHE E/POLVO NUTRILON 3 BSA X1.2KG",
     "uxb": 1,
-    "precio_vta": 39559
+    "precio_vta": 41537
   },
   {
     "codigos": 468575,
     "productos": "LECHE E/POLVO NUTRILON 4 BSA X1.2KG",
     "uxb": 1,
-    "precio_vta": 37268
+    "precio_vta": 39131
   },
   {
     "codigos": 478856,
     "productos": "LECHE E/POLVO NUTRILON POUCH 3 X1.2KG",
     "uxb": 1,
-    "precio_vta": 46504
+    "precio_vta": 48829
   },
   {
     "codigos": 478855,
     "productos": "LECHE E/POLVO NUTRILON POUCH X1.2KG",
     "uxb": 1,
-    "precio_vta": 46504
+    "precio_vta": 48829
   },
   {
     "codigos": 467956,
@@ -51753,25 +53385,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467957,
     "productos": "LECHE E/POLVO NUTRILON PREM. 1 X800G",
     "uxb": 1,
-    "precio_vta": 47249
+    "precio_vta": 49612
   },
   {
     "codigos": 467955,
     "productos": "LECHE E/POLVO NUTRILON PREM. 2 X800G",
     "uxb": 1,
-    "precio_vta": 41745
+    "precio_vta": 44999
   },
   {
     "codigos": 467954,
     "productos": "LECHE E/POLVO NUTRILON PREM.3 X800GR",
     "uxb": 1,
-    "precio_vta": 38717
+    "precio_vta": 49927
   },
   {
     "codigos": 467953,
     "productos": "LECHE E/POLVO NUTRILON PROFUT 4 800G",
     "uxb": 1,
-    "precio_vta": 46936
+    "precio_vta": 49283
   },
   {
     "codigos": 479737,
@@ -51849,55 +53481,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465013,
     "productos": "LECHE E/POLVO VITAL 1 INFANTIL x800gr",
     "uxb": 1,
-    "precio_vta": 31148
+    "precio_vta": 36445
   },
   {
     "codigos": 468576,
     "productos": "LECHE E/POLVO VITAL 1 POUCH x1kg",
     "uxb": 1,
-    "precio_vta": 42610
+    "precio_vta": 44741
   },
   {
     "codigos": 468811,
     "productos": "LECHE E/POLVO VITAL 2 POUCH x1kg",
     "uxb": 1,
-    "precio_vta": 35581
+    "precio_vta": 37360
   },
   {
     "codigos": 467958,
     "productos": "LECHE E/POLVO VITAL 3 INFANT 800GR",
     "uxb": 1,
-    "precio_vta": 27578
+    "precio_vta": 28957
   },
   {
     "codigos": 473431,
     "productos": "LECHE E/POLVO VITAL 3 POUCH x1Kg",
     "uxb": 1,
-    "precio_vta": 29200
+    "precio_vta": 30660
   },
   {
     "codigos": 467952,
     "productos": "LECHE E/POLVO VITAL INF 2 800GR",
     "uxb": 1,
-    "precio_vta": 32444
+    "precio_vta": 34067
   },
   {
     "codigos": 467960,
     "productos": "LECHE E/POLVO VITAL INFANT 1 375G",
     "uxb": 1,
-    "precio_vta": 6349
+    "precio_vta": 6666
   },
   {
     "codigos": 478857,
     "productos": "LECHE E/POLVO VITAL LATA 4 X800GR",
     "uxb": 1,
-    "precio_vta": 21521
+    "precio_vta": 22597
   },
   {
     "codigos": 478851,
     "productos": "LECHE E/POLVO VITAL POUCH 4 X1KG",
     "uxb": 1,
-    "precio_vta": 20440
+    "precio_vta": 21462
   },
   {
     "codigos": 476794,
@@ -51909,79 +53541,85 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466745,
     "productos": "LECHE LA SERE C/PROTEINA CHOCO x1LT",
     "uxb": 12,
-    "precio_vta": 3735
+    "precio_vta": 3949
   },
   {
     "codigos": 476597,
     "productos": "LECHE LA SERE C/PROTEINA CHOCO x200cc",
     "uxb": 24,
-    "precio_vta": 1305
+    "precio_vta": 1379
   },
   {
     "codigos": 463768,
     "productos": "LECHE LA SERENISIMA 1% TTB L.VIDA x1lt",
     "uxb": 12,
-    "precio_vta": 1900
+    "precio_vta": 2287
   },
   {
     "codigos": 464848,
     "productos": "LECHE LA SERENISIMA 3% TTB L.VIDA xl1t",
     "uxb": 12,
-    "precio_vta": 1899
+    "precio_vta": 2287
   },
   {
     "codigos": 473944,
     "productos": "LECHE LA SERENISIMA BOT BARISTA x1lt",
     "uxb": 6,
-    "precio_vta": 2111
+    "precio_vta": 2457
+  },
+  {
+    "codigos": 480574,
+    "productos": "LECHE LA SERENISIMA BOT COLAGENO x1lt",
+    "uxb": 1,
+    "precio_vta": 2535
   },
   {
     "codigos": 468597,
     "productos": "LECHE LA SERENISIMA BOT DESC 1% 1LT",
     "uxb": 6,
-    "precio_vta": 1956
+    "precio_vta": 2333
   },
   {
     "codigos": 465846,
     "productos": "LECHE LA SERENISIMA BOT ENTERA 3% x1lt",
     "uxb": 6,
-    "precio_vta": 1853
+    "precio_vta": 2333
   },
   {
     "codigos": 469120,
     "productos": "LECHE LA SERENISIMA BOT EXT.CALC x1lt",
     "uxb": 6,
-    "precio_vta": 2111
+    "precio_vta": 2457
   },
   {
     "codigos": 469117,
     "productos": "LECHE LA SERENISIMA BOT HIERRO x1lt",
     "uxb": 6,
-    "precio_vta": 2111
+    "precio_vta": 2457
   },
   {
     "codigos": 473027,
     "productos": "LECHE LA SERENISIMA BOT PREBIOT x1lt",
     "uxb": 6,
-    "precio_vta": 2199
+    "precio_vta": 2457
   },
   {
     "codigos": 470594,
     "productos": "LECHE LA SERENISIMA BOT PROTEINA x1lt",
     "uxb": 6,
-    "precio_vta": 1900
+    "precio_vta": 2457
   },
   {
     "codigos": 469115,
     "productos": "LECHE LA SERENISIMA BOT ZERO LAC x1lt",
     "uxb": 6,
-    "precio_vta": 1900
+    "precio_vta": 2457
   },
   {
     "codigos": 463686,
     "productos": "LECHE LA SERENISIMA SACHET 1% DESCREMADA x1lt",
     "uxb": 17,
-    "precio_vta": 1606
+    "precio_vta": 1810
   },
   {
     "codigos": 479271,
@@ -52005,13 +53643,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11886,
     "productos": "LECHE LA SERENISIMA SACHET 3% x1lt",
     "uxb": 17,
-    "precio_vta": 1606
+    "precio_vta": 1810
   },
   {
     "codigos": 471967,
     "productos": "LECHE LA SERENISIMA SACHET RED LACT x1lt",
     "uxb": 17,
-    "precio_vta": 1773
+    "precio_vta": 1844
   },
   {
     "codigos": 480515,
@@ -52023,7 +53661,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466218,
     "productos": "LECHE MAMA MECHA ENTERA/DESC x1lt",
     "uxb": 12,
-    "precio_vta": 1189
+    "precio_vta": 1249
+  },
+  {
+    "codigos": 462229,
+    "productos": "LECHE MAROLIO ENTERA LARGA VIDA X 1 LT",
+    "uxb": 12,
+    "precio_vta": 1899
   },
   {
     "codigos": 468165,
@@ -52059,31 +53703,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479357,
     "productos": "LECHE NUTRILON 1 POUCH x1.2Kg",
     "uxb": 1,
-    "precio_vta": 62726
+    "precio_vta": 65863
   },
   {
     "codigos": 479361,
     "productos": "LECHE NUTRILON 2 POUCH x1.2Kg",
     "uxb": 1,
-    "precio_vta": 58184
+    "precio_vta": 67189
   },
   {
     "codigos": 464713,
     "productos": "LECHE NUTRILON PREMIUM 1 BRICK x200cc",
-    "uxb": 6,
-    "precio_vta": 2976
+    "uxb": 24,
+    "precio_vta": 3125
   },
   {
     "codigos": 465619,
     "productos": "LECHE NUTRILON PREMIUM 2 BRICK x200cc",
-    "uxb": 6,
-    "precio_vta": 2574
+    "uxb": 24,
+    "precio_vta": 2703
   },
   {
     "codigos": 468843,
     "productos": "LECHE NUTRILON PREMIUM 3 x200cc",
     "uxb": 6,
-    "precio_vta": 2368
+    "precio_vta": 2487
   },
   {
     "codigos": 463117,
@@ -52092,10 +53736,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5698
   },
   {
+    "codigos": 52146,
+    "productos": "LECHE TRES NIÑAS DESLACT X1L",
+    "uxb": 12,
+    "precio_vta": 0
+  },
+  {
     "codigos": 468357,
     "productos": "LECHE VEGETAL LA SERENISIMA x1lt",
-    "uxb": 12,
-    "precio_vta": 3589
+    "uxb": 1,
+    "precio_vta": 3568
   },
   {
     "codigos": 468188,
@@ -52113,25 +53763,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478853,
     "productos": "LECHE VITAL BRICK 4 x200cc",
     "uxb": 6,
-    "precio_vta": 1132
+    "precio_vta": 1189
   },
   {
     "codigos": 465620,
     "productos": "LECHE VITAL INFANTIL 1 BRICK x200ml",
     "uxb": 6,
-    "precio_vta": 1744
+    "precio_vta": 1832
   },
   {
     "codigos": 465621,
     "productos": "LECHE VITAL INFANTIL 2 BRICK x200cc",
     "uxb": 6,
-    "precio_vta": 1570
+    "precio_vta": 1648
   },
   {
     "codigos": 465631,
     "productos": "LECHE VITAL INFANTIL 3 BRICK x200cc",
     "uxb": 6,
-    "precio_vta": 1308
+    "precio_vta": 1301
   },
   {
     "codigos": 465990,
@@ -52176,12 +53826,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 899
   },
   {
-    "codigos": 476396,
-    "productos": "LENTEJAS ALTO PAVON PREM SECAS 300GR",
-    "uxb": 24,
-    "precio_vta": 799
-  },
-  {
     "codigos": 468156,
     "productos": "LENTEJAS CHOCOLATE CHOOK x1Kg",
     "uxb": 10,
@@ -52203,19 +53847,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467178,
     "productos": "LENTEJAS JOSE LOPEZ X400GR",
     "uxb": 10,
-    "precio_vta": 1590
+    "precio_vta": 1299
   },
   {
     "codigos": 2030,
     "productos": "LENTEJAS LISETTA x400gr",
     "uxb": 10,
     "precio_vta": 999
-  },
-  {
-    "codigos": 2031,
-    "productos": "LENTEJAS MAROLIO LATA 350G",
-    "uxb": 24,
-    "precio_vta": 729
   },
   {
     "codigos": 460975,
@@ -52227,7 +53865,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461144,
     "productos": "LENTEJAS MAROLIO x400g",
     "uxb": 10,
-    "precio_vta": 1099
+    "precio_vta": 1199
   },
   {
     "codigos": 3550,
@@ -52239,13 +53877,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463407,
     "productos": "LENTEJAS MONEDA X400g",
     "uxb": 10,
-    "precio_vta": 1049
-  },
-  {
-    "codigos": 475574,
-    "productos": "LENTEJAS MONTENEVI TETRA x340g",
-    "uxb": 24,
-    "precio_vta": 599
+    "precio_vta": 999
   },
   {
     "codigos": 2032,
@@ -52302,10 +53934,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1499
   },
   {
+    "codigos": 54871,
+    "productos": "LENTES DE LECTURA TUCU",
+    "uxb": 1,
+    "precio_vta": 2099
+  },
+  {
     "codigos": 11730,
     "productos": "LEVADURA CALSA x 50G",
     "uxb": 1,
-    "precio_vta": 599
+    "precio_vta": 629
   },
   {
     "codigos": 474215,
@@ -52323,7 +53961,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471008,
     "productos": "LEVADURA ORALI x500g",
     "uxb": 20,
-    "precio_vta": 2999
+    "precio_vta": 3199
   },
   {
     "codigos": 480059,
@@ -52497,97 +54135,97 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467852,
     "productos": "LICOR BANANA TRES PLUMAS x700cc",
     "uxb": 6,
-    "precio_vta": 4198
+    "precio_vta": 5999
   },
   {
     "codigos": 11138,
     "productos": "LICOR BAR&PUBS x750Lt CHOCOLATE",
     "uxb": 6,
-    "precio_vta": 3674
+    "precio_vta": 3968
   },
   {
     "codigos": 11139,
     "productos": "LICOR BAR&PUBS x750Lt DCE LECHE",
     "uxb": 6,
-    "precio_vta": 3674
+    "precio_vta": 3968
   },
   {
     "codigos": 2768,
     "productos": "LICOR BAR&PUBS x750Lt PIÑA COLAD",
     "uxb": 6,
-    "precio_vta": 3674
+    "precio_vta": 3968
   },
   {
     "codigos": 12063,
     "productos": "LICOR BOLS x700ml BLUE CURAC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2039,
     "productos": "LICOR BOLS x700ml CAFE COÑAC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 4444,
     "productos": "LICOR BOLS x700ml CHERRY BRA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2041,
     "productos": "LICOR BOLS x700ml CHOC BLANC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2043,
     "productos": "LICOR BOLS x700ml CREMA MENT",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2046,
     "productos": "LICOR BOLS x700ml DURAZNO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2047,
     "productos": "LICOR BOLS x700ml FRUTILLA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2048,
     "productos": "LICOR BOLS x700ml HUEVO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2049,
     "productos": "LICOR BOLS x700ml LEMONCELLO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2051,
     "productos": "LICOR BOLS x700ml MANZ ROJA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 2050,
     "productos": "LICOR BOLS x700ml MANZ VERDE",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 4845,
     "productos": "LICOR BOLS x700ml TRIPLE SEC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 4999
   },
   {
     "codigos": 559,
@@ -52671,7 +54309,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4490,
     "productos": "LICOR CAFE AL COÑAC BOLS X700ML",
     "uxb": 6,
-    "precio_vta": 3148
+    "precio_vta": 4999
   },
   {
     "codigos": 6760,
@@ -52707,55 +54345,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2070,
     "productos": "LICOR CUSENIER ESP. 700ml CURACAO",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 2061,
     "productos": "LICOR CUSENIER ESP. 700ml DCE LECHE",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 2064,
     "productos": "LICOR CUSENIER ESP. 700ml HUEVO",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 8145,
     "productos": "LICOR CUSENIER ESP. 700ml LEMONCELLO",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 6589,
     "productos": "LICOR CUSENIER FRUTAL x700ml COCO",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 2063,
     "productos": "LICOR CUSENIER FRUTAL x700ml FRUTILLA",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 2067,
     "productos": "LICOR CUSENIER FRUTAL x700ml MELON",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 2068,
     "productos": "LICOR CUSENIER FRUTAL x700ml MENTA",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 2069,
     "productos": "LICOR CUSENIER FRUTAL x700ml TRIPLE SEC",
     "uxb": 6,
-    "precio_vta": 6289
+    "precio_vta": 6999
   },
   {
     "codigos": 467848,
@@ -52779,7 +54417,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6761,
     "productos": "LICOR MENTA PREMIUM BOLS X700ML",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4999
   },
   {
     "codigos": 2093,
@@ -52851,181 +54489,181 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4058,
     "productos": "LICOR TRES PLUMAS ESP. x700ml AL HUEVO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 4059,
     "productos": "LICOR TRES PLUMAS ESP. x700ml AMARETTO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7182,
     "productos": "LICOR TRES PLUMAS ESP. x700ml BANANA DCE",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7183,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE",
     "uxb": 6,
-    "precio_vta": 4198
+    "precio_vta": 5999
   },
   {
     "codigos": 11904,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE A/DCE",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7199,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE CHOCO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7187,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE COÑAC",
     "uxb": 6,
-    "precio_vta": 5029
+    "precio_vta": 5999
   },
   {
     "codigos": 7201,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE GRAPA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7200,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE RON",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7198,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CAFE WHISK",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 473166,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOC AMARG",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 472940,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOC AVELL",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7213,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOC BLANC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7212,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOC C/ALM",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7181,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOC DCE L",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7210,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOC MENTA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7184,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOCO FRUT",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7206,
     "productos": "LICOR TRES PLUMAS ESP. x700ml CHOCOLATE",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7186,
     "productos": "LICOR TRES PLUMAS ESP. x700ml DCE C/ALME",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7209,
     "productos": "LICOR TRES PLUMAS ESP. x700ml DCE LECHE",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7188,
     "productos": "LICOR TRES PLUMAS ESP. x700ml SECO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 4061,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml BLUE CURAC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7211,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml DURAZNO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7207,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml FRUTILLA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 4055,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml KIWI",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7180,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml LEMONCELLO",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 4060,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml MANZANA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 467056,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml MELON",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 7208,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml MENTA",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 456777,
     "productos": "LICOR TRES PLUMAS FRUTAL x700ml TRIPLE SEC",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5999
   },
   {
     "codigos": 480267,
@@ -53079,7 +54717,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4437,
     "productos": "LIMP A/GRASA CIF DP X450ML",
     "uxb": 15,
-    "precio_vta": 1678
+    "precio_vta": 1899
   },
   {
     "codigos": 200,
@@ -53097,7 +54735,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4087,
     "productos": "LIMP A/GRASA CIF GAT X500ML",
     "uxb": 12,
-    "precio_vta": 3463
+    "precio_vta": 3699
   },
   {
     "codigos": 476574,
@@ -53121,7 +54759,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5723,
     "productos": "LIMP A/GRASA MR MUSCULO E/P C/L DP X450ML",
     "uxb": 15,
-    "precio_vta": 1970
+    "precio_vta": 2399
   },
   {
     "codigos": 465714,
@@ -53181,7 +54819,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 912,
     "productos": "LIMP CIF CREMA ORIG X375ML",
     "uxb": 12,
-    "precio_vta": 1783
+    "precio_vta": 2199
   },
   {
     "codigos": 4115,
@@ -53193,7 +54831,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4706,
     "productos": "LIMP HORNOS MR MUSCULO X360CC",
     "uxb": 12,
-    "precio_vta": 6289
+    "precio_vta": 6599
   },
   {
     "codigos": 478149,
@@ -53206,6 +54844,30 @@ const PRODUCTOS_PRECIOS = [
     "productos": "LIMP INOD LAVANDA LYSOFORM 500CC",
     "uxb": 12,
     "precio_vta": 866
+  },
+  {
+    "codigos": 480680,
+    "productos": "LIMP LIQ ODEX BEBE x1.8lt",
+    "uxb": 6,
+    "precio_vta": 1799
+  },
+  {
+    "codigos": 480683,
+    "productos": "LIMP LIQ ODEX LAVANDA x1.8lt",
+    "uxb": 6,
+    "precio_vta": 1799
+  },
+  {
+    "codigos": 480682,
+    "productos": "LIMP LIQ ODEX LIMON x1.8Lt",
+    "uxb": 6,
+    "precio_vta": 1799
+  },
+  {
+    "codigos": 480681,
+    "productos": "LIMP LIQ ODEX MARINA x1.8Lt",
+    "uxb": 6,
+    "precio_vta": 1799
   },
   {
     "codigos": 4517,
@@ -53325,13 +54987,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479817,
     "productos": "LIMP VIDRIOS CIF EXPERT X500ML",
     "uxb": 24,
-    "precio_vta": 3253
+    "precio_vta": 3299
   },
   {
     "codigos": 920,
     "productos": "LIMP VIDRIOS CIF GAT X500CC",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 3699
   },
   {
     "codigos": 7411,
@@ -53373,19 +55035,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473816,
     "productos": "LIMP VIDRIOS VAIS ULTRA X900ML",
     "uxb": 12,
-    "precio_vta": 1574
+    "precio_vta": 1799
   },
   {
     "codigos": 468876,
     "productos": "LIMP VIDRIOS ZORRO DP X500ML",
     "uxb": 1,
     "precio_vta": 1049
-  },
-  {
-    "codigos": 475903,
-    "productos": "LIMP. CREMA ODEX ORIG x500cc",
-    "uxb": 12,
-    "precio_vta": 2099
   },
   {
     "codigos": 471723,
@@ -53397,7 +55053,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475094,
     "productos": "LIMP. HARPIC BAÑO GATILLO x495cc",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 3399
   },
   {
     "codigos": 479718,
@@ -53655,7 +55311,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5387,
     "productos": "LIMP. LIQ HARPIC 500ML CITRUS",
     "uxb": 12,
-    "precio_vta": 3778
+    "precio_vta": 3399
   },
   {
     "codigos": 5386,
@@ -53685,61 +55341,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10348,
     "productos": "LIMP. LIQ HEROE AROMA D/PRIM X900CC",
     "uxb": 12,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 463048,
     "productos": "LIMP. LIQ HEROE ATARD VER 900ML",
     "uxb": 12,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 462453,
     "productos": "LIMP. LIQ HEROE BRISA MAR 900CC",
     "uxb": 12,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 10347,
     "productos": "LIMP. LIQ HEROE CAMP D/LAVANDA 900ML",
     "uxb": 12,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 462448,
     "productos": "LIMP. LIQ HEROE LAVANDA 4L",
     "uxb": 3,
-    "precio_vta": 2813
+    "precio_vta": 2999
   },
   {
     "codigos": 462454,
     "productos": "LIMP. LIQ HEROE LIMON 900CC",
     "uxb": 12,
-    "precio_vta": 661
+    "precio_vta": 799
   },
   {
     "codigos": 462455,
     "productos": "LIMP. LIQ HEROE PINO 900CC",
     "uxb": 12,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 462456,
     "productos": "LIMP. LIQ HEROE PINO X4LT",
     "uxb": 3,
-    "precio_vta": 2813
+    "precio_vta": 2999
   },
   {
     "codigos": 462443,
     "productos": "LIMP. LIQ HEROE PRIMAVERA 4L",
     "uxb": 3,
-    "precio_vta": 2813
+    "precio_vta": 2999
   },
   {
     "codigos": 476028,
     "productos": "LIMP. LIQ JARDIN VS 900CC",
     "uxb": 12,
-    "precio_vta": 1321
+    "precio_vta": 1299
   },
   {
     "codigos": 477175,
@@ -53757,7 +55413,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472688,
     "productos": "LIMP. LIQ MR MUSCULO DP BAÑOS 450CC",
     "uxb": 15,
-    "precio_vta": 1944
+    "precio_vta": 2299
   },
   {
     "codigos": 472693,
@@ -53781,13 +55437,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473476,
     "productos": "LIMP. LIQ ODEX PISO FLORAL 4TR",
     "uxb": 3,
-    "precio_vta": 3858
+    "precio_vta": 4099
   },
   {
     "codigos": 471720,
     "productos": "LIMP. LIQ ODEX PISOS 4L LAVANDA",
     "uxb": 3,
-    "precio_vta": 3858
+    "precio_vta": 4099
   },
   {
     "codigos": 471472,
@@ -53829,7 +55485,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2119,
     "productos": "LIMP. LIQ PROCENEX 1.8LT",
     "uxb": 6,
-    "precio_vta": 2865
+    "precio_vta": 2999
   },
   {
     "codigos": 2125,
@@ -53865,7 +55521,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460963,
     "productos": "LIMP. LIQ PROCENEX VARIOS 5LT",
     "uxb": 3,
-    "precio_vta": 8399
+    "precio_vta": 8999
   },
   {
     "codigos": 474564,
@@ -53876,7 +55532,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 475250,
     "productos": "LIMP. LIQ SUIZA PISOS PLAST/FLOT 900CC",
-    "uxb": 12,
+    "uxb": 1,
     "precio_vta": 2666
   },
   {
@@ -53907,7 +55563,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4441,
     "productos": "LIMP.CIF CREMA CLASICO X 750CC",
     "uxb": 12,
-    "precio_vta": 3253
+    "precio_vta": 3799
   },
   {
     "codigos": 4436,
@@ -53937,13 +55593,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478523,
     "productos": "LIMP.GEL PATO PURIFIC BRISAS T x500Ml",
     "uxb": 12,
-    "precio_vta": 3253
+    "precio_vta": 4476
   },
   {
     "codigos": 470565,
     "productos": "LIMP.LIQ MR MUSCULO MULT/VIDRIOS x450cc",
     "uxb": 15,
-    "precio_vta": 1468
+    "precio_vta": 1499
   },
   {
     "codigos": 466864,
@@ -53967,7 +55623,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5586,
     "productos": "LIMP.MR MUSCULO CREMA CITURS X 450CC",
     "uxb": 12,
-    "precio_vta": 3128
+    "precio_vta": 2599
   },
   {
     "codigos": 5585,
@@ -53979,7 +55635,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8101,
     "productos": "LIMPIA ESPALDA CABO INYECTADO",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 471221,
@@ -54048,6 +55704,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 799
   },
   {
+    "codigos": 480671,
+    "productos": "LIMPIADOR ODEX FLORAL x1.8ML",
+    "uxb": 1,
+    "precio_vta": 1799
+  },
+  {
     "codigos": 478608,
     "productos": "LIMPIADOR P/PISO ASOMBROSO ANT-B x900ML",
     "uxb": 15,
@@ -54069,7 +55731,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475472,
     "productos": "LIMPIAPILETAS REF BOROLIMP",
     "uxb": 12,
-    "precio_vta": 1940
+    "precio_vta": 2134
   },
   {
     "codigos": 2394,
@@ -54111,7 +55773,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6785,
     "productos": "LIMPIAVRIDIOS LA GAUCHITA C/CAB",
     "uxb": 12,
-    "precio_vta": 3884
+    "precio_vta": 4999
   },
   {
     "codigos": 7361,
@@ -54178,6 +55840,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "LINTERNA USB/SOLAR LED RECARGABLE",
     "uxb": 1,
     "precio_vta": 6701
+  },
+  {
+    "codigos": 11498,
+    "productos": "LIPO OSI OSI DULCE DE LECHE X500gr",
+    "uxb": 12,
+    "precio_vta": 2999
   },
   {
     "codigos": 465690,
@@ -54357,25 +56025,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461168,
     "productos": "LOMITO DE ATUN MOLTO ACEITE X170g",
     "uxb": 48,
-    "precio_vta": 3044
+    "precio_vta": 2899
   },
   {
     "codigos": 461162,
     "productos": "LOMITO DE ATUN MOLTO NATURAL X170g",
     "uxb": 48,
-    "precio_vta": 3043
+    "precio_vta": 2899
   },
   {
     "codigos": 13394,
     "productos": "LOMITO HIERBAS MELQUIONE FETAS",
     "uxb": 1,
     "precio_vta": 1031
-  },
-  {
-    "codigos": 13496,
-    "productos": "LOMITO IBERICO 214",
-    "uxb": 1,
-    "precio_vta": 22369
   },
   {
     "codigos": 14181,
@@ -54420,28 +56082,46 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 25139
   },
   {
+    "codigos": 13496,
+    "productos": "LOMO IBERICO DELICATO 214  HORMA",
+    "uxb": 1,
+    "precio_vta": 24999
+  },
+  {
     "codigos": 479696,
     "productos": "LONAS REDONDA PLAYERA DISEÑOS TAURO",
     "uxb": 1,
     "precio_vta": 13299
   },
   {
+    "codigos": 480755,
+    "productos": "LONCHERA BARCO IMP EMA 57344",
+    "uxb": 1,
+    "precio_vta": 10990
+  },
+  {
     "codigos": 478897,
     "productos": "LONCHERA ELECTRICA x1.8Lt IMP-E",
     "uxb": 1,
-    "precio_vta": 41359
+    "precio_vta": 49999
   },
   {
     "codigos": 471930,
     "productos": "LONCHERA ONYX VIHA x1lt",
     "uxb": 24,
-    "precio_vta": 1931
+    "precio_vta": 2125
   },
   {
     "codigos": 460694,
     "productos": "LONCHERA RIGIDA P/NIÑOS ARGOS",
     "uxb": 1,
-    "precio_vta": 6339
+    "precio_vta": 6973
+  },
+  {
+    "codigos": 480773,
+    "productos": "LONCHERA UNDERWATER IMP EMA 57339",
+    "uxb": 72,
+    "precio_vta": 10990
   },
   {
     "codigos": 13407,
@@ -54471,7 +56151,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14356,
     "productos": "LONGANIZA CALABREZA TERMOLI",
     "uxb": 1,
-    "precio_vta": 7799
+    "precio_vta": 8199
   },
   {
     "codigos": 13047,
@@ -54483,7 +56163,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14199,
     "productos": "LONGANIZA PURO CERDO ANGELANI",
     "uxb": 1,
-    "precio_vta": 15999
+    "precio_vta": 19499
   },
   {
     "codigos": 13328,
@@ -54544,6 +56224,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "LUBRICANTE AER ESCUDO RG2 x230g",
     "uxb": 12,
     "precio_vta": 5669
+  },
+  {
+    "codigos": 480690,
+    "productos": "LUBRICANTE MULTIUSO HD440 GRANDE x245g",
+    "uxb": 1,
+    "precio_vta": 3499
   },
   {
     "codigos": 473527,
@@ -54627,13 +56313,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464752,
     "productos": "LUMILAGRO REPUESTO ORIGINAL x1Lt",
     "uxb": 1,
-    "precio_vta": 8893
+    "precio_vta": 9782
+  },
+  {
+    "codigos": 480791,
+    "productos": "LUNCH TIME TITIZ IMP EMA AP-9244",
+    "uxb": 1,
+    "precio_vta": 2999
   },
   {
     "codigos": 475537,
     "productos": "LUNCHERA TAPA PASTEL DECO VIHA",
     "uxb": 1,
-    "precio_vta": 2753
+    "precio_vta": 3028
   },
   {
     "codigos": 477508,
@@ -54669,31 +56361,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4389,
     "productos": "LUSTRAMUEBLES BLEM AEROSOL x360cc LAVANDA",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 11403,
     "productos": "LUSTRAMUEBLES BLEM AEROSOL x360cc LIMON",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 4142,
     "productos": "LUSTRAMUEBLES BLEM AEROSOL x360cc NARANJA",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 4390,
     "productos": "LUSTRAMUEBLES BLEM AEROSOL x360cc ORIGINAL",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 7032,
     "productos": "LUSTRAMUEBLES CERAMICOL AERO X360CC",
     "uxb": 12,
-    "precio_vta": 2938
+    "precio_vta": 3199
   },
   {
     "codigos": 470251,
@@ -54723,7 +56415,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472125,
     "productos": "LUSTRAMUEBLES ESENCIAL x300cc",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2499
   },
   {
     "codigos": 2581,
@@ -54939,49 +56631,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2179,
     "productos": "MAGD.POZO C/CHIPS x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
   },
   {
     "codigos": 2180,
     "productos": "MAGD.POZO C/DDL x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
   },
   {
     "codigos": 2176,
     "productos": "MAGD.POZO CHOCO.C/DDL x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
   },
   {
     "codigos": 2178,
     "productos": "MAGD.POZO CLASICAS x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
   },
   {
     "codigos": 463079,
     "productos": "MAGD.POZO COCO C/DDL x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
   },
   {
     "codigos": 2181,
     "productos": "MAGD.POZO MARMOLADAS x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
   },
   {
     "codigos": 2183,
     "productos": "MAGD.POZO RELL CHOCO x200gr",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1559
+  },
+  {
+    "codigos": 463231,
+    "productos": "MAGDALENAS 9 DE ORO VAINILLA X200",
+    "uxb": 10,
+    "precio_vta": 1549
   },
   {
     "codigos": 480197,
     "productos": "MAIZ FRITO SALADO MISTERNUTx250grs",
     "uxb": 1,
     "precio_vta": 4199
+  },
+  {
+    "codigos": 480727,
+    "productos": "MAIZ INFL. BCO BURBUJA x80g",
+    "uxb": 30,
+    "precio_vta": 849
+  },
+  {
+    "codigos": 480735,
+    "productos": "MAIZ INFLADO BURBUJAS x1Kg",
+    "uxb": 10,
+    "precio_vta": 6299
   },
   {
     "codigos": 468170,
@@ -55020,12 +56730,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5499
   },
   {
-    "codigos": 467007,
-    "productos": "MAIZ PISADO AMAR JOSE LOPEZ 500G",
-    "uxb": 10,
-    "precio_vta": 519
-  },
-  {
     "codigos": 467009,
     "productos": "MAIZ PISADO BCO JOSE LOPEZ 500G",
     "uxb": 10,
@@ -55047,7 +56751,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465535,
     "productos": "MAIZ PISADO BLANCO MONEDA x400g",
     "uxb": 10,
-    "precio_vta": 1349
+    "precio_vta": 1299
   },
   {
     "codigos": 463283,
@@ -55059,7 +56763,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467006,
     "productos": "MAIZ PISINGALLO JOSE LOPEZ X400GR",
     "uxb": 10,
-    "precio_vta": 712
+    "precio_vta": 790
   },
   {
     "codigos": 2191,
@@ -55068,16 +56772,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 599
   },
   {
-    "codigos": 5838,
-    "productos": "MAIZ PISINGALLO MAROLIO 400GR",
-    "uxb": 10,
-    "precio_vta": 799
-  },
-  {
     "codigos": 465536,
     "productos": "MAIZ PISINGALLO MONEDA x400g",
     "uxb": 10,
-    "precio_vta": 599
+    "precio_vta": 639
   },
   {
     "codigos": 476236,
@@ -55095,7 +56793,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2194,
     "productos": "MAIZENA x 520g",
     "uxb": 28,
-    "precio_vta": 2728
+    "precio_vta": 2899
   },
   {
     "codigos": 2196,
@@ -55131,7 +56829,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10508,
     "productos": "MAMADERA 250CC BOCA ANCHA YESI",
     "uxb": 25,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 7767,
@@ -55149,25 +56847,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8442,
     "productos": "MAMADERA C/DIBUJO TET.SILIC.YESI x250cc",
     "uxb": 72,
-    "precio_vta": 1889
+    "precio_vta": 2078
   },
   {
     "codigos": 467416,
     "productos": "MAMADERA DECORADA BEBYS OPACA",
     "uxb": 1,
-    "precio_vta": 907
+    "precio_vta": 997
   },
   {
     "codigos": 467415,
     "productos": "MAMADERA DECORADA DULZURA OPACA",
     "uxb": 1,
-    "precio_vta": 907
+    "precio_vta": 997
   },
   {
     "codigos": 472590,
     "productos": "MAMADERA FUTBOL MI CAMPEON BEBYS x250ml",
     "uxb": 1,
-    "precio_vta": 907
+    "precio_vta": 997
   },
   {
     "codigos": 477041,
@@ -55215,7 +56913,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472420,
     "productos": "MAMADERA OPACA C/DIBUJO BEBYS",
     "uxb": 1,
-    "precio_vta": 943
+    "precio_vta": 1037
   },
   {
     "codigos": 478462,
@@ -55425,7 +57123,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1803,
     "productos": "MANI SALADO TUCU X1un",
     "uxb": 1,
-    "precio_vta": 314
+    "precio_vta": 590
   },
   {
     "codigos": 477597,
@@ -55455,7 +57153,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2215,
     "productos": "MANON AMERICANO 950CC.",
     "uxb": 12,
-    "precio_vta": 2623
+    "precio_vta": 2833
   },
   {
     "codigos": 7994,
@@ -55515,7 +57213,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476659,
     "productos": "MANTECA CACAO IMPERIAL",
     "uxb": 1,
-    "precio_vta": 839
+    "precio_vta": 999
   },
   {
     "codigos": 474296,
@@ -55557,13 +57255,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472127,
     "productos": "MANTECA LA SERENISIMA RED GRASA POTE x200GR",
     "uxb": 1,
-    "precio_vta": 2899
+    "precio_vta": 3197
   },
   {
     "codigos": 464085,
     "productos": "MANTECA LA SERENISIMA x100g",
     "uxb": 20,
-    "precio_vta": 1901
+    "precio_vta": 2179
   },
   {
     "codigos": 472142,
@@ -55575,7 +57273,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466965,
     "productos": "MANTECA LIGHT LA SERENISIMA x200gr",
     "uxb": 10,
-    "precio_vta": 3604
+    "precio_vta": 3748
   },
   {
     "codigos": 467460,
@@ -55587,31 +57285,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467387,
     "productos": "MANTECA LS MULTIVITAMINAS x200gr",
     "uxb": 10,
-    "precio_vta": 3455
+    "precio_vta": 3920
+  },
+  {
+    "codigos": 480584,
+    "productos": "MANTECA PILON DE BON LAIT x1.250Kg",
+    "uxb": 8,
+    "precio_vta": 13499
+  },
+  {
+    "codigos": 480591,
+    "productos": "MANTECA PILON DE BON LAIT x625g",
+    "uxb": 16,
+    "precio_vta": 7499
   },
   {
     "codigos": 463442,
     "productos": "MANTECA PRIMER PREMIO x100gr",
     "uxb": 30,
-    "precio_vta": 1209
+    "precio_vta": 1289
   },
   {
     "codigos": 463443,
     "productos": "MANTECA PRIMER PREMIO x200gr",
     "uxb": 15,
-    "precio_vta": 2419
+    "precio_vta": 2569
   },
   {
     "codigos": 10395,
     "productos": "MANTECA ROCALAC X100g",
     "uxb": 60,
-    "precio_vta": 1158
+    "precio_vta": 1399
   },
   {
     "codigos": 10438,
     "productos": "MANTECA ROCALAC X200g",
     "uxb": 30,
-    "precio_vta": 2248
+    "precio_vta": 2799
   },
   {
     "codigos": 13907,
@@ -55659,13 +57369,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465086,
     "productos": "MANTECA TONADITA x 100g",
     "uxb": 20,
-    "precio_vta": 1790
+    "precio_vta": 1499
   },
   {
     "codigos": 464938,
     "productos": "MANTECA TONADITA x 200g",
     "uxb": 10,
-    "precio_vta": 3490
+    "precio_vta": 2699
   },
   {
     "codigos": 479740,
@@ -55808,7 +57518,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 476359,
     "productos": "MANTY UNTABLE x200gr",
-    "uxb": 1,
+    "uxb": 30,
     "precio_vta": 1523
   },
   {
@@ -55821,7 +57531,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467140,
     "productos": "MANZANITA TUCU x1Un.",
     "uxb": 1,
-    "precio_vta": 628
+    "precio_vta": 1250
   },
   {
     "codigos": 465000,
@@ -56133,13 +57843,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7408,
     "productos": "MAQUINA GILLETTE VENUS X2U",
     "uxb": 10,
-    "precio_vta": 3999
+    "precio_vta": 4499
   },
   {
     "codigos": 8878,
     "productos": "MAQUINA GILLETTE VENUS X4U",
     "uxb": 10,
-    "precio_vta": 7789
+    "precio_vta": 8899
   },
   {
     "codigos": 477927,
@@ -56409,7 +58119,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467400,
     "productos": "MARGADAN DANICA MASAS x5Kg",
     "uxb": 1,
-    "precio_vta": 22988
+    "precio_vta": 34900
   },
   {
     "codigos": 467395,
@@ -56649,7 +58359,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480518,
     "productos": "MARTILLO D/CARNE MADERA EL GAUCHO x1Un",
     "uxb": 1,
-    "precio_vta": 577
+    "precio_vta": 635
   },
   {
     "codigos": 2229,
@@ -56775,7 +58485,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13438,
     "productos": "MATAMBRE CARNE NOVICER FETAS",
     "uxb": 1,
-    "precio_vta": 11599
+    "precio_vta": 15699
   },
   {
     "codigos": 14311,
@@ -56787,7 +58497,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14310,
     "productos": "MATAMBRE D/CARNE EL VIALERO X HORMA",
     "uxb": 1,
-    "precio_vta": 16199
+    "precio_vta": 16999
   },
   {
     "codigos": 14313,
@@ -56805,7 +58515,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13427,
     "productos": "MATAMBRE EXT CARNE/POLLO MINI NOVICER",
     "uxb": 1,
-    "precio_vta": 9099
+    "precio_vta": 11699
   },
   {
     "codigos": 13423,
@@ -56817,7 +58527,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13436,
     "productos": "MATAMBRE POLLO NOVICER FETAS",
     "uxb": 1,
-    "precio_vta": 11599
+    "precio_vta": 15699
   },
   {
     "codigos": 467275,
@@ -56863,9 +58573,9 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 479606,
-    "productos": "MATE CLASSIC MATE NEO IMP-E x150ML",
+    "productos": "MATE CLASSIC MATE NEO IMP-E NEO-2400",
     "uxb": 1,
-    "precio_vta": 9056
+    "precio_vta": 6999
   },
   {
     "codigos": 6331,
@@ -56889,7 +58599,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5781,
     "productos": "MATE COCIDO DUAREN 25 SAQ.",
     "uxb": 10,
-    "precio_vta": 433
+    "precio_vta": 523
   },
   {
     "codigos": 476768,
@@ -56925,7 +58635,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10183,
     "productos": "MATE COCIDO MAROLIO x50saq",
     "uxb": 5,
-    "precio_vta": 1258
+    "precio_vta": 1199
   },
   {
     "codigos": 464559,
@@ -57003,7 +58713,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2237,
     "productos": "MATE COCIDO TRANQUERA 25 SAQ.",
     "uxb": 24,
-    "precio_vta": 913
+    "precio_vta": 849
   },
   {
     "codigos": 2239,
@@ -57028,6 +58738,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MATE COCIDO UNION x50SAQ.",
     "uxb": 5,
     "precio_vta": 2098
+  },
+  {
+    "codigos": 480640,
+    "productos": "MATE COCIDO VARIOS  SUELTO x50Un.",
+    "uxb": 1,
+    "precio_vta": 690
   },
   {
     "codigos": 472096,
@@ -57085,9 +58801,9 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 460321,
-    "productos": "MATE LISTO TARAGUI TODO EN UNO",
+    "productos": "MATE LISTO TARAGUI",
     "uxb": 12,
-    "precio_vta": 1354
+    "precio_vta": 1999
   },
   {
     "codigos": 471327,
@@ -57174,6 +58890,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4198
   },
   {
+    "codigos": 480652,
+    "productos": "MAYONESA C/GUACAMOLE HERDEZ x305g",
+    "uxb": 12,
+    "precio_vta": 5499
+  },
+  {
     "codigos": 479997,
     "productos": "MAYONESA C/HABANERO HERDEZ x305g",
     "uxb": 12,
@@ -57189,19 +58911,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475141,
     "productos": "MAYONESA CAÑUELAS x250g",
     "uxb": 12,
-    "precio_vta": 787
+    "precio_vta": 999
   },
   {
     "codigos": 475089,
     "productos": "MAYONESA CAÑUELAS x500cc",
     "uxb": 12,
-    "precio_vta": 1574
+    "precio_vta": 1799
   },
   {
     "codigos": 479998,
     "productos": "MAYONESA CHILPOTLE x310g HERDEZ",
     "uxb": 12,
-    "precio_vta": 3884
+    "precio_vta": 5499
   },
   {
     "codigos": 471524,
@@ -57213,7 +58935,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8030,
     "productos": "MAYONESA DANICA FIESTA X250",
     "uxb": 24,
-    "precio_vta": 878
+    "precio_vta": 879
   },
   {
     "codigos": 463258,
@@ -57231,7 +58953,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6737,
     "productos": "MAYONESA DANICA MAYODAN x2.9kg",
     "uxb": 4,
-    "precio_vta": 6493
+    "precio_vta": 8371
   },
   {
     "codigos": 464774,
@@ -57255,7 +58977,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12126,
     "productos": "MAYONESA DANICA x3kg",
     "uxb": 4,
-    "precio_vta": 8990
+    "precio_vta": 11591
   },
   {
     "codigos": 464194,
@@ -57333,7 +59055,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9054,
     "productos": "MAYONESA MOLTO DP 241gr",
     "uxb": 12,
-    "precio_vta": 808
+    "precio_vta": 879
   },
   {
     "codigos": 8680,
@@ -57345,7 +59067,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8926,
     "productos": "MAYONESA MOLTO SACHET 120G",
     "uxb": 20,
-    "precio_vta": 502
+    "precio_vta": 479
   },
   {
     "codigos": 2249,
@@ -57363,7 +59085,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2247,
     "productos": "MAYONESA NATURA X1K",
     "uxb": 8,
-    "precio_vta": 5227
+    "precio_vta": 5690
   },
   {
     "codigos": 2246,
@@ -57420,6 +59142,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 20999
   },
   {
+    "codigos": 470426,
+    "productos": "MEDALLON PATY MORRON x2Un.",
+    "uxb": 1,
+    "precio_vta": 4399
+  },
+  {
+    "codigos": 470427,
+    "productos": "MEDALLON PATY QUESO x2Un.",
+    "uxb": 1,
+    "precio_vta": 4599
+  },
+  {
     "codigos": 470203,
     "productos": "MEDALLON RANCHO ALTO x4un x276g",
     "uxb": 18,
@@ -57456,6 +59190,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1999
   },
   {
+    "codigos": 470425,
+    "productos": "MEDALLONES PATY CEBOLLA x2Un.",
+    "uxb": 1,
+    "precio_vta": 4399
+  },
+  {
     "codigos": 478435,
     "productos": "MEDIA CANCAN NIÑA LINDA LUNA XUN",
     "uxb": 1,
@@ -57466,6 +59206,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MEDIALUNAS ARISEB x3Un.",
     "uxb": 1,
     "precio_vta": 2199
+  },
+  {
+    "codigos": 480793,
+    "productos": "MEDIALUNAS GIGANTES x3 SANTA MARTA",
+    "uxb": 1,
+    "precio_vta": 2990
   },
   {
     "codigos": 469556,
@@ -57633,7 +59379,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2265,
     "productos": "MENTITAS CHEERRY LACASA X12U",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 475339,
@@ -57645,7 +59391,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2264,
     "productos": "MENTITAS DCE LECHE KIDS X12U",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 2266,
@@ -57675,7 +59421,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2267,
     "productos": "MENTITAS FRUTAL LACASA X12U",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 461667,
@@ -57687,7 +59433,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472003,
     "productos": "MENTITAS LACASA SANDIA x12Un.",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 2268,
@@ -57699,7 +59445,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4272,
     "productos": "MENTITAS TUTTI FRUTTI KIDS X12U",
     "uxb": 12,
-    "precio_vta": 3454
+    "precio_vta": 3999
   },
   {
     "codigos": 460259,
@@ -57717,7 +59463,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480001,
     "productos": "MERENGUE LA PARMESANA x50g",
     "uxb": 30,
-    "precio_vta": 1154
+    "precio_vta": 1299
   },
   {
     "codigos": 9374,
@@ -57748,6 +59494,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MERENGUITOS URQUIZA x100gr",
     "uxb": 20,
     "precio_vta": 944
+  },
+  {
+    "codigos": 480706,
+    "productos": "MERLUZA LA BANDA AL NATURAL x340g",
+    "uxb": 24,
+    "precio_vta": 3199
+  },
+  {
+    "codigos": 480705,
+    "productos": "MERLUZA LA BANDA EN ACEITE Y AGUA x340g",
+    "uxb": 24,
+    "precio_vta": 3199
   },
   {
     "codigos": 8495,
@@ -57822,16 +59580,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2099
   },
   {
-    "codigos": 479360,
-    "productos": "MERMELADA ALCO LIGHT FRUTILLA POTE x420g",
-    "uxb": 12,
-    "precio_vta": 1238
-  },
-  {
     "codigos": 480321,
     "productos": "MERMELADA ALCO POTE CIRUELA x500g",
     "uxb": 12,
     "precio_vta": 1469
+  },
+  {
+    "codigos": 479360,
+    "productos": "MERMELADA ALCO POTE FRUT/LIG X420g",
+    "uxb": 12,
+    "precio_vta": 1238
   },
   {
     "codigos": 465120,
@@ -57855,25 +59613,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465002,
     "productos": "MERMELADA ARCOR x454g CIRUELA",
     "uxb": 12,
-    "precio_vta": 2077
+    "precio_vta": 2299
   },
   {
     "codigos": 465119,
     "productos": "MERMELADA ARCOR x454g DAMASCO",
     "uxb": 12,
-    "precio_vta": 2077
+    "precio_vta": 2299
   },
   {
     "codigos": 465115,
     "productos": "MERMELADA ARCOR x454g DURAZNO",
     "uxb": 12,
-    "precio_vta": 2077
+    "precio_vta": 2299
   },
   {
     "codigos": 9575,
     "productos": "MERMELADA BC CAMPAGNOLA FRUT X390GR",
     "uxb": 12,
     "precio_vta": 3673
+  },
+  {
+    "codigos": 8518,
+    "productos": "MERMELADA BC FSCO DURAZNO X390g",
+    "uxb": 12,
+    "precio_vta": 2699
   },
   {
     "codigos": 8519,
@@ -57886,12 +59650,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MERMELADA BC x390g DAMASCO",
     "uxb": 12,
     "precio_vta": 2624
-  },
-  {
-    "codigos": 8518,
-    "productos": "MERMELADA BC x390g DURAZNO",
-    "uxb": 12,
-    "precio_vta": 2099
   },
   {
     "codigos": 8520,
@@ -57922,12 +59680,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MERMELADA CANALE FRUTILLA X454GR",
     "uxb": 12,
     "precio_vta": 2309
-  },
-  {
-    "codigos": 465126,
-    "productos": "MERMELADA CANALE NARANJA X454GR",
-    "uxb": 12,
-    "precio_vta": 1994
   },
   {
     "codigos": 478965,
@@ -58062,34 +59814,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 923
   },
   {
-    "codigos": 9861,
-    "productos": "MERMELADA EMETH FRASCO ARANDANO x454gr",
-    "uxb": 6,
-    "precio_vta": 2278
-  },
-  {
     "codigos": 9864,
     "productos": "MERMELADA EMETH FRASCO F.BOSQUE x454gr",
     "uxb": 6,
     "precio_vta": 2309
-  },
-  {
-    "codigos": 9862,
-    "productos": "MERMELADA EMETH FRASCO FRAMBUESA x454gr",
-    "uxb": 6,
-    "precio_vta": 2309
-  },
-  {
-    "codigos": 9865,
-    "productos": "MERMELADA EMETH FRASCO FRUTILLA x454gr",
-    "uxb": 6,
-    "precio_vta": 2309
-  },
-  {
-    "codigos": 9860,
-    "productos": "MERMELADA EMETH FRASCO MARACUYA x454gr",
-    "uxb": 6,
-    "precio_vta": 2540
   },
   {
     "codigos": 9858,
@@ -58122,16 +59850,40 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1826
   },
   {
+    "codigos": 9850,
+    "productos": "MERMELADA EMETH FSCO ARA/LIG X390g",
+    "uxb": 6,
+    "precio_vta": 2572
+  },
+  {
+    "codigos": 9861,
+    "productos": "MERMELADA EMETH FSCO ARANDANO X454g",
+    "uxb": 6,
+    "precio_vta": 2278
+  },
+  {
+    "codigos": 9862,
+    "productos": "MERMELADA EMETH FSCO FRAMBUESA X454g",
+    "uxb": 6,
+    "precio_vta": 2309
+  },
+  {
+    "codigos": 9865,
+    "productos": "MERMELADA EMETH FSCO FRUTILLA X454g",
+    "uxb": 6,
+    "precio_vta": 2309
+  },
+  {
+    "codigos": 9860,
+    "productos": "MERMELADA EMETH FSCO MARACUYA X454g",
+    "uxb": 6,
+    "precio_vta": 2540
+  },
+  {
     "codigos": 465841,
     "productos": "MERMELADA EMETH LIGHT F.BOSQUE x420gr",
     "uxb": 12,
     "precio_vta": 1500
-  },
-  {
-    "codigos": 9850,
-    "productos": "MERMELADA EMETH LIGHT FCO ARANDANOS 390G",
-    "uxb": 6,
-    "precio_vta": 2572
   },
   {
     "codigos": 9849,
@@ -58200,6 +59952,30 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2309
   },
   {
+    "codigos": 10238,
+    "productos": "MERMELADA EMETH POTE DUR X420g",
+    "uxb": 12,
+    "precio_vta": 944
+  },
+  {
+    "codigos": 9848,
+    "productos": "MERMELADA EMETH POTE DUR/LIG X420g",
+    "uxb": 12,
+    "precio_vta": 997
+  },
+  {
+    "codigos": 10239,
+    "productos": "MERMELADA EMETH POTE FRAMB X420g",
+    "uxb": 12,
+    "precio_vta": 1312
+  },
+  {
+    "codigos": 10258,
+    "productos": "MERMELADA EMETH POTE FRUT X420g",
+    "uxb": 12,
+    "precio_vta": 1049
+  },
+  {
     "codigos": 10256,
     "productos": "MERMELADA EMETH POTE x420g CIRUELA",
     "uxb": 12,
@@ -58216,18 +59992,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MERMELADA EMETH POTE x420g DAMASCO",
     "uxb": 12,
     "precio_vta": 944
-  },
-  {
-    "codigos": 10238,
-    "productos": "MERMELADA EMETH POTE x420g DURAZNO",
-    "uxb": 12,
-    "precio_vta": 944
-  },
-  {
-    "codigos": 9848,
-    "productos": "MERMELADA EMETH POTE x420g DURAZNO LIGHT",
-    "uxb": 12,
-    "precio_vta": 997
   },
   {
     "codigos": 464223,
@@ -58260,18 +60024,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1312
   },
   {
-    "codigos": 10239,
-    "productos": "MERMELADA EMETH POTE x420gr FRAMBUESA",
-    "uxb": 12,
-    "precio_vta": 1312
-  },
-  {
-    "codigos": 10258,
-    "productos": "MERMELADA EMETH POTE x420gr FRUTILLA",
-    "uxb": 12,
-    "precio_vta": 1049
-  },
-  {
     "codigos": 479575,
     "productos": "MERMELADA FORNERO POTE DURAZNO x420g",
     "uxb": 12,
@@ -58302,16 +60054,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 839
   },
   {
+    "codigos": 6595,
+    "productos": "MERMELADA LA CAMPAGNOLA FSCO DAM.X454g",
+    "uxb": 12,
+    "precio_vta": 2656
+  },
+  {
     "codigos": 8258,
     "productos": "MERMELADA LA CAMPAGNOLA x454g CIRUELA",
     "uxb": 12,
     "precio_vta": 2623
-  },
-  {
-    "codigos": 6595,
-    "productos": "MERMELADA LA CAMPAGNOLA x454g DAMASCO",
-    "uxb": 12,
-    "precio_vta": 2656
   },
   {
     "codigos": 8261,
@@ -58363,25 +60115,25 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 2275,
-    "productos": "MERMELADA MAROLIO CIRUELA 454G",
+    "productos": "MERMELADA MAROLIO FSCO CIRUELA X454g",
     "uxb": 12,
     "precio_vta": 1763
   },
   {
     "codigos": 2276,
-    "productos": "MERMELADA MAROLIO DAMASCO 454G",
+    "productos": "MERMELADA MAROLIO FSCO DAMASCO X454g",
     "uxb": 12,
     "precio_vta": 1763
   },
   {
     "codigos": 2277,
-    "productos": "MERMELADA MAROLIO DURAZNO 454G",
+    "productos": "MERMELADA MAROLIO FSCO DURAZNO X454g",
     "uxb": 12,
     "precio_vta": 1763
   },
   {
     "codigos": 2278,
-    "productos": "MERMELADA MAROLIO FRUTILLA 454G",
+    "productos": "MERMELADA MAROLIO FSCO FRUTILLA X454g",
     "uxb": 12,
     "precio_vta": 2518
   },
@@ -58428,34 +60180,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2834
   },
   {
-    "codigos": 10226,
-    "productos": "MERMELADA NOEL FRASCO x454g CIRUELA",
-    "uxb": 12,
-    "precio_vta": 2413
-  },
-  {
-    "codigos": 464355,
-    "productos": "MERMELADA NOEL FRASCO x454g DAMASCO",
-    "uxb": 12,
-    "precio_vta": 2413
-  },
-  {
-    "codigos": 10228,
-    "productos": "MERMELADA NOEL FRASCO x454g DURAZNO",
-    "uxb": 12,
-    "precio_vta": 2413
-  },
-  {
     "codigos": 10229,
     "productos": "MERMELADA NOEL FRASCO x454g FRUTILLA",
     "uxb": 12,
     "precio_vta": 2099
   },
   {
-    "codigos": 10227,
-    "productos": "MERMELADA NOEL FRASCO x454g NARANJA",
+    "codigos": 10226,
+    "productos": "MERMELADA NOEL FSCO X454g CIRUELA",
     "uxb": 12,
-    "precio_vta": 2413
+    "precio_vta": 1999
+  },
+  {
+    "codigos": 464355,
+    "productos": "MERMELADA NOEL FSCO X454g DAMASCO",
+    "uxb": 12,
+    "precio_vta": 1999
+  },
+  {
+    "codigos": 10228,
+    "productos": "MERMELADA NOEL FSCO X454g DURAZNO",
+    "uxb": 12,
+    "precio_vta": 1999
+  },
+  {
+    "codigos": 10227,
+    "productos": "MERMELADA NOEL FSCO X454g NARANJA",
+    "uxb": 12,
+    "precio_vta": 1999
   },
   {
     "codigos": 465203,
@@ -58557,7 +60309,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480227,
     "productos": "MICROFIBRA 1000USOS MEDIA NARANJA x3Un.",
     "uxb": 10,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 11054,
@@ -58629,19 +60381,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9403,
     "productos": "MIEL ALMA DE CAMPO FRASCO X 900G",
     "uxb": 12,
-    "precio_vta": 7874
+    "precio_vta": 7999
   },
   {
     "codigos": 7634,
     "productos": "MIEL ALMA DE CAMPO FRASCO X500G",
-    "uxb": 24,
-    "precio_vta": 4724
+    "uxb": 12,
+    "precio_vta": 4999
   },
   {
     "codigos": 1929,
     "productos": "MIEL ALMA DE CAMPO POTE X250GR",
     "uxb": 24,
     "precio_vta": 3254
+  },
+  {
+    "codigos": 474633,
+    "productos": "MIEL ALMA DEL CAMPO FRASCO X 250 Gr",
+    "uxb": 24,
+    "precio_vta": 3499
   },
   {
     "codigos": 476666,
@@ -58659,13 +60417,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11145,
     "productos": "MIEL LA CHACRA BOT.PLASTICO X1KG",
     "uxb": 8,
-    "precio_vta": 2572
+    "precio_vta": 2799
   },
   {
     "codigos": 470791,
     "productos": "MIEL LA CHACRA x1.5Kg",
     "uxb": 6,
-    "precio_vta": 3464
+    "precio_vta": 3799
   },
   {
     "codigos": 479042,
@@ -58689,25 +60447,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460687,
     "productos": "MIEL PAMPERA x250g",
     "uxb": 12,
-    "precio_vta": 766
+    "precio_vta": 829
   },
   {
     "codigos": 460688,
     "productos": "MIEL PAMPERA x500g",
     "uxb": 12,
-    "precio_vta": 1438
+    "precio_vta": 1549
   },
   {
     "codigos": 1932,
     "productos": "MIEL SIROSKA PICO X 500G",
-    "uxb": 24,
-    "precio_vta": 1889
+    "uxb": 20,
+    "precio_vta": 1999
   },
   {
     "codigos": 12233,
     "productos": "MIEL SIROSKA POTE X 500 G",
-    "uxb": 1,
-    "precio_vta": 1889
+    "uxb": 24,
+    "precio_vta": 1999
   },
   {
     "codigos": 470073,
@@ -58773,7 +60531,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475919,
     "productos": "MINI BUDINES GAONA C/DDL X180g",
     "uxb": 10,
-    "precio_vta": 1574
+    "precio_vta": 1399
   },
   {
     "codigos": 472973,
@@ -58863,7 +60621,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478882,
     "productos": "MINI LICUADORA PORTATIL IMP-E",
     "uxb": 1,
-    "precio_vta": 8704
+    "precio_vta": 9574
   },
   {
     "codigos": 478885,
@@ -58908,6 +60666,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2771
   },
   {
+    "codigos": 480596,
+    "productos": "MINI PALETAS PICO DULCE x50u",
+    "uxb": 18,
+    "precio_vta": 1999
+  },
+  {
     "codigos": 478915,
     "productos": "MINI PARLANTE C/LUZ CUADR X-16 IMP-E",
     "uxb": 1,
@@ -58934,7 +60698,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 11806,
     "productos": "MINI PIZETAS CHIL X1KG",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 6757
   },
   {
@@ -58971,7 +60735,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472380,
     "productos": "MINI TABURE DESENLI P/NIÑOS VIHA",
     "uxb": 20,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 480494,
@@ -59050,6 +60814,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "MIX DE SABORES KNORR VERDURA X4sob",
     "uxb": 10,
     "precio_vta": 1510
+  },
+  {
+    "codigos": 480714,
+    "productos": "MIX DE SABORES KNORR x24g",
+    "uxb": 1,
+    "precio_vta": 1490
   },
   {
     "codigos": 480137,
@@ -59235,7 +61005,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480132,
     "productos": "MIX PRIMAVERA GREEN LIFE CONGELADAS x350gr",
     "uxb": 1,
-    "precio_vta": 3509
+    "precio_vta": 3844
   },
   {
     "codigos": 479091,
@@ -59868,6 +61638,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7650
   },
   {
+    "codigos": 467571,
+    "productos": "MOLDE TORTA SILICONA 25x5.6 THE KITCHEN",
+    "uxb": 1,
+    "precio_vta": 6999
+  },
+  {
     "codigos": 468015,
     "productos": "MOLDE TORTERA SILICONA YONGHAO",
     "uxb": 1,
@@ -59982,6 +61758,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2624
   },
   {
+    "codigos": 8572,
+    "productos": "MOP LAMPAZO CELESTE ROMYL",
+    "uxb": 1,
+    "precio_vta": 1137
+  },
+  {
     "codigos": 8005,
     "productos": "MOP LAMPAZO ROMYL AMARILL",
     "uxb": 60,
@@ -59991,37 +61773,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480409,
     "productos": "MOPA ALGODON BLANCA MEDIA NARANJA",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 468820,
     "productos": "MOPA AMARILLA DURAMAS",
     "uxb": 12,
-    "precio_vta": 1889
+    "precio_vta": 2078
   },
   {
     "codigos": 468218,
     "productos": "MOPA BLANCA DURAMAS",
     "uxb": 12,
-    "precio_vta": 1889
+    "precio_vta": 2078
   },
   {
     "codigos": 474429,
     "productos": "MOPA CONSORCIO DURAMAS",
     "uxb": 12,
-    "precio_vta": 2577
+    "precio_vta": 2835
   },
   {
     "codigos": 471438,
     "productos": "MOPA DE ALGODON TENOAR",
     "uxb": 12,
-    "precio_vta": 1616
+    "precio_vta": 1778
   },
   {
     "codigos": 468821,
     "productos": "MOPA GRIS DURAMAS",
     "uxb": 12,
-    "precio_vta": 1994
+    "precio_vta": 2194
   },
   {
     "codigos": 479714,
@@ -60045,7 +61827,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466136,
     "productos": "MOPA TWIST 360 LA GAUCHITA",
     "uxb": 4,
-    "precio_vta": 83999
+    "precio_vta": 92399
   },
   {
     "codigos": 479207,
@@ -60150,16 +61932,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4273
   },
   {
+    "codigos": 14385,
+    "productos": "MORTADELA BOCHA TERMOLI 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 5199
+  },
+  {
+    "codigos": 14386,
+    "productos": "MORTADELA BOCHA TERMOLI FETAS",
+    "uxb": 1,
+    "precio_vta": 6399
+  },
+  {
+    "codigos": 14384,
+    "productos": "MORTADELA BOCHA TERMOLI HORMA",
+    "uxb": 1,
+    "precio_vta": 4699
+  },
+  {
     "codigos": 13093,
     "productos": "MORTADELA BOMBON TUCU xFETAS",
     "uxb": 1,
-    "precio_vta": 5498
+    "precio_vta": 5690
   },
   {
     "codigos": 13108,
     "productos": "MORTADELA BOMBON TUCU xPIEZA",
     "uxb": 1,
-    "precio_vta": 4689
+    "precio_vta": 4990
   },
   {
     "codigos": 13437,
@@ -60198,22 +61998,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 11699
   },
   {
-    "codigos": 13689,
-    "productos": "MORTADELA PALADINI FETA",
+    "codigos": 13624,
+    "productos": "MORTADELA PALADINI 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 13989
+    "precio_vta": 9899
+  },
+  {
+    "codigos": 13689,
+    "productos": "MORTADELA PALADINI FETAS",
+    "uxb": 1,
+    "precio_vta": 12099
+  },
+  {
+    "codigos": 13690,
+    "productos": "MORTADELA PALADINI HORMA",
+    "uxb": 1,
+    "precio_vta": 8999
   },
   {
     "codigos": 469513,
     "productos": "MORTADELA PALADINI MINI x300",
     "uxb": 16,
-    "precio_vta": 3999
+    "precio_vta": 2999
   },
   {
-    "codigos": 13690,
-    "productos": "MORTADELA PALADINI TROZO",
+    "codigos": 474190,
+    "productos": "MORTADELA PICCOLA CALCHAQUI x300g",
     "uxb": 1,
-    "precio_vta": 13989
+    "precio_vta": 2799
   },
   {
     "codigos": 13403,
@@ -60261,7 +62073,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468168,
     "productos": "MOSTACERO VARIOS COLORES YESI",
     "uxb": 24,
-    "precio_vta": 1154
+    "precio_vta": 1270
   },
   {
     "codigos": 471753,
@@ -60297,13 +62109,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464197,
     "productos": "MOSTAZA DANICA x2900cc",
     "uxb": 4,
-    "precio_vta": 6529
+    "precio_vta": 8419
+  },
+  {
+    "codigos": 9434,
+    "productos": "MOSTAZA FANACOA 250G",
+    "uxb": 12,
+    "precio_vta": 799
   },
   {
     "codigos": 8047,
     "productos": "MOSTAZA FANACOA X250g",
     "uxb": 24,
-    "precio_vta": 922
+    "precio_vta": 899
   },
   {
     "codigos": 469728,
@@ -60327,7 +62145,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470360,
     "productos": "MOSTAZA NATURA x500g",
     "uxb": 12,
-    "precio_vta": 1678
+    "precio_vta": 1849
   },
   {
     "codigos": 2354,
@@ -60345,7 +62163,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4900,
     "productos": "MOSTAZA SAVORA 500GR",
     "uxb": 15,
-    "precio_vta": 2204
+    "precio_vta": 2349
   },
   {
     "codigos": 2353,
@@ -60396,6 +62214,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1572
   },
   {
+    "codigos": 14230,
+    "productos": "MOZZA AURORA  MEDIT. xHORMA",
+    "uxb": 1,
+    "precio_vta": 7499
+  },
+  {
+    "codigos": 14231,
+    "productos": "MOZZA. AURORA MEDIT. FRACC",
+    "uxb": 1,
+    "precio_vta": 8900
+  },
+  {
     "codigos": 479906,
     "productos": "MOZZARELLA CAVANELAS x1Kg",
     "uxb": 1,
@@ -60411,7 +62241,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476812,
     "productos": "MOZZARELLA LA SERENISIMA x500gr",
     "uxb": 1,
-    "precio_vta": 9951
+    "precio_vta": 10520
   },
   {
     "codigos": 476440,
@@ -60423,7 +62253,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480529,
     "productos": "MR TRAPO PAÑO ABRASIVO SOFT",
     "uxb": 1,
-    "precio_vta": 2624
+    "precio_vta": 2887
   },
   {
     "codigos": 480528,
@@ -60441,13 +62271,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8688,
     "productos": "MULTIPOTE CANDY CHICO YESY 1.25 LTS",
     "uxb": 24,
-    "precio_vta": 2535
+    "precio_vta": 2789
   },
   {
     "codigos": 10494,
     "productos": "MULTIPOTE CANDY GRANDE 2000cc YESI",
     "uxb": 10,
-    "precio_vta": 3380
+    "precio_vta": 3719
   },
   {
     "codigos": 1815,
@@ -60462,22 +62292,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1345
   },
   {
+    "codigos": 14317,
+    "productos": "MUZZA. CIL.BARRAZA X3kg",
+    "uxb": 1,
+    "precio_vta": 10499
+  },
+  {
+    "codigos": 14367,
+    "productos": "MUZZA. CIL.BARRAZA x1kg",
+    "uxb": 1,
+    "precio_vta": 10999
+  },
+  {
     "codigos": 14049,
     "productos": "MUZZARELLA COSA NOSTRA FRACC",
     "uxb": 1,
-    "precio_vta": 8999
+    "precio_vta": 9999
   },
   {
     "codigos": 14048,
     "productos": "MUZZARELLA COSA NOSTRA HORMA",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 8699
   },
   {
     "codigos": 14174,
     "productos": "MUZZARELLA COSA NOSTRA x2.5kg",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 8699
   },
   {
     "codigos": 14301,
@@ -60489,7 +62331,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14128,
     "productos": "MUZZARELLA DON FABIAN X KG",
     "uxb": 1,
-    "precio_vta": 7999
+    "precio_vta": 8499
   },
   {
     "codigos": 14319,
@@ -60519,13 +62361,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13213,
     "productos": "MUZZARELLA NAPOLI X2KG",
     "uxb": 1,
-    "precio_vta": 7899
+    "precio_vta": 8199
   },
   {
     "codigos": 13214,
     "productos": "MUZZARELLA NAPOLI x1Kg",
     "uxb": 1,
-    "precio_vta": 8099
+    "precio_vta": 8399
   },
   {
     "codigos": 462980,
@@ -61395,7 +63237,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473018,
     "productos": "NUEZ MOSCADA MOLIDA SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1417
+    "precio_vta": 1549
   },
   {
     "codigos": 467344,
@@ -61418,7 +63260,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 480482,
     "productos": "NUGGET SAURIO x900g",
-    "uxb": 1,
+    "uxb": 7,
     "precio_vta": 10799
   },
   {
@@ -61442,8 +63284,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 480481,
     "productos": "NUGGETS SADIA x3Kg",
-    "uxb": 1,
-    "precio_vta": 29999
+    "uxb": 2,
+    "precio_vta": 32999
   },
   {
     "codigos": 472586,
@@ -61581,13 +63423,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460220,
     "productos": "OBLITA BOMBON FRUTILLA x30u",
     "uxb": 12,
-    "precio_vta": 6509
-  },
-  {
-    "codigos": 479843,
-    "productos": "ODEX ANTIGRASA DP x450cc",
-    "uxb": 24,
-    "precio_vta": 1427
+    "precio_vta": 6499
   },
   {
     "codigos": 479855,
@@ -61743,7 +63579,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5842,
     "productos": "OLEO CALCAREO ESTRELLA x950ml",
     "uxb": 6,
-    "precio_vta": 7558
+    "precio_vta": 8499
   },
   {
     "codigos": 465739,
@@ -61842,22 +63678,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4189
   },
   {
-    "codigos": 480140,
-    "productos": "ORALITAS INTEGRALES x220g",
-    "uxb": 1,
-    "precio_vta": 1189
-  },
-  {
     "codigos": 468895,
     "productos": "ORDENADOR DE MESADA 2 DIVISIONES STAR",
     "uxb": 100,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 468896,
     "productos": "ORDENADOR DE MESADA 3 DIVISIONES STAR",
     "uxb": 24,
-    "precio_vta": 538
+    "precio_vta": 592
   },
   {
     "codigos": 2522,
@@ -61874,7 +63704,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466813,
     "productos": "OREGANO AROMAS/SABORES x25g",
-    "uxb": 5,
+    "uxb": 1,
     "precio_vta": 478
   },
   {
@@ -61911,7 +63741,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 30011,
     "productos": "OREGANO TUCU X1KG",
     "uxb": 1,
-    "precio_vta": 3454
+    "precio_vta": 3199
   },
   {
     "codigos": 478399,
@@ -61941,79 +63771,91 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480054,
     "productos": "ORGANIZADOR CRISTAL C/MANIJA IMP-E x1Un.",
     "uxb": 1,
-    "precio_vta": 8452
+    "precio_vta": 9297
+  },
+  {
+    "codigos": 479430,
+    "productos": "ORGANIZADOR DE ZAPATOS X1UN",
+    "uxb": 1,
+    "precio_vta": 13990
   },
   {
     "codigos": 3093,
     "productos": "ORGANIZADOR DECOR PARIS PLASVALE x2.5Lt",
     "uxb": 12,
-    "precio_vta": 3018
+    "precio_vta": 3320
   },
   {
     "codigos": 3096,
     "productos": "ORGANIZADOR DECOR PARIS PLASVALE x2Lt",
     "uxb": 12,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 3095,
     "productos": "ORGANIZADOR DECOR PARIS PLASVALE x4Lt",
     "uxb": 12,
-    "precio_vta": 4226
+    "precio_vta": 4648
   },
   {
     "codigos": 479135,
     "productos": "ORGANIZADOR DECOR PARIS ROSA x2.5lt",
     "uxb": 1,
-    "precio_vta": 4105
+    "precio_vta": 4515
   },
   {
     "codigos": 465970,
     "productos": "ORGANIZADOR STAR X3U",
     "uxb": 12,
-    "precio_vta": 8814
+    "precio_vta": 9696
   },
   {
     "codigos": 465971,
     "productos": "ORGANIZADOR STAR x10lt",
     "uxb": 12,
-    "precio_vta": 4829
+    "precio_vta": 5312
   },
   {
     "codigos": 465972,
     "productos": "ORGANIZADOR STAR x12lt",
     "uxb": 6,
-    "precio_vta": 5312
+    "precio_vta": 5844
   },
   {
     "codigos": 465973,
     "productos": "ORGANIZADOR STAR x18lt",
     "uxb": 6,
-    "precio_vta": 6158
+    "precio_vta": 6773
   },
   {
     "codigos": 465974,
     "productos": "ORGANIZADOR STAR x23.5lt",
     "uxb": 6,
-    "precio_vta": 8452
+    "precio_vta": 9297
   },
   {
     "codigos": 465975,
     "productos": "ORGANIZADOR STAR x30lt",
     "uxb": 6,
-    "precio_vta": 9901
+    "precio_vta": 10891
   },
   {
     "codigos": 465976,
     "productos": "ORGANIZADOR STAR x7.5LT",
     "uxb": 12,
-    "precio_vta": 4226
+    "precio_vta": 4648
+  },
+  {
+    "codigos": 473317,
+    "productos": "ORGANIZADOR TERRA VIHA BAGER x3.5Lt",
+    "uxb": 1,
+    "precio_vta": 3999
   },
   {
     "codigos": 476388,
     "productos": "ORGANIZADOR TRANSLUCIDO 10lt STAR",
     "uxb": 1,
-    "precio_vta": 4647
+    "precio_vta": 5112
   },
   {
     "codigos": 473323,
@@ -62055,13 +63897,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480228,
     "productos": "P. MICROFIBRA MEDIA NARANJA LAVA AUTOS",
     "uxb": 20,
-    "precio_vta": 4199
+    "precio_vta": 4619
   },
   {
     "codigos": 480229,
     "productos": "P.MICROFIBRA MULTIUSO MEDIA NARANJA",
     "uxb": 10,
-    "precio_vta": 3359
+    "precio_vta": 3695
   },
   {
     "codigos": 477714,
@@ -62199,31 +64041,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477656,
     "productos": "PALA C/CABO ISABELLA x1Un.",
     "uxb": 1,
-    "precio_vta": 1469
+    "precio_vta": 2198
   },
   {
     "codigos": 477768,
     "productos": "PALA C/CABO PLAST/GOMA CEPI/MODOPLAST",
     "uxb": 12,
-    "precio_vta": 1732
+    "precio_vta": 1905
   },
   {
     "codigos": 474430,
     "productos": "PALA C/CABO PLASTICO BOROLIMP",
     "uxb": 36,
-    "precio_vta": 1489
+    "precio_vta": 1638
   },
   {
     "codigos": 477769,
     "productos": "PALA C/CABO PLASTICO CEPI/MODOPLAST",
     "uxb": 12,
-    "precio_vta": 1270
+    "precio_vta": 1397
   },
   {
     "codigos": 11598,
     "productos": "PALA C/PALO ROSCA METAL BOROLIMP",
     "uxb": 18,
-    "precio_vta": 2309
+    "precio_vta": 2540
   },
   {
     "codigos": 467084,
@@ -62233,21 +64075,21 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 480532,
-    "productos": "PALA D/MADERA DURA EL GAUCHA x1Un.",
+    "productos": "PALA D/MADERA DURA EL GAUCH0 x1Un.",
     "uxb": 1,
-    "precio_vta": 1154
+    "precio_vta": 1270
   },
   {
     "codigos": 478322,
     "productos": "PALA D/MANO C/GOMA MODOPLAST",
     "uxb": 30,
-    "precio_vta": 807
+    "precio_vta": 888
   },
   {
     "codigos": 465218,
     "productos": "PALA D/MANO PLAST MODOPLAST",
     "uxb": 30,
-    "precio_vta": 681
+    "precio_vta": 749
   },
   {
     "codigos": 460354,
@@ -62259,67 +64101,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461230,
     "productos": "PALA MANO ASAPRACTIC LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 677
+    "precio_vta": 745
   },
   {
     "codigos": 8703,
     "productos": "PALA MANO CLIP LA GAUCHITA",
     "uxb": 1,
-    "precio_vta": 981
+    "precio_vta": 1079
   },
   {
     "codigos": 468042,
     "productos": "PALA MANO MAX LA GAUCHITA",
     "uxb": 24,
-    "precio_vta": 1940
+    "precio_vta": 2134
   },
   {
     "codigos": 2127,
     "productos": "PALA MANO SHARK LA GAUCHITA",
     "uxb": 24,
-    "precio_vta": 1784
+    "precio_vta": 1963
   },
   {
     "codigos": 2532,
     "productos": "PALA PLAST.REFORZADA ROMYL",
     "uxb": 1,
-    "precio_vta": 583
+    "precio_vta": 641
   },
   {
     "codigos": 468044,
     "productos": "PALA PLASTICA C/CABO O.K",
     "uxb": 12,
-    "precio_vta": 1258
+    "precio_vta": 1384
   },
   {
     "codigos": 8239,
     "productos": "PALA PLASTICA C/CLIP BOROLIMP",
     "uxb": 12,
-    "precio_vta": 829
+    "precio_vta": 912
   },
   {
     "codigos": 3787,
     "productos": "PALA PLASTICA REFO. CON CABO BATENN",
     "uxb": 12,
-    "precio_vta": 1858
+    "precio_vta": 2044
   },
   {
     "codigos": 468064,
     "productos": "PALA SANITARIA HERALDPLAST",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1039
   },
   {
     "codigos": 10458,
     "productos": "PALANGANA 9lt HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 1784
+    "precio_vta": 1963
   },
   {
     "codigos": 7989,
     "productos": "PALANGANA PLAST. ROMYL 6LT",
     "uxb": 1,
-    "precio_vta": 896
+    "precio_vta": 985
   },
   {
     "codigos": 468644,
@@ -62352,6 +64194,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2414
   },
   {
+    "codigos": 480648,
+    "productos": "PALETA CARIOCA x10u PAYSANDU",
+    "uxb": 1,
+    "precio_vta": 3299
+  },
+  {
     "codigos": 13063,
     "productos": "PALETA CHAMPION 1/2 HORMA",
     "uxb": 1,
@@ -62368,6 +64216,24 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PALETA CHAMPION HORMA",
     "uxb": 1,
     "precio_vta": 7217
+  },
+  {
+    "codigos": 14379,
+    "productos": "PALETA CHICA TERMOLI 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 7199
+  },
+  {
+    "codigos": 14380,
+    "productos": "PALETA CHICA TERMOLI FETAS",
+    "uxb": 1,
+    "precio_vta": 8799
+  },
+  {
+    "codigos": 14378,
+    "productos": "PALETA CHICA TERMOLI HORMA",
+    "uxb": 1,
+    "precio_vta": 6499
   },
   {
     "codigos": 479790,
@@ -62421,13 +64287,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477112,
     "productos": "PALETA ESPIRAL CHICA PAYSANDU x10un",
     "uxb": 22,
-    "precio_vta": 2624
+    "precio_vta": 2999
   },
   {
     "codigos": 478744,
     "productos": "PALETA JUNIOR x14un PAYSANDU",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2699
   },
   {
     "codigos": 478348,
@@ -62451,7 +64317,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8250,
     "productos": "PALETA MARGARITA x12u ROMAN PAYSANDU",
     "uxb": 22,
-    "precio_vta": 2624
+    "precio_vta": 2999
   },
   {
     "codigos": 7995,
@@ -62463,19 +64329,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2535,
     "productos": "PALETA MAXIPIRULE MULTICOLOR CHICA x25un PAYSANDU",
     "uxb": 18,
-    "precio_vta": 3149
+    "precio_vta": 3199
   },
   {
     "codigos": 467431,
     "productos": "PALETA MAXIPIRULETA GRANDE x10un PAYSANDU",
     "uxb": 20,
-    "precio_vta": 3149
+    "precio_vta": 3199
   },
   {
     "codigos": 2536,
     "productos": "PALETA MULTICOL. MEDIANA x12un PAYSANDU",
     "uxb": 20,
-    "precio_vta": 3149
+    "precio_vta": 3199
   },
   {
     "codigos": 465153,
@@ -62484,16 +64350,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3043
   },
   {
+    "codigos": 480627,
+    "productos": "PALETA PAYSANDU EMOTICON x14u",
+    "uxb": 1,
+    "precio_vta": 2199
+  },
+  {
     "codigos": 13130,
     "productos": "PALETA RIFKA",
     "uxb": 1,
-    "precio_vta": 4999
+    "precio_vta": 5999
   },
   {
     "codigos": 13134,
     "productos": "PALETA RIFKA FETAS",
     "uxb": 1,
-    "precio_vta": 6699
+    "precio_vta": 6799
   },
   {
     "codigos": 14075,
@@ -62506,6 +64378,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PALETA SADIA PIEZA TUCU",
     "uxb": 1,
     "precio_vta": 9998
+  },
+  {
+    "codigos": 469483,
+    "productos": "PALETA SAN FRANCISCO FETAS T",
+    "uxb": 1,
+    "precio_vta": 7990
+  },
+  {
+    "codigos": 468614,
+    "productos": "PALETA SAN FRANCISCO TROZ/PIEZA",
+    "uxb": 1,
+    "precio_vta": 6890
   },
   {
     "codigos": 480105,
@@ -62553,7 +64437,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480531,
     "productos": "PALITAS ÑOQUIS MADERA EL GAUCHO x1Un.",
     "uxb": 1,
-    "precio_vta": 461
+    "precio_vta": 508
   },
   {
     "codigos": 466048,
@@ -62586,6 +64470,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 690
   },
   {
+    "codigos": 480746,
+    "productos": "PALITO DE MAIZ BURBUJAS x400gr",
+    "uxb": 10,
+    "precio_vta": 3699
+  },
+  {
     "codigos": 473353,
     "productos": "PALITO PICO DULCE GRIDO x20Un.",
     "uxb": 1,
@@ -62601,7 +64491,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10060,
     "productos": "PALITOS ARROZ QUESO DOS HERMANOS X80G",
     "uxb": 10,
-    "precio_vta": 1154
+    "precio_vta": 999
   },
   {
     "codigos": 472285,
@@ -62652,6 +64542,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 15329
   },
   {
+    "codigos": 480711,
+    "productos": "PALITOS PABLITO x1.5Kg",
+    "uxb": 1,
+    "precio_vta": 13499
+  },
+  {
     "codigos": 7482,
     "productos": "PALITOS PARA BROCHETTES 25cmX25U",
     "uxb": 12,
@@ -62680,6 +64576,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PALITOS SALADOS 80GR",
     "uxb": 20,
     "precio_vta": 483
+  },
+  {
+    "codigos": 480741,
+    "productos": "PALITOS SALADOS BURBUJAS x800g",
+    "uxb": 10,
+    "precio_vta": 6999
   },
   {
     "codigos": 5075,
@@ -62775,7 +64677,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6689,
     "productos": "PALMITOS E/RODAJAS FRUTA DE ORO x400gr",
     "uxb": 24,
-    "precio_vta": 1837
+    "precio_vta": 1799
   },
   {
     "codigos": 5296,
@@ -62787,7 +64689,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5003,
     "productos": "PALMITOS E/TROZOS FRUTAS DE OROX400g",
     "uxb": 24,
-    "precio_vta": 1711
+    "precio_vta": 1699
   },
   {
     "codigos": 6868,
@@ -62811,13 +64713,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5809,
     "productos": "PALMITOS EN TROZOS CUMANA x400gr",
     "uxb": 24,
-    "precio_vta": 4198
+    "precio_vta": 3999
   },
   {
     "codigos": 480159,
     "productos": "PALMITOS ENT FRUTAS DE ORO x800g",
     "uxb": 12,
-    "precio_vta": 6142
+    "precio_vta": 6099
   },
   {
     "codigos": 421,
@@ -62871,13 +64773,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2545,
     "productos": "PALO METALICO CON ROSCA",
     "uxb": 1,
-    "precio_vta": 753
+    "precio_vta": 828
   },
   {
     "codigos": 468930,
     "productos": "PALOS DE AMASAR EL GAUCHO",
     "uxb": 1,
     "precio_vta": 2052
+  },
+  {
+    "codigos": 480792,
+    "productos": "PAN (CHIPS) x12 SANTA MARTA",
+    "uxb": 1,
+    "precio_vta": 2990
   },
   {
     "codigos": 470639,
@@ -62937,13 +64845,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480461,
     "productos": "PAN DE CAMPO CEBOLLA Y QUESO ON BREAD",
     "uxb": 1,
-    "precio_vta": 2875
+    "precio_vta": 2937
   },
   {
     "codigos": 480462,
     "productos": "PAN DE CAMPO INTEGRAL C/SEMILLAS ON BREAD",
     "uxb": 1,
-    "precio_vta": 1575
+    "precio_vta": 1687
   },
   {
     "codigos": 123,
@@ -62973,7 +64881,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480463,
     "productos": "PAN DE CAMPO TRADICIONAL ON BREAD",
     "uxb": 1,
-    "precio_vta": 1237
+    "precio_vta": 1312
   },
   {
     "codigos": 472606,
@@ -62985,61 +64893,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466991,
     "productos": "PAN DE HAMBURGUESA EL TRIGAL x4u",
     "uxb": 1,
-    "precio_vta": 1088
+    "precio_vta": 1200
   },
   {
     "codigos": 468769,
     "productos": "PAN DE HAMBURGUESA ESPIGA DE ORO",
     "uxb": 1,
-    "precio_vta": 1099
+    "precio_vta": 1150
   },
   {
     "codigos": 478541,
     "productos": "PAN DE HAMBURGUESA MENDIA x210gr",
-    "uxb": 1,
-    "precio_vta": 1199
+    "uxb": 21,
+    "precio_vta": 1331
   },
   {
     "codigos": 11734,
     "productos": "PAN DE HAMBURGUESAS TAPAMANIA X210g",
     "uxb": 1,
-    "precio_vta": 1403
+    "precio_vta": 1299
   },
   {
     "codigos": 479885,
     "productos": "PAN DE MIGA EL TRIGAL S/CORTEZA X1UN",
     "uxb": 1,
-    "precio_vta": 2889
+    "precio_vta": 3120
   },
   {
     "codigos": 468690,
     "productos": "PAN DE MIGA ESPIGA DE ORO x1u",
     "uxb": 1,
-    "precio_vta": 2398
-  },
-  {
-    "codigos": 480073,
-    "productos": "PAN DE MIGA SALVADO ESPIGA DE ORO X1UN",
-    "uxb": 1,
-    "precio_vta": 2989
+    "precio_vta": 2790
   },
   {
     "codigos": 468768,
     "productos": "PAN DE PANCHO ESPIGA DE ORO",
     "uxb": 1,
-    "precio_vta": 1099
+    "precio_vta": 1150
   },
   {
     "codigos": 11733,
     "productos": "PAN DE PANCHO TAPAMANIA X210g",
     "uxb": 1,
-    "precio_vta": 1403
+    "precio_vta": 1299
   },
   {
     "codigos": 478542,
     "productos": "PAN DE PANCHOS MENDIA x210gr",
-    "uxb": 1,
-    "precio_vta": 1199
+    "uxb": 24,
+    "precio_vta": 1331
   },
   {
     "codigos": 473888,
@@ -63069,13 +64971,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466990,
     "productos": "PAN DE VIENA EL TRIGAL x6Un.",
     "uxb": 1,
-    "precio_vta": 1088
+    "precio_vta": 1200
   },
   {
     "codigos": 474415,
     "productos": "PAN DE VIENA LA PANERITA x6Un.",
     "uxb": 1,
-    "precio_vta": 1559
+    "precio_vta": 1579
   },
   {
     "codigos": 464373,
@@ -63327,7 +65229,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466455,
     "productos": "PAN DULCE MAROLIO SIN FRUTAS x400g",
     "uxb": 6,
-    "precio_vta": 2999
+    "precio_vta": 1999
   },
   {
     "codigos": 470432,
@@ -63399,25 +65301,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480466,
     "productos": "PAN HAMBURGUESA BRIOCHE ON BREAD",
     "uxb": 1,
-    "precio_vta": 1312
+    "precio_vta": 1375
   },
   {
     "codigos": 480465,
     "productos": "PAN HAMBURGUESA CEBOLLA AHUMADA ON BREAD",
     "uxb": 1,
-    "precio_vta": 1650
+    "precio_vta": 1737
   },
   {
     "codigos": 480467,
     "productos": "PAN HAMBURGUESA DE QUESO ON BREAD",
     "uxb": 1,
-    "precio_vta": 1800
+    "precio_vta": 1862
   },
   {
     "codigos": 480464,
     "productos": "PAN HAMBURGUESA VEGGIE ON BREAD",
     "uxb": 1,
-    "precio_vta": 1650
+    "precio_vta": 1737
   },
   {
     "codigos": 478811,
@@ -63447,19 +65349,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479716,
     "productos": "PAN LACTAL BLANCO PIMPUMPAN x560g",
     "uxb": 1,
-    "precio_vta": 1549
+    "precio_vta": 1620
   },
   {
     "codigos": 473813,
     "productos": "PAN LACTAL CHICO SALVADO TAPAMANIA x360g",
     "uxb": 1,
-    "precio_vta": 1814
+    "precio_vta": 1819
   },
   {
     "codigos": 473812,
     "productos": "PAN LACTAL CHICO TAPAMANIA x400g",
     "uxb": 1,
-    "precio_vta": 1996
+    "precio_vta": 1819
   },
   {
     "codigos": 473976,
@@ -63471,7 +65373,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468767,
     "productos": "PAN LACTAL ESPIGA DE ORO",
     "uxb": 1,
-    "precio_vta": 1990
+    "precio_vta": 2159
   },
   {
     "codigos": 476261,
@@ -63495,7 +65397,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473811,
     "productos": "PAN LACTAL GDE TAPAMANIA x560g",
     "uxb": 1,
-    "precio_vta": 2625
+    "precio_vta": 2399
   },
   {
     "codigos": 475882,
@@ -63507,7 +65409,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479938,
     "productos": "PAN LACTAL GRANDE SALVADO MENDIA x600gr",
     "uxb": 10,
-    "precio_vta": 2920
+    "precio_vta": 3242
   },
   {
     "codigos": 474419,
@@ -63531,31 +65433,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478704,
     "productos": "PAN LACTAL MENDIA AVENA/SEMILLAS x360gr",
     "uxb": 1,
-    "precio_vta": 2148
+    "precio_vta": 2384
   },
   {
     "codigos": 479937,
     "productos": "PAN LACTAL MENDIA GRANDE x600gr",
     "uxb": 10,
-    "precio_vta": 2920
+    "precio_vta": 3242
   },
   {
     "codigos": 478540,
     "productos": "PAN LACTAL MENDIA SALVADO x360gr",
     "uxb": 1,
-    "precio_vta": 1903
+    "precio_vta": 2113
   },
   {
     "codigos": 480078,
     "productos": "PAN LACTAL MENDIA SLVADO C/SEMILLAS x600g",
     "uxb": 1,
-    "precio_vta": 3551
+    "precio_vta": 3941
   },
   {
     "codigos": 478534,
     "productos": "PAN LACTAL MENDIA x360gr",
-    "uxb": 1,
-    "precio_vta": 1903
+    "uxb": 15,
+    "precio_vta": 2113
   },
   {
     "codigos": 478059,
@@ -63582,6 +65484,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1121
   },
   {
+    "codigos": 480593,
+    "productos": "PAN LACTAL SALVADO PIMPUMPAN x560g",
+    "uxb": 1,
+    "precio_vta": 1620
+  },
+  {
     "codigos": 11731,
     "productos": "PAN LACTAL SALVADO RF x560g",
     "uxb": 1,
@@ -63603,13 +65511,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7323,
     "productos": "PAN LACTAL TAPAMANIA INTEGRAL x400g",
     "uxb": 1,
-    "precio_vta": 1780
+    "precio_vta": 1899
   },
   {
     "codigos": 473886,
     "productos": "PAN LACTAL TAPAMANIA SEMILLAS x330g",
     "uxb": 1,
-    "precio_vta": 1779
+    "precio_vta": 1819
   },
   {
     "codigos": 479941,
@@ -63621,7 +65529,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473815,
     "productos": "PAN MAXIHAMBURGUESA TAPAMANIA x310g",
     "uxb": 1,
-    "precio_vta": 1559
+    "precio_vta": 1599
   },
   {
     "codigos": 472800,
@@ -63711,7 +65619,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480208,
     "productos": "PAN P/PANCHO C/QUESO MENDIA 370G",
     "uxb": 16,
-    "precio_vta": 2738
+    "precio_vta": 3039
   },
   {
     "codigos": 479418,
@@ -63722,14 +65630,14 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 479151,
     "productos": "PAN P/SUPER PANCHO MENDIA x6un",
-    "uxb": 18,
-    "precio_vta": 2315
+    "uxb": 16,
+    "precio_vta": 2569
   },
   {
     "codigos": 473814,
     "productos": "PAN P/SUPER PANCHOS TAPAMANIA x350g",
     "uxb": 1,
-    "precio_vta": 1869
+    "precio_vta": 1899
   },
   {
     "codigos": 472681,
@@ -63783,7 +65691,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11735,
     "productos": "PAN PEBETE TAPAMANIA X210g",
     "uxb": 9,
-    "precio_vta": 1403
+    "precio_vta": 1299
   },
   {
     "codigos": 479399,
@@ -63814,6 +65722,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PAN RAICES DEL SUR SALVADO x540g",
     "uxb": 1,
     "precio_vta": 2412
+  },
+  {
+    "codigos": 13874,
+    "productos": "PAN RALL/REB SUELTO xKILO",
+    "uxb": 100,
+    "precio_vta": 1499
   },
   {
     "codigos": 11843,
@@ -63849,31 +65763,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2562,
     "productos": "PAN RALLADO MAMA COCINA x1kg",
     "uxb": 10,
-    "precio_vta": 1699
+    "precio_vta": 1799
   },
   {
     "codigos": 2568,
     "productos": "PAN RALLADO MAMA COCINA x500g",
     "uxb": 12,
-    "precio_vta": 799
+    "precio_vta": 879
   },
   {
     "codigos": 361,
     "productos": "PAN RALLADO MAROLIO x500gr",
     "uxb": 12,
-    "precio_vta": 749
+    "precio_vta": 899
   },
   {
     "codigos": 476037,
     "productos": "PAN RALLADO MOLTO x1Kg",
     "uxb": 10,
-    "precio_vta": 1459
+    "precio_vta": 1699
   },
   {
     "codigos": 471956,
     "productos": "PAN RALLADO MOLTO x500g",
     "uxb": 12,
-    "precio_vta": 749
+    "precio_vta": 999
   },
   {
     "codigos": 2566,
@@ -63891,31 +65805,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4025,
     "productos": "PAN RALLADO SEQUITO x400gr",
     "uxb": 12,
-    "precio_vta": 599
+    "precio_vta": 769
   },
   {
     "codigos": 4027,
     "productos": "PAN RALLADO SILVINA x450gr",
     "uxb": 12,
-    "precio_vta": 743
+    "precio_vta": 909
   },
   {
     "codigos": 5049,
     "productos": "PAN RALLADO SILVINA x5kg",
     "uxb": 1,
-    "precio_vta": 8499
+    "precio_vta": 9399
   },
   {
     "codigos": 13971,
     "productos": "PAN RALLADO SUELTO X KILO (AGROMAR)",
     "uxb": 100,
     "precio_vta": 599
-  },
-  {
-    "codigos": 13874,
-    "productos": "PAN RALLADO SUELTO x KILO",
-    "uxb": 100,
-    "precio_vta": 1342
   },
   {
     "codigos": 476239,
@@ -63946,6 +65854,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PAN SALVADO LIGHT 600 FACILITAS",
     "uxb": 1,
     "precio_vta": 2249
+  },
+  {
+    "codigos": 14363,
+    "productos": "PAN xkg",
+    "uxb": 1,
+    "precio_vta": 2200
   },
   {
     "codigos": 5521,
@@ -63984,24 +65898,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 17427
   },
   {
-    "codigos": 14084,
-    "productos": "PANCETA AHUMADA C/C 1/2 HORMA BIERZO",
-    "uxb": 1,
-    "precio_vta": 10336
-  },
-  {
-    "codigos": 14085,
-    "productos": "PANCETA AHUMADA C/C FETAS BIERZO",
-    "uxb": 1,
-    "precio_vta": 12612
-  },
-  {
-    "codigos": 14083,
-    "productos": "PANCETA AHUMADA C/C HORMA BIERZO",
-    "uxb": 1,
-    "precio_vta": 9401
-  },
-  {
     "codigos": 14250,
     "productos": "PANCETA AHUMADA COCIDA CAGNOLI HORMA",
     "uxb": 1,
@@ -64029,13 +65925,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13735,
     "productos": "PANCETA AHUMADA NOVICER FETAS",
     "uxb": 1,
-    "precio_vta": 12999
+    "precio_vta": 14499
   },
   {
     "codigos": 13734,
     "productos": "PANCETA AHUMADA NOVICER HORMA",
     "uxb": 1,
-    "precio_vta": 9599
+    "precio_vta": 10799
+  },
+  {
+    "codigos": 14084,
+    "productos": "PANCETA AHUMADA PLATA 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 14299
+  },
+  {
+    "codigos": 14085,
+    "productos": "PANCETA AHUMADA PLATA FETAS",
+    "uxb": 1,
+    "precio_vta": 17999
+  },
+  {
+    "codigos": 14083,
+    "productos": "PANCETA AHUMADA PLATA HORMA",
+    "uxb": 1,
+    "precio_vta": 12999
   },
   {
     "codigos": 478019,
@@ -64140,10 +66054,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 31499
   },
   {
+    "codigos": 480776,
+    "productos": "PANQUEQUERA SUKA 22CM IMP EMA CERPAN/22",
+    "uxb": 1,
+    "precio_vta": 13899
+  },
+  {
     "codigos": 480003,
     "productos": "PANQUEQUES LA PARMESANA x180g",
     "uxb": 24,
-    "precio_vta": 3149
+    "precio_vta": 3199
+  },
+  {
+    "codigos": 74854,
+    "productos": "PANTALON CARGO TUCU",
+    "uxb": 1,
+    "precio_vta": 29990
   },
   {
     "codigos": 476196,
@@ -64153,15 +66079,15 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 12399,
-    "productos": "PANTALON JOGGER T.ESPECIAL TUCU",
+    "productos": "PANTALON JOGGER HOMBRE TUCU X1UN",
     "uxb": 12,
-    "precio_vta": 11900
+    "precio_vta": 12990
   },
   {
     "codigos": 12398,
-    "productos": "PANTALON JOGGER T.M AL XL TUCU",
+    "productos": "PANTALON JOGGER MUJER TUCU X1UN",
     "uxb": 12,
-    "precio_vta": 9990
+    "precio_vta": 11900
   },
   {
     "codigos": 469969,
@@ -64194,12 +66120,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7999
   },
   {
-    "codigos": 474132,
-    "productos": "PANTUFLAS HOMBRE TUCU",
-    "uxb": 1,
-    "precio_vta": 11900
-  },
-  {
     "codigos": 474133,
     "productos": "PANTUFLAS MUJER TUCU",
     "uxb": 1,
@@ -64212,16 +66132,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6989
   },
   {
+    "codigos": 474132,
+    "productos": "PANTUFLAS TUCU",
+    "uxb": 1,
+    "precio_vta": 11900
+  },
+  {
     "codigos": 467310,
     "productos": "PANTUFLAS VARIAS",
     "uxb": 1,
     "precio_vta": 4889
   },
   {
-    "codigos": 470296,
-    "productos": "PANZOTTIS LA ITALIANA x700g",
+    "codigos": 62482,
+    "productos": "PANTUMEDIAS TUCU",
     "uxb": 1,
-    "precio_vta": 2862
+    "precio_vta": 1899
   },
   {
     "codigos": 12109,
@@ -64280,7 +66206,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 465553,
     "productos": "PAPAS CHIL CHEDDAR x1Kg",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 13599
   },
   {
@@ -64326,9 +66252,15 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 11119
   },
   {
+    "codigos": 480743,
+    "productos": "PAPAS FRITAS ACANALADAS BURBUJAS x500g",
+    "uxb": 8,
+    "precio_vta": 6699
+  },
+  {
     "codigos": 11838,
     "productos": "PAPAS FRITAS C/AMER. CHIL 1KG",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 10254
   },
   {
@@ -64347,7 +66279,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478512,
     "productos": "PAPAS FRITAS C/AMERICANO PAPAX x70g",
     "uxb": 22,
-    "precio_vta": 734
+    "precio_vta": 829
   },
   {
     "codigos": 477591,
@@ -64383,7 +66315,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478222,
     "productos": "PAPAS FRITAS CLAS PAPAX x70gr",
     "uxb": 22,
-    "precio_vta": 734
+    "precio_vta": 829
   },
   {
     "codigos": 4866,
@@ -64400,8 +66332,14 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 478272,
     "productos": "PAPAS FRITAS CLASICA CHIL x900g",
-    "uxb": 1,
+    "uxb": 6,
     "precio_vta": 8539
+  },
+  {
+    "codigos": 480733,
+    "productos": "PAPAS FRITAS CLASICAS BURBUJAS x1Kg",
+    "uxb": 5,
+    "precio_vta": 11999
   },
   {
     "codigos": 477646,
@@ -64420,6 +66358,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PAPAS FRITAS CLASICAS PEI-PO x60gr",
     "uxb": 24,
     "precio_vta": 944
+  },
+  {
+    "codigos": 480732,
+    "productos": "PAPAS FRITAS CORTE ACAN. BURBUJAS x1kg",
+    "uxb": 1,
+    "precio_vta": 11999
   },
   {
     "codigos": 20006,
@@ -64464,6 +66408,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4199
   },
   {
+    "codigos": 480731,
+    "productos": "PAPAS FRITAS J/SERRANO BURBUJAS x1Kg",
+    "uxb": 5,
+    "precio_vta": 13199
+  },
+  {
+    "codigos": 480745,
+    "productos": "PAPAS FRITAS J/SERRANO x350g BURBUJAS",
+    "uxb": 8,
+    "precio_vta": 6099
+  },
+  {
     "codigos": 463888,
     "productos": "PAPAS FRITAS JAMON SERRANO SLICES CHIL x65gr",
     "uxb": 24,
@@ -64474,12 +66430,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PAPAS FRITAS KETCHUP SLICES CHIL x65gr",
     "uxb": 24,
     "precio_vta": 1292
-  },
-  {
-    "codigos": 478576,
-    "productos": "PAPAS FRITAS LAYS CLASICAS x40g",
-    "uxb": 68,
-    "precio_vta": 1259
   },
   {
     "codigos": 468143,
@@ -64509,25 +66459,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479131,
     "productos": "PAPAS FRITAS PAPAX C/AMERICANO x600g",
     "uxb": 8,
-    "precio_vta": 4934
+    "precio_vta": 5499
   },
   {
     "codigos": 479132,
     "productos": "PAPAS FRITAS PAPAX CLASICAS x600g",
     "uxb": 8,
-    "precio_vta": 4934
+    "precio_vta": 5499
+  },
+  {
+    "codigos": 480688,
+    "productos": "PAPAS FRITAS PAPAX CREMA Y CEBOLLA x70g",
+    "uxb": 22,
+    "precio_vta": 1099
+  },
+  {
+    "codigos": 480689,
+    "productos": "PAPAS FRITAS PAPAX DE CAMPO x70g",
+    "uxb": 22,
+    "precio_vta": 1099
+  },
+  {
+    "codigos": 480679,
+    "productos": "PAPAS FRITAS PAPAX JAMON SERRANO x70g",
+    "uxb": 22,
+    "precio_vta": 1099
+  },
+  {
+    "codigos": 480736,
+    "productos": "PAPAS FRITAS PAY BURBUJAS x1Kg",
+    "uxb": 10,
+    "precio_vta": 11499
   },
   {
     "codigos": 477590,
     "productos": "PAPAS FRITAS PAY PEI-PO x500g",
     "uxb": 10,
     "precio_vta": 6852
-  },
-  {
-    "codigos": 462768,
-    "productos": "PAPAS FRITAS PEHUAMAR x485g",
-    "uxb": 9,
-    "precio_vta": 6299
   },
   {
     "codigos": 477058,
@@ -64578,6 +66546,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 13324
   },
   {
+    "codigos": 480744,
+    "productos": "PAPAS FRITAS TRAD BURBUJAS x500g",
+    "uxb": 8,
+    "precio_vta": 6699
+  },
+  {
     "codigos": 479826,
     "productos": "PAPAS JAMON SERRANO KRACHITOS x55g",
     "uxb": 24,
@@ -64590,16 +66564,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1154
   },
   {
-    "codigos": 466826,
-    "productos": "PAPAS LAYS CLASICAS x45g",
-    "uxb": 54,
-    "precio_vta": 1228
-  },
-  {
     "codigos": 464968,
     "productos": "PAPAS PAY CHIL x1kg",
     "uxb": 6,
-    "precio_vta": 8987
+    "precio_vta": 8599
   },
   {
     "codigos": 479841,
@@ -64617,19 +66585,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5188,
     "productos": "PAPAS PAY SLICES CHIL x140gr",
     "uxb": 24,
-    "precio_vta": 1572
+    "precio_vta": 1499
   },
   {
     "codigos": 479463,
     "productos": "PAPAS PEHUAMAR ACANALADAS x450g",
     "uxb": 9,
-    "precio_vta": 6089
+    "precio_vta": 6199
   },
   {
     "codigos": 479465,
     "productos": "PAPAS PEHUAMAR LISA x450g",
     "uxb": 9,
-    "precio_vta": 6089
+    "precio_vta": 6199
   },
   {
     "codigos": 468152,
@@ -64694,8 +66662,14 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 467508,
     "productos": "PAPAS RUSTICAS SIMPLOT x700g",
-    "uxb": 14,
+    "uxb": 20,
     "precio_vta": 4599
+  },
+  {
+    "codigos": 480748,
+    "productos": "PAPAS SIMPLOT COOL FRAIS x2Kg",
+    "uxb": 7,
+    "precio_vta": 8999
   },
   {
     "codigos": 470491,
@@ -64707,7 +66681,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470492,
     "productos": "PAPAS SIMPLOT TRADICIONAL x700g",
     "uxb": 20,
-    "precio_vta": 3199
+    "precio_vta": 3999
   },
   {
     "codigos": 5187,
@@ -64718,13 +66692,13 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 465918,
     "productos": "PAPAS SLICES CHIL SALAME x 65g",
-    "uxb": 1,
+    "uxb": 24,
     "precio_vta": 1628
   },
   {
     "codigos": 471655,
     "productos": "PAPAS SLICES PROVENZAL x65g",
-    "uxb": 1,
+    "uxb": 24,
     "precio_vta": 1724
   },
   {
@@ -64773,7 +66747,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471312,
     "productos": "PAPEL ALUMINIO ROLLO TUCU",
     "uxb": 1,
-    "precio_vta": 959
+    "precio_vta": 1399
   },
   {
     "codigos": 471749,
@@ -64869,13 +66843,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8815,
     "productos": "PAPEL HIG CALIPSO 1X30MTS",
     "uxb": 48,
-    "precio_vta": 262
+    "precio_vta": 269
   },
   {
     "codigos": 8824,
     "productos": "PAPEL HIG CALIPSO 4X30MTS",
     "uxb": 12,
-    "precio_vta": 902
+    "precio_vta": 1049
   },
   {
     "codigos": 467047,
@@ -64893,7 +66867,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464675,
     "productos": "PAPEL HIG CAMPANITA H/DOBLE 4X30MTS",
     "uxb": 12,
-    "precio_vta": 2089
+    "precio_vta": 1999
   },
   {
     "codigos": 469178,
@@ -64905,13 +66879,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462748,
     "productos": "PAPEL HIG CAMPANITA SOFT 4X30MT",
     "uxb": 12,
-    "precio_vta": 976
+    "precio_vta": 999
   },
   {
     "codigos": 12343,
     "productos": "PAPEL HIG CAMPANITA SOFT 6X30MTS",
     "uxb": 12,
-    "precio_vta": 1574
+    "precio_vta": 1399
   },
   {
     "codigos": 50000,
@@ -64929,7 +66903,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465076,
     "productos": "PAPEL HIG CAMPANITA XL PL 4X80mt",
     "uxb": 10,
-    "precio_vta": 3139
+    "precio_vta": 2999
   },
   {
     "codigos": 9879,
@@ -64950,40 +66924,46 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3148
   },
   {
+    "codigos": 473630,
+    "productos": "PAPEL HIG ELEGANTE 4X120(901)",
+    "uxb": 6,
+    "precio_vta": 5635
+  },
+  {
     "codigos": 2599,
     "productos": "PAPEL HIG ELEGANTE BCO 4X30MT (900)",
     "uxb": 12,
-    "precio_vta": 1494
+    "precio_vta": 1507
   },
   {
     "codigos": 2593,
     "productos": "PAPEL HIG ELEGANTE BCO 6X30MT (904)",
     "uxb": 12,
-    "precio_vta": 2247
+    "precio_vta": 2268
   },
   {
     "codigos": 4713,
     "productos": "PAPEL HIG ELEGANTE DOBLE HOJA x4x30MTS AZUL (915)",
     "uxb": 10,
-    "precio_vta": 2612
+    "precio_vta": 2637
   },
   {
     "codigos": 2600,
     "productos": "PAPEL HIG ELEGANTE VERDE 4X80MT (916)",
     "uxb": 10,
-    "precio_vta": 3790
+    "precio_vta": 3825
   },
   {
     "codigos": 473458,
     "productos": "PAPEL HIG ELEGANTE X1 X120MTS (902)",
     "uxb": 12,
-    "precio_vta": 1501
+    "precio_vta": 1516
   },
   {
     "codigos": 461352,
     "productos": "PAPEL HIG ELITE H/SIMPLE 6X30MT",
     "uxb": 10,
-    "precio_vta": 2413
+    "precio_vta": 2399
   },
   {
     "codigos": 464700,
@@ -65019,7 +66999,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461591,
     "productos": "PAPEL HIG ESENCIAL BLANCO 6X30MT",
     "uxb": 12,
-    "precio_vta": 2518
+    "precio_vta": 2199
   },
   {
     "codigos": 471387,
@@ -65049,13 +67029,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461104,
     "productos": "PAPEL HIG ESENCIAL MAX 6X80MT",
     "uxb": 10,
-    "precio_vta": 5143
+    "precio_vta": 4999
   },
   {
     "codigos": 461141,
     "productos": "PAPEL HIG ESENCIAL NAT 4X30MT",
     "uxb": 12,
-    "precio_vta": 1259
+    "precio_vta": 1149
   },
   {
     "codigos": 461592,
@@ -65091,43 +67071,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466353,
     "productos": "PAPEL HIG FAMILY ECO BCO 4X30MT",
     "uxb": 12,
-    "precio_vta": 1039
+    "precio_vta": 1199
   },
   {
     "codigos": 10873,
     "productos": "PAPEL HIG FAMILY ECO BCO 6X30MT",
     "uxb": 12,
-    "precio_vta": 1501
+    "precio_vta": 1799
   },
   {
     "codigos": 8822,
     "productos": "PAPEL HIG FAMILY ESP 4X40MT",
     "uxb": 12,
-    "precio_vta": 1354
+    "precio_vta": 1599
   },
   {
     "codigos": 8819,
     "productos": "PAPEL HIG FAMILY GRAN 4X60MT",
     "uxb": 12,
-    "precio_vta": 1312
+    "precio_vta": 1499
   },
   {
     "codigos": 8816,
     "productos": "PAPEL HIG FAMILY MEGA 2X90MT",
     "uxb": 24,
-    "precio_vta": 1354
+    "precio_vta": 1599
   },
   {
     "codigos": 463451,
     "productos": "PAPEL HIG FAMILY MEGA 4X80MT",
     "uxb": 12,
-    "precio_vta": 2299
+    "precio_vta": 2699
   },
   {
     "codigos": 8823,
     "productos": "PAPEL HIG FAMILY PERF 4X30MT",
     "uxb": 12,
-    "precio_vta": 1249
+    "precio_vta": 1499
   },
   {
     "codigos": 469288,
@@ -65187,13 +67167,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8820,
     "productos": "PAPEL HIG GRAN FAMILY 1X60MTS",
     "uxb": 48,
-    "precio_vta": 335
+    "precio_vta": 399
   },
   {
     "codigos": 8821,
     "productos": "PAPEL HIG GRAN FAMILY 6X60MT",
     "uxb": 12,
-    "precio_vta": 1889
+    "precio_vta": 2199
   },
   {
     "codigos": 2595,
@@ -65217,7 +67197,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6386,
     "productos": "PAPEL HIG HIGIENOL MAX 4X100MT",
     "uxb": 10,
-    "precio_vta": 5038
+    "precio_vta": 5199
   },
   {
     "codigos": 20107,
@@ -65229,7 +67209,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466476,
     "productos": "PAPEL HIG HIGIENOL MAX 4X80mts",
     "uxb": 10,
-    "precio_vta": 3673
+    "precio_vta": 3799
   },
   {
     "codigos": 8034,
@@ -65277,7 +67257,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465604,
     "productos": "PAPEL HIG HIGIENOL TEXT 4X30MT",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1599
   },
   {
     "codigos": 1814,
@@ -65298,10 +67278,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3317
   },
   {
+    "codigos": 8818,
+    "productos": "PAPEL HIG MEGA FAMILY 1ux90m",
+    "uxb": 48,
+    "precio_vta": 799
+  },
+  {
     "codigos": 9430,
     "productos": "PAPEL HIG MEGA FAMILY 6X90M",
     "uxb": 12,
-    "precio_vta": 3674
+    "precio_vta": 4399
   },
   {
     "codigos": 473497,
@@ -65412,12 +67398,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 11549
   },
   {
-    "codigos": 5056,
-    "productos": "PAPEL HIG NEW PEL VALIJA 12X30mt H/SIMP",
-    "uxb": 4,
-    "precio_vta": 4409
-  },
-  {
     "codigos": 5054,
     "productos": "PAPEL HIG NEW PEL VALIJA ULTRA PREM x12",
     "uxb": 4,
@@ -65470,6 +67450,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PAPEL HIG VUAL TEXT 4X30MTS",
     "uxb": 12,
     "precio_vta": 1574
+  },
+  {
+    "codigos": 480563,
+    "productos": "PAPEL HIG.CALIPSO ECOLOGICO 4X60MTS",
+    "uxb": 12,
+    "precio_vta": 1499
   },
   {
     "codigos": 11650,
@@ -65559,13 +67545,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475450,
     "productos": "PAPRIKA SABOR SUR x25gr",
     "uxb": 5,
-    "precio_vta": 839
+    "precio_vta": 979
   },
   {
     "codigos": 478878,
     "productos": "PARAGUA MINI COD510847 IMP-E",
     "uxb": 1,
     "precio_vta": 4499
+  },
+  {
+    "codigos": 78495,
+    "productos": "PARAGUA MINI TUCU",
+    "uxb": 1,
+    "precio_vta": 12500
   },
   {
     "codigos": 479942,
@@ -65664,6 +67656,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 9092
   },
   {
+    "codigos": 480786,
+    "productos": "PARLANTE FANT. QUALITY IMP EMA M302038",
+    "uxb": 1,
+    "precio_vta": 6990
+  },
+  {
+    "codigos": 480781,
+    "productos": "PARLANTE FLAME LIGHT 1867 IMP EMA 302045",
+    "uxb": 1,
+    "precio_vta": 7990
+  },
+  {
     "codigos": 478992,
     "productos": "PARLANTE FLAME LIGHT KTS-2006 IMP-E",
     "uxb": 1,
@@ -65691,7 +67695,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478989,
     "productos": "PARLANTE PORTATIL AUTO OM 10W IMP-E",
     "uxb": 1,
-    "precio_vta": 32899
+    "precio_vta": 34900
   },
   {
     "codigos": 480334,
@@ -65757,7 +67761,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14052,
     "productos": "PASAS UVA S/SEM MOROCHA MARTILAN x1Kg",
     "uxb": 1,
-    "precio_vta": 6614
+    "precio_vta": 6999
   },
   {
     "codigos": 14053,
@@ -65811,13 +67815,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1104,
     "productos": "PAST ANIS DRF X12U",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 7326,
-    "productos": "PAST BIYU GRAN SORPRESA X20G",
+    "productos": "PAST BIYU GRAN SORPRESA X12u",
     "uxb": 12,
-    "precio_vta": 1048
+    "precio_vta": 12990
   },
   {
     "codigos": 477781,
@@ -65829,31 +67833,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4323,
     "productos": "PAST CITRUS DRF X12U",
     "uxb": 1,
-    "precio_vta": 2278
+    "precio_vta": 2999
   },
   {
     "codigos": 1105,
     "productos": "PAST FRUTOS ROJOS DRF X12U",
     "uxb": 12,
-    "precio_vta": 2278
+    "precio_vta": 2999
   },
   {
     "codigos": 463757,
     "productos": "PAST LIMON DRF X12U",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 1106,
     "productos": "PAST MENTA DRF X12U",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 4745,
     "productos": "PAST MENTOL DRF X12U",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 472453,
@@ -65874,10 +67878,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3664
   },
   {
+    "codigos": 480601,
+    "productos": "PAST. DRF MENTA LATA x22gr",
+    "uxb": 8,
+    "precio_vta": 2299
+  },
+  {
     "codigos": 480232,
     "productos": "PAST. FREEGELLS x12un MANDARINA",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
+  },
+  {
+    "codigos": 480599,
+    "productos": "PAST. RUEDITA BILLIKEN x12un",
+    "uxb": 12,
+    "precio_vta": 3999
   },
   {
     "codigos": 8684,
@@ -65889,7 +67905,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478095,
     "productos": "PAST.PUNCH BILLIKEN x60un",
     "uxb": 18,
-    "precio_vta": 3674
+    "precio_vta": 4390
+  },
+  {
+    "codigos": 480628,
+    "productos": "PASTA RAVIOLES DONNA WHEAT VARIOS x1Kg",
+    "uxb": 1,
+    "precio_vta": 3499
   },
   {
     "codigos": 460673,
@@ -65913,7 +67935,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480240,
     "productos": "PASTILLA FREEGLLS x12un FRTA TROPICALES",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
+  },
+  {
+    "codigos": 470497,
+    "productos": "PASTILLA INODORO LAVANDA HARPIC x20gr",
+    "uxb": 36,
+    "precio_vta": 1349
   },
   {
     "codigos": 470477,
@@ -65925,13 +67953,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476293,
     "productos": "PASTILLA LUCKY MINI 12 x290gr",
     "uxb": 18,
-    "precio_vta": 2204
+    "precio_vta": 2399
   },
   {
     "codigos": 476294,
     "productos": "PASTILLA LUCKY MINI 5 x240gr",
     "uxb": 20,
-    "precio_vta": 1994
+    "precio_vta": 2299
   },
   {
     "codigos": 463367,
@@ -66051,7 +68079,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3926,
     "productos": "PASTILLAS FREEGELLS EUCALIPTO MENTOL x12Un.",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 3991,
@@ -66063,13 +68091,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3908,
     "productos": "PASTILLAS FREEGELLS FRESH MELON CRISTx12U",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 3994,
     "productos": "PASTILLAS FREEGELLS FRUTILLA C/CHOCO x12Un.",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 3995,
@@ -66081,61 +68109,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3909,
     "productos": "PASTILLAS FREEGELLS MENTA C/CHOCO x12Un.",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
+  },
+  {
+    "codigos": 466636,
+    "productos": "PASTILLAS FREEGELLS MENTA x12u",
+    "uxb": 36,
+    "precio_vta": 2699
   },
   {
     "codigos": 3821,
     "productos": "PASTILLAS FREEGELLS TNT ATOM.APPLE x12Un.",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 3902,
     "productos": "PASTILLAS FREEGELLS TNT BERRY BLAST x12Un.",
     "uxb": 36,
-    "precio_vta": 2624
-  },
-  {
-    "codigos": 466636,
-    "productos": "PASTILLAS FREEGELLS VARIAS x12u",
-    "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 480243,
     "productos": "PASTILLAS FREEGELLS x12un MIEL Y MENTA",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 480242,
     "productos": "PASTILLAS FREEGELLS x12un UVA",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 480241,
     "productos": "PASTILLAS FREGELLS x12un CEREZA",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 461078,
     "productos": "PASTILLAS LA YAPA x17g X36UNI",
     "uxb": 18,
-    "precio_vta": 9134
+    "precio_vta": 10799
   },
   {
     "codigos": 471405,
     "productos": "PASTILLAS MINI8 LUCKY x385g",
     "uxb": 16,
-    "precio_vta": 2519
+    "precio_vta": 2999
   },
   {
     "codigos": 480244,
     "productos": "PASTILLAS TNT FREEG. x12un UVA",
     "uxb": 36,
-    "precio_vta": 2624
+    "precio_vta": 2699
   },
   {
     "codigos": 478185,
@@ -66154,6 +68182,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PATA DE CERDO CAGNOLI CHICA HORMA",
     "uxb": 1,
     "precio_vta": 7399
+  },
+  {
+    "codigos": 78493,
+    "productos": "PATA DE CERDO SAN FRANCISCO FETA TUCU",
+    "uxb": 1,
+    "precio_vta": 9890
   },
   {
     "codigos": 3224,
@@ -66219,19 +68253,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13381,
     "productos": "PATEGRAS MARIA LUISA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 11999
+    "precio_vta": 12999
   },
   {
     "codigos": 13318,
     "productos": "PATEGRAS MARIA LUISA FRACCIONADO",
     "uxb": 1000,
-    "precio_vta": 12899
+    "precio_vta": 13899
   },
   {
     "codigos": 13181,
     "productos": "PATEGRAS MARIA LUISA HORMA",
     "uxb": 1,
-    "precio_vta": 10999
+    "precio_vta": 11799
   },
   {
     "codigos": 14033,
@@ -66315,13 +68349,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5222,
     "productos": "PATO PURIFIC ADHES VARIOS",
     "uxb": 24,
-    "precio_vta": 1678
+    "precio_vta": 2509
   },
   {
     "codigos": 473735,
     "productos": "PATO PURIFIC ADHESIVO DURAZNO",
     "uxb": 24,
-    "precio_vta": 1469
+    "precio_vta": 1999
   },
   {
     "codigos": 473733,
@@ -66333,7 +68367,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471824,
     "productos": "PATO PURIFIC DEST SARRO MARINA x500ml",
     "uxb": 12,
-    "precio_vta": 3936
+    "precio_vta": 4999
   },
   {
     "codigos": 472687,
@@ -66366,6 +68400,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3359
   },
   {
+    "codigos": 480749,
+    "productos": "PATY CLASICO CAJA x12",
+    "uxb": 12,
+    "precio_vta": 19999
+  },
+  {
     "codigos": 472212,
     "productos": "PATY CLASICO FLOW x2Un.",
     "uxb": 1,
@@ -66375,13 +68415,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479990,
     "productos": "PATY DE CANCHA x2un x250g",
     "uxb": 20,
-    "precio_vta": 5299
+    "precio_vta": 5499
   },
   {
     "codigos": 472264,
     "productos": "PATY GRANDES FLOW x2Un.",
     "uxb": 1,
-    "precio_vta": 3620
+    "precio_vta": 4999
   },
   {
     "codigos": 471279,
@@ -66406,6 +68446,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PAVA ENLOZADA DECO x1.3lt THE KITCHEN",
     "uxb": 1,
     "precio_vta": 17434
+  },
+  {
+    "codigos": 480803,
+    "productos": "PAVA M/PLAST SUKA IMP EMA SW2014",
+    "uxb": 1,
+    "precio_vta": 29999
+  },
+  {
+    "codigos": 480801,
+    "productos": "PAVA SUKA M/MAD IMP EMA SW2047C",
+    "uxb": 1,
+    "precio_vta": 37999
   },
   {
     "codigos": 460345,
@@ -66525,7 +68577,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5690,
     "productos": "PAÑAL ESTRELLA GDE x40Un.",
     "uxb": 4,
-    "precio_vta": 11759
+    "precio_vta": 12499
   },
   {
     "codigos": 470253,
@@ -66753,7 +68805,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465196,
     "productos": "PAÑAL NONISEC P/ADULTO XG X10UN",
     "uxb": 8,
-    "precio_vta": 4724
+    "precio_vta": 4999
   },
   {
     "codigos": 465197,
@@ -66765,7 +68817,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465195,
     "productos": "PAÑAL NONISEC P/ADULTOS G X10UN",
     "uxb": 8,
-    "precio_vta": 4724
+    "precio_vta": 4999
   },
   {
     "codigos": 477142,
@@ -66855,19 +68907,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471432,
     "productos": "PAÑO ABSORBENTE MULTIUSO TENOAR x1un",
     "uxb": 180,
-    "precio_vta": 609
+    "precio_vta": 669
   },
   {
     "codigos": 471433,
     "productos": "PAÑO ABSORBENTE MULTIUSO TENOAR x3Un.",
     "uxb": 60,
-    "precio_vta": 1522
+    "precio_vta": 1674
   },
   {
     "codigos": 470418,
     "productos": "PAÑO AMARILLO ABSORBENTE MEDIA NARANJA",
     "uxb": 30,
-    "precio_vta": 839
+    "precio_vta": 899
   },
   {
     "codigos": 479103,
@@ -66879,67 +68931,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471425,
     "productos": "PAÑO BLANCO NIDO ABEJA TENOAR",
     "uxb": 60,
-    "precio_vta": 1501
+    "precio_vta": 1651
   },
   {
     "codigos": 8994,
     "productos": "PAÑO BOROLIMP FRIZADO RAYADO",
     "uxb": 60,
-    "precio_vta": 1300
+    "precio_vta": 1431
   },
   {
     "codigos": 7335,
     "productos": "PAÑO CLASICO GRIS x1Un",
     "uxb": 1,
-    "precio_vta": 420
+    "precio_vta": 462
   },
   {
     "codigos": 462555,
     "productos": "PAÑO COST.GRIS DURAMAS/4 ESTRELLAS",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1039
   },
   {
     "codigos": 462558,
     "productos": "PAÑO DURAMAS CONSORCIO 60x70cm",
     "uxb": 12,
-    "precio_vta": 656
+    "precio_vta": 722
   },
   {
     "codigos": 464189,
     "productos": "PAÑO DURAMAS COSTUR.BCO 50X60CM",
     "uxb": 12,
-    "precio_vta": 605
+    "precio_vta": 665
   },
   {
     "codigos": 474428,
     "productos": "PAÑO DURAMAS ECON. PROMO 1UN",
     "uxb": 12,
-    "precio_vta": 576
+    "precio_vta": 634
   },
   {
     "codigos": 472151,
     "productos": "PAÑO DURAMAS S/FIN GRIS 48X54CM",
     "uxb": 12,
-    "precio_vta": 365
+    "precio_vta": 401
   },
   {
     "codigos": 4966,
     "productos": "PAÑO ESENCIAL AMAR 38x40cm",
     "uxb": 60,
-    "precio_vta": 628
+    "precio_vta": 691
   },
   {
     "codigos": 470556,
     "productos": "PAÑO ESENCIAL MULTICOLOR 48x58cm",
     "uxb": 1,
-    "precio_vta": 796
+    "precio_vta": 876
   },
   {
     "codigos": 3830,
     "productos": "PAÑO ESENCIAL SUAVE GRIS 48X62cm",
     "uxb": 120,
-    "precio_vta": 929
+    "precio_vta": 1022
   },
   {
     "codigos": 465759,
@@ -66957,229 +69009,235 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6790,
     "productos": "PAÑO JULIETA GRIS",
     "uxb": 120,
-    "precio_vta": 671
+    "precio_vta": 739
   },
   {
     "codigos": 8091,
     "productos": "PAÑO LA GAUCHITA GRIS x1Un",
     "uxb": 1,
-    "precio_vta": 1190
+    "precio_vta": 1309
   },
   {
     "codigos": 473753,
     "productos": "PAÑO MARITO GRIS 50x60cm",
     "uxb": 12,
-    "precio_vta": 454
+    "precio_vta": 500
+  },
+  {
+    "codigos": 480693,
+    "productos": "PAÑO MICRO. MEDIA NARANJA TECNO",
+    "uxb": 10,
+    "precio_vta": 2299
   },
   {
     "codigos": 478575,
     "productos": "PAÑO MICROF. MULTIUSO x1un LA GAUCHITA",
     "uxb": 24,
-    "precio_vta": 3254
+    "precio_vta": 3580
   },
   {
     "codigos": 461806,
     "productos": "PAÑO MICROFIBRA LIMPIA VIDRIOS 40 X 40 CM",
     "uxb": 1,
-    "precio_vta": 2467
+    "precio_vta": 2714
   },
   {
     "codigos": 480411,
     "productos": "PAÑO MICROFIBRA VIDRIOS MEDIA NARANJA",
     "uxb": 10,
-    "precio_vta": 3359
+    "precio_vta": 3695
   },
   {
     "codigos": 462235,
     "productos": "PAÑO MISTER TRAPO COCINA MICROF x40x40",
     "uxb": 1,
-    "precio_vta": 2467
+    "precio_vta": 2714
   },
   {
     "codigos": 461804,
     "productos": "PAÑO MISTER TRAPO EXT/SU 62x48cm",
-    "uxb": 1,
-    "precio_vta": 892
+    "uxb": 120,
+    "precio_vta": 981
   },
   {
     "codigos": 462236,
     "productos": "PAÑO MISTER TRAPO MUEBLES MIC x40x40cm",
     "uxb": 1,
-    "precio_vta": 2467
+    "precio_vta": 2714
   },
   {
     "codigos": 461808,
     "productos": "PAÑO MISTER TRAPO TECNO 30x30u",
     "uxb": 1,
-    "precio_vta": 2467
+    "precio_vta": 2714
   },
   {
     "codigos": 480527,
     "productos": "PAÑO MR.TRAPO BAMBOO ECOLOGICO",
     "uxb": 1,
-    "precio_vta": 3464
+    "precio_vta": 3811
   },
   {
     "codigos": 480523,
     "productos": "PAÑO MR.TRAPO MICROMAGICA",
     "uxb": 1,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 480519,
     "productos": "PAÑO MR.TRAPO MULTIUSO X1un",
     "uxb": 1,
-    "precio_vta": 892
+    "precio_vta": 981
   },
   {
     "codigos": 480520,
     "productos": "PAÑO MR.TRAPO MULTIUSO x3un",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 7751,
     "productos": "PAÑO MULTIUSO AMARILL ROMYL XU",
     "uxb": 1,
-    "precio_vta": 650
+    "precio_vta": 716
   },
   {
     "codigos": 477205,
     "productos": "PAÑO MULTIUSO CIF BALLERINA x1Un.",
     "uxb": 60,
-    "precio_vta": 1216
+    "precio_vta": 1338
   },
   {
     "codigos": 7358,
     "productos": "PAÑO MULTIUSO ROMYL X 3U",
     "uxb": 25,
-    "precio_vta": 1396
+    "precio_vta": 1536
   },
   {
     "codigos": 476298,
     "productos": "PAÑO MULTIUSO SED METAL X3uni",
     "uxb": 1,
-    "precio_vta": 2414
+    "precio_vta": 2656
   },
   {
     "codigos": 465745,
     "productos": "PAÑO NIDO GRIS/BCO/RAYADO LA VICTORIA",
     "uxb": 12,
-    "precio_vta": 1048
+    "precio_vta": 1153
   },
   {
     "codigos": 480410,
     "productos": "PAÑO P/PISO x1 MEDIA NARANJA",
     "uxb": 18,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 10219,
     "productos": "PAÑO PAMPERO NIDO ABEJA RAYADO 50x58cm",
     "uxb": 1,
-    "precio_vta": 631
+    "precio_vta": 695
   },
   {
     "codigos": 8098,
     "productos": "PAÑO PISO AMARILLO ROMYL 50X57",
     "uxb": 24,
-    "precio_vta": 1732
+    "precio_vta": 1905
   },
   {
     "codigos": 7334,
     "productos": "PAÑO PROFESINA BLANCO",
     "uxb": 1,
-    "precio_vta": 528
+    "precio_vta": 581
   },
   {
     "codigos": 5331,
     "productos": "PAÑO PURA VIDA GRIS 48x57cm",
     "uxb": 120,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 6791,
     "productos": "PAÑO RAYADO PISO",
     "uxb": 1,
-    "precio_vta": 1082
+    "precio_vta": 1191
   },
   {
     "codigos": 480517,
     "productos": "PAÑO REJILLA MAGIC SOFT",
     "uxb": 1,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 3414,
     "productos": "PAÑO ROMYL BLANCO x1Un",
     "uxb": 1,
-    "precio_vta": 566
+    "precio_vta": 623
   },
   {
     "codigos": 476630,
     "productos": "PAÑO SED METAL MULTIUSO x1 uni",
     "uxb": 1,
-    "precio_vta": 838
+    "precio_vta": 922
   },
   {
     "codigos": 471428,
     "productos": "PAÑO TENOAR COLORES",
     "uxb": 60,
-    "precio_vta": 877
+    "precio_vta": 965
   },
   {
     "codigos": 471429,
     "productos": "PAÑO TENOAR CONSORCIO BLANCO",
     "uxb": 60,
-    "precio_vta": 1135
+    "precio_vta": 1249
   },
   {
     "codigos": 471430,
     "productos": "PAÑO TENOAR CONSORCIO GRIS",
     "uxb": 60,
-    "precio_vta": 933
+    "precio_vta": 1026
   },
   {
     "codigos": 471426,
     "productos": "PAÑO TENOAR DOBLE FAZ",
     "uxb": 60,
-    "precio_vta": 1413
+    "precio_vta": 1554
   },
   {
     "codigos": 471427,
     "productos": "PAÑO TENOAR RAYADO",
     "uxb": 60,
-    "precio_vta": 1154
+    "precio_vta": 1270
   },
   {
     "codigos": 471424,
     "productos": "PAÑO TENOAR SUPER BLANCO",
     "uxb": 60,
-    "precio_vta": 808
+    "precio_vta": 889
   },
   {
     "codigos": 471423,
     "productos": "PAÑO TENOAR SUPER GRIS",
     "uxb": 60,
-    "precio_vta": 577
+    "precio_vta": 635
   },
   {
     "codigos": 9009,
     "productos": "PAÑO TUTTI CHUPA GRIS",
     "uxb": 60,
-    "precio_vta": 1300
+    "precio_vta": 1431
   },
   {
     "codigos": 465186,
     "productos": "PAÑO TWIST x1 VIRULANA",
     "uxb": 60,
-    "precio_vta": 1259
+    "precio_vta": 1385
   },
   {
     "codigos": 11591,
     "productos": "PAÑO VICTORIA PLANO RAYADO x48X60cm",
     "uxb": 12,
-    "precio_vta": 1048
+    "precio_vta": 1153
   },
   {
     "codigos": 478137,
@@ -67200,16 +69258,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1258
   },
   {
-    "codigos": 475829,
-    "productos": "PAÑUELOS ELEGANTE DISPLAY 30X12UN",
-    "uxb": 8,
-    "precio_vta": 5249
-  },
-  {
     "codigos": 475079,
     "productos": "PAÑUELOS ELEGANTE TRIPLE HOJ POCK 6UN",
     "uxb": 27,
-    "precio_vta": 1735
+    "precio_vta": 1751
   },
   {
     "codigos": 4989,
@@ -67623,13 +69675,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474681,
     "productos": "PEPINITO EN VINAGRE MORANDO x200gr FR.VIDRIO",
     "uxb": 24,
-    "precio_vta": 2834
+    "precio_vta": 3399
   },
   {
     "codigos": 473380,
     "productos": "PEPINITOS EN VINAGRE MORANDO x1Kg",
     "uxb": 6,
-    "precio_vta": 17114
+    "precio_vta": 16999
   },
   {
     "codigos": 474680,
@@ -67641,7 +69693,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475559,
     "productos": "PEPINITOS EN VINAGRE MORANDO x2Kg",
     "uxb": 4,
-    "precio_vta": 25199
+    "precio_vta": 25699
   },
   {
     "codigos": 477507,
@@ -67743,25 +69795,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474515,
     "productos": "PEREJIL SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1186
+    "precio_vta": 1289
   },
   {
     "codigos": 10127,
     "productos": "PERF TELA POETT FRAGANZA DP x250ml BEBE",
     "uxb": 12,
-    "precio_vta": 3569
+    "precio_vta": 3799
   },
   {
     "codigos": 477511,
     "productos": "PERF TELA POETT FRAGANZA PRIMAV.DP X250g",
     "uxb": 1,
-    "precio_vta": 2939
+    "precio_vta": 3799
   },
   {
     "codigos": 2792,
     "productos": "PERF TELAS POETT FRAGANZA DP x250ml ALGODON",
     "uxb": 1,
-    "precio_vta": 3569
+    "precio_vta": 3799
   },
   {
     "codigos": 460944,
@@ -67839,7 +69891,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471825,
     "productos": "PERFUME DE TELAS POETT C/GATILLO x250cc",
     "uxb": 12,
-    "precio_vta": 3779
+    "precio_vta": 3999
   },
   {
     "codigos": 470321,
@@ -67911,7 +69963,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7159,
     "productos": "PERFUME MUJERCITAS x40ml",
     "uxb": 6,
-    "precio_vta": 6877
+    "precio_vta": 7699
   },
   {
     "codigos": 7160,
@@ -67935,13 +69987,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7162,
     "productos": "PERFUME PACO x90ml",
     "uxb": 6,
-    "precio_vta": 7979
-  },
-  {
-    "codigos": 478357,
-    "productos": "PERFUME PARA ROPA QUERUBIN FLOR SILV X 250",
-    "uxb": 24,
-    "precio_vta": 1364
+    "precio_vta": 8499
   },
   {
     "codigos": 14338,
@@ -67983,7 +70029,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478194,
     "productos": "PERRO PATRULLERO DOG SERIES",
     "uxb": 1,
-    "precio_vta": 5279
+    "precio_vta": 6999
   },
   {
     "codigos": 479675,
@@ -68006,20 +70052,26 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 474520,
     "productos": "PESTO AROMAS/SABORES x25g",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 707
   },
   {
     "codigos": 473017,
     "productos": "PESTO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1049
+    "precio_vta": 1099
   },
   {
     "codigos": 472650,
     "productos": "PETACA ANIS 8 HERMANOS x200cc",
     "uxb": 12,
     "precio_vta": 2099
+  },
+  {
+    "codigos": 9021,
+    "productos": "PETACA ANIS SAN VICENTE",
+    "uxb": 12,
+    "precio_vta": 1619
   },
   {
     "codigos": 2722,
@@ -68091,19 +70143,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2673,
     "productos": "PETACA DEJAVU CHOCOLATE x200CC",
     "uxb": 12,
-    "precio_vta": 1153
+    "precio_vta": 1246
   },
   {
     "codigos": 2671,
     "productos": "PETACA DEJAVU VARIAS 200CM",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 2690,
     "productos": "PETACA DOBLE V",
     "uxb": 24,
     "precio_vta": 1994
+  },
+  {
+    "codigos": 11656,
+    "productos": "PETACA FERNET IMPERIO X200",
+    "uxb": 12,
+    "precio_vta": 1259
   },
   {
     "codigos": 2691,
@@ -68115,7 +70173,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2411,
     "productos": "PETACA GLOUCESTER NEW STYLE",
     "uxb": 12,
-    "precio_vta": 1211
+    "precio_vta": 1308
   },
   {
     "codigos": 12066,
@@ -68140,6 +70198,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PETACA OLD SMUGGLER x200cc",
     "uxb": 24,
     "precio_vta": 2414
+  },
+  {
+    "codigos": 2704,
+    "productos": "PETACA PADILLA CUBANA SELLO VERDE",
+    "uxb": 1,
+    "precio_vta": 1099
   },
   {
     "codigos": 12085,
@@ -68187,7 +70251,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2702,
     "productos": "PETACA TEQUILA CUERNAVACA NEW STYLE",
     "uxb": 12,
-    "precio_vta": 1212
+    "precio_vta": 1309
   },
   {
     "codigos": 7191,
@@ -68265,37 +70329,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2695,
     "productos": "PETACAS NEW STYLE BLUE CURAC",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 2696,
     "productos": "PETACAS NEW STYLE CAFE COÑAC",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 2697,
     "productos": "PETACAS NEW STYLE CHOCOLATE",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 566557,
     "productos": "PETACAS NEW STYLE DCE LECHE",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 2412,
     "productos": "PETACAS NEW STYLE RON",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 2703,
     "productos": "PETACAS NEW STYLE VODKA",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1247
   },
   {
     "codigos": 8706,
@@ -68328,10 +70392,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3299
   },
   {
-    "codigos": 13592,
-    "productos": "PICADA ESPECIAL NAVIDEÑA",
+    "codigos": 480777,
+    "productos": "PICA AJO KITCHEN IMP EMA 30131813",
     "uxb": 1,
-    "precio_vta": 18489
+    "precio_vta": 7499
+  },
+  {
+    "codigos": 13592,
+    "productos": "PICADA DIA DEL TRABAJADOR + 2 ACEITUNAS",
+    "uxb": 1,
+    "precio_vta": 28999
   },
   {
     "codigos": 13120,
@@ -68361,7 +70431,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7540,
     "productos": "PICADILLO MAROLIO CARNE x90g",
     "uxb": 24,
-    "precio_vta": 549
+    "precio_vta": 599
   },
   {
     "codigos": 470724,
@@ -68391,25 +70461,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480305,
     "productos": "PICADITAS KRAVA x300g",
     "uxb": 1,
-    "precio_vta": 2098
+    "precio_vta": 1999
   },
   {
     "codigos": 30001,
     "productos": "PICADORA DE CARNE MEAT MINCER",
     "uxb": 1,
-    "precio_vta": 31395
+    "precio_vta": 34534
   },
   {
     "codigos": 471080,
     "productos": "PICKLES E/VINAGRE MORANDO x1kg",
     "uxb": 6,
-    "precio_vta": 7559
+    "precio_vta": 7499
   },
   {
     "codigos": 473470,
     "productos": "PICKLES EN VINAGRE MORANDO x200g",
     "uxb": 24,
-    "precio_vta": 3254
+    "precio_vta": 3299
   },
   {
     "codigos": 473379,
@@ -68433,19 +70503,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466962,
     "productos": "PICO DE TERMO CEBADOR LUMILAGRO",
     "uxb": 1,
-    "precio_vta": 2089
+    "precio_vta": 2298
   },
   {
     "codigos": 466963,
     "productos": "PICO DE TERMO PANDA LUMILAGRO",
     "uxb": 1,
-    "precio_vta": 2089
+    "precio_vta": 2298
   },
   {
     "codigos": 466961,
     "productos": "PICO DE TERMO SATURNO LUMILAGRO",
     "uxb": 1,
-    "precio_vta": 2089
+    "precio_vta": 2298
   },
   {
     "codigos": 480225,
@@ -68774,7 +70844,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466798,
     "productos": "PIMENTON AROMAS/SABORES x25g",
-    "uxb": 5,
+    "uxb": 1,
     "precio_vta": 503
   },
   {
@@ -68805,13 +70875,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466339,
     "productos": "PIMENTON SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 713
+    "precio_vta": 759
   },
   {
     "codigos": 30012,
     "productos": "PIMENTON TUCU X1Kg",
     "uxb": 1,
-    "precio_vta": 3454
+    "precio_vta": 3199
   },
   {
     "codigos": 2739,
@@ -68841,7 +70911,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475143,
     "productos": "PIMIENTA BLANCA E/GRANO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1805
+    "precio_vta": 2429
   },
   {
     "codigos": 813,
@@ -68853,7 +70923,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466338,
     "productos": "PIMIENTA BLANCA SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 1364
+    "precio_vta": 1759
   },
   {
     "codigos": 30008,
@@ -68877,7 +70947,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464228,
     "productos": "PIMIENTA NEGRA E/GRANO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1403
+    "precio_vta": 1499
   },
   {
     "codigos": 11307,
@@ -68889,7 +70959,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473021,
     "productos": "PIMIENTA NEGRA MOLIDA SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1186
+    "precio_vta": 1399
   },
   {
     "codigos": 467033,
@@ -68898,10 +70968,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 952
   },
   {
+    "codigos": 480806,
+    "productos": "PIMIENTOS MORRONES ABETO x180g",
+    "uxb": 6,
+    "precio_vta": 1499
+  },
+  {
     "codigos": 404,
-    "productos": "PIMIENTOS MORRONES BAHIA 185G",
+    "productos": "PIMIENTOS MORRONES BAHIAx200gr",
     "uxb": 24,
-    "precio_vta": 1920
+    "precio_vta": 1999
   },
   {
     "codigos": 4124,
@@ -68913,7 +70989,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5526,
     "productos": "PIMIENTOS MORRONES LA BANDA x200g",
     "uxb": 24,
-    "precio_vta": 1739
+    "precio_vta": 1799
   },
   {
     "codigos": 5821,
@@ -69219,7 +71295,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474160,
     "productos": "PINZA P/DEPILAR NEGRA XZN",
     "uxb": 1,
-    "precio_vta": 699
+    "precio_vta": 799
   },
   {
     "codigos": 474161,
@@ -69231,7 +71307,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11170,
     "productos": "PINZA P/PODAR TUCU",
     "uxb": 1,
-    "precio_vta": 5900
+    "precio_vta": 5999
   },
   {
     "codigos": 470412,
@@ -69264,6 +71340,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7083
   },
   {
+    "codigos": 62483,
+    "productos": "PINZAS ARTICULADAS TUCU",
+    "uxb": 1,
+    "precio_vta": 43900
+  },
+  {
     "codigos": 478389,
     "productos": "PINZAS MOÑITO BLISTER",
     "uxb": 1,
@@ -69276,28 +71358,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1718
   },
   {
-    "codigos": 471000,
-    "productos": "PIONONO ORALI x180g",
-    "uxb": 25,
-    "precio_vta": 1889
-  },
-  {
-    "codigos": 473969,
-    "productos": "PIONONO SALADO/DULCES TAPAMANIA x200g",
-    "uxb": 1,
-    "precio_vta": 2313
-  },
-  {
     "codigos": 5917,
     "productos": "PIONONO VALIDO 180GR DULCE",
     "uxb": 12,
-    "precio_vta": 1784
+    "precio_vta": 1819
   },
   {
     "codigos": 5918,
     "productos": "PIONONO VALIDO 180GR SALADOS",
     "uxb": 12,
-    "precio_vta": 1784
+    "precio_vta": 1819
   },
   {
     "codigos": 474170,
@@ -69309,7 +71379,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9010,
     "productos": "PIPAS GIGANTES CAJA x12u",
     "uxb": 12,
-    "precio_vta": 7349
+    "precio_vta": 7299
   },
   {
     "codigos": 9006,
@@ -69321,7 +71391,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471907,
     "productos": "PIPAS GIGANTES DP x160gr",
     "uxb": 12,
-    "precio_vta": 1973
+    "precio_vta": 1999
   },
   {
     "codigos": 1657,
@@ -69744,12 +71814,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 472
   },
   {
-    "codigos": 120,
-    "productos": "PIZZA SIBARITA MOZZA 2X940g",
-    "uxb": 1,
-    "precio_vta": 9858
-  },
-  {
     "codigos": 119,
     "productos": "PIZZA SIBARITA MOZZA CLASICO X470g",
     "uxb": 1,
@@ -69771,7 +71835,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479880,
     "productos": "PIZZERA ALUM PESADA x36CM",
     "uxb": 1,
-    "precio_vta": 6719
+    "precio_vta": 7699
   },
   {
     "codigos": 478638,
@@ -69879,7 +71943,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478543,
     "productos": "PIZZETAS MENDIA x12un",
     "uxb": 20,
-    "precio_vta": 1942
+    "precio_vta": 2155
   },
   {
     "codigos": 476760,
@@ -70155,7 +72219,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479962,
     "productos": "PLATO COLOR TUKY x6un",
     "uxb": 1,
-    "precio_vta": 1931
+    "precio_vta": 2099
   },
   {
     "codigos": 476522,
@@ -70305,7 +72369,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466152,
     "productos": "PLATO PLAYO KEVINS",
     "uxb": 60,
-    "precio_vta": 1062
+    "precio_vta": 1168
   },
   {
     "codigos": 10253,
@@ -70371,13 +72435,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468271,
     "productos": "PLATOS DESCART.CHICO x17cm x50Un.",
     "uxb": 1,
-    "precio_vta": 4367
+    "precio_vta": 5299
   },
   {
     "codigos": 464831,
     "productos": "PLATOS LUNARES TUKY",
     "uxb": 1,
     "precio_vta": 2052
+  },
+  {
+    "codigos": 67959,
+    "productos": "PLATOS P/POSTRE X25U TUCU",
+    "uxb": 1,
+    "precio_vta": 2490
   },
   {
     "codigos": 11460,
@@ -70389,7 +72459,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8161,
     "productos": "PLOMERO DESTAPACAÑERIAS X1L",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 6399
   },
   {
     "codigos": 7996,
@@ -70419,7 +72489,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479269,
     "productos": "PLUMERO MICROFIBRA LA GAUCHITA x1Un.",
     "uxb": 1,
-    "precio_vta": 3674
+    "precio_vta": 4999
   },
   {
     "codigos": 475083,
@@ -70479,7 +72549,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472088,
     "productos": "POCHOCLO LOPOP ACARAMELADOS x90g",
     "uxb": 25,
-    "precio_vta": 1049
+    "precio_vta": 1199
   },
   {
     "codigos": 2794,
@@ -70497,7 +72567,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476647,
     "productos": "POLENTA BARONESA x10Kg",
     "uxb": 1,
-    "precio_vta": 5999
+    "precio_vta": 7999
   },
   {
     "codigos": 465848,
@@ -70587,7 +72657,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461145,
     "productos": "POLENTA MAROLIO INSTANTANEA x500g",
     "uxb": 16,
-    "precio_vta": 659
+    "precio_vta": 799
   },
   {
     "codigos": 2801,
@@ -70605,7 +72675,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4892,
     "productos": "POLENTA SILVINA 1MIN x400g",
     "uxb": 10,
-    "precio_vta": 559
+    "precio_vta": 749
   },
   {
     "codigos": 479210,
@@ -70647,7 +72717,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469503,
     "productos": "POLVO DE HORNEAR SABOR SUR x50g",
     "uxb": 5,
-    "precio_vta": 1259
+    "precio_vta": 1329
   },
   {
     "codigos": 466247,
@@ -70678,6 +72748,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "POLVO P/HORNEAR CENTURION x50gr",
     "uxb": 50,
     "precio_vta": 419
+  },
+  {
+    "codigos": 480629,
+    "productos": "POLVO P/HORNEAR LA PARMESANA x50g",
+    "uxb": 30,
+    "precio_vta": 899
   },
   {
     "codigos": 8920,
@@ -70904,8 +72980,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 480456,
     "productos": "POROTO ROJO LA BANDA x340g TETRA",
-    "uxb": 24,
-    "precio_vta": 949
+    "uxb": 12,
+    "precio_vta": 999
   },
   {
     "codigos": 476234,
@@ -70926,16 +73002,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1099
   },
   {
+    "codigos": 476598,
+    "productos": "POROTOS AGROMAR COLORADOS X5KG",
+    "uxb": 1,
+    "precio_vta": 9999
+  },
+  {
     "codigos": 476231,
     "productos": "POROTOS AGROMAR D/SOJA X5KG",
     "uxb": 1,
-    "precio_vta": 3999
+    "precio_vta": 4699
   },
   {
     "codigos": 476816,
     "productos": "POROTOS AGROMAR NEGROS X400GR",
     "uxb": 10,
     "precio_vta": 1099
+  },
+  {
+    "codigos": 476607,
+    "productos": "POROTOS AGROMAR NEGROS X5KG",
+    "uxb": 1,
+    "precio_vta": 9999
   },
   {
     "codigos": 465353,
@@ -70947,7 +73035,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480454,
     "productos": "POROTOS ALUBIA LA BANDA TETRA x340g",
     "uxb": 24,
-    "precio_vta": 899
+    "precio_vta": 929
   },
   {
     "codigos": 480190,
@@ -71004,12 +73092,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1899
   },
   {
-    "codigos": 474071,
-    "productos": "POROTOS MAROLIO COLORADOS X400GR",
-    "uxb": 10,
-    "precio_vta": 1799
-  },
-  {
     "codigos": 4289,
     "productos": "POROTOS MAROLIO LATA 300G",
     "uxb": 24,
@@ -71049,19 +73131,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478665,
     "productos": "PORTA CANASTO COSTURA ORGON",
     "uxb": 1,
-    "precio_vta": 17849
+    "precio_vta": 19634
   },
   {
     "codigos": 472097,
     "productos": "PORTA CANASTO DISEÑO MATE FABI",
     "uxb": 1,
-    "precio_vta": 13172
+    "precio_vta": 14489
   },
   {
     "codigos": 473619,
     "productos": "PORTA CANASTO DISEÑO ORGON",
     "uxb": 1,
-    "precio_vta": 18899
+    "precio_vta": 20789
   },
   {
     "codigos": 468037,
@@ -71100,10 +73182,106 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 448
   },
   {
+    "codigos": 480660,
+    "productos": "PORTA RETRATO C/C x2 10x15cm",
+    "uxb": 1,
+    "precio_vta": 2790
+  },
+  {
+    "codigos": 480661,
+    "productos": "PORTA RETRATO C/C x2 13x18cm",
+    "uxb": 1,
+    "precio_vta": 3590
+  },
+  {
+    "codigos": 480662,
+    "productos": "PORTA RETRATO C/C x2 15x21cm",
+    "uxb": 1,
+    "precio_vta": 4580
+  },
+  {
+    "codigos": 480664,
+    "productos": "PORTA RETRATO C/C x2 20x25cm",
+    "uxb": 1,
+    "precio_vta": 6600
+  },
+  {
+    "codigos": 480665,
+    "productos": "PORTA RETRATO C/C x2 20x30cm",
+    "uxb": 1,
+    "precio_vta": 7190
+  },
+  {
+    "codigos": 480666,
+    "productos": "PORTA RETRATO C/C x3 10x15cm",
+    "uxb": 1,
+    "precio_vta": 3999
+  },
+  {
+    "codigos": 480667,
+    "productos": "PORTA RETRATO C/C x3 13x18cm",
+    "uxb": 1,
+    "precio_vta": 5490
+  },
+  {
+    "codigos": 480668,
+    "productos": "PORTA RETRATO C/C x3 15x21cm",
+    "uxb": 1,
+    "precio_vta": 6699
+  },
+  {
+    "codigos": 480669,
+    "productos": "PORTA RETRATO C/C x3 20x25cm",
+    "uxb": 1,
+    "precio_vta": 9999
+  },
+  {
+    "codigos": 480670,
+    "productos": "PORTA RETRATO C/C x3 20x30cm",
+    "uxb": 1,
+    "precio_vta": 10990
+  },
+  {
+    "codigos": 480655,
+    "productos": "PORTA RETRATO C/P 10x15 MADERA",
+    "uxb": 1,
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 480656,
+    "productos": "PORTA RETRATO C/P 13x18cm MADERA",
+    "uxb": 1,
+    "precio_vta": 1799
+  },
+  {
+    "codigos": 480657,
+    "productos": "PORTA RETRATO C/P 15x21cm MADERA",
+    "uxb": 1,
+    "precio_vta": 2290
+  },
+  {
+    "codigos": 480658,
+    "productos": "PORTA RETRATO C/P 20x25cm MADERA",
+    "uxb": 1,
+    "precio_vta": 3300
+  },
+  {
+    "codigos": 480659,
+    "productos": "PORTA RETRATO C/P 20x30 cm MADERA",
+    "uxb": 1,
+    "precio_vta": 3590
+  },
+  {
+    "codigos": 480784,
+    "productos": "PORTA ROLLO NEUT IMP EMA KP6071-E",
+    "uxb": 1,
+    "precio_vta": 2299
+  },
+  {
     "codigos": 466341,
     "productos": "PORTA SACHET DATOMAX",
     "uxb": 48,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 472481,
@@ -71127,13 +73305,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8712,
     "productos": "PORTASACHET JARRA 1100CC HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 661
+    "precio_vta": 727
   },
   {
     "codigos": 462751,
     "productos": "PORTASACHET YESI x1Un.",
     "uxb": 24,
-    "precio_vta": 905
+    "precio_vta": 996
   },
   {
     "codigos": 468035,
@@ -71151,7 +73329,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478560,
     "productos": "POSTRE ABUELA ÑATA VARIOS 110/120gr",
     "uxb": 1,
-    "precio_vta": 2884
+    "precio_vta": 3029
   },
   {
     "codigos": 466058,
@@ -71166,10 +73344,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7499
   },
   {
-    "codigos": 475437,
-    "productos": "POSTRE CLASICO FFS VAI/CHOC LS x95gr",
+    "codigos": 480826,
+    "productos": "POSTRE CHOCOLATE ROYAL x50g",
     "uxb": 1,
-    "precio_vta": 1390
+    "precio_vta": 699
+  },
+  {
+    "codigos": 475437,
+    "productos": "POSTRE CLASICO FFS VAI/CHOC LS x95grx1U",
+    "uxb": 1,
+    "precio_vta": 1459
   },
   {
     "codigos": 469546,
@@ -71196,16 +73380,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 699
   },
   {
+    "codigos": 480712,
+    "productos": "POSTRE DANETTE PISTACHO x95gx1Un.",
+    "uxb": 1,
+    "precio_vta": 2299
+  },
+  {
     "codigos": 14269,
     "productos": "POSTRE DCE DE LECHE C/CHOC. DULCOR FRACC",
     "uxb": 1,
-    "precio_vta": 7499
+    "precio_vta": 7699
   },
   {
     "codigos": 479286,
     "productos": "POSTRE DCE DE LECHE C/CHOC. DULCOR x5kg",
     "uxb": 1,
-    "precio_vta": 28298
+    "precio_vta": 31999
   },
   {
     "codigos": 464659,
@@ -71235,7 +73425,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468595,
     "productos": "POSTRE ILOLAY C/CONFITES x110gr",
     "uxb": 20,
-    "precio_vta": 1579
+    "precio_vta": 1999
   },
   {
     "codigos": 467461,
@@ -71247,19 +73437,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467465,
     "productos": "POSTRE ILOLAY KIDS CHOCOLATE x120gr",
     "uxb": 20,
-    "precio_vta": 939
+    "precio_vta": 1199
   },
   {
     "codigos": 478051,
     "productos": "POSTRE ILOLAY KIDS DCE DE LECHE x120gr",
     "uxb": 20,
-    "precio_vta": 939
+    "precio_vta": 1199
   },
   {
     "codigos": 478052,
     "productos": "POSTRE ILOLAY KIDS VAIN C/DDL x120gr",
     "uxb": 20,
-    "precio_vta": 939
+    "precio_vta": 1199
   },
   {
     "codigos": 478053,
@@ -71322,22 +73512,40 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 403
   },
   {
+    "codigos": 480572,
+    "productos": "POSTRE SER CHOCOLATE x95ccx1Un",
+    "uxb": 1,
+    "precio_vta": 4499
+  },
+  {
     "codigos": 468822,
     "productos": "POSTRE SER DELI CHOCO LS x95g",
     "uxb": 1,
-    "precio_vta": 2368
+    "precio_vta": 2487
   },
   {
     "codigos": 474313,
-    "productos": "POSTRE SER DELI DCE LECHE x95g",
+    "productos": "POSTRE SER DELI DCE LECHE x95gx1Un.",
     "uxb": 1,
-    "precio_vta": 2368
+    "precio_vta": 4499
   },
   {
     "codigos": 475333,
     "productos": "POSTRE SERENITO LS VAIN/CHOC/DDL x95g",
     "uxb": 1,
-    "precio_vta": 2216
+    "precio_vta": 2327
+  },
+  {
+    "codigos": 465279,
+    "productos": "POSTRE SERENITO VS X2UN",
+    "uxb": 1,
+    "precio_vta": 4609
+  },
+  {
+    "codigos": 480828,
+    "productos": "POSTRE VAINILLA EXQUISITA x80g",
+    "uxb": 1,
+    "precio_vta": 699
   },
   {
     "codigos": 466064,
@@ -71385,7 +73593,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477916,
     "productos": "POTES BISAGRA MEDIANO DISTRIVALLE x1Un.",
     "uxb": 1,
-    "precio_vta": 209
+    "precio_vta": 230
   },
   {
     "codigos": 1332,
@@ -71397,19 +73605,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478703,
     "productos": "PRE PIZZA INDIVIDUALES MENDIA x4un",
     "uxb": 1,
-    "precio_vta": 2411
+    "precio_vta": 2676
   },
   {
     "codigos": 470609,
     "productos": "PRE PIZZAS MENDIA 2x600gr",
     "uxb": 14,
-    "precio_vta": 3089
+    "precio_vta": 3429
   },
   {
     "codigos": 468770,
     "productos": "PRE-PIZZA ESPIGA DE ORO",
     "uxb": 1,
-    "precio_vta": 1889
+    "precio_vta": 2400
   },
   {
     "codigos": 468150,
@@ -71421,7 +73629,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473817,
     "productos": "PRE-PIZZA TAPAMANIA x2Un.",
     "uxb": 1,
-    "precio_vta": 2778
+    "precio_vta": 2599
   },
   {
     "codigos": 472643,
@@ -71439,19 +73647,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480085,
     "productos": "PRECINTO LUXOM 100x2.5mm",
     "uxb": 1,
-    "precio_vta": 349
+    "precio_vta": 449
   },
   {
     "codigos": 480086,
     "productos": "PRECINTO LUXOM 150 x3.6mm",
     "uxb": 1,
-    "precio_vta": 699
+    "precio_vta": 849
   },
   {
     "codigos": 480087,
     "productos": "PRECINTO LUXOM 200x4,6mm",
     "uxb": 1,
-    "precio_vta": 1199
+    "precio_vta": 1399
+  },
+  {
+    "codigos": 6013,
+    "productos": "PREM.PIZZA GOURMET PUREZA 550G",
+    "uxb": 12,
+    "precio_vta": 999
   },
   {
     "codigos": 473198,
@@ -71481,7 +73695,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466992,
     "productos": "PREPIZZA EL TRIGAL x2Un.",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2290
   },
   {
     "codigos": 480139,
@@ -71517,7 +73731,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7288,
     "productos": "PRIME CJAX3U VARIOS",
     "uxb": 1,
-    "precio_vta": 1999
+    "precio_vta": 2999
   },
   {
     "codigos": 474699,
@@ -71562,6 +73776,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 419
   },
   {
+    "codigos": 476501,
+    "productos": "PROMO COLGATE ANTI/HERBAL 2X1x70g",
+    "uxb": 1,
+    "precio_vta": 1999
+  },
+  {
+    "codigos": 476505,
+    "productos": "PROMO COLGATE TOTAL 12 x70g",
+    "uxb": 1,
+    "precio_vta": 1799
+  },
+  {
     "codigos": 477548,
     "productos": "PROMO GOMITAS SUELTAS x1Un.",
     "uxb": 1,
@@ -71577,7 +73803,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6342,
     "productos": "PRONTO BITT x473cc",
     "uxb": 24,
-    "precio_vta": 2099
+    "precio_vta": 1999
   },
   {
     "codigos": 463453,
@@ -71667,7 +73893,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460521,
     "productos": "PROT.DIARIO CALIPSO MULTIESTILO x50u",
     "uxb": 10,
-    "precio_vta": 2855
+    "precio_vta": 2799
   },
   {
     "codigos": 673,
@@ -71769,19 +73995,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465140,
     "productos": "PROT.DIARIO DONCELLA ANAT.C/Px40u",
     "uxb": 15,
-    "precio_vta": 1574
+    "precio_vta": 1799
   },
   {
     "codigos": 4560,
     "productos": "PROT.DIARIO DONCELLA ANAT.S/Px20u",
     "uxb": 30,
-    "precio_vta": 787
+    "precio_vta": 799
   },
   {
     "codigos": 8128,
     "productos": "PROT.DIARIO DONCELLA ANAT.S/Px40u",
     "uxb": 15,
-    "precio_vta": 1574
+    "precio_vta": 1579
   },
   {
     "codigos": 465337,
@@ -71799,25 +74025,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8049,
     "productos": "PROT.DIARIO DONCELLA RESP.C/Px40u",
     "uxb": 15,
-    "precio_vta": 1888
+    "precio_vta": 1579
   },
   {
     "codigos": 10338,
     "productos": "PROT.DIARIO DONCELLA RESP.S/Px20u",
     "uxb": 30,
-    "precio_vta": 892
+    "precio_vta": 909
   },
   {
     "codigos": 8050,
     "productos": "PROT.DIARIO DONCELLA RESP.S/Px40u",
     "uxb": 15,
-    "precio_vta": 1742
+    "precio_vta": 1799
   },
   {
     "codigos": 465098,
     "productos": "PROT.DIARIO DONCELLA RESP.S/Px60u",
     "uxb": 10,
-    "precio_vta": 2519
+    "precio_vta": 2599
   },
   {
     "codigos": 465211,
@@ -71877,7 +74103,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470093,
     "productos": "PROT.DIARIO NOSOTRAS MULTIES.X100U",
     "uxb": 12,
-    "precio_vta": 9449
+    "precio_vta": 8999
   },
   {
     "codigos": 6640,
@@ -71896,12 +74122,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "PROT.DIARIO NOSOTRAS NORM C/VIT E X20UN",
     "uxb": 36,
     "precio_vta": 2204
-  },
-  {
-    "codigos": 9962,
-    "productos": "PROT.DIARIO NOSOTRAS NORMAL VER X20UN",
-    "uxb": 36,
-    "precio_vta": 3296
   },
   {
     "codigos": 470236,
@@ -72009,7 +74229,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9799,
     "productos": "PROTECTOR P/CORTINA BAÑO N60 TAURO",
     "uxb": 1,
-    "precio_vta": 2777
+    "precio_vta": 2899
   },
   {
     "codigos": 478022,
@@ -72104,7 +74324,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466801,
     "productos": "PROVENZAL AROMAS/SABORES x25g",
-    "uxb": 10,
+    "uxb": 1,
     "precio_vta": 541
   },
   {
@@ -72134,20 +74354,20 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466811,
     "productos": "PROVENZAL LIQ AROMAS/SABORES X250CC",
-    "uxb": 10,
+    "uxb": 24,
     "precio_vta": 1049
   },
   {
     "codigos": 466334,
     "productos": "PROVENZAL SABOR SUR x25g",
     "uxb": 10,
-    "precio_vta": 808
+    "precio_vta": 899
   },
   {
     "codigos": 30010,
     "productos": "PROVENZAL TUCU X1KG",
     "uxb": 1,
-    "precio_vta": 3454
+    "precio_vta": 3199
   },
   {
     "codigos": 470751,
@@ -72159,25 +74379,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469863,
     "productos": "PROVOLETA NONNA PIA x155g (unidad)",
     "uxb": 1,
-    "precio_vta": 3499
+    "precio_vta": 3399
   },
   {
     "codigos": 13210,
     "productos": "PROVOLIN LA CASONA",
     "uxb": 1,
-    "precio_vta": 10599
+    "precio_vta": 12990
   },
   {
     "codigos": 13400,
     "productos": "PROVOLIN LA CASONA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 11649
+    "precio_vta": 13999
   },
   {
     "codigos": 13401,
     "productos": "PROVOLIN LA CASONA FRACCIONADO",
     "uxb": 1,
-    "precio_vta": 12499
+    "precio_vta": 15099
   },
   {
     "codigos": 469256,
@@ -72213,7 +74433,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471960,
     "productos": "PUFLITOS FACU X1kg",
     "uxb": 1,
-    "precio_vta": 4924
+    "precio_vta": 5590
   },
   {
     "codigos": 472483,
@@ -72225,7 +74445,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471962,
     "productos": "PUFLITOS SUELTOS SUELTOS",
     "uxb": 100,
-    "precio_vta": 5710
+    "precio_vta": 6190
   },
   {
     "codigos": 3847,
@@ -72369,7 +74589,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3930,
     "productos": "PURE DE PAPAS MAGGI TEXT CAS 125G",
     "uxb": 12,
-    "precio_vta": 1678
+    "precio_vta": 1799
   },
   {
     "codigos": 476653,
@@ -72387,7 +74607,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474137,
     "productos": "PURE DE PAPAS TRAD. MAMA COCINA x125g",
     "uxb": 12,
-    "precio_vta": 1312
+    "precio_vta": 1399
   },
   {
     "codigos": 477650,
@@ -72423,7 +74643,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2849,
     "productos": "PURE DE TOMATE MAROLIO x520gr",
     "uxb": 24,
-    "precio_vta": 539
+    "precio_vta": 599
   },
   {
     "codigos": 9138,
@@ -72489,13 +74709,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471512,
     "productos": "PURITOS BAÑADOS SOLITAS x160G",
     "uxb": 25,
-    "precio_vta": 1115
+    "precio_vta": 1182
   },
   {
     "codigos": 471242,
     "productos": "PURITOS BAÑADOS SOLITAS x300G",
     "uxb": 14,
-    "precio_vta": 1935
+    "precio_vta": 2052
   },
   {
     "codigos": 467692,
@@ -72508,18 +74728,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "QUENTO ARROZ BAÑADO x70g",
     "uxb": 32,
     "precio_vta": 2225
-  },
-  {
-    "codigos": 5641,
-    "productos": "QUERUBIN FRESH 220CC BR.ALGOD",
-    "uxb": 12,
-    "precio_vta": 785
-  },
-  {
-    "codigos": 7790,
-    "productos": "QUERUBIN FRESH 220CC FR.ROJOS",
-    "uxb": 12,
-    "precio_vta": 1638
   },
   {
     "codigos": 8773,
@@ -72549,7 +74757,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14165,
     "productos": "QUESO AZUL DON CRISTOBAL x HORMA",
     "uxb": 1,
-    "precio_vta": 10599
+    "precio_vta": 11299
   },
   {
     "codigos": 13505,
@@ -72562,6 +74770,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "QUESO AZUL HORMA LA QUESERA",
     "uxb": 1,
     "precio_vta": 13099
+  },
+  {
+    "codigos": 13150,
+    "productos": "QUESO AZUL SAN GOTARDO",
+    "uxb": 1,
+    "precio_vta": 9999
   },
   {
     "codigos": 13590,
@@ -72603,49 +74817,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14324,
     "productos": "QUESO BARRA TYBO EL DESTINO 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9499
+    "precio_vta": 9999
   },
   {
     "codigos": 14325,
     "productos": "QUESO BARRA TYBO EL DESTINO FETAS",
     "uxb": 1,
-    "precio_vta": 11599
+    "precio_vta": 12199
   },
   {
     "codigos": 14323,
     "productos": "QUESO BARRA TYBO EL DESTINO HORMA",
     "uxb": 1,
-    "precio_vta": 8699
+    "precio_vta": 9099
   },
   {
     "codigos": 470175,
     "productos": "QUESO BLANCO TREGAR CLASICO x290g",
     "uxb": 12,
-    "precio_vta": 2644
+    "precio_vta": 2899
   },
   {
     "codigos": 470430,
     "productos": "QUESO BLANCO TREGAR LIGHT X 290g",
     "uxb": 12,
-    "precio_vta": 2644
+    "precio_vta": 2899
   },
   {
     "codigos": 475090,
     "productos": "QUESO CASANCREM SACHET x4Kg",
     "uxb": 1,
-    "precio_vta": 41911
+    "precio_vta": 46207
+  },
+  {
+    "codigos": 14329,
+    "productos": "QUESO CASANTO BARRA FONTINA 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 11089
   },
   {
     "codigos": 14330,
     "productos": "QUESO CASANTO BARRA FONTINA FETAS",
     "uxb": 1,
-    "precio_vta": 14007
+    "precio_vta": 11859
   },
   {
     "codigos": 14328,
     "productos": "QUESO CASANTO BARRA FONTINA HORMA",
     "uxb": 1,
-    "precio_vta": 10299
+    "precio_vta": 10076
   },
   {
     "codigos": 479095,
@@ -72657,25 +74877,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13323,
     "productos": "QUESO CHEDDAR FINLANDIA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 14399
+    "precio_vta": 15875
   },
   {
     "codigos": 13324,
     "productos": "QUESO CHEDDAR FINLANDIA FETAS",
     "uxb": 1,
-    "precio_vta": 17499
+    "precio_vta": 19293
   },
   {
     "codigos": 13322,
     "productos": "QUESO CHEDDAR FINLANDIA HORMA",
     "uxb": 1,
-    "precio_vta": 12999
+    "precio_vta": 13649
   },
   {
     "codigos": 471605,
     "productos": "QUESO CHEDDAR MILKAUT POUCH X 3.5KG",
     "uxb": 1,
-    "precio_vta": 41998
+    "precio_vta": 39999
   },
   {
     "codigos": 479456,
@@ -72699,13 +74919,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467179,
     "productos": "QUESO CREMA CASANCREM x200g INTENSO",
     "uxb": 1,
-    "precio_vta": 1084
+    "precio_vta": 1138
   },
   {
     "codigos": 467972,
     "productos": "QUESO CREMA CASANCREM x200g LIGERO",
     "uxb": 1,
-    "precio_vta": 1084
+    "precio_vta": 1138
   },
   {
     "codigos": 469284,
@@ -72717,43 +74937,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463729,
     "productos": "QUESO CREMA CASANCREM x290g LIGHT",
     "uxb": 12,
-    "precio_vta": 5149
+    "precio_vta": 5407
   },
   {
     "codigos": 463728,
     "productos": "QUESO CREMA CASANCREM x290gr CLASICO",
     "uxb": 12,
-    "precio_vta": 4119
+    "precio_vta": 5407
   },
   {
     "codigos": 465229,
     "productos": "QUESO CREMA CASANCREM x480g CLASICO",
     "uxb": 12,
-    "precio_vta": 7930
+    "precio_vta": 7799
   },
   {
     "codigos": 465230,
     "productos": "QUESO CREMA CASANCREM x480g LIGHT",
     "uxb": 12,
-    "precio_vta": 7930
+    "precio_vta": 7799
   },
   {
     "codigos": 470520,
     "productos": "QUESO CREMA CLAS TREGAR x190gr",
     "uxb": 12,
-    "precio_vta": 2021
+    "precio_vta": 2199
   },
   {
     "codigos": 465084,
     "productos": "QUESO CREMA ILOLAY CLASICO x290gr",
     "uxb": 12,
-    "precio_vta": 1999
+    "precio_vta": 2399
   },
   {
     "codigos": 465085,
     "productos": "QUESO CREMA ILOLAY LIGHT x290gr",
     "uxb": 12,
-    "precio_vta": 1999
+    "precio_vta": 2399
   },
   {
     "codigos": 470692,
@@ -72765,7 +74985,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470918,
     "productos": "QUESO CREMA LIGHT TREGAR x190gr",
     "uxb": 12,
-    "precio_vta": 2021
+    "precio_vta": 2199
   },
   {
     "codigos": 478426,
@@ -72807,55 +75027,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13121,
     "productos": "QUESO CREMON LA SERENISIMA FRACC",
     "uxb": 1,
-    "precio_vta": 11799
+    "precio_vta": 12745
   },
   {
     "codigos": 13209,
     "productos": "QUESO CREMON LA SERENISIMA HORMA",
     "uxb": 1,
-    "precio_vta": 9999
+    "precio_vta": 11912
   },
   {
     "codigos": 463726,
     "productos": "QUESO CREMON LA SERENISIMA LIGHT x280gr",
     "uxb": 1,
-    "precio_vta": 3316
+    "precio_vta": 3471
   },
   {
     "codigos": 469225,
     "productos": "QUESO CREMON LA SERENISIMA ORIG x280gr",
     "uxb": 1,
-    "precio_vta": 3316
+    "precio_vta": 3471
   },
   {
     "codigos": 13822,
     "productos": "QUESO CREMON LIGHT LS HORMA",
     "uxb": 1,
-    "precio_vta": 12401
+    "precio_vta": 13672
   },
   {
     "codigos": 13597,
     "productos": "QUESO CREMON LIGHT LS HORMITA x500gr",
     "uxb": 1,
-    "precio_vta": 14252
+    "precio_vta": 15067
   },
   {
     "codigos": 13122,
     "productos": "QUESO CREMON LS HORMITA x500gr",
     "uxb": 1,
-    "precio_vta": 12770
+    "precio_vta": 13498
   },
   {
     "codigos": 478758,
     "productos": "QUESO CREMOSO AURORA FRACC",
     "uxb": 1000,
-    "precio_vta": 7790
+    "precio_vta": 7890
   },
   {
     "codigos": 478757,
     "productos": "QUESO CREMOSO AURORA PIEZA",
     "uxb": 1000,
-    "precio_vta": 6699
+    "precio_vta": 6899
   },
   {
     "codigos": 478760,
@@ -72873,31 +75093,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14351,
     "productos": "QUESO CREMOSO BARRAZA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 7899
+    "precio_vta": 9199
   },
   {
     "codigos": 14352,
     "productos": "QUESO CREMOSO BARRAZA FRACC",
     "uxb": 1,
-    "precio_vta": 8499
+    "precio_vta": 9799
   },
   {
     "codigos": 14350,
     "productos": "QUESO CREMOSO BARRAZA HORMA",
     "uxb": 1,
-    "precio_vta": 7199
+    "precio_vta": 8499
   },
   {
     "codigos": 13983,
     "productos": "QUESO CREMOSO CASANTO FRACC",
     "uxb": 1,
-    "precio_vta": 8104
+    "precio_vta": 8935
   },
   {
     "codigos": 13981,
     "productos": "QUESO CREMOSO CASANTO HORMA",
     "uxb": 1,
-    "precio_vta": 7574
+    "precio_vta": 8350
   },
   {
     "codigos": 13113,
@@ -72915,13 +75135,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479176,
     "productos": "QUESO CREMOSO CHAÑAR FRACC",
     "uxb": 100,
-    "precio_vta": 7090
+    "precio_vta": 7239
   },
   {
     "codigos": 479179,
     "productos": "QUESO CREMOSO CHAÑAR PIEZA",
     "uxb": 100,
-    "precio_vta": 5999
+    "precio_vta": 6290
   },
   {
     "codigos": 479466,
@@ -72945,19 +75165,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14321,
     "productos": "QUESO CREMOSO EL DESTINO 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 7049
+    "precio_vta": 7349
   },
   {
     "codigos": 14322,
     "productos": "QUESO CREMOSO EL DESTINO FRACC",
     "uxb": 1,
-    "precio_vta": 7599
+    "precio_vta": 7899
   },
   {
     "codigos": 14320,
     "productos": "QUESO CREMOSO EL DESTINO HORMA",
     "uxb": 1,
-    "precio_vta": 6499
+    "precio_vta": 6699
   },
   {
     "codigos": 13533,
@@ -73107,19 +75327,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13170,
     "productos": "QUESO CREMOSO MARIA LUISA",
     "uxb": 1,
-    "precio_vta": 6999
+    "precio_vta": 7799
   },
   {
     "codigos": 13171,
     "productos": "QUESO CREMOSO MARIA LUISA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 8599
   },
   {
     "codigos": 13172,
     "productos": "QUESO CREMOSO MARIA LUISA FRACC",
     "uxb": 1,
-    "precio_vta": 8199
+    "precio_vta": 9199
   },
   {
     "codigos": 8764,
@@ -73137,13 +75357,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13994,
     "productos": "QUESO CREMOSO NARDIELLO FRACC",
     "uxb": 1,
-    "precio_vta": 8190
+    "precio_vta": 9490
   },
   {
     "codigos": 13993,
     "productos": "QUESO CREMOSO NARDIELLO PIEZA",
     "uxb": 1,
-    "precio_vta": 6990
+    "precio_vta": 8099
   },
   {
     "codigos": 13469,
@@ -73179,73 +75399,73 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14344,
     "productos": "QUESO CREMOSO POR SALUD BARRAZA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9199
+    "precio_vta": 9599
   },
   {
     "codigos": 14345,
     "productos": "QUESO CREMOSO POR SALUD BARRAZA FRACC",
     "uxb": 1,
-    "precio_vta": 9899
+    "precio_vta": 10299
   },
   {
     "codigos": 14340,
     "productos": "QUESO CREMOSO POR SALUD BARRAZA HORMA",
     "uxb": 1,
-    "precio_vta": 8399
+    "precio_vta": 8699
   },
   {
     "codigos": 13008,
     "productos": "QUESO CREMOSO PUNTA DE AGUA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 8599
+    "precio_vta": 9499
   },
   {
     "codigos": 13164,
     "productos": "QUESO CREMOSO PUNTA DE AGUA FRACC",
     "uxb": 1,
-    "precio_vta": 9199
+    "precio_vta": 10199
   },
   {
     "codigos": 13009,
     "productos": "QUESO CREMOSO PUNTA DEL AGUA X HORMA",
     "uxb": 1,
-    "precio_vta": 7819
+    "precio_vta": 8699
   },
   {
     "codigos": 13657,
     "productos": "QUESO CREMOSO RAMOLAC 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 7999
+    "precio_vta": 8799
   },
   {
     "codigos": 13658,
     "productos": "QUESO CREMOSO RAMOLAC FRACC",
     "uxb": 1,
-    "precio_vta": 8599
+    "precio_vta": 9399
   },
   {
     "codigos": 13656,
     "productos": "QUESO CREMOSO RAMOLAC HORMA",
     "uxb": 1,
-    "precio_vta": 7299
+    "precio_vta": 7999
   },
   {
     "codigos": 14294,
     "productos": "QUESO CREMOSO RIFKA x 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 6519
+    "precio_vta": 8299
   },
   {
     "codigos": 14295,
     "productos": "QUESO CREMOSO RIFKA x FRACC",
     "uxb": 1,
-    "precio_vta": 6999
+    "precio_vta": 8900
   },
   {
     "codigos": 14293,
     "productos": "QUESO CREMOSO RIFKA x HORMA",
     "uxb": 1,
-    "precio_vta": 5999
+    "precio_vta": 7549
   },
   {
     "codigos": 13477,
@@ -73269,19 +75489,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13185,
     "productos": "QUESO CREMOSO TREGAR 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9029
+    "precio_vta": 10099
   },
   {
     "codigos": 13186,
     "productos": "QUESO CREMOSO TREGAR FRACC",
     "uxb": 1,
-    "precio_vta": 9662
+    "precio_vta": 10899
   },
   {
     "codigos": 13184,
     "productos": "QUESO CREMOSO TREGAR HORMA",
     "uxb": 1,
-    "precio_vta": 8208
+    "precio_vta": 9199
   },
   {
     "codigos": 13766,
@@ -73308,16 +75528,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2499
   },
   {
-    "codigos": 13632,
-    "productos": "QUESO CREMOSO VILLA NUEVA FRACC",
+    "codigos": 477147,
+    "productos": "QUESO CREMOSO VILLACOR PIEZA",
     "uxb": 1,
-    "precio_vta": 6889
-  },
-  {
-    "codigos": 13633,
-    "productos": "QUESO CREMOSO VILLA NUEVA PIEZA",
-    "uxb": 1,
-    "precio_vta": 5998
+    "precio_vta": 7490
   },
   {
     "codigos": 477255,
@@ -73329,13 +75543,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13208,
     "productos": "QUESO DAMBO TREGAR FETAS",
     "uxb": 1,
-    "precio_vta": 14290
+    "precio_vta": 17799
   },
   {
     "codigos": 13207,
     "productos": "QUESO DAMBO TREGAR HORMA",
     "uxb": 1,
-    "precio_vta": 12139
+    "precio_vta": 13199
   },
   {
     "codigos": 13973,
@@ -73359,55 +75573,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14228,
     "productos": "QUESO DANBO EL PRADO x 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 8489
+    "precio_vta": 9699
   },
   {
     "codigos": 14229,
     "productos": "QUESO DANBO EL PRADO x FETAS",
     "uxb": 1,
-    "precio_vta": 9499
+    "precio_vta": 11999
   },
   {
     "codigos": 14221,
     "productos": "QUESO DANBO EL PRADO x HORMA",
     "uxb": 1,
-    "precio_vta": 7489
+    "precio_vta": 8799
   },
   {
     "codigos": 13020,
     "productos": "QUESO DANBO PUNTA DE AGUA",
     "uxb": 1,
-    "precio_vta": 8999
+    "precio_vta": 9799
   },
   {
     "codigos": 13058,
     "productos": "QUESO DANBO PUNTA DE AGUA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9869
+    "precio_vta": 10799
   },
   {
     "codigos": 13065,
     "productos": "QUESO DANBO PUNTA DE AGUA FETAS",
     "uxb": 1,
-    "precio_vta": 12099
+    "precio_vta": 13099
   },
   {
     "codigos": 13464,
     "productos": "QUESO DANBO SIN/LACT LA SERE FETAS",
     "uxb": 1,
-    "precio_vta": 17951
+    "precio_vta": 20856
   },
   {
     "codigos": 13462,
     "productos": "QUESO DANBO SIN/LACT LA SERE HORMA",
     "uxb": 1,
-    "precio_vta": 15251
+    "precio_vta": 17720
   },
   {
     "codigos": 13007,
     "productos": "QUESO DANBO TREGAR 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 13354
+    "precio_vta": 14599
   },
   {
     "codigos": 474311,
@@ -73473,25 +75687,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471367,
     "productos": "QUESO E/HEBRAS 4 QUESOS FINLANDIA x130gr",
     "uxb": 1,
-    "precio_vta": 3699
+    "precio_vta": 3804
   },
   {
     "codigos": 471368,
     "productos": "QUESO E/HEBRAS 4 QUESOS LIGHT FINLANDIA x130gr",
     "uxb": 1,
-    "precio_vta": 3699
+    "precio_vta": 3804
   },
   {
     "codigos": 471146,
     "productos": "QUESO E/HEBRAS CHEDDAR FINLANDIA x130g",
     "uxb": 1,
-    "precio_vta": 3699
+    "precio_vta": 3804
   },
   {
     "codigos": 471145,
     "productos": "QUESO E/HEBRAS PARM/MUZZ FINLANDIA x130g",
     "uxb": 1,
-    "precio_vta": 3699
+    "precio_vta": 3804
   },
   {
     "codigos": 14168,
@@ -73536,10 +75750,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 12099
   },
   {
+    "codigos": 13770,
+    "productos": "QUESO GOUDA FRACCIONADO",
+    "uxb": 1,
+    "precio_vta": 15299
+  },
+  {
     "codigos": 14298,
     "productos": "QUESO GOUDA HORMA",
     "uxb": 1,
     "precio_vta": 10299
+  },
+  {
+    "codigos": 13769,
+    "productos": "QUESO GOUDA TREMBLAY 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 14299
+  },
+  {
+    "codigos": 13768,
+    "productos": "QUESO GOUDA TREMBLAY HORMA",
+    "uxb": 1,
+    "precio_vta": 12999
   },
   {
     "codigos": 13654,
@@ -73623,67 +75855,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13476,
     "productos": "QUESO LS PORT SALUT LIGHT S/SAL x500gr",
     "uxb": 1,
-    "precio_vta": 16636
+    "precio_vta": 17088
   },
   {
     "codigos": 13872,
     "productos": "QUESO LS PORT SALUT LIGHT VERDE x500gr",
     "uxb": 1,
-    "precio_vta": 17104
+    "precio_vta": 18858
   },
   {
     "codigos": 13475,
     "productos": "QUESO LS PORT SALUT S/LACT CLAS ENV.AZUL x500gr",
     "uxb": 1,
-    "precio_vta": 14254
+    "precio_vta": 14929
+  },
+  {
+    "codigos": 14396,
+    "productos": "QUESO LS PROTEIN S/ LACT x500g",
+    "uxb": 1,
+    "precio_vta": 17999
   },
   {
     "codigos": 13252,
     "productos": "QUESO LS SAINT PAULIN x500gr",
     "uxb": 1,
-    "precio_vta": 14278
+    "precio_vta": 15741
   },
   {
     "codigos": 13176,
     "productos": "QUESO MAGRO MARIA LUISA",
     "uxb": 1,
-    "precio_vta": 7999
+    "precio_vta": 8799
   },
   {
     "codigos": 13177,
     "productos": "QUESO MAGRO MARIA LUISA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 8699
+    "precio_vta": 9699
   },
   {
     "codigos": 13178,
     "productos": "QUESO MAGRO MARIA LUISA FRACCIONADO",
     "uxb": 1,
-    "precio_vta": 9299
+    "precio_vta": 10399
   },
   {
     "codigos": 13253,
     "productos": "QUESO MARIA LUISA REGIANITO",
     "uxb": 1,
-    "precio_vta": 13699
+    "precio_vta": 14699
   },
   {
     "codigos": 13640,
     "productos": "QUESO MARIA LUISA REGIANITO 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 14999
+    "precio_vta": 16199
   },
   {
     "codigos": 13270,
     "productos": "QUESO MARIA LUISA REGIANITO FRACC",
     "uxb": 1,
-    "precio_vta": 16099
-  },
-  {
-    "codigos": 14317,
-    "productos": "QUESO MUZZARELLA BARRAZA X HORMA",
-    "uxb": 1,
-    "precio_vta": 10199
+    "precio_vta": 17299
   },
   {
     "codigos": 477994,
@@ -73749,19 +75981,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13284,
     "productos": "QUESO PATEGRAS S/LACT LA SERE 1/2 HORMA",
     "uxb": 3,
-    "precio_vta": 17243
+    "precio_vta": 22151
   },
   {
     "codigos": 13285,
     "productos": "QUESO PATEGRAS S/LACT LA SERE FRACC",
     "uxb": 1,
-    "precio_vta": 18450
+    "precio_vta": 23704
   },
   {
     "codigos": 13283,
     "productos": "QUESO PATEGRAS S/LACT LA SERE HORMA",
     "uxb": 1,
-    "precio_vta": 15676
+    "precio_vta": 20139
   },
   {
     "codigos": 14131,
@@ -73800,6 +76032,24 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10539
   },
   {
+    "codigos": 14151,
+    "productos": "QUESO PEPATO TREMBLAY 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 20349
+  },
+  {
+    "codigos": 14152,
+    "productos": "QUESO PEPATO TREMBLAY FRACCIONADO",
+    "uxb": 1,
+    "precio_vta": 21799
+  },
+  {
+    "codigos": 14150,
+    "productos": "QUESO PEPATO TREMBLAY HORMA",
+    "uxb": 1,
+    "precio_vta": 18499
+  },
+  {
     "codigos": 13719,
     "productos": "QUESO POR SALUT CRAIKENSE FRACC",
     "uxb": 1,
@@ -73833,7 +76083,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13686,
     "productos": "QUESO POR SALUT LIGHT LS 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9004
+    "precio_vta": 9927
   },
   {
     "codigos": 14141,
@@ -73845,19 +76095,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13174,
     "productos": "QUESO POR SALUT MARIA LUISA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 8699
+    "precio_vta": 9699
   },
   {
     "codigos": 13175,
     "productos": "QUESO POR SALUT MARIA LUISA FRACC",
     "uxb": 1,
-    "precio_vta": 9299
+    "precio_vta": 10399
   },
   {
     "codigos": 13173,
     "productos": "QUESO POR SALUT MARIA LUISA HORMA",
     "uxb": 1,
-    "precio_vta": 7999
+    "precio_vta": 8799
   },
   {
     "codigos": 13763,
@@ -73908,10 +76158,46 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6999
   },
   {
+    "codigos": 14362,
+    "productos": "QUESO PORT SALUT CLASICO PUNTA DEL AGUA",
+    "uxb": 1,
+    "precio_vta": 9099
+  },
+  {
+    "codigos": 14369,
+    "productos": "QUESO PORT SALUT CLASICO PUNTA DEL AGUA 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 9999
+  },
+  {
+    "codigos": 14370,
+    "productos": "QUESO PORT SALUT CLASICO PUNTA DEL AGUA FRACC",
+    "uxb": 1,
+    "precio_vta": 10699
+  },
+  {
+    "codigos": 14371,
+    "productos": "QUESO PORT SALUT LIGHT PUNTA DEL AGUA",
+    "uxb": 1,
+    "precio_vta": 9999
+  },
+  {
+    "codigos": 14372,
+    "productos": "QUESO PORT SALUT LIGHT PUNTA DEL AGUA 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 11049
+  },
+  {
+    "codigos": 14373,
+    "productos": "QUESO PORT SALUT LIGHT PUNTA DEL AGUA FRACC",
+    "uxb": 1,
+    "precio_vta": 11899
+  },
+  {
     "codigos": 13250,
     "productos": "QUESO PORT SALUT SIN LACTOSA LS FRACC",
     "uxb": 1,
-    "precio_vta": 10974
+    "precio_vta": 12099
   },
   {
     "codigos": 14255,
@@ -73947,7 +76233,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13885,
     "productos": "QUESO PROVOLETA NONNA PIA CAZUELA x 160G",
     "uxb": 1,
-    "precio_vta": 3499
+    "precio_vta": 3599
   },
   {
     "codigos": 13884,
@@ -73983,7 +76269,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13883,
     "productos": "QUESO PROVOLONE NONNA PIA MINIx4 PORCIONES",
     "uxb": 1,
-    "precio_vta": 3499
+    "precio_vta": 3899
   },
   {
     "codigos": 479893,
@@ -74001,37 +76287,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474358,
     "productos": "QUESO RALLADO LA SERENISIMA PARM x80gr",
     "uxb": 1,
-    "precio_vta": 3131
+    "precio_vta": 3453
   },
   {
     "codigos": 470536,
     "productos": "QUESO RALLADO LA SERENISIMA REG X130GR",
     "uxb": 1,
-    "precio_vta": 5133
+    "precio_vta": 5375
   },
   {
     "codigos": 470529,
     "productos": "QUESO RALLADO LA SERENISIMA REG X175GR",
     "uxb": 1,
-    "precio_vta": 6241
+    "precio_vta": 6534
   },
   {
     "codigos": 462882,
     "productos": "QUESO RALLADO LA SERENISIMA REG X35GR",
     "uxb": 10,
-    "precio_vta": 1338
+    "precio_vta": 1405
   },
   {
     "codigos": 470528,
     "productos": "QUESO RALLADO LA SERENISIMA REG X70GR",
     "uxb": 1,
-    "precio_vta": 2741
+    "precio_vta": 2870
+  },
+  {
+    "codigos": 474092,
+    "productos": "QUESO RALLADO MILKAUT x40g",
+    "uxb": 10,
+    "precio_vta": 548
   },
   {
     "codigos": 479516,
     "productos": "QUESO RALLADO PUNTA DEL AGUA x40g",
     "uxb": 20,
-    "precio_vta": 1449
+    "precio_vta": 1499
+  },
+  {
+    "codigos": 480834,
+    "productos": "QUESO RALLADO TREGAR x 40grs",
+    "uxb": 20,
+    "precio_vta": 1399
   },
   {
     "codigos": 13912,
@@ -74050,6 +76348,24 @@ const PRODUCTOS_PRECIOS = [
     "productos": "QUESO REGGIANITO HORMA LA QUESERA",
     "uxb": 1,
     "precio_vta": 18999
+  },
+  {
+    "codigos": 14365,
+    "productos": "QUESO REGGIANITO MELINCUE 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 15999
+  },
+  {
+    "codigos": 14366,
+    "productos": "QUESO REGGIANITO MELINCUE FRACC",
+    "uxb": 1,
+    "precio_vta": 17099
+  },
+  {
+    "codigos": 14364,
+    "productos": "QUESO REGGIANITO MELINCUE HORMA",
+    "uxb": 1,
+    "precio_vta": 14499
   },
   {
     "codigos": 13724,
@@ -74079,19 +76395,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13402,
     "productos": "QUESO ROMANITO REGIANITO 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9699
+    "precio_vta": 12599
   },
   {
     "codigos": 13135,
     "productos": "QUESO ROMANITO REGIANITO FRACC",
     "uxb": 1,
-    "precio_vta": 10499
+    "precio_vta": 13599
   },
   {
     "codigos": 13131,
     "productos": "QUESO ROMANITO REGIANITO HORMA",
     "uxb": 1,
-    "precio_vta": 8799
+    "precio_vta": 11499
   },
   {
     "codigos": 13723,
@@ -74160,18 +76476,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 11398
   },
   {
-    "codigos": 14257,
-    "productos": "QUESO SARDO EL ALBA RAMOLAC 1/2 HORMA",
-    "uxb": 1,
-    "precio_vta": 9989
-  },
-  {
-    "codigos": 14256,
-    "productos": "QUESO SARDO EL ALBA RAMOLAC HORMA",
-    "uxb": 1,
-    "precio_vta": 8899
-  },
-  {
     "codigos": 14280,
     "productos": "QUESO SARDO EL ARGENTINO 1/2 HORMA",
     "uxb": 1,
@@ -74205,37 +76509,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13115,
     "productos": "QUESO SARDO LA CASONA",
     "uxb": 1,
-    "precio_vta": 7999
+    "precio_vta": 9999
   },
   {
     "codigos": 13382,
     "productos": "QUESO SARDO LA CASONA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 8799
+    "precio_vta": 11369
   },
   {
     "codigos": 13274,
     "productos": "QUESO SARDO LA CASONA FRACCIONADO",
     "uxb": 1000,
-    "precio_vta": 9699
+    "precio_vta": 12199
   },
   {
     "codigos": 13287,
     "productos": "QUESO SARDO LA SERENISIMA S/L 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 29181
+    "precio_vta": 30069
   },
   {
     "codigos": 13316,
     "productos": "QUESO SARDO LA SERENISIMA S/L FRACC",
     "uxb": 1,
-    "precio_vta": 24566
+    "precio_vta": 32174
   },
   {
     "codigos": 13315,
     "productos": "QUESO SARDO LA SERENISIMA S/L HORMA",
     "uxb": 1,
-    "precio_vta": 20726
+    "precio_vta": 22850
   },
   {
     "codigos": 14277,
@@ -74256,22 +76560,40 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 8999
   },
   {
+    "codigos": 14257,
+    "productos": "QUESO SARDO LAYNA RAMOLAC 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 10399
+  },
+  {
+    "codigos": 14368,
+    "productos": "QUESO SARDO LAYNA RAMOLAC FRACC",
+    "uxb": 1,
+    "precio_vta": 11099
+  },
+  {
+    "codigos": 14256,
+    "productos": "QUESO SARDO LAYNA RAMOLAC HORMA",
+    "uxb": 1,
+    "precio_vta": 9399
+  },
+  {
     "codigos": 14263,
     "productos": "QUESO SARDO MARIA LUISA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 12799
+    "precio_vta": 13799
   },
   {
     "codigos": 14264,
     "productos": "QUESO SARDO MARIA LUISA FRACC",
     "uxb": 1,
-    "precio_vta": 13699
+    "precio_vta": 14699
   },
   {
     "codigos": 14262,
     "productos": "QUESO SARDO MARIA LUISA HORMA",
     "uxb": 1,
-    "precio_vta": 11599
+    "precio_vta": 12499
   },
   {
     "codigos": 13995,
@@ -74397,7 +76719,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14282,
     "productos": "QUESO TYBO CASANTO X HORMA",
     "uxb": 1,
-    "precio_vta": 9269
+    "precio_vta": 9733
   },
   {
     "codigos": 13530,
@@ -74439,55 +76761,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 13066,
     "productos": "QUESO TYBO PUNTA DE AGUA FETAS",
     "uxb": 1,
-    "precio_vta": 12099
+    "precio_vta": 13099
   },
   {
     "codigos": 13021,
     "productos": "QUESO TYBO PUNTA DE AGUA HORMA",
     "uxb": 1,
-    "precio_vta": 8999
+    "precio_vta": 9799
   },
   {
     "codigos": 13059,
     "productos": "QUESO TYBO PUNTA DEL AGUA 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9869
+    "precio_vta": 10799
   },
   {
     "codigos": 479376,
     "productos": "QUESO UNT. LA SERE FONTINA x180g",
     "uxb": 1,
-    "precio_vta": 2327
+    "precio_vta": 2436
   },
   {
     "codigos": 479377,
     "productos": "QUESO UNT. LA SERE JAMON x180g",
     "uxb": 1,
-    "precio_vta": 2327
+    "precio_vta": 2436
   },
   {
     "codigos": 479368,
     "productos": "QUESO UNT. LA SERE SALAME x180g",
-    "uxb": 7,
-    "precio_vta": 2327
+    "uxb": 1,
+    "precio_vta": 2436
   },
   {
     "codigos": 475865,
     "productos": "QUESO UNT.CLAS LA SERENISIMA ENT x195gr",
     "uxb": 12,
-    "precio_vta": 2304
+    "precio_vta": 2541
   },
   {
     "codigos": 471704,
     "productos": "QUESO UNT.CLAS LA SERENISIMA ENT x290gr",
     "uxb": 12,
-    "precio_vta": 4016
+    "precio_vta": 4217
   },
   {
     "codigos": 478392,
     "productos": "QUESO UNT.CLAS LA SERENISIMA ENT x460gr",
     "uxb": 12,
-    "precio_vta": 4943
+    "precio_vta": 5499
   },
   {
     "codigos": 475866,
@@ -74499,13 +76821,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471694,
     "productos": "QUESO UNT.CLAS LA SERENISIMA LIGHT x290gr",
     "uxb": 12,
-    "precio_vta": 4016
+    "precio_vta": 4217
   },
   {
     "codigos": 478379,
     "productos": "QUESO UNT.CLAS LA SERENISIMA LIGHT x460gr",
     "uxb": 1,
-    "precio_vta": 4943
+    "precio_vta": 5499
   },
   {
     "codigos": 470133,
@@ -74534,7 +76856,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 467538,
     "productos": "QUESO UNTABLE ADLER VARIOS SAB.X 100GR",
-    "uxb": 12,
+    "uxb": 20,
     "precio_vta": 2892
   },
   {
@@ -74547,61 +76869,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465144,
     "productos": "QUESO UNTABLE FINLANDIA BALANCE x290",
     "uxb": 1,
-    "precio_vta": 3914
+    "precio_vta": 4304
   },
   {
     "codigos": 471371,
     "productos": "QUESO UNTABLE FINLANDIA CHEDDAR X 2KG",
     "uxb": 1,
-    "precio_vta": 9529
+    "precio_vta": 10506
   },
   {
     "codigos": 464769,
     "productos": "QUESO UNTABLE FINLANDIA CLASICO x290gr",
     "uxb": 12,
-    "precio_vta": 4280
+    "precio_vta": 4482
   },
   {
     "codigos": 464303,
     "productos": "QUESO UNTABLE FINLANDIA LIGHT/LIVIANO x290gr",
     "uxb": 1,
-    "precio_vta": 4280
+    "precio_vta": 4482
   },
   {
     "codigos": 472618,
     "productos": "QUESO UNTABLE FINLANDIA x180gr ACEITUNAS",
     "uxb": 1,
-    "precio_vta": 2862
+    "precio_vta": 2995
   },
   {
     "codigos": 463835,
     "productos": "QUESO UNTABLE FINLANDIA x180gr AZUL",
     "uxb": 1,
-    "precio_vta": 2862
+    "precio_vta": 2995
   },
   {
     "codigos": 463723,
     "productos": "QUESO UNTABLE FINLANDIA x180gr CLASICO",
     "uxb": 1,
-    "precio_vta": 2862
+    "precio_vta": 2995
   },
   {
     "codigos": 463727,
     "productos": "QUESO UNTABLE FINLANDIA x180gr LIGHT",
     "uxb": 1,
-    "precio_vta": 2862
+    "precio_vta": 2995
   },
   {
     "codigos": 476467,
     "productos": "QUESO UNTABLE FINLANDIA x180gr MAS LIVIAN",
     "uxb": 1,
-    "precio_vta": 2862
+    "precio_vta": 2995
   },
   {
     "codigos": 469630,
     "productos": "QUESO UNTABLE MILKAUT AZUL x190g",
     "uxb": 1,
-    "precio_vta": 2414
+    "precio_vta": 2499
   },
   {
     "codigos": 469624,
@@ -74743,15 +77065,15 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 477227,
-    "productos": "QUESO UNTABLE TREMBLAY CHEDDAR x190gr",
+    "productos": "QUESO UNTABLE TREMBLAY CHEDDAR x180gr",
     "uxb": 12,
-    "precio_vta": 1199
+    "precio_vta": 1899
   },
   {
     "codigos": 477223,
-    "productos": "QUESO UNTABLE TREMBLAY CLASICO x190gr",
+    "productos": "QUESO UNTABLE TREMBLAY CLASICO x180gr",
     "uxb": 12,
-    "precio_vta": 1199
+    "precio_vta": 1899
   },
   {
     "codigos": 477221,
@@ -74761,21 +77083,21 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 477224,
-    "productos": "QUESO UNTABLE TREMBLAY JAMON x190gr",
+    "productos": "QUESO UNTABLE TREMBLAY JAMON x180gr",
     "uxb": 12,
-    "precio_vta": 1199
+    "precio_vta": 1899
   },
   {
     "codigos": 472309,
-    "productos": "QUESO UNTABLE TREMBLAY P.SALUT x190g",
+    "productos": "QUESO UNTABLE TREMBLAY P.SALUT x180g",
     "uxb": 12,
-    "precio_vta": 1199
+    "precio_vta": 1899
   },
   {
     "codigos": 477222,
-    "productos": "QUESO UNTABLE TREMBLAY SALAME x190gr",
+    "productos": "QUESO UNTABLE TREMBLAY SALAME x180gr",
     "uxb": 12,
-    "precio_vta": 1199
+    "precio_vta": 1899
   },
   {
     "codigos": 2865,
@@ -74910,6 +77232,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1195
   },
   {
+    "codigos": 480795,
+    "productos": "RALLADOR BENABI IMP EMA BNB 54530",
+    "uxb": 1,
+    "precio_vta": 7199
+  },
+  {
     "codigos": 475198,
     "productos": "RALLADOR C/CONTENEDOR x5BH-HOME WB015",
     "uxb": 1,
@@ -74931,7 +77259,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10420,
     "productos": "RALLADOR DE MANZANA REDONDO PLASTICO",
     "uxb": 36,
-    "precio_vta": 1049
+    "precio_vta": 1154
   },
   {
     "codigos": 477045,
@@ -74967,61 +77295,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470601,
     "productos": "RAVIOLES 4 QUESOS MENDIA x1Kg",
     "uxb": 10,
-    "precio_vta": 3730
-  },
-  {
-    "codigos": 471006,
-    "productos": "RAVIOLES CARNE Y ESPINACA ORALI x500gr",
-    "uxb": 21,
-    "precio_vta": 1619
+    "precio_vta": 4140
   },
   {
     "codigos": 470611,
     "productos": "RAVIOLES CUATRO QUESOS MENDIA x500g",
     "uxb": 12,
-    "precio_vta": 2083
+    "precio_vta": 2312
   },
   {
     "codigos": 471507,
     "productos": "RAVIOLES DE ESPINACA MENDIA x1Kg",
     "uxb": 10,
-    "precio_vta": 3730
+    "precio_vta": 4140
   },
   {
     "codigos": 471011,
     "productos": "RAVIOLES DE ESPINACA ORALI x1Kg",
     "uxb": 10,
-    "precio_vta": 3499
+    "precio_vta": 3699
   },
   {
     "codigos": 471005,
     "productos": "RAVIOLES DE ESPINACA ORALI x500g",
     "uxb": 21,
-    "precio_vta": 1849
+    "precio_vta": 1949
   },
   {
     "codigos": 471009,
     "productos": "RAVIOLES DE POLLO ORALI x1Kg",
     "uxb": 10,
-    "precio_vta": 3499
+    "precio_vta": 3699
   },
   {
     "codigos": 470598,
     "productos": "RAVIOLES DE RICOTA MENDIA x1Kg",
     "uxb": 10,
-    "precio_vta": 3730
+    "precio_vta": 4140
   },
   {
     "codigos": 471983,
     "productos": "RAVIOLES DE RICOTA MENDIA x500g",
     "uxb": 1,
-    "precio_vta": 2083
+    "precio_vta": 2312
   },
   {
     "codigos": 471012,
     "productos": "RAVIOLES DE RICOTA ORALI x1Kg",
     "uxb": 10,
-    "precio_vta": 3499
+    "precio_vta": 3699
   },
   {
     "codigos": 465630,
@@ -75057,43 +77379,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470521,
     "productos": "RAVIOLES LA ITALIANA JAM/QUESO x1Kg",
     "uxb": 12,
-    "precio_vta": 4235
+    "precio_vta": 4399
   },
   {
     "codigos": 467505,
     "productos": "RAVIOLES LA ITALIANA POLLO Y ESP X1KG",
     "uxb": 12,
-    "precio_vta": 3777
+    "precio_vta": 4399
   },
   {
     "codigos": 469936,
     "productos": "RAVIOLES LA ITALIANA x500g 4 QUESOS",
     "uxb": 21,
-    "precio_vta": 2518
+    "precio_vta": 2599
   },
   {
     "codigos": 479323,
     "productos": "RAVIOLES LA ITALIANA x500g CARN/ESP",
     "uxb": 21,
-    "precio_vta": 2518
+    "precio_vta": 2599
   },
   {
     "codigos": 469935,
     "productos": "RAVIOLES LA ITALIANA x500g JAMON/QUES",
     "uxb": 21,
-    "precio_vta": 2518
+    "precio_vta": 2599
   },
   {
     "codigos": 479322,
     "productos": "RAVIOLES LA ITALIANA x500g POL/VERD",
     "uxb": 21,
-    "precio_vta": 2518
+    "precio_vta": 2599
   },
   {
     "codigos": 479321,
     "productos": "RAVIOLES LA ITALIANA x500g RICOTTA",
     "uxb": 21,
-    "precio_vta": 2518
+    "precio_vta": 2599
   },
   {
     "codigos": 472222,
@@ -75105,7 +77427,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474016,
     "productos": "RAVIOLES LA SALTEÑA 4 QUESOS x900g",
     "uxb": 1,
-    "precio_vta": 5129
+    "precio_vta": 5444
   },
   {
     "codigos": 472221,
@@ -75129,7 +77451,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470970,
     "productos": "RAVIOLES LA SALTEÑA POLLO/VERD x900GRS",
     "uxb": 1,
-    "precio_vta": 5129
+    "precio_vta": 5444
   },
   {
     "codigos": 472219,
@@ -75146,8 +77468,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 473343,
     "productos": "RAVIOLES ORALI 4 QUESOS x500g",
-    "uxb": 1,
-    "precio_vta": 1619
+    "uxb": 21,
+    "precio_vta": 1849
   },
   {
     "codigos": 474600,
@@ -75183,19 +77505,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471001,
     "productos": "RAVIOLES POLLO ORALI x500g",
     "uxb": 21,
-    "precio_vta": 1714
+    "precio_vta": 1949
   },
   {
     "codigos": 470600,
     "productos": "RAVIOLES POLLO-VERDURA MENDIA x1Kg",
     "uxb": 10,
-    "precio_vta": 3730
+    "precio_vta": 4140
   },
   {
     "codigos": 470610,
     "productos": "RAVIOLES POLLO/VERDURA MENDIA x500gr",
     "uxb": 12,
-    "precio_vta": 2083
+    "precio_vta": 2312
   },
   {
     "codigos": 477258,
@@ -75206,26 +77528,26 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 471004,
     "productos": "RAVIOLES RICOTA ORALI x500gr",
-    "uxb": 30,
-    "precio_vta": 1849
+    "uxb": 21,
+    "precio_vta": 1949
   },
   {
     "codigos": 470650,
     "productos": "RAVIOLES RICOTA-MOZZA-JAMON MENDIA x1Kg",
     "uxb": 10,
-    "precio_vta": 3730
+    "precio_vta": 4140
   },
   {
     "codigos": 470602,
     "productos": "RAVIOLES RICOTA-MOZZA-JAMON MENDIA x500gr",
     "uxb": 1,
-    "precio_vta": 2083
+    "precio_vta": 2312
   },
   {
     "codigos": 473701,
     "productos": "RAVIOLES RICOTTA/ESPINACA MENDIA x500gr",
     "uxb": 12,
-    "precio_vta": 2083
+    "precio_vta": 2312
   },
   {
     "codigos": 478327,
@@ -75351,19 +77673,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477295,
     "productos": "REBOZADOR HORNO SILVINA x400g",
     "uxb": 10,
-    "precio_vta": 899
+    "precio_vta": 1099
   },
   {
     "codigos": 477804,
     "productos": "REBOZADOR MAROLIO x1kg",
     "uxb": 10,
-    "precio_vta": 1249
+    "precio_vta": 1499
   },
   {
     "codigos": 541,
     "productos": "REBOZADOR MAROLIO x500gr",
     "uxb": 12,
-    "precio_vta": 749
+    "precio_vta": 899
   },
   {
     "codigos": 476712,
@@ -75375,7 +77697,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471957,
     "productos": "REBOZADOR MOLTO x500g",
     "uxb": 12,
-    "precio_vta": 749
+    "precio_vta": 999
   },
   {
     "codigos": 3927,
@@ -75390,34 +77712,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1499
   },
   {
+    "codigos": 479916,
+    "productos": "REBOZADOR SABORIZ TOTAL SILVINA X400G",
+    "uxb": 10,
+    "precio_vta": 1099
+  },
+  {
     "codigos": 479911,
     "productos": "REBOZADOR SABORIZADO SEQUITO x360g",
     "uxb": 12,
-    "precio_vta": 599
-  },
-  {
-    "codigos": 479916,
-    "productos": "REBOZADOR SABORIZADO SILVINA x400g",
-    "uxb": 10,
-    "precio_vta": 899
+    "precio_vta": 769
   },
   {
     "codigos": 4026,
     "productos": "REBOZADOR SEQUITO x360gr",
     "uxb": 12,
-    "precio_vta": 599
+    "precio_vta": 769
   },
   {
     "codigos": 4028,
     "productos": "REBOZADOR SILVINA x450gr",
     "uxb": 12,
-    "precio_vta": 899
+    "precio_vta": 1099
   },
   {
     "codigos": 5048,
     "productos": "REBOZADOR SILVINA x5kg",
     "uxb": 1,
-    "precio_vta": 8499
+    "precio_vta": 9399
   },
   {
     "codigos": 473259,
@@ -75432,28 +77754,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3399
   },
   {
+    "codigos": 467798,
+    "productos": "RECARGA DE GAS MAGICLICK",
+    "uxb": 1,
+    "precio_vta": 1399
+  },
+  {
     "codigos": 462714,
     "productos": "RECIP HERM 20LTRS YESI",
     "uxb": 6,
-    "precio_vta": 9056
+    "precio_vta": 9961
   },
   {
     "codigos": 468418,
     "productos": "RECIP.RESIDUOS C/TAPA VAIV.x8Lts",
     "uxb": 12,
-    "precio_vta": 6036
+    "precio_vta": 6639
   },
   {
     "codigos": 463990,
     "productos": "RECIPIENTE P/HIELO NEGRO",
     "uxb": 24,
-    "precio_vta": 1088
+    "precio_vta": 1197
   },
   {
     "codigos": 480431,
     "productos": "RECIPIENTE RESIDUOS REC.UZ420 x2,5Lt",
     "uxb": 1,
-    "precio_vta": 5774
+    "precio_vta": 6352
   },
   {
     "codigos": 476232,
@@ -75474,28 +77802,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4619
   },
   {
-    "codigos": 473040,
-    "productos": "REDONDITOS CHOCOLATE 3 ARROYOS x210g",
-    "uxb": 16,
-    "precio_vta": 1417
-  },
-  {
     "codigos": 473195,
     "productos": "REDONDITOS CHOCOLATE 3 ARROYOS x400gr",
     "uxb": 17,
-    "precio_vta": 2519
+    "precio_vta": 2699
   },
   {
     "codigos": 466985,
     "productos": "REDONDITOS DE CHOC. EL MAKZAL x150g",
     "uxb": 12,
     "precio_vta": 1182
-  },
-  {
-    "codigos": 473725,
-    "productos": "REDONDITOS DE CHOCOLATE 3 ARROYOS X 3300KG",
-    "uxb": 1,
-    "precio_vta": 13649
   },
   {
     "codigos": 465954,
@@ -75534,6 +77850,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 22990
   },
   {
+    "codigos": 480600,
+    "productos": "REG. BULL DOG ROLL x24un",
+    "uxb": 6,
+    "precio_vta": 15490
+  },
+  {
     "codigos": 10424,
     "productos": "REGADERA 5lt HP",
     "uxb": 10,
@@ -75543,13 +77865,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476579,
     "productos": "REGALIZ BULL DOG ACIDAS FRAMBUESA x75g",
     "uxb": 24,
-    "precio_vta": 829
+    "precio_vta": 769
   },
   {
     "codigos": 476951,
     "productos": "REGALIZ BULL DOG ACIDAS FRUTILLA x75gr",
     "uxb": 24,
-    "precio_vta": 829
+    "precio_vta": 769
+  },
+  {
+    "codigos": 480822,
+    "productos": "REGALIZ BULL DOG NAVIDAD 12x18gr",
+    "uxb": 1,
+    "precio_vta": 2899
   },
   {
     "codigos": 479072,
@@ -75561,31 +77889,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479473,
     "productos": "REGALIZ BULL DOG PICANTE x12un",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 2899
   },
   {
     "codigos": 480012,
     "productos": "REGALIZ BULL DOG POTE FRUT x360gr",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 478066,
     "productos": "REGALIZ BULL DOG POTE TUTTI-FRUTTI x360gr",
     "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 4399
   },
   {
     "codigos": 477496,
     "productos": "REGALIZ BULL DOG SANDIA 18GR x12un",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2899
   },
   {
     "codigos": 476580,
     "productos": "REGALIZ BULL DOG SANDIA ACIDA x75g",
     "uxb": 24,
-    "precio_vta": 829
+    "precio_vta": 769
   },
   {
     "codigos": 479469,
@@ -75675,223 +78003,223 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2890,
     "productos": "REJILLA AMERICANA ARIDAM 46x38cm",
     "uxb": 12,
-    "precio_vta": 524
+    "precio_vta": 577
   },
   {
     "codigos": 464192,
     "productos": "REJILLA AMERICANA DURAMAS 36x52CM",
     "uxb": 12,
-    "precio_vta": 603
+    "precio_vta": 664
   },
   {
     "codigos": 469181,
     "productos": "REJILLA AMERICANA LA VICTORIA",
     "uxb": 12,
-    "precio_vta": 524
+    "precio_vta": 577
   },
   {
     "codigos": 480234,
     "productos": "REJILLA AMERICANA MEDIA NARANJA 40X40CM",
     "uxb": 50,
-    "precio_vta": 944
+    "precio_vta": 1039
   },
   {
     "codigos": 480186,
     "productos": "REJILLA AMERICANA ULTRA LIMPIO",
     "uxb": 120,
-    "precio_vta": 524
+    "precio_vta": 577
   },
   {
     "codigos": 471436,
     "productos": "REJILLA AUTOMOTOR TENOAR",
     "uxb": 60,
-    "precio_vta": 1339
+    "precio_vta": 1473
   },
   {
     "codigos": 475959,
     "productos": "REJILLA BAR SED METAL 40x45cm",
     "uxb": 120,
-    "precio_vta": 1153
+    "precio_vta": 1269
   },
   {
     "codigos": 2891,
     "productos": "REJILLA CLASICA BLANCA 40x40",
     "uxb": 1,
-    "precio_vta": 335
+    "precio_vta": 369
   },
   {
     "codigos": 467327,
     "productos": "REJILLA COCHE PROF.ARIDAM",
     "uxb": 12,
-    "precio_vta": 644
+    "precio_vta": 709
   },
   {
     "codigos": 471446,
     "productos": "REJILLA COCINA-BAÑO TENOAR",
     "uxb": 120,
-    "precio_vta": 461
+    "precio_vta": 508
   },
   {
     "codigos": 2892,
     "productos": "REJILLA COLOR NIDO ABEJA ROMYL",
     "uxb": 120,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 464190,
     "productos": "REJILLA DE PABILO DURAMAS 38x42",
     "uxb": 12,
-    "precio_vta": 587
+    "precio_vta": 646
   },
   {
     "codigos": 5543,
     "productos": "REJILLA DOBLE COCINA ALG BORO",
     "uxb": 120,
-    "precio_vta": 597
+    "precio_vta": 657
   },
   {
     "codigos": 464191,
     "productos": "REJILLA DOBLE PABILO DURAMAS 35x40",
     "uxb": 24,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 479364,
     "productos": "REJILLA DOBLE PABILO ULTRA LIMPIO",
     "uxb": 120,
-    "precio_vta": 577
+    "precio_vta": 635
   },
   {
     "codigos": 480235,
     "productos": "REJILLA DOBLE REFORZADA MEDIA NARANJA",
     "uxb": 50,
-    "precio_vta": 1259
+    "precio_vta": 1385
   },
   {
     "codigos": 471435,
     "productos": "REJILLA DOBLE TRAMADO TENOAR",
     "uxb": 60,
-    "precio_vta": 1270
+    "precio_vta": 1397
   },
   {
     "codigos": 5827,
     "productos": "REJILLA ENTRESOL PABILO LIVIANA",
     "uxb": 240,
-    "precio_vta": 138
+    "precio_vta": 152
   },
   {
     "codigos": 479369,
     "productos": "REJILLA ESPONJA ARIDAM",
     "uxb": 12,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 473097,
     "productos": "REJILLA ESPONJA SM LINEA 10 42x38CM",
     "uxb": 12,
-    "precio_vta": 755
+    "precio_vta": 830
   },
   {
     "codigos": 473565,
     "productos": "REJILLA L/COCHE P LINEA 10 50x60CM",
     "uxb": 1,
-    "precio_vta": 1768
+    "precio_vta": 1945
   },
   {
     "codigos": 476677,
     "productos": "REJILLA LA PODEROSA 40X40CM",
-    "uxb": 120,
-    "precio_vta": 649
+    "uxb": 50,
+    "precio_vta": 714
   },
   {
     "codigos": 464893,
     "productos": "REJILLA LA VICTORIA PARA AUTO",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1847
   },
   {
     "codigos": 480417,
     "productos": "REJILLA LIMPIAMAS/DURAMAS 35X45cm",
     "uxb": 120,
-    "precio_vta": 892
+    "precio_vta": 981
   },
   {
     "codigos": 9113,
     "productos": "REJILLA LIVIANA COCHE ALG.BOROLIMP",
     "uxb": 120,
-    "precio_vta": 1048
+    "precio_vta": 1153
   },
   {
     "codigos": 7332,
     "productos": "REJILLA LIVIANA COCHE ROMYL",
     "uxb": 60,
-    "precio_vta": 577
+    "precio_vta": 635
   },
   {
     "codigos": 476714,
     "productos": "REJILLA MEDIA NARANJA MULTIUSO 40X45CM",
     "uxb": 50,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 461802,
     "productos": "REJILLA MISTER TRAPO SUP PABILO 42x42cm",
     "uxb": 1,
-    "precio_vta": 493
+    "precio_vta": 542
   },
   {
     "codigos": 460996,
     "productos": "REJILLA MR TRAPO AMERICANA",
     "uxb": 1,
-    "precio_vta": 734
+    "precio_vta": 808
   },
   {
     "codigos": 466240,
     "productos": "REJILLA MULTIUSO LA VICTORIA",
     "uxb": 12,
-    "precio_vta": 871
+    "precio_vta": 958
   },
   {
     "codigos": 470737,
     "productos": "REJILLA NIDO ABEJA LA VICTORIA",
     "uxb": 12,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 466241,
     "productos": "REJILLA PABILO DOBLE LA VICTORIA",
-    "uxb": 12,
-    "precio_vta": 577
+    "uxb": 120,
+    "precio_vta": 635
   },
   {
     "codigos": 479367,
     "productos": "REJILLA PABILO SIMPLE ARIDAM",
     "uxb": 12,
-    "precio_vta": 419
+    "precio_vta": 461
   },
   {
     "codigos": 468045,
     "productos": "REJILLA PABILO SIMPLE LA VICTORIA",
     "uxb": 24,
-    "precio_vta": 419
+    "precio_vta": 461
   },
   {
     "codigos": 5536,
     "productos": "REJILLA PESADA COCHE ALG BORO",
     "uxb": 120,
-    "precio_vta": 1279
+    "precio_vta": 1407
   },
   {
     "codigos": 5966,
     "productos": "REJILLA ROMYL LAVA AUTO SUPER PESADA GRA",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 476713,
     "productos": "REJILLA TASK PABILO MULTIUSO 35X39CM",
     "uxb": 120,
-    "precio_vta": 733
+    "precio_vta": 807
   },
   {
     "codigos": 474251,
@@ -75981,7 +78309,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480157,
     "productos": "REMOLACHA E/CUBOS TETRA LA BANDA x340g",
     "uxb": 12,
-    "precio_vta": 1099
+    "precio_vta": 1199
   },
   {
     "codigos": 3851,
@@ -76018,6 +78346,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "REP DIBUJO EXITO NEGRO N3",
     "uxb": 25,
     "precio_vta": 499
+  },
+  {
+    "codigos": 480694,
+    "productos": "REP MICROFIBRA MEDIA NARANJA",
+    "uxb": 30,
+    "precio_vta": 3199
+  },
+  {
+    "codigos": 480695,
+    "productos": "REP STELAR MEDIA NARANJA",
+    "uxb": 20,
+    "precio_vta": 3499
   },
   {
     "codigos": 11006,
@@ -76071,7 +78411,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3973,
     "productos": "REP. GILLETTE MACH3 X4UN",
     "uxb": 72,
-    "precio_vta": 14899
+    "precio_vta": 9900
   },
   {
     "codigos": 467016,
@@ -76110,34 +78450,40 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2309
   },
   {
+    "codigos": 462323,
+    "productos": "REPARADOR ALGABO CONTROL RIZADOS x60ml",
+    "uxb": 10,
+    "precio_vta": 1499
+  },
+  {
     "codigos": 471439,
     "productos": "REPASADOR CAPULLO BLANCO TENOAR",
     "uxb": 60,
-    "precio_vta": 1079
+    "precio_vta": 1187
   },
   {
     "codigos": 471441,
     "productos": "REPASADOR CAPULLO ESTAMPADO TENOAR",
     "uxb": 60,
-    "precio_vta": 1580
+    "precio_vta": 1738
   },
   {
     "codigos": 471440,
     "productos": "REPASADOR CAPULLO MULTIESTAMPADO TENOAR",
     "uxb": 60,
-    "precio_vta": 1216
+    "precio_vta": 1338
   },
   {
     "codigos": 471220,
     "productos": "REPASADOR FIBRAN NIDO DURAMAS",
     "uxb": 12,
-    "precio_vta": 1353
+    "precio_vta": 1489
   },
   {
     "codigos": 471219,
     "productos": "REPASADOR FIBRAN SARGADO DURAMAS",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 475031,
@@ -76149,19 +78495,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469633,
     "productos": "REPASADOR LINEA FIBRAN",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 3118
   },
   {
     "codigos": 477753,
     "productos": "REPASADOR MICROFIBRA TUCU x1Un.",
     "uxb": 12,
-    "precio_vta": 838
+    "precio_vta": 922
   },
   {
     "codigos": 469634,
     "productos": "REPASADOR MINICUADROS FIBRAN",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 3118
   },
   {
     "codigos": 480233,
@@ -76197,7 +78543,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474185,
     "productos": "REPASADOR RAYADO ECONO BATENN",
     "uxb": 120,
-    "precio_vta": 909
+    "precio_vta": 1000
   },
   {
     "codigos": 473098,
@@ -76209,7 +78555,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469632,
     "productos": "REPASADOR SUPERCUADRO FIBRAN",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 3118
   },
   {
     "codigos": 476708,
@@ -76227,25 +78573,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479417,
     "productos": "REPASADOR TOALLA ECO. LA PUCHA 50x50cm",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 480230,
     "productos": "REPASADOR TOALLA GOURMET MEDIA NARANJA",
     "uxb": 50,
-    "precio_vta": 3359
+    "precio_vta": 3695
   },
   {
     "codigos": 474427,
     "productos": "REPASADOR TOALLA LIVIANO MED. BOROLIMP",
     "uxb": 60,
-    "precio_vta": 964
+    "precio_vta": 1061
   },
   {
     "codigos": 477752,
     "productos": "REPASADOR TOALLA TUCU x1Un.",
     "uxb": 12,
-    "precio_vta": 765
+    "precio_vta": 842
   },
   {
     "codigos": 468847,
@@ -76269,7 +78615,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461646,
     "productos": "REPELENTE FUYI AER x170cc",
     "uxb": 12,
-    "precio_vta": 4389
+    "precio_vta": 3999
   },
   {
     "codigos": 478212,
@@ -76293,7 +78639,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2898,
     "productos": "REPELENTE OFF AEROSOL X 170",
     "uxb": 12,
-    "precio_vta": 4399
+    "precio_vta": 4699
   },
   {
     "codigos": 2899,
@@ -76461,7 +78807,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 461410,
     "productos": "REPUESTO LUMILAGRO x750cc",
     "uxb": 1,
-    "precio_vta": 5905
+    "precio_vta": 6496
   },
   {
     "codigos": 480011,
@@ -76611,7 +78957,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472615,
     "productos": "REVISTERO CONTAINERS PLEGABLE IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 6967
+    "precio_vta": 7664
   },
   {
     "codigos": 2902,
@@ -76656,18 +79002,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 892
   },
   {
-    "codigos": 470919,
-    "productos": "RICOTA ENTERA TREGAR POTE x290g",
-    "uxb": 6,
-    "precio_vta": 2518
-  },
-  {
-    "codigos": 470920,
-    "productos": "RICOTA MAGRA TREGAR POTE x290g",
-    "uxb": 6,
-    "precio_vta": 2518
-  },
-  {
     "codigos": 13483,
     "productos": "RICOTA TROZADA ROSALAT",
     "uxb": 1,
@@ -76677,25 +79011,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464943,
     "productos": "RICOTTA GARCIA LA SERENISIMA x500g",
     "uxb": 1,
-    "precio_vta": 3707
+    "precio_vta": 3869
   },
   {
     "codigos": 471043,
     "productos": "RICOTTA GARCIA SEMIGRASA LS x500g",
     "uxb": 1,
-    "precio_vta": 3453
+    "precio_vta": 3651
   },
   {
     "codigos": 13055,
     "productos": "RICOTTA MARIA LUISA FRACC",
     "uxb": 1,
-    "precio_vta": 6999
+    "precio_vta": 7499
   },
   {
     "codigos": 13260,
     "productos": "RICOTTA MARIA LUISA HORMA",
     "uxb": 1,
-    "precio_vta": 5899
+    "precio_vta": 6299
   },
   {
     "codigos": 13481,
@@ -76803,7 +79137,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478573,
     "productos": "ROD. QUITA PELUSA x60hojas LA GAUCHITA",
     "uxb": 24,
-    "precio_vta": 3464
+    "precio_vta": 4699
   },
   {
     "codigos": 475694,
@@ -76887,7 +79221,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467726,
     "productos": "ROLLO B/D 40X50 KG",
     "uxb": 1,
-    "precio_vta": 9528
+    "precio_vta": 11529
   },
   {
     "codigos": 464759,
@@ -76899,7 +79233,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469164,
     "productos": "ROLLO DE COCINA CAMPANITA CLASSIC 50 PAÑOS",
     "uxb": 10,
-    "precio_vta": 1469
+    "precio_vta": 1199
   },
   {
     "codigos": 465077,
@@ -76911,13 +79245,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468603,
     "productos": "ROLLO DE COCINA CAMPANITA PRACT. X1UN",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1499
   },
   {
     "codigos": 9252,
     "productos": "ROLLO DE COCINA CARTABELLA DAILY X3U.",
     "uxb": 10,
-    "precio_vta": 1468
+    "precio_vta": 1539
   },
   {
     "codigos": 10906,
@@ -76941,37 +79275,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2933,
     "productos": "ROLLO DE COCINA DICHA 3X40PAÑOS",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1456
   },
   {
     "codigos": 12291,
     "productos": "ROLLO DE COCINA ELEGANTE (930)GIRA.3x100P",
     "uxb": 5,
-    "precio_vta": 3057
+    "precio_vta": 3085
   },
   {
     "codigos": 2934,
     "productos": "ROLLO DE COCINA ELEGANTE 3X50 (927)",
     "uxb": 8,
-    "precio_vta": 1664
+    "precio_vta": 1679
   },
   {
     "codigos": 12322,
     "productos": "ROLLO DE COCINA ELEGANTE BCO D/H x200p(921)",
     "uxb": 12,
-    "precio_vta": 2082
+    "precio_vta": 2099
   },
   {
     "codigos": 12214,
     "productos": "ROLLO DE COCINA ELEGANTE PREM 3X120P 923",
     "uxb": 4,
-    "precio_vta": 3324
-  },
-  {
-    "codigos": 6765,
-    "productos": "ROLLO DE COCINA ELEGANTE S.GIGANTE 1X200P 922",
-    "uxb": 12,
-    "precio_vta": 2478
+    "precio_vta": 3355
   },
   {
     "codigos": 466856,
@@ -77007,7 +79335,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470461,
     "productos": "ROLLO DE COCINA MAROLIO ULTRA 2UN",
     "uxb": 6,
-    "precio_vta": 1468
+    "precio_vta": 1899
   },
   {
     "codigos": 463903,
@@ -77046,6 +79374,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1479
   },
   {
+    "codigos": 476611,
+    "productos": "ROLLO DE COCINA SOL MAYOR X3",
+    "uxb": 12,
+    "precio_vta": 899
+  },
+  {
     "codigos": 9059,
     "productos": "ROLLO DE COCINA SOL MAYOR x1 X200PAÑOS",
     "uxb": 12,
@@ -77074,6 +79408,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ROLLO ETIQUETADORA AMARILLO EZCO x10Un.",
     "uxb": 1,
     "precio_vta": 7034
+  },
+  {
+    "codigos": 470478,
+    "productos": "ROLLO EUCALIPTO BILLIKEN x12Un.",
+    "uxb": 12,
+    "precio_vta": 4099
   },
   {
     "codigos": 11651,
@@ -77133,7 +79473,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472458,
     "productos": "ROMERO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 902
+    "precio_vta": 999
   },
   {
     "codigos": 479211,
@@ -77145,7 +79485,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6060,
     "productos": "ROMPEMUELAS x50un",
     "uxb": 12,
-    "precio_vta": 4094
+    "precio_vta": 4499
   },
   {
     "codigos": 2938,
@@ -77166,6 +79506,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3471
   },
   {
+    "codigos": 476282,
+    "productos": "RON CAYMAN LIGHT x750cc",
+    "uxb": 6,
+    "precio_vta": 3306
+  },
+  {
     "codigos": 2942,
     "productos": "RON COMANDANTE BLANCO x1lt",
     "uxb": 6,
@@ -77175,7 +79521,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 466544,
     "productos": "RON DORADO NEW STYLE x1lt",
     "uxb": 6,
-    "precio_vta": 3989
+    "precio_vta": 4309
   },
   {
     "codigos": 8563,
@@ -77205,7 +79551,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460525,
     "productos": "RON NEW STYLE x1lt",
     "uxb": 6,
-    "precio_vta": 3989
+    "precio_vta": 4309
   },
   {
     "codigos": 471187,
@@ -77394,52 +79740,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1889
   },
   {
+    "codigos": 480707,
+    "productos": "SABANA BLANCO MATE 1 1/2 180 HILOS",
+    "uxb": 1,
+    "precio_vta": 11899
+  },
+  {
+    "codigos": 480708,
+    "productos": "SABANA BLANCO MATE 2 1/2 180 HILOS",
+    "uxb": 1,
+    "precio_vta": 14899
+  },
+  {
     "codigos": 476327,
     "productos": "SABANA JEAN CARTIER 500H 1 1/2PLAZAS",
     "uxb": 1,
     "precio_vta": 40135
-  },
-  {
-    "codigos": 476401,
-    "productos": "SABANA JEAN CARTIER 500H 2 1/2 PLAZA",
-    "uxb": 1,
-    "precio_vta": 51635
-  },
-  {
-    "codigos": 476366,
-    "productos": "SABANA JEAN CARTIER 600H KING/TWIN/QUEEN",
-    "uxb": 1,
-    "precio_vta": 44999
-  },
-  {
-    "codigos": 476406,
-    "productos": "SABANA L HOGAR 2 1/2",
-    "uxb": 1,
-    "precio_vta": 38985
-  },
-  {
-    "codigos": 476405,
-    "productos": "SABANA PALETTE ACCENT 1 1/2 PLAZA",
-    "uxb": 1,
-    "precio_vta": 30935
-  },
-  {
-    "codigos": 476290,
-    "productos": "SABANA PALETTE ACCENT KING SIZE",
-    "uxb": 1,
-    "precio_vta": 39099
-  },
-  {
-    "codigos": 476411,
-    "productos": "SABANA PALETTE IVORY 200H QUEEN",
-    "uxb": 1,
-    "precio_vta": 38985
-  },
-  {
-    "codigos": 476404,
-    "productos": "SABANA PALETTE LOOK 100%ALG 2 1/2",
-    "uxb": 1,
-    "precio_vta": 38985
   },
   {
     "codigos": 100005,
@@ -77448,40 +79764,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 41900
   },
   {
-    "codigos": 476291,
-    "productos": "SABANAS 2 1/2 PLAZAS ALCOYANA x132 HILOS",
-    "uxb": 1,
-    "precio_vta": 38985
-  },
-  {
     "codigos": 476314,
     "productos": "SABANAS ALCOYANA  R.CLAS 132HIL 1 1/2 PLAZA",
     "uxb": 1,
     "precio_vta": 30935
-  },
-  {
-    "codigos": 476315,
-    "productos": "SABANAS ALCOYANA ESSENCIA 180H 1 1/2PLAZ",
-    "uxb": 1,
-    "precio_vta": 30935
-  },
-  {
-    "codigos": 476317,
-    "productos": "SABANAS ALCOYANA ESSENCIA 180H 2 1/2PLAZA",
-    "uxb": 1,
-    "precio_vta": 38985
-  },
-  {
-    "codigos": 476313,
-    "productos": "SABANAS ALCOYANA ESTUDIO 144HIL 1 1/2 PLAZA",
-    "uxb": 1,
-    "precio_vta": 30935
-  },
-  {
-    "codigos": 476319,
-    "productos": "SABANAS ALCOYANA R.CLAS 132H 2 1/2 PLAZ",
-    "uxb": 1,
-    "precio_vta": 38985
   },
   {
     "codigos": 476324,
@@ -77530,36 +79816,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SABANAS JUANITEX 2 1/2 PLAZA",
     "uxb": 1,
     "precio_vta": 8999
-  },
-  {
-    "codigos": 478866,
-    "productos": "SABANAS JUANITEX PREMIUM 2 1/2",
-    "uxb": 1,
-    "precio_vta": 16599
-  },
-  {
-    "codigos": 476403,
-    "productos": "SABANAS PALETTE 144 HILOS LOOK KING",
-    "uxb": 1,
-    "precio_vta": 38985
-  },
-  {
-    "codigos": 476312,
-    "productos": "SABANAS PALETTE LOOK 100%ALG 1 1/2 PLAZA",
-    "uxb": 1,
-    "precio_vta": 30935
-  },
-  {
-    "codigos": 476311,
-    "productos": "SABANAS PALETTE URBAN 1 1/2 PLAZA",
-    "uxb": 1,
-    "precio_vta": 34385
-  },
-  {
-    "codigos": 476365,
-    "productos": "SABANAS PALETTE URBAN 2 1/2",
-    "uxb": 1,
-    "precio_vta": 38985
   },
   {
     "codigos": 467974,
@@ -77655,7 +79911,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467913,
     "productos": "SAL ENTREFINA CELUSAL PARRILLERA PAQ x1kg",
     "uxb": 12,
-    "precio_vta": 1994
+    "precio_vta": 1599
   },
   {
     "codigos": 9533,
@@ -77733,13 +79989,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2962,
     "productos": "SAL FINA DOS ANCLAS 500G ESTUCHE",
     "uxb": 24,
-    "precio_vta": 997
+    "precio_vta": 999
   },
   {
     "codigos": 2979,
     "productos": "SAL FINA DOS ANCLAS PAQUETE 500G",
     "uxb": 12,
-    "precio_vta": 943
+    "precio_vta": 999
   },
   {
     "codigos": 2963,
@@ -77847,7 +80103,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472273,
     "productos": "SAL GRUESA SAN ANTONIO x1Kg",
     "uxb": 10,
-    "precio_vta": 523
+    "precio_vta": 539
   },
   {
     "codigos": 479133,
@@ -78111,19 +80367,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14357,
     "productos": "SALAME MILAN MOLISE",
     "uxb": 1,
-    "precio_vta": 8899
+    "precio_vta": 9349
   },
   {
     "codigos": 14358,
     "productos": "SALAME MILAN MOLISE 1/2 HORMA",
     "uxb": 1,
-    "precio_vta": 9799
+    "precio_vta": 10299
   },
   {
     "codigos": 14359,
     "productos": "SALAME MILAN MOLISE FETAS",
     "uxb": 1,
+    "precio_vta": 12599
+  },
+  {
+    "codigos": 14388,
+    "productos": "SALAME MILAN TERMOLI 1/2 HORMA",
+    "uxb": 1,
+    "precio_vta": 9800
+  },
+  {
+    "codigos": 14389,
+    "productos": "SALAME MILAN TERMOLI FETAS",
+    "uxb": 1,
     "precio_vta": 11999
+  },
+  {
+    "codigos": 14387,
+    "productos": "SALAME MILAN TERMOLI HORMA",
+    "uxb": 1,
+    "precio_vta": 8900
   },
   {
     "codigos": 13552,
@@ -78159,13 +80433,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14336,
     "productos": "SALAME TIPO MILAN P.FINO LA CASONA",
     "uxb": 1,
-    "precio_vta": 9019
+    "precio_vta": 9599
   },
   {
     "codigos": 13100,
     "productos": "SALAME TUCUMÁN",
     "uxb": 1,
-    "precio_vta": 11138
+    "precio_vta": 17990
+  },
+  {
+    "codigos": 480810,
+    "productos": "SALAMIN FUET BOCATTI x130g",
+    "uxb": 1,
+    "precio_vta": 4699
   },
   {
     "codigos": 13587,
@@ -78297,13 +80577,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463951,
     "productos": "SALCHICHAS LS GRANJA IRIS X12Un",
     "uxb": 1,
-    "precio_vta": 3831
+    "precio_vta": 4050
   },
   {
     "codigos": 463950,
     "productos": "SALCHICHAS LS GRANJA IRIS x6Un",
     "uxb": 1,
-    "precio_vta": 2113
+    "precio_vta": 2233
   },
   {
     "codigos": 464756,
@@ -78480,6 +80760,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5389
   },
   {
+    "codigos": 8727,
+    "productos": "SALERO GDE 370CC HERALDPLAST",
+    "uxb": 1,
+    "precio_vta": 539
+  },
+  {
     "codigos": 9624,
     "productos": "SALERO SAL AHIJUNA! COLOSAL x250g",
     "uxb": 1,
@@ -78549,7 +80835,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472027,
     "productos": "SALERO/ESPECIERO DE VIDRIO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 2656
+    "precio_vta": 2922
   },
   {
     "codigos": 2985,
@@ -78561,7 +80847,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472442,
     "productos": "SALSA ADLER CHEDDAR x250g",
     "uxb": 12,
-    "precio_vta": 4042
+    "precio_vta": 3999
   },
   {
     "codigos": 461738,
@@ -78622,6 +80908,42 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SALSA BLANCA CENTURION 40G",
     "uxb": 50,
     "precio_vta": 419
+  },
+  {
+    "codigos": 480677,
+    "productos": "SALSA CANALE DP FILETTO x340g",
+    "uxb": 12,
+    "precio_vta": 899
+  },
+  {
+    "codigos": 480675,
+    "productos": "SALSA CANALE DP NAPOLITANA x340g",
+    "uxb": 12,
+    "precio_vta": 899
+  },
+  {
+    "codigos": 480676,
+    "productos": "SALSA CANALE DP PIZZA x340g",
+    "uxb": 12,
+    "precio_vta": 899
+  },
+  {
+    "codigos": 480673,
+    "productos": "SALSA CANALE DP POMAROLA x340g",
+    "uxb": 12,
+    "precio_vta": 899
+  },
+  {
+    "codigos": 480674,
+    "productos": "SALSA CANALE DP PORTUGUESA x340gr",
+    "uxb": 12,
+    "precio_vta": 899
+  },
+  {
+    "codigos": 480678,
+    "productos": "SALSA CANALE DP TUCO x340g",
+    "uxb": 12,
+    "precio_vta": 899
   },
   {
     "codigos": 477366,
@@ -78776,8 +81098,14 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 476260,
     "productos": "SALSA DE SOJA AROMAS/SABORES x250cc",
-    "uxb": 10,
+    "uxb": 24,
     "precio_vta": 1154
+  },
+  {
+    "codigos": 469942,
+    "productos": "SALSA E/TOM MAROLIO POMAROLA X200g",
+    "uxb": 1,
+    "precio_vta": 629
   },
   {
     "codigos": 9035,
@@ -78801,7 +81129,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2989,
     "productos": "SALSA GOLF NATURA x250gr",
     "uxb": 12,
-    "precio_vta": 1574
+    "precio_vta": 1699
   },
   {
     "codigos": 479490,
@@ -78813,13 +81141,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479493,
     "productos": "SALSA HERDEZ CHIPOTLE PIC. CREMOSO x240g",
     "uxb": 12,
-    "precio_vta": 5354
+    "precio_vta": 5499
   },
   {
     "codigos": 479494,
     "productos": "SALSA HERDEZ HABANERO HOT SAUCE x142g",
     "uxb": 12,
-    "precio_vta": 5354
+    "precio_vta": 5499
   },
   {
     "codigos": 479492,
@@ -78832,6 +81160,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SALSA HERDEZ VERDE x240g",
     "uxb": 12,
     "precio_vta": 3989
+  },
+  {
+    "codigos": 479348,
+    "productos": "SALSA HEREDEZ GUACAMOLEx240g",
+    "uxb": 12,
+    "precio_vta": 5499
   },
   {
     "codigos": 472961,
@@ -78924,6 +81258,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1784
   },
   {
+    "codigos": 469733,
+    "productos": "SALSA LA PARMESANA HUMO x180ml",
+    "uxb": 12,
+    "precio_vta": 1599
+  },
+  {
     "codigos": 470832,
     "productos": "SALSA LA PARMESANA PICANTE DCE x180g",
     "uxb": 12,
@@ -78934,6 +81274,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SALSA LA PARMESANA PICANTE JALAPEÑO x180ML",
     "uxb": 12,
     "precio_vta": 1889
+  },
+  {
+    "codigos": 471364,
+    "productos": "SALSA LA PARMESANA RANCH x300cc",
+    "uxb": 12,
+    "precio_vta": 2099
   },
   {
     "codigos": 470835,
@@ -78950,12 +81296,6 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 469943,
     "productos": "SALSA MAROLIO PIZZA x200g",
-    "uxb": 1,
-    "precio_vta": 629
-  },
-  {
-    "codigos": 469942,
-    "productos": "SALSA MAROLIO POMAROLA X200g",
     "uxb": 1,
     "precio_vta": 629
   },
@@ -79047,19 +81387,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467549,
     "productos": "SANDWICHERA STAR DINO",
     "uxb": 10,
-    "precio_vta": 2390
+    "precio_vta": 2629
   },
   {
     "codigos": 477242,
     "productos": "SANDWICHERA TOY STORY STAR",
     "uxb": 1,
-    "precio_vta": 3621
+    "precio_vta": 3983
   },
   {
     "codigos": 467555,
     "productos": "SANDWICHERA UNICORNIO STAR",
     "uxb": 10,
-    "precio_vta": 3621
+    "precio_vta": 3983
   },
   {
     "codigos": 471855,
@@ -79125,7 +81465,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477747,
     "productos": "SARDINA PUGLISI ACEITE 170G",
     "uxb": 24,
-    "precio_vta": 2309
+    "precio_vta": 2999
   },
   {
     "codigos": 406,
@@ -79186,6 +81526,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SARTEN ANTIADHERENTE CAROL 20cm",
     "uxb": 1,
     "precio_vta": 41999
+  },
+  {
+    "codigos": 462741,
+    "productos": "SARTEN ANTIADHERENTE CAROL 24cm",
+    "uxb": 1,
+    "precio_vta": 47999
   },
   {
     "codigos": 461228,
@@ -79302,6 +81648,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 6761
   },
   {
+    "codigos": 467937,
+    "productos": "SAVIA NATURAL INECTO x200c",
+    "uxb": 1,
+    "precio_vta": 2999
+  },
+  {
     "codigos": 5524,
     "productos": "SCONCITOS 9 DE ORO 200G",
     "uxb": 20,
@@ -79323,7 +81675,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2949,
     "productos": "SECADOR DE GOMA ESENCIAL NEGRO N26",
     "uxb": 6,
-    "precio_vta": 1962
+    "precio_vta": 2158
   },
   {
     "codigos": 12364,
@@ -79344,100 +81696,106 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 11369
   },
   {
+    "codigos": 480686,
+    "productos": "SECADOR DOB/GOMA MEDIA NARANJA G",
+    "uxb": 12,
+    "precio_vta": 4199
+  },
+  {
+    "codigos": 480176,
+    "productos": "SECADOR DOB/GOMA MEDIA NARANJA M",
+    "uxb": 12,
+    "precio_vta": 4619
+  },
+  {
     "codigos": 473584,
     "productos": "SECADOR DOBLE GOMA COLOR CEPIPLAST",
     "uxb": 12,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 5530,
     "productos": "SECADOR DOBLE GOMA EVA BOROLIMP N40",
     "uxb": 12,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 460254,
     "productos": "SECADOR DOBLE GOMA ISABELLA",
     "uxb": 12,
-    "precio_vta": 1784
-  },
-  {
-    "codigos": 480176,
-    "productos": "SECADOR DOBLE GOMA MEDIA NARANJA",
-    "uxb": 12,
-    "precio_vta": 4199
+    "precio_vta": 1963
   },
   {
     "codigos": 5485,
     "productos": "SECADOR DOBLE GOMA REF.40 LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 5144
+    "precio_vta": 5659
   },
   {
     "codigos": 475791,
     "productos": "SECADOR DOBLE GOMA TAURO",
     "uxb": 12,
-    "precio_vta": 1573
+    "precio_vta": 1731
   },
   {
     "codigos": 460903,
     "productos": "SECADOR GOMA ROJA N30 ZAGOMA BORO",
     "uxb": 12,
-    "precio_vta": 1322
+    "precio_vta": 1455
   },
   {
     "codigos": 5954,
     "productos": "SECADOR GOMA ROJO N40 CEPIPLAST",
     "uxb": 12,
-    "precio_vta": 2414
+    "precio_vta": 2656
   },
   {
     "codigos": 463709,
     "productos": "SECADOR NEGRO ESENCIAL N\"50 N\"50",
     "uxb": 1,
-    "precio_vta": 2781
+    "precio_vta": 3059
   },
   {
     "codigos": 463708,
     "productos": "SECADOR NEGRO ESENCIAL N*40",
     "uxb": 6,
-    "precio_vta": 2098
+    "precio_vta": 2308
   },
   {
     "codigos": 3068,
     "productos": "SECADOR NEGRO GOMA EX.TOT N-40",
     "uxb": 12,
-    "precio_vta": 1153
+    "precio_vta": 1269
   },
   {
     "codigos": 7344,
     "productos": "SECADOR NEGRO N-30 ROMYL",
     "uxb": 12,
-    "precio_vta": 1048
+    "precio_vta": 1153
   },
   {
     "codigos": 11253,
     "productos": "SECADOR NEGRO N30 NESTOR ZAGOMA",
     "uxb": 12,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 11254,
     "productos": "SECADOR NEGRO N40 NESTOR ZAGOMA",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 474754,
     "productos": "SECADOR NEGRO N40 TAURO",
     "uxb": 12,
-    "precio_vta": 1301
+    "precio_vta": 1432
   },
   {
     "codigos": 11255,
     "productos": "SECADOR NEGRO X50 NESTOR",
     "uxb": 12,
-    "precio_vta": 1679
+    "precio_vta": 1847
   },
   {
     "codigos": 467772,
@@ -79449,61 +81807,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5529,
     "productos": "SECADOR PLAST.N40+REGALO GOMA BOROLIMP",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 475826,
     "productos": "SECADOR ROJO 50 CEPIPLAST",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 7474,
     "productos": "SECADOR ROJO N-30 ROMYL",
     "uxb": 12,
-    "precio_vta": 1258
+    "precio_vta": 1384
   },
   {
     "codigos": 474755,
     "productos": "SECADOR ROJO N40 TAURO",
     "uxb": 12,
-    "precio_vta": 1627
+    "precio_vta": 1790
+  },
+  {
+    "codigos": 480823,
+    "productos": "SECADOR SECAMAX 30 LA GAUCHITA",
+    "uxb": 12,
+    "precio_vta": 2199
   },
   {
     "codigos": 5486,
     "productos": "SECADOR SECAMAX GOMA 40 LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 2099
+    "precio_vta": 2499
   },
   {
     "codigos": 5487,
     "productos": "SECADOR SP 3 PLAST/GOMA LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 2519
+    "precio_vta": 3199
   },
   {
     "codigos": 5484,
     "productos": "SECADOR SP 4 PLAST/GOMA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 2834
+    "precio_vta": 3118
   },
   {
     "codigos": 5528,
     "productos": "SECADOR n40 GOMA NEGRA BOROLIMP",
     "uxb": 12,
-    "precio_vta": 1363
+    "precio_vta": 1500
   },
   {
     "codigos": 7380,
     "productos": "SECADOR n50 GOMA ROJA BOROLIMP",
     "uxb": 12,
-    "precio_vta": 2938
+    "precio_vta": 3232
   },
   {
     "codigos": 467262,
     "productos": "SECAPLATOS TECNO STAR",
     "uxb": 12,
-    "precio_vta": 1514
+    "precio_vta": 1666
   },
   {
     "codigos": 479489,
@@ -79563,7 +81927,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4029,
     "productos": "SEMOLA SILVINA 400G",
     "uxb": 10,
-    "precio_vta": 965
+    "precio_vta": 1099
   },
   {
     "codigos": 14115,
@@ -79581,31 +81945,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480019,
     "productos": "SENSE LA SERENISIMA AVELLANA x200ml.",
     "uxb": 1,
-    "precio_vta": 1320
+    "precio_vta": 1395
   },
   {
     "codigos": 470858,
     "productos": "SENSE LA SERENISIMA CAPPUCCINO x200ML",
-    "uxb": 1,
-    "precio_vta": 1269
+    "uxb": 24,
+    "precio_vta": 1395
   },
   {
     "codigos": 470857,
     "productos": "SENSE LA SERENISIMA CARAMEL x1LT",
-    "uxb": 6,
-    "precio_vta": 3194
+    "uxb": 12,
+    "precio_vta": 3377
   },
   {
     "codigos": 470860,
     "productos": "SENSE LA SERENISIMA CARAMEL x200ML",
-    "uxb": 6,
-    "precio_vta": 1269
+    "uxb": 24,
+    "precio_vta": 1395
   },
   {
     "codigos": 477170,
     "productos": "SENSE LA SERENISIMA VAINILLA x200ml",
-    "uxb": 6,
-    "precio_vta": 1266
+    "uxb": 24,
+    "precio_vta": 1395
   },
   {
     "codigos": 467928,
@@ -79629,7 +81993,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473912,
     "productos": "SEPARADORES MAXI-BAG 20X25X100UN.",
     "uxb": 1,
-    "precio_vta": 1244
+    "precio_vta": 1369
   },
   {
     "codigos": 9392,
@@ -79658,14 +82022,14 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 466464,
     "productos": "SERENITO LA SERENISIMA CHOCOBOMBA X118GR",
-    "uxb": 10,
-    "precio_vta": 3954
+    "uxb": 20,
+    "precio_vta": 3699
   },
   {
     "codigos": 463692,
     "productos": "SERENITO LA SERENISIMA CONFITES x120g",
-    "uxb": 10,
-    "precio_vta": 4016
+    "uxb": 20,
+    "precio_vta": 3699
   },
   {
     "codigos": 469430,
@@ -79743,7 +82107,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1203,
     "productos": "SERVILLETAS ELEGANTE x80u",
     "uxb": 30,
-    "precio_vta": 1298
+    "precio_vta": 1310
   },
   {
     "codigos": 474292,
@@ -79941,7 +82305,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467628,
     "productos": "SET BIJOUTERI MANO/PIE",
     "uxb": 1,
-    "precio_vta": 2693
+    "precio_vta": 2999
   },
   {
     "codigos": 476632,
@@ -80025,7 +82389,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467217,
     "productos": "SET BOWL MELAMINA x5u",
     "uxb": 12,
-    "precio_vta": 6639
+    "precio_vta": 7303
   },
   {
     "codigos": 477569,
@@ -80079,7 +82443,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476064,
     "productos": "SET COMPOTERAS x6un THE KITCHEN",
     "uxb": 12,
-    "precio_vta": 9325
+    "precio_vta": 10258
   },
   {
     "codigos": 461215,
@@ -80103,55 +82467,91 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478728,
     "productos": "SET CONTENEDOR C/TAPA UZ. x3uVARIOS",
     "uxb": 1,
-    "precio_vta": 8399
+    "precio_vta": 9239
   },
   {
     "codigos": 467264,
     "productos": "SET CONTENEDOR CUAD GDE x3un STAR",
     "uxb": 6,
-    "precio_vta": 4829
+    "precio_vta": 5312
   },
   {
     "codigos": 477517,
     "productos": "SET CONTENEDOR CUAD.CH x3 STAR",
     "uxb": 12,
-    "precio_vta": 3743
+    "precio_vta": 4117
   },
   {
     "codigos": 478700,
     "productos": "SET CONTENEDOR REC 1600/410CM HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 2173
+    "precio_vta": 2390
   },
   {
     "codigos": 478701,
     "productos": "SET CONTENEDOR REC 2100/2DE410CM HERALD",
     "uxb": 1,
-    "precio_vta": 2692
+    "precio_vta": 2961
   },
   {
     "codigos": 478702,
     "productos": "SET CONTENEDOR REC 410/1000/2100CM HERALD",
     "uxb": 1,
-    "precio_vta": 3018
+    "precio_vta": 3320
   },
   {
     "codigos": 472367,
     "productos": "SET CONTENEDOR REDONDO 3 PIEZAS",
     "uxb": 1,
-    "precio_vta": 5071
+    "precio_vta": 4999
   },
   {
     "codigos": 462598,
     "productos": "SET CONTENEDOR REDONDON X 3 HERALDPLAS x1Un.",
     "uxb": 1,
-    "precio_vta": 3114
+    "precio_vta": 3425
+  },
+  {
+    "codigos": 480794,
+    "productos": "SET CONTENEDOR TRENDY x3 IMP EMA SA-890",
+    "uxb": 1,
+    "precio_vta": 3799
+  },
+  {
+    "codigos": 480789,
+    "productos": "SET CONTENEDOR x3 HEREVIN IMP EMA 331801",
+    "uxb": 1,
+    "precio_vta": 5490
+  },
+  {
+    "codigos": 480799,
+    "productos": "SET COPAS DOYALEX IMP EMA 50538",
+    "uxb": 1,
+    "precio_vta": 14900
   },
   {
     "codigos": 478909,
     "productos": "SET CUBIERTOS CUTLERY JQ124 IMP-E x24Un",
     "uxb": 1,
     "precio_vta": 34039
+  },
+  {
+    "codigos": 480768,
+    "productos": "SET CUBIERTOS KITCHEN IMP EMA 5238/36/41",
+    "uxb": 1,
+    "precio_vta": 19999
+  },
+  {
+    "codigos": 480762,
+    "productos": "SET CUCH. KITCHEN IMP EMA 55055",
+    "uxb": 1,
+    "precio_vta": 12990
+  },
+  {
+    "codigos": 480761,
+    "productos": "SET CUCH. KITCHEN IMP EMA 55059",
+    "uxb": 1,
+    "precio_vta": 12990
   },
   {
     "codigos": 468448,
@@ -80199,13 +82599,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477567,
     "productos": "SET D/JARRA C/VASO CARRIE IMP-E",
     "uxb": 12,
-    "precio_vta": 21597
+    "precio_vta": 23756
   },
   {
     "codigos": 477578,
     "productos": "SET D/JARRA VALENCE IMP-E x5Un.",
     "uxb": 12,
-    "precio_vta": 21597
+    "precio_vta": 23756
   },
   {
     "codigos": 479634,
@@ -80277,7 +82677,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478906,
     "productos": "SET DE BAÑO VIDRIO AM108928 IMP-E",
     "uxb": 1,
-    "precio_vta": 22688
+    "precio_vta": 24957
   },
   {
     "codigos": 476133,
@@ -80430,6 +82830,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1984
   },
   {
+    "codigos": 45114,
+    "productos": "SET DE PINZAS X3 TUCU",
+    "uxb": 1,
+    "precio_vta": 14990
+  },
+  {
+    "codigos": 65485,
+    "productos": "SET DE PINZAS X5 TUCU",
+    "uxb": 1,
+    "precio_vta": 17900
+  },
+  {
     "codigos": 469756,
     "productos": "SET DE POLICIA IMP EMANUEL",
     "uxb": 1,
@@ -80439,13 +82851,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471420,
     "productos": "SET DE POSTRE LINEA SOFT CAROL x13Un.",
     "uxb": 1,
-    "precio_vta": 12074
-  },
-  {
-    "codigos": 9344,
-    "productos": "SET DE SABANAS GOLDSUN KING TUCU",
-    "uxb": 1,
-    "precio_vta": 34990
+    "precio_vta": 13282
   },
   {
     "codigos": 477605,
@@ -80517,7 +82923,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474796,
     "productos": "SET DOCTOR IMP-E",
     "uxb": 1,
-    "precio_vta": 2267
+    "precio_vta": 2999
   },
   {
     "codigos": 474704,
@@ -80535,19 +82941,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477559,
     "productos": "SET ENSALADERAS CARALEE IMP-E x5Un.",
     "uxb": 6,
-    "precio_vta": 19323
+    "precio_vta": 21255
   },
   {
     "codigos": 477558,
     "productos": "SET ENSALADERAS GALAXY IMP-E x5Un.",
     "uxb": 6,
-    "precio_vta": 19323
+    "precio_vta": 21255
   },
   {
     "codigos": 477579,
     "productos": "SET ENSALADERAS PICNIC IMP-E x5Un.",
     "uxb": 6,
-    "precio_vta": 19323
+    "precio_vta": 21255
   },
   {
     "codigos": 477894,
@@ -80578,6 +82984,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SET FASHION GIRLS SUPER STAR IMP EMANUEL",
     "uxb": 1,
     "precio_vta": 8690
+  },
+  {
+    "codigos": 480774,
+    "productos": "SET FIVE JAR/VAS IMP EMA54468 BENABI",
+    "uxb": 1,
+    "precio_vta": 15900
   },
   {
     "codigos": 475185,
@@ -80625,7 +83037,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475288,
     "productos": "SET JARRA C/VASOS IRROPIBLES x1.6LTS",
     "uxb": 1,
-    "precio_vta": 5076
+    "precio_vta": 5583
   },
   {
     "codigos": 477556,
@@ -80763,19 +83175,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476478,
     "productos": "SET ORGANIZADOR 3X2 1.4L STAR",
     "uxb": 18,
-    "precio_vta": 3743
+    "precio_vta": 4117
   },
   {
     "codigos": 476479,
     "productos": "SET ORGANIZADOR 3X2 2.1L STAR",
     "uxb": 12,
-    "precio_vta": 5071
+    "precio_vta": 5578
   },
   {
     "codigos": 468897,
     "productos": "SET ORGANIZADOR 3x2 APILABLES 0.8l STAR",
     "uxb": 30,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 469466,
@@ -80799,7 +83211,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478574,
     "productos": "SET PAÑO MICROF. x3un LA GAUCHITA",
     "uxb": 12,
-    "precio_vta": 5564
+    "precio_vta": 6121
   },
   {
     "codigos": 468800,
@@ -80842,6 +83254,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SET PELUQUERIA x6 HAIR DRYER SOIFER 0006",
     "uxb": 1,
     "precio_vta": 13199
+  },
+  {
+    "codigos": 471985,
+    "productos": "SET PERFUME + SHAMPOO FROZEN ALGABO",
+    "uxb": 12,
+    "precio_vta": 5989
   },
   {
     "codigos": 474687,
@@ -80919,7 +83337,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8781,
     "productos": "SET RECT.C/TAPA 3PIEZAS HP 1770+2770+4450",
     "uxb": 1,
-    "precio_vta": 5904
+    "precio_vta": 6495
   },
   {
     "codigos": 467716,
@@ -80973,7 +83391,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476390,
     "productos": "SET SANDWICHERA + TAZA STAR",
     "uxb": 84,
-    "precio_vta": 4828
+    "precio_vta": 5311
   },
   {
     "codigos": 478933,
@@ -80997,7 +83415,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475761,
     "productos": "SET TABLA D/PICAR+RALLADOR",
     "uxb": 1,
-    "precio_vta": 8731
+    "precio_vta": 9604
   },
   {
     "codigos": 475199,
@@ -81069,25 +83487,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473325,
     "productos": "SET TUPPER COOK KEEP VIHA x3 BAGER x250cc",
     "uxb": 1,
-    "precio_vta": 2608
+    "precio_vta": 2869
   },
   {
     "codigos": 473315,
     "productos": "SET TUPPER CUADRADO VIHA CORAL x5un",
     "uxb": 1,
-    "precio_vta": 7490
+    "precio_vta": 8239
   },
   {
     "codigos": 473314,
     "productos": "SET TUPPER RECTANG VIHA EMERALD x5un",
     "uxb": 1,
-    "precio_vta": 7509
+    "precio_vta": 8260
   },
   {
     "codigos": 475506,
     "productos": "SET UNICORNIO BEBE LOVELY PAT IMP-EMANUEL 371244",
     "uxb": 1,
     "precio_vta": 5311
+  },
+  {
+    "codigos": 480766,
+    "productos": "SET UTENSIL EASY IMP EMA 51584",
+    "uxb": 1,
+    "precio_vta": 6999
   },
   {
     "codigos": 475166,
@@ -81144,6 +83568,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1952
   },
   {
+    "codigos": 480770,
+    "productos": "SET x3 DELICATE GRACE IMP EMA 56570",
+    "uxb": 1,
+    "precio_vta": 17990
+  },
+  {
     "codigos": 476186,
     "productos": "SET x6 VASOS WHISKY THE KITCHEN",
     "uxb": 6,
@@ -81159,19 +83589,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3110,
     "productos": "SETX4 CONTEN PLASVALE LINEA Mais x250cc",
     "uxb": 60,
-    "precio_vta": 3622
+    "precio_vta": 3984
   },
   {
     "codigos": 3109,
     "productos": "SETX4 CONTEN PLASVALE LINEA Mais x300cc",
     "uxb": 64,
-    "precio_vta": 4226
+    "precio_vta": 4648
   },
   {
     "codigos": 3097,
     "productos": "SETX4 CONTEN PLASVALE X530cc",
     "uxb": 45,
-    "precio_vta": 4588
+    "precio_vta": 5047
   },
   {
     "codigos": 9493,
@@ -81202,6 +83632,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SH ALGABO CONTROL KERATINA X400GR",
     "uxb": 12,
     "precio_vta": 1574
+  },
+  {
+    "codigos": 467485,
+    "productos": "SH ALGABO KIDS VARIOS x200ml",
+    "uxb": 12,
+    "precio_vta": 999
   },
   {
     "codigos": 464008,
@@ -81249,13 +83685,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474947,
     "productos": "SH DOVE x180ml RECONSTRUC",
     "uxb": 12,
-    "precio_vta": 2497
+    "precio_vta": 2999
   },
   {
     "codigos": 474948,
     "productos": "SH DOVE x180ml RITUAL REP",
     "uxb": 12,
-    "precio_vta": 2497
+    "precio_vta": 2999
   },
   {
     "codigos": 474924,
@@ -81266,6 +83702,12 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 476744,
     "productos": "SH DOVE x400ml BRILLO",
+    "uxb": 12,
+    "precio_vta": 6079
+  },
+  {
+    "codigos": 476746,
+    "productos": "SH DOVE x400ml HIDRATACIO",
     "uxb": 12,
     "precio_vta": 6079
   },
@@ -81363,61 +83805,61 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469793,
     "productos": "SH ELVIVE x750ml 6 OLEOS",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469796,
     "productos": "SH ELVIVE x750ml ARCILL DET",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469785,
     "productos": "SH ELVIVE x750ml COLOR-VIVE",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469798,
     "productos": "SH ELVIVE x750ml DREAM LONG",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469803,
     "productos": "SH ELVIVE x750ml HIALURONIC",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469788,
     "productos": "SH ELVIVE x750ml KERA LISO",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469800,
     "productos": "SH ELVIVE x750ml LONG LISS",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 470513,
     "productos": "SH ELVIVE x750ml NUTRICION",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 469786,
     "productos": "SH ELVIVE x750ml REP. TOTAL",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 471106,
     "productos": "SH ELVIVE x750ml SEDOSIDAD",
     "uxb": 12,
-    "precio_vta": 10498
+    "precio_vta": 12900
   },
   {
     "codigos": 478596,
@@ -81452,8 +83894,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 461598,
     "productos": "SH FRUCTIS VARIOS x200ml",
-    "uxb": 1,
-    "precio_vta": 3673
+    "uxb": 12,
+    "precio_vta": 4399
   },
   {
     "codigos": 471391,
@@ -81471,13 +83913,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7695,
     "productos": "SH HEAD&SHOUL VARIOS x375ml",
     "uxb": 12,
-    "precio_vta": 7348
+    "precio_vta": 7990
   },
   {
     "codigos": 5859,
     "productos": "SH HEAD&SHOUL x180ml",
     "uxb": 12,
-    "precio_vta": 5249
+    "precio_vta": 4799
   },
   {
     "codigos": 479729,
@@ -81555,7 +83997,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463183,
     "productos": "SH J&J VARIOS x400ml",
     "uxb": 12,
-    "precio_vta": 8923
+    "precio_vta": 8999
   },
   {
     "codigos": 478191,
@@ -81639,97 +84081,103 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474890,
     "productos": "SH PANTENE x200ml BAMBU",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 474861,
     "productos": "SH PANTENE x200ml CUIDADO CL",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 474864,
     "productos": "SH PANTENE x200ml FUERZA REC",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 475455,
     "productos": "SH PANTENE x200ml HID EXTREM",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 474865,
     "productos": "SH PANTENE x200ml LISO EXTRE",
     "uxb": 12,
-    "precio_vta": 3148
+    "precio_vta": 2999
+  },
+  {
+    "codigos": 474866,
+    "productos": "SH PANTENE x200ml MICELAR",
+    "uxb": 12,
+    "precio_vta": 2999
   },
   {
     "codigos": 475564,
     "productos": "SH PANTENE x400ml BRILLO EXT",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 478740,
     "productos": "SH PANTENE x400ml COLAGENO",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469596,
     "productos": "SH PANTENE x400ml FUERZA REC",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 478659,
     "productos": "SH PANTENE x400ml HIDRATA",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469595,
     "productos": "SH PANTENE x400ml HIDRATACIO",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469593,
     "productos": "SH PANTENE x400ml LISO/DETOX",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469592,
     "productos": "SH PANTENE x400ml MICEL/EQUI",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 469594,
     "productos": "SH PANTENE x400ml RESTAURAC.",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 479504,
     "productos": "SH PANTENE x400ml RIZOS DEFI",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 462076,
     "productos": "SH PANTENE x400ml SUMM/REVIT",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 2584,
     "productos": "SH PANTENE x400ml VOLUMEN",
     "uxb": 12,
-    "precio_vta": 6088
+    "precio_vta": 5999
   },
   {
     "codigos": 463851,
@@ -81891,25 +84339,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478536,
     "productos": "SH SEDAL DP x300ml BALANCE",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 478535,
     "productos": "SH SEDAL DP x300ml CERAMIDAS",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 480512,
     "productos": "SH SEDAL DP x300ml LUMINOUS",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 478537,
     "productos": "SH SEDAL DP x300ml REST. INST",
     "uxb": 12,
-    "precio_vta": 3043
+    "precio_vta": 2949
   },
   {
     "codigos": 479078,
@@ -82209,7 +84657,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9098,
     "productos": "SH.SEDAL HIALURONICO x340cc",
     "uxb": 12,
-    "precio_vta": 3988
+    "precio_vta": 4199
   },
   {
     "codigos": 478035,
@@ -82476,12 +84924,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1814
   },
   {
-    "codigos": 479311,
-    "productos": "SLIME BRONCO x190g",
-    "uxb": 18,
-    "precio_vta": 1899
-  },
-  {
     "codigos": 479312,
     "productos": "SLIME MIKI MOKO DINO x190g",
     "uxb": 18,
@@ -82575,7 +85017,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473272,
     "productos": "SNACK PIZZA DOS HERMANOS X 80G",
     "uxb": 10,
-    "precio_vta": 1154
+    "precio_vta": 999
   },
   {
     "codigos": 473128,
@@ -82617,7 +85059,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478284,
     "productos": "SNACKS ARROZ Y QUINOA JALAPEÑO Y LIMON x60g",
     "uxb": 14,
-    "precio_vta": 1028
+    "precio_vta": 999
   },
   {
     "codigos": 471042,
@@ -82923,13 +85365,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4728,
     "productos": "SOPA KNORR CASERA POLL/CAB ANGEL x105g",
     "uxb": 10,
-    "precio_vta": 1888
+    "precio_vta": 2199
   },
   {
     "codigos": 4733,
     "productos": "SOPA KNORR CASERA VEG-LETRAS 107G",
     "uxb": 10,
-    "precio_vta": 1888
+    "precio_vta": 2199
   },
   {
     "codigos": 4730,
@@ -82941,7 +85383,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472291,
     "productos": "SOPA KNORR CREMA ARV C/CHIL x64g",
     "uxb": 10,
-    "precio_vta": 1888
+    "precio_vta": 2199
+  },
+  {
+    "codigos": 1913,
+    "productos": "SOPA KNORR CREMA VEGETALES X 60 G",
+    "uxb": 10,
+    "precio_vta": 2199
   },
   {
     "codigos": 1906,
@@ -82950,16 +85398,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1888
   },
   {
-    "codigos": 1913,
-    "productos": "SOPA KNORR CREMA X70g verduras",
-    "uxb": 10,
-    "precio_vta": 1888
-  },
-  {
     "codigos": 1914,
-    "productos": "SOPA KNORR CREMA X70g zapallo",
+    "productos": "SOPA KNORR CREMA ZAPALLO X70G",
     "uxb": 10,
-    "precio_vta": 1888
+    "precio_vta": 2199
   },
   {
     "codigos": 469507,
@@ -82977,37 +85419,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470261,
     "productos": "SOPA KNORR POLL C/DEDALIT INT 80G",
     "uxb": 10,
-    "precio_vta": 1888
+    "precio_vta": 2199
   },
   {
     "codigos": 1872,
     "productos": "SOPA KNORR QUICK x5Un. ARVEJA",
     "uxb": 24,
-    "precio_vta": 1993
+    "precio_vta": 2249
   },
   {
     "codigos": 1873,
     "productos": "SOPA KNORR QUICK x5Un. CHOCLO",
     "uxb": 24,
-    "precio_vta": 1993
+    "precio_vta": 2249
   },
   {
     "codigos": 1886,
     "productos": "SOPA KNORR QUICK x5Un. VEGETALES",
     "uxb": 24,
-    "precio_vta": 1993
+    "precio_vta": 2249
   },
   {
     "codigos": 1879,
     "productos": "SOPA KNORR QUICK x5Un. VERD LIGHT",
     "uxb": 24,
-    "precio_vta": 1993
+    "precio_vta": 2249
   },
   {
     "codigos": 1887,
     "productos": "SOPA KNORR QUICK x5Un. ZAPALLO",
     "uxb": 24,
-    "precio_vta": 1993
+    "precio_vta": 2249
   },
   {
     "codigos": 470260,
@@ -83025,7 +85467,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4732,
     "productos": "SOPA KNORR VEGET-CARAC.TRIC x107.5gr",
     "uxb": 10,
-    "precio_vta": 1888
+    "precio_vta": 2199
   },
   {
     "codigos": 466941,
@@ -83049,19 +85491,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10010,
     "productos": "SOPA PARAGUAYA SILVINA 900g",
     "uxb": 8,
-    "precio_vta": 1469
+    "precio_vta": 1799
   },
   {
     "codigos": 468409,
     "productos": "SOPA PARAGUAYA SILVINA x400g",
     "uxb": 10,
-    "precio_vta": 734
+    "precio_vta": 879
   },
   {
     "codigos": 476499,
     "productos": "SOPA PARAGUAYA SILVINA x5Kg",
     "uxb": 1,
-    "precio_vta": 11234
+    "precio_vta": 12499
   },
   {
     "codigos": 7372,
@@ -83139,7 +85581,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475473,
     "productos": "SOPORTE PARA MANGUERA BOROLIMP",
     "uxb": 24,
-    "precio_vta": 2509
+    "precio_vta": 2760
   },
   {
     "codigos": 550,
@@ -83202,16 +85644,10 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2699
   },
   {
-    "codigos": 470231,
-    "productos": "SORRENTINOS ITALIANA GOURMET RICOTAx600g",
-    "uxb": 1,
-    "precio_vta": 3486
-  },
-  {
     "codigos": 479343,
     "productos": "SORRENTINOS JAMON/MUZZ MENDIA x500GR",
     "uxb": 12,
-    "precio_vta": 3086
+    "precio_vta": 3426
   },
   {
     "codigos": 470140,
@@ -83223,7 +85659,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473990,
     "productos": "SORRENTINOS PASTEURIZ TAPAMANIA x500g",
     "uxb": 1,
-    "precio_vta": 2479
+    "precio_vta": 2499
   },
   {
     "codigos": 470588,
@@ -83235,13 +85671,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477976,
     "productos": "SORRENTINOS TAPAMANIA CALABAZA Y QUESO x500g",
     "uxb": 1,
-    "precio_vta": 2479
+    "precio_vta": 2499
   },
   {
     "codigos": 11850,
     "productos": "SORRENTINOS TAPAMANIA FRESCOS CAJA",
     "uxb": 12,
-    "precio_vta": 3749
+    "precio_vta": 3899
   },
   {
     "codigos": 465249,
@@ -83349,7 +85785,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464513,
     "productos": "SOY LUNA SET ACC.PELO 5055",
     "uxb": 1,
-    "precio_vta": 1099
+    "precio_vta": 1999
   },
   {
     "codigos": 464512,
@@ -83451,31 +85887,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476831,
     "productos": "STARBOX CARS x10lts STAR",
     "uxb": 1,
-    "precio_vta": 5312
+    "precio_vta": 5844
   },
   {
     "codigos": 6766,
     "productos": "STARBOX RUEDAS x50Lt",
     "uxb": 8,
-    "precio_vta": 20527
+    "precio_vta": 22580
   },
   {
     "codigos": 6767,
     "productos": "STARBOX RUEDAS x55Lt",
     "uxb": 8,
-    "precio_vta": 28376
+    "precio_vta": 31213
   },
   {
     "codigos": 6768,
     "productos": "STARBOX RUEDAS x70Lt",
     "uxb": 8,
-    "precio_vta": 42262
+    "precio_vta": 46488
   },
   {
     "codigos": 479214,
     "productos": "STEVIA SABOR SUR x10g",
     "uxb": 6,
     "precio_vta": 1175
+  },
+  {
+    "codigos": 480812,
+    "productos": "STICKERS MUNDIAL 2026",
+    "uxb": 1,
+    "precio_vta": 499
   },
   {
     "codigos": 479628,
@@ -83487,7 +85929,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480367,
     "productos": "SUAVISANTE VIVERE x900ml ETERNA PRIMAVERA",
     "uxb": 12,
-    "precio_vta": 2939
+    "precio_vta": 2999
   },
   {
     "codigos": 468397,
@@ -83499,79 +85941,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468385,
     "productos": "SUAVIZANTE BORITA x900ml BEBE",
     "uxb": 12,
-    "precio_vta": 1731
+    "precio_vta": 1899
   },
   {
     "codigos": 468386,
     "productos": "SUAVIZANTE BORITA x900ml BRISA CAMP",
     "uxb": 12,
-    "precio_vta": 1731
+    "precio_vta": 1899
   },
   {
     "codigos": 468387,
     "productos": "SUAVIZANTE BORITA x900ml CARIC MAMA",
     "uxb": 12,
-    "precio_vta": 1731
+    "precio_vta": 1899
   },
   {
     "codigos": 468388,
     "productos": "SUAVIZANTE BORITA x900ml PERF VIOLE",
     "uxb": 12,
-    "precio_vta": 1731
+    "precio_vta": 1899
   },
   {
     "codigos": 468382,
     "productos": "SUAVIZANTE BORITA x900ml SOL",
     "uxb": 12,
-    "precio_vta": 1731
+    "precio_vta": 1899
   },
   {
     "codigos": 468393,
     "productos": "SUAVIZANTE BORITA x900ml TRADICION",
     "uxb": 12,
-    "precio_vta": 1731
+    "precio_vta": 1899
   },
   {
     "codigos": 475397,
     "productos": "SUAVIZANTE COMFORT CONCENT BOT x500ml",
     "uxb": 12,
-    "precio_vta": 5038
-  },
-  {
-    "codigos": 4019,
-    "productos": "SUAVIZANTE COMFORT DP x1lt",
-    "uxb": 12,
-    "precio_vta": 3085
-  },
-  {
-    "codigos": 460871,
-    "productos": "SUAVIZANTE COMFORT VARIOS x3Lt",
-    "uxb": 4,
-    "precio_vta": 10141
-  },
-  {
-    "codigos": 473212,
-    "productos": "SUAVIZANTE DOWNY BOT VARIOS 500ML",
-    "uxb": 12,
-    "precio_vta": 4723
-  },
-  {
-    "codigos": 474087,
-    "productos": "SUAVIZANTE DOWNY BRISA DP 200ML",
-    "uxb": 24,
-    "precio_vta": 1455
-  },
-  {
-    "codigos": 475018,
-    "productos": "SUAVIZANTE DOWNY BRISA DP 400ML",
-    "uxb": 24,
-    "precio_vta": 4189
-  },
-  {
-    "codigos": 475714,
-    "productos": "SUAVIZANTE DRIVE ECO x900g",
-    "uxb": 12,
-    "precio_vta": 1762
+    "precio_vta": 5199
   },
   {
     "codigos": 465469,
@@ -83584,12 +85990,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "SUAVIZANTE ESENCIAL 4.5 LTR DUL/S",
     "uxb": 3,
     "precio_vta": 5709
-  },
-  {
-    "codigos": 474969,
-    "productos": "SUAVIZANTE ESENCIAL DP x3Lt ROCIO MATINAL",
-    "uxb": 4,
-    "precio_vta": 5213
   },
   {
     "codigos": 3075,
@@ -83607,25 +86007,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8644,
     "productos": "SUAVIZANTE HEROE X 900CC BRISA/SILVEST",
     "uxb": 12,
-    "precio_vta": 1312
+    "precio_vta": 1390
   },
   {
     "codigos": 9050,
     "productos": "SUAVIZANTE HEROE X 900CC FLORES/FRUTA",
     "uxb": 12,
-    "precio_vta": 1322
+    "precio_vta": 1390
   },
   {
     "codigos": 9105,
     "productos": "SUAVIZANTE HEROE X 900CC FRESC/MATINAL",
     "uxb": 12,
     "precio_vta": 1312
-  },
-  {
-    "codigos": 473052,
-    "productos": "SUAVIZANTE HOGAR x900cc",
-    "uxb": 1,
-    "precio_vta": 1133
   },
   {
     "codigos": 7759,
@@ -83637,55 +86031,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6519,
     "productos": "SUAVIZANTE QUERUBIN x900cc FL/BOSQUE",
     "uxb": 12,
-    "precio_vta": 2624
+    "precio_vta": 2799
   },
   {
     "codigos": 6045,
     "productos": "SUAVIZANTE QUERUBIN x900cc FL/CITRICAS",
     "uxb": 12,
-    "precio_vta": 2624
+    "precio_vta": 2799
   },
   {
     "codigos": 6518,
     "productos": "SUAVIZANTE QUERUBIN x900cc FL/SILVESTRES",
     "uxb": 12,
-    "precio_vta": 2624
-  },
-  {
-    "codigos": 3226,
-    "productos": "SUAVIZANTE SUAVE FEDERAL 900ML AIRES BAMB",
-    "uxb": 14,
-    "precio_vta": 1762
-  },
-  {
-    "codigos": 3227,
-    "productos": "SUAVIZANTE SUAVE FEDERAL 900ML CARIC ALG",
-    "uxb": 14,
-    "precio_vta": 1762
-  },
-  {
-    "codigos": 3228,
-    "productos": "SUAVIZANTE SUAVE FEDERAL 900ML LIBRE ENJU",
-    "uxb": 14,
-    "precio_vta": 1762
-  },
-  {
-    "codigos": 3229,
-    "productos": "SUAVIZANTE SUAVE FEDERAL 900ML TARDES PAR",
-    "uxb": 14,
-    "precio_vta": 1762
-  },
-  {
-    "codigos": 3230,
-    "productos": "SUAVIZANTE SUAVE FEDERAL 900ML VIOLET CAM",
-    "uxb": 14,
-    "precio_vta": 1762
+    "precio_vta": 2799
   },
   {
     "codigos": 465578,
     "productos": "SUAVIZANTE SUAVE VIOLETA CAMPO DP x3lt",
     "uxb": 4,
-    "precio_vta": 5180
+    "precio_vta": 5999
   },
   {
     "codigos": 478025,
@@ -83703,31 +86067,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4150,
     "productos": "SUAVIZANTE VIVERE 900ML CLASICO",
     "uxb": 12,
-    "precio_vta": 2886
+    "precio_vta": 2999
   },
   {
     "codigos": 7756,
     "productos": "SUAVIZANTE VIVERE 900ML EXP.FLORAL",
     "uxb": 12,
-    "precio_vta": 2886
+    "precio_vta": 2999
   },
   {
     "codigos": 5232,
     "productos": "SUAVIZANTE VIVERE 900ML FRES.SILVE",
     "uxb": 12,
-    "precio_vta": 2886
+    "precio_vta": 2999
   },
   {
     "codigos": 3581,
     "productos": "SUAVIZANTE VIVERE 900ML FTOS BOSQ",
     "uxb": 12,
-    "precio_vta": 2886
+    "precio_vta": 2999
   },
   {
     "codigos": 479226,
     "productos": "SUAVIZANTE VIVERE 900ML VIOLETAS",
     "uxb": 12,
-    "precio_vta": 2886
+    "precio_vta": 2999
   },
   {
     "codigos": 465861,
@@ -83745,13 +86109,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6436,
     "productos": "SUAVIZANTE VIVERE CLASICO X 3LTR",
     "uxb": 4,
-    "precio_vta": 9028
-  },
-  {
-    "codigos": 475336,
-    "productos": "SUAVIZANTE VIVERE INTENSE MIMOS FLOR x450cc",
-    "uxb": 15,
-    "precio_vta": 1212
+    "precio_vta": 8999
   },
   {
     "codigos": 4709,
@@ -83763,19 +86121,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462389,
     "productos": "SUAVIZANTE VIVERE VIOL.Y F/BCAS x3lt",
     "uxb": 4,
-    "precio_vta": 8179
-  },
-  {
-    "codigos": 477819,
-    "productos": "SUAVIZANTE ZORRO DELUX x3Lt",
-    "uxb": 4,
-    "precio_vta": 7348
-  },
-  {
-    "codigos": 467922,
-    "productos": "SUAVIZANTE ZORRO DELUXE ELEG/ORIEN x900cc",
-    "uxb": 14,
-    "precio_vta": 2203
+    "precio_vta": 8999
   },
   {
     "codigos": 469400,
@@ -83820,6 +86166,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2519
   },
   {
+    "codigos": 470159,
+    "productos": "SUPER PIÑATA LISA 24 PULGADAS TUKI",
+    "uxb": 1,
+    "precio_vta": 899
+  },
+  {
     "codigos": 471285,
     "productos": "SUPER PUZZLE JUEGA CONMIGO VERTICE",
     "uxb": 1,
@@ -83853,7 +86205,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 464562,
     "productos": "SUSTITUTO CARNICO ORALI x250g",
     "uxb": 30,
-    "precio_vta": 1949
+    "precio_vta": 1799
   },
   {
     "codigos": 1399,
@@ -83862,58 +86214,64 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4999
   },
   {
+    "codigos": 480559,
+    "productos": "TABLA C/MANGO EL GAUCHO",
+    "uxb": 1,
+    "precio_vta": 2199
+  },
+  {
     "codigos": 12369,
     "productos": "TABLA C/RAYADOR+CUCH IMP EMA",
     "uxb": 1,
-    "precio_vta": 4588
+    "precio_vta": 5046
   },
   {
     "codigos": 8415,
     "productos": "TABLA CARIOCA PLEG.ANTIR. YESI",
     "uxb": 20,
-    "precio_vta": 3779
+    "precio_vta": 4157
   },
   {
     "codigos": 476672,
     "productos": "TABLA DE PICAR XL 25x35cm LIMA",
     "uxb": 20,
-    "precio_vta": 3464
+    "precio_vta": 3811
   },
   {
     "codigos": 8417,
     "productos": "TABLA GRANDE CARIOCA YESI",
     "uxb": 20,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 472844,
     "productos": "TABLA P/ PICAR ROMPECABEZAS T&M",
     "uxb": 1,
-    "precio_vta": 3011
+    "precio_vta": 3312
   },
   {
     "codigos": 480210,
     "productos": "TABLA P/PICAR 1 CORTE EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 480211,
     "productos": "TABLA P/PICAR 2 CORTES EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 462717,
     "productos": "TABLA P/PICAR C/ETIQ YESI",
     "uxb": 12,
-    "precio_vta": 2729
+    "precio_vta": 3002
   },
   {
     "codigos": 475190,
     "productos": "TABLA PARA PICAR BH-HOME IMP.EMANUEL",
     "uxb": 1,
-    "precio_vta": 4030
+    "precio_vta": 4433
   },
   {
     "codigos": 9294,
@@ -83931,37 +86289,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468927,
     "productos": "TABLA PICAR RECT. GRANDE EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 4304
+    "precio_vta": 4735
   },
   {
     "codigos": 468928,
     "productos": "TABLA PICAR RECT.CHICA EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 1679
+    "precio_vta": 1847
   },
   {
     "codigos": 468929,
     "productos": "TABLA PIZZERA EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 4304
+    "precio_vta": 4735
   },
   {
     "codigos": 478706,
     "productos": "TABLA PIZZERA LIMA 35cm",
     "uxb": 12,
-    "precio_vta": 3464
+    "precio_vta": 3811
   },
   {
     "codigos": 472845,
     "productos": "TABLA PIZZERA RED. T&M x36CM",
     "uxb": 1,
-    "precio_vta": 3810
+    "precio_vta": 4191
   },
   {
     "codigos": 465982,
     "productos": "TABLA PIZZERA STAR",
     "uxb": 16,
-    "precio_vta": 2692
+    "precio_vta": 2961
   },
   {
     "codigos": 468889,
@@ -83973,13 +86331,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468932,
     "productos": "TABLA REDONDA P/ASADO EL GAUCHO",
     "uxb": 1,
-    "precio_vta": 1679
+    "precio_vta": 1847
   },
   {
     "codigos": 472843,
     "productos": "TABLA SALAMINERA 30X7 T&M",
     "uxb": 1,
-    "precio_vta": 870
+    "precio_vta": 957
   },
   {
     "codigos": 475258,
@@ -84016,12 +86374,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "TABLETAS MOSQUITOS SUELTAS",
     "uxb": 1,
     "precio_vta": 577
-  },
-  {
-    "codigos": 460650,
-    "productos": "TABLETAS MOSQUITRAP 12u",
-    "uxb": 12,
-    "precio_vta": 1399
   },
   {
     "codigos": 5189,
@@ -84075,7 +86427,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477698,
     "productos": "TAKIS FUEGO x49g",
     "uxb": 36,
-    "precio_vta": 1784
+    "precio_vta": 1699
   },
   {
     "codigos": 478837,
@@ -84099,13 +86451,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6814,
     "productos": "TAKIS INTENSE NACHO x85g",
     "uxb": 35,
-    "precio_vta": 2618
+    "precio_vta": 2499
   },
   {
     "codigos": 478835,
     "productos": "TAKIS ORIGINAL x49g",
-    "uxb": 1,
-    "precio_vta": 1784
+    "uxb": 36,
+    "precio_vta": 1699
   },
   {
     "codigos": 477697,
@@ -84117,13 +86469,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477695,
     "productos": "TAKIS ORIGINAL/FUEGO x140gr",
     "uxb": 16,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 478444,
     "productos": "TAKIS XPLOSION x140gr",
     "uxb": 16,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 478836,
@@ -84135,19 +86487,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478447,
     "productos": "TAKIS XPLOSION x85gr",
     "uxb": 35,
-    "precio_vta": 2624
+    "precio_vta": 2499
+  },
+  {
+    "codigos": 62484,
+    "productos": "TALADRO ELECTRICO TUCU",
+    "uxb": 1,
+    "precio_vta": 65900
   },
   {
     "codigos": 475873,
     "productos": "TALCO ALGABO ANTIBAC x100g",
     "uxb": 12,
-    "precio_vta": 1312
+    "precio_vta": 1299
   },
   {
     "codigos": 475154,
     "productos": "TALCO ALGABO ANTIBAC x200g",
     "uxb": 6,
-    "precio_vta": 2204
+    "precio_vta": 2199
   },
   {
     "codigos": 5797,
@@ -84159,13 +86517,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5798,
     "productos": "TALCO ALGABO FLORAL PERFUMADO X400g",
     "uxb": 20,
-    "precio_vta": 2099
+    "precio_vta": 1999
   },
   {
     "codigos": 5298,
     "productos": "TALCO ALGABO FLORAL x250g",
     "uxb": 12,
-    "precio_vta": 1994
+    "precio_vta": 1999
   },
   {
     "codigos": 5434,
@@ -84183,19 +86541,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2805,
     "productos": "TALCO ALGABO FOOT x200g",
     "uxb": 6,
-    "precio_vta": 1679
+    "precio_vta": 1999
   },
   {
     "codigos": 8360,
     "productos": "TALCO ALGABO VIOLETA X250g",
     "uxb": 12,
-    "precio_vta": 1994
+    "precio_vta": 1999
   },
   {
     "codigos": 10684,
     "productos": "TALCO ALGABO X60g",
     "uxb": 1,
     "precio_vta": 839
+  },
+  {
+    "codigos": 480719,
+    "productos": "TALCO CORP FEM POLYANA CLAS x100gr",
+    "uxb": 24,
+    "precio_vta": 999
+  },
+  {
+    "codigos": 480720,
+    "productos": "TALCO CORP FEM POLYANA CLAS x200g",
+    "uxb": 12,
+    "precio_vta": 1599
+  },
+  {
+    "codigos": 480721,
+    "productos": "TALCO CORP MASC POLYANA x100g",
+    "uxb": 24,
+    "precio_vta": 999
   },
   {
     "codigos": 6063,
@@ -84237,7 +86613,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2904,
     "productos": "TALCO REXONA EFFICIENT x100g",
     "uxb": 12,
-    "precio_vta": 2623
+    "precio_vta": 2999
   },
   {
     "codigos": 2905,
@@ -84279,31 +86655,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471894,
     "productos": "TALITAS TOSTI CLASICAS x100gr",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1049
   },
   {
     "codigos": 477423,
     "productos": "TALITAS TOSTI JAMON x100g",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1049
   },
   {
     "codigos": 477425,
     "productos": "TALITAS TOSTI PIZZA x100g",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1049
   },
   {
     "codigos": 477426,
     "productos": "TALITAS TOSTI QUESO x100g",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1049
   },
   {
     "codigos": 477424,
     "productos": "TALITAS TOSTI SEMILLAS x100gr",
     "uxb": 12,
-    "precio_vta": 944
+    "precio_vta": 1049
   },
   {
     "codigos": 475661,
@@ -84422,8 +86798,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 474268,
     "productos": "TAMPO. PATRICIA ALLEN MEDIO 16UN",
-    "uxb": 1,
-    "precio_vta": 3799
+    "uxb": 20,
+    "precio_vta": 4399
   },
   {
     "codigos": 474318,
@@ -84435,7 +86811,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474267,
     "productos": "TAMPO. PATRICIA ALLEN SUPER 16UN",
     "uxb": 20,
-    "precio_vta": 3799
+    "precio_vta": 4399
   },
   {
     "codigos": 474317,
@@ -84537,7 +86913,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470852,
     "productos": "TAPA D/EMP TUBO MENDIA CRIOLLA HORNO x2kg",
     "uxb": 6,
-    "precio_vta": 8829
+    "precio_vta": 9801
   },
   {
     "codigos": 476778,
@@ -84561,13 +86937,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472158,
     "productos": "TAPA D/PASCUALINA CRIOLLA DELICIAS DORADAS x400gr",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 1899
   },
   {
     "codigos": 472157,
     "productos": "TAPA D/PASCUALINA HOJALDRE DELICIAS DORADAS x400gr",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 1899
   },
   {
     "codigos": 30007,
@@ -84579,31 +86955,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472162,
     "productos": "TAPA DE EMPANADAS CRIOLLA DELICIAS DORADAS x330gr",
     "uxb": 1,
-    "precio_vta": 1369
+    "precio_vta": 1529
   },
   {
     "codigos": 472167,
     "productos": "TAPA DE EMPANADAS CRIOLLA DELICIAS DORADAS x500g",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 1899
   },
   {
     "codigos": 472169,
-    "productos": "TAPA DE EMPANADAS HOJALDRE DELICIAS DORADAS x330g",
+    "productos": "TAPA DE EMPANADAS HOJALDRE DELICIAS DORADAS x330gr",
     "uxb": 1,
-    "precio_vta": 1369
+    "precio_vta": 1529
   },
   {
     "codigos": 478544,
     "productos": "TAPA DE EMPANADAS SU MASA MENDIA x300gr HOJAL/CRIOL",
     "uxb": 1,
-    "precio_vta": 977
+    "precio_vta": 1085
   },
   {
     "codigos": 472168,
     "productos": "TAPA DE EMPANADAS TUBO DELICIAS DORADAS x2.32Kg",
     "uxb": 1,
-    "precio_vta": 6699
+    "precio_vta": 7699
   },
   {
     "codigos": 470593,
@@ -84621,43 +86997,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470607,
     "productos": "TAPA DE PASCUALINA CRIOLLA MENDIA x400gr",
     "uxb": 1,
-    "precio_vta": 1440
+    "precio_vta": 1599
   },
   {
     "codigos": 471029,
     "productos": "TAPA DE PASCUALINA CRIOLLA ORALI x380gr",
     "uxb": 35,
-    "precio_vta": 1449
+    "precio_vta": 1599
   },
   {
     "codigos": 470608,
     "productos": "TAPA DE PASCUALINA HOJALDRE MENDIA x400g",
     "uxb": 1,
-    "precio_vta": 1440
+    "precio_vta": 1599
   },
   {
     "codigos": 471028,
     "productos": "TAPA DE PASCUALINA HOJALDRE ORALI x400g",
     "uxb": 35,
-    "precio_vta": 1449
+    "precio_vta": 1599
   },
   {
     "codigos": 478545,
     "productos": "TAPA DE PASCUALINA SU MASA MENDIA x400gr",
     "uxb": 1,
-    "precio_vta": 1363
+    "precio_vta": 1513
   },
   {
     "codigos": 477250,
     "productos": "TAPA EMPANADA SUPER HORNO TAPAMANIAx500G",
     "uxb": 1,
-    "precio_vta": 1429
+    "precio_vta": 1599
   },
   {
     "codigos": 475850,
     "productos": "TAPA EMPANADA TUBO CUNEO x60un x2.5g",
     "uxb": 1,
-    "precio_vta": 6999
+    "precio_vta": 8099
   },
   {
     "codigos": 472411,
@@ -84681,55 +87057,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472443,
     "productos": "TAPA EMPANADAS SEMILLAS DELICIAS DORx330gr",
     "uxb": 1,
-    "precio_vta": 1330
+    "precio_vta": 1490
   },
   {
     "codigos": 475765,
     "productos": "TAPA EMPANADAS TUBO CUNEO x48un",
     "uxb": 1,
-    "precio_vta": 5499
+    "precio_vta": 6199
   },
   {
     "codigos": 477234,
     "productos": "TAPA P/EMP LIGHT DELICIAS DORADAS x330g",
     "uxb": 1,
-    "precio_vta": 1399
+    "precio_vta": 1699
   },
   {
     "codigos": 11724,
     "productos": "TAPA P/EMP TUBO SUPER X2kg HORNO.TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 5499
+    "precio_vta": 5999
   },
   {
     "codigos": 477248,
     "productos": "TAPA P/EMPANADA TUBO SUP.x2kg CRIOLL.TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 5499
+    "precio_vta": 5999
   },
   {
     "codigos": 477249,
     "productos": "TAPA P/EMPANADAS CRIOLLA x330g TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 1069
+    "precio_vta": 1179
   },
   {
     "codigos": 477378,
     "productos": "TAPA P/EMPANADAS FREIR x330g TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 1069
+    "precio_vta": 1179
   },
   {
     "codigos": 11722,
     "productos": "TAPA P/EMPANADAS HORNO x330gr TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 1069
+    "precio_vta": 1199
   },
   {
     "codigos": 473894,
     "productos": "TAPA P/EMPANADAS SUPER CRIOLLA x500gr TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 1429
+    "precio_vta": 1599
   },
   {
     "codigos": 476109,
@@ -84741,61 +87117,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472549,
     "productos": "TAPA PASCUALINA CRIOLLA CUNEO x340g",
     "uxb": 1,
-    "precio_vta": 1399
+    "precio_vta": 1629
   },
   {
     "codigos": 477247,
     "productos": "TAPA PASCUALINA CRIOLLA x400gr TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 1299
+    "precio_vta": 1439
   },
   {
     "codigos": 475876,
     "productos": "TAPA PASCUALINA DELICIAS SIN TACC x380g",
     "uxb": 1,
-    "precio_vta": 2599
-  },
-  {
-    "codigos": 475477,
-    "productos": "TAPA PASCUALINA GOURMET x500gr TAPAMANIA",
-    "uxb": 1,
-    "precio_vta": 1585
+    "precio_vta": 2999
   },
   {
     "codigos": 472552,
     "productos": "TAPA PASCUALINA HOJALDRE CUNEO x340g",
     "uxb": 1,
-    "precio_vta": 1399
+    "precio_vta": 1629
   },
   {
     "codigos": 11723,
     "productos": "TAPA PASCUALINA HORNO x400 TAPAMANIA",
     "uxb": 1,
-    "precio_vta": 1299
+    "precio_vta": 1439
   },
   {
     "codigos": 470446,
     "productos": "TAPA PASCUALINA LA SALTEÑA CRIOLLA x400gr",
     "uxb": 1,
-    "precio_vta": 1724
+    "precio_vta": 1844
   },
   {
     "codigos": 470445,
     "productos": "TAPA PASCUALINA LA SALTEÑA HOJALDRE x400gr",
     "uxb": 1,
-    "precio_vta": 1724
-  },
-  {
-    "codigos": 475476,
-    "productos": "TAPA PASCUALINA SALVADO x400gr TAPAMANIA",
-    "uxb": 1,
-    "precio_vta": 1299
+    "precio_vta": 1844
   },
   {
     "codigos": 477236,
     "productos": "TAPA PASCUALINA SEMILLAS DELICIAS DORADAS x400gr",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 2099
   },
   {
     "codigos": 479178,
@@ -84807,7 +87171,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479445,
     "productos": "TAPAMANIA PAN PAPA C/QUESO HAMBUR.x250gr",
     "uxb": 1,
-    "precio_vta": 2447
+    "precio_vta": 2499
   },
   {
     "codigos": 11199,
@@ -84825,37 +87189,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472550,
     "productos": "TAPAS D/EMPANADAS CRIOLLA CUNEO x270g",
     "uxb": 1,
-    "precio_vta": 1049
+    "precio_vta": 1199
   },
   {
     "codigos": 472548,
     "productos": "TAPAS D/EMPANADAS HOJALDRE CUNEO x270g",
     "uxb": 1,
-    "precio_vta": 1049
+    "precio_vta": 1199
   },
   {
     "codigos": 472159,
     "productos": "TAPAS DE COPETIN HOJALDRE DELICIAS DORADAS x330g",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 1899
   },
   {
     "codigos": 470603,
     "productos": "TAPAS DE COPETIN MENDIA x330g",
     "uxb": 10,
-    "precio_vta": 1247
+    "precio_vta": 1384
   },
   {
     "codigos": 470605,
     "productos": "TAPAS DE EMPANADAS CRIOLLA MENDIA 15x390gr",
     "uxb": 24,
-    "precio_vta": 1234
+    "precio_vta": 1370
   },
   {
     "codigos": 471017,
     "productos": "TAPAS DE EMPANADAS CRIOLLA ORALI x300gr",
     "uxb": 30,
-    "precio_vta": 1099
+    "precio_vta": 1199
   },
   {
     "codigos": 470589,
@@ -84867,85 +87231,85 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472166,
     "productos": "TAPAS DE EMPANADAS HOJALDRE DELICIAS DORADAS x500g",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 1899
   },
   {
     "codigos": 470604,
     "productos": "TAPAS DE EMPANADAS HOJALDRE MENDIA 15x390gr",
     "uxb": 24,
-    "precio_vta": 1234
+    "precio_vta": 1370
   },
   {
     "codigos": 471016,
     "productos": "TAPAS DE EMPANADAS HOJALDRE ORALI x330gr",
     "uxb": 30,
-    "precio_vta": 1099
+    "precio_vta": 1199
   },
   {
     "codigos": 472163,
     "productos": "TAPAS DE EMPANADAS LIGHT DELICIAS DORADAS x330g",
     "uxb": 1,
-    "precio_vta": 1330
+    "precio_vta": 1490
   },
   {
     "codigos": 470606,
     "productos": "TAPAS DE EMPANADAS P/FREIR MENDIA 15x390gr",
     "uxb": 1,
-    "precio_vta": 1234
+    "precio_vta": 1370
   },
   {
     "codigos": 471186,
     "productos": "TAPAS DE EMPANADAS ROTI/GRANDE CRIOLLA MENDIA 12x520gr",
     "uxb": 30,
-    "precio_vta": 1736
+    "precio_vta": 1927
   },
   {
     "codigos": 472755,
     "productos": "TAPAS DE EMPANADAS ROTI/GRANDE HOJALDRE MENDIA 12x520gr",
     "uxb": 1,
-    "precio_vta": 1736
+    "precio_vta": 1927
   },
   {
     "codigos": 472165,
     "productos": "TAPAS DE EMPANADAS SIN GLUTEN DELICIAS DORADAS x280gr",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2399
   },
   {
     "codigos": 472164,
     "productos": "TAPAS DE EMPANADAS SIN SAL DELICIAS DORADAS x330g",
     "uxb": 1,
-    "precio_vta": 1330
+    "precio_vta": 1490
   },
   {
     "codigos": 471018,
     "productos": "TAPAS DE EMPANADAS SIN TACC ORALI x330g",
     "uxb": 30,
-    "precio_vta": 1664
+    "precio_vta": 2099
   },
   {
     "codigos": 471025,
     "productos": "TAPAS DE EMPANADAS XL HOJALDRE TUBO ORALI x48Un.",
     "uxb": 6,
-    "precio_vta": 6299
+    "precio_vta": 6899
   },
   {
     "codigos": 471026,
     "productos": "TAPAS DE EMPANADAS XL P/FREIR TUBO ORALI x48Un.",
     "uxb": 6,
-    "precio_vta": 6299
+    "precio_vta": 6899
   },
   {
     "codigos": 472160,
     "productos": "TAPAS DE PASTELITOS DELICIAS DORADAS x450g",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 1899
   },
   {
     "codigos": 470651,
     "productos": "TAPAS DE PASTELITOS MENDIA 24x330gr",
     "uxb": 10,
-    "precio_vta": 1247
+    "precio_vta": 1384
   },
   {
     "codigos": 467448,
@@ -84957,7 +87321,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470523,
     "productos": "TAPAS EMPANADAS ITALIANA HORNO x12Un.",
     "uxb": 30,
-    "precio_vta": 1562
+    "precio_vta": 1399
   },
   {
     "codigos": 480374,
@@ -84969,13 +87333,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477235,
     "productos": "TAPAS P/EMP SEMI DELICIAS DORADAS X330g",
     "uxb": 1,
-    "precio_vta": 1399
+    "precio_vta": 1699
   },
   {
     "codigos": 473810,
     "productos": "TAPAS P/PASTELITOS TAPAMANIA x450g",
     "uxb": 1,
-    "precio_vta": 1319
+    "precio_vta": 1499
   },
   {
     "codigos": 9791,
@@ -84987,31 +87351,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471015,
     "productos": "TAPAS PARA COPETIN CRIOLLA ORALI x165g",
     "uxb": 50,
-    "precio_vta": 739
+    "precio_vta": 949
   },
   {
     "codigos": 11725,
     "productos": "TAPAS PARA COPETIN TAPAMANIA 330G",
     "uxb": 20,
-    "precio_vta": 1077
+    "precio_vta": 1199
   },
   {
     "codigos": 471014,
     "productos": "TAPAS PARA PASTELITOS CRIOLLA ORALI x165g",
     "uxb": 50,
-    "precio_vta": 739
+    "precio_vta": 949
   },
   {
     "codigos": 477237,
     "productos": "TAPAS PASCUALINA LIGHT DELICIAS D x400g",
     "uxb": 1,
-    "precio_vta": 1699
+    "precio_vta": 2099
   },
   {
     "codigos": 461477,
     "productos": "TAPER CUADRADO BAZAR CHINO",
     "uxb": 100,
-    "precio_vta": 2656
+    "precio_vta": 2922
   },
   {
     "codigos": 9070,
@@ -85026,28 +87390,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1049
   },
   {
+    "codigos": 480734,
+    "productos": "TAPITAS DE J/SERRANO BURBUJAS x1Kg",
+    "uxb": 5,
+    "precio_vta": 6699
+  },
+  {
     "codigos": 475178,
     "productos": "TAPON DE TERMO BH-HOME 514",
     "uxb": 1,
-    "precio_vta": 3408
+    "precio_vta": 3749
   },
   {
     "codigos": 473827,
     "productos": "TAPON DE TERMO IMP-EMANUEL",
     "uxb": 1,
-    "precio_vta": 2776
+    "precio_vta": 3054
   },
   {
     "codigos": 472038,
     "productos": "TAPPER TAPA HERMETICA CHICO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 6862
+    "precio_vta": 7548
   },
   {
     "codigos": 472036,
     "productos": "TAPPER TAPA HERMETICA MEDIANO IMP EMANUEL",
     "uxb": 1,
-    "precio_vta": 9501
+    "precio_vta": 10452
   },
   {
     "codigos": 478908,
@@ -85056,22 +87426,28 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 12999
   },
   {
+    "codigos": 480804,
+    "productos": "TARRO PET F ESCOCES X1lt IMP EMA KP903-E",
+    "uxb": 1,
+    "precio_vta": 1990
+  },
+  {
     "codigos": 10454,
     "productos": "TARRO RED.C/TAPA 2700cc HP",
     "uxb": 1,
-    "precio_vta": 1508
+    "precio_vta": 1658
   },
   {
     "codigos": 8735,
     "productos": "TARRO RED.C/TAPA 370CC HP",
     "uxb": 1,
-    "precio_vta": 590
+    "precio_vta": 649
   },
   {
     "codigos": 10453,
     "productos": "TARRO RED.C/TAPA 4400cc HP",
     "uxb": 1,
-    "precio_vta": 1930
+    "precio_vta": 2123
   },
   {
     "codigos": 476174,
@@ -85113,19 +87489,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 463861,
     "productos": "TARTA FIJA RIZADA ARGOS N1",
     "uxb": 1,
-    "precio_vta": 3858
+    "precio_vta": 4244
   },
   {
     "codigos": 463862,
     "productos": "TARTA FIJA RIZADA ARGOS N2",
     "uxb": 1,
-    "precio_vta": 4211
+    "precio_vta": 4632
   },
   {
     "codigos": 8437,
     "productos": "TARTERA CARIOCA YESI 35X8 cm",
     "uxb": 6,
-    "precio_vta": 4934
+    "precio_vta": 5428
   },
   {
     "codigos": 469446,
@@ -85258,6 +87634,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "TAZA DOBLE COLOR CHINO",
     "uxb": 175,
     "precio_vta": 415
+  },
+  {
+    "codigos": 480771,
+    "productos": "TAZA DOBLE PARED DECO IMP EMA 52566",
+    "uxb": 1,
+    "precio_vta": 5699
   },
   {
     "codigos": 4421,
@@ -85491,7 +87873,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3468,
     "productos": "TE GREEN HILLS X25saq",
     "uxb": 20,
-    "precio_vta": 1259
+    "precio_vta": 1299
   },
   {
     "codigos": 3285,
@@ -85779,7 +88161,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6480,
     "productos": "TE MAROLIO x100saq",
     "uxb": 5,
-    "precio_vta": 2088
+    "precio_vta": 1999
   },
   {
     "codigos": 3469,
@@ -85791,7 +88173,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3298,
     "productos": "TE MAROLIO x50saq",
     "uxb": 5,
-    "precio_vta": 1206
+    "precio_vta": 1199
+  },
+  {
+    "codigos": 480644,
+    "productos": "TE NEGRO/VIRGINI MANZAN/CRYSF SUELTx50U",
+    "uxb": 1,
+    "precio_vta": 690
   },
   {
     "codigos": 463477,
@@ -85807,9 +88195,9 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 477585,
-    "productos": "TE SUELTO X20UN",
+    "productos": "TE SABORIZADOS TARAGUI SUELTOS x25Un",
     "uxb": 1,
-    "precio_vta": 329
+    "precio_vta": 790
   },
   {
     "codigos": 478397,
@@ -86115,7 +88503,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9629,
     "productos": "TEQUILA CUERNAVACA 1L",
     "uxb": 6,
-    "precio_vta": 4934
+    "precio_vta": 5329
   },
   {
     "codigos": 3317,
@@ -86157,211 +88545,211 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475516,
     "productos": "TERMO ACERO KANSON IMP-EMANUEL KS-010",
     "uxb": 1,
-    "precio_vta": 29728
+    "precio_vta": 32700
   },
   {
     "codigos": 472981,
     "productos": "TERMO ACERO PERLADO IMP EMANUEL x750cc",
     "uxb": 1,
-    "precio_vta": 22720
+    "precio_vta": 24992
   },
   {
     "codigos": 474123,
     "productos": "TERMO ACONCAGUA LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 15014
+    "precio_vta": 16516
   },
   {
     "codigos": 475966,
     "productos": "TERMO AMANDA VERSATILE x1lt",
     "uxb": 6,
-    "precio_vta": 13649
+    "precio_vta": 15014
   },
   {
     "codigos": 466954,
     "productos": "TERMO AMIGO LUMILAGRO x1Lt",
     "uxb": 6,
-    "precio_vta": 10394
+    "precio_vta": 11434
   },
   {
     "codigos": 11028,
     "productos": "TERMO ATOM CLASICO 1 L. DILIT",
     "uxb": 1,
-    "precio_vta": 8819
+    "precio_vta": 9701
   },
   {
     "codigos": 11031,
     "productos": "TERMO ATOM EXTREME 1L DILIT",
     "uxb": 1,
-    "precio_vta": 14342
+    "precio_vta": 15777
   },
   {
     "codigos": 466012,
     "productos": "TERMO ATOM LEGEND DECO x1Lt",
     "uxb": 1,
-    "precio_vta": 14279
+    "precio_vta": 15707
   },
   {
     "codigos": 467124,
     "productos": "TERMO ATOM LEGEND x1Lt",
     "uxb": 1,
-    "precio_vta": 13649
+    "precio_vta": 15014
   },
   {
     "codigos": 11029,
     "productos": "TERMO ATOM SLIM 1L DILIT",
     "uxb": 1,
-    "precio_vta": 12133
+    "precio_vta": 13347
   },
   {
     "codigos": 11030,
     "productos": "TERMO ATOM SPORT 1L DILIT",
     "uxb": 1,
-    "precio_vta": 12284
+    "precio_vta": 13513
   },
   {
     "codigos": 475323,
     "productos": "TERMO BALA IRROMPIBLE x1LT ORGON",
     "uxb": 1,
-    "precio_vta": 9470
+    "precio_vta": 10418
   },
   {
     "codigos": 11032,
     "productos": "TERMO BIDON EXTREME COOL ATOM x2.5Lt",
     "uxb": 1,
-    "precio_vta": 16537
+    "precio_vta": 18191
   },
   {
     "codigos": 473562,
     "productos": "TERMO BIDON LEGEND ATOM x2.5Lt",
     "uxb": 1,
-    "precio_vta": 16537
+    "precio_vta": 18191
   },
   {
     "codigos": 479655,
     "productos": "TERMO C/MATE+BOMBILLA WATER BOTTLE IMP-E",
     "uxb": 20,
-    "precio_vta": 28349
+    "precio_vta": 31184
   },
   {
     "codigos": 478986,
     "productos": "TERMO C/VASOS VACUUM FLASK IMP-E",
     "uxb": 1,
-    "precio_vta": 13544
+    "precio_vta": 14899
   },
   {
     "codigos": 468662,
     "productos": "TERMO ESPECIAL LUMILAGRO x1Lt",
     "uxb": 6,
-    "precio_vta": 10972
+    "precio_vta": 11490
   },
   {
     "codigos": 460246,
     "productos": "TERMO LUMILAGRO ALFA x1Lt",
     "uxb": 1,
-    "precio_vta": 13051
+    "precio_vta": 11900
   },
   {
     "codigos": 460274,
     "productos": "TERMO LUMILAGRO CLASICO x1Lt",
     "uxb": 1,
-    "precio_vta": 7184
+    "precio_vta": 10990
   },
   {
     "codigos": 464755,
     "productos": "TERMO LUMILAGRO CRETA x1Lt",
     "uxb": 1,
-    "precio_vta": 13975
+    "precio_vta": 12499
   },
   {
     "codigos": 461575,
     "productos": "TERMO LUMILAGRO CRETA x750c",
     "uxb": 1,
-    "precio_vta": 11896
+    "precio_vta": 10900
   },
   {
     "codigos": 4069,
     "productos": "TERMO LUMILAGRO SUPER TERMICA x1lt",
     "uxb": 6,
-    "precio_vta": 10499
+    "precio_vta": 11490
   },
   {
     "codigos": 464754,
     "productos": "TERMO LUMILAGRO TATU x1Lt",
     "uxb": 1,
-    "precio_vta": 11549
+    "precio_vta": 11490
   },
   {
     "codigos": 464753,
     "productos": "TERMO LUMILAGRO TERRA 1lt",
     "uxb": 1,
-    "precio_vta": 14090
+    "precio_vta": 14900
   },
   {
     "codigos": 475286,
     "productos": "TERMO MILONGA LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 20778
+    "precio_vta": 17990
   },
   {
     "codigos": 10579,
     "productos": "TERMO PAMPA AMANDA X 1L",
     "uxb": 6,
-    "precio_vta": 13649
+    "precio_vta": 15014
   },
   {
     "codigos": 466956,
     "productos": "TERMO PANDA LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 17093
+    "precio_vta": 15900
   },
   {
     "codigos": 466959,
     "productos": "TERMO SIGMA LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 15014
+    "precio_vta": 13900
   },
   {
     "codigos": 479873,
     "productos": "TERMO STITCH CELESTE x1.2LT IMP-E",
     "uxb": 12,
-    "precio_vta": 29389
+    "precio_vta": 32328
   },
   {
     "codigos": 479864,
     "productos": "TERMO STITCH ROSA x1LT IMP-E",
     "uxb": 12,
-    "precio_vta": 29389
+    "precio_vta": 32328
   },
   {
     "codigos": 466960,
     "productos": "TERMO TANGO LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 19519
+    "precio_vta": 17900
   },
   {
     "codigos": 467090,
     "productos": "TERMO TERRA 0.65Lt LUMILAGRO",
     "uxb": 1,
-    "precio_vta": 10856
+    "precio_vta": 9990
   },
   {
     "codigos": 469961,
     "productos": "TERMO TERRA COL PASTEL LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 15004
+    "precio_vta": 13900
   },
   {
     "codigos": 475287,
     "productos": "TERMO TERRA SIN ASA LUMILAGRO x1Lt",
     "uxb": 1,
-    "precio_vta": 17313
+    "precio_vta": 15900
   },
   {
     "codigos": 471518,
     "productos": "TERMO URBANO LUMILAGRO x950cc",
     "uxb": 6,
-    "precio_vta": 10394
+    "precio_vta": 9999
   },
   {
     "codigos": 7949,
@@ -86385,7 +88773,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7775,
     "productos": "TETINAS CRISTAL x10 UNIDADES",
     "uxb": 1,
-    "precio_vta": 1048
+    "precio_vta": 1153
   },
   {
     "codigos": 3347,
@@ -86635,7 +89023,7 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 129,
-    "productos": "TINTURA 317 CHOCOLATE CLARO 8.73",
+    "productos": "TINTURA 317 CHOCOLATE 8.73/6.73",
     "uxb": 12,
     "precio_vta": 2729
   },
@@ -86949,6 +89337,12 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 953,
     "productos": "TINTURA ISSUE 6.62 RUINO INT NACAR.",
     "uxb": 12,
+    "precio_vta": 3464
+  },
+  {
+    "codigos": 480805,
+    "productos": "TINTURA ISSUE 6.73 CHOCOLATE DORADO",
+    "uxb": 1,
     "precio_vta": 3464
   },
   {
@@ -87666,12 +90060,6 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1831
   },
   {
-    "codigos": 479524,
-    "productos": "TOALL NOSOTRAS B.NOCHES NOCTURNA x30Un",
-    "uxb": 6,
-    "precio_vta": 10447
-  },
-  {
     "codigos": 480541,
     "productos": "TOALL TENA NAT CARE x16un C/A EXTRA",
     "uxb": 9,
@@ -87789,7 +90177,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6560,
     "productos": "TOALL. HUM. IDEAL X50u",
     "uxb": 24,
-    "precio_vta": 1889
+    "precio_vta": 1699
   },
   {
     "codigos": 7675,
@@ -87837,7 +90225,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478937,
     "productos": "TOALL.ALWAYS PROTECCION X8UNI",
     "uxb": 24,
-    "precio_vta": 1354
+    "precio_vta": 1399
   },
   {
     "codigos": 473421,
@@ -87939,7 +90327,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469821,
     "productos": "TOALL.FEM CALIPSO NORMAL C/E VERDE X8UN",
     "uxb": 50,
-    "precio_vta": 839
+    "precio_vta": 899
   },
   {
     "codigos": 469780,
@@ -87963,7 +90351,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470263,
     "productos": "TOALL.FEM CALIPSO PLANA C/ALAS C/P x8un",
     "uxb": 50,
-    "precio_vta": 838
+    "precio_vta": 799
   },
   {
     "codigos": 679,
@@ -87975,31 +90363,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12220,
     "productos": "TOALL.FEM CALIPSO SUP ANAT X16UN (ROSA)",
     "uxb": 25,
-    "precio_vta": 1679
+    "precio_vta": 1899
   },
   {
     "codigos": 6066,
     "productos": "TOALL.FEM DONCELLA C/A C/P X16UN",
     "uxb": 25,
-    "precio_vta": 1364
+    "precio_vta": 1379
   },
   {
     "codigos": 6057,
     "productos": "TOALL.FEM DONCELLA C/A S/P DUO X16UN",
     "uxb": 25,
-    "precio_vta": 1364
+    "precio_vta": 1379
   },
   {
     "codigos": 6067,
     "productos": "TOALL.FEM DONCELLA NOCT C/A S/P X8UN",
     "uxb": 50,
-    "precio_vta": 1154
+    "precio_vta": 1249
   },
   {
     "codigos": 465209,
     "productos": "TOALL.FEM DONCELLA NOCT C/A X16UN",
     "uxb": 25,
-    "precio_vta": 2519
+    "precio_vta": 2399
   },
   {
     "codigos": 477709,
@@ -88011,13 +90399,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8035,
     "productos": "TOALL.FEM DONCELLA NORMAL C/A C/P X8UN",
     "uxb": 50,
-    "precio_vta": 682
+    "precio_vta": 699
   },
   {
     "codigos": 8036,
     "productos": "TOALL.FEM DONCELLA NORMAL C/A S/P 8UN",
     "uxb": 50,
-    "precio_vta": 682
+    "precio_vta": 699
   },
   {
     "codigos": 8037,
@@ -88029,13 +90417,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6000,
     "productos": "TOALL.FEM DONCELLA TANGA C/A SVE X8UN",
     "uxb": 50,
-    "precio_vta": 839
+    "precio_vta": 849
   },
   {
     "codigos": 465210,
     "productos": "TOALL.FEM DONCELLA U/F C/A S/P X16UN",
     "uxb": 25,
-    "precio_vta": 1784
+    "precio_vta": 1899
   },
   {
     "codigos": 465775,
@@ -88047,7 +90435,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 6056,
     "productos": "TOALL.FEM DONCELLA U/F S/P C/A SVE X8UN",
     "uxb": 50,
-    "precio_vta": 913
+    "precio_vta": 949
   },
   {
     "codigos": 467847,
@@ -88176,6 +90564,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 5248
   },
   {
+    "codigos": 471692,
+    "productos": "TOALL.FEM NOSOTRAS CLAS PACK ECO X16UN",
+    "uxb": 15,
+    "precio_vta": 2813
+  },
+  {
     "codigos": 470325,
     "productos": "TOALL.FEM NOSOTRAS CLAS SUAVE X16UN",
     "uxb": 15,
@@ -88198,12 +90592,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "TOALL.FEM NOSOTRAS DIA Y NOCHE 16UN",
     "uxb": 15,
     "precio_vta": 3526
-  },
-  {
-    "codigos": 470147,
-    "productos": "TOALL.FEM NOSOTRAS EXTRAPROT. X16UN",
-    "uxb": 12,
-    "precio_vta": 2655
   },
   {
     "codigos": 471969,
@@ -88317,7 +90705,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8111,
     "productos": "TOALL.HUM BABYSEC ULT/FRESH X50un",
     "uxb": 24,
-    "precio_vta": 2518
+    "precio_vta": 2499
   },
   {
     "codigos": 479030,
@@ -88378,6 +90766,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "TOALLA LARGA TELA ECOP NOSOTRAS x16Un.",
     "uxb": 24,
     "precio_vta": 4199
+  },
+  {
+    "codigos": 469319,
+    "productos": "TOALLA MEDIANA TUCU X1UN",
+    "uxb": 1,
+    "precio_vta": 2590
   },
   {
     "codigos": 479702,
@@ -88575,13 +90969,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479054,
     "productos": "TOMATE TRIT. VIGENTE TTB x340g",
     "uxb": 24,
-    "precio_vta": 399
+    "precio_vta": 349
   },
   {
     "codigos": 479761,
     "productos": "TOMATE TRITURADO CHIRO x950g",
     "uxb": 8,
     "precio_vta": 1574
+  },
+  {
+    "codigos": 7414,
+    "productos": "TOMATE TRITURADO CIALPIL 970g DP",
+    "uxb": 8,
+    "precio_vta": 1399
   },
   {
     "codigos": 3379,
@@ -88605,7 +91005,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473202,
     "productos": "TOMILLO SABOR SUR x25g",
     "uxb": 5,
-    "precio_vta": 1333
+    "precio_vta": 1499
   },
   {
     "codigos": 479015,
@@ -88618,6 +91018,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "TONNER IMPRESORA HP x1Un.",
     "uxb": 1,
     "precio_vta": 57750
+  },
+  {
+    "codigos": 480649,
+    "productos": "TORCH RECARGABLE MAGICLICK x1Un.",
+    "uxb": 1,
+    "precio_vta": 5399
   },
   {
     "codigos": 8294,
@@ -88683,7 +91089,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460901,
     "productos": "TORTERA DESMONT ARGOS N26",
     "uxb": 1,
-    "precio_vta": 8092
+    "precio_vta": 8901
   },
   {
     "codigos": 469445,
@@ -88695,13 +91101,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 2164,
     "productos": "TORTERA N1 C/FONDO REMOVIBLE FORNERIE",
     "uxb": 6,
-    "precio_vta": 5249
+    "precio_vta": 5774
   },
   {
     "codigos": 2259,
     "productos": "TORTERA N3 C/FONDO REMOVIBLE FORNERIE",
     "uxb": 6,
-    "precio_vta": 9974
+    "precio_vta": 10972
   },
   {
     "codigos": 479768,
@@ -88773,7 +91179,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471013,
     "productos": "TORTILLAS DE TRIGO ORALI x220g",
     "uxb": 16,
-    "precio_vta": 1299
+    "precio_vta": 1399
   },
   {
     "codigos": 472808,
@@ -88803,13 +91209,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 8200,
     "productos": "TOSTADAS ARROZ CLAS.S/SAL DOS HERM.x140g",
     "uxb": 18,
-    "precio_vta": 1312
+    "precio_vta": 1299
   },
   {
     "codigos": 8173,
     "productos": "TOSTADAS ARROZ CLASICA DOS HERM x140g",
     "uxb": 18,
-    "precio_vta": 1312
+    "precio_vta": 1299
   },
   {
     "codigos": 10993,
@@ -88857,19 +91263,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10056,
     "productos": "TOSTADAS DOS HERMANOS ARROZ C/SAL 120G",
     "uxb": 10,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 464290,
     "productos": "TOSTADAS DOS HERMANOS ARROZ DCE 120G",
     "uxb": 10,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 10055,
     "productos": "TOSTADAS DOS HERMANOS ARROZ S/SAL 120G",
     "uxb": 10,
-    "precio_vta": 734
+    "precio_vta": 799
   },
   {
     "codigos": 11905,
@@ -88880,7 +91286,7 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 3386,
     "productos": "TOSTADAS RIERA DE MESA CLASICA x200gr",
-    "uxb": 1,
+    "uxb": 18,
     "precio_vta": 1217
   },
   {
@@ -88923,31 +91329,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 475380,
     "productos": "TOSTADAS TOSTI x200gr CLASICAS",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1249
   },
   {
     "codigos": 475378,
     "productos": "TOSTADAS TOSTI x200gr DULCES",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1249
   },
   {
     "codigos": 475387,
     "productos": "TOSTADAS TOSTI x200gr LIGHT",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1249
   },
   {
     "codigos": 475386,
     "productos": "TOSTADAS TOSTI x200gr MULTICEREA",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1249
   },
   {
     "codigos": 475379,
     "productos": "TOSTADAS TOSTI x200gr SIN SAL",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1249
   },
   {
     "codigos": 473763,
@@ -89097,103 +91503,139 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3829,
     "productos": "TRAPO D/PISO ESENCIAL BCO.E.SUAV 48x62cm",
     "uxb": 120,
-    "precio_vta": 692
+    "precio_vta": 762
   },
   {
     "codigos": 4071,
     "productos": "TRAPO D/PISO ESENCIAL GRIS CONS 60x70cm",
     "uxb": 96,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 461812,
     "productos": "TRAPO D/PISO MISTER TRAPO BCO 60x68cm",
     "uxb": 1,
-    "precio_vta": 1994
+    "precio_vta": 2194
   },
   {
     "codigos": 461803,
     "productos": "TRAPO D/PISO MISTER TRAPO EX/SU 62x48cm",
     "uxb": 1,
-    "precio_vta": 1259
+    "precio_vta": 1385
   },
   {
     "codigos": 461813,
     "productos": "TRAPO D/PISO MISTER TRAPO GRIS 60x68cm",
     "uxb": 1,
-    "precio_vta": 1679
+    "precio_vta": 1847
   },
   {
     "codigos": 477639,
     "productos": "TRAPO DE PISO 2DA MARCA TAURO x 1Un",
     "uxb": 60,
-    "precio_vta": 629
+    "precio_vta": 692
   },
   {
     "codigos": 475960,
     "productos": "TRAPO DE PISO GRIS SED METAL 47x57cm",
     "uxb": 120,
-    "precio_vta": 1564
+    "precio_vta": 1720
   },
   {
     "codigos": 480429,
     "productos": "TRAPO DE PISO MR TRAPO BICOLOR",
     "uxb": 1,
-    "precio_vta": 2204
+    "precio_vta": 2425
   },
   {
     "codigos": 480178,
     "productos": "TRAPO PISO BICOLOR MEDIA NARANJA",
     "uxb": 50,
-    "precio_vta": 2204
+    "precio_vta": 2425
   },
   {
     "codigos": 480179,
     "productos": "TRAPO PISO COMPACTO GRIS MEDIA NARANJA",
     "uxb": 50,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 4237,
     "productos": "TRAPO PISO GRIS REF. MEDIA NAR",
     "uxb": 50,
-    "precio_vta": 1889
+    "precio_vta": 2078
   },
   {
     "codigos": 465746,
     "productos": "TRAPO PISO LISO BCO/GRIS/RAYADO LA VICTORIA 50x60",
     "uxb": 12,
-    "precio_vta": 1154
+    "precio_vta": 1270
   },
   {
     "codigos": 479181,
     "productos": "TRAPO PISO NIDO RAYADO ULTRA LIMPIO",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1154
   },
   {
     "codigos": 479182,
     "productos": "TRAPO PISO RAYADO/BLANCO LIMPILUZ",
     "uxb": 12,
-    "precio_vta": 1049
+    "precio_vta": 1154
   },
   {
     "codigos": 480236,
     "productos": "TRAPO PISO REFORZADO MEDIA NARANJA 48X60CM",
     "uxb": 50,
-    "precio_vta": 2099
+    "precio_vta": 2309
+  },
+  {
+    "codigos": 7536,
+    "productos": "TRAPO/PISO BCO 45X60 PONDEROSA",
+    "uxb": 50,
+    "precio_vta": 1499
   },
   {
     "codigos": 8176,
     "productos": "TRAPO/PISO BCO COM MEDIANARANJA 50x60cm",
     "uxb": 50,
-    "precio_vta": 1469
+    "precio_vta": 1616
+  },
+  {
+    "codigos": 480697,
+    "productos": "TRAPO/PISO COMP.BCO LA PODEROSA",
+    "uxb": 50,
+    "precio_vta": 999
+  },
+  {
+    "codigos": 480696,
+    "productos": "TRAPO/PISO COMP.GRIS LA PODEROSA",
+    "uxb": 50,
+    "precio_vta": 899
+  },
+  {
+    "codigos": 480699,
+    "productos": "TRAPO/PISO G/REF MEDIA NARANJA G",
+    "uxb": 50,
+    "precio_vta": 2099
   },
   {
     "codigos": 8177,
     "productos": "TRAPO/PISO GRIS MEDIA NARANJA",
     "uxb": 50,
-    "precio_vta": 2099
+    "precio_vta": 2309
+  },
+  {
+    "codigos": 480698,
+    "productos": "TRAPO/PISO MULT/REF MEDIA NARANJA",
+    "uxb": 50,
+    "precio_vta": 2299
+  },
+  {
+    "codigos": 7667,
+    "productos": "TRAPO/PISO REF/BICOL MEDIA NARANJA",
+    "uxb": 50,
+    "precio_vta": 1999
   },
   {
     "codigos": 476955,
@@ -89211,13 +91653,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5432,
     "productos": "TRATAMIENTO CAP ALGABO BARRO VEG x350g",
     "uxb": 6,
-    "precio_vta": 2729
+    "precio_vta": 2899
   },
   {
     "codigos": 5433,
     "productos": "TRATAMIENTO CAP ALGABO BAÑO NAT x350g",
     "uxb": 6,
-    "precio_vta": 2729
+    "precio_vta": 2999
   },
   {
     "codigos": 466244,
@@ -89260,18 +91702,6 @@ const PRODUCTOS_PRECIOS = [
     "productos": "TRATAMIENTO CAPILAR ELVIVE KERATINA X300gr",
     "uxb": 1,
     "precio_vta": 7559
-  },
-  {
-    "codigos": 5122,
-    "productos": "TREGAR QUESO CREMA CLASICO x280g",
-    "uxb": 1,
-    "precio_vta": 2547
-  },
-  {
-    "codigos": 478422,
-    "productos": "TREGAR RICOTA LIGHT x290g",
-    "uxb": 1,
-    "precio_vta": 2518
   },
   {
     "codigos": 7141,
@@ -89379,7 +91809,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476238,
     "productos": "TRIGO PELADO AGROMAR x5Kg",
     "uxb": 1,
-    "precio_vta": 7699
+    "precio_vta": 8699
   },
   {
     "codigos": 9781,
@@ -89454,6 +91884,24 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10022
   },
   {
+    "codigos": 480740,
+    "productos": "TUBITO DE MAIZ BURBUJAS x400g",
+    "uxb": 10,
+    "precio_vta": 3699
+  },
+  {
+    "codigos": 480725,
+    "productos": "TUBITO DE MAIZ BURBUJAS x80g",
+    "uxb": 30,
+    "precio_vta": 749
+  },
+  {
+    "codigos": 480739,
+    "productos": "TUBITOS DE MAIZ BURBUJA x1Kg",
+    "uxb": 5,
+    "precio_vta": 5899
+  },
+  {
     "codigos": 477598,
     "productos": "TUBITOS QUESO PEI-PO x300gr",
     "uxb": 10,
@@ -89469,13 +91917,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3446,
     "productos": "TULIPAN BLANCO CLASICO X3UNI",
     "uxb": 1,
-    "precio_vta": 1399
+    "precio_vta": 1599
   },
   {
     "codigos": 4967,
     "productos": "TULIPAN SURTIDO",
     "uxb": 1,
-    "precio_vta": 1299
+    "precio_vta": 1599
   },
   {
     "codigos": 479699,
@@ -89499,13 +91947,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9333,
     "productos": "TURRON ARCOR ROCKLETS X UNID",
     "uxb": 50,
-    "precio_vta": 272
+    "precio_vta": 269
   },
   {
     "codigos": 3447,
     "productos": "TURRON ARCOR x UNIDAD",
     "uxb": 50,
-    "precio_vta": 262
+    "precio_vta": 259
   },
   {
     "codigos": 479971,
@@ -89540,8 +91988,8 @@ const PRODUCTOS_PRECIOS = [
   {
     "codigos": 3462,
     "productos": "TURRON DE ARROZ PAYSANDU x30",
-    "uxb": 30,
-    "precio_vta": 4199
+    "uxb": 1,
+    "precio_vta": 4999
   },
   {
     "codigos": 3452,
@@ -89613,7 +92061,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3457,
     "productos": "TURRON MISKY x UNIDAD",
     "uxb": 50,
-    "precio_vta": 187
+    "precio_vta": 209
   },
   {
     "codigos": 4030,
@@ -89739,31 +92187,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3159,
     "productos": "VAINILLAS POZO CHOCOLATE x148g",
     "uxb": 14,
-    "precio_vta": 839
+    "precio_vta": 1149
   },
   {
     "codigos": 3498,
     "productos": "VAINILLAS POZO x148gr",
     "uxb": 28,
-    "precio_vta": 976
+    "precio_vta": 999
   },
   {
     "codigos": 3499,
     "productos": "VAINILLAS POZO x296gr",
     "uxb": 12,
-    "precio_vta": 1889
+    "precio_vta": 1999
   },
   {
     "codigos": 3502,
     "productos": "VAINILLAS POZO x444gr",
     "uxb": 8,
-    "precio_vta": 2834
+    "precio_vta": 2999
   },
   {
     "codigos": 464557,
     "productos": "VAINILLAS POZO x85g",
     "uxb": 48,
-    "precio_vta": 503
+    "precio_vta": 569
   },
   {
     "codigos": 3494,
@@ -89871,7 +92319,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471658,
     "productos": "VAPORIZ.PAULA ALEGRIA X60ml",
     "uxb": 3,
-    "precio_vta": 19843
+    "precio_vta": 29999
   },
   {
     "codigos": 480333,
@@ -89883,31 +92331,43 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468138,
     "productos": "VAPORIZADOR ANA BY A.M x75ml",
     "uxb": 3,
-    "precio_vta": 28339
+    "precio_vta": 31999
+  },
+  {
+    "codigos": 480564,
+    "productos": "VAPORIZADOR ANA MAIORANA GLAM x75cc",
+    "uxb": 1,
+    "precio_vta": 31999
+  },
+  {
+    "codigos": 463336,
+    "productos": "VAPORIZADOR BOGANI CHIC x60ml",
+    "uxb": 1,
+    "precio_vta": 30999
   },
   {
     "codigos": 463337,
     "productos": "VAPORIZADOR BOGANI POUR FEMME x60ml",
     "uxb": 1,
-    "precio_vta": 27299
+    "precio_vta": 30999
   },
   {
     "codigos": 461369,
-    "productos": "VAPORIZADOR BOGANI TOUT NOIR x40ml",
+    "productos": "VAPORIZADOR BOGANI TOUT NOIR x60ml",
     "uxb": 3,
-    "precio_vta": 20999
+    "precio_vta": 30999
   },
   {
     "codigos": 10740,
     "productos": "VAPORIZADOR BROSS LONDON BLUE x100ml",
     "uxb": 3,
-    "precio_vta": 23519
+    "precio_vta": 24999
   },
   {
     "codigos": 10742,
     "productos": "VAPORIZADOR BROSS LONDON CLASSIC x100ml",
     "uxb": 3,
-    "precio_vta": 23519
+    "precio_vta": 24999
   },
   {
     "codigos": 10741,
@@ -89919,19 +92379,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471234,
     "productos": "VAPORIZADOR CARO CUORE AMORE x60ml",
     "uxb": 3,
-    "precio_vta": 24149
+    "precio_vta": 26999
   },
   {
     "codigos": 479527,
     "productos": "VAPORIZADOR CARO CUORE CUORE x60cc",
     "uxb": 3,
-    "precio_vta": 23939
+    "precio_vta": 26999
   },
   {
     "codigos": 10738,
     "productos": "VAPORIZADOR CARO CUORE ROJO 60ml",
     "uxb": 3,
-    "precio_vta": 23939
+    "precio_vta": 26999
   },
   {
     "codigos": 9680,
@@ -89943,7 +92403,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7167,
     "productos": "VAPORIZADOR CHESTER ICE x60ml",
     "uxb": 3,
-    "precio_vta": 10814
+    "precio_vta": 11999
   },
   {
     "codigos": 475444,
@@ -89973,7 +92433,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467844,
     "productos": "VAPORIZADOR CIEL MAGIC x50ml",
     "uxb": 3,
-    "precio_vta": 17219
+    "precio_vta": 19999
   },
   {
     "codigos": 470366,
@@ -89985,7 +92445,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 462975,
     "productos": "VAPORIZADOR CIEL NOIR x50ml",
     "uxb": 3,
-    "precio_vta": 18059
+    "precio_vta": 19999
   },
   {
     "codigos": 478996,
@@ -90015,13 +92475,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479140,
     "productos": "VAPORIZADOR CIEL SHINE x50cc",
     "uxb": 3,
-    "precio_vta": 18164
+    "precio_vta": 19999
   },
   {
     "codigos": 8247,
     "productos": "VAPORIZADOR COLBERT ACQUA x60ml",
     "uxb": 3,
-    "precio_vta": 13124
+    "precio_vta": 13999
   },
   {
     "codigos": 469170,
@@ -90033,13 +92493,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9679,
     "productos": "VAPORIZADOR COLBERT NOIR x60ml",
     "uxb": 3,
-    "precio_vta": 12074
+    "precio_vta": 12999
   },
   {
     "codigos": 1701,
     "productos": "VAPORIZADOR COLBERT ORIGINAL x60ml",
     "uxb": 3,
-    "precio_vta": 10394
+    "precio_vta": 11999
   },
   {
     "codigos": 9678,
@@ -90051,13 +92511,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460841,
     "productos": "VAPORIZADOR COLBERT SPACE x60ml",
     "uxb": 3,
-    "precio_vta": 12599
+    "precio_vta": 13999
   },
   {
     "codigos": 1686,
     "productos": "VAPORIZADOR COLBERT US x60ml",
     "uxb": 3,
-    "precio_vta": 11444
+    "precio_vta": 12999
   },
   {
     "codigos": 10635,
@@ -90066,46 +92526,58 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 9658
   },
   {
+    "codigos": 7172,
+    "productos": "VAPORIZADOR FLOWER ROSE x40ml",
+    "uxb": 3,
+    "precio_vta": 10999
+  },
+  {
     "codigos": 7164,
     "productos": "VAPORIZADOR KEVIN ABSOLUTE x60ml",
     "uxb": 3,
-    "precio_vta": 23099
+    "precio_vta": 24999
   },
   {
     "codigos": 7165,
     "productos": "VAPORIZADOR KEVIN BLACK x60ml",
     "uxb": 3,
-    "precio_vta": 16484
+    "precio_vta": 16999
   },
   {
     "codigos": 11210,
     "productos": "VAPORIZADOR KEVIN FREEDOM 60 ML",
     "uxb": 3,
-    "precio_vta": 18899
+    "precio_vta": 20999
   },
   {
     "codigos": 472383,
     "productos": "VAPORIZADOR KEVIN ICE x60ml",
     "uxb": 3,
-    "precio_vta": 13124
+    "precio_vta": 14999
+  },
+  {
+    "codigos": 467579,
+    "productos": "VAPORIZADOR KEVIN METAL x60ml",
+    "uxb": 3,
+    "precio_vta": 24999
   },
   {
     "codigos": 7885,
     "productos": "VAPORIZADOR KEVIN PARK x60ml",
     "uxb": 3,
-    "precio_vta": 15959
+    "precio_vta": 16999
   },
   {
     "codigos": 7163,
     "productos": "VAPORIZADOR KEVIN PLATINUM x50ml",
     "uxb": 3,
-    "precio_vta": 20894
+    "precio_vta": 24999
   },
   {
     "codigos": 475916,
     "productos": "VAPORIZADOR KEVIN RED x60ml",
     "uxb": 3,
-    "precio_vta": 22049
+    "precio_vta": 24999
   },
   {
     "codigos": 470367,
@@ -90129,13 +92601,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7173,
     "productos": "VAPORIZADOR L'XTREME x40ml",
     "uxb": 3,
-    "precio_vta": 9239
+    "precio_vta": 10999
   },
   {
     "codigos": 471235,
     "productos": "VAPORIZADOR LAS PEPAS x100ml",
     "uxb": 3,
     "precio_vta": 32444
+  },
+  {
+    "codigos": 460742,
+    "productos": "VAPORIZADOR MUJERCITAS x40ml",
+    "uxb": 3,
+    "precio_vta": 8999
   },
   {
     "codigos": 461361,
@@ -90165,19 +92643,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460516,
     "productos": "VAPORIZADOR PAULA CAHEN AMOR x60ml",
     "uxb": 3,
-    "precio_vta": 26249
+    "precio_vta": 29999
   },
   {
     "codigos": 460517,
     "productos": "VAPORIZADOR PAULA CAHEN LUZ x60ml",
     "uxb": 3,
-    "precio_vta": 26249
+    "precio_vta": 29999
   },
   {
     "codigos": 10737,
     "productos": "VAPORIZADOR PAULA CAHEN x60ml",
     "uxb": 3,
-    "precio_vta": 26249
+    "precio_vta": 29999
   },
   {
     "codigos": 7892,
@@ -90237,7 +92715,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3521,
     "productos": "VARITA MAGICA x12u FACUNDITO PAYSANDU",
     "uxb": 16,
-    "precio_vta": 2309
+    "precio_vta": 2699
   },
   {
     "codigos": 465670,
@@ -90286,6 +92764,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "VASO C/BOQUILLA UNICORNIO x260c STAR",
     "uxb": 50,
     "precio_vta": 1283
+  },
+  {
+    "codigos": 480764,
+    "productos": "VASO C/SORB ENOJOY IMP EMA 56377/76",
+    "uxb": 1,
+    "precio_vta": 4999
   },
   {
     "codigos": 4372,
@@ -90345,7 +92829,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472419,
     "productos": "VASO COLOR C/TETINA BEBYS",
     "uxb": 1,
-    "precio_vta": 1364
+    "precio_vta": 1501
   },
   {
     "codigos": 479963,
@@ -90516,6 +93000,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1713
   },
   {
+    "codigos": 480798,
+    "productos": "VASO GLASSWARE VIDR IMP EMA 57384",
+    "uxb": 1,
+    "precio_vta": 8559
+  },
+  {
     "codigos": 473114,
     "productos": "VASO HOEGAARDEN x500cc",
     "uxb": 6,
@@ -90636,6 +93126,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4093
   },
   {
+    "codigos": 476461,
+    "productos": "VASO PINTA VITRIFICADO ORGON X2UN",
+    "uxb": 1,
+    "precio_vta": 7210
+  },
+  {
     "codigos": 465642,
     "productos": "VASO PINTA/STOUT DISEÑO CAMPEONES",
     "uxb": 48,
@@ -90735,7 +93231,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469235,
     "productos": "VASO PLASTICOS 300cc x100Un. DISTRIVALLE",
     "uxb": 1,
-    "precio_vta": 4829
+    "precio_vta": 6299
   },
   {
     "codigos": 474350,
@@ -90822,6 +93318,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1686
   },
   {
+    "codigos": 476818,
+    "productos": "VASO TERM.DOBL PARED C/TAP-SORB IMP-EMANUEL",
+    "uxb": 1,
+    "precio_vta": 17931
+  },
+  {
     "codigos": 13460,
     "productos": "VASO TERMICO 120CC TUCU x25u",
     "uxb": 1,
@@ -90861,7 +93363,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471730,
     "productos": "VASO TERMICO ARO 300ml x25un",
     "uxb": 1,
-    "precio_vta": 3874
+    "precio_vta": 3999
   },
   {
     "codigos": 479863,
@@ -90903,7 +93405,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468270,
     "productos": "VASO TERMICO DART x180c x25Un.",
     "uxb": 1,
-    "precio_vta": 2656
+    "precio_vta": 2999
   },
   {
     "codigos": 478631,
@@ -90984,6 +93486,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1086
   },
   {
+    "codigos": 460859,
+    "productos": "VASOS MEDIANOS DISEÑO ARGOS",
+    "uxb": 1,
+    "precio_vta": 1299
+  },
+  {
     "codigos": 471594,
     "productos": "VASOS PLASTICOS 180x100un DISTRIVALLE",
     "uxb": 1,
@@ -91017,7 +93525,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 11185,
     "productos": "VASOS TERMICOS V240x25u",
     "uxb": 1,
-    "precio_vta": 3079
+    "precio_vta": 3499
   },
   {
     "codigos": 464511,
@@ -91041,13 +93549,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479960,
     "productos": "VELA FINITA TORNEADA x10u TUKY",
     "uxb": 1,
-    "precio_vta": 549
+    "precio_vta": 649
+  },
+  {
+    "codigos": 480819,
+    "productos": "VELA GLOBO MET TUKI DORADA",
+    "uxb": 1,
+    "precio_vta": 1199
   },
   {
     "codigos": 479958,
     "productos": "VELA GLOBO NRO METALICA TUKY",
     "uxb": 1,
-    "precio_vta": 1099
+    "precio_vta": 1299
   },
   {
     "codigos": 467314,
@@ -91065,7 +93579,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480339,
     "productos": "VELA NUMERO GLOBO GIBRE TUKY",
     "uxb": 1,
-    "precio_vta": 899
+    "precio_vta": 999
   },
   {
     "codigos": 479953,
@@ -91131,7 +93645,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476755,
     "productos": "VELAS AMANECER CORTAS X4UN",
     "uxb": 54,
-    "precio_vta": 565
+    "precio_vta": 690
   },
   {
     "codigos": 1778,
@@ -91227,7 +93741,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479959,
     "productos": "VELAS NUMEROS TOKIO GIBRE TUKY",
     "uxb": 1,
-    "precio_vta": 699
+    "precio_vta": 749
   },
   {
     "codigos": 479954,
@@ -91251,7 +93765,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3531,
     "productos": "VELAS RAYO DE LUZ x4u ROJAS",
     "uxb": 25,
-    "precio_vta": 838
+    "precio_vta": 799
   },
   {
     "codigos": 7362,
@@ -91326,58 +93840,70 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 32900
   },
   {
+    "codigos": 480713,
+    "productos": "VERDURA DESHIDRATADA KNORR x100g",
+    "uxb": 1,
+    "precio_vta": 1490
+  },
+  {
+    "codigos": 8443,
+    "productos": "VERTEDOR 1.5KG YESI",
+    "uxb": 18,
+    "precio_vta": 2999
+  },
+  {
     "codigos": 8401,
     "productos": "VERTEDOR 1KG YESI",
     "uxb": 20,
-    "precio_vta": 1812
+    "precio_vta": 1993
   },
   {
     "codigos": 8425,
     "productos": "VERTEDOR 500G YESI",
     "uxb": 42,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 478733,
     "productos": "VERTEDOR C/MEDIDA C/TP HERALDPx550CM",
     "uxb": 1,
-    "precio_vta": 839
+    "precio_vta": 923
   },
   {
     "codigos": 8730,
     "productos": "VERTEDOR C/TAPA CHICO x550cc HERALDPLAST",
     "uxb": 24,
-    "precio_vta": 682
+    "precio_vta": 750
   },
   {
     "codigos": 8755,
     "productos": "VERTEDOR C/TAPA GDE x1.100cc HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 1206
+    "precio_vta": 1327
   },
   {
     "codigos": 8424,
     "productos": "VERTEDOR DOBLE 1KG YESI",
     "uxb": 20,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 10462,
     "productos": "VERTEDOR REDONDO x370cc HERALDPLAST",
     "uxb": 1,
-    "precio_vta": 545
+    "precio_vta": 600
   },
   {
     "codigos": 474362,
     "productos": "VERTEDOR VISOR DIA D/PADRE x750CC",
     "uxb": 60,
-    "precio_vta": 2309
+    "precio_vta": 2540
   },
   {
     "codigos": 469311,
     "productos": "VERTEDOR VISOR IND 0.75l STAR",
     "uxb": 106,
-    "precio_vta": 2309
+    "precio_vta": 2540
   },
   {
     "codigos": 470013,
@@ -91485,7 +94011,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 7045,
     "productos": "VINAGRE MAROLIO ALCOHOL 500ML",
     "uxb": 12,
-    "precio_vta": 899
+    "precio_vta": 949
   },
   {
     "codigos": 3563,
@@ -91503,7 +94029,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10806,
     "productos": "VINAGRE MAROLIO MANZANA x500ml",
     "uxb": 12,
-    "precio_vta": 1299
+    "precio_vta": 1459
   },
   {
     "codigos": 3565,
@@ -91527,7 +94053,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10654,
     "productos": "VINAGRE MOLTO ALCOHOL x1lt",
     "uxb": 12,
-    "precio_vta": 1149
+    "precio_vta": 1199
   },
   {
     "codigos": 10656,
@@ -91545,7 +94071,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10515,
     "productos": "VINAGRE MOLTO MANZANA 500ML",
     "uxb": 12,
-    "precio_vta": 1399
+    "precio_vta": 1999
   },
   {
     "codigos": 10655,
@@ -91926,6 +94452,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3673
   },
   {
+    "codigos": 2184,
+    "productos": "VINO CAFAYATE COSECHA TARDIA",
+    "uxb": 6,
+    "precio_vta": 4699
+  },
+  {
+    "codigos": 478954,
+    "productos": "VINO CAFAYATE ROSE 2024 x750ML",
+    "uxb": 1,
+    "precio_vta": 3799
+  },
+  {
     "codigos": 477123,
     "productos": "VINO CALLIA x750cc BCO DCE",
     "uxb": 6,
@@ -92091,7 +94629,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9462,
     "productos": "VINO CAVAS SAN.J.CHENIN DULCE x750cc",
     "uxb": 6,
-    "precio_vta": 2939
+    "precio_vta": 2899
   },
   {
     "codigos": 9514,
@@ -92118,6 +94656,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2938
   },
   {
+    "codigos": 850,
+    "productos": "VINO CHATEAU MENDOZA ROSADO DCE 750ML",
+    "uxb": 6,
+    "precio_vta": 3999
+  },
+  {
     "codigos": 476368,
     "productos": "VINO CHATEAU VIEUX MALBEC X750",
     "uxb": 6,
@@ -92130,28 +94674,34 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 10079
   },
   {
+    "codigos": 480597,
+    "productos": "VINO CHICO MALO BCO DULCE X 750 ML",
+    "uxb": 6,
+    "precio_vta": 3199
+  },
+  {
     "codigos": 476267,
     "productos": "VINO CHICO MALO MALBEC x750ml",
     "uxb": 6,
-    "precio_vta": 3142
+    "precio_vta": 2699
   },
   {
     "codigos": 474514,
     "productos": "VINO CIUDAD DE PECADORES CHARDONNAY x750ml",
     "uxb": 6,
-    "precio_vta": 3034
+    "precio_vta": 3599
   },
   {
     "codigos": 478077,
     "productos": "VINO CIUDAD DE PECADORES MALBEC x750ml",
     "uxb": 6,
-    "precio_vta": 3034
+    "precio_vta": 3599
   },
   {
     "codigos": 478627,
     "productos": "VINO CLUB DE PLAYA BCO DUL. x750cc",
     "uxb": 6,
-    "precio_vta": 3044
+    "precio_vta": 2999
   },
   {
     "codigos": 478628,
@@ -92211,7 +94761,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1091,
     "productos": "VINO CROTTA COSECHA TARDIA X500ML",
     "uxb": 6,
-    "precio_vta": 5613
+    "precio_vta": 5780
   },
   {
     "codigos": 3223,
@@ -92295,7 +94845,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1266,
     "productos": "VINO DILEMA DAY BCO DULCE 750ML",
     "uxb": 6,
-    "precio_vta": 3148
+    "precio_vta": 2999
   },
   {
     "codigos": 463952,
@@ -92355,13 +94905,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478093,
     "productos": "VINO EL NAUFRAGO BCO DULCE x750cc",
     "uxb": 6,
-    "precio_vta": 3417
+    "precio_vta": 2899
   },
   {
     "codigos": 476266,
     "productos": "VINO EL NAUFRAGO MALBEC X750ML",
     "uxb": 6,
-    "precio_vta": 2976
+    "precio_vta": 2499
   },
   {
     "codigos": 475270,
@@ -92607,7 +95157,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 479158,
     "productos": "VINO ETCHART CAFAYATE CAB SAUV x750cc",
     "uxb": 6,
-    "precio_vta": 3779
+    "precio_vta": 4699
   },
   {
     "codigos": 3756,
@@ -92619,7 +95169,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1283,
     "productos": "VINO ETCHART CAFAYATE MALBEC X750ML",
     "uxb": 6,
-    "precio_vta": 3979
+    "precio_vta": 4699
+  },
+  {
+    "codigos": 480654,
+    "productos": "VINO ETCHART CAFAYATE ROSE x750cc",
+    "uxb": 6,
+    "precio_vta": 4699
   },
   {
     "codigos": 608,
@@ -92631,13 +95187,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465042,
     "productos": "VINO ETCHART PRIVADO TORRENTES x750cc",
     "uxb": 6,
-    "precio_vta": 4198
+    "precio_vta": 4399
   },
   {
     "codigos": 1284,
     "productos": "VINO ETCHART PRIVADO TORRONTES x750cc",
     "uxb": 6,
-    "precio_vta": 3674
+    "precio_vta": 4299
   },
   {
     "codigos": 476297,
@@ -92904,6 +95460,18 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3706
   },
   {
+    "codigos": 2370,
+    "productos": "VINO LOS ARBOLES CABERNET x750c",
+    "uxb": 6,
+    "precio_vta": 3741
+  },
+  {
+    "codigos": 11431,
+    "productos": "VINO LOS ARBOLES MALBEC x750c",
+    "uxb": 6,
+    "precio_vta": 3741
+  },
+  {
     "codigos": 2149,
     "productos": "VINO LOS HAROLDOS CHARDONNAY x700ml",
     "uxb": 6,
@@ -92944,6 +95512,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "VINO NAMPE MALBEC x750cc",
     "uxb": 6,
     "precio_vta": 3139
+  },
+  {
+    "codigos": 478829,
+    "productos": "VINO NAMPE TEMPRANILLO X750ml",
+    "uxb": 6,
+    "precio_vta": 2499
   },
   {
     "codigos": 466505,
@@ -92991,7 +95565,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477239,
     "productos": "VINO NONO ADRIANO MALBEC x750cc",
     "uxb": 6,
-    "precio_vta": 2645
+    "precio_vta": 2499
   },
   {
     "codigos": 2447,
@@ -93009,7 +95583,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3803,
     "productos": "VINO NORTON COSECHA TARDIA TTO X750ML",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 3999
   },
   {
     "codigos": 470188,
@@ -93111,7 +95685,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12210,
     "productos": "VINO RESERO BLANCO TETRA 1L",
     "uxb": 12,
-    "precio_vta": 1469
+    "precio_vta": 1399
   },
   {
     "codigos": 473929,
@@ -93129,7 +95703,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 12209,
     "productos": "VINO RESERO TINTO TETRA 1L",
     "uxb": 12,
-    "precio_vta": 1573
+    "precio_vta": 1399
   },
   {
     "codigos": 464957,
@@ -93256,6 +95830,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "VINO SAN FELIPE ROBLE TARDIO X750ML",
     "uxb": 6,
     "precio_vta": 4911
+  },
+  {
+    "codigos": 3016,
+    "productos": "VINO SAN FELIPE ROSE MALBEC 750cc",
+    "uxb": 6,
+    "precio_vta": 4677
   },
   {
     "codigos": 3004,
@@ -93405,7 +95985,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474628,
     "productos": "VINO SANTA JULIA CABERNET FRANC x750cc",
     "uxb": 6,
-    "precio_vta": 4294
+    "precio_vta": 4699
   },
   {
     "codigos": 479155,
@@ -93420,10 +96000,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 2204
   },
   {
+    "codigos": 480716,
+    "productos": "VINO SANTA JULIA LA SELECC. MBC x750c",
+    "uxb": 6,
+    "precio_vta": 5399
+  },
+  {
     "codigos": 468568,
     "productos": "VINO SANTA JULIA LATA TTO DCE X269CC",
     "uxb": 24,
     "precio_vta": 2309
+  },
+  {
+    "codigos": 469614,
+    "productos": "VINO SANTA JULIA MALB-CABER EST X2 750CC",
+    "uxb": 6,
+    "precio_vta": 12199
   },
   {
     "codigos": 469613,
@@ -93438,10 +96030,16 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3153
   },
   {
+    "codigos": 480571,
+    "productos": "VINO SANTA JULIA PINOT GRIGIO x750cc",
+    "uxb": 6,
+    "precio_vta": 4699
+  },
+  {
     "codigos": 468567,
     "productos": "VINO SANTA JULIA PINOT NOIR x750cc",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 462858,
@@ -93495,67 +96093,67 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 5211,
     "productos": "VINO SANTA JULIA x750ml BCO SUAVIG",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 3049,
     "productos": "VINO SANTA JULIA x750ml CABERNET",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 5210,
     "productos": "VINO SANTA JULIA x750ml CHARDONNAY",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 3050,
     "productos": "VINO SANTA JULIA x750ml CHENIN DCE",
     "uxb": 6,
-    "precio_vta": 5774
+    "precio_vta": 5699
   },
   {
     "codigos": 3051,
     "productos": "VINO SANTA JULIA x750ml MALBEC",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 5208,
     "productos": "VINO SANTA JULIA x750ml MERLOT",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 3052,
     "productos": "VINO SANTA JULIA x750ml SYRAH",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 5207,
     "productos": "VINO SANTA JULIA x750ml SYRAH ROSE",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 9826,
     "productos": "VINO SANTA JULIA x750ml TEMPRANILL",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 5209,
     "productos": "VINO SANTA JULIA x750ml TORRONTES",
     "uxb": 6,
-    "precio_vta": 4619
+    "precio_vta": 4699
   },
   {
     "codigos": 5998,
     "productos": "VINO SANTA JULIA x750ml TTO DULCE",
     "uxb": 6,
-    "precio_vta": 5774
+    "precio_vta": 5699
   },
   {
     "codigos": 462859,
@@ -93573,7 +96171,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478838,
     "productos": "VINO SEXI FISH MALBEC X750ML",
     "uxb": 1,
-    "precio_vta": 4829
+    "precio_vta": 3999
   },
   {
     "codigos": 470572,
@@ -93583,13 +96181,13 @@ const PRODUCTOS_PRECIOS = [
   },
   {
     "codigos": 470574,
-    "productos": "VINO SUTER COSEC TARDIA DCE NAT 750ML",
+    "productos": "VINO SUTER VARIET. C.TARDIA DCE NAT x750ml",
     "uxb": 6,
     "precio_vta": 3094
   },
   {
     "codigos": 470385,
-    "productos": "VINO SUTER MALBEC 750ML",
+    "productos": "VINO SUTER VARIETAL MALBEC x750ml",
     "uxb": 6,
     "precio_vta": 3149
   },
@@ -93670,6 +96268,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "VINO TORO VIEJO TINTO x750ml",
     "uxb": 6,
     "precio_vta": 1888
+  },
+  {
+    "codigos": 478955,
+    "productos": "VINO TORRONT DULCE/T 2024 CAFAYATEx750M",
+    "uxb": 1,
+    "precio_vta": 4699
   },
   {
     "codigos": 473512,
@@ -93843,7 +96447,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465182,
     "productos": "VINO VIÑAS DE ALVEAR BCO X1.25LT",
     "uxb": 6,
-    "precio_vta": 2755
+    "precio_vta": 2599
   },
   {
     "codigos": 2177,
@@ -93861,7 +96465,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3603,
     "productos": "VINO VIÑAS DE ALVEAR TTO X1.125LT",
     "uxb": 6,
-    "precio_vta": 2623
+    "precio_vta": 2599
   },
   {
     "codigos": 3605,
@@ -93984,6 +96588,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 3673
   },
   {
+    "codigos": 20106,
+    "productos": "VODKA ABSOLUT ORIGINAL x700cc",
+    "uxb": 12,
+    "precio_vta": 22999
+  },
+  {
     "codigos": 465040,
     "productos": "VODKA ABSOLUT SABORIZADO x750cc EXTRAKT",
     "uxb": 6,
@@ -94047,7 +96657,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480148,
     "productos": "VODKA BUBBLE GUM NEW STYLE x1Lt",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4535
   },
   {
     "codigos": 3619,
@@ -94059,7 +96669,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480151,
     "productos": "VODKA EVOLUTION NEW STYLE x1Lt",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4535
   },
   {
     "codigos": 480111,
@@ -94068,10 +96678,22 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 7349
   },
   {
-    "codigos": 11657,
-    "productos": "VODKA IGGOR 1L",
+    "codigos": 480836,
+    "productos": "VODKA GALAXY BERRIES MAYOR x750ML",
     "uxb": 6,
-    "precio_vta": 2755
+    "precio_vta": 8999
+  },
+  {
+    "codigos": 480835,
+    "productos": "VODKA GALAXY EXOTIC MAYOR x750ml",
+    "uxb": 6,
+    "precio_vta": 8999
+  },
+  {
+    "codigos": 480824,
+    "productos": "VODKA GALAXY GUM MAYOR x750ML",
+    "uxb": 6,
+    "precio_vta": 8999
   },
   {
     "codigos": 3629,
@@ -94095,73 +96717,73 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480349,
     "productos": "VODKA NEW STYLE GUMMY MORITA x1lt",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4762
   },
   {
     "codigos": 480348,
     "productos": "VODKA NEW STYLE LOLLIPOP x1Lt",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4762
   },
   {
     "codigos": 480347,
     "productos": "VODKA NEW STYLE PINEAPPLE x1lt",
     "uxb": 6,
-    "precio_vta": 4409
+    "precio_vta": 4762
   },
   {
     "codigos": 11951,
     "productos": "VODKA NEW STYLE SABORIZADO x1L CITRUS",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 12050,
     "productos": "VODKA NEW STYLE SABORIZADO x1L FRUTOS ROJ",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 11952,
     "productos": "VODKA NEW STYLE SABORIZADO x1L MARACUYA",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 11953,
     "productos": "VODKA NEW STYLE SABORIZADO x1L MELON",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 466542,
     "productos": "VODKA NEW STYLE SABORIZADO x1L MZANA VERD",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 11954,
     "productos": "VODKA NEW STYLE SABORIZADO x1L PERA",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 12336,
     "productos": "VODKA NEW STYLE SABORIZADO x1L SANDIA",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 473755,
     "productos": "VODKA NEW STYLE SABORIZADO x1L UVA-ARANDA",
     "uxb": 6,
-    "precio_vta": 3673
+    "precio_vta": 3967
   },
   {
     "codigos": 3615,
     "productos": "VODKA NEW STYLE x1lt",
     "uxb": 6,
-    "precio_vta": 3307
+    "precio_vta": 3571
   },
   {
     "codigos": 4138,
@@ -94209,7 +96831,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480150,
     "productos": "VODKA RASBERRY NEW STYLE x1Lt",
     "uxb": 6,
-    "precio_vta": 4199
+    "precio_vta": 4535
   },
   {
     "codigos": 480110,
@@ -94221,31 +96843,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472260,
     "productos": "VODKA SERNOVA SABORIZADO x700Lt APPLE",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 7999
   },
   {
     "codigos": 472258,
     "productos": "VODKA SERNOVA SABORIZADO x700Lt BERRY",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 7999
   },
   {
     "codigos": 479739,
     "productos": "VODKA SERNOVA SABORIZADO x700Lt CARIBBEAN",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 7999
   },
   {
     "codigos": 472261,
     "productos": "VODKA SERNOVA SABORIZADO x700Lt CITRUS",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 7999
   },
   {
     "codigos": 472259,
     "productos": "VODKA SERNOVA SABORIZADO x700Lt PASSION",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 7999
   },
   {
     "codigos": 476299,
@@ -94269,19 +96891,19 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467180,
     "productos": "VODKA SKYY SABORIZADO x750cc APRICOT",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 9999
   },
   {
     "codigos": 462326,
     "productos": "VODKA SKYY SABORIZADO x750cc PASSION FR",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 9999
   },
   {
     "codigos": 462325,
     "productos": "VODKA SKYY SABORIZADO x750cc RASPBERRY",
     "uxb": 12,
-    "precio_vta": 10499
+    "precio_vta": 9999
   },
   {
     "codigos": 3622,
@@ -94293,85 +96915,85 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 471314,
     "productos": "VODKA SMIRNOFF ICE x473cc C/VODKA",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2499
   },
   {
     "codigos": 479043,
     "productos": "VODKA SMIRNOFF ICE x473cc GRAPEFRUI/",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2499
   },
   {
     "codigos": 471586,
     "productos": "VODKA SMIRNOFF ICE x473cc GREENAPPLE",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2499
   },
   {
     "codigos": 478140,
     "productos": "VODKA SMIRNOFF ICE x473cc NARANJA L",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2499
   },
   {
     "codigos": 8554,
     "productos": "VODKA SMIRNOFF ICE x473cc NARANJA Y",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2499
   },
   {
     "codigos": 471587,
     "productos": "VODKA SMIRNOFF ICE x473cc RED BERRYE",
     "uxb": 24,
-    "precio_vta": 2729
+    "precio_vta": 2499
   },
   {
     "codigos": 11984,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt GRAPEFRUIT",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8499
   },
   {
     "codigos": 11983,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt GREEN APPL",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8499
   },
   {
     "codigos": 11982,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt RASPBERRY",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8499
   },
   {
     "codigos": 471331,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt RUBY ORANG",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8499
+  },
+  {
+    "codigos": 10809,
+    "productos": "VODKA SMIRNOFF SABORIZADO x700Lt TAMARINDO",
+    "uxb": 6,
+    "precio_vta": 8499
   },
   {
     "codigos": 471332,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt TANGERINE",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8499
   },
   {
     "codigos": 473731,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt TROPICAL F",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8499
   },
   {
     "codigos": 11981,
     "productos": "VODKA SMIRNOFF SABORIZADO x700Lt WATERMELON",
     "uxb": 6,
-    "precio_vta": 8398
-  },
-  {
-    "codigos": 10809,
-    "productos": "VODKA SMIRNOFF TAMARINDO X700cc",
-    "uxb": 6,
-    "precio_vta": 8084
+    "precio_vta": 8499
   },
   {
     "codigos": 3769,
@@ -94431,7 +97053,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480002,
     "productos": "WAFLES&PANCAKES LA PARMESANA x180g",
     "uxb": 24,
-    "precio_vta": 3149
+    "precio_vta": 3199
   },
   {
     "codigos": 478419,
@@ -94467,7 +97089,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 4949,
     "productos": "WD-AERO MULTIUSO x155g",
     "uxb": 12,
-    "precio_vta": 5499
+    "precio_vta": 5999
   },
   {
     "codigos": 464556,
@@ -94557,7 +97179,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3640,
     "productos": "WHISKY CRIADORES x1lt",
     "uxb": 6,
-    "precio_vta": 8398
+    "precio_vta": 8799
   },
   {
     "codigos": 465338,
@@ -94587,7 +97209,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 9615,
     "productos": "WHISKY GLOUCESTER x750cc",
     "uxb": 6,
-    "precio_vta": 3149
+    "precio_vta": 3401
   },
   {
     "codigos": 462306,
@@ -94716,6 +97338,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 23099
   },
   {
+    "codigos": 54789,
+    "productos": "WOK TRILLIUM X32cm TUCU",
+    "uxb": 1,
+    "precio_vta": 21900
+  },
+  {
     "codigos": 476203,
     "productos": "XILOFON FORMA DE CASITA C/SONID",
     "uxb": 12,
@@ -94806,6 +97434,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1889
   },
   {
+    "codigos": 10578,
+    "productos": "YERBA AMANDA TERERE TRAD X500g",
+    "uxb": 10,
+    "precio_vta": 1942
+  },
+  {
     "codigos": 3668,
     "productos": "YERBA AMANDA TRAD x1Kg",
     "uxb": 10,
@@ -94840,6 +97474,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "YERBA ANDRESITO ESPECIAL x1Kg",
     "uxb": 5,
     "precio_vta": 3148
+  },
+  {
+    "codigos": 460998,
+    "productos": "YERBA ANDRESITO PREM x500g",
+    "uxb": 10,
+    "precio_vta": 1399
   },
   {
     "codigos": 8203,
@@ -94878,6 +97518,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 1889
   },
   {
+    "codigos": 480562,
+    "productos": "YERBA CACHAMAI x500g",
+    "uxb": 10,
+    "precio_vta": 1299
+  },
+  {
     "codigos": 3677,
     "productos": "YERBA CACHAMATE 500g AMARILLA",
     "uxb": 12,
@@ -94911,7 +97557,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 474337,
     "productos": "YERBA CACHAMATE HIERBAS SERRANAS x1kg",
     "uxb": 10,
-    "precio_vta": 2833
+    "precio_vta": 2799
   },
   {
     "codigos": 464091,
@@ -94953,7 +97599,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 473772,
     "productos": "YERBA CANARIAS x500g",
     "uxb": 20,
-    "precio_vta": 6193
+    "precio_vta": 5999
   },
   {
     "codigos": 6995,
@@ -95127,13 +97773,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 14159,
     "productos": "YERBA ESPECIAL SUELTA x KILO",
     "uxb": 100,
-    "precio_vta": 3034
+    "precio_vta": 2499
   },
   {
     "codigos": 477625,
     "productos": "YERBA HIERBITAL COMP. X500GR",
     "uxb": 24,
-    "precio_vta": 1510
+    "precio_vta": 1549
   },
   {
     "codigos": 478202,
@@ -95493,7 +98139,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 3706,
     "productos": "YERBA ROSAMONTE SUAVE X500GR",
     "uxb": 10,
-    "precio_vta": 1942
+    "precio_vta": 1899
   },
   {
     "codigos": 468624,
@@ -95589,13 +98235,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 460299,
     "productos": "YERBA TRANQUERA SVE x500g",
     "uxb": 12,
-    "precio_vta": 1468
+    "precio_vta": 1399
   },
   {
     "codigos": 3717,
     "productos": "YERBA TRANQUERA x1Kg",
     "uxb": 6,
-    "precio_vta": 3043
+    "precio_vta": 2999
   },
   {
     "codigos": 3721,
@@ -95667,37 +98313,37 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 465646,
     "productos": "YERBERA LATA TUBO DISEÑOS",
     "uxb": 1,
-    "precio_vta": 1469
+    "precio_vta": 1616
   },
   {
     "codigos": 465647,
     "productos": "YERBERA REDONDA PLOTEADA",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 475541,
     "productos": "YERBERA/AZUCARERA PET VIHA x1LT",
     "uxb": 1,
-    "precio_vta": 1259
+    "precio_vta": 1385
   },
   {
     "codigos": 472319,
     "productos": "YERBERO/AZUCARERO C/TAPA VIHA",
     "uxb": 1,
-    "precio_vta": 2099
+    "precio_vta": 2309
   },
   {
     "codigos": 472927,
     "productos": "YOGUR ACTIMEL KIDS BEBIBLE x100g",
     "uxb": 1,
-    "precio_vta": 1956
+    "precio_vta": 2054
   },
   {
     "codigos": 470625,
     "productos": "YOGUR ACTIVIA BEB.CERO LACTOZA X 190GR",
     "uxb": 1,
-    "precio_vta": 1408
+    "precio_vta": 1478
   },
   {
     "codigos": 479008,
@@ -95710,6 +98356,18 @@ const PRODUCTOS_PRECIOS = [
     "productos": "YOGUR BEB. ENT TREMBLAY DURAZNO x900cc",
     "uxb": 1,
     "precio_vta": 1249
+  },
+  {
+    "codigos": 477395,
+    "productos": "YOGUR BEB.ENT TREMBLAY FRUTILLA x900cc",
+    "uxb": 10,
+    "precio_vta": 1299
+  },
+  {
+    "codigos": 477228,
+    "productos": "YOGUR BEB.ENT TREMBLAY VAINILLA X900",
+    "uxb": 10,
+    "precio_vta": 1299
   },
   {
     "codigos": 480237,
@@ -95757,25 +98415,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 477117,
     "productos": "YOGUR BEBIBLE TREGAR ARANDANO x900cc",
     "uxb": 18,
-    "precio_vta": 1717
+    "precio_vta": 1999
   },
   {
     "codigos": 477116,
     "productos": "YOGUR BEBIBLE TREGAR DURAZNO x900cc",
     "uxb": 18,
-    "precio_vta": 1717
+    "precio_vta": 1999
   },
   {
     "codigos": 477114,
     "productos": "YOGUR BEBIBLE TREGAR FRUTILLA x900",
     "uxb": 18,
-    "precio_vta": 1717
+    "precio_vta": 1999
   },
   {
     "codigos": 477115,
     "productos": "YOGUR BEBIBLE TREGAR VAINILLA x900cc",
     "uxb": 18,
-    "precio_vta": 1717
+    "precio_vta": 1999
   },
   {
     "codigos": 472436,
@@ -95835,7 +98493,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 472223,
     "productos": "YOGUR CLASICO SERENISIMA SACHET x220g",
     "uxb": 1,
-    "precio_vta": 216
+    "precio_vta": 227
   },
   {
     "codigos": 472299,
@@ -95847,25 +98505,25 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 1345,
     "productos": "YOGUR COSALTA MOMY 1LT BANANA",
     "uxb": 1,
-    "precio_vta": 2369
+    "precio_vta": 2290
   },
   {
     "codigos": 478038,
     "productos": "YOGUR COSALTA MOMY 1LT DURAZNO",
     "uxb": 1,
-    "precio_vta": 2369
+    "precio_vta": 2290
   },
   {
     "codigos": 477380,
     "productos": "YOGUR COSALTA MOMY 1LT FRUT/MANGO",
     "uxb": 1,
-    "precio_vta": 2369
+    "precio_vta": 2290
   },
   {
     "codigos": 472297,
     "productos": "YOGUR COSALTA MOMY 1LT VAINILLA",
     "uxb": 1,
-    "precio_vta": 2369
+    "precio_vta": 2290
   },
   {
     "codigos": 477708,
@@ -95895,7 +98553,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476486,
     "productos": "YOGUR COSALTA MOMY FRUTILLA X125G",
     "uxb": 1,
-    "precio_vta": 849
+    "precio_vta": 939
   },
   {
     "codigos": 476487,
@@ -95907,7 +98565,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 476577,
     "productos": "YOGUR COSALTA MOMY VAINILLA X125G",
     "uxb": 1,
-    "precio_vta": 849
+    "precio_vta": 939
   },
   {
     "codigos": 12048,
@@ -95973,61 +98631,73 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478558,
     "productos": "YOGUR DAHI BOT VARIOS x200cc",
     "uxb": 1,
-    "precio_vta": 1835
+    "precio_vta": 1927
   },
   {
     "codigos": 478557,
     "productos": "YOGUR DAHI ENT/DES C/PULPA x190g FRASCO",
     "uxb": 1,
-    "precio_vta": 2317
+    "precio_vta": 2433
   },
   {
     "codigos": 479112,
     "productos": "YOGUR DAHI EST.GRIEGO NATURAL x190gr",
     "uxb": 1,
-    "precio_vta": 2312
+    "precio_vta": 2428
   },
   {
     "codigos": 480449,
-    "productos": "YOGUR DAHI ESTILO GRIEGO C/ARANDANO X190",
+    "productos": "YOGUR DAHI ESTILO GRIEGO C/FRUTAS x190gr",
     "uxb": 1,
-    "precio_vta": 2499
+    "precio_vta": 2624
   },
   {
     "codigos": 478555,
     "productos": "YOGUR DAHI FIRME ENT/DESC VAIN/FRUT x190gr",
     "uxb": 1,
-    "precio_vta": 1969
+    "precio_vta": 2068
   },
   {
     "codigos": 478554,
     "productos": "YOGUR DAHI FIRME NAT.DESC S/AZUCAR x190gr",
     "uxb": 1,
-    "precio_vta": 1964
+    "precio_vta": 2063
   },
   {
     "codigos": 478553,
     "productos": "YOGUR DAHI FIRME NAT.ENT S/AZUCAR x190gr",
     "uxb": 1,
-    "precio_vta": 1969
+    "precio_vta": 2068
   },
   {
     "codigos": 478556,
     "productos": "YOGUR DAHI NAT DESLACTOSADO x190gr",
     "uxb": 1,
-    "precio_vta": 2317
+    "precio_vta": 2433
   },
   {
     "codigos": 478552,
     "productos": "YOGUR DAHI TENTACION VARIOS x130g FRASCO",
     "uxb": 1,
-    "precio_vta": 1849
+    "precio_vta": 1942
   },
   {
     "codigos": 477337,
     "productos": "YOGUR DANONINO SACHET FRUT x900g",
     "uxb": 1,
-    "precio_vta": 3272
+    "precio_vta": 3436
+  },
+  {
+    "codigos": 6026,
+    "productos": "YOGUR DEL TAMBO VAI/FRUT X180GR",
+    "uxb": 1,
+    "precio_vta": 1049
+  },
+  {
+    "codigos": 6027,
+    "productos": "YOGUR DEL TAMBO VAI/FRUT X1LT",
+    "uxb": 1,
+    "precio_vta": 2160
   },
   {
     "codigos": 470596,
@@ -96069,43 +98739,49 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480322,
     "productos": "YOGUR FIRME DESC NUT/ACTIVA LS FRUTx190g",
     "uxb": 1,
-    "precio_vta": 1596
+    "precio_vta": 1749
   },
   {
     "codigos": 480319,
     "productos": "YOGUR FIRME DESC NUT/ACTIVA LS VAIx190g",
     "uxb": 1,
-    "precio_vta": 1596
+    "precio_vta": 1749
   },
   {
     "codigos": 469127,
     "productos": "YOGUR FIRME ILOLAY FRUTILLA x190gr",
     "uxb": 20,
-    "precio_vta": 939
+    "precio_vta": 1229
   },
   {
     "codigos": 478048,
     "productos": "YOGUR FIRME ILOLAY VAINILLA x190gr",
     "uxb": 20,
-    "precio_vta": 939
+    "precio_vta": 1229
   },
   {
     "codigos": 474019,
     "productos": "YOGUR FIRME LIGHT FRUT x190gr LA SERENISIMA x190",
     "uxb": 20,
-    "precio_vta": 1190
+    "precio_vta": 1249
   },
   {
     "codigos": 480188,
     "productos": "YOGUR FIRME NUT/ACTIVA ENT LS FRUTx120g",
     "uxb": 24,
-    "precio_vta": 1132
+    "precio_vta": 1189
   },
   {
     "codigos": 480181,
     "productos": "YOGUR FIRME NUT/ACTIVA ENT LS VAINx120g",
     "uxb": 24,
-    "precio_vta": 1132
+    "precio_vta": 1189
+  },
+  {
+    "codigos": 480650,
+    "productos": "YOGUR FIRME NUT/ACTIVA LS DURAZ x120gr",
+    "uxb": 24,
+    "precio_vta": 1189
   },
   {
     "codigos": 472438,
@@ -96123,55 +98799,55 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467311,
     "productos": "YOGUR GRAN COMPRA C/CEREALES x154g",
     "uxb": 20,
-    "precio_vta": 1029
+    "precio_vta": 1081
   },
   {
     "codigos": 479325,
     "productos": "YOGUR GRAN COMPRA X900CC FRUTILLA",
     "uxb": 19,
-    "precio_vta": 1441
+    "precio_vta": 1994
   },
   {
     "codigos": 479326,
     "productos": "YOGUR GRAN COMPRA X900CC VAINILLA",
     "uxb": 19,
-    "precio_vta": 1441
+    "precio_vta": 1994
   },
   {
     "codigos": 465141,
     "productos": "YOGUR GRAN COMPRA x120g FRUT CREM.",
     "uxb": 1,
-    "precio_vta": 679
+    "precio_vta": 799
   },
   {
     "codigos": 12205,
     "productos": "YOGUR GRAN COMPRA x120g FRUT FIRME",
     "uxb": 1,
-    "precio_vta": 679
+    "precio_vta": 799
   },
   {
     "codigos": 12204,
     "productos": "YOGUR GRAN COMPRA x120g LIGHT",
     "uxb": 1,
-    "precio_vta": 679
+    "precio_vta": 799
   },
   {
     "codigos": 472964,
     "productos": "YOGUR GRAN COMPRA x120g VAIN CREM",
     "uxb": 1,
-    "precio_vta": 679
+    "precio_vta": 799
   },
   {
     "codigos": 472965,
     "productos": "YOGUR GRAN COMPRA x120g VAIN FIRME",
     "uxb": 1,
-    "precio_vta": 679
+    "precio_vta": 799
   },
   {
     "codigos": 465548,
     "productos": "YOGUR ILOLAY BATIDO ENT. X 120GR",
     "uxb": 24,
-    "precio_vta": 579
+    "precio_vta": 749
   },
   {
     "codigos": 478587,
@@ -96219,7 +98895,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 478590,
     "productos": "YOGUR ILOLAY KIDS C/AROS x160gr",
     "uxb": 1,
-    "precio_vta": 1299
+    "precio_vta": 1799
   },
   {
     "codigos": 5403,
@@ -96255,31 +98931,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468747,
     "productos": "YOGUR LA SERENISIMA C/CEREALES x159gr",
     "uxb": 20,
-    "precio_vta": 2368
+    "precio_vta": 2487
   },
   {
     "codigos": 473105,
     "productos": "YOGUR LA SERENISIMA C/CONFITES x164gr",
     "uxb": 20,
-    "precio_vta": 2162
+    "precio_vta": 2519
   },
   {
     "codigos": 472658,
     "productos": "YOGUR LA SERENISIMA DESC C/CEREAL X 157G",
     "uxb": 1,
-    "precio_vta": 2059
+    "precio_vta": 2309
   },
   {
     "codigos": 477707,
     "productos": "YOGUR LA SERENISIMA DESLAC.FRUTILLA X900G",
     "uxb": 1,
-    "precio_vta": 3008
+    "precio_vta": 3159
   },
   {
     "codigos": 477394,
     "productos": "YOGUR LA SERENISIMA DESLAC.VAINILLA X900",
     "uxb": 1,
-    "precio_vta": 3008
+    "precio_vta": 3159
   },
   {
     "codigos": 12390,
@@ -96291,139 +98967,139 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 468852,
     "productos": "YOGUR LA SERENISIMA x120g FRUT CREM.",
     "uxb": 1,
-    "precio_vta": 905
+    "precio_vta": 950
   },
   {
     "codigos": 468841,
     "productos": "YOGUR LA SERENISIMA x120g FRUT FIRME",
     "uxb": 1,
-    "precio_vta": 905
+    "precio_vta": 950
   },
   {
     "codigos": 472968,
     "productos": "YOGUR LA SERENISIMA x120g VAIN CREM.",
     "uxb": 1,
-    "precio_vta": 905
+    "precio_vta": 950
   },
   {
     "codigos": 472967,
     "productos": "YOGUR LA SERENISIMA x120g VAIN FIRME",
     "uxb": 1,
-    "precio_vta": 905
+    "precio_vta": 950
   },
   {
     "codigos": 472482,
     "productos": "YOGUR LA SERENISIMA x190g DESCREMADO",
     "uxb": 20,
-    "precio_vta": 1534
+    "precio_vta": 1611
   },
   {
     "codigos": 468746,
     "productos": "YOGUR LA SERENISIMA x190g FIRME FRUT",
     "uxb": 20,
-    "precio_vta": 1441
+    "precio_vta": 1679
   },
   {
     "codigos": 472759,
     "productos": "YOGUR LA SERENISIMA x190g FIRME VAIN",
     "uxb": 20,
-    "precio_vta": 1441
+    "precio_vta": 1679
   },
   {
     "codigos": 472713,
     "productos": "YOGUR LA SERENISIMA x900ml BANANA",
     "uxb": 19,
-    "precio_vta": 2904
+    "precio_vta": 3049
   },
   {
     "codigos": 472723,
     "productos": "YOGUR LA SERENISIMA x900ml DESCREMADA",
     "uxb": 1,
-    "precio_vta": 3141
+    "precio_vta": 3298
   },
   {
     "codigos": 473727,
     "productos": "YOGUR LA SERENISIMA x900ml DURAZNO",
     "uxb": 19,
-    "precio_vta": 2904
+    "precio_vta": 3049
   },
   {
     "codigos": 472696,
     "productos": "YOGUR LA SERENISIMA x900ml FRUTILLA",
     "uxb": 19,
-    "precio_vta": 2904
+    "precio_vta": 3049
   },
   {
     "codigos": 474544,
     "productos": "YOGUR LA SERENISIMA x900ml VAINILLA",
     "uxb": 19,
-    "precio_vta": 2904
+    "precio_vta": 3049
   },
   {
     "codigos": 467924,
     "productos": "YOGUR LS ACTIMEL BEB X100GR",
     "uxb": 6,
-    "precio_vta": 2162
+    "precio_vta": 2271
   },
   {
     "codigos": 478293,
     "productos": "YOGUR LS ACTIMEL CITRUS x100g",
     "uxb": 1,
-    "precio_vta": 2162
+    "precio_vta": 2270
   },
   {
     "codigos": 478531,
     "productos": "YOGUR LS BATIDO DESC FRUTILLA X120gr",
     "uxb": 24,
-    "precio_vta": 1009
+    "precio_vta": 1059
   },
   {
     "codigos": 478527,
     "productos": "YOGUR LS BATIDO DESC VAINILLA x120g",
     "uxb": 24,
-    "precio_vta": 1009
+    "precio_vta": 1059
   },
   {
     "codigos": 477105,
     "productos": "YOGUR LS DANONINO BOT x100gr",
     "uxb": 1,
-    "precio_vta": 1899
+    "precio_vta": 1994
   },
   {
     "codigos": 463928,
     "productos": "YOGUR LS DANONINO FRUT.BEB X185G",
     "uxb": 1,
-    "precio_vta": 3048
+    "precio_vta": 3149
   },
   {
     "codigos": 463731,
     "productos": "YOGUR LS DANONINO FRUT/VAIN x80.5g",
     "uxb": 1,
-    "precio_vta": 1338
+    "precio_vta": 1405
   },
   {
     "codigos": 479425,
     "productos": "YOGUR LS DANONINO NATURAL x80.5g",
     "uxb": 1,
-    "precio_vta": 1215
+    "precio_vta": 1276
   },
   {
     "codigos": 463927,
     "productos": "YOGUR LS DANONINO VAIN.BEB X185G",
     "uxb": 1,
-    "precio_vta": 3048
+    "precio_vta": 3199
   },
   {
     "codigos": 463734,
     "productos": "YOGUR LS YOGURISIMO FRUT.BEB X190G",
     "uxb": 1,
-    "precio_vta": 3599
+    "precio_vta": 3779
   },
   {
     "codigos": 463733,
     "productos": "YOGUR LS YOGURISIMO VAIN.BEB X190G",
     "uxb": 1,
-    "precio_vta": 3599
+    "precio_vta": 3779
   },
   {
     "codigos": 477068,
@@ -96465,37 +99141,31 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 480126,
     "productos": "YOGUR NATURAL S/A NUTRI ACT LS x120gr.",
     "uxb": 1,
-    "precio_vta": 1235
-  },
-  {
-    "codigos": 478084,
-    "productos": "YOGUR NATURAL TREGAR x140g",
-    "uxb": 1,
-    "precio_vta": 1095
+    "precio_vta": 1297
   },
   {
     "codigos": 470924,
     "productos": "YOGUR NATURAL TREGAR x280gr",
     "uxb": 12,
-    "precio_vta": 2043
+    "precio_vta": 2299
   },
   {
     "codigos": 480354,
     "productos": "YOGUR NUT/ACTI CREMOSO VAINI LSx120g",
     "uxb": 1,
-    "precio_vta": 1132
+    "precio_vta": 1189
   },
   {
     "codigos": 480443,
     "productos": "YOGUR NUTRI/ACT SACH LS FRUT x1100g",
     "uxb": 15,
-    "precio_vta": 2626
+    "precio_vta": 2757
   },
   {
     "codigos": 480442,
     "productos": "YOGUR NUTRI/ACT SACH LS VAINI x1100g",
     "uxb": 15,
-    "precio_vta": 2626
+    "precio_vta": 2757
   },
   {
     "codigos": 473425,
@@ -96531,265 +99201,223 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 469954,
     "productos": "YOGUR SER BOTELLITA MULTI/FRUT x190g",
     "uxb": 1,
-    "precio_vta": 3699
+    "precio_vta": 3989
   },
   {
     "codigos": 472754,
     "productos": "YOGUR SER C/CEREAL BERRIES x155g",
     "uxb": 1,
-    "precio_vta": 4011
+    "precio_vta": 4212
   },
   {
     "codigos": 11915,
     "productos": "YOGUR SER C/CEREALES X 166GR",
     "uxb": 1,
-    "precio_vta": 4011
+    "precio_vta": 4212
+  },
+  {
+    "codigos": 468772,
+    "productos": "YOGUR SER CALCIO X 120GR",
+    "uxb": 1,
+    "precio_vta": 2999
   },
   {
     "codigos": 11914,
     "productos": "YOGUR SER FIRME POTE x190gr",
     "uxb": 1,
-    "precio_vta": 2574
+    "precio_vta": 2703
   },
   {
     "codigos": 470782,
     "productos": "YOGUR SER NAT.COLCH/FRUTAS X175GR",
     "uxb": 1,
-    "precio_vta": 3899
+    "precio_vta": 4179
   },
   {
     "codigos": 473276,
     "productos": "YOGUR SER NATUR x300gr",
     "uxb": 1,
-    "precio_vta": 4169
+    "precio_vta": 4179
   },
   {
     "codigos": 475554,
     "productos": "YOGUR SER NATURAL PROBIOT S/END x175GR",
     "uxb": 1,
-    "precio_vta": 2554
+    "precio_vta": 2682
   },
   {
     "codigos": 472533,
     "productos": "YOGUR SER NATURE BOTELLA 190G",
     "uxb": 1,
-    "precio_vta": 3450
+    "precio_vta": 3622
   },
   {
     "codigos": 478721,
     "productos": "YOGUR SER PRO+ FRUTILLA/ARAND x190g",
     "uxb": 1,
-    "precio_vta": 3480
+    "precio_vta": 3654
   },
   {
     "codigos": 478720,
     "productos": "YOGUR SER PRO+ FRUTOS ROJOS X175g",
     "uxb": 1,
-    "precio_vta": 2677
+    "precio_vta": 3044
   },
   {
     "codigos": 478719,
     "productos": "YOGUR SER PRO+ NATURAL X175g",
     "uxb": 1,
-    "precio_vta": 2677
+    "precio_vta": 3044
   },
   {
     "codigos": 479495,
     "productos": "YOGUR SER PRO+ VAINILLA x190g",
     "uxb": 1,
-    "precio_vta": 3481
+    "precio_vta": 3655
   },
   {
     "codigos": 464173,
     "productos": "YOGUR SER SACHET FRUT/VAIN x900cc",
     "uxb": 1,
-    "precio_vta": 4428
+    "precio_vta": 4650
   },
   {
     "codigos": 478045,
     "productos": "YOGUR TETRA ILOLAY DURAZNO x950g",
     "uxb": 8,
-    "precio_vta": 2099
+    "precio_vta": 2399
   },
   {
     "codigos": 471139,
     "productos": "YOGUR TETRA ILOLAY FRUTILLA x950cc",
     "uxb": 8,
-    "precio_vta": 2199
+    "precio_vta": 2399
   },
   {
     "codigos": 478124,
     "productos": "YOGUR TETRA ILOLAY VAINILLA x950cc",
     "uxb": 8,
-    "precio_vta": 2199
-  },
-  {
-    "codigos": 469893,
-    "productos": "YOGUR TREGAR C/FRUT.ANANA X 160GR",
-    "uxb": 1,
-    "precio_vta": 1124
+    "precio_vta": 2399
   },
   {
     "codigos": 469892,
     "productos": "YOGUR TREGAR C/FRUT.ARAND. x160gr",
     "uxb": 24,
-    "precio_vta": 1156
-  },
-  {
-    "codigos": 470176,
-    "productos": "YOGUR TREGAR C/FRUT.ARAND.DESC X 160GR",
-    "uxb": 1,
-    "precio_vta": 1030
+    "precio_vta": 1259
   },
   {
     "codigos": 469894,
     "productos": "YOGUR TREGAR C/FRUT.DURAZNO x160gr",
     "uxb": 24,
-    "precio_vta": 1156
-  },
-  {
-    "codigos": 470177,
-    "productos": "YOGUR TREGAR C/FRUT.FRUTI DESC X 160GR",
-    "uxb": 1,
-    "precio_vta": 1030
+    "precio_vta": 1259
   },
   {
     "codigos": 464954,
     "productos": "YOGUR TREGAR C/FRUT.FRUTI x160gr",
     "uxb": 24,
-    "precio_vta": 1156
-  },
-  {
-    "codigos": 469934,
-    "productos": "YOGUR TREGAR C/FRUT.MANG/MARAC X 160GR",
-    "uxb": 1,
-    "precio_vta": 1124
-  },
-  {
-    "codigos": 479432,
-    "productos": "YOGUR TREGAR CREMOSO FRUTILLA x125g",
-    "uxb": 24,
-    "precio_vta": 503
+    "precio_vta": 1259
   },
   {
     "codigos": 470886,
     "productos": "YOGUR TREGAR FRUT.LIGHT x125gr",
     "uxb": 1,
-    "precio_vta": 515
+    "precio_vta": 649
   },
   {
     "codigos": 470885,
     "productos": "YOGUR TREGAR VAINILLA LIGHT x125gr",
     "uxb": 1,
-    "precio_vta": 515
-  },
-  {
-    "codigos": 478080,
-    "productos": "YOGUR Y CAFE TREGAR x120g",
-    "uxb": 1,
-    "precio_vta": 1491
-  },
-  {
-    "codigos": 478082,
-    "productos": "YOGUR Y COCO TREGAR x120g",
-    "uxb": 1,
-    "precio_vta": 1491
-  },
-  {
-    "codigos": 478083,
-    "productos": "YOGUR Y LIMON TREGAR x120g",
-    "uxb": 1,
-    "precio_vta": 1491
+    "precio_vta": 649
   },
   {
     "codigos": 467971,
     "productos": "YOGUR YOGURISIMO  X 190GR",
     "uxb": 20,
-    "precio_vta": 2347
+    "precio_vta": 2464
   },
   {
     "codigos": 463689,
     "productos": "YOGUR YOGURISIMO C/CEREALES x166gr",
     "uxb": 10,
-    "precio_vta": 3089
+    "precio_vta": 3244
   },
   {
     "codigos": 468431,
     "productos": "YOGUR YOGURISIMO EST.GRIEGO FRUT/ARAND x125gr",
     "uxb": 1,
-    "precio_vta": 2708
+    "precio_vta": 3149
   },
   {
     "codigos": 472757,
     "productos": "YOGUR YOGURISIMO FIRME FRUT.x190gr",
     "uxb": 20,
-    "precio_vta": 2914
+    "precio_vta": 3349
   },
   {
     "codigos": 463787,
     "productos": "YOGUR YOGURISIMO FIRME LS FRUT.x120gr",
     "uxb": 1,
-    "precio_vta": 1647
+    "precio_vta": 1730
   },
   {
     "codigos": 472756,
     "productos": "YOGUR YOGURISIMO FIRME LS VAIN. x120g",
     "uxb": 24,
-    "precio_vta": 1647
+    "precio_vta": 1730
   },
   {
     "codigos": 463690,
     "productos": "YOGUR YOGURISIMO FIRME VAIN. x190gr",
     "uxb": 20,
-    "precio_vta": 2914
+    "precio_vta": 3349
   },
   {
     "codigos": 479404,
     "productos": "YOGUR YOGURISIMO GRANOLA/CEREAL x168gr",
     "uxb": 1,
-    "precio_vta": 3089
+    "precio_vta": 3499
   },
   {
     "codigos": 479339,
     "productos": "YOGUR YOGURISIMO GRIEGO FRUT/VAI x140g",
     "uxb": 1,
-    "precio_vta": 1596
+    "precio_vta": 1574
   },
   {
     "codigos": 479342,
     "productos": "YOGUR YOGURISIMO GRIEGO NATURAL x190g",
     "uxb": 1,
-    "precio_vta": 2513
+    "precio_vta": 2729
   },
   {
     "codigos": 466622,
     "productos": "YOGUR YOPRO LA SERENISIMA x200g",
     "uxb": 1,
-    "precio_vta": 404
+    "precio_vta": 446
   },
   {
     "codigos": 479375,
     "productos": "YOGURISIMO GRIEGO NATURAL x300gr",
     "uxb": 1,
-    "precio_vta": 3965
+    "precio_vta": 4149
   },
   {
     "codigos": 464130,
     "productos": "YOGURISIMO NATURAL ENDULZADO x190gr",
     "uxb": 1,
-    "precio_vta": 2513
+    "precio_vta": 2729
   },
   {
     "codigos": 478766,
     "productos": "YOGURISIMO NATURAL RED.LACTOSA x190g",
     "uxb": 10,
-    "precio_vta": 2347
+    "precio_vta": 2464
   },
   {
     "codigos": 473263,
     "productos": "YOGURISIMO NATURAL x300g END/S.END",
     "uxb": 12,
-    "precio_vta": 3965
+    "precio_vta": 4094
   },
   {
     "codigos": 468023,
@@ -96846,6 +99474,12 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 16989
   },
   {
+    "codigos": 480832,
+    "productos": "ZAPATILLAS MUJER C/V x1Un.",
+    "uxb": 1,
+    "precio_vta": 23999
+  },
+  {
     "codigos": 477099,
     "productos": "ZAPATILLAS OUVERS STAR",
     "uxb": 1,
@@ -96891,7 +99525,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 10950,
     "productos": "ZIPLOC ABRE FACIL x9Un.",
     "uxb": 12,
-    "precio_vta": 3149
+    "precio_vta": 3464
   },
   {
     "codigos": 475738,
@@ -96904,6 +99538,12 @@ const PRODUCTOS_PRECIOS = [
     "productos": "ZONA LIBRE FAMILIAR x100cc",
     "uxb": 1,
     "precio_vta": 11549
+  },
+  {
+    "codigos": 480568,
+    "productos": "ZONA LIBRE HONGOS x20g",
+    "uxb": 1,
+    "precio_vta": 12499
   },
   {
     "codigos": 9970,
@@ -96975,13 +99615,13 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 470653,
     "productos": "ÑOQUIS DE PAPA MENDIA x1Kg",
     "uxb": 10,
-    "precio_vta": 3228
+    "precio_vta": 3583
   },
   {
     "codigos": 470652,
     "productos": "ÑOQUIS DE PAPA MENDIA x500g",
     "uxb": 12,
-    "precio_vta": 1762
+    "precio_vta": 1955
   },
   {
     "codigos": 473809,
@@ -96999,7 +99639,7 @@ const PRODUCTOS_PRECIOS = [
     "codigos": 467446,
     "productos": "ÑOQUIS LA ITALIANA x 1kg",
     "uxb": 12,
-    "precio_vta": 3434
+    "precio_vta": 3499
   },
   {
     "codigos": 468544,
@@ -97026,17 +99666,3 @@ const PRODUCTOS_PRECIOS = [
     "precio_vta": 4699
   }
 ]
-
-// Crear mapa de búsqueda rápida
-const PRECIOS_MAP = {};
-PRODUCTOS_PRECIOS.forEach(p => {
-  PRECIOS_MAP[p.codigos] = p.precio_vta;
-});
-
-// Función para obtener precio
-function obtenerPrecio(codigo) {
-  const codigoNum = typeof codigo === 'string' ? parseInt(codigo) : codigo;
-  return PRECIOS_MAP[codigoNum] || 0;
-}
-
-console.log(`✅ precios.js cargado: ${PRODUCTOS_PRECIOS.length} productos con precios`);
