@@ -1,4 +1,4 @@
-[
+const PRODUCTOS_PRECIOS = [
   {
     "codigos": 476333,
     "productos": "COLCHADO PALETTE DIAMONT TWIN 170X240",
@@ -99665,4 +99665,16 @@
     "uxb": 1,
     "precio_vta": 4699
   }
-]
+];
+
+const PRECIOS_MAP = {};
+PRODUCTOS_PRECIOS.forEach(p => {
+  PRECIOS_MAP[p.codigos] = p.precio_vta;
+});
+
+function obtenerPrecio(codigo) {
+  const codigoNum = typeof codigo === 'string' ? parseInt(codigo) : codigo;
+  return PRECIOS_MAP[codigoNum] || 0;
+}
+
+console.log(`✅ precios.js cargado: ${PRODUCTOS_PRECIOS.length} productos con precios`);

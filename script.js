@@ -149,7 +149,7 @@ async function guardar() {
     // Obtener precio del producto
     let precioUnitario = 0;
     if (typeof obtenerPrecio === 'function') {
-        precioUnitario = obtenerPrecio(ean) || 0;
+       precioUnitario = obtenerPrecio(parseInt(ean)) || 0;
     }
     const precioTotal = precioUnitario * totalUnidades;
 
