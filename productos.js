@@ -1,4 +1,4 @@
-const PRODUCTOS=[
+[
   {
     "codigos": 476333,
     "productos": "COLCHADO PALETTE DIAMONT TWIN 170X240",
@@ -50,6 +50,16 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481612,
+    "productos": "ABRELATAS MARIPOSA MAKE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481613,
+    "productos": "ABRELATAS UÑA MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 11197,
     "productos": "ABROCH MAPED VIVO N10",
     "uxb": 1
@@ -92,6 +102,11 @@ const PRODUCTOS=[
   {
     "codigos": 464058,
     "productos": "AC ALGABO VARIOS X930ML",
+    "uxb": 12
+  },
+  {
+    "codigos": 465192,
+    "productos": "AC DOVE BABY 200ML",
     "uxb": 12
   },
   {
@@ -207,6 +222,11 @@ const PRODUCTOS=[
   {
     "codigos": 8666,
     "productos": "AC ELVIVE X400CC REPARADOR",
+    "uxb": 12
+  },
+  {
+    "codigos": 78597,
+    "productos": "AC ELVIVE X400cc OLEO EXTRA RIZOS",
     "uxb": 12
   },
   {
@@ -510,6 +530,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 87455,
+    "productos": "AC SEDAL DP X300ML MEGA CRECI",
+    "uxb": 12
+  },
+  {
     "codigos": 479086,
     "productos": "AC SEDAL DP X300ML REST.IST.",
     "uxb": 12
@@ -658,6 +683,11 @@ const PRODUCTOS=[
     "codigos": 479468,
     "productos": "AC TRESEMME HIDRA. PROFUN. x200cc",
     "uxb": 1
+  },
+  {
+    "codigos": 460964,
+    "productos": "AC. MOLTO GIRASOL x1.5L",
+    "uxb": 12
   },
   {
     "codigos": 9048,
@@ -853,6 +883,16 @@ const PRODUCTOS=[
     "codigos": 460403,
     "productos": "ACEITE MAROLIO MEZCLA x900ml",
     "uxb": 15
+  },
+  {
+    "codigos": 461741,
+    "productos": "ACEITE MAZOLA MAIZ AERO X126cc",
+    "uxb": 12
+  },
+  {
+    "codigos": 461740,
+    "productos": "ACEITE MAZOLA MANTECA AERO x126cc",
+    "uxb": 12
   },
   {
     "codigos": 481496,
@@ -1237,7 +1277,7 @@ const PRODUCTOS=[
   {
     "codigos": 480256,
     "productos": "ACONDICIONADOR PISOS SUIZA DP x400cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 404008,
@@ -1590,6 +1630,16 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481507,
+    "productos": "AGUA MINERAL VIP X2lt",
+    "uxb": 6
+  },
+  {
+    "codigos": 481508,
+    "productos": "AGUA MINERAL VIP X6lt",
+    "uxb": 1
+  },
+  {
     "codigos": 7979,
     "productos": "AGUA OXIGENADA COPEA x100ML",
     "uxb": 24
@@ -1905,6 +1955,11 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 481511,
+    "productos": "AGUA VIP MINERAL VERDE BIDON x6lt",
+    "uxb": 1
+  },
+  {
     "codigos": 462773,
     "productos": "AGUJAS CANASTITAS TRADICIONAL x1Un.",
     "uxb": 1
@@ -2150,11 +2205,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 471380,
-    "productos": "ALCOHOL E/GEL AKTIOL x220cc",
-    "uxb": 24
-  },
-  {
     "codigos": 470129,
     "productos": "ALCOHOL E/GEL ANTIB.TE VERDE-MENTA PRIMER PRECIO x300ml",
     "uxb": 12
@@ -2163,11 +2213,6 @@ const PRODUCTOS=[
     "codigos": 468787,
     "productos": "ALCOHOL EL BUDA DESNAT 1LT",
     "uxb": 8
-  },
-  {
-    "codigos": 471854,
-    "productos": "ALCOHOL EN GEL ULTRA BIDON ALGABO x4Lt",
-    "uxb": 3
   },
   {
     "codigos": 470827,
@@ -2185,19 +2230,24 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 468846,
-    "productos": "ALCOHOL MAROLIO EN GEL BOT X500GR",
-    "uxb": 1
-  },
-  {
     "codigos": 468845,
     "productos": "ALCOHOL MAROLIO GEL BOT 500G",
     "uxb": 1
   },
   {
-    "codigos": 470498,
-    "productos": "ALCOHOL REXONA GEL ANTIBAC 5LT",
+    "codigos": 464491,
+    "productos": "ALCOHOL PATRICIA ALLEN ETIL 1L",
+    "uxb": 8
+  },
+  {
+    "codigos": 463425,
+    "productos": "ALCOHOL PATRICIA ALLEN ETIL. 250ML",
     "uxb": 1
+  },
+  {
+    "codigos": 195,
+    "productos": "ALCOHOL PATRICIA ALLEN X500ML",
+    "uxb": 10
   },
   {
     "codigos": 470099,
@@ -2213,11 +2263,6 @@ const PRODUCTOS=[
     "codigos": 473785,
     "productos": "ALCOHOL TU-DOC ETIL 250ML",
     "uxb": 20
-  },
-  {
-    "codigos": 473786,
-    "productos": "ALCOHOL TU-DOC ETIL 500ML",
-    "uxb": 10
   },
   {
     "codigos": 194,
@@ -2253,6 +2298,11 @@ const PRODUCTOS=[
     "codigos": 480577,
     "productos": "ALF COFLER MOUSSE SIMPLE x40g",
     "uxb": 40
+  },
+  {
+    "codigos": 481592,
+    "productos": "ALF DUBAI BLUE LABEL x65g",
+    "uxb": 22
   },
   {
     "codigos": 480570,
@@ -2370,6 +2420,11 @@ const PRODUCTOS=[
     "uxb": 21
   },
   {
+    "codigos": 481586,
+    "productos": "ALF. ALFACHURRO x70gr",
+    "uxb": 22
+  },
+  {
     "codigos": 6443,
     "productos": "ALF. B&N BAGLEY BCO x73g",
     "uxb": 21
@@ -2485,18 +2540,18 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 460766,
-    "productos": "ALF. CAPITAN DEL ESPACIO FRUTA X40gr",
+    "codigos": 8792,
+    "productos": "ALF. CAPITAN DEL ESP SIMP LECHE x40gr",
     "uxb": 36
   },
   {
     "codigos": 8793,
-    "productos": "ALF. CAPITAN DEL ESPACIO SIMPLE CHOC x40gr",
+    "productos": "ALF. CAPITAN DEL ESP. SIMPLE CHOC x40gr",
     "uxb": 36
   },
   {
-    "codigos": 8792,
-    "productos": "ALF. CAPITAN DEL ESPACIO SIMPLE LECHE x40gr",
+    "codigos": 460766,
+    "productos": "ALF. CAPITAN DEL ESPACIO FRUTA X40gr",
     "uxb": 36
   },
   {
@@ -2583,6 +2638,16 @@ const PRODUCTOS=[
     "codigos": 478941,
     "productos": "ALF. DON BARCCELO AMARGO MIXTO X1un",
     "uxb": 12
+  },
+  {
+    "codigos": 481585,
+    "productos": "ALF. DUBAI PISTACHO BLANCO x70g",
+    "uxb": 20
+  },
+  {
+    "codigos": 479588,
+    "productos": "ALF. DUBAI PISTACHO NEGRO x70gr",
+    "uxb": 22
   },
   {
     "codigos": 478227,
@@ -2780,6 +2845,11 @@ const PRODUCTOS=[
     "uxb": 16
   },
   {
+    "codigos": 481579,
+    "productos": "ALF. MATILDA x80g",
+    "uxb": 20
+  },
+  {
     "codigos": 481052,
     "productos": "ALF. MB BOB CHOCO X70g",
     "uxb": 18
@@ -2820,6 +2890,11 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 481583,
+    "productos": "ALF. OLIVER NEGRO x86g",
+    "uxb": 20
+  },
+  {
     "codigos": 4425,
     "productos": "ALF. OREO TRIPLE x56g",
     "uxb": 36
@@ -2853,6 +2928,11 @@ const PRODUCTOS=[
     "codigos": 476473,
     "productos": "ALF. RASTA SIMPLE NEGRO X70gr",
     "uxb": 18
+  },
+  {
+    "codigos": 481584,
+    "productos": "ALF. RED VELVET BLANCO x70g",
+    "uxb": 22
   },
   {
     "codigos": 4626,
@@ -2965,6 +3045,11 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 14036,
+    "productos": "CARRE DE CERDO 214 XKILO",
+    "uxb": 1
+  },
+  {
     "codigos": 4877,
     "productos": "ALF. VAUQUITA GLASEADO x72gr",
     "uxb": 24
@@ -2997,6 +3082,11 @@ const PRODUCTOS=[
   {
     "codigos": 479189,
     "productos": "ALF. ZUCOA MOUSSE x35g",
+    "uxb": 24
+  },
+  {
+    "codigos": 481524,
+    "productos": "ALF.GUAYMALLEN RUBI x50g",
     "uxb": 24
   },
   {
@@ -3645,6 +3735,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 465982,
+    "productos": "TABLA PIZZERA STAR",
+    "uxb": 16
+  },
+  {
     "codigos": 463884,
     "productos": "ALIM. RAZA ADULT ARR/CER/PYC x1.5kg",
     "uxb": 1
@@ -3927,6 +4022,11 @@ const PRODUCTOS=[
   {
     "codigos": 14112,
     "productos": "ALMENDRAS NEW PAREIL NAPOLE x1Kg",
+    "uxb": 1
+  },
+  {
+    "codigos": 481557,
+    "productos": "ALMENDRAS NON PAREIL FUENTESS DPx300gr",
     "uxb": 1
   },
   {
@@ -4320,16 +4420,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 476023,
-    "productos": "ANANA COINCO E/RODAJAS X490gr",
-    "uxb": 24
-  },
-  {
-    "codigos": 3924,
-    "productos": "ANANA EN RODAJAS CARACAS 836G",
-    "uxb": 12
-  },
-  {
     "codigos": 3279,
     "productos": "ANANA FIZZ DEL VALLE x710cc",
     "uxb": 6
@@ -4367,11 +4457,6 @@ const PRODUCTOS=[
   {
     "codigos": 278,
     "productos": "ANANA MAROLIO E/RODAJAS x825g",
-    "uxb": 12
-  },
-  {
-    "codigos": 6413,
-    "productos": "ANANA MAROLIO E/TROZOS x850g",
     "uxb": 12
   },
   {
@@ -4510,6 +4595,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 477811,
+    "productos": "ANTI AGE CON FPS 50 CICATRICURE x50g",
+    "uxb": 1
+  },
+  {
     "codigos": 461856,
     "productos": "ANTIH.MEGA AIRE PUR ALG Y LINO x500g",
     "uxb": 1
@@ -4538,6 +4628,11 @@ const PRODUCTOS=[
     "codigos": 461675,
     "productos": "ANTIHUMEDAD AIRE PUR INVOL PINO x250g",
     "uxb": 12
+  },
+  {
+    "codigos": 480471,
+    "productos": "ANTIMICOTICO UÑA LIBRE D/HONGO x20g",
+    "uxb": 1
   },
   {
     "codigos": 461901,
@@ -5020,6 +5115,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 3783,
+    "productos": "BANDEJA PLAST. N101 x10u TUCU",
+    "uxb": 1
+  },
+  {
     "codigos": 479550,
     "productos": "AROMATIZANTE SMELL FRESH x262cc CHICLE GBO",
     "uxb": 12
@@ -5462,7 +5562,7 @@ const PRODUCTOS=[
   {
     "codigos": 13812,
     "productos": "ARROZ SUELTO x KILO",
-    "uxb": 100
+    "uxb": 0
   },
   {
     "codigos": 478258,
@@ -5473,6 +5573,11 @@ const PRODUCTOS=[
     "codigos": 478291,
     "productos": "ARROZ VINCHA DE ORO L.F X500G",
     "uxb": 10
+  },
+  {
+    "codigos": 481561,
+    "productos": "ARROZ YAMANI FUENTESS DP x300gr",
+    "uxb": 1
   },
   {
     "codigos": 463313,
@@ -6130,16 +6235,6 @@ const PRODUCTOS=[
     "uxb": 48
   },
   {
-    "codigos": 481503,
-    "productos": "ATUN SWIFT AL NATURAL x170g",
-    "uxb": 48
-  },
-  {
-    "codigos": 481502,
-    "productos": "ATUN SWIFT EN ACEITE x170gr",
-    "uxb": 48
-  },
-  {
     "codigos": 12357,
     "productos": "AURICULAR C/BLUETOOH IMP EMA",
     "uxb": 1
@@ -6222,7 +6317,7 @@ const PRODUCTOS=[
   {
     "codigos": 480274,
     "productos": "AUTO BRILLO SUIZA BOT INCOLORA x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 465427,
@@ -6517,12 +6612,12 @@ const PRODUCTOS=[
   {
     "codigos": 480276,
     "productos": "AUTOBRILLO SUIZA BOT NEGRO x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480275,
     "productos": "AUTOBRILLO SUIZA BOT ROJO x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 461752,
@@ -6532,12 +6627,12 @@ const PRODUCTOS=[
   {
     "codigos": 480258,
     "productos": "AUTOBRILLO SUIZA DP NEGRO x400cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480544,
     "productos": "AUTOBRILLO SUIZA DP ROJO x400ml",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 472971,
@@ -6780,11 +6875,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 8483,
-    "productos": "AYUDIN DESTAPACAÑERIAS",
-    "uxb": 12
-  },
-  {
     "codigos": 465303,
     "productos": "AYUDIN QUITAMANCHAS BCO SUPREMO x400cc",
     "uxb": 16
@@ -6952,6 +7042,11 @@ const PRODUCTOS=[
   {
     "codigos": 472047,
     "productos": "AZUCARERA DE VIDRIO C/CUCHARITA IMP EMANUEL",
+    "uxb": 1
+  },
+  {
+    "codigos": 481657,
+    "productos": "AZUCARERA MF LATA DIA DE LA MADRE",
     "uxb": 1
   },
   {
@@ -7415,11 +7510,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 3783,
-    "productos": "BANDEJA PLAST. N101 x10u TUCU",
-    "uxb": 1
-  },
-  {
     "codigos": 5501,
     "productos": "BANDEJA PLAST. N102 x10u TUCU",
     "uxb": 100
@@ -7700,6 +7790,36 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 14475,
+    "productos": "BARRA TREMBLAY DAMBO 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14474,
+    "productos": "BARRA TREMBLAY DAMBO HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14476,
+    "productos": "BARRA TREMBLAY DANBO FETAS",
+    "uxb": 1
+  },
+  {
+    "codigos": 13921,
+    "productos": "BARRA TREMBLAY TYBO 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 13922,
+    "productos": "BARRA TREMBLAY TYBO FETAS",
+    "uxb": 1
+  },
+  {
+    "codigos": 13920,
+    "productos": "BARRA TREMBLAY TYBO HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 469636,
     "productos": "BARRAL ALUMINIO 1 A 2 MTS GOLDAR",
     "uxb": 1
@@ -7726,13 +7846,8 @@ const PRODUCTOS=[
   },
   {
     "codigos": 9153,
-    "productos": "BARRE HOJAS PLAST COMUN",
-    "uxb": 12
-  },
-  {
-    "codigos": 465654,
-    "productos": "BARRE HOJAS ROMYL-CEPIPLAST",
-    "uxb": 40
+    "productos": "BARRE HOJAS PLAST COMUN TAURO/DURAMAS",
+    "uxb": 24
   },
   {
     "codigos": 475949,
@@ -7895,6 +8010,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481596,
+    "productos": "BATIDOR MAKE MANGO PLAST.",
+    "uxb": 1
+  },
+  {
     "codigos": 480757,
     "productos": "BATIDOR METAL IMP EMA 30131820",
     "uxb": 1
@@ -7912,6 +8032,21 @@ const PRODUCTOS=[
   {
     "codigos": 481382,
     "productos": "BAUDUCCO CHOCO BISCUIT BLANCO x80g",
+    "uxb": 24
+  },
+  {
+    "codigos": 481505,
+    "productos": "BAUDUCCO CHOCO BISCUIT LECHE x80g",
+    "uxb": 24
+  },
+  {
+    "codigos": 481547,
+    "productos": "BAUDUCCO PANETTONE MINI C/CHIPS CHOCOx80gr",
+    "uxb": 24
+  },
+  {
+    "codigos": 481551,
+    "productos": "BAUDUCCO PANETTONE MINI C/FRUTAS x80g",
     "uxb": 24
   },
   {
@@ -8060,9 +8195,9 @@ const PRODUCTOS=[
     "uxb": 8
   },
   {
-    "codigos": 473389,
-    "productos": "BEBIDA LACTEA LS BEBIBLE CAJA x1Lt.",
-    "uxb": 12
+    "codigos": 481594,
+    "productos": "BEBIDA LACTEA LS BEBIBLE ALFAJOR SACHET x900ml",
+    "uxb": 1
   },
   {
     "codigos": 479378,
@@ -8077,11 +8212,6 @@ const PRODUCTOS=[
   {
     "codigos": 475566,
     "productos": "BEBIDA LACTEA LS BEBIBLE S/AZU SACHET x900cc",
-    "uxb": 17
-  },
-  {
-    "codigos": 468853,
-    "productos": "BEBIDA LACTEA LS BEBIBLE SACHET x900cc",
     "uxb": 17
   },
   {
@@ -8610,6 +8740,16 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481569,
+    "productos": "BLEM GATILLO LUSTRA/MULTI CITRUS x400cc",
+    "uxb": 12
+  },
+  {
+    "codigos": 481563,
+    "productos": "BLEM GATILLO LUSTRA/MULTI LAVANDAx400cc",
+    "uxb": 12
+  },
+  {
     "codigos": 469206,
     "productos": "BLEM LIMPIA PLASTIF.FLOT C/ALMENDRAS x800ML",
     "uxb": 12
@@ -8900,6 +9040,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481632,
+    "productos": "BOC VIZZIO CEREAL C/CHOCO x80g",
+    "uxb": 24
+  },
+  {
     "codigos": 481249,
     "productos": "BOC. DELICIA FELFORT X UNIDAD",
     "uxb": 48
@@ -8918,6 +9063,11 @@ const PRODUCTOS=[
     "codigos": 481460,
     "productos": "BOC.NARANJA C/CHOCO BOLSA CAROLINOS x70g",
     "uxb": 4
+  },
+  {
+    "codigos": 481587,
+    "productos": "BOCADITO BOMBA IMPERIAL x50g",
+    "uxb": 18
   },
   {
     "codigos": 24100,
@@ -9195,8 +9345,13 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
+    "codigos": 481624,
+    "productos": "BOLSA CAMISETA ECONOM  30x40 DISTRIV.",
+    "uxb": 1
+  },
+  {
     "codigos": 468276,
-    "productos": "BOLSA CAMISETA ECONOMICA 40x50 DISTRIVALLE",
+    "productos": "BOLSA CAMISETA ECONOMICA 40x50 DISTRI",
     "uxb": 20
   },
   {
@@ -9410,6 +9565,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481620,
+    "productos": "BOLSA P/FREEZER 30x40cm 20un MAKE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481618,
+    "productos": "BOLSA P/FREZZER 20x30cm 20un MAKE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481619,
+    "productos": "BOLSA P/FREZZER 25x35cm MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 477653,
     "productos": "BOLSA P/LAVAR ROPA FINA TAURO 40x50CM",
     "uxb": 1
@@ -9505,29 +9675,39 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481621,
+    "productos": "BOLSA RES C/FACIL 45x60cm MAKE 20un",
+    "uxb": 1
+  },
+  {
+    "codigos": 481622,
+    "productos": "BOLSA RES C/FACIL 50x70cm MAKE 20un",
+    "uxb": 1
+  },
+  {
     "codigos": 480284,
     "productos": "BOLSA RES.MR TRAPO 45X60cm",
-    "uxb": 1
+    "uxb": 100
   },
   {
     "codigos": 480422,
     "productos": "BOLSA RES.MR TRAPO 50x70cm",
-    "uxb": 1
+    "uxb": 100
   },
   {
     "codigos": 480285,
     "productos": "BOLSA RES.MR TRAPO 60X90cm",
-    "uxb": 1
+    "uxb": 50
   },
   {
     "codigos": 480286,
     "productos": "BOLSA RES.MR TRAPO 80X110cm",
-    "uxb": 1
+    "uxb": 20
   },
   {
     "codigos": 480287,
     "productos": "BOLSA RES.MR TRAPO 90x120cm",
-    "uxb": 1
+    "uxb": 20
   },
   {
     "codigos": 474192,
@@ -9785,6 +9965,16 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481608,
+    "productos": "BOLSAS MAKE C/CIERRE x6Un.",
+    "uxb": 1
+  },
+  {
+    "codigos": 481617,
+    "productos": "BOLSAS P/HORNO 30x45cm 10un MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 464826,
     "productos": "BOLSITAS LUNARES TUKY x10u",
     "uxb": 1
@@ -9815,6 +10005,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481666,
+    "productos": "BOLSO NECESER GLITTER",
+    "uxb": 1
+  },
+  {
     "codigos": 476992,
     "productos": "BOLSO TITERES DE DEDO ANIMALES x5un SOIFER 13491",
     "uxb": 1
@@ -9823,6 +10018,11 @@ const PRODUCTOS=[
     "codigos": 480903,
     "productos": "BOMBA EXTREMA GULA x64g",
     "uxb": 18
+  },
+  {
+    "codigos": 481654,
+    "productos": "BOMBILLA ACERO CHATA DIA DE LA MADRE",
+    "uxb": 1
   },
   {
     "codigos": 466233,
@@ -10955,6 +11155,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 473416,
+    "productos": "BRONCEADOR SPRAY COCOA BEACH F30 x250ML",
+    "uxb": 12
+  },
+  {
     "codigos": 481185,
     "productos": "BROWNIE CHIPS SABE BIEN x62 grs",
     "uxb": 12
@@ -11505,8 +11710,18 @@ const PRODUCTOS=[
     "uxb": 48
   },
   {
+    "codigos": 481537,
+    "productos": "C. DENTAL COLGATE ANTI CARIES x4U x90gr",
+    "uxb": 18
+  },
+  {
     "codigos": 469639,
     "productos": "C.DENT COLGATE TOTAL 12 ENC/REF x90gr",
+    "uxb": 48
+  },
+  {
+    "codigos": 481670,
+    "productos": "C/DENTAL COLGATE LUMINOUS W.COLOR x70g",
     "uxb": 48
   },
   {
@@ -11620,16 +11835,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 465588,
-    "productos": "CABO EXTENSIBLE HASTA 2mt LA GAUCHITA",
-    "uxb": 1
-  },
-  {
-    "codigos": 465224,
-    "productos": "CABO MAD.FORR.PVC ROMYL-BORO 1.20CM",
-    "uxb": 6
-  },
-  {
     "codigos": 472460,
     "productos": "CABO MADERA C/ROSCA FORRADO ASAPRACTIC",
     "uxb": 48
@@ -11653,6 +11858,11 @@ const PRODUCTOS=[
     "codigos": 476262,
     "productos": "CABSHA MARROC x24U 240gr",
     "uxb": 48
+  },
+  {
+    "codigos": 481554,
+    "productos": "CACAO AMARGO ALCALINO DP x300gr",
+    "uxb": 1
   },
   {
     "codigos": 463147,
@@ -11703,6 +11913,11 @@ const PRODUCTOS=[
     "codigos": 465345,
     "productos": "CACAO MAROLIO x180g",
     "uxb": 18
+  },
+  {
+    "codigos": 481552,
+    "productos": "CACAO NAT. N/ALCALINO FUENTESS DPx300gr",
+    "uxb": 1
   },
   {
     "codigos": 474488,
@@ -12285,13 +12500,13 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 632,
-    "productos": "CAFE LA VIRGINIA TORR.CLASICO x250g",
+    "codigos": 9057,
+    "productos": "CAFE LA VIRGINIA TORR CLAS X500GR",
     "uxb": 12
   },
   {
-    "codigos": 9057,
-    "productos": "CAFE LA VIRGINIA TORRADO CLASICO x500gr",
+    "codigos": 632,
+    "productos": "CAFE LA VIRGINIA TORR.CLASICO x250g",
     "uxb": 12
   },
   {
@@ -13550,6 +13765,26 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481626,
+    "productos": "CAPSULAS BONAFIDE CLASICO X10U",
+    "uxb": 4
+  },
+  {
+    "codigos": 481629,
+    "productos": "CAPSULAS BONAFIDE CORTADO x10Un.",
+    "uxb": 4
+  },
+  {
+    "codigos": 481628,
+    "productos": "CAPSULAS BONAFIDE ESPRESSO x10Un.",
+    "uxb": 4
+  },
+  {
+    "codigos": 481627,
+    "productos": "CAPSULAS BONAFIDE LUNGO x10Un.",
+    "uxb": 4
+  },
+  {
     "codigos": 473091,
     "productos": "CAPSULAS CABRALES CAFE ESPRESSO x72g",
     "uxb": 1
@@ -14715,6 +14950,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 87459,
+    "productos": "CARAMELO ACIDO E/POLVO XUN",
+    "uxb": 1
+  },
+  {
     "codigos": 479235,
     "productos": "CARAMELO LIQ. CEPI x30u CANDY PORT",
     "uxb": 24
@@ -14885,11 +15125,6 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 14036,
-    "productos": "CARRE DE CERDO 214 XKILO",
-    "uxb": 1
-  },
-  {
     "codigos": 469746,
     "productos": "CARRITO BEBE TOYS SPECIAL",
     "uxb": 1
@@ -14960,6 +15195,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481661,
+    "productos": "CARTERA BOLSO BETT CROCCO",
+    "uxb": 1
+  },
+  {
+    "codigos": 481662,
+    "productos": "CARTERA BOLSO PRINT",
+    "uxb": 1
+  },
+  {
+    "codigos": 481663,
+    "productos": "CARTERA DE MANO BETT",
+    "uxb": 1
+  },
+  {
     "codigos": 476836,
     "productos": "CARTERA MAQUILLAJE FASHION MAKE X UNIDAD",
     "uxb": 1
@@ -15017,6 +15267,11 @@ const PRODUCTOS=[
   {
     "codigos": 473847,
     "productos": "CARTUCHERA COLOR IMP-EMANUEL",
+    "uxb": 1
+  },
+  {
+    "codigos": 473836,
+    "productos": "CARTUCHERA DE PERRO IMP-EMANUEL",
     "uxb": 1
   },
   {
@@ -15240,6 +15495,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481548,
+    "productos": "CASTAÑAS DE CAJU FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 472529,
     "productos": "CASTAÑAS DE CAJU SUELTO",
     "uxb": 1
@@ -15360,6 +15620,11 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 463777,
+    "productos": "CEP. DENT COLGATE SMILES 0-2 AÑOS x1u",
+    "uxb": 24
+  },
+  {
     "codigos": 467834,
     "productos": "CEP. DENTAL COLGATE  BAMBOO SUAVE 2UN",
     "uxb": 12
@@ -15463,11 +15728,6 @@ const PRODUCTOS=[
     "codigos": 465865,
     "productos": "CEP. DENTAL COLGATE SMILES +6 A BAT/M.MARAV x2un",
     "uxb": 12
-  },
-  {
-    "codigos": 463777,
-    "productos": "CEP. DENTAL COLGATE SMILES 0-2 AÑOS x1un",
-    "uxb": 24
   },
   {
     "codigos": 460615,
@@ -15610,11 +15870,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 474343,
-    "productos": "CEPILLO DENTAL PRO x1Un",
-    "uxb": 1
-  },
-  {
     "codigos": 475191,
     "productos": "CEPILLO ELECTRICO BH-2094 IMP.EMANUEL",
     "uxb": 1
@@ -15648,11 +15903,6 @@ const PRODUCTOS=[
     "codigos": 462328,
     "productos": "CEPILLO LIMPIA UÑAS ROMYL",
     "uxb": 24
-  },
-  {
-    "codigos": 473178,
-    "productos": "CEPILLO ORAL B 1.2.3 CLAS x3Un.",
-    "uxb": 1
   },
   {
     "codigos": 469825,
@@ -15705,6 +15955,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481614,
+    "productos": "CERA BLEM MULTI DP CITRUS x400cc",
+    "uxb": 15
+  },
+  {
     "codigos": 7295,
     "productos": "CERA BLEM PISOS MADERA  UNIVERSAL 1LT",
     "uxb": 12
@@ -15747,12 +16002,12 @@ const PRODUCTOS=[
   {
     "codigos": 480277,
     "productos": "CERA LIQ.SUIZA BRIL CLASICO x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 8933,
     "productos": "CERA LIQ.SUIZA INCOLOR x425ml",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 5924,
@@ -15772,27 +16027,27 @@ const PRODUCTOS=[
   {
     "codigos": 480288,
     "productos": "CERA SUIZA LIQ ROBLE CLARO x850cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 9619,
     "productos": "CERA SUIZA LIQ ROBLE OSCURO 425ML",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 475248,
     "productos": "CERA SUIZA LIQ TRAD/INCOLORA x850cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480289,
     "productos": "CERA SUIZA LIQ. ROBLE OSCURO x850",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 475249,
     "productos": "CERA SUIZA PISOS PLAST/FLOTANTES x850cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 469210,
@@ -16017,6 +16272,11 @@ const PRODUCTOS=[
   {
     "codigos": 479338,
     "productos": "CERVEZA AMERICAN IPA GUTEN BIER x355cc",
+    "uxb": 6
+  },
+  {
+    "codigos": 481517,
+    "productos": "CERVEZA AMERICAN LIGHT LAGER x355cc",
     "uxb": 6
   },
   {
@@ -16285,9 +16545,19 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 481518,
+    "productos": "CERVEZA S/ACOHOL LIMITE CERO x355cc",
+    "uxb": 6
+  },
+  {
     "codigos": 462062,
     "productos": "CERVEZA SALTA x1Lt STOUT",
     "uxb": 12
+  },
+  {
+    "codigos": 474097,
+    "productos": "CERVEZA SALTA x473ml LATA STOUT",
+    "uxb": 24
   },
   {
     "codigos": 12242,
@@ -16705,9 +16975,19 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 7406,
+    "productos": "CHIA EL MANANTIAL XKG",
+    "uxb": 1
+  },
+  {
     "codigos": 480216,
     "productos": "CHICKEN FINGERS SADIA x3Kg",
     "uxb": 2
+  },
+  {
+    "codigos": 481516,
+    "productos": "CHICKEN FINGERS SADIA x720g",
+    "uxb": 1
   },
   {
     "codigos": 2121,
@@ -16730,26 +17010,6 @@ const PRODUCTOS=[
     "uxb": 30
   },
   {
-    "codigos": 479411,
-    "productos": "CHICLE BAZOOKA BANANA x80u 320gr",
-    "uxb": 18
-  },
-  {
-    "codigos": 479412,
-    "productos": "CHICLE BAZOOKA MANGO HOT x80u 320gr",
-    "uxb": 18
-  },
-  {
-    "codigos": 854,
-    "productos": "CHICLE BAZOOKA MENTA x120u",
-    "uxb": 18
-  },
-  {
-    "codigos": 478381,
-    "productos": "CHICLE BAZOOKA MENTA x80Un. 320gr",
-    "uxb": 18
-  },
-  {
     "codigos": 855,
     "productos": "CHICLE BAZOOKA TUTTI x120u",
     "uxb": 1
@@ -16760,38 +17020,13 @@ const PRODUCTOS=[
     "uxb": 18
   },
   {
-    "codigos": 3876,
-    "productos": "CHICLE BELDENT INFINIT 7 x15un MENTA",
-    "uxb": 12
-  },
-  {
-    "codigos": 473803,
-    "productos": "CHICLE BELDENT INFINIT 7 x15un SPEARMINT",
-    "uxb": 12
-  },
-  {
     "codigos": 60605,
-    "productos": "CHICLE BELDENT INFINIT SPEAR X14UN",
+    "productos": "CHICLE BELDENT INFINIT X14UN VARIOS",
     "uxb": 12
-  },
-  {
-    "codigos": 60611,
-    "productos": "CHICLE BELDENT TROPICAL X20UN",
-    "uxb": 1
-  },
-  {
-    "codigos": 465341,
-    "productos": "CHICLE BELDENT X1UN",
-    "uxb": 144
   },
   {
     "codigos": 480076,
     "productos": "CHICLE BELDENT X20UN FRUTILLA",
-    "uxb": 20
-  },
-  {
-    "codigos": 479334,
-    "productos": "CHICLE BELDENT X20UN MANDARINA",
     "uxb": 20
   },
   {
@@ -16810,49 +17045,14 @@ const PRODUCTOS=[
     "uxb": 20
   },
   {
-    "codigos": 479464,
-    "productos": "CHICLE BELDENT X20UN SANDIA",
-    "uxb": 20
-  },
-  {
     "codigos": 479331,
     "productos": "CHICLE BELDENT X20UN TUTTI FRUT",
     "uxb": 20
   },
   {
-    "codigos": 60609,
-    "productos": "CHICLE BENDENT INFINIT BLUEB X14UN",
-    "uxb": 12
-  },
-  {
-    "codigos": 60607,
-    "productos": "CHICLE BENDENT INFINIT MENTA X14UN",
-    "uxb": 12
-  },
-  {
-    "codigos": 478172,
-    "productos": "CHICLE BIDONCITO BLUPER x65g",
-    "uxb": 1
-  },
-  {
-    "codigos": 460545,
-    "productos": "CHICLE BLUPER BOLSA x400g",
-    "uxb": 12
-  },
-  {
-    "codigos": 478956,
-    "productos": "CHICLE BLUPER CUADRITOS x400g",
-    "uxb": 12
-  },
-  {
     "codigos": 480932,
     "productos": "CHICLE BLUPER ENS. FRUTA x270g",
     "uxb": 12
-  },
-  {
-    "codigos": 478477,
-    "productos": "CHICLE BLUPER PROMO SUELTO X1UN",
-    "uxb": 1
   },
   {
     "codigos": 473333,
@@ -16868,16 +17068,6 @@ const PRODUCTOS=[
     "codigos": 478168,
     "productos": "CHICLE BOLITA BLUPER x400g",
     "uxb": 12
-  },
-  {
-    "codigos": 478179,
-    "productos": "CHICLE BOLON BLUPER x400g",
-    "uxb": 12
-  },
-  {
-    "codigos": 478402,
-    "productos": "CHICLE BOTELLITA G.M X1UN",
-    "uxb": 30
   },
   {
     "codigos": 478174,
@@ -18430,6 +18620,36 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481527,
+    "productos": "CHUP MEGALITO COOKIES/CREAM x432g",
+    "uxb": 12
+  },
+  {
+    "codigos": 481531,
+    "productos": "CHUP MEGALITO FRUTILLA x432g",
+    "uxb": 12
+  },
+  {
+    "codigos": 481530,
+    "productos": "CHUP MEGALITO PINT x432g",
+    "uxb": 12
+  },
+  {
+    "codigos": 481529,
+    "productos": "CHUP MEGALITO SURT x432gr",
+    "uxb": 12
+  },
+  {
+    "codigos": 481528,
+    "productos": "CHUP MEGALITO X-TREME x432g",
+    "uxb": 12
+  },
+  {
+    "codigos": 481525,
+    "productos": "CHUP. BERBULITO x300gr",
+    "uxb": 30
+  },
+  {
     "codigos": 478584,
     "productos": "CHUP. CANDY PORT ANILLO FRUT.x500gr",
     "uxb": 12
@@ -19060,9 +19280,9 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 462400,
-    "productos": "CIF GEL C/LAVANDINA x513cc",
-    "uxb": 12
+    "codigos": 479422,
+    "productos": "CICATRICURE NEURO-ZEN 50g",
+    "uxb": 1
   },
   {
     "codigos": 479282,
@@ -19123,6 +19343,11 @@ const PRODUCTOS=[
     "codigos": 468580,
     "productos": "CIGARRILLO DELUXE BLEND DOLCHESTER",
     "uxb": 1
+  },
+  {
+    "codigos": 481526,
+    "productos": "CIGARRILLO DIESEL RUBIO x10UN",
+    "uxb": 25
   },
   {
     "codigos": 466019,
@@ -19670,11 +19895,6 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 8807,
-    "productos": "CLERICO FIZZ REAL x750cc",
-    "uxb": 6
-  },
-  {
     "codigos": 478244,
     "productos": "CLIP BANANA GRANDE",
     "uxb": 1
@@ -19748,16 +19968,6 @@ const PRODUCTOS=[
     "codigos": 476901,
     "productos": "COCODRILO ENCASTRE E/RED SOIFER COD 13298",
     "uxb": 1
-  },
-  {
-    "codigos": 7880,
-    "productos": "COCTEL DE FRUTAS LA COLINA 820G",
-    "uxb": 12
-  },
-  {
-    "codigos": 978,
-    "productos": "COCTEL DE FRUTAS MAROLIO x850g",
-    "uxb": 12
   },
   {
     "codigos": 7051,
@@ -19900,9 +20110,24 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481597,
+    "productos": "COLADOR MAKE N10 GALV.",
+    "uxb": 1
+  },
+  {
+    "codigos": 481606,
+    "productos": "COLADOR MAKE NRO 8",
+    "uxb": 1
+  },
+  {
     "codigos": 476456,
     "productos": "COLADOR MULTIUSO KEVINS",
     "uxb": 24
+  },
+  {
+    "codigos": 481589,
+    "productos": "COLADOR PINT. MAKE N16",
+    "uxb": 1
   },
   {
     "codigos": 473327,
@@ -20455,8 +20680,18 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 464236,
+    "productos": "COMBINADO CREMONA FELFORT x100g",
+    "uxb": 10
+  },
+  {
     "codigos": 467370,
     "productos": "COMBO 2 DIA DEL PADRE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481665,
+    "productos": "COMBO AMARGO DIA DE LA MADRE",
     "uxb": 1
   },
   {
@@ -20550,6 +20785,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481667,
+    "productos": "COMBO MATE MINI BOLSITO DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 481123,
     "productos": "COMBO MATERO DIA DEL PADRE FAIR 2026",
     "uxb": 1
@@ -20557,6 +20797,11 @@ const PRODUCTOS=[
   {
     "codigos": 481124,
     "productos": "COMBO PARRILLERO DIA DEL PADRE FAIR",
+    "uxb": 1
+  },
+  {
+    "codigos": 481664,
+    "productos": "COMBO PORTA TERMO CLEO",
     "uxb": 1
   },
   {
@@ -20700,6 +20945,11 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
+    "codigos": 475142,
+    "productos": "COND P/CARNES BCAS ALICANTE x25gr",
+    "uxb": 12
+  },
+  {
     "codigos": 804,
     "productos": "CONDIM P/ ARROZ CENTURION 25G",
     "uxb": 50
@@ -20747,11 +20997,6 @@ const PRODUCTOS=[
   {
     "codigos": 1042,
     "productos": "CONDIMENTO P/CARNES ALICANTE X25G",
-    "uxb": 12
-  },
-  {
-    "codigos": 475142,
-    "productos": "CONDIMENTO P/CARNES BLANCAS ALICANTE x25g",
     "uxb": 12
   },
   {
@@ -21922,7 +22167,7 @@ const PRODUCTOS=[
   {
     "codigos": 10213,
     "productos": "CREMA DENT COLGATE LUMIN X70g",
-    "uxb": 12
+    "uxb": 48
   },
   {
     "codigos": 478356,
@@ -21990,6 +22235,11 @@ const PRODUCTOS=[
     "uxb": 72
   },
   {
+    "codigos": 471114,
+    "productos": "CREMA DENT.COLGATE LUMIN CARB A. X70GR",
+    "uxb": 72
+  },
+  {
     "codigos": 5867,
     "productos": "CREMA DENT.COLGATE SENSI/BLANQ x100gr",
     "uxb": 48
@@ -22003,6 +22253,11 @@ const PRODUCTOS=[
     "codigos": 998,
     "productos": "CREMA DENT.COLGATE T/ACCION x180gr",
     "uxb": 72
+  },
+  {
+    "codigos": 6043,
+    "productos": "CREMA DENT.COLGATE TOTAL12 BLANQ x90gr",
+    "uxb": 48
   },
   {
     "codigos": 4993,
@@ -22033,6 +22288,11 @@ const PRODUCTOS=[
     "codigos": 468909,
     "productos": "CREMA DENT.KOLYNOS EXTRA FRESH X70GR",
     "uxb": 72
+  },
+  {
+    "codigos": 7610,
+    "productos": "CREMA DENT.KOLYNOS FRESC INTES X 180GR",
+    "uxb": 48
   },
   {
     "codigos": 479992,
@@ -22453,6 +22713,11 @@ const PRODUCTOS=[
     "codigos": 13275,
     "productos": "CREMON FRACCIONADO OF FAIR",
     "uxb": 1
+  },
+  {
+    "codigos": 481682,
+    "productos": "CREMONA D/ALMENDRO FELFORT x100g",
+    "uxb": 10
   },
   {
     "codigos": 14260,
@@ -23425,6 +23690,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 463094,
+    "productos": "DCE D/BATATA EMETH x500gr",
+    "uxb": 12
+  },
+  {
     "codigos": 475988,
     "productos": "DCE DE BATATA NOEL CAJON x5Kg",
     "uxb": 1
@@ -23506,7 +23776,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 481179,
-    "productos": "DCE DE LECHE LA SERENISIMA AIREADO x300gr",
+    "productos": "DCE DE LECHE LA SERE AIREADO x300gr",
     "uxb": 1
   },
   {
@@ -23527,7 +23797,7 @@ const PRODUCTOS=[
   {
     "codigos": 464695,
     "productos": "DCE DE LECHE LA SERENISIMA COLON.x1kg",
-    "uxb": 8
+    "uxb": 1
   },
   {
     "codigos": 462943,
@@ -23625,6 +23895,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481603,
+    "productos": "DCE DE LECHE TREMBLAY x 1Kg",
+    "uxb": 6
+  },
+  {
+    "codigos": 481595,
+    "productos": "DCE DE LECHE TREMBLAY x 250Grs",
+    "uxb": 24
+  },
+  {
+    "codigos": 481602,
+    "productos": "DCE DE LECHE TREMBLAY x 400Grs",
+    "uxb": 12
+  },
+  {
     "codigos": 14454,
     "productos": "DCL BATATA/CHOCO DULCOR FRACC",
     "uxb": 1
@@ -23713,6 +23998,16 @@ const PRODUCTOS=[
     "codigos": 471639,
     "productos": "DES INODORO BELAROM MARINA x20g",
     "uxb": 36
+  },
+  {
+    "codigos": 481669,
+    "productos": "DES PALOMA HERR. INTENSE 123cc",
+    "uxb": 6
+  },
+  {
+    "codigos": 463920,
+    "productos": "DES PALOMA HERRERA CLASICO x123cc",
+    "uxb": 6
   },
   {
     "codigos": 479980,
@@ -24090,21 +24385,6 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 476683,
-    "productos": "DESODORANTE ANTIB CLEAN LAVANDA x150cc",
-    "uxb": 15
-  },
-  {
-    "codigos": 476681,
-    "productos": "DESODORANTE ANTIB SMART CLEAN BAMBU x150cc",
-    "uxb": 15
-  },
-  {
-    "codigos": 476682,
-    "productos": "DESODORANTE ANTIB SMART FLORES BCAS x150cc",
-    "uxb": 15
-  },
-  {
     "codigos": 477415,
     "productos": "DESODORANTE AXE APOLLO 72hr x150ml",
     "uxb": 12
@@ -24282,6 +24562,11 @@ const PRODUCTOS=[
   {
     "codigos": 468717,
     "productos": "DESODORANTE COLBERT x250ml VARIOS CLASICO",
+    "uxb": 6
+  },
+  {
+    "codigos": 466317,
+    "productos": "DESODORANTE COLBERT x250ml VARIOS CODE-BOLD",
     "uxb": 6
   },
   {
@@ -24560,11 +24845,6 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 463920,
-    "productos": "DESODORANTE PALOMA HERRERA CLASICO x123ml",
-    "uxb": 6
-  },
-  {
     "codigos": 473390,
     "productos": "DESODORANTE PALOMA HERRERA FANTASY x123cc",
     "uxb": 6
@@ -24805,24 +25085,9 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 476694,
-    "productos": "DESODORANTE SANDALO DULCE x150cc",
-    "uxb": 15
-  },
-  {
     "codigos": 474275,
     "productos": "DESODORANTE SENS VS X123CC",
     "uxb": 6
-  },
-  {
-    "codigos": 476685,
-    "productos": "DESODORANTE SMART MANGO Y MARACUYA X150CC",
-    "uxb": 15
-  },
-  {
-    "codigos": 476687,
-    "productos": "DESODORANTE SMART MORAS Y ARANDANO x150cc",
-    "uxb": 15
   },
   {
     "codigos": 478282,
@@ -24842,7 +25107,7 @@ const PRODUCTOS=[
   {
     "codigos": 480268,
     "productos": "DESTAPACAÑERIAS CLINSY x1Lt",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 467276,
@@ -24865,6 +25130,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481684,
+    "productos": "DET ODEX ULTRA LIMON x750ml",
+    "uxb": 12
+  },
+  {
     "codigos": 477489,
     "productos": "DETERGENTE ALA CONCEN x300ml LIMON",
     "uxb": 12
@@ -24880,53 +25150,8 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
-    "codigos": 11504,
-    "productos": "DETERGENTE BORA MAGIC DP X450cm",
-    "uxb": 12
-  },
-  {
-    "codigos": 463705,
-    "productos": "DETERGENTE CIF ACT.GEL DP X450ML",
-    "uxb": 15
-  },
-  {
-    "codigos": 4140,
-    "productos": "DETERGENTE CIF LIMA x750cc",
-    "uxb": 12
-  },
-  {
-    "codigos": 471348,
-    "productos": "DETERGENTE CIF LIMON DP x450ml",
-    "uxb": 15
-  },
-  {
-    "codigos": 471345,
-    "productos": "DETERGENTE CIF LIMON VERDE DP x450ml",
-    "uxb": 15
-  },
-  {
     "codigos": 4186,
     "productos": "DETERGENTE CIF LIMON x750cc",
-    "uxb": 12
-  },
-  {
-    "codigos": 478510,
-    "productos": "DETERGENTE CIF X1.25L LIMA",
-    "uxb": 12
-  },
-  {
-    "codigos": 1103,
-    "productos": "DETERGENTE CIF X1.25L LIMON",
-    "uxb": 12
-  },
-  {
-    "codigos": 4073,
-    "productos": "DETERGENTE CIF X300ML ALOE LIMON",
-    "uxb": 12
-  },
-  {
-    "codigos": 8310,
-    "productos": "DETERGENTE CIF X300ML CITRICOS",
     "uxb": 12
   },
   {
@@ -24940,63 +25165,8 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 8790,
-    "productos": "DETERGENTE CIF X300ML LIMON VDE",
-    "uxb": 12
-  },
-  {
-    "codigos": 918,
-    "productos": "DETERGENTE CIF X300ML MANZANA",
-    "uxb": 12
-  },
-  {
-    "codigos": 465047,
-    "productos": "DETERGENTE CIF X300ML MENTA LIMO",
-    "uxb": 12
-  },
-  {
-    "codigos": 919,
-    "productos": "DETERGENTE CIF X300ML NJA LIMON",
-    "uxb": 12
-  },
-  {
-    "codigos": 8312,
-    "productos": "DETERGENTE CIF X300ML PEPERINA",
-    "uxb": 12
-  },
-  {
-    "codigos": 7876,
-    "productos": "DETERGENTE CIF x500g ALOE/LIMON",
-    "uxb": 12
-  },
-  {
-    "codigos": 471398,
-    "productos": "DETERGENTE CIF x500g FRUTAS BIO",
-    "uxb": 12
-  },
-  {
-    "codigos": 471399,
-    "productos": "DETERGENTE CIF x500g LIMON BIO",
-    "uxb": 12
-  },
-  {
     "codigos": 913,
     "productos": "DETERGENTE CIF x500g LIMON/LIMA",
-    "uxb": 12
-  },
-  {
-    "codigos": 914,
-    "productos": "DETERGENTE CIF x500g NARANJA",
-    "uxb": 12
-  },
-  {
-    "codigos": 8311,
-    "productos": "DETERGENTE CIF x500g PEPERINA",
-    "uxb": 12
-  },
-  {
-    "codigos": 916,
-    "productos": "DETERGENTE CIF x500g TE VERDE",
     "uxb": 12
   },
   {
@@ -25035,18 +25205,8 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
-    "codigos": 5239,
-    "productos": "DETERGENTE MAGISTRAL ALOE X300ML",
-    "uxb": 21
-  },
-  {
     "codigos": 478110,
     "productos": "DETERGENTE MAGISTRAL DP x450ml",
-    "uxb": 21
-  },
-  {
-    "codigos": 471216,
-    "productos": "DETERGENTE MAGISTRAL L/CREMOSO x215ML",
     "uxb": 21
   },
   {
@@ -25092,32 +25252,32 @@ const PRODUCTOS=[
   {
     "codigos": 480292,
     "productos": "DETERGENTE SUIZA LIMON VERDE x300g",
-    "uxb": 1
+    "uxb": 18
   },
   {
     "codigos": 480293,
     "productos": "DETERGENTE SUIZA LIMON VERDE x500g",
-    "uxb": 1
+    "uxb": 18
   },
   {
     "codigos": 480294,
     "productos": "DETERGENTE SUIZA LIMON VERDE x750cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480252,
     "productos": "DETERGENTE SUIZA LIMON x300cc",
-    "uxb": 1
+    "uxb": 18
   },
   {
     "codigos": 480253,
     "productos": "DETERGENTE SUIZA LIMON x500cc",
-    "uxb": 1
+    "uxb": 18
   },
   {
     "codigos": 480254,
     "productos": "DETERGENTE SUIZA LIMON x750cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 4724,
@@ -25745,11 +25905,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 463094,
-    "productos": "DULCE DE BATATA EMETH x500gr",
-    "uxb": 12
-  },
-  {
     "codigos": 476035,
     "productos": "DULCE DE LECHE CERROS 250G",
     "uxb": 48
@@ -25870,11 +26025,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 477207,
-    "productos": "DURAZNO ALCO E/MITADES LATA 820G",
-    "uxb": 12
-  },
-  {
     "codigos": 480702,
     "productos": "DURAZNO EN MITADES LA BANDA LATA x820g",
     "uxb": 12
@@ -25888,11 +26038,6 @@ const PRODUCTOS=[
     "codigos": 7046,
     "productos": "DURAZNO MAROLIO E/MITADES x820g",
     "uxb": 12
-  },
-  {
-    "codigos": 467023,
-    "productos": "DURAZNO MAROLIO E/TROZOS x340g",
-    "uxb": 24
   },
   {
     "codigos": 476021,
@@ -26420,6 +26565,16 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481605,
+    "productos": "EMBUDO PLAST. MAKE N10",
+    "uxb": 1
+  },
+  {
+    "codigos": 481601,
+    "productos": "EMBUDO PLAST. N15 MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 10327,
     "productos": "EMBUDOS YESI 13 CM",
     "uxb": 1
@@ -26870,6 +27025,11 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 480131,
+    "productos": "ENJ BUCAL PLAX ODOR CONTROL x250cc",
+    "uxb": 12
+  },
+  {
     "codigos": 481405,
     "productos": "ENJ. DOWNY BOT VARIOS x350cc",
     "uxb": 12
@@ -26912,6 +27072,11 @@ const PRODUCTOS=[
   {
     "codigos": 9422,
     "productos": "ENJ.BUCAL COLGATE PLAX KIDS TUTTI x250ml",
+    "uxb": 12
+  },
+  {
+    "codigos": 460757,
+    "productos": "ENJ.BUCAL COLGATE PLAX LUMI/WHITE x250ml",
     "uxb": 12
   },
   {
@@ -27110,11 +27275,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 5475,
-    "productos": "ESCOBA CALABRINA LA GAUCHITA",
-    "uxb": 12
-  },
-  {
     "codigos": 462513,
     "productos": "ESCOBA CLAUDIA CEPIPLAST",
     "uxb": 12
@@ -27160,29 +27320,14 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 5470,
-    "productos": "ESCOBA LA GAUCHITA RINCONES",
-    "uxb": 1
-  },
-  {
     "codigos": 7367,
     "productos": "ESCOBA ROMYL PLAST EXT N4",
-    "uxb": 1
-  },
-  {
-    "codigos": 1215,
-    "productos": "ESCOBA ROMYL PLAST N2",
     "uxb": 1
   },
   {
     "codigos": 465391,
     "productos": "ESCOBA VERONNA LA GAUCHITA",
     "uxb": 12
-  },
-  {
-    "codigos": 469014,
-    "productos": "ESCOBILLA D/PLASTICO SANITARIA VIHA",
-    "uxb": 240
   },
   {
     "codigos": 464899,
@@ -27195,19 +27340,9 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 468581,
-    "productos": "ESCOBILLA P/BAÑO C/VASO EXTRALIMP",
-    "uxb": 20
-  },
-  {
     "codigos": 471128,
     "productos": "ESCOBILLA PARA BAÑO C/VASO ECOO",
     "uxb": 20
-  },
-  {
-    "codigos": 8776,
-    "productos": "ESCOBILLA ROMYL",
-    "uxb": 1
   },
   {
     "codigos": 5482,
@@ -27315,24 +27450,9 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 5019,
-    "productos": "ESCOBILLON LAURA",
-    "uxb": 12
-  },
-  {
     "codigos": 11233,
     "productos": "ESCOBILLON LIVIANO ECO/LIMP",
     "uxb": 24
-  },
-  {
-    "codigos": 6427,
-    "productos": "ESCOBILLON MATCH LA GAUCHITA",
-    "uxb": 12
-  },
-  {
-    "codigos": 464898,
-    "productos": "ESCOBILLON MILY DASILVA",
-    "uxb": 12
   },
   {
     "codigos": 475061,
@@ -27342,27 +27462,27 @@ const PRODUCTOS=[
   {
     "codigos": 480427,
     "productos": "ESCOBILLON MR TRAPO CLASICO LAQUEADO",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480958,
     "productos": "ESCOBILLON MR TRAPO COMPACTO P",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480425,
     "productos": "ESCOBILLON MR TRAPO COMPACTO RECTO",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480426,
     "productos": "ESCOBILLON MR TRAPO GONDOLA CURVO",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480959,
     "productos": "ESCOBILLON MR TRAPO GONDOLA P",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 477501,
@@ -27375,11 +27495,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 476409,
-    "productos": "ESCOBILLON ORENCE DA SILVA",
-    "uxb": 12
-  },
-  {
     "codigos": 8073,
     "productos": "ESCOBILLON PISOS DELIC.LA GAUCHITA",
     "uxb": 12
@@ -27387,21 +27502,6 @@ const PRODUCTOS=[
   {
     "codigos": 5476,
     "productos": "ESCOBILLON PLANO ASAPRACTIC GAUCHITA",
-    "uxb": 12
-  },
-  {
-    "codigos": 1219,
-    "productos": "ESCOBILLON RECTO N5 ROMYL",
-    "uxb": 1
-  },
-  {
-    "codigos": 1217,
-    "productos": "ESCOBILLON SUPER N3 CURVO ROMYL",
-    "uxb": 1
-  },
-  {
-    "codigos": 2128,
-    "productos": "ESCOBILLON ULTRA LA GAUCHITA",
     "uxb": 12
   },
   {
@@ -27715,21 +27815,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 3754,
-    "productos": "ESPIRAL FUYI CAJA X12X4 UN",
-    "uxb": 4
-  },
-  {
-    "codigos": 6262,
-    "productos": "ESPIRAL FUYI CLASICO X12U",
-    "uxb": 24
-  },
-  {
-    "codigos": 6261,
-    "productos": "ESPIRAL FUYI COUNTRY FRESH x12u",
-    "uxb": 24
-  },
-  {
     "codigos": 475565,
     "productos": "ESPIRAL FUYI x4Un.",
     "uxb": 1
@@ -27845,16 +27930,6 @@ const PRODUCTOS=[
     "uxb": 72
   },
   {
-    "codigos": 476036,
-    "productos": "ESPONJA ACERO MORTIMER INOX 1X13GR",
-    "uxb": 240
-  },
-  {
-    "codigos": 5632,
-    "productos": "ESPONJA ACERO ROMYL +F.ES X2UN",
-    "uxb": 60
-  },
-  {
     "codigos": 479481,
     "productos": "ESPONJA ACERO ROMYL GIGANTE x50g",
     "uxb": 1
@@ -27863,21 +27938,6 @@ const PRODUCTOS=[
     "codigos": 7331,
     "productos": "ESPONJA ACERO ROMYL INST INOX X30GR",
     "uxb": 120
-  },
-  {
-    "codigos": 5109,
-    "productos": "ESPONJA ACERO SEDMETAL 15gr",
-    "uxb": 1
-  },
-  {
-    "codigos": 462329,
-    "productos": "ESPONJA ACERO TODO ESPONJA INOX 15GR",
-    "uxb": 1
-  },
-  {
-    "codigos": 8096,
-    "productos": "ESPONJA ACERO x2u ROMYL",
-    "uxb": 1
   },
   {
     "codigos": 476410,
@@ -27890,16 +27950,6 @@ const PRODUCTOS=[
     "uxb": 120
   },
   {
-    "codigos": 7990,
-    "productos": "ESPONJA BAÑO EXFOL.SUAVE ROMYL",
-    "uxb": 60
-  },
-  {
-    "codigos": 7478,
-    "productos": "ESPONJA BAÑO HUESO BOOB ROMYL",
-    "uxb": 120
-  },
-  {
     "codigos": 463414,
     "productos": "ESPONJA BAÑO INFANT PAT. ALLEN",
     "uxb": 1
@@ -27908,16 +27958,6 @@ const PRODUCTOS=[
     "codigos": 463413,
     "productos": "ESPONJA BAÑO MASAJE PAT. ALLEN",
     "uxb": 1
-  },
-  {
-    "codigos": 7328,
-    "productos": "ESPONJA BAÑO RECT.BOOB ROMYL",
-    "uxb": 60
-  },
-  {
-    "codigos": 8001,
-    "productos": "ESPONJA BAÑO RECT.GDE BOOB ROMYL",
-    "uxb": 60
   },
   {
     "codigos": 5969,
@@ -27965,24 +28005,9 @@ const PRODUCTOS=[
     "uxb": 72
   },
   {
-    "codigos": 5635,
-    "productos": "ESPONJA BRONCE ROMYL 13GR",
-    "uxb": 1
-  },
-  {
     "codigos": 465262,
     "productos": "ESPONJA BRONCE VIRULANA X1UN",
     "uxb": 100
-  },
-  {
-    "codigos": 473245,
-    "productos": "ESPONJA BRONCE VIRULANA X2UN",
-    "uxb": 1
-  },
-  {
-    "codigos": 469012,
-    "productos": "ESPONJA DE BAÑO x2Un",
-    "uxb": 300
   },
   {
     "codigos": 60600,
@@ -28175,11 +28200,6 @@ const PRODUCTOS=[
     "uxb": 96
   },
   {
-    "codigos": 476756,
-    "productos": "ESPONJA MORTIMER CUADR PODEROSA X1UN",
-    "uxb": 1
-  },
-  {
     "codigos": 465757,
     "productos": "ESPONJA OK 1UN",
     "uxb": 240
@@ -28210,24 +28230,9 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 8664,
-    "productos": "ESPONJA ROMYL BOOB BAÑO OVALADA 1UN",
-    "uxb": 1
-  },
-  {
-    "codigos": 5629,
-    "productos": "ESPONJA ROMYL C/SALVA UÑAS 1UN",
-    "uxb": 240
-  },
-  {
     "codigos": 7377,
     "productos": "ESPONJA ROMYL FACIL DELICADA 1UN",
     "uxb": 120
-  },
-  {
-    "codigos": 6388,
-    "productos": "ESPONJA SCOTCH-BRITE LIMP PROF",
-    "uxb": 1
   },
   {
     "codigos": 476628,
@@ -28245,28 +28250,8 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 476626,
-    "productos": "ESPONJA SED METAL DORADA x2 uni",
-    "uxb": 1
-  },
-  {
-    "codigos": 476627,
-    "productos": "ESPONJA SED METAL MULTIUSO x1uni",
-    "uxb": 1
-  },
-  {
     "codigos": 480282,
     "productos": "ESPONJA SLIMFIT MISTER TRAPO S.DELICADAS",
-    "uxb": 1
-  },
-  {
-    "codigos": 11174,
-    "productos": "ESPONJA SWEET ESPON x1Un",
-    "uxb": 6
-  },
-  {
-    "codigos": 4048,
-    "productos": "ESPONJA TASK ERGONOMICA",
     "uxb": 1
   },
   {
@@ -28277,11 +28262,6 @@ const PRODUCTOS=[
   {
     "codigos": 474270,
     "productos": "ESPONJA TASK MULTIUSO SALVAUÑAS 1UN",
-    "uxb": 1
-  },
-  {
-    "codigos": 5631,
-    "productos": "ESPONJA TODOESPONJA 1UN",
     "uxb": 1
   },
   {
@@ -28615,6 +28595,16 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 481681,
+    "productos": "ESPUMON D/ALMENDRA FELFORTx100g",
+    "uxb": 1
+  },
+  {
+    "codigos": 464233,
+    "productos": "ESPUMON DE MARROC FELFORT x100g",
+    "uxb": 10
+  },
+  {
     "codigos": 990009,
     "productos": "ESQUELETO 7UP X 8",
     "uxb": 1
@@ -28692,11 +28682,6 @@ const PRODUCTOS=[
   {
     "codigos": 480281,
     "productos": "ESTROPAJO ACERO MED MISTER TRAPO",
-    "uxb": 1
-  },
-  {
-    "codigos": 475958,
-    "productos": "ESTROPAJO DE ACERO SED METAL",
     "uxb": 1
   },
   {
@@ -29090,6 +29075,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 14462,
+    "productos": "FIAM D/CERDO ORFEBRE LA OCTAVA 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14463,
+    "productos": "FIAM D/CERDO ORFEBRE LA OCTAVA FETAS",
+    "uxb": 1
+  },
+  {
+    "codigos": 14461,
+    "productos": "FIAM D/CERDO ORFEBRE LA OCTAVA HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 13329,
     "productos": "FIAMBRE CERDO/POLLO CHAMPION",
     "uxb": 1
@@ -29235,11 +29235,6 @@ const PRODUCTOS=[
     "uxb": 72
   },
   {
-    "codigos": 468907,
-    "productos": "FIBRA ESPONJA OK PEGADA",
-    "uxb": 240
-  },
-  {
     "codigos": 464721,
     "productos": "FIBRA ESPONJA PERFILADA FUERTE",
     "uxb": 240
@@ -29248,11 +29243,6 @@ const PRODUCTOS=[
     "codigos": 9746,
     "productos": "FIBRA ESPONJA ROMYL LIMPIEZA FINA ROJA",
     "uxb": 120
-  },
-  {
-    "codigos": 1357,
-    "productos": "FIBRA ESPONJA ROMYL MULTIUSO",
-    "uxb": 240
   },
   {
     "codigos": 7991,
@@ -29265,11 +29255,6 @@ const PRODUCTOS=[
     "uxb": 120
   },
   {
-    "codigos": 476306,
-    "productos": "FIBRA ESPONJA SED METAL 1UN",
-    "uxb": 1
-  },
-  {
     "codigos": 1358,
     "productos": "FIBRA ESPONJA TODOESPONJA C/SALV UÑAS",
     "uxb": 240
@@ -29278,11 +29263,6 @@ const PRODUCTOS=[
     "codigos": 1359,
     "productos": "FIBRA ESPONJA TODOESPONJA PERFILADA",
     "uxb": 240
-  },
-  {
-    "codigos": 478936,
-    "productos": "FIBRA ESPONJA VARELITA",
-    "uxb": 1
   },
   {
     "codigos": 54845,
@@ -29582,7 +29562,7 @@ const PRODUCTOS=[
   {
     "codigos": 475555,
     "productos": "FIDEO LUCCHETTI x500g FORATTI",
-    "uxb": 15
+    "uxb": 20
   },
   {
     "codigos": 1396,
@@ -30195,6 +30175,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 5108,
+    "productos": "FIDEO SANTA ISABEL X500GR FORATTI",
+    "uxb": 20
+  },
+  {
     "codigos": 474648,
     "productos": "FIDEO SANTA ISABEL X500GR SPAGHETTI",
     "uxb": 20
@@ -30361,17 +30346,17 @@ const PRODUCTOS=[
   },
   {
     "codigos": 481440,
-    "productos": "FIDEOS ARCOR RAMEN BOLSA S/CAMARONES x65gr",
+    "productos": "FIDEOS ARCOR RAMEN BSA CAMARONES x65gr",
     "uxb": 24
   },
   {
     "codigos": 481441,
-    "productos": "FIDEOS ARCOR RAMEN BOLSA S/CARNE x65gr",
+    "productos": "FIDEOS ARCOR RAMEN BSA CARNE x65gr",
     "uxb": 24
   },
   {
     "codigos": 481442,
-    "productos": "FIDEOS ARCOR RAMEN BOLSA S/VEGETALES x65g",
+    "productos": "FIDEOS ARCOR RAMEN BSA VEGETALES x65gr",
     "uxb": 24
   },
   {
@@ -30601,7 +30586,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 463908,
-    "productos": "FLAN DANETTE LA SERENISIMAx95gx1Un.",
+    "productos": "FLAN DANETTE LA SERENISIMA x2 uni",
     "uxb": 24
   },
   {
@@ -30853,11 +30838,6 @@ const PRODUCTOS=[
     "codigos": 474096,
     "productos": "FLUIDO DESINFECTANTE GORRION x920cc",
     "uxb": 8
-  },
-  {
-    "codigos": 468403,
-    "productos": "FLUIDO DESINFECTANTE X5 x480cc",
-    "uxb": 12
   },
   {
     "codigos": 477166,
@@ -31215,11 +31195,6 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 464206,
-    "productos": "FRESA FIZZ LA VICTORIA x720cc",
-    "uxb": 6
-  },
-  {
     "codigos": 3732,
     "productos": "FRESA FIZZ ORO DULCE x710cc",
     "uxb": 6
@@ -31310,19 +31285,9 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 6973,
-    "productos": "FRUTILLA BAHIA P/REPOST X420gr",
-    "uxb": 12
-  },
-  {
     "codigos": 7202,
     "productos": "FRUTILLA COLADA AMERICAN CLUBX750",
     "uxb": 6
-  },
-  {
-    "codigos": 11074,
-    "productos": "FRUTILLAS BAHIA ENTERAS x520g",
-    "uxb": 12
   },
   {
     "codigos": 417,
@@ -32496,7 +32461,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 476796,
-    "productos": "GALL GOLD MUNDO POLVORON CHIPS/SAL X160GR",
+    "productos": "GALL GOLD MUNDO POLVORON CHIPS/Sx160gr",
     "uxb": 25
   },
   {
@@ -32667,7 +32632,7 @@ const PRODUCTOS=[
   {
     "codigos": 460830,
     "productos": "GALL HOGAREÑAS SALVADO X3U 600G",
-    "uxb": 10
+    "uxb": 12
   },
   {
     "codigos": 477921,
@@ -32841,7 +32806,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 4409,
-    "productos": "GALL LA NONNA MINI RELL DUO STREMER x160gr",
+    "productos": "GALL LA NONNA MINI RELL DUO STR.x160gr",
     "uxb": 24
   },
   {
@@ -33060,6 +33025,11 @@ const PRODUCTOS=[
     "uxb": 16
   },
   {
+    "codigos": 74588,
+    "productos": "GALL MAROLIO SALVADO X360g",
+    "uxb": 24
+  },
+  {
     "codigos": 462468,
     "productos": "GALL MAROLIO SANDWICH 303G",
     "uxb": 16
@@ -33248,6 +33218,16 @@ const PRODUCTOS=[
     "codigos": 473162,
     "productos": "GALL NS x300gr SESAMO",
     "uxb": 16
+  },
+  {
+    "codigos": 14479,
+    "productos": "GALL OBLEA DADINHO BITZ BLACKx105gr",
+    "uxb": 30
+  },
+  {
+    "codigos": 481538,
+    "productos": "GALL OBLEA DADINHO BITZ LECHEx105gr",
+    "uxb": 30
   },
   {
     "codigos": 1582,
@@ -33700,11 +33680,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 468821,
-    "productos": "MOPA GRIS DURAMAS",
-    "uxb": 12
-  },
-  {
     "codigos": 10230,
     "productos": "GALL PORTEÑITAS BAGLEY x139gr",
     "uxb": 36
@@ -33843,6 +33818,11 @@ const PRODUCTOS=[
     "codigos": 480911,
     "productos": "GALL RIEDMAR x250gr COOKIES CHOCO CHIP",
     "uxb": 16
+  },
+  {
+    "codigos": 14203,
+    "productos": "MIX FRUTOS SECOS ALM/NUEC/PAS/CAST 1Kg",
+    "uxb": 1
   },
   {
     "codigos": 475392,
@@ -35000,6 +34980,11 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
+    "codigos": 481510,
+    "productos": "GARBANZOS SECOS REMOJ. LA BANDA x350gr",
+    "uxb": 6
+  },
+  {
     "codigos": 477158,
     "productos": "GARBANZOS TRES ARROYOS LATA x350g",
     "uxb": 24
@@ -35008,6 +34993,26 @@ const PRODUCTOS=[
     "codigos": 478353,
     "productos": "GARBANZOS VIGENTE SECOS REMOJ x340gr",
     "uxb": 24
+  },
+  {
+    "codigos": 481575,
+    "productos": "GARNIER FRUCTIS ADIOS DAÑOS x250cc",
+    "uxb": 12
+  },
+  {
+    "codigos": 481570,
+    "productos": "GARNIER FRUCTIS HIDRA. ALOE VERA x350cc",
+    "uxb": 1
+  },
+  {
+    "codigos": 481571,
+    "productos": "GARNIER FRUCTIS REPAR. COCO x350cc",
+    "uxb": 1
+  },
+  {
+    "codigos": 481574,
+    "productos": "GARNIER FRUCTIS RIZOS PODEROSOS x250cc",
+    "uxb": 12
   },
   {
     "codigos": 479757,
@@ -35020,9 +35025,19 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481674,
+    "productos": "GARRAPIÑADA D/MANI FELFORT x150g",
+    "uxb": 10
+  },
+  {
     "codigos": 473555,
     "productos": "GARRAPIÑADA DE MANI ALTEZA x80g",
     "uxb": 60
+  },
+  {
+    "codigos": 473152,
+    "productos": "GARRAPIÑADA MANI BONAFIDE x80g",
+    "uxb": 36
   },
   {
     "codigos": 477626,
@@ -35390,6 +35405,11 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 10439,
+    "productos": "GASEOSA PEPSI BLACK X500CC",
+    "uxb": 1
+  },
+  {
     "codigos": 480957,
     "productos": "GASEOSA PEPSI BLACK x2.25cc",
     "uxb": 8
@@ -35550,6 +35570,21 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481532,
+    "productos": "GASEOSA TAOS COLA x3Lt",
+    "uxb": 6
+  },
+  {
+    "codigos": 481534,
+    "productos": "GASEOSA TAOS MULTIFRUTA x3Lt",
+    "uxb": 6
+  },
+  {
+    "codigos": 481533,
+    "productos": "GASEOSA TAOS POMELO AMArillo x3Lt",
+    "uxb": 6
+  },
+  {
     "codigos": 480302,
     "productos": "GEL DUCHA ALGABO KAR-AGU x350g",
     "uxb": 12
@@ -35622,6 +35657,11 @@ const PRODUCTOS=[
   {
     "codigos": 6587,
     "productos": "GEL FIJ. ALGABO HUMEDO x350g",
+    "uxb": 6
+  },
+  {
+    "codigos": 478010,
+    "productos": "GEL FIJ. LORD CHESELINE EX.FIJA 280GR",
     "uxb": 6
   },
   {
@@ -35865,6 +35905,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481556,
+    "productos": "GELATINA S/SABOR FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 473020,
     "productos": "GELATINA S/SABOR SABOR SUR x25g",
     "uxb": 5
@@ -35952,11 +35997,6 @@ const PRODUCTOS=[
   {
     "codigos": 481036,
     "productos": "GELATINES SNACK FOOD DOCILE x250gr",
-    "uxb": 12
-  },
-  {
-    "codigos": 9578,
-    "productos": "GENTLEMAN ANANÁ EN RODAJAS 820G",
     "uxb": 12
   },
   {
@@ -36195,6 +36235,11 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
+    "codigos": 60584,
+    "productos": "GIRASOL SUSCHEN X30GR",
+    "uxb": 20
+  },
+  {
     "codigos": 460484,
     "productos": "GLADE AC NAT REP FL.PERF/FRUT.ROJOS",
     "uxb": 6
@@ -36217,6 +36262,11 @@ const PRODUCTOS=[
   {
     "codigos": 5030,
     "productos": "GLADE AUTO SPORT +APTO F.PERFECTIONS",
+    "uxb": 6
+  },
+  {
+    "codigos": 10861,
+    "productos": "GLADE AUTOM. REPUESTO PARAISO AZUL",
     "uxb": 6
   },
   {
@@ -36325,6 +36375,11 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 481673,
+    "productos": "GLADE REP AERO NJA/ORQUI. x270cc",
+    "uxb": 1
+  },
+  {
     "codigos": 9696,
     "productos": "GLADE SENSATIONS 8G MAÑ CAMPO",
     "uxb": 1
@@ -36368,6 +36423,11 @@ const PRODUCTOS=[
     "codigos": 463572,
     "productos": "GLADE TOQUE REP PLA/FLOR Y FRU/ROJOS",
     "uxb": 12
+  },
+  {
+    "codigos": 462500,
+    "productos": "GLADE TOQUE REP VARIOS DISC.",
+    "uxb": 1
   },
   {
     "codigos": 10717,
@@ -37121,7 +37181,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 479172,
-    "productos": "GOMITAS MOGUL OSO EXTREME PIC.x12un",
+    "productos": "GOMITAS MOGUL OSO EXTREME PIC.x  un",
     "uxb": 12
   },
   {
@@ -37846,12 +37906,12 @@ const PRODUCTOS=[
   },
   {
     "codigos": 465189,
-    "productos": "GUANTES MAPA \"L",
+    "productos": "GUANTES MAPA \"L\"",
     "uxb": 30
   },
   {
     "codigos": 465188,
-    "productos": "GUANTES MAPA \"M",
+    "productos": "GUANTES MAPA \"M\"",
     "uxb": 30
   },
   {
@@ -38200,6 +38260,16 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481581,
+    "productos": "HARINA CASERITA INTEGRAL M.FINA x1Kg",
+    "uxb": 10
+  },
+  {
+    "codigos": 481578,
+    "productos": "HARINA CASERITA INTEGRAL.MULTI+CHIAx1kg",
+    "uxb": 10
+  },
+  {
     "codigos": 4082,
     "productos": "HARINA CASERITA LEUDANTE 1KG",
     "uxb": 10
@@ -38213,6 +38283,11 @@ const PRODUCTOS=[
     "codigos": 1710,
     "productos": "HARINA CAÑUELAS 000 1KG",
     "uxb": 10
+  },
+  {
+    "codigos": 14481,
+    "productos": "HARINA CHACABUCO 000 SUELTA xKG",
+    "uxb": 1
   },
   {
     "codigos": 481300,
@@ -38302,7 +38377,7 @@ const PRODUCTOS=[
   {
     "codigos": 13831,
     "productos": "HARINA LEUD/PIZZA SUELTA xKG",
-    "uxb": 100
+    "uxb": 1
   },
   {
     "codigos": 6562,
@@ -38410,19 +38485,14 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
-    "codigos": 13829,
-    "productos": "HARINA SUELTA 000 TUCU",
-    "uxb": 100
-  },
-  {
     "codigos": 13811,
     "productos": "HARINA SUELTA 000 XKG",
-    "uxb": 100
+    "uxb": 1
   },
   {
     "codigos": 13830,
     "productos": "HARINA SUELTA 0000 xKG",
-    "uxb": 100
+    "uxb": 1000
   },
   {
     "codigos": 464019,
@@ -38900,6 +38970,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481541,
+    "productos": "HIBISCUS FLOR JAMAICA DP x80gr",
+    "uxb": 1
+  },
+  {
     "codigos": 479200,
     "productos": "HIBISCUS SABOR SUR x15g",
     "uxb": 6
@@ -38987,7 +39062,7 @@ const PRODUCTOS=[
   {
     "codigos": 460571,
     "productos": "HILO DENTAL COLGATE 2unx50mts",
-    "uxb": 1
+    "uxb": 48
   },
   {
     "codigos": 8195,
@@ -39670,11 +39745,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 462183,
-    "productos": "INSECTICIDA RAID FRESH R/ACC 360CC",
-    "uxb": 12
-  },
-  {
     "codigos": 7033,
     "productos": "INSECTICIDA RAID M.POLI/LARVAS X 360CC",
     "uxb": 12
@@ -39692,11 +39762,6 @@ const PRODUCTOS=[
   {
     "codigos": 471728,
     "productos": "INSECTICIDA RAID MAX MMM x360cc",
-    "uxb": 12
-  },
-  {
-    "codigos": 466094,
-    "productos": "INSECTICIDA RAID MMM B/ACUOSA X 360CC",
     "uxb": 12
   },
   {
@@ -39845,16 +39910,6 @@ const PRODUCTOS=[
     "uxb": 36
   },
   {
-    "codigos": 477444,
-    "productos": "JAB E/POLVO ALA ANTI BACT X800GR",
-    "uxb": 24
-  },
-  {
-    "codigos": 187,
-    "productos": "JAB E/POLVO ALA BOLSA X3KG",
-    "uxb": 7
-  },
-  {
     "codigos": 477450,
     "productos": "JAB E/POLVO ALA C/BIC L/M X3KG",
     "uxb": 7
@@ -39885,11 +39940,6 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 4430,
-    "productos": "JAB E/POLVO ALA CELESTE C/VIV 800GR",
-    "uxb": 1
-  },
-  {
     "codigos": 477448,
     "productos": "JAB E/POLVO ALA L/M ECO LAV X400GR",
     "uxb": 24
@@ -39908,11 +39958,6 @@ const PRODUCTOS=[
     "codigos": 477446,
     "productos": "JAB E/POLVO ALA MATIC MÑN D/CAMP X400GR",
     "uxb": 24
-  },
-  {
-    "codigos": 477449,
-    "productos": "JAB E/POLVO ALA MATIC X3KG",
-    "uxb": 7
   },
   {
     "codigos": 193,
@@ -39950,28 +39995,8 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 474101,
-    "productos": "JAB E/POLVO ALA X5KG",
-    "uxb": 4
-  },
-  {
-    "codigos": 464980,
-    "productos": "JAB E/POLVO DRIVE ANTIB 5EN1 X3KG",
-    "uxb": 6
-  },
-  {
     "codigos": 7324,
     "productos": "JAB E/POLVO DRIVE MATIC HORT X800GR",
-    "uxb": 24
-  },
-  {
-    "codigos": 472980,
-    "productos": "JAB E/POLVO DRIVE MATIC X400GR",
-    "uxb": 24
-  },
-  {
-    "codigos": 1169,
-    "productos": "JAB E/POLVO DRIVE X400GR",
     "uxb": 24
   },
   {
@@ -40095,21 +40120,6 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 12072,
-    "productos": "JAB E/POLVO SKIP X10KG",
-    "uxb": 1
-  },
-  {
-    "codigos": 468323,
-    "productos": "JAB E/POLVO SKIP X2.5KG",
-    "uxb": 7
-  },
-  {
-    "codigos": 467546,
-    "productos": "JAB E/POLVO SKIP X600GR",
-    "uxb": 24
-  },
-  {
     "codigos": 477442,
     "productos": "JAB E/POLVO ZORRO BLUE POW L/M X400GR",
     "uxb": 36
@@ -40150,11 +40160,6 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 477428,
-    "productos": "JAB E/POLVO ZORRO EV/QUITAM X3KG",
-    "uxb": 6
-  },
-  {
     "codigos": 477438,
     "productos": "JAB E/POLVO ZORRO EV/QUITAM X400GR",
     "uxb": 36
@@ -40168,11 +40173,6 @@ const PRODUCTOS=[
     "codigos": 7293,
     "productos": "JAB E/POLVO ZORRO L/M X400GR",
     "uxb": 36
-  },
-  {
-    "codigos": 1799,
-    "productos": "JAB E/POLVO ZORRO L/M X800GR",
-    "uxb": 20
   },
   {
     "codigos": 461130,
@@ -40195,24 +40195,9 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
-    "codigos": 1795,
-    "productos": "JAB E/POLVO ZORRO MATIC X400GR",
-    "uxb": 36
-  },
-  {
-    "codigos": 477439,
-    "productos": "JAB E/POLVO ZORRO PLUS MAT X400GR",
-    "uxb": 36
-  },
-  {
     "codigos": 477429,
     "productos": "JAB E/POLVO ZORRO PLUS/CLAS MAT X800GR",
     "uxb": 20
-  },
-  {
-    "codigos": 477427,
-    "productos": "JAB E/POLVO ZORRO POW/BIC MAT X3KG",
-    "uxb": 6
   },
   {
     "codigos": 479056,
@@ -40762,7 +40747,7 @@ const PRODUCTOS=[
   {
     "codigos": 6242,
     "productos": "JABON LIQ QUERUBIN BE DP 3LT",
-    "uxb": 5
+    "uxb": 4
   },
   {
     "codigos": 9129,
@@ -40865,6 +40850,11 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
+    "codigos": 481027,
+    "productos": "JABON LIQ SKIP SUELTO BIDON X 6 LT",
+    "uxb": 1
+  },
+  {
     "codigos": 476497,
     "productos": "JABON LIQ SMELL FRESH x3lts",
     "uxb": 4
@@ -40915,6 +40905,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481576,
+    "productos": "JABON LIQ WOOLITE SEDA Y LANA x450cc",
+    "uxb": 12
+  },
+  {
     "codigos": 12309,
     "productos": "JABON LIQ ZORRO BLUE POWER X3LT",
     "uxb": 4
@@ -40952,7 +40947,7 @@ const PRODUCTOS=[
   {
     "codigos": 480503,
     "productos": "JABON LIQ. SMELL FRESH P/DILUIR x500ml",
-    "uxb": 1
+    "uxb": 6
   },
   {
     "codigos": 5442,
@@ -40993,11 +40988,6 @@ const PRODUCTOS=[
     "codigos": 473631,
     "productos": "JABON LIQ.ALGABO EL 10 x300ml",
     "uxb": 12
-  },
-  {
-    "codigos": 479714,
-    "productos": "MOPA IBERIA ROTATIVA C/SISTEMA CENTRIFUGO",
-    "uxb": 1
   },
   {
     "codigos": 5552,
@@ -41196,7 +41186,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 463182,
-    "productos": "JABON TOC.J&J 80GR",
+    "productos": "JABON TOC.J&J BEBE x80gr",
     "uxb": 72
   },
   {
@@ -41560,6 +41550,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 13624,
+    "productos": "JAMON COCCIDO PALADINI 1/2 HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 13395,
     "productos": "JAMON COCENZA 1/2 HORMA",
     "uxb": 1
@@ -41677,6 +41672,16 @@ const PRODUCTOS=[
   {
     "codigos": 479755,
     "productos": "JAMON COCIDO DON CRISTOBAL PIEZA",
+    "uxb": 1
+  },
+  {
+    "codigos": 13625,
+    "productos": "JAMON COCIDO PALADINI FETAS",
+    "uxb": 1
+  },
+  {
+    "codigos": 13623,
+    "productos": "JAMON COCIDO PALADINI HORMA",
     "uxb": 1
   },
   {
@@ -42158,11 +42163,6 @@ const PRODUCTOS=[
     "codigos": 473016,
     "productos": "JENGIBRE SABOR SUR x25g",
     "uxb": 5
-  },
-  {
-    "codigos": 2870,
-    "productos": "JERINGA RAID MAX CUCARACHA X 3UNID",
-    "uxb": 6
   },
   {
     "codigos": 462779,
@@ -42780,11 +42780,6 @@ const PRODUCTOS=[
     "uxb": 27
   },
   {
-    "codigos": 481292,
-    "productos": "JUGO BIG C DURAZNO x200cc",
-    "uxb": 27
-  },
-  {
     "codigos": 478818,
     "productos": "JUGO BIG C FRUT,BANA,CIRUELA x200cc",
     "uxb": 27
@@ -42801,11 +42796,6 @@ const PRODUCTOS=[
   },
   {
     "codigos": 474552,
-    "productos": "JUGO BIG C MANZANA x1Lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 481290,
     "productos": "JUGO BIG C MANZANA x1Lt",
     "uxb": 12
   },
@@ -42841,11 +42831,6 @@ const PRODUCTOS=[
   },
   {
     "codigos": 474550,
-    "productos": "JUGO BIG C PERA x200cc",
-    "uxb": 27
-  },
-  {
-    "codigos": 481291,
     "productos": "JUGO BIG C PERA x200cc",
     "uxb": 27
   },
@@ -43060,16 +43045,6 @@ const PRODUCTOS=[
     "uxb": 8
   },
   {
-    "codigos": 8862,
-    "productos": "JUGO DODI ANANA-PIÑA 15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 2735,
-    "productos": "JUGO DODI DURAZNO X15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
     "codigos": 2754,
     "productos": "JUGO DODI FRUTILLA x15 SOBRES x2lt",
     "uxb": 12
@@ -43095,104 +43070,14 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 481239,
-    "productos": "JUGO DODI MANGO DULCE x15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 8864,
-    "productos": "JUGO DODI MANZANA X15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 8863,
-    "productos": "JUGO DODI MIX TROPICAL X15 SOBRES X2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 2886,
-    "productos": "JUGO DODI NARANJ-BANANA x15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 480962,
-    "productos": "JUGO DODI NARANJ-DURAZNO X15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 8861,
-    "productos": "JUGO DODI NARANJ-MANGO X15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 8859,
-    "productos": "JUGO DODI NARANJA X15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
     "codigos": 2762,
     "productos": "JUGO DODI PERA X15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 481241,
-    "productos": "JUGO DODI POMELO ROSADO x15 SOBRES x2lt",
-    "uxb": 12
-  },
-  {
-    "codigos": 480963,
-    "productos": "JUGO DODI UVA X15 SOBRES x2lt",
     "uxb": 12
   },
   {
     "codigos": 473744,
     "productos": "JUGO DULCIN x300ml",
     "uxb": 15
-  },
-  {
-    "codigos": 9518,
-    "productos": "JUGO E/SOB ARCOR X18U",
-    "uxb": 12
-  },
-  {
-    "codigos": 463882,
-    "productos": "JUGO E/SOB ARCOR X18U DURAZNO",
-    "uxb": 12
-  },
-  {
-    "codigos": 6953,
-    "productos": "JUGO E/SOB ARCOR X18U LIMONADA",
-    "uxb": 12
-  },
-  {
-    "codigos": 5957,
-    "productos": "JUGO E/SOB ARCOR X18U MANZANA",
-    "uxb": 12
-  },
-  {
-    "codigos": 5958,
-    "productos": "JUGO E/SOB ARCOR X18U MULTIFRUTA",
-    "uxb": 12
-  },
-  {
-    "codigos": 5959,
-    "productos": "JUGO E/SOB ARCOR X18U NARANJA",
-    "uxb": 12
-  },
-  {
-    "codigos": 10148,
-    "productos": "JUGO E/SOB ARCOR X18U NJA BANANA",
-    "uxb": 12
-  },
-  {
-    "codigos": 7022,
-    "productos": "JUGO E/SOB ARCOR X18U NJA DULCE",
-    "uxb": 12
-  },
-  {
-    "codigos": 6397,
-    "productos": "JUGO E/SOB ARCOR X18U NJA DURAZ",
-    "uxb": 12
   },
   {
     "codigos": 11312,
@@ -43270,11 +43155,6 @@ const PRODUCTOS=[
     "uxb": 16
   },
   {
-    "codigos": 8566,
-    "productos": "JUGO E/SOB CLIGHT X20U POMELO AMA",
-    "uxb": 16
-  },
-  {
     "codigos": 470135,
     "productos": "JUGO E/SOB CLIGHT X20U POMELO ROS",
     "uxb": 16
@@ -43282,11 +43162,6 @@ const PRODUCTOS=[
   {
     "codigos": 465545,
     "productos": "JUGO E/SOB FRUTA 3 X18UN",
-    "uxb": 12
-  },
-  {
-    "codigos": 474385,
-    "productos": "JUGO E/SOB NOEL 180UN ANANA",
     "uxb": 12
   },
   {
@@ -43385,11 +43260,6 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 475885,
-    "productos": "JUGO E/SOB RINDE 2 X10U MARACUYA",
-    "uxb": 24
-  },
-  {
     "codigos": 474529,
     "productos": "JUGO E/SOB RINDE 2 X10U MIX FRUTAL",
     "uxb": 24
@@ -43425,11 +43295,6 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
-    "codigos": 466389,
-    "productos": "JUGO E/SOB TANG X1UN",
-    "uxb": 1
-  },
-  {
     "codigos": 6379,
     "productos": "JUGO E/SOB TANG X20U ANANA",
     "uxb": 12
@@ -43452,11 +43317,6 @@ const PRODUCTOS=[
   {
     "codigos": 7705,
     "productos": "JUGO E/SOB TANG X20U LIMONADA",
-    "uxb": 12
-  },
-  {
-    "codigos": 6492,
-    "productos": "JUGO E/SOB TANG X20U MANDARINA",
     "uxb": 12
   },
   {
@@ -43500,11 +43360,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 6215,
-    "productos": "JUGO E/SOB TANG X20U NJA/BAN/FR",
-    "uxb": 12
-  },
-  {
     "codigos": 6378,
     "productos": "JUGO E/SOB TANG X20U PERA",
     "uxb": 12
@@ -43515,28 +43370,8 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 12199,
-    "productos": "JUGO E/SOB TANG X20U UVA",
-    "uxb": 12
-  },
-  {
-    "codigos": 479907,
-    "productos": "JUGO E/SOB VERAO ANANA x20u",
-    "uxb": 16
-  },
-  {
-    "codigos": 479908,
-    "productos": "JUGO E/SOB VERAO MANZANA x20u",
-    "uxb": 16
-  },
-  {
     "codigos": 479909,
     "productos": "JUGO E/SOB VERAO NARANJA x20u",
-    "uxb": 16
-  },
-  {
-    "codigos": 479910,
-    "productos": "JUGO E/SOB VERAO NJA/DURAZNO x20u",
     "uxb": 16
   },
   {
@@ -43872,7 +43707,7 @@ const PRODUCTOS=[
   {
     "codigos": 477162,
     "productos": "KETCHUP DANICA FIESTA X220GR",
-    "uxb": 1
+    "uxb": 24
   },
   {
     "codigos": 481454,
@@ -44123,6 +43958,11 @@ const PRODUCTOS=[
     "codigos": 474571,
     "productos": "LABIAL NIVEA SOFT ROSE",
     "uxb": 16
+  },
+  {
+    "codigos": 468255,
+    "productos": "LABIAL ULTRA MATE JACTANS",
+    "uxb": 1
   },
   {
     "codigos": 479604,
@@ -44490,11 +44330,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 466495,
-    "productos": "LAMPAZO DE TELA TUCU",
-    "uxb": 1
-  },
-  {
     "codigos": 465754,
     "productos": "LANA ACERO FIBRALIMP X30GR",
     "uxb": 200
@@ -44545,16 +44380,6 @@ const PRODUCTOS=[
     "uxb": 100
   },
   {
-    "codigos": 474850,
-    "productos": "LANA DE ACERO SED METAL OVILLITOS x12Un.",
-    "uxb": 25
-  },
-  {
-    "codigos": 475956,
-    "productos": "LANA DE ACERO SED METAL OVILLOS x6un",
-    "uxb": 1
-  },
-  {
     "codigos": 463340,
     "productos": "LANA DE ACERO VIRULANA 10UN X70g",
     "uxb": 24
@@ -44598,6 +44423,16 @@ const PRODUCTOS=[
     "codigos": 469755,
     "productos": "LANZADOR DE AUTO RAPIC WORLD IMP EMANUEL",
     "uxb": 1
+  },
+  {
+    "codigos": 481668,
+    "productos": "LAP. LED DABOR 12W",
+    "uxb": 100
+  },
+  {
+    "codigos": 481671,
+    "productos": "LAP. LED DABOR 15W",
+    "uxb": 100
   },
   {
     "codigos": 9212,
@@ -45290,11 +45125,6 @@ const PRODUCTOS=[
     "uxb": 3
   },
   {
-    "codigos": 5707,
-    "productos": "LAVANDINA HOGAR 1L",
-    "uxb": 15
-  },
-  {
     "codigos": 474582,
     "productos": "LAVANDINA ODEX BOSQUE BOT x1lt",
     "uxb": 15
@@ -45345,11 +45175,6 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
-    "codigos": 5074,
-    "productos": "LAVANDINA VIM GEL VARIOS x300ml",
-    "uxb": 12
-  },
-  {
     "codigos": 6243,
     "productos": "LAVANDINA VIM GEL VARIOS x700ml",
     "uxb": 12
@@ -45378,11 +45203,6 @@ const PRODUCTOS=[
     "codigos": 471552,
     "productos": "LAVANDINA X5 CONCENTRADA x4Lt",
     "uxb": 3
-  },
-  {
-    "codigos": 468390,
-    "productos": "LAVANDINA X5 MARINA x1Lt",
-    "uxb": 12
   },
   {
     "codigos": 468380,
@@ -45551,7 +45371,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 481356,
-    "productos": "LECHE CHOCOLATADA MEN. AZUC. NESQUIK x200cc",
+    "productos": "LECHE CHOCOLATADA MEN.AZU.NESQUIKx200c",
     "uxb": 24
   },
   {
@@ -45567,6 +45387,11 @@ const PRODUCTOS=[
   {
     "codigos": 477623,
     "productos": "LECHE CONDENSADA LIGHT NESTLE x395gr",
+    "uxb": 24
+  },
+  {
+    "codigos": 6537,
+    "productos": "LECHE CONDENSADA NESTLE LIMON 395gr",
     "uxb": 24
   },
   {
@@ -45910,6 +45735,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481536,
+    "productos": "LECHE ENT L.VIDA REINA D/PRADO x1Lt",
+    "uxb": 8
+  },
+  {
     "codigos": 476794,
     "productos": "LECHE LA MINUCHA DESCREMADA x1Lt",
     "uxb": 8
@@ -45981,7 +45811,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 463686,
-    "productos": "LECHE LA SERENISIMA SACHET 1% DESCREMADA x1lt",
+    "productos": "LECHE LA SERENISIMA SACHET 1% DESC.",
     "uxb": 17
   },
   {
@@ -46257,7 +46087,7 @@ const PRODUCTOS=[
   {
     "codigos": 480452,
     "productos": "LENTEJAS TETRA LA BANDA x340g",
-    "uxb": 24
+    "uxb": 12
   },
   {
     "codigos": 478352,
@@ -46917,12 +46747,12 @@ const PRODUCTOS=[
   {
     "codigos": 480267,
     "productos": "LIM LIQ. SUIZA MAD.FLOT AL SOLVENTE x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480269,
     "productos": "LIM LIQ.ALFOMBRA CLINSY x500cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 460234,
@@ -46970,24 +46800,9 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 476574,
-    "productos": "LIMP A/GRASA ECOVITA DP X900ML",
-    "uxb": 1
-  },
-  {
-    "codigos": 465793,
-    "productos": "LIMP A/GRASA MR MUSCULO C/LIM X900CC",
-    "uxb": 12
-  },
-  {
     "codigos": 468618,
     "productos": "LIMP A/GRASA MR MUSCULO CO/NJA X900CC",
     "uxb": 12
-  },
-  {
-    "codigos": 5723,
-    "productos": "LIMP A/GRASA MR MUSCULO E/P C/L DP X450ML",
-    "uxb": 15
   },
   {
     "codigos": 465714,
@@ -47003,11 +46818,6 @@ const PRODUCTOS=[
     "codigos": 479383,
     "productos": "LIMP A/GRASA PROCENEX X820ML",
     "uxb": 12
-  },
-  {
-    "codigos": 476696,
-    "productos": "LIMP A/GRASA SMART CLEAN X100CC",
-    "uxb": 20
   },
   {
     "codigos": 473405,
@@ -47037,11 +46847,6 @@ const PRODUCTOS=[
   {
     "codigos": 1926,
     "productos": "LIMP CIF BAÑO X900ml",
-    "uxb": 12
-  },
-  {
-    "codigos": 9056,
-    "productos": "LIMP CIF C/LAV ULT.BCO X750ML",
     "uxb": 12
   },
   {
@@ -47105,11 +46910,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 8542,
-    "productos": "LIMP LIQ GLADE X900ML BOSQ/PINO",
-    "uxb": 12
-  },
-  {
     "codigos": 477175,
     "productos": "LIMP LIQ JARDIN VS X4LT",
     "uxb": 3
@@ -47127,6 +46927,11 @@ const PRODUCTOS=[
   {
     "codigos": 480680,
     "productos": "LIMP LIQ ODEX BEBE x1.8lt",
+    "uxb": 6
+  },
+  {
+    "codigos": 481678,
+    "productos": "LIMP LIQ ODEX BOSQUE x1.8Lt",
     "uxb": 6
   },
   {
@@ -47192,77 +46997,77 @@ const PRODUCTOS=[
   {
     "codigos": 480966,
     "productos": "LIMP LIQ SUIZA CITRONELA x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 481268,
     "productos": "LIMP LIQ SUIZA CITRONELA x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480297,
     "productos": "LIMP LIQ SUIZA CITRONELLA X900CC",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480271,
     "productos": "LIMP LIQ SUIZA CONC CHERRY X5LT",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480272,
     "productos": "LIMP LIQ SUIZA CONC LIMON X5LT",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480273,
     "productos": "LIMP LIQ SUIZA CONC PINO X5LT",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480972,
     "productos": "LIMP LIQ SUIZA F PRIMAVERA x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480295,
     "productos": "LIMP LIQ SUIZA LAVANDA X900CC",
-    "uxb": 1
+    "uxb": 15
   },
   {
     "codigos": 480976,
     "productos": "LIMP LIQ SUIZA LAVANDA x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480298,
     "productos": "LIMP LIQ SUIZA LIMON X900CC",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480964,
     "productos": "LIMP LIQ SUIZA LIMON x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480296,
     "productos": "LIMP LIQ SUIZA MARINA X900CC",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480967,
     "productos": "LIMP LIQ SUIZA MARINA x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480251,
     "productos": "LIMP LIQ SUIZA PINO X900CC",
-    "uxb": 1
+    "uxb": 15
   },
   {
     "codigos": 480968,
     "productos": "LIMP LIQ SUIZA PINOS x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 473635,
@@ -47277,22 +47082,22 @@ const PRODUCTOS=[
   {
     "codigos": 480270,
     "productos": "LIMP LIQ. SUIZA CONCENT. LAVANDA x5Lt",
-    "uxb": 1
+    "uxb": 4
   },
   {
     "codigos": 480266,
     "productos": "LIMP LIQ. SUIZA MICROC./MARMOL x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480263,
     "productos": "LIMP LIQ. SUIZA PISOS VINILICOS x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480265,
     "productos": "LIMP LIQ. SUIZA PORCELANATO x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 461013,
@@ -47312,11 +47117,6 @@ const PRODUCTOS=[
   {
     "codigos": 468187,
     "productos": "LIMP MULTIUSO LYSOFORM CONC. DP X420ML",
-    "uxb": 12
-  },
-  {
-    "codigos": 10954,
-    "productos": "LIMP MULTIUSO MR MUSCULO GAT X450CC",
     "uxb": 12
   },
   {
@@ -47365,36 +47165,6 @@ const PRODUCTOS=[
     "uxb": 16
   },
   {
-    "codigos": 224,
-    "productos": "LIMP VIDRIOS PIRAGUA",
-    "uxb": 12
-  },
-  {
-    "codigos": 476695,
-    "productos": "LIMP VIDRIOS SMART CLEAN X100CC",
-    "uxb": 20
-  },
-  {
-    "codigos": 468876,
-    "productos": "LIMP VIDRIOS ZORRO DP X500ML",
-    "uxb": 1
-  },
-  {
-    "codigos": 471723,
-    "productos": "LIMP. GEL LYSOFORM CITRICO 500CC",
-    "uxb": 12
-  },
-  {
-    "codigos": 475094,
-    "productos": "LIMP. HARPIC BAÑO GATILLO x495cc",
-    "uxb": 12
-  },
-  {
-    "codigos": 479718,
-    "productos": "LIMP. HARPIC BAÑOS DP X420ML",
-    "uxb": 12
-  },
-  {
     "codigos": 473225,
     "productos": "LIMP. LIQ BLEM DIARIO MULTISUP Y ELEC 450CC",
     "uxb": 15
@@ -47410,24 +47180,19 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 5865,
+    "productos": "LIMP. LIQ BLEM ROJO DP X450ML",
+    "uxb": 15
+  },
+  {
     "codigos": 469033,
     "productos": "LIMP. LIQ CIF BAÑO BIO/ULTR DP 450CC",
     "uxb": 15
   },
   {
-    "codigos": 473030,
-    "productos": "LIMP. LIQ CIF BIO/ACT BAÑO GAT X500CC",
-    "uxb": 12
-  },
-  {
     "codigos": 479818,
     "productos": "LIMP. LIQ CIF P/BAÑOS EXPERT X500ML",
     "uxb": 24
-  },
-  {
-    "codigos": 464335,
-    "productos": "LIMP. LIQ CIF ULTRA RAP A/GRASA 5LT",
-    "uxb": 4
   },
   {
     "codigos": 3116,
@@ -47453,11 +47218,6 @@ const PRODUCTOS=[
     "codigos": 10622,
     "productos": "LIMP. LIQ ESENCIAL VARIOS 900ML",
     "uxb": 15
-  },
-  {
-    "codigos": 463113,
-    "productos": "LIMP. LIQ GLADE FLORAL X4LT",
-    "uxb": 3
   },
   {
     "codigos": 461615,
@@ -47545,11 +47305,6 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
-    "codigos": 472693,
-    "productos": "LIMP. LIQ MR MUSCULO EXT POWER COC GAT",
-    "uxb": 12
-  },
-  {
     "codigos": 6899,
     "productos": "LIMP. LIQ MR MUSCULO GAT BAÑOS 500ML",
     "uxb": 12
@@ -47563,11 +47318,6 @@ const PRODUCTOS=[
     "codigos": 471720,
     "productos": "LIMP. LIQ ODEX PISOS 4L LAVANDA",
     "uxb": 3
-  },
-  {
-    "codigos": 6256,
-    "productos": "LIMP. LIQ PINOLUZ ORIGINAL 900ML",
-    "uxb": 12
   },
   {
     "codigos": 4726,
@@ -47600,23 +47350,8 @@ const PRODUCTOS=[
     "uxb": 3
   },
   {
-    "codigos": 469144,
-    "productos": "LIMP. LIQ ZORRO DP P/BAÑOS 500G",
-    "uxb": 1
-  },
-  {
-    "codigos": 469572,
-    "productos": "LIMP. LIQ ZORRO GAT BAÑOS 500CC",
-    "uxb": 20
-  },
-  {
     "codigos": 4441,
     "productos": "LIMP.CIF CREMA CLASICO X 750CC",
-    "uxb": 12
-  },
-  {
-    "codigos": 4436,
-    "productos": "LIMP.CIF CREMA LIMON X 750 CC",
     "uxb": 12
   },
   {
@@ -47655,16 +47390,6 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
-    "codigos": 5586,
-    "productos": "LIMP.MR MUSCULO CREMA CITURS X 450CC",
-    "uxb": 12
-  },
-  {
-    "codigos": 5585,
-    "productos": "LIMP.MR MUSCULO CREMA FLORAL X 450CC",
-    "uxb": 12
-  },
-  {
     "codigos": 469810,
     "productos": "LIMP.PLAST-FLOT ALOE&PEPINO BLEM DP x400cm",
     "uxb": 15
@@ -47695,11 +47420,6 @@ const PRODUCTOS=[
     "uxb": 16
   },
   {
-    "codigos": 476707,
-    "productos": "LIMPIADOR DE BAÑO SMART CLEAN x100cc",
-    "uxb": 20
-  },
-  {
     "codigos": 5992,
     "productos": "LIMPIADOR LIQUIDO HOGAR 900ml",
     "uxb": 15
@@ -47707,7 +47427,7 @@ const PRODUCTOS=[
   {
     "codigos": 480671,
     "productos": "LIMPIADOR ODEX FLORAL x1.8ML",
-    "uxb": 1
+    "uxb": 6
   },
   {
     "codigos": 478608,
@@ -47717,12 +47437,12 @@ const PRODUCTOS=[
   {
     "codigos": 480264,
     "productos": "LIMPIADOR POLVO SUIZA x500g",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480257,
     "productos": "LIMPIADOR SUIZA PISO PLAST DP x400cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 475472,
@@ -47983,6 +47703,16 @@ const PRODUCTOS=[
     "codigos": 13802,
     "productos": "LOMO CERDO AHUMAD 1199 x FETAS",
     "uxb": 1
+  },
+  {
+    "codigos": 481503,
+    "productos": "LOMO DE ATUN AL NATURAL SWIFT x170gr",
+    "uxb": 48
+  },
+  {
+    "codigos": 481502,
+    "productos": "LOMO DE ATUN EN ACEITE SWIFT x170gr",
+    "uxb": 48
   },
   {
     "codigos": 14232,
@@ -48262,7 +47992,7 @@ const PRODUCTOS=[
   {
     "codigos": 461751,
     "productos": "LUSTRAMUEBLES CREMA SUIZA CLASICA x200cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 12260,
@@ -48282,17 +48012,17 @@ const PRODUCTOS=[
   {
     "codigos": 2581,
     "productos": "LUSTRAMUEBLES SUIZA CLASICO AER x360cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480299,
     "productos": "LUSTRAMUEBLES SUIZA LAVANDA AER x360cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480428,
     "productos": "LUSTRAMUEBLES SUIZA NARANJ/PIMIENT AER x360cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 476193,
@@ -48328,11 +48058,6 @@ const PRODUCTOS=[
     "codigos": 479623,
     "productos": "LUZ SOLAR PORTATIL ZB-L188 IMP-E",
     "uxb": 1
-  },
-  {
-    "codigos": 461554,
-    "productos": "LYSOFORM CREMA DOB.ACC x450c",
-    "uxb": 12
   },
   {
     "codigos": 478696,
@@ -48776,8 +48501,13 @@ const PRODUCTOS=[
   },
   {
     "codigos": 475923,
-    "productos": "MANGA PASTELERA C/PICOS THE KITCHEN 16321",
+    "productos": "MANGA PAST C/PICOS THE KITCHEN 16321",
     "uxb": 1
+  },
+  {
+    "codigos": 478221,
+    "productos": "MANI C/CASCARA EL BUHO x200g",
+    "uxb": 20
   },
   {
     "codigos": 14149,
@@ -48793,6 +48523,11 @@ const PRODUCTOS=[
     "codigos": 477381,
     "productos": "MANI C/CASCARA RIKO x1Un.",
     "uxb": 1
+  },
+  {
+    "codigos": 481672,
+    "productos": "MANI C/CHOC CONFITADOS FELFORT x150g",
+    "uxb": 10
   },
   {
     "codigos": 480916,
@@ -48840,6 +48575,11 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
+    "codigos": 481550,
+    "productos": "MANI JAPONES FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 480195,
     "productos": "MANI JAPONES JAMON MISTERNUTx250grs",
     "uxb": 1
@@ -48865,9 +48605,24 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 478218,
+    "productos": "MANI MANITOON REPELADO x165gr",
+    "uxb": 24
+  },
+  {
     "codigos": 478219,
     "productos": "MANI MANITOON REPELADO x900gr",
     "uxb": 10
+  },
+  {
+    "codigos": 478217,
+    "productos": "MANI MANITOON T/JAPONES VARIOS X160gr",
+    "uxb": 24
+  },
+  {
+    "codigos": 478216,
+    "productos": "MANI MANITOON T/JAPONES VARIOS x70gr",
+    "uxb": 48
   },
   {
     "codigos": 478215,
@@ -48893,6 +48648,11 @@ const PRODUCTOS=[
     "codigos": 477677,
     "productos": "MANI SALADO FRITO PEI-PO x80gr",
     "uxb": 20
+  },
+  {
+    "codigos": 481553,
+    "productos": "MANI SALADO FUENTESS DP x300gr",
+    "uxb": 1
   },
   {
     "codigos": 477678,
@@ -49462,6 +49222,11 @@ const PRODUCTOS=[
   {
     "codigos": 472579,
     "productos": "MAQUINA GILLETTE PRESTOB.EXCEL ROSA X2U",
+    "uxb": 10
+  },
+  {
+    "codigos": 7714,
+    "productos": "MAQUINA GILLETTE PRESTOB.EXCEL X1U",
     "uxb": 10
   },
   {
@@ -50150,6 +49915,11 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 481641,
+    "productos": "MATE 1/2 CHAPA GRABADO D/DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 466113,
     "productos": "MATE ACRILICO",
     "uxb": 50
@@ -50172,6 +49942,11 @@ const PRODUCTOS=[
   {
     "codigos": 479889,
     "productos": "MATE ASA TAURO",
+    "uxb": 1
+  },
+  {
+    "codigos": 481647,
+    "productos": "MATE AUTOMATICO DIA DE LA MADRE x400cc",
     "uxb": 1
   },
   {
@@ -50395,6 +50170,11 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 481645,
+    "productos": "MATE LISTO FORRADO DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 468449,
     "productos": "MATE LISTO LIMA x400cc",
     "uxb": 24
@@ -50407,6 +50187,16 @@ const PRODUCTOS=[
   {
     "codigos": 481064,
     "productos": "MATE MADERA COMN GRABADO LOVE 1690",
+    "uxb": 1
+  },
+  {
+    "codigos": 481642,
+    "productos": "MATE MADERA COMUN GRAB D/DE LA MADRE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481640,
+    "productos": "MATE MADERA GRABADO D/DE LA MADRE",
     "uxb": 1
   },
   {
@@ -50445,6 +50235,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481639,
+    "productos": "MATE TERMICO ORGON DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 481008,
     "productos": "MATE VID FORRADO E/CAJA ORGON",
     "uxb": 1
@@ -50463,6 +50258,11 @@ const PRODUCTOS=[
     "codigos": 465645,
     "productos": "MATE VIDRIO FORRADO",
     "uxb": 48
+  },
+  {
+    "codigos": 481643,
+    "productos": "MATE VIDRIO FORRADO D/DE LA MADRE",
+    "uxb": 1
   },
   {
     "codigos": 473700,
@@ -50782,7 +50582,7 @@ const PRODUCTOS=[
   {
     "codigos": 481489,
     "productos": "MEDIALUNAS XL PANOOR x300g",
-    "uxb": 12
+    "uxb": 1
   },
   {
     "codigos": 469556,
@@ -50842,6 +50642,11 @@ const PRODUCTOS=[
   {
     "codigos": 470063,
     "productos": "MEGA BLISTER P/PINTAR C/PUZZLE VERTICE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481514,
+    "productos": "MEGA PIÑATA MARMOLADA/RAYADA TUKY",
     "uxb": 1
   },
   {
@@ -51048,6 +50853,11 @@ const PRODUCTOS=[
     "codigos": 8011,
     "productos": "MERLUZA MARBELLA EN ACEITE x340gr",
     "uxb": 24
+  },
+  {
+    "codigos": 481513,
+    "productos": "MERME. LA GIOCONDA DCE DE CAYOTE x330gr",
+    "uxb": 12
   },
   {
     "codigos": 470849,
@@ -51298,6 +51108,11 @@ const PRODUCTOS=[
     "codigos": 464106,
     "productos": "MERMELADA CUARTO CRECIENTE ARAND x400g",
     "uxb": 6
+  },
+  {
+    "codigos": 465125,
+    "productos": "MERMELADA DAMASCO CANALE 454G",
+    "uxb": 12
   },
   {
     "codigos": 477784,
@@ -51960,8 +51775,18 @@ const PRODUCTOS=[
     "uxb": 96
   },
   {
+    "codigos": 481610,
+    "productos": "MINI CRACKERS C/SEMILLAS MAURI x200g",
+    "uxb": 14
+  },
+  {
     "codigos": 475911,
     "productos": "MINI CRACKERS MAURI x200g",
+    "uxb": 14
+  },
+  {
+    "codigos": 481591,
+    "productos": "MINI CRACKERS S/SAL MAURI x200g",
     "uxb": 14
   },
   {
@@ -51973,6 +51798,11 @@ const PRODUCTOS=[
     "codigos": 480027,
     "productos": "MINI DRON HELICOPTERO 512025 IMP-E",
     "uxb": 1
+  },
+  {
+    "codigos": 481539,
+    "productos": "MINI GELATINAS SURTIDAS x600g",
+    "uxb": 20
   },
   {
     "codigos": 480502,
@@ -52130,6 +51960,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481542,
+    "productos": "MIX CON SEMILLAS FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 471020,
     "productos": "MIX CRIOLLO ALICANTE x25g",
     "uxb": 12
@@ -52148,6 +51983,11 @@ const PRODUCTOS=[
     "codigos": 461383,
     "productos": "MIX CROCANTE P/ENSALADAS ALICANTE x40gr",
     "uxb": 12
+  },
+  {
+    "codigos": 481545,
+    "productos": "MIX CUATRO SEMILLAS FUENTESS DP x300gr",
+    "uxb": 1
   },
   {
     "codigos": 478594,
@@ -52185,6 +52025,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481555,
+    "productos": "MIX ESPECIAL FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 471021,
     "productos": "MIX FINAS HIERBAS ALICANTE x20gr",
     "uxb": 12
@@ -52192,11 +52037,6 @@ const PRODUCTOS=[
   {
     "codigos": 14201,
     "productos": "MIX FRUTA SECA S/PASAS CUYARES 1Kg",
-    "uxb": 1
-  },
-  {
-    "codigos": 14203,
-    "productos": "MIX FRUTOS SECOS ALM/NUEC/PAS/CAST 1Kg",
     "uxb": 1
   },
   {
@@ -52270,6 +52110,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 3604,
+    "productos": "MIX GRANOLA TUCU Xkg",
+    "uxb": 1
+  },
+  {
     "codigos": 471022,
     "productos": "MIX ITALIANO ALICANTE x20g",
     "uxb": 12
@@ -52300,6 +52145,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481559,
+    "productos": "MIX PATAGONICO FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 471019,
     "productos": "MIX PICANTE ALICANTE x25g",
     "uxb": 12
@@ -52323,6 +52173,16 @@ const PRODUCTOS=[
     "codigos": 479091,
     "productos": "MIX QUENTO SNACKS x100g",
     "uxb": 18
+  },
+  {
+    "codigos": 481546,
+    "productos": "MIX SALADO FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
+    "codigos": 481540,
+    "productos": "MIX SALADO PREMIUM FUENTESS DP x300gr",
+    "uxb": 1
   },
   {
     "codigos": 480202,
@@ -52350,6 +52210,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481543,
+    "productos": "MIX SIN MANI FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 481479,
     "productos": "MIX TARTA BROCO/ZANAH/CEBOLLA GREEN LIFE x500gr",
     "uxb": 1
@@ -52360,8 +52225,18 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481558,
+    "productos": "MIX TRADICIONAL FUENTESS DPx300",
+    "uxb": 1
+  },
+  {
     "codigos": 480201,
     "productos": "MIX TRADICIONAL MISTER NUT x250g",
+    "uxb": 1
+  },
+  {
+    "codigos": 481560,
+    "productos": "MIX TROPICAL FUENTESS DP x300gr",
     "uxb": 1
   },
   {
@@ -52990,14 +52865,19 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 474429,
-    "productos": "MOPA CONSORCIO DURAMAS",
-    "uxb": 12
-  },
-  {
     "codigos": 471438,
     "productos": "MOPA DE ALGODON TENOAR",
     "uxb": 12
+  },
+  {
+    "codigos": 468821,
+    "productos": "MOPA GRIS DURAMAS",
+    "uxb": 12
+  },
+  {
+    "codigos": 479714,
+    "productos": "MOPA IBERIA ROTATIVA C/SISTEMA CENTRIFUGO",
+    "uxb": 1
   },
   {
     "codigos": 479713,
@@ -53157,11 +53037,6 @@ const PRODUCTOS=[
   {
     "codigos": 14121,
     "productos": "MORTADELA GIGANTE CALCHAQUI FRACC",
-    "uxb": 1
-  },
-  {
-    "codigos": 13624,
-    "productos": "MORTADELA PALADINI 1/2 HORMA",
     "uxb": 1
   },
   {
@@ -53360,6 +53235,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 14458,
+    "productos": "MOZZARELLA DON BETO X KILO",
+    "uxb": 1
+  },
+  {
     "codigos": 476812,
     "productos": "MOZZARELLA LA SERENISIMA x500gr",
     "uxb": 1
@@ -53370,19 +53250,14 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 476440,
-    "productos": "MR MUSCULO EXTRA POWER COCINA DP x900cc",
-    "uxb": 12
-  },
-  {
     "codigos": 480529,
     "productos": "MR TRAPO PAÑO ABRASIVO SOFT",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480528,
     "productos": "MR.TRAPO FIBRA VERDE ABRASIVA",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 476930,
@@ -53805,6 +53680,11 @@ const PRODUCTOS=[
     "uxb": 15
   },
   {
+    "codigos": 481588,
+    "productos": "NACHO MARADONA NAPOLITANA x86g",
+    "uxb": 15
+  },
+  {
     "codigos": 471354,
     "productos": "NACHOS ANTOJITOS BACON x85 gr",
     "uxb": 16
@@ -53845,6 +53725,11 @@ const PRODUCTOS=[
     "uxb": 16
   },
   {
+    "codigos": 481582,
+    "productos": "NACHOS MARADONA SABOR COSTILLAR x86g",
+    "uxb": 15
+  },
+  {
     "codigos": 479252,
     "productos": "NACHOS QUENTO GUACAMOLE x82g",
     "uxb": 22
@@ -53853,11 +53738,6 @@ const PRODUCTOS=[
     "codigos": 478803,
     "productos": "NACHOS QUENTO QUESO/PICANTE x90/80g",
     "uxb": 22
-  },
-  {
-    "codigos": 466620,
-    "productos": "NAFTALINA VIANCE x200g",
-    "uxb": 36
   },
   {
     "codigos": 475831,
@@ -54150,6 +54030,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481544,
+    "productos": "NUECES EXTRA LIGHT FUENTESS DP x250gr",
+    "uxb": 1
+  },
+  {
     "codigos": 13998,
     "productos": "NUEZ BLANCA NAPOLES X KILO",
     "uxb": 1
@@ -54203,6 +54088,11 @@ const PRODUCTOS=[
     "codigos": 467344,
     "productos": "NUEZ MOSCADA MOLIDA x25g",
     "uxb": 10
+  },
+  {
+    "codigos": 466973,
+    "productos": "NUGATON BLACK BONAFIDE X27G",
+    "uxb": 24
   },
   {
     "codigos": 9417,
@@ -54383,6 +54273,11 @@ const PRODUCTOS=[
     "codigos": 460220,
     "productos": "OBLITA BOMBON FRUTILLA x30u",
     "uxb": 12
+  },
+  {
+    "codigos": 479843,
+    "productos": "ODEX ANTIGRASA DP x450cc",
+    "uxb": 24
   },
   {
     "codigos": 479855,
@@ -54910,11 +54805,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 474430,
-    "productos": "PALA C/CABO PLASTICO BOROLIMP",
-    "uxb": 36
-  },
-  {
     "codigos": 477769,
     "productos": "PALA C/CABO PLASTICO CEPI/MODOPLAST",
     "uxb": 12
@@ -54923,11 +54813,6 @@ const PRODUCTOS=[
     "codigos": 11598,
     "productos": "PALA C/PALO ROSCA METAL BOROLIMP",
     "uxb": 18
-  },
-  {
-    "codigos": 467084,
-    "productos": "PALA CON CABO ISABELLA/EXTRA TOTAL x1un",
-    "uxb": 50
   },
   {
     "codigos": 480532,
@@ -55510,6 +55395,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 6293,
+    "productos": "PALMITOS ENTEROS MAROLIO X400G",
+    "uxb": 24
+  },
+  {
     "codigos": 6689,
     "productos": "PALMITOS FRUTA DE ORO EN RODAJAS X400GR",
     "uxb": 24
@@ -55567,11 +55457,6 @@ const PRODUCTOS=[
   {
     "codigos": 469454,
     "productos": "PALO DE AMASAR MADERA GENESIS x40cm",
-    "uxb": 1
-  },
-  {
-    "codigos": 2545,
-    "productos": "PALO METALICO CON ROSCA",
     "uxb": 1
   },
   {
@@ -55795,6 +55680,11 @@ const PRODUCTOS=[
     "uxb": 8
   },
   {
+    "codigos": 473395,
+    "productos": "PAN DULCE BONAFIDE C/CHIPS x600g",
+    "uxb": 6
+  },
+  {
     "codigos": 468501,
     "productos": "PAN DULCE BONAFIDE C/FRUTAS X400G",
     "uxb": 6
@@ -55985,6 +55875,11 @@ const PRODUCTOS=[
     "uxb": 8
   },
   {
+    "codigos": 473137,
+    "productos": "PAN DULCE S/FRUTAS BONAFIDE x400g",
+    "uxb": 1
+  },
+  {
     "codigos": 466362,
     "productos": "PAN DULCE VALENTE C/FRUTAS Y PASAS x400g",
     "uxb": 12
@@ -56097,12 +55992,12 @@ const PRODUCTOS=[
   {
     "codigos": 481491,
     "productos": "PAN LACTAL CHICO PANOOR x360g",
-    "uxb": 15
+    "uxb": 1
   },
   {
     "codigos": 481493,
     "productos": "PAN LACTAL CHICO SALVADO PANOOR x360g",
-    "uxb": 15
+    "uxb": 1
   },
   {
     "codigos": 473813,
@@ -56231,7 +56126,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 11732,
-    "productos": "PAN LACTAL SALVADO CHICO x330gr",
+    "productos": "PAN LACTAL SALVADO CHICO LACTAL x330gr",
     "uxb": 1
   },
   {
@@ -56267,7 +56162,7 @@ const PRODUCTOS=[
   {
     "codigos": 481495,
     "productos": "PAN LACTAL SEMILLAS PANOOR x400g",
-    "uxb": 15
+    "uxb": 1
   },
   {
     "codigos": 7323,
@@ -56535,11 +56430,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 6977,
-    "productos": "TE DUAREN X25saq",
-    "uxb": 10
-  },
-  {
     "codigos": 4027,
     "productos": "PAN RALLADO SILVINA x450gr",
     "uxb": 12
@@ -56596,7 +56486,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 481487,
-    "productos": "PAN SUPER PANCHO PANOOR x210gr",
+    "productos": "PAN SUPER PANCHO PANOOR x400gr",
     "uxb": 24
   },
   {
@@ -56662,6 +56552,16 @@ const PRODUCTOS=[
   {
     "codigos": 14406,
     "productos": "PANCETA AHUMADA LA REINA HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14478,
+    "productos": "PANCETA AHUMADA MOLISE FETAS",
+    "uxb": 1
+  },
+  {
+    "codigos": 14477,
+    "productos": "PANCETA AHUMADA MOLISE HORMA",
     "uxb": 1
   },
   {
@@ -57095,6 +56995,11 @@ const PRODUCTOS=[
     "uxb": 8
   },
   {
+    "codigos": 481515,
+    "productos": "PAPAS FRITAS JAMON SERRANO PEI-PO x55g",
+    "uxb": 24
+  },
+  {
     "codigos": 463888,
     "productos": "PAPAS FRITAS JAMON SERRANO SLICES CHIL x65gr",
     "uxb": 24
@@ -57162,6 +57067,11 @@ const PRODUCTOS=[
   {
     "codigos": 477590,
     "productos": "PAPAS FRITAS PAY PEI-PO x500g",
+    "uxb": 10
+  },
+  {
+    "codigos": 481512,
+    "productos": "PAPAS FRITAS PEI-PO C/A JAMON x300g",
     "uxb": 10
   },
   {
@@ -57635,6 +57545,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 58462,
+    "productos": "PAPEL HIG ESENCIAL PLUS 4X30m",
+    "uxb": 12
+  },
+  {
     "codigos": 461159,
     "productos": "PAPEL HIG ESENCIAL TEXT 4X30MT",
     "uxb": 12
@@ -57665,11 +57580,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 8816,
-    "productos": "PAPEL HIG FAMILY MEGA 2X90MT",
-    "uxb": 24
-  },
-  {
     "codigos": 463451,
     "productos": "PAPEL HIG FAMILY MEGA 4X80MT",
     "uxb": 12
@@ -57680,9 +57590,14 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 9023,
+    "productos": "PAPEL HIG FELPITA BCO SIMP 4X30MT",
+    "uxb": 12
+  },
+  {
     "codigos": 60502,
     "productos": "PAPEL HIG FELPITA SIMPLE 4X50MT",
-    "uxb": 1
+    "uxb": 10
   },
   {
     "codigos": 469288,
@@ -57775,11 +57690,6 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
-    "codigos": 8034,
-    "productos": "PAPEL HIG HIGIENOL MAX PLUS 4X80MTS",
-    "uxb": 10
-  },
-  {
     "codigos": 2598,
     "productos": "PAPEL HIG HIGIENOL NAT 4UN",
     "uxb": 12
@@ -57798,6 +57708,11 @@ const PRODUCTOS=[
     "codigos": 4151,
     "productos": "PAPEL HIG HIGIENOL PLUS D/H 4X30MT",
     "uxb": 10
+  },
+  {
+    "codigos": 481609,
+    "productos": "PAPEL HIG HIGIENOL PLUS D/H 8X30MT",
+    "uxb": 6
   },
   {
     "codigos": 467136,
@@ -57958,6 +57873,11 @@ const PRODUCTOS=[
     "codigos": 477518,
     "productos": "PAPEL HIG OCLEAN x4x30 mts",
     "uxb": 12
+  },
+  {
+    "codigos": 60718,
+    "productos": "PAPEL HIG PELPITA 12X30MT",
+    "uxb": 1
   },
   {
     "codigos": 477168,
@@ -58218,11 +58138,6 @@ const PRODUCTOS=[
     "codigos": 464185,
     "productos": "PASACERA ECO PLUS",
     "uxb": 6
-  },
-  {
-    "codigos": 465763,
-    "productos": "PASACERA PLASTICO EXTRALIMP",
-    "uxb": 36
   },
   {
     "codigos": 465589,
@@ -58800,6 +58715,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 12119,
+    "productos": "PATO PURIF GEL ACTIVO TROPICAL X 500GR",
+    "uxb": 12
+  },
+  {
     "codigos": 9569,
     "productos": "PATO PURIFIC ADHES FLORAL",
     "uxb": 24
@@ -58830,11 +58750,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 472687,
-    "productos": "PATO PURIFIC DEST.SARRO CITRUS X500ML",
-    "uxb": 12
-  },
-  {
     "codigos": 12325,
     "productos": "PATO PURIFIC DISCO TROPICAL (MYM)",
     "uxb": 1
@@ -58843,11 +58758,6 @@ const PRODUCTOS=[
     "codigos": 10564,
     "productos": "PATO PURIFIC DISCOS FLORAL",
     "uxb": 1
-  },
-  {
-    "codigos": 473367,
-    "productos": "PATO PURIFIC GEL ACT DURAZNO x500cc",
-    "uxb": 12
   },
   {
     "codigos": 12118,
@@ -58888,6 +58798,11 @@ const PRODUCTOS=[
     "codigos": 10094,
     "productos": "PAVA CAROL SILVADORA 2L CJA",
     "uxb": 1
+  },
+  {
+    "codigos": 472859,
+    "productos": "PAVA ELEC INOX MEGA C/CORTE MATE X1.8L",
+    "uxb": 12
   },
   {
     "codigos": 480936,
@@ -58932,6 +58847,16 @@ const PRODUCTOS=[
   {
     "codigos": 479153,
     "productos": "PAÑAL BABYSEC SUPER PREMIUM RN x20",
+    "uxb": 10
+  },
+  {
+    "codigos": 2636,
+    "productos": "PAÑAL BABYSEC ULTRA HIPER XXXG",
+    "uxb": 4
+  },
+  {
+    "codigos": 481497,
+    "productos": "PAÑAL BABYSEC ULTRA SOFT XXG x17Un.",
     "uxb": 10
   },
   {
@@ -59295,16 +59220,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 471432,
-    "productos": "PAÑO ABSORBENTE MULTIUSO TENOAR x1un",
-    "uxb": 180
-  },
-  {
-    "codigos": 471433,
-    "productos": "PAÑO ABSORBENTE MULTIUSO TENOAR x3Un.",
-    "uxb": 60
-  },
-  {
     "codigos": 470418,
     "productos": "PAÑO AMARILLO ABSORBENTE MEDIA NARANJA",
     "uxb": 30
@@ -59318,16 +59233,6 @@ const PRODUCTOS=[
     "codigos": 471425,
     "productos": "PAÑO BLANCO NIDO ABEJA TENOAR",
     "uxb": 60
-  },
-  {
-    "codigos": 8994,
-    "productos": "PAÑO BOROLIMP FRIZADO RAYADO",
-    "uxb": 60
-  },
-  {
-    "codigos": 7335,
-    "productos": "PAÑO CLASICO GRIS x1Un",
-    "uxb": 1
   },
   {
     "codigos": 462555,
@@ -59355,34 +59260,14 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 4966,
-    "productos": "PAÑO ESENCIAL AMAR 38x40cm",
-    "uxb": 60
-  },
-  {
-    "codigos": 470556,
-    "productos": "PAÑO ESENCIAL MULTICOLOR 48x58cm",
-    "uxb": 1
-  },
-  {
     "codigos": 3830,
     "productos": "PAÑO ESENCIAL SUAVE GRIS 48X62cm",
-    "uxb": 120
-  },
-  {
-    "codigos": 465759,
-    "productos": "PAÑO ESTRALIMP 2 EN 1",
     "uxb": 120
   },
   {
     "codigos": 6790,
     "productos": "PAÑO JULIETA GRIS",
     "uxb": 120
-  },
-  {
-    "codigos": 8091,
-    "productos": "PAÑO LA GAUCHITA GRIS x1Un",
-    "uxb": 1
   },
   {
     "codigos": 473753,
@@ -59402,7 +59287,7 @@ const PRODUCTOS=[
   {
     "codigos": 461806,
     "productos": "PAÑO MICROFIBRA LIMPIA VIDRIOS 40 X 40 CM",
-    "uxb": 1
+    "uxb": 24
   },
   {
     "codigos": 481076,
@@ -59427,27 +59312,27 @@ const PRODUCTOS=[
   {
     "codigos": 462235,
     "productos": "PAÑO MISTER TRAPO COCINA MICROF x40x40",
-    "uxb": 1
+    "uxb": 24
   },
   {
     "codigos": 461804,
     "productos": "PAÑO MISTER TRAPO EXT/SU 62x48cm",
-    "uxb": 120
+    "uxb": 12
   },
   {
     "codigos": 462236,
     "productos": "PAÑO MISTER TRAPO MUEBLES MIC x40x40cm",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 461808,
     "productos": "PAÑO MISTER TRAPO TECNO 30x30u",
-    "uxb": 1
+    "uxb": 24
   },
   {
     "codigos": 480527,
     "productos": "PAÑO MR.TRAPO BAMBOO ECOLOGICO",
-    "uxb": 1
+    "uxb": 200
   },
   {
     "codigos": 480523,
@@ -59470,21 +59355,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 477205,
-    "productos": "PAÑO MULTIUSO CIF BALLERINA x1Un.",
-    "uxb": 60
-  },
-  {
-    "codigos": 7358,
-    "productos": "PAÑO MULTIUSO ROMYL X 3U",
-    "uxb": 25
-  },
-  {
-    "codigos": 476298,
-    "productos": "PAÑO MULTIUSO SED METAL X3uni",
-    "uxb": 1
-  },
-  {
     "codigos": 465745,
     "productos": "PAÑO NIDO GRIS/BCO/RAYADO LA VICTORIA",
     "uxb": 12
@@ -59493,16 +59363,6 @@ const PRODUCTOS=[
     "codigos": 480410,
     "productos": "PAÑO P/PISO x1 MEDIA NARANJA",
     "uxb": 18
-  },
-  {
-    "codigos": 10219,
-    "productos": "PAÑO PAMPERO NIDO ABEJA RAYADO 50x58cm",
-    "uxb": 1
-  },
-  {
-    "codigos": 8098,
-    "productos": "PAÑO PISO AMARILLO ROMYL 50X57",
-    "uxb": 24
   },
   {
     "codigos": 7334,
@@ -59515,59 +59375,9 @@ const PRODUCTOS=[
     "uxb": 120
   },
   {
-    "codigos": 6791,
-    "productos": "PAÑO RAYADO PISO",
-    "uxb": 1
-  },
-  {
     "codigos": 480517,
     "productos": "PAÑO REJILLA MAGIC SOFT",
     "uxb": 1
-  },
-  {
-    "codigos": 3414,
-    "productos": "PAÑO ROMYL BLANCO x1Un",
-    "uxb": 1
-  },
-  {
-    "codigos": 476630,
-    "productos": "PAÑO SED METAL MULTIUSO x1 uni",
-    "uxb": 1
-  },
-  {
-    "codigos": 471428,
-    "productos": "PAÑO TENOAR COLORES",
-    "uxb": 60
-  },
-  {
-    "codigos": 471429,
-    "productos": "PAÑO TENOAR CONSORCIO BLANCO",
-    "uxb": 60
-  },
-  {
-    "codigos": 471430,
-    "productos": "PAÑO TENOAR CONSORCIO GRIS",
-    "uxb": 60
-  },
-  {
-    "codigos": 471426,
-    "productos": "PAÑO TENOAR DOBLE FAZ",
-    "uxb": 60
-  },
-  {
-    "codigos": 471427,
-    "productos": "PAÑO TENOAR RAYADO",
-    "uxb": 60
-  },
-  {
-    "codigos": 471424,
-    "productos": "PAÑO TENOAR SUPER BLANCO",
-    "uxb": 60
-  },
-  {
-    "codigos": 471423,
-    "productos": "PAÑO TENOAR SUPER GRIS",
-    "uxb": 60
   },
   {
     "codigos": 9009,
@@ -59677,6 +59487,11 @@ const PRODUCTOS=[
   {
     "codigos": 475174,
     "productos": "PELA PAPAS BH-HOME 009 IMP.EMANUEL",
+    "uxb": 1
+  },
+  {
+    "codigos": 481607,
+    "productos": "PELA PAPAS MAKE",
     "uxb": 1
   },
   {
@@ -59955,19 +59770,9 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 478260,
-    "productos": "PERAS EN TROZOS LA COLINA x820g",
-    "uxb": 12
-  },
-  {
     "codigos": 14057,
     "productos": "PERAS MEDIANAS NAPOLE x1Kg",
     "uxb": 1
-  },
-  {
-    "codigos": 9088,
-    "productos": "PERAS MOLTO EN MITADES x820gr",
-    "uxb": 12
   },
   {
     "codigos": 478655,
@@ -60531,7 +60336,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 13592,
-    "productos": "PICADA MUNDIAL $30.990",
+    "productos": "PICADA PRIMAVERA $34.999.99",
     "uxb": 1
   },
   {
@@ -61377,6 +61182,11 @@ const PRODUCTOS=[
   {
     "codigos": 4861,
     "productos": "PIROTINES D/MAGDALENAS X15UN",
+    "uxb": 1
+  },
+  {
+    "codigos": 481593,
+    "productos": "PISA PAPA MAKE",
     "uxb": 1
   },
   {
@@ -62980,6 +62790,11 @@ const PRODUCTOS=[
     "uxb": 48
   },
   {
+    "codigos": 466129,
+    "productos": "PORTA TERMO LISO COSTURA",
+    "uxb": 1
+  },
+  {
     "codigos": 475659,
     "productos": "PORTARROLLO CINTAS SUPER B.S x30/60",
     "uxb": 1
@@ -63031,7 +62846,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 475437,
-    "productos": "POSTRE CLASICO FFS VAI/CHOC LS x95grx1U",
+    "productos": "POSTRE CLASICO FFS VAI/CHOC LS x2Un",
     "uxb": 1
   },
   {
@@ -63052,6 +62867,11 @@ const PRODUCTOS=[
   {
     "codigos": 462261,
     "productos": "POSTRE D/MANI LHERITIER x110g",
+    "uxb": 40
+  },
+  {
+    "codigos": 472608,
+    "productos": "POSTRE D/MANI NUGATON x75g",
     "uxb": 40
   },
   {
@@ -63252,7 +63072,7 @@ const PRODUCTOS=[
   {
     "codigos": 481490,
     "productos": "PRE PIZZA PANOOR x2u x500g",
-    "uxb": 9
+    "uxb": 1
   },
   {
     "codigos": 470609,
@@ -63440,6 +63260,11 @@ const PRODUCTOS=[
     "uxb": 36
   },
   {
+    "codigos": 473409,
+    "productos": "PROT SOLAR COCOA BEACH FPS 45 x200ML",
+    "uxb": 12
+  },
+  {
     "codigos": 477813,
     "productos": "PROT SOLAR FACIAL NIVEA 50 x40g",
     "uxb": 1
@@ -63453,6 +63278,16 @@ const PRODUCTOS=[
     "codigos": 481166,
     "productos": "PROT. MAMARIO NOSOTRAS x24u",
     "uxb": 12
+  },
+  {
+    "codigos": 4570,
+    "productos": "PROT.DIAR CALIPSO NORM C/P x50u CELES.",
+    "uxb": 20
+  },
+  {
+    "codigos": 468812,
+    "productos": "PROT.DIAR NOSOTRAS RESP E/S x15un CELES",
+    "uxb": 48
   },
   {
     "codigos": 465755,
@@ -63488,11 +63323,6 @@ const PRODUCTOS=[
     "codigos": 674,
     "productos": "PROT.DIARIO CALIPSO NORMAL C/P S/A x20u",
     "uxb": 40
-  },
-  {
-    "codigos": 4570,
-    "productos": "PROT.DIARIO CALIPSO NORMAL C/P x50u CELESTE",
-    "uxb": 20
   },
   {
     "codigos": 469823,
@@ -63683,11 +63513,6 @@ const PRODUCTOS=[
     "codigos": 5732,
     "productos": "PROT.DIARIO NOSOTRAS NORMAL x60u PH BAL VERDE",
     "uxb": 12
-  },
-  {
-    "codigos": 468812,
-    "productos": "PROT.DIARIO NOSOTRAS RESP E/S X15UN CELESTE",
-    "uxb": 48
   },
   {
     "codigos": 470094,
@@ -64115,9 +63940,19 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 463902,
+    "productos": "PURE DE TOMATE MAROLIO .RECART X340G",
+    "uxb": 24
+  },
+  {
     "codigos": 2849,
     "productos": "PURE DE TOMATE MAROLIO X520g",
     "uxb": 24
+  },
+  {
+    "codigos": 65254,
+    "productos": "PURE DE TOMATE MOLTO X1030g",
+    "uxb": 12
   },
   {
     "codigos": 9138,
@@ -64375,6 +64210,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 13534,
+    "productos": "QUESO CREM ESTANCIA DE ORO FRACC",
+    "uxb": 1
+  },
+  {
     "codigos": 14347,
     "productos": "QUESO CREM. P/SALUD S/SAL BARRAZA 1/2 HORMA",
     "uxb": 1
@@ -64607,11 +64447,6 @@ const PRODUCTOS=[
   {
     "codigos": 13533,
     "productos": "QUESO CREMOSO ESTANCIA DE ORO 1/2 HORM",
-    "uxb": 1
-  },
-  {
-    "codigos": 13534,
-    "productos": "QUESO CREMOSO ESTANCIA DE ORO FRACC",
     "uxb": 1
   },
   {
@@ -64915,6 +64750,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 14469,
+    "productos": "QUESO CUARTIROLO TREMBLAY 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14470,
+    "productos": "QUESO CUARTIROLO TREMBLAY FRACC",
+    "uxb": 1
+  },
+  {
+    "codigos": 14468,
+    "productos": "QUESO CUARTIROLO TREMBLAY HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 13208,
     "productos": "QUESO DAMBO TREGAR FETAS",
     "uxb": 1
@@ -65080,6 +64930,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 14131,
+    "productos": "QUESO FYNBO TREMBLAY 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14132,
+    "productos": "QUESO FYNBO TREMBLAY FRACC",
+    "uxb": 1
+  },
+  {
+    "codigos": 14130,
+    "productos": "QUESO FYNBO TREMBLAY HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 14299,
     "productos": "QUESO GOUDA 1/2 HORMA",
     "uxb": 1
@@ -65090,11 +64955,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 13770,
-    "productos": "QUESO GOUDA FRACCIONADO",
-    "uxb": 1
-  },
-  {
     "codigos": 14298,
     "productos": "QUESO GOUDA HORMA",
     "uxb": 1
@@ -65102,6 +64962,11 @@ const PRODUCTOS=[
   {
     "codigos": 13769,
     "productos": "QUESO GOUDA TREMBLAY 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 13770,
+    "productos": "QUESO GOUDA TREMBLAY FRACCIONADO",
     "uxb": 1
   },
   {
@@ -65240,6 +65105,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 14472,
+    "productos": "QUESO MAGRO TREMBLAY 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14473,
+    "productos": "QUESO MAGRO TREMBLAY FRACCIONADO",
+    "uxb": 1
+  },
+  {
+    "codigos": 14471,
+    "productos": "QUESO MAGRO TREMBLAY HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 13253,
     "productos": "QUESO MARIA LUISA REGIANITO",
     "uxb": 1
@@ -65347,21 +65227,6 @@ const PRODUCTOS=[
   {
     "codigos": 13283,
     "productos": "QUESO PATEGRAS S/LACT LA SERE HORMA",
-    "uxb": 1
-  },
-  {
-    "codigos": 14131,
-    "productos": "QUESO PATEGRAS TREMBLAY 1/2 HORMA",
-    "uxb": 1
-  },
-  {
-    "codigos": 14132,
-    "productos": "QUESO PATEGRAS TREMBLAY FRACC",
-    "uxb": 1
-  },
-  {
-    "codigos": 14130,
-    "productos": "QUESO PATEGRAS TREMBLAY HORMA",
     "uxb": 1
   },
   {
@@ -65706,7 +65571,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 13402,
-    "productos": "QUESO ROMANITO REGIANITO 1/2 HORMA",
+    "productos": "QUESO ROMANITO REGIANITO 1/2 HORM",
     "uxb": 1
   },
   {
@@ -65777,6 +65642,16 @@ const PRODUCTOS=[
   {
     "codigos": 14416,
     "productos": "QUESO SAB. ALLOA ARABE HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14465,
+    "productos": "QUESO SAB. ALLOA FINAS HIERBAS FRACC",
+    "uxb": 1
+  },
+  {
+    "codigos": 14464,
+    "productos": "QUESO SAB. ALLOA FINAS HIERBAS HORMA",
     "uxb": 1
   },
   {
@@ -65975,6 +65850,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 13760,
+    "productos": "QUESO SARDO TREMBLAY 1/2H HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 13761,
+    "productos": "QUESO SARDO TREMBLAY FRACCIONADO",
+    "uxb": 1
+  },
+  {
+    "codigos": 13759,
+    "productos": "QUESO SARDO TREMBLAY HORMA",
+    "uxb": 1
+  },
+  {
     "codigos": 468613,
     "productos": "QUESO SARDO VARENSE TUCU",
     "uxb": 1
@@ -66131,7 +66021,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 478379,
-    "productos": "QUESO UNT.CLAS LA SERENISIMA LIGHT x460gr",
+    "productos": "QUESO UNT.CLAS LA SERENISIMA LIGHTx460g",
     "uxb": 1
   },
   {
@@ -66181,7 +66071,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 464303,
-    "productos": "QUESO UNTABLE FINLANDIA LIGHT/LIVIANO x290gr",
+    "productos": "QUESO UNTABLE FINLANDIA LIGHT/LIV x290gr",
     "uxb": 12
   },
   {
@@ -66450,6 +66340,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 465019,
+    "productos": "QUITAMANCHAS VANISH POLVO x120ML",
+    "uxb": 6
+  },
+  {
     "codigos": 467689,
     "productos": "RACING GO AUTOS x2u FRICCION",
     "uxb": 1
@@ -66480,6 +66375,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481598,
+    "productos": "RALLADOR C. PESADO MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 475198,
     "productos": "RALLADOR C/CONTENEDOR x5BH-HOME WB015",
     "uxb": 1
@@ -66500,6 +66400,11 @@ const PRODUCTOS=[
     "uxb": 36
   },
   {
+    "codigos": 481599,
+    "productos": "RALLADOR PLANO MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 477045,
     "productos": "RAPIDITAS BIMBO CLASICAS x240gr",
     "uxb": 1
@@ -66513,11 +66418,6 @@ const PRODUCTOS=[
     "codigos": 475278,
     "productos": "RASTRILLO BARREHOJAS CHICO BOROLIMP",
     "uxb": 1
-  },
-  {
-    "codigos": 4846,
-    "productos": "RASTRILLO PLASTICO BATENN",
-    "uxb": 24
   },
   {
     "codigos": 470601,
@@ -66680,23 +66580,8 @@ const PRODUCTOS=[
     "uxb": 21
   },
   {
-    "codigos": 474600,
-    "productos": "RAVIOLES PASTEU.BLISTER 4 QUESOS TAPAMANIA x500gr",
-    "uxb": 1
-  },
-  {
     "codigos": 477251,
     "productos": "RAVIOLES PASTEU.BLISTER POLL/VERD TAP x500gr",
-    "uxb": 1
-  },
-  {
-    "codigos": 477252,
-    "productos": "RAVIOLES PASTEU.BLISTER RICO/JAM TAPAMANIA x500gr",
-    "uxb": 1
-  },
-  {
-    "codigos": 11727,
-    "productos": "RAVIOLES PASTEU.BLISTER RICOT/VERD TAPAMANIA x500gr",
     "uxb": 1
   },
   {
@@ -66745,6 +66630,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 474600,
+    "productos": "RAVIOLES TAPAMANIA 4 QUESOS x500gr",
+    "uxb": 1
+  },
+  {
     "codigos": 478327,
     "productos": "RAVIOLES TAPAMANIA 4QUESOS x1Kg",
     "uxb": 1
@@ -66756,7 +66646,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 477977,
-    "productos": "RAVIOLES TAPAMANIA CALABA Y QUESO X500G",
+    "productos": "RAVIOLES TAPAMANIA CALAB/QUESO x500gr",
     "uxb": 1
   },
   {
@@ -66765,8 +66655,18 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 477252,
+    "productos": "RAVIOLES TAPAMANIA RICO/JAM x500gr",
+    "uxb": 1
+  },
+  {
     "codigos": 477254,
     "productos": "RAVIOLES TAPAMANIA RICOT/JAM x1Kg",
+    "uxb": 1
+  },
+  {
+    "codigos": 11727,
+    "productos": "RAVIOLES TAPAMANIA RICOT/VERD x500gr",
     "uxb": 1
   },
   {
@@ -67145,44 +67045,14 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 471436,
-    "productos": "REJILLA AUTOMOTOR TENOAR",
-    "uxb": 60
-  },
-  {
-    "codigos": 475959,
-    "productos": "REJILLA BAR SED METAL 40x45cm",
-    "uxb": 120
-  },
-  {
     "codigos": 2891,
     "productos": "REJILLA CLASICA BLANCA 40x40",
     "uxb": 1
   },
   {
-    "codigos": 467327,
-    "productos": "REJILLA COCHE PROF.ARIDAM",
-    "uxb": 12
-  },
-  {
-    "codigos": 471446,
-    "productos": "REJILLA COCINA-BAÑO TENOAR",
-    "uxb": 120
-  },
-  {
-    "codigos": 2892,
-    "productos": "REJILLA COLOR NIDO ABEJA ROMYL",
-    "uxb": 120
-  },
-  {
     "codigos": 464190,
     "productos": "REJILLA DE PABILO DURAMAS 38x42",
     "uxb": 12
-  },
-  {
-    "codigos": 5543,
-    "productos": "REJILLA DOBLE COCINA ALG BORO",
-    "uxb": 120
   },
   {
     "codigos": 464191,
@@ -67200,16 +67070,6 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
-    "codigos": 471435,
-    "productos": "REJILLA DOBLE TRAMADO TENOAR",
-    "uxb": 60
-  },
-  {
-    "codigos": 5827,
-    "productos": "REJILLA ENTRESOL PABILO LIVIANA",
-    "uxb": 240
-  },
-  {
     "codigos": 479369,
     "productos": "REJILLA ESPONJA ARIDAM",
     "uxb": 12
@@ -67217,16 +67077,6 @@ const PRODUCTOS=[
   {
     "codigos": 481081,
     "productos": "REJILLA ESPONJA ECONOMICA PAÑOTEX 33x45",
-    "uxb": 1
-  },
-  {
-    "codigos": 473097,
-    "productos": "REJILLA ESPONJA SM LINEA 10 42x38CM",
-    "uxb": 12
-  },
-  {
-    "codigos": 473565,
-    "productos": "REJILLA L/COCHE P LINEA 10 50x60CM",
     "uxb": 1
   },
   {
@@ -67245,11 +67095,6 @@ const PRODUCTOS=[
     "uxb": 120
   },
   {
-    "codigos": 9113,
-    "productos": "REJILLA LIVIANA COCHE ALG.BOROLIMP",
-    "uxb": 120
-  },
-  {
     "codigos": 7332,
     "productos": "REJILLA LIVIANA COCHE ROMYL",
     "uxb": 60
@@ -67262,12 +67107,12 @@ const PRODUCTOS=[
   {
     "codigos": 461802,
     "productos": "REJILLA MISTER TRAPO SUP PABILO 42x42cm",
-    "uxb": 1
+    "uxb": 240
   },
   {
     "codigos": 460996,
     "productos": "REJILLA MR TRAPO AMERICANA",
-    "uxb": 1
+    "uxb": 240
   },
   {
     "codigos": 466240,
@@ -67312,16 +67157,6 @@ const PRODUCTOS=[
   {
     "codigos": 5536,
     "productos": "REJILLA PESADA COCHE ALG BORO",
-    "uxb": 120
-  },
-  {
-    "codigos": 5966,
-    "productos": "REJILLA ROMYL LAVA AUTO SUPER PESADA GRA",
-    "uxb": 12
-  },
-  {
-    "codigos": 476713,
-    "productos": "REJILLA TASK PABILO MULTIUSO 35X39CM",
     "uxb": 120
   },
   {
@@ -67412,12 +67247,12 @@ const PRODUCTOS=[
   {
     "codigos": 480278,
     "productos": "REMOVEDOR DE CERA SUIZA P/MADERA x850cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 480279,
     "productos": "REMOVEDOR DE CERA SUIZA x900cc",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 5666,
@@ -67530,16 +67365,6 @@ const PRODUCTOS=[
     "uxb": 60
   },
   {
-    "codigos": 471440,
-    "productos": "REPASADOR CAPULLO MULTIESTAMPADO TENOAR",
-    "uxb": 60
-  },
-  {
-    "codigos": 471220,
-    "productos": "REPASADOR FIBRAN NIDO DURAMAS",
-    "uxb": 12
-  },
-  {
     "codigos": 471219,
     "productos": "REPASADOR FIBRAN SARGADO DURAMAS",
     "uxb": 12
@@ -67590,19 +67415,9 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 474185,
-    "productos": "REPASADOR RAYADO ECONO BATENN",
-    "uxb": 120
-  },
-  {
     "codigos": 473098,
     "productos": "REPASADOR SARGA ESP LINEA 10 50x60CM",
     "uxb": 10
-  },
-  {
-    "codigos": 469632,
-    "productos": "REPASADOR SUPERCUADRO FIBRAN",
-    "uxb": 12
   },
   {
     "codigos": 476708,
@@ -67623,11 +67438,6 @@ const PRODUCTOS=[
     "codigos": 480230,
     "productos": "REPASADOR TOALLA GOURMET MEDIA NARANJA",
     "uxb": 50
-  },
-  {
-    "codigos": 474427,
-    "productos": "REPASADOR TOALLA LIVIANO MED. BOROLIMP",
-    "uxb": 60
   },
   {
     "codigos": 477752,
@@ -68200,6 +68010,21 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 472752,
+    "productos": "ROLLO COCINA SUAPEL 3X40PAÑOS",
+    "uxb": 8
+  },
+  {
+    "codigos": 481625,
+    "productos": "ROLLO COCINA SUAPEL x1 x200PAÑOS",
+    "uxb": 12
+  },
+  {
+    "codigos": 12322,
+    "productos": "ROLLO D/COC ELEGANTE BCO D/H x200p 921",
+    "uxb": 12
+  },
+  {
     "codigos": 464759,
     "productos": "ROLLO DE COCINA AZUL X300PAÑOS",
     "uxb": 8
@@ -68223,6 +68048,11 @@ const PRODUCTOS=[
     "codigos": 9252,
     "productos": "ROLLO DE COCINA CARTABELLA DAILY X3U.",
     "uxb": 10
+  },
+  {
+    "codigos": 468436,
+    "productos": "ROLLO DE COCINA CAUTIVA 3X120 PAÑOS",
+    "uxb": 8
   },
   {
     "codigos": 10906,
@@ -68253,11 +68083,6 @@ const PRODUCTOS=[
     "codigos": 2934,
     "productos": "ROLLO DE COCINA ELEGANTE 3X50 (927)",
     "uxb": 8
-  },
-  {
-    "codigos": 12322,
-    "productos": "ROLLO DE COCINA ELEGANTE BCO D/H x200p(921)",
-    "uxb": 12
   },
   {
     "codigos": 12321,
@@ -68293,6 +68118,11 @@ const PRODUCTOS=[
     "codigos": 461139,
     "productos": "ROLLO DE COCINA MAROLIO 3X40PAÑOS",
     "uxb": 8
+  },
+  {
+    "codigos": 470463,
+    "productos": "ROLLO DE COCINA MAROLIO ULTRA 1UN",
+    "uxb": 12
   },
   {
     "codigos": 470461,
@@ -68345,9 +68175,19 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
+    "codigos": 471386,
+    "productos": "ROLLO DE COCINA SUSSEX MEGA 1X200",
+    "uxb": 12
+  },
+  {
     "codigos": 464328,
     "productos": "ROLLO DE COCINA VUAL 120 PAÑOS x3Un.",
     "uxb": 8
+  },
+  {
+    "codigos": 474489,
+    "productos": "ROLLO DE COCINA VUAL X 200 PAÑOS",
+    "uxb": 12
   },
   {
     "codigos": 472602,
@@ -68393,6 +68233,21 @@ const PRODUCTOS=[
     "codigos": 465377,
     "productos": "ROLUMINIO PROF.38cmX40mt",
     "uxb": 9
+  },
+  {
+    "codigos": 14466,
+    "productos": "ROMANO TREMBLAY 1/2 HORMA",
+    "uxb": 1
+  },
+  {
+    "codigos": 14467,
+    "productos": "ROMANO TREMBLAY FRACCIONADO",
+    "uxb": 1
+  },
+  {
+    "codigos": 14459,
+    "productos": "ROMANO TREMBLAY HORMA",
+    "uxb": 1
   },
   {
     "codigos": 2936,
@@ -68631,7 +68486,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 462651,
-    "productos": "SAB P/HORNO BSA MOSTAZA Y MIEL ALICANTE x30gr",
+    "productos": "SAB P/HORNO BSA MOST/MIEL ALICANTE x30g",
     "uxb": 10
   },
   {
@@ -68730,6 +68585,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481615,
+    "productos": "SACACORCHO GARZON MAKE",
+    "uxb": 1
+  },
+  {
     "codigos": 479929,
     "productos": "SACACORCHO MOZO C1168 ALUM CAROL x1Un.",
     "uxb": 1
@@ -68747,6 +68607,16 @@ const PRODUCTOS=[
   {
     "codigos": 479927,
     "productos": "SACACORCHOS ALETAS C91025 CAROL x1Un.",
+    "uxb": 1
+  },
+  {
+    "codigos": 481611,
+    "productos": "SACACORCHOS DOBLE PALANCA MAKE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481600,
+    "productos": "SACAFUENTES MAKE",
     "uxb": 1
   },
   {
@@ -68805,6 +68675,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 467913,
+    "productos": "SAL ENTREF. CELUSAL PARRILLE. PAQ x1kg",
+    "uxb": 12
+  },
+  {
     "codigos": 6050,
     "productos": "SAL ENTREFINA CELUSAL PARRI ESTUCH X1kg",
     "uxb": 12
@@ -68813,11 +68688,6 @@ const PRODUCTOS=[
     "codigos": 479009,
     "productos": "SAL ENTREFINA CELUSAL PARRILERA SALERO x1kg",
     "uxb": 4
-  },
-  {
-    "codigos": 467913,
-    "productos": "SAL ENTREFINA CELUSAL PARRILLERA PAQ x1kg",
-    "uxb": 12
   },
   {
     "codigos": 480949,
@@ -69551,7 +69421,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 13781,
-    "productos": "SALCHICHON PRIMAVERA 214 1/2 HORMA",
+    "productos": "SALCHICHON PRIMAVERA 214 1/2 HORM",
     "uxb": 1
   },
   {
@@ -70560,6 +70430,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481549,
+    "productos": "SEMILLAS DE CHIA FUENTESS DP x300gr",
+    "uxb": 1
+  },
+  {
     "codigos": 480199,
     "productos": "SEMILLAS LINO MISTERNUT x250g",
     "uxb": 1
@@ -70663,6 +70538,11 @@ const PRODUCTOS=[
     "codigos": 480345,
     "productos": "SEPARADORES P/FREEZER GO! 20X25cm",
     "uxb": 20
+  },
+  {
+    "codigos": 481604,
+    "productos": "SEPARADORES P/FREEZER MAKE 20X25cm x200Un.",
+    "uxb": 1
   },
   {
     "codigos": 9272,
@@ -71545,6 +71425,16 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481659,
+    "productos": "SET LASTAS&MATE DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481660,
+    "productos": "SET LATAS SIMPLE S/MATE DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 468519,
     "productos": "SET LIMPIEZA CLEANING HOME",
     "uxb": 1
@@ -71585,6 +71475,16 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 481658,
+    "productos": "SET MATE LITORAL DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481656,
+    "productos": "SET MATE PLASTICO DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 470853,
     "productos": "SET MATE ROMBO EN BOLSITA MATE FABI",
     "uxb": 1
@@ -71602,6 +71502,16 @@ const PRODUCTOS=[
   {
     "codigos": 465648,
     "productos": "SET MATE VIDRIO COMPLETO",
+    "uxb": 1
+  },
+  {
+    "codigos": 481650,
+    "productos": "SET MATE VIDRIO&YERBERA DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481649,
+    "productos": "SET MATE&YERBERA DIA DE LA MADRE CAJA",
     "uxb": 1
   },
   {
@@ -71627,6 +71537,11 @@ const PRODUCTOS=[
   {
     "codigos": 474770,
     "productos": "SET MINIOS SHAMPOO+FRAG. ALGABO BODY SPLASH",
+    "uxb": 12
+  },
+  {
+    "codigos": 476635,
+    "productos": "SET MUJER CREMA+BODYSPLASH ALGABO",
     "uxb": 12
   },
   {
@@ -72055,6 +71970,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 461024,
+    "productos": "SH DOVE BABY x200ml",
+    "uxb": 12
+  },
+  {
     "codigos": 987457,
     "productos": "SH DOVE X180ml NUTRICION",
     "uxb": 12
@@ -72390,6 +72310,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 474889,
+    "productos": "SH PANTENE x200ml RIZOS",
+    "uxb": 12
+  },
+  {
     "codigos": 480833,
     "productos": "SH PANTENE x400ml BAMBU",
     "uxb": 12
@@ -72480,6 +72405,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 472845,
+    "productos": "TABLA PIZZERA RED. T&M x36CM",
+    "uxb": 1
+  },
+  {
     "codigos": 475350,
     "productos": "SH PLUSBELLE ESENCIAL x970ml LARGO SALU",
     "uxb": 12
@@ -72567,6 +72497,11 @@ const PRODUCTOS=[
   {
     "codigos": 480512,
     "productos": "SH SEDAL DP x300ml LUMINOUS",
+    "uxb": 12
+  },
+  {
+    "codigos": 87454,
+    "productos": "SH SEDAL DP x300ml MEGA CRECI",
     "uxb": 12
   },
   {
@@ -72921,7 +72856,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 3139,
-    "productos": "SIDRA REAL VIDRIO x720cc",
+    "productos": "SIDRA REAL VIDRIO x750cc",
     "uxb": 6
   },
   {
@@ -73545,6 +73480,11 @@ const PRODUCTOS=[
     "uxb": 24
   },
   {
+    "codigos": 481616,
+    "productos": "SORBETE NERGO NOW DISTRIV x100Un.",
+    "uxb": 1
+  },
+  {
     "codigos": 550,
     "productos": "SORBETE x100u TUCU",
     "uxb": 1
@@ -73855,16 +73795,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 481027,
-    "productos": "SUAVIZ SUELTO HEROE x1lt",
-    "uxb": 1
-  },
-  {
-    "codigos": 468397,
-    "productos": "SUAVIZANTE BORITA BEBE x4Lt",
-    "uxb": 3
-  },
-  {
     "codigos": 468385,
     "productos": "SUAVIZANTE BORITA x900ml BEBE",
     "uxb": 12
@@ -73892,6 +73822,11 @@ const PRODUCTOS=[
   {
     "codigos": 468393,
     "productos": "SUAVIZANTE BORITA x900ml TRADICION",
+    "uxb": 12
+  },
+  {
+    "codigos": 481506,
+    "productos": "SUAVIZANTE COMFORT CONC/LAVAN x500ml",
     "uxb": 12
   },
   {
@@ -73965,11 +73900,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 465578,
-    "productos": "SUAVIZANTE SUAVE VIOLETA CAMPO DP x3lt",
-    "uxb": 4
-  },
-  {
     "codigos": 478025,
     "productos": "SUAVIZANTE VAIS POMPONES x900cc DP ALGABO",
     "uxb": 12
@@ -73992,11 +73922,6 @@ const PRODUCTOS=[
   {
     "codigos": 5232,
     "productos": "SUAVIZANTE VIVERE 900ML FRES.SILVE",
-    "uxb": 12
-  },
-  {
-    "codigos": 3581,
-    "productos": "SUAVIZANTE VIVERE 900ML FTOS BOSQ",
     "uxb": 12
   },
   {
@@ -74033,6 +73958,31 @@ const PRODUCTOS=[
     "codigos": 12402,
     "productos": "SUELTO CEREALES X KILO",
     "uxb": 1
+  },
+  {
+    "codigos": 481521,
+    "productos": "SUEROX 8-IONES ARANDANO-POMELO x630cc",
+    "uxb": 6
+  },
+  {
+    "codigos": 481522,
+    "productos": "SUEROX 8-IONES FRUTILLA-KIWI x630cc",
+    "uxb": 6
+  },
+  {
+    "codigos": 481523,
+    "productos": "SUEROX 8-IONES FRUTOS ROJOS x360cc",
+    "uxb": 6
+  },
+  {
+    "codigos": 481519,
+    "productos": "SUEROX 8-IONES LIMONADA x630cc",
+    "uxb": 6
+  },
+  {
+    "codigos": 481520,
+    "productos": "SUEROX 8-IONES MANZANA x630cc",
+    "uxb": 6
   },
   {
     "codigos": 471579,
@@ -74125,6 +74075,11 @@ const PRODUCTOS=[
     "uxb": 20
   },
   {
+    "codigos": 481562,
+    "productos": "TABLA D/CORTE TAURO 30CMx24.5CM x1Un.",
+    "uxb": 1
+  },
+  {
     "codigos": 476672,
     "productos": "TABLA DE PICAR XL 25x35cm LIMA",
     "uxb": 20
@@ -74195,16 +74150,6 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
-    "codigos": 472845,
-    "productos": "TABLA PIZZERA RED. T&M x36CM",
-    "uxb": 1
-  },
-  {
-    "codigos": 465982,
-    "productos": "TABLA PIZZERA STAR",
-    "uxb": 16
-  },
-  {
     "codigos": 468889,
     "productos": "TABLA PORTABLOCK OFICIO PLASTICO",
     "uxb": 1
@@ -74223,11 +74168,6 @@ const PRODUCTOS=[
     "codigos": 475258,
     "productos": "TABLETA GAM! JUNGLE x24Un.",
     "uxb": 12
-  },
-  {
-    "codigos": 10938,
-    "productos": "TABLETA RAID A/POLILLA LAVANDA X2",
-    "uxb": 24
   },
   {
     "codigos": 470564,
@@ -74510,6 +74450,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481648,
+    "productos": "TAMIZADOR C/PICO DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 475743,
     "productos": "TAMIZADOR DE HARINA THE KITCHEN",
     "uxb": 1
@@ -74655,6 +74600,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 472169,
+    "productos": "TAPA D/EMP HOJ DELICIAS DORADAS x330gr",
+    "uxb": 1
+  },
+  {
     "codigos": 470852,
     "productos": "TAPA D/EMP TUBO MENDIA CRIOLLA HORNO x2kg",
     "uxb": 6
@@ -74675,16 +74625,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 472158,
-    "productos": "TAPA D/PASCUALINA CRIOLLA DELICIAS DORADAS x400gr",
-    "uxb": 1
-  },
-  {
-    "codigos": 472157,
-    "productos": "TAPA D/PASCUALINA HOJALDRE DELICIAS DORADAS x400gr",
-    "uxb": 1
-  },
-  {
     "codigos": 30007,
     "productos": "TAPA DE EMPANADA AMICI X12U",
     "uxb": 1
@@ -74692,16 +74632,6 @@ const PRODUCTOS=[
   {
     "codigos": 472162,
     "productos": "TAPA DE EMPANADAS CRIOLLA DELICIAS DORADAS x330gr",
-    "uxb": 1
-  },
-  {
-    "codigos": 472167,
-    "productos": "TAPA DE EMPANADAS CRIOLLA DELICIAS DORADAS x500g",
-    "uxb": 1
-  },
-  {
-    "codigos": 472169,
-    "productos": "TAPA DE EMPANADAS HOJALDRE DELICIAS DORADAS x330gr",
     "uxb": 1
   },
   {
@@ -74717,11 +74647,6 @@ const PRODUCTOS=[
   {
     "codigos": 470593,
     "productos": "TAPA DE EMPANADAS TUBO x48un ELUN-CHE",
-    "uxb": 1
-  },
-  {
-    "codigos": 470591,
-    "productos": "TAPA DE PASCUALINA CRIOLLA ELUN-CHE x310gr",
     "uxb": 1
   },
   {
@@ -74830,6 +74755,16 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 472158,
+    "productos": "TAPA PASCUALINA CRIOLLA D.DORADAS x400g",
+    "uxb": 1
+  },
+  {
+    "codigos": 470591,
+    "productos": "TAPA PASCUALINA CRIOLLA ELUN-CHE x310gr",
+    "uxb": 1
+  },
+  {
     "codigos": 477247,
     "productos": "TAPA PASCUALINA CRIOLLA x400gr TAPAMANIA",
     "uxb": 1
@@ -74837,6 +74772,11 @@ const PRODUCTOS=[
   {
     "codigos": 475876,
     "productos": "TAPA PASCUALINA DELICIAS SIN TACC x380g",
+    "uxb": 1
+  },
+  {
+    "codigos": 472157,
+    "productos": "TAPA PASCUALINA HOJALD DEL.DORADAS x400g",
     "uxb": 1
   },
   {
@@ -74895,6 +74835,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 470589,
+    "productos": "TAPAS D/EMPANADAS CRIOLLAS ELUN-CHE x12un",
+    "uxb": 1
+  },
+  {
     "codigos": 472548,
     "productos": "TAPAS D/EMPANADAS HOJALDRE CUNEO x270g",
     "uxb": 1
@@ -74910,6 +74855,16 @@ const PRODUCTOS=[
     "uxb": 10
   },
   {
+    "codigos": 470606,
+    "productos": "TAPAS DE EMP P/FREIR MENDIA 15x390gr",
+    "uxb": 1
+  },
+  {
+    "codigos": 472167,
+    "productos": "TAPAS DE EMPANADAS CRIOLLA DELICIAS DORADAS x500g",
+    "uxb": 1
+  },
+  {
     "codigos": 470605,
     "productos": "TAPAS DE EMPANADAS CRIOLLA MENDIA 15x390gr",
     "uxb": 24
@@ -74918,11 +74873,6 @@ const PRODUCTOS=[
     "codigos": 471017,
     "productos": "TAPAS DE EMPANADAS CRIOLLA ORALI x300gr",
     "uxb": 30
-  },
-  {
-    "codigos": 470589,
-    "productos": "TAPAS DE EMPANADAS CRIOLLAS ELUN-CHE x12un",
-    "uxb": 1
   },
   {
     "codigos": 472166,
@@ -74942,11 +74892,6 @@ const PRODUCTOS=[
   {
     "codigos": 472163,
     "productos": "TAPAS DE EMPANADAS LIGHT DELICIAS DORADAS x330g",
-    "uxb": 1
-  },
-  {
-    "codigos": 470606,
-    "productos": "TAPAS DE EMPANADAS P/FREIR MENDIA 15x390gr",
     "uxb": 1
   },
   {
@@ -75305,11 +75250,6 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
-    "codigos": 478870,
-    "productos": "TAZA DE PORCELANA TUCU",
-    "uxb": 1
-  },
-  {
     "codigos": 473789,
     "productos": "TAZA DE VIDIRO PINTADA COLORES SURT",
     "uxb": 24
@@ -75322,11 +75262,6 @@ const PRODUCTOS=[
   {
     "codigos": 480875,
     "productos": "TAZA DE VIDRIO+PLATOX6 53515 IMP-E x230cc",
-    "uxb": 1
-  },
-  {
-    "codigos": 480497,
-    "productos": "TAZA DISEÑOS TUCU X1UN",
     "uxb": 1
   },
   {
@@ -75502,6 +75437,11 @@ const PRODUCTOS=[
   {
     "codigos": 3929,
     "productos": "TE CRYSF X50saq",
+    "uxb": 10
+  },
+  {
+    "codigos": 6977,
+    "productos": "TE DUAREN X25saq",
     "uxb": 10
   },
   {
@@ -76190,6 +76130,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481646,
+    "productos": "TERMO MAGICO DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 475286,
     "productos": "TERMO MILONGA LUMILAGRO x1Lt",
     "uxb": 1
@@ -76460,8 +76405,18 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 63,
+    "productos": "TINTURA 317 RUBIO OSCURO TABACO 6.4",
+    "uxb": 12
+  },
+  {
     "codigos": 222,
     "productos": "TINTURA ESTEREO COLOR FUNKY AMARILLO NEON",
+    "uxb": 12
+  },
+  {
+    "codigos": 173,
+    "productos": "TINTURA FANTASIA AMARILLO MELON 0.3",
     "uxb": 12
   },
   {
@@ -76487,6 +76442,11 @@ const PRODUCTOS=[
   {
     "codigos": 481319,
     "productos": "TINTURA ISSUE 5.13 CASTAÑO CL.CHOCO",
+    "uxb": 12
+  },
+  {
+    "codigos": 981,
+    "productos": "TINTURA ISSUE 6.4 RUBIO OSC COB/ROJ BRI.",
     "uxb": 12
   },
   {
@@ -78190,6 +78150,11 @@ const PRODUCTOS=[
     "uxb": 18
   },
   {
+    "codigos": 3394,
+    "productos": "TOSTADAS RIERA CLASICA SIN SAL x200gr",
+    "uxb": 18
+  },
+  {
     "codigos": 3386,
     "productos": "TOSTADAS RIERA DE MESA CLASICA x200gr",
     "uxb": 18
@@ -78253,6 +78218,16 @@ const PRODUCTOS=[
     "codigos": 473763,
     "productos": "TOSTADITAS CLAS MOLINOS ALA x100gr",
     "uxb": 20
+  },
+  {
+    "codigos": 481623,
+    "productos": "TOSTADOR ENLOZADO MAKE",
+    "uxb": 1
+  },
+  {
+    "codigos": 481590,
+    "productos": "TOSTADOR ESTAÑADO MAKE",
+    "uxb": 30
   },
   {
     "codigos": 480934,
@@ -78387,7 +78362,7 @@ const PRODUCTOS=[
   {
     "codigos": 461812,
     "productos": "TRAPO D/PISO MISTER TRAPO BCO 60x68cm",
-    "uxb": 1
+    "uxb": 120
   },
   {
     "codigos": 480429,
@@ -78397,27 +78372,17 @@ const PRODUCTOS=[
   {
     "codigos": 461803,
     "productos": "TRAPO D/PISO MISTER TRAPO EX/SU 62x48cm",
-    "uxb": 1
+    "uxb": 120
   },
   {
     "codigos": 461813,
     "productos": "TRAPO D/PISO MISTER TRAPO GRIS 60x68cm",
-    "uxb": 1
+    "uxb": 120
   },
   {
     "codigos": 1235,
     "productos": "TRAPO DE PISO 1/2 NARANJA RAYADO COL",
     "uxb": 50
-  },
-  {
-    "codigos": 477639,
-    "productos": "TRAPO DE PISO 2DA MARCA TAURO x 1Un",
-    "uxb": 60
-  },
-  {
-    "codigos": 475960,
-    "productos": "TRAPO DE PISO GRIS SED METAL 47x57cm",
-    "uxb": 120
   },
   {
     "codigos": 480178,
@@ -78480,6 +78445,11 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 7535,
+    "productos": "TRAPO/PISO GRIS 45x60 PONDEROSA",
+    "uxb": 50
+  },
+  {
     "codigos": 8177,
     "productos": "TRAPO/PISO GRIS MEDIA NARANJA",
     "uxb": 50
@@ -78503,6 +78473,11 @@ const PRODUCTOS=[
     "codigos": 478213,
     "productos": "TRAT.CAPILAR SKALA EXPERT VARIOS x1kg",
     "uxb": 6
+  },
+  {
+    "codigos": 481572,
+    "productos": "TRATAMIENO CAPILAR ELVIVE COLAGENO x100cc",
+    "uxb": 1
   },
   {
     "codigos": 5432,
@@ -78545,6 +78520,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481577,
+    "productos": "TRATAMIENTO CAPILAR ELVIVE OLEO x100cc",
+    "uxb": 1
+  },
+  {
     "codigos": 7141,
     "productos": "TREMBLY BICHOS TIRA x6un",
     "uxb": 60
@@ -78562,6 +78542,11 @@ const PRODUCTOS=[
   {
     "codigos": 465437,
     "productos": "TREMBLY FRUTAS x6un",
+    "uxb": 60
+  },
+  {
+    "codigos": 7302,
+    "productos": "TREMBLY FUTBOL TIRA X 6 UNID",
     "uxb": 60
   },
   {
@@ -78690,6 +78675,11 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 464234,
+    "productos": "TRUFADO ALM/CHOC FELFORT x100g",
+    "uxb": 10
+  },
+  {
     "codigos": 3439,
     "productos": "TRUMPETER CHARD EXTRA BRUT X750",
     "uxb": 6
@@ -78745,6 +78735,16 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481687,
+    "productos": "TURRON ALMEND FRUTILLA/YOG FELFORTx100g",
+    "uxb": 10
+  },
+  {
+    "codigos": 481676,
+    "productos": "TURRON ALMEND MONTELIMAR FELFORT x100g",
+    "uxb": 10
+  },
+  {
     "codigos": 9333,
     "productos": "TURRON ARCOR ROCKLETS X UNID",
     "uxb": 50
@@ -78755,9 +78755,29 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 481638,
+    "productos": "TURRON BLANDO BONAFIDE DE ALMENDRAS x120g",
+    "uxb": 46
+  },
+  {
     "codigos": 479971,
     "productos": "TURRON BLANDO D/ALM. LA CASA x150g",
     "uxb": 8
+  },
+  {
+    "codigos": 481636,
+    "productos": "TURRON BONAFIDE MANI YEMA&FRUTAS x150g",
+    "uxb": 32
+  },
+  {
+    "codigos": 481634,
+    "productos": "TURRON BONAFIDE MANI&MIEL EST X120g",
+    "uxb": 46
+  },
+  {
+    "codigos": 481637,
+    "productos": "TURRON BONAFIDE SAMBAYON C/CHOCO EST x120g",
+    "uxb": 46
   },
   {
     "codigos": 477615,
@@ -78770,9 +78790,24 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 473145,
+    "productos": "TURRON CHOCOLATE C/MANI BONAFIDE x100g",
+    "uxb": 40
+  },
+  {
+    "codigos": 481633,
+    "productos": "TURRON CREMONA BONAFIDE MANI&MIEL x200g",
+    "uxb": 24
+  },
+  {
     "codigos": 477617,
     "productos": "TURRON CROCANTE D/MANI CONGUITOS x90g",
     "uxb": 30
+  },
+  {
+    "codigos": 473150,
+    "productos": "TURRON CROCANTE DE MANI BONAFIDE x80g",
+    "uxb": 46
   },
   {
     "codigos": 479973,
@@ -78780,8 +78815,33 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481675,
+    "productos": "TURRON D/MANI B/YEMA FELFORT x100g",
+    "uxb": 10
+  },
+  {
+    "codigos": 481677,
+    "productos": "TURRON D/MANI DDL C/CHOC FELFORT x100g",
+    "uxb": 10
+  },
+  {
+    "codigos": 468473,
+    "productos": "TURRON D/MANI DDL FELFORT x100gr",
+    "uxb": 10
+  },
+  {
+    "codigos": 481680,
+    "productos": "TURRON D/MANI SEMIBLA C/CHOC FELFx100g",
+    "uxb": 10
+  },
+  {
+    "codigos": 481679,
+    "productos": "TURRON D/MANI SEMIBLA C/F FELFORTx100g",
+    "uxb": 10
+  },
+  {
     "codigos": 3462,
-    "productos": "TURRON DE ARROZ PAYSANDU x30",
+    "productos": "TURRON DE ARROZ PAYSANDU x1Un.",
     "uxb": 24
   },
   {
@@ -78820,6 +78880,11 @@ const PRODUCTOS=[
     "uxb": 50
   },
   {
+    "codigos": 464235,
+    "productos": "TURRON FORT TU ALM/FRUTI FELFORTx100g",
+    "uxb": 10
+  },
+  {
     "codigos": 464208,
     "productos": "TURRON FULBITO CARAMEL x1Un.",
     "uxb": 50
@@ -78833,6 +78898,11 @@ const PRODUCTOS=[
     "codigos": 462659,
     "productos": "TURRON LA PIÑATA MANI x25g",
     "uxb": 50
+  },
+  {
+    "codigos": 473151,
+    "productos": "TURRON MANI C/MIEL BONAFIDE x80g",
+    "uxb": 56
   },
   {
     "codigos": 477616,
@@ -78858,6 +78928,16 @@ const PRODUCTOS=[
     "codigos": 5353,
     "productos": "TURRON NEVARES DE MANI 25g",
     "uxb": 50
+  },
+  {
+    "codigos": 468472,
+    "productos": "TURRON TIPO CREMONA FELFORT x100g",
+    "uxb": 10
+  },
+  {
+    "codigos": 481635,
+    "productos": "TURRON VIZZIO DE ALMENDRAS EST x120g",
+    "uxb": 46
   },
   {
     "codigos": 468979,
@@ -78942,6 +79022,11 @@ const PRODUCTOS=[
   {
     "codigos": 468011,
     "productos": "UTENSILLOS COCINA SILICONA RONGJIAN",
+    "uxb": 1
+  },
+  {
+    "codigos": 14460,
+    "productos": "VACIO ENV. CONGELADO xkg",
     "uxb": 1
   },
   {
@@ -79058,6 +79143,16 @@ const PRODUCTOS=[
     "codigos": 480333,
     "productos": "VAPORIZADOR AFEEF VARIOS X1UN",
     "uxb": 1
+  },
+  {
+    "codigos": 468138,
+    "productos": "VAPORIZADOR ANA BY A.M x75ml",
+    "uxb": 3
+  },
+  {
+    "codigos": 481567,
+    "productos": "VAPORIZADOR ANA M. PINK x75cc",
+    "uxb": 3
   },
   {
     "codigos": 480564,
@@ -79225,6 +79320,11 @@ const PRODUCTOS=[
     "uxb": 3
   },
   {
+    "codigos": 481566,
+    "productos": "VAPORIZADOR GINO B. NOIR x60cc",
+    "uxb": 3
+  },
+  {
     "codigos": 7164,
     "productos": "VAPORIZADOR KEVIN ABSOLUTE x60ml",
     "uxb": 3
@@ -79295,6 +79395,11 @@ const PRODUCTOS=[
     "uxb": 3
   },
   {
+    "codigos": 481564,
+    "productos": "VAPORIZADOR PALOMA H. INTENSE x60cc",
+    "uxb": 3
+  },
+  {
     "codigos": 461361,
     "productos": "VAPORIZADOR PALOMA H.CLAS x60ml",
     "uxb": 3
@@ -79307,6 +79412,11 @@ const PRODUCTOS=[
   {
     "codigos": 477488,
     "productos": "VAPORIZADOR PALOMA H.PASSION x60ml",
+    "uxb": 3
+  },
+  {
+    "codigos": 481568,
+    "productos": "VAPORIZADOR PAULA AURA x60cc",
     "uxb": 3
   },
   {
@@ -79348,6 +79458,11 @@ const PRODUCTOS=[
     "codigos": 475441,
     "productos": "VAPORIZADOR VALERIA BY VALERIA MAZZ 100CC",
     "uxb": 1
+  },
+  {
+    "codigos": 481565,
+    "productos": "VAPORIZADOR VALERIA M. CLAS x60cc",
+    "uxb": 3
   },
   {
     "codigos": 479528,
@@ -79630,6 +79745,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481652,
+    "productos": "VASO FERNETERO DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 476673,
     "productos": "VASO FERNETERO DISEÑO VIDRIO",
     "uxb": 6
@@ -79717,6 +79837,11 @@ const PRODUCTOS=[
   {
     "codigos": 481047,
     "productos": "VASO LATA XL AZUL 2245AZU",
+    "uxb": 1
+  },
+  {
+    "codigos": 481653,
+    "productos": "VASO LATA XL C/VINILO DIA DE LA MADRE",
     "uxb": 1
   },
   {
@@ -80025,6 +80150,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481644,
+    "productos": "VASO TERMICO AMERIC/VINILO D/DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 472641,
     "productos": "VASO TERMICO AMERICANO DIA DEL PADRE FABI x400cc",
     "uxb": 1
@@ -80236,7 +80366,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 479953,
-    "productos": "VELA TUKY \"FELIZ CUMPLEAÑOS",
+    "productos": "VELA TUKY \"FELIZ CUMPLEAÑOS\"",
     "uxb": 1
   },
   {
@@ -80446,7 +80576,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 12384,
-    "productos": "VENTILADOR STAR VISION TUCU X10\"/12",
+    "productos": "VENTILADOR STAR VISION TUCU X10\"/12\"",
     "uxb": 1
   },
   {
@@ -80860,6 +80990,11 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 470382,
+    "productos": "VINO ALARIS TRAPICHE TORRONTES 750ML",
+    "uxb": 6
+  },
+  {
     "codigos": 473545,
     "productos": "VINO ALMA MORA RESERVA x750cc BLEND",
     "uxb": 6
@@ -80876,7 +81011,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 465201,
-    "productos": "VINO ALMA MORA x750ml BLEND BLAN",
+    "productos": "VINO ALMA MORA x750ml BLEND TINT",
     "uxb": 6
   },
   {
@@ -82780,6 +82915,11 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481509,
+    "productos": "VIP SODA x2Lt",
+    "uxb": 6
+  },
+  {
     "codigos": 4278,
     "productos": "VITINA CLASICA NUTRIVIT x500g",
     "uxb": 6
@@ -82788,6 +82928,16 @@ const PRODUCTOS=[
     "codigos": 3580,
     "productos": "VITINA CLASICA x250G",
     "uxb": 6
+  },
+  {
+    "codigos": 481631,
+    "productos": "VIZZIO ALMENDRAS C/CHOCO EST x70g",
+    "uxb": 36
+  },
+  {
+    "codigos": 481630,
+    "productos": "VIZZIO ALMENDRAS C/CHOCO x80g",
+    "uxb": 24
   },
   {
     "codigos": 476275,
@@ -82835,6 +82985,26 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 4657,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc APEACH",
+    "uxb": 6
+  },
+  {
+    "codigos": 462079,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc APPLE",
+    "uxb": 6
+  },
+  {
+    "codigos": 4660,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc CITRON",
+    "uxb": 6
+  },
+  {
+    "codigos": 464936,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc DROP",
+    "uxb": 6
+  },
+  {
     "codigos": 465040,
     "productos": "VODKA ABSOLUT SABORIZADO x750cc EXTRAKT",
     "uxb": 6
@@ -82850,8 +83020,38 @@ const PRODUCTOS=[
     "uxb": 6
   },
   {
+    "codigos": 4658,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc MANDARINA",
+    "uxb": 6
+  },
+  {
+    "codigos": 4663,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc MANGO",
+    "uxb": 6
+  },
+  {
+    "codigos": 4661,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc PERA",
+    "uxb": 6
+  },
+  {
     "codigos": 4662,
     "productos": "VODKA ABSOLUT SABORIZADO x750cc RASPBERRY",
+    "uxb": 6
+  },
+  {
+    "codigos": 462996,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc RUBY RED",
+    "uxb": 6
+  },
+  {
+    "codigos": 462998,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc SEGUIN",
+    "uxb": 6
+  },
+  {
+    "codigos": 4659,
+    "productos": "VODKA ABSOLUT SABORIZADO x750cc VAINILLA",
     "uxb": 6
   },
   {
@@ -84360,8 +84560,18 @@ const PRODUCTOS=[
     "uxb": 12
   },
   {
+    "codigos": 481651,
+    "productos": "YERBERA C/PACKAGING DIA DE LA MADRE",
+    "uxb": 1
+  },
+  {
     "codigos": 465646,
     "productos": "YERBERA LATA TUBO DISEÑOS",
+    "uxb": 1
+  },
+  {
+    "codigos": 481655,
+    "productos": "YERBERA MF LATA DIA DE LA MADRE",
     "uxb": 1
   },
   {
@@ -84402,7 +84612,7 @@ const PRODUCTOS=[
   {
     "codigos": 477396,
     "productos": "YOGUR BEB. ENT TREMBLAY DURAZNO x900cc",
-    "uxb": 1
+    "uxb": 10
   },
   {
     "codigos": 480847,
@@ -84446,12 +84656,12 @@ const PRODUCTOS=[
   },
   {
     "codigos": 472435,
-    "productos": "YOGUR BEBIBLE RAMOLAC FRUTILLA x1Lt",
+    "productos": "YOGUR BEBIBLE RAMOLAC FRUTILLA x900 cc",
     "uxb": 12
   },
   {
     "codigos": 472434,
-    "productos": "YOGUR BEBIBLE RAMOLAC VAINILLA x1Lt",
+    "productos": "YOGUR BEBIBLE RAMOLAC VAINILLA x900cc",
     "uxb": 12
   },
   {
@@ -84547,6 +84757,11 @@ const PRODUCTOS=[
   {
     "codigos": 472297,
     "productos": "YOGUR COSALTA MOMY 1LT VAINILLA",
+    "uxb": 1
+  },
+  {
+    "codigos": 15452,
+    "productos": "YOGUR COSALTA MOMY ANANA X1L",
     "uxb": 1
   },
   {
@@ -85267,12 +85482,12 @@ const PRODUCTOS=[
   {
     "codigos": 470886,
     "productos": "YOGUR TREGAR FRUT.LIGHT x125gr",
-    "uxb": 1
+    "uxb": 18
   },
   {
     "codigos": 470885,
     "productos": "YOGUR TREGAR VAINILLA LIGHT x125gr",
-    "uxb": 1
+    "uxb": 18
   },
   {
     "codigos": 467971,
@@ -85281,7 +85496,7 @@ const PRODUCTOS=[
   },
   {
     "codigos": 463689,
-    "productos": "YOGUR YOGURISIMO C/CEREALES x166gr",
+    "productos": "YOGUR YOGURISIMO C/CEREALES x162gr",
     "uxb": 10
   },
   {
@@ -85335,6 +85550,11 @@ const PRODUCTOS=[
     "uxb": 1
   },
   {
+    "codigos": 481580,
+    "productos": "YOGURISIMO GRIEGO BOT VAI-FRUT x190g",
+    "uxb": 1
+  },
+  {
     "codigos": 481374,
     "productos": "YOGURISIMO GRIEGO FIRM NAT/FR/VAx180g",
     "uxb": 1
@@ -85357,7 +85577,7 @@ const PRODUCTOS=[
   {
     "codigos": 473263,
     "productos": "YOGURISIMO NATURAL x300g END/S.END",
-    "uxb": 1
+    "uxb": 12
   },
   {
     "codigos": 468023,
