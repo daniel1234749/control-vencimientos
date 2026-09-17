@@ -1,4 +1,4 @@
-[
+const PRODUCTOS=[
   {
     "codigos": 476333,
     "productos": "COLCHADO PALETTE DIAMONT TWIN 170X240",
